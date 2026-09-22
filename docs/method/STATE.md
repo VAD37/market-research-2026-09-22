@@ -73,6 +73,7 @@ Front first. Pass 2 clusters run in any order; Passes 3–5 wait for P2-c1 and t
 | P2-c10 EU DSA | 18 pulls `docs/raw/b-eu-*` + `b-eu-dsa-ad-repositories-table-2026-09-22.md`; ChatGPT designated VLOSE 2026-08-31; no repository distinguishes ads inside AI answers | 2026-09-22 | aa7530c |
 | P2-c2 addendum | `docs/raw/a-crawler-telemetry-table-2026-09-22.md` (missed by commit glob) | 2026-09-22 | 4494fb8 |
 | P3-c0 vendor roster | `docs/raw/a-vendor-roster-2026-09-22.md` (278 lines); 121 screened, 70 held, 26 rostered: 13 organic, 12 incumbent bundling, 1 agency; sell-side thin | 2026-09-22 | 3ff2d70 |
+| P2-c11 partial | 7 docket files `docs/raw/b-court-*` (agent rate-limited before summary; resumed) | 2026-09-22 | 9c8ae92 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -124,6 +125,7 @@ Agents append one block here on finish: deliverable path, pulls made (count), un
 | 2026-09-22 | Red-team amendments applied by a third Pass 1 agent (P1-c), not by the scheduler | Scheduler does no research; amendments change source coverage and need the same rules as the original pass |
 | 2026-09-22 | Claude day-0 sampled logged-in on the researcher-owned account (browser already authenticated); protocol default is logged-out | Sampler brief allowed it; the Memory personalisation confound is recorded in the raw file. Later Claude samples should attempt a logged-out private window first and record which state was achieved |
 | 2026-09-22 | Pass 3 clusters re-cut against the 26-name roster: c1 organic 1–8, c2 organic 9–13 + Scrunch, c3 incumbents 1–6, c4 incumbents 7–12 + four held corroborations, c5 agencies by discovery, c6 sell-side from partner lists | shortlist.md assumed 24 dedicated vendors; roster found 13 organic and 12 incumbents |
+| 2026-09-22 | Three agents (P2-c11, P3-c1, P10-d0-gemini) killed by API session rate limit at ~20:50 HCM; respawned as resumptions after reset, complete partial raw files kept and committed, in-progress panel file continued by the successor | Raw files are self-contained pulls; a partial cluster is not a failed cluster |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
