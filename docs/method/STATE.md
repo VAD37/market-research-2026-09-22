@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Pass 4 done 2026-09-22 (13 clusters). Pass 5 done. Pass 6 done. Pass 7 open (gate 3+4): seven rows queued. Pass 8 done. Pass 9 blocked by: Pass 7 (six profile clusters live, INDEX queued). Pass 10 held by user; Pass 11 blocked.
+Pass 9 — findings, open 2026-09-22 (Passes 5, 6, 8 done; Pass 7 profiles all landed, INDEX compiling in parallel). P9 single Opus agent writes four findings files; P9-review (Opus) scores them against hypotheses.md before Pass 9 is marked done. Pass 10 held by user; Pass 11 gate reads "9, and 10 or its recorded hold" per plan.md append.
 
 ## Live agents
 
@@ -12,7 +12,8 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
+| P7-INDEX | Opus | Compile `competitors/INDEX.md`, one line per company from the 41 landed profiles | `docs/competitors/INDEX.md` | 2026-09-22 |
+| P9 | Opus | Findings: proof scorecard, demand map, whitespace, unknowns — from compiled files and raw | `docs/findings/proof-scorecard.md`, `demand-map.md`, `whitespace.md`, `unknowns.md` | 2026-09-22 |
 
 ## Queue
 
@@ -20,9 +21,10 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
-| P9, P10-analysis, P11 | 9–11 | Opus | Blocked | per plan.md |
+| P9-review | 9 | Opus | Adversarial review: score findings/ against hypotheses.md, list every claim below tier 3 | `docs/findings/review-1-2026-09-22.md` |
+| P11 | 11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals | `docs/findings/transition-evidence.md` |
+| P10-analysis | 10 held | Opus | Panel read — waits for a neutral day 0 or user reopening | `docs/findings/panel-read.md` |
 
 ## Landed
 
@@ -106,6 +108,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P7-agency | `docs/competitors/{pace-generative,orange142,intero-digital,seer-interactive,fire-and-spark}.md` (77–80 lines); price disclosed 1 of 5 (Pace $1,499 / $1,999 / $2,499 packages); best grade Silver once (Seer content recency); Intero/Freshpet Bronze; Pace two Fools-gold versions of one engagement side by side; parent-level scale only for the two public-company-owned | 2026-09-22 | 7d913f6 |
 | P7-organic-a | `docs/competitors/{searchable,geosurge,peec-ai,promptwatch,profound,athenahq,rankprompt,sitefire}.md` (74–80 lines); price 5 of 8; revenue 2 of 8 (Searchable €2.2M ARR; Peec $4M vs $10M pointer side by side); 1 Silver (Sitefire/Pointhound), Jerry two grades side by side; Profound 13 Bronze / 10 Fools gold; 0 Gold; paid-by-outcome unknown on every case | 2026-09-22 | b95392e |
 | P7-sellside | `docs/competitors/{feedonomics,shopware,wix,criteo,stackadapt,pacvue,kargo}.md` (79–80 lines); price 1 of 7 (Shopware €600 / €2,400 tiers; Criteo CPM model only); 0 of 7 clear the bar, all cases `screened — not opened`; Pacvue and Kargo named only by OpenAI's partner page, not their own sites — conflict recorded | 2026-09-22 | c5f2f5c |
+| P7-incumbent-b | `docs/competitors/{brightedge,muck-rack,quattr,semrush,similarweb,soci,se-ranking,uberall,onclusive}.md` (78–80 lines); price delta 2 of 9 (Semrush +$60/mo, SE Ranking +¥10,478/mo); 1 Silver (Quattr / Men's Wearhouse, brand silent); 0 Gold; four cleared names rest on 1–2 pulls each | 2026-09-22 | 8112990 |
+| **Pass 7 profiles done** | 41 profiles in `docs/competitors/`; INDEX pending; across all: 0 Gold, 2 Silver (Quattr, Sitefire/Pointhound) + Jerry contested; 0 of 41 disclose a prompt set with n | 2026-09-22 | 8112990 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -144,6 +148,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-22 22:55 | REVIEW-1 accepted in full: queue reordered per its §1, grading rule 1 goes into every P4 brief, filenames carry cluster id, one `ext` and one `pw` browser holder, agents append STATE blocks by shell append; AMEND-1 applies the §7 dated appends | Review cites file and line for each change; nothing existing is edited |
 | 2026-09-22 | Sitefire/Jerry carries two grades (P4-c10 Bronze: engine and sample size missing; P4-c13 Silver: date window and untouched-page control present). Both recorded; Pass 9 scores with both visible | Conflicting reads sit side by side, never averaged |
 | 2026-09-22 | Pass 8 files differ on partial checks: skincare-beauty writes `none — checked` on 9–10 of 12 signals with the shortfall itemised; high-cpa-regulated writes `blank` where S3 / S9 were unchecked. Both stand; Pass 9 scores H4 / H7 / H9 with the difference stated, not reconciled | demand-signals.md's `none` rule reads strictly; two compilers applied it differently on the same day |
+| 2026-09-22 | Pass 9 opened while P7-INDEX compiles: findings cite profiles and raw, not INDEX; INDEX is derived from landed profiles and lands before Pass 9 is marked done | Gate substance met; INDEX is a derived entry point |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
