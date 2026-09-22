@@ -12,9 +12,9 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P5-c3 | Sonnet | Comparison-page farming | `docs/raw/d-comparison-*`, `d-technique-census-c3-2026-09-22.md` | 2026-09-22 |
+| P6-agentic | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` | 2026-09-22 |
 | P5-c7 | Sonnet | Engine countermeasures, priority-1 and priority-2 engines | `docs/raw/d-countermeasure-*`, `d-technique-census-c7-2026-09-22.md` | 2026-09-22 |
-| P8-c1-hr | Sonnet | Demand-signal sweep, high-CPA regulated, nine cells | `docs/raw/f-signal-hr-*`, `f-signal-census-hr-2026-09-22.md` | 2026-09-22 |
+| P8-high-cpa | Opus | Compile `customers/high-cpa-regulated.md`, nine cells, one-word reads | `docs/customers/high-cpa-regulated.md` | 2026-09-22 |
 | P6-paid | Opus | Compile `markets/paid-placement.md` | `docs/markets/paid-placement.md` | 2026-09-22 |
 | P8-skincare | Opus | Compile `customers/skincare-beauty.md`, nine cells, one-word reads | `docs/customers/skincare-beauty.md` | 2026-09-22 |
 | P6-organic | Opus | Compile `markets/organic-recommendation.md` | `docs/markets/organic-recommendation.md` | 2026-09-22 |
@@ -29,8 +29,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P6-agentic | 6 | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` |
-| P8-high-cpa | 8 | Opus | Compile one customers/ file per vertical as each sweep lands | `docs/customers/<vertical>.md` |
 | P7-INDEX, P7-organic-a, P7-organic-b, P7-incumbent-a, P7-incumbent-b, P7-agency, P7-sellside | 7 | Opus | Pre-staged; spawn when Pass 4 lands | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
@@ -97,6 +95,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P6-c0 published sizes | 16 pulls `docs/raw/e-market-size-*` + `e-market-size-table-2026-09-22.md`; 18 figures, 15 forecast-labelled, 3 measured (none a TAM), 6 with no base year; agentic forecasts diverge $5.7B–$15T; Gartner/GVR 403, no Forrester/IDC/Statista figure found | 2026-09-22 | 4b10b4c |
 | P8-c1-bs B2B SaaS signals | 15 pulls `docs/raw/f-signal-bs-S*` + `f-signal-census-bs-2026-09-22.md`; 3 of 9 cells checked (organic × SMB / mid / enterprise via S1 job postings, tier 3); paid and agentic cells none; S1/S4/S5/S9/S10 channels 403 or gated; 9 browser backlog. Note: agent's block reads the tier floor backwards — tier 3 is above the tier-5 floor; compile applies demand-signals.md literally | 2026-09-22 | ae1644b |
 | P8-c1-sk skincare signals | 10 pulls `docs/raw/f-signal-sk-S*` + `f-signal-census-sk-2026-09-22.md`; enterprise organic (e.l.f. AEO/GEO team posting; Coty 10-K GEO passage, tier 2) and enterprise agentic (e.l.f. AI Product Owner, $110–140K) checked; SMB organic one OMR reviewer; paid and mid-market none; Indeed / Upwork / G2 / Capterra blocked even via extension; S7 Coty file edited once post-creation (headcount added) — flagged; tier-floor misread as in bs | 2026-09-22 | 20e92a4 |
+| P8-c1-hr high-CPA signals | 12 pulls `docs/raw/f-signal-hr-S*` + `f-signal-census-hr-2026-09-22.md`; 1 of 9 cells attributed (organic × enterprise, Cigna SEO/AEO/GEO posting, tier 3); 8 unattributed — sources state no buyer band; Primerica 10-K new S7 filer; cards sub-vertical 0 GEO postings; llms.txt 3 of 9; tier-floor misread as in sk/bs | 2026-09-22 | 3a801c8 |
+| P5-c3 comparison farming | 7 pulls `docs/raw/d-comparison-*` + `d-technique-census-c3-2026-09-22.md`; tiers 3–7; 4 measured rows, none before-and-after; academic literature on the technique near-absent; density: B2B SaaS 1 specimen, regulated 0, skincare 0 (against H14 direction); G2/Capterra/SaaSHub blocked | 2026-09-22 | e16775e |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
