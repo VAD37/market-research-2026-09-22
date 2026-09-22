@@ -12,7 +12,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P9 | Opus | Findings: proof scorecard, demand map, whitespace, unknowns — from compiled files and raw | `docs/findings/proof-scorecard.md`, `demand-map.md`, `whitespace.md`, `unknowns.md` | 2026-09-22 |
+| P9-review | Opus | Adversarial review of findings/ against hypotheses.md; every claim below tier 3 listed | `docs/findings/review-1-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
 
@@ -21,7 +21,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
-| P9-review | 9 | Opus | Adversarial review: score findings/ against hypotheses.md, list every claim below tier 3 | `docs/findings/review-1-2026-09-22.md` |
 | P11 | 11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals | `docs/findings/transition-evidence.md` |
 | P10-analysis | 10 held | Opus | Panel read — waits for a neutral day 0 or user reopening | `docs/findings/panel-read.md` |
 
@@ -111,6 +110,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 7 profiles done** | 41 profiles in `docs/competitors/`; INDEX pending; across all: 0 Gold, 2 Silver (Quattr, Sitefire/Pointhound) + Jerry contested; 0 of 41 disclose a prompt set with n | 2026-09-22 | 8112990 |
 | P7-INDEX | `docs/competitors/INDEX.md` — 41 rows in roster order, brand-side column added, header and caveats per root CLAUDE.md; oldest pull 2026-09-22 | 2026-09-22 | 39b1468 |
 | **Pass 7 done** | 41 profiles + INDEX | 2026-09-22 | 39b1468 |
+| P9 findings | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` (100/100/90/100); hypotheses: 6 confirmed, 6 killed, 4 unresolved, 7 not produced; done rows 2 of 6; 17 of 25 load-bearing claims tier ≤3 = 68%; 0 Gold in ~980 screened, 7 Silver | 2026-09-22 | a43edc9 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -177,9 +177,9 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 
 | condition | bar | status |
 |---|---|---|
-| Load-bearing claims in `findings/` at tier 3 or better | 80 percent or more | not started |
-| Priority-1 engine × sub-market cells | Every cell a number or `unknown — checked` | not started |
-| Segment matrix | Every cell spend, attention, or none, with signals | not started |
-| Success stories | One Silver per vertical, or documented absence with screened count | not started |
-| Hypotheses | Every H confirmed, killed, or unresolved with channel checked | not started |
-| Pass 10 | Three pre-registered predictions checked against the panel | not started |
+| Load-bearing claims in `findings/` at tier 3 or better | 80 percent or more | not met — 17 of 25 (68%) per unknowns.md; shortfall is Lane E vendor-reported cases (P9, pending review) |
+| Priority-1 engine × sub-market cells | Every cell a number or `unknown — checked` | met — 9 of 9 in whitespace.md (P9, pending review) |
+| Segment matrix | Every cell spend, attention, or none, with signals | not met — 19 of 27; 8 high-CPA cells `blank` (S3 / S9 unchecked) per demand-map.md |
+| Success stories | One Silver per vertical, or documented absence with screened count | met — B2B SaaS and high-CPA on the Silver arm, skincare on documented absence (0 Silver, ~133 screened) per proof-scorecard.md (pending review) |
+| Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 16 of 23 scored; 7 `not produced` (H10 pending Pass 11; HE2, HE3, HP1–HP4 held with Pass 10) |
+| Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
