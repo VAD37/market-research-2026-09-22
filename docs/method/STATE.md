@@ -20,7 +20,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
 | P5-c4 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-citationpref-*`, `d-technique-census-c4-2026-09-22.md` | 2026-09-22 |
 | P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
-| P5-c6 | Sonnet | Prompt injection embedded in indexed content | `docs/raw/d-injection-*`, `d-technique-census-c6-2026-09-22.md` | 2026-09-22 |
+| P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
 | P8-b2b-saas | Opus | Compile `customers/b2b-saas.md`, nine cells, one-word reads | `docs/customers/b2b-saas.md` | 2026-09-22 |
 
 ## Queue
@@ -29,7 +29,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P7-incumbent-b, P7-agency, P7-sellside, P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
+| P7-agency, P7-sellside, P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P9, P10-analysis, P11 | 9–11 | Opus | Blocked | per plan.md |
@@ -100,6 +100,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P5-c7 countermeasures | 9 pulls `docs/raw/d-countermeasure-*` + `d-technique-census-c7-2026-09-22.md`; 6 of 36 engine × technique cells named (OpenAI 1, Anthropic 2, Google 2, Microsoft 1, Perplexity 0, Amazon 0); prompt injection named by 4 engines; no engine names seeding, comparison farming or citation-preference content; 4 defence papers tier 4–5; Amazon policy surface unreachable | 2026-09-22 | 28c5b82 |
 | P6-organic | `docs/markets/organic-recommendation.md` (120 lines); bottom-up floor $5.3M–$35.2M annualised from 4 of 34 disclosing vendors; 5 published sizes all tier-6 forecasts; 5 of 5 structural checks answered; proof: 0 Gold / 3 Silver / 45 Bronze | 2026-09-22 | 4efff1a |
 | P6-paid | `docs/markets/paid-placement.md` (120 lines); 5 of 8 engines live product, Claude explicit no; 0 rate cards, no computable size; OpenAI $1B run-rate tier 3; 4 of 4 checks + addition 1; litigation table | 2026-09-22 | 4efff1a |
+| P5-c6 prompt injection | 13 pulls `docs/raw/d-injection-*` + `d-technique-census-c6-2026-09-22.md`; 9 papers tier 3–5, 4 engine statements, 1 disclosure (Brave / Comet 2025-08-20); no in-the-wild brand-steering campaign documented; OpenAI Operator card carries the only quantified figures; caveat: WebFetch summarises, "verbatim" is best-effort | 2026-09-22 | 937ab68 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
