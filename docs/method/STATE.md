@@ -12,7 +12,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P7-organic-a | Opus | Competitor profiles, organic roster 1–8 (Searchable, geoSurge, Peec AI, Promptwatch, Profound, AthenaHQ, RankPrompt, Sitefire) | `docs/competitors/<vendor>.md` ×8 | 2026-09-22 |
 | P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
 
@@ -106,6 +105,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P7-organic-b | `docs/competitors/{scrunch-ai,brandlight-ai,change-agents-corp,locafy,otterly-ai,rankscale-ai}.md` (65–78 lines); 3 of 6 publish a price; 0 Gold / 0 Silver; CHGA going-concern, Locafy AUD 3.11M 9-month revenue via tier-5 substitute; 11 brand subjects checked, 0 corroborate | 2026-09-22 | 3a27dbc |
 | P7-incumbent-a | `docs/competitors/{airops,conductor,hubspot,yext,ahrefs,birdeye}.md` (77–80 lines); price delta disclosed 2 of 6 (HubSpot, Ahrefs, JPY); 0 Gold / 0 Silver, 13 Bronze; HubSpot control claim beside its negative case; headcount unknown ×6 | 2026-09-22 | fa3cf48 |
 | P7-agency | `docs/competitors/{pace-generative,orange142,intero-digital,seer-interactive,fire-and-spark}.md` (77–80 lines); price disclosed 1 of 5 (Pace $1,499 / $1,999 / $2,499 packages); best grade Silver once (Seer content recency); Intero/Freshpet Bronze; Pace two Fools-gold versions of one engagement side by side; parent-level scale only for the two public-company-owned | 2026-09-22 | 7d913f6 |
+| P7-organic-a | `docs/competitors/{searchable,geosurge,peec-ai,promptwatch,profound,athenahq,rankprompt,sitefire}.md` (74–80 lines); price 5 of 8; revenue 2 of 8 (Searchable €2.2M ARR; Peec $4M vs $10M pointer side by side); 1 Silver (Sitefire/Pointhound), Jerry two grades side by side; Profound 13 Bronze / 10 Fools gold; 0 Gold; paid-by-outcome unknown on every case | 2026-09-22 | b95392e |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -180,93 +180,3 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 
 P8-c1-sk landed 2026-09-22: `docs/raw/f-signal-sk-S1-*` through `f-signal-sk-S12-*` (10 raw pulls: S1,S4,S5,S6,S7,S8,S9,S10,S11,S12) + `f-signal-census-sk-2026-09-22.md`. Cells with at least one checked signal: 2 of 9 (Organic/Enterprise, Agentic/Enterprise). SMB carries 1 checked signal (Organic, S4 only). Signals with a blocked channel: S1 (Indeed, Upwork both blocked), S4 (G2, Capterra both blocked), S5 (reddit.com 403). Spend-class signals found: 3 (S1 Organic/Ent tier 3, S1 Agentic/Ent tier 3, S7 Organic/Ent tier 2 — all below the tier-5 cell-read floor, so read as attention per demand-signals.md). Unknowns: 9 channel-level (see census "Unknowns per channel"). Deviations: S2/S3 not freshly pulled (task scope: read-only against a-vendor-census-c1-c4, zero beauty matches); sam.gov/Contracts Finder proved non-phrase-matching (recorded, not silently trusted); one raw file (S7) edited once post-creation to add a same-source headcount figure (Coty 10-K Human Capital section) for correct buyer-size attribution — flagged since raw/ is normally never edited after landing.
 | P5-c7 | `docs/raw/d-countermeasure-*-2026-09-22.md` (9 files: 4 engine-policy pulls — OpenAI/Anthropic/Google/Microsoft prompt injection, Google reviews-system; 3 defense papers — SCI-Defense, GEO Defender, HAE-GEO; 1 Semantic Scholar citation-trail pull), `docs/raw/d-technique-census-c7-2026-09-22.md` | 9 new pulls + citation trail; cited 6 pre-existing raw files (not re-pulled) | Cells named/unknown per engine: OpenAI 1/5, Anthropic 2/4, Google 2/4, Perplexity 0/6, Microsoft 1/5, Amazon 0/6 — 6/36 named total | Papers: 4 (SCI-Defense tier 5 no code, GEO Defender tier 4, HAE-GEO tier 4, SafeGEO tier 4 cited not re-pulled); highest tier 4 | Browser backlog: 14 (6 Amazon, 2 Perplexity, 2 OpenAI, 2 Google blog, 1 Bing, 1 Microsoft Copilot-specific 404) | Unknowns: 30 cells, each with exact pages-checked list in the matrix | Blocked by: Amazon domain 503/JS-shell on every policy page beyond crawler-identity/Alexa-help; Bing Webmaster Guidelines JS-rendered; no Chrome extension permitted this task per brief | 2026-09-22 |
-
-### P6-organic — landed 2026-09-22
-
-- Deliverable: `docs/markets/organic-recommendation.md` — 120 lines (budget 120).
-- Oldest pull depended on: 2026-09-22 (every cited `raw/` file). Oldest source-published date carried: 2025-07-15 (`raw/e-market-size-valuates-organic-2026-09-22.md`).
-- Structural checks: 5 answered (substitute, platform risk, incumbent bundling, regulatory, addition-1 engine countermeasures), 0 left as a whole-row unknown; within-cell `unknown — checked` lines recorded where a channel returned nothing.
-- Sizing: bottom-up **$5.3M-$35.2M annualised**, covering 4 of 34 rostered names; inputs are disclosed price x disclosed customer count for Searchable, Promptwatch, Scrunch, Rankscale, x12. No enterprise tier in the build. 5 published organic sizes recorded side by side as forecasts, all tier 6. One proxy: IAB 76%/48% buyer-focus shares (tier 4).
-- Numbers in file: ~95 figures, every one carrying a source label and a `raw/` path — yes. No figure appears that is not in a `docs/raw/` file.
-- Blockers: none. Concurrent-agent raw files (`d-countermeasure-*`, `d-comparison-*`, `d-citationpref-*`, `d-structured-*`, `d-injection-*`, `f-signal-*`) not read; `docs/markets/paid-placement.md` not read or written. Bounding unknowns: no named-analyst-house size for this sub-market, no dollar SEO-budget-share proxy, no vendor AI-visibility product revenue broken out, Scrunch/Sitecore deal value undisclosed at primary.
-
-### P8-b2b-saas — landed 2026-09-22
-
-- Deliverable: `docs/customers/b2b-saas.md`, 100 lines (budget 100).
-- Cell reads: **spend 3** (organic × SMB / mid-market / enterprise), **attention 0**, **none — checked 6** (paid ×3, agentic ×3).
-- Deciding signal in all three spend cells: S1 job postings, tier 3, `docs/raw/f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md` — Actindo 52-70 emp (SMB), AutoLeap 199-225 (mid), Pennylane 1,100+ / Mercury 1,001-5,000 (enterprise). Tier 3 is above the tier-5 floor; the census had read the floor backwards and its contrary tally is cited side by side.
-- The six `none` reads are partial: 9 of 12 signals checked (S5, S6 never run with paid/agentic terms; S12 n/a by construction). Flagged in the file.
-- Willingness to pay: `unknown` in all nine cells. No disclosed price paid anywhere in this vertical.
-- Hypotheses: H4 falsifier condition met in this vertical (Organic/SMB reads spend). H7, H9 inputs recorded only.
-- Oldest pull depended on: 2026-09-22 (all cited raw). Oldest publication depended on: 2025-06-03.
-- Blocked: 9 browser-backlog items from the sweep stay open (G2, Capterra, Indeed, Upwork, Freelancer, Reddit, Google Trends, Contracts Finder, TED). No git run.
-
-## Landed — pending verify
-
-| task | deliverable | verified | commit |
-|---|---|---|---|
-| P5-c4 citation-preference content | 9 pulls `docs/raw/d-citationpref-*-2026-09-22.md` + `d-technique-census-c4-2026-09-22.md`; both shortlist seeds resolved to papers already pulled at P5-c1 (critical survey, GEO-Bench), followed the survey's own citation trail instead; 9 measured-effect rows, all benchmark setting, 0 live-site brand campaigns found, 1 genuine pre/post (FeatGEO Table 4, benchmark corpus); C-SEO Bench/FeatGEO/CC-GSEO-Bench contradict the foundational GEO paper's headline gains (side by side, not reconciled); highest tier 3 (FeatGEO ACL 2026, Venkit et al. ACM FAccT 2025); engines checked: Google (2 pages), OpenAI (FAQ + usage policy), Anthropic (usage policy) — 0 of 3 name any of the technique's content features; Perplexity/Copilot/Amazon routed to P5-c7 (unknown); browser backlog 0; unknowns 7; no blockers | 2026-09-22 | — |
-| P5-c5 structured data / llms.txt signalling | 9 pulls `docs/raw/d-llmstxt-*-2026-09-22.md`, `d-schemaorg-*-2026-09-22.md`, `d-google-ai-optimization-guide-2026-09-22.md`, `d-arxiv-borysenko-*-2026-09-22.md`, `d-arxiv-volpini-*-2026-09-22.md`, `d-priority-engines-*-2026-09-22.md`, `d-redocly-*-2026-09-22.md` + `d-technique-census-c5-2026-09-22.md`; engine×artefact matrix 18 cells: 5 reads/partial, 4 does-not, 9 unknown; key find — measured study (arXiv 2604.02544) shows zero llms.txt fetches across ChatGPT/Claude/Gemini/NotebookLM/MistralAI/Perplexity, corroborated by Google's own "Search ignores them" statement (dated 2026-07-10) and Redocly's own log-pull; adoption figures 9 (measured-by-us S12 beauty 3/5, B2B SaaS 9/10, engine self-publish 5/6; directory count 3,829 vs. secondhand ~684; 1 figure discarded no-link); measured-effect rows 5 (best: Volpini et al. arXiv 2603.10700, +29.6%/+29.8% accuracy in a vendor-built RAG pipeline, tier 5 vendor-authored flagged); browser backlog 5 (llmstxt.site, 2 Google community threads, 1 OpenAI community thread, ai.google.dev OAuth-gated); unknowns 6; no blockers | 2026-09-22 | — |
-
-P8-skincare landed 2026-09-22: `docs/customers/skincare-beauty.md` (100 lines). Cell reads: spend 3 (Organic/Enterprise, Paid/Enterprise, Agentic/Enterprise), attention 1 (Organic/SMB), none 5 (Organic/Mid; Paid/SMB, Paid/Mid; Agentic/SMB, Agentic/Mid). Deciding signals: Organic/Ent S1 tier 3 (e.l.f. in-house AEO/GEO team; second qualifier S2 tier 5, Estee Lauder a named Brandlight client); Paid/Ent S2 tier 3 (e.l.f. Cosmetics a named Google Direct Offers pilot collaborator, "Sponsored deal" unit, platform-primary page); Agentic/Ent S1 tier 3 (e.l.f. "AI Product Owner, Agentic Commerce", $110,000-$140,000/yr); Organic/SMB S4 tier 5 attention-class (OMR reviewer, Cosmetics, 1-50 employees, not purchase-verified). Correction applied: `f-signal-census-sk-2026-09-22.md` read the tier floor backwards; tier 1-5 is "tier 5 or better", which flips Organic/Ent and Agentic/Ent from attention to spend. Two S2 findings used here were outside that census's S2 grep scope (Google platform pages; Brandlight customers page). Willingness to pay: unknown in all 9 cells - no disclosed price paid anywhere; Rankscale.ai EUR20/mo and e.l.f.'s salary band are not prices paid. Proof landscape: P4-c8 approx. 133 screened, 2 Bronze, 0 Silver, 0 Gold - the anchor vertical has no Silver. Oldest pull depended on: 2026-09-22 (every raw file); oldest load-bearing publication 2026-01-11. Blocked: no new pulls made (compile-only); S1 Indeed/Upwork, S4 G2/Capterra, S5 reddit.com all blocked at the source pull; S10 sam.gov/Contracts Finder keyword-OR matching untrusted. Five `none` reads rest on 9-10 of 12 signals, flagged in the file. Flagged: `raw/f-signal-sk-S7-coty-10k-2026-09-22.md` was edited once post-creation to add a same-filing headcount.
-
-### P8-high-cpa — landed 2026-09-22
-
-- Deliverable: `docs/customers/high-cpa-regulated.md`, 100 lines (budget 100).
-- Cell reads: spend 1, attention 0, none 0, blank 8. Deciding signal: S1, The Cigna Group "Lead Analyst, Technical Search (SEO/AEO/GEO)" / "Enterprise", tier 3, spend class, `docs/raw/f-signal-hr-S1-linkedin-2026-09-22.md` — organic recommendation / enterprise.
-- **Deviation, flagged:** the other 8 cells read `blank`, not `none`. `demand-signals.md` allows `none` only when every catalogue signal is checked; S3 and S9 were never checked, 2 of 3 S10 channels are unresolved, and no source attributes any signal to those cells. "A blank is never written as `none`."
-- Tier floor applied literally per task: tier 3 is above the tier-5 floor, reversing `f-signal-census-hr-2026-09-22.md`'s own "0 spend-class findings" tally. Primerica's tier-2 filing stays attention — S7 needs a named budget figure and names none.
-- Unattributed signals listed, not assigned: 9 rows — 6 S1 postings (7 employers), Primerica 10-K, NerdWallet 8-K, 4 conference names, 4 vendor logos (Jerry.ai, Zurich UK, Hartford, Aetna).
-- Unknowns: 4 rows (Indeed/Upwork 403; G2/Capterra 403 plus reddit 403; Google Trends browser-only; sam.gov/Contracts Finder/TED).
-- Oldest pull depended on: 2026-09-22; underlying documents 2026-02-25 to 2026-09-17. Blocked: nothing. No git run.
-| P5-c5 correction | Filenames in the P5-c5 row above were landed as `d-llmstxt-*`, `d-schemaorg-*`, `d-google-ai-optimization-guide-*`, `d-arxiv-*`, `d-priority-engines-*`, `d-llmstxtio-*`, `d-redocly-*` — outside the task's assigned `d-structured-*` glob. All 9 files renamed to `d-structured-<slug>-2026-09-22.md` and all internal cross-references (within the 9 files and in `d-technique-census-c5-2026-09-22.md`) updated to match; content unchanged. Counts in the P5-c5 row above (9 pulls, 18 matrix cells, adoption/measured-effect/backlog/unknown counts) are unaffected and still accurate — only filenames moved | 2026-09-22 | — |
-| P3-repull-sec | Probe-gated SEC re-pull, per brief. Single fetch to EDGAR browse-edgar (CHGA) with browser-style UA naming contact, per SEC fair-access policy: HTTP 503, Akamai apology page ("File Unavailable" / "temporarily unavailable... undergoing maintenance"), not EDGAR content. `docs/raw/a-sec-probe-2026-09-22.md` written per template (tier 7, blocked-access record), STOPPED per instruction -- no other host tried, no retry, no company filings pulled, tier-5/tier-3 substitutes untouched | 2026-09-22 | -- |
-
-### P6-agentic — landed 2026-09-22
-
-- Deliverable: `docs/markets/agentic-commerce.md`, 120 lines (budget 120).
-- Oldest pull depended on: 2026-09-22 — every raw file cited. Oldest source publication carried: 2024-11-18 (Perplexity Buy with Pro), flagged stale; Google UCP post 2026-01-11 also outside the quarter.
-- Structural checks: 4 of 4 answered, plus addition 1 (acquirer/date, designation per engine). Three embedded `unknown — checked`: agentic-commerce acquisition, payment-specific rule, commerce docket (CourtListener WAF).
-- Per-engine cells (7 engines x 5 cells = 35): 21 filled from a quote, 9 `unknown — checked`, 5 n/a (no program exists).
-- Protocols with owner, licence, governance and gate stated: 6 of 6 (ACP, AP2, UCP, x402, Visa TAP, Mastercard Agent Pay); MCP recorded as non-commerce transport.
-- No bottom-up size is computable: 1 of 3 lane-C vendors discloses price, 1 of 4 live engine programs discloses a fee (Copilot 0%), no engine discloses a merchant count.
-- Blocked: nothing. Compiled from docs/raw/ only; no pulls, no browsing, no git.
-
-### P7-organic-b — competitor profiles, organic roster 1, 17, 19, 20, 22, 24 (2026-09-22)
-
-- Deliverables: `docs/competitors/scrunch-ai.md` (72), `brandlight-ai.md` (65), `change-agents-corp.md` (66), `locafy.md` (67), `otterly-ai.md` (76), `rankscale-ai.md` (78). All under the 80-line budget; no INDEX.md written.
-- Oldest pull depended on: 2026-09-22 (every raw file cited; no pull older than the pass).
-- Template sections: 11 of 11 answered for all six. Fields reading `unknown — checked` or `not disclosed`: Scrunch 5, Brandlight 6, Change Agents 7, Locafy 6, Otterly 6, Rankscale 5.
-- Price disclosure: Scrunch (Core $250/mo, Enterprise custom), Otterly (3 of 4 tiers), Rankscale (all 4 tiers) disclose; Brandlight, Change Agents, Locafy disclose none.
-- Proof: 0 Gold, 0 Silver across all six. Scrunch 5 Bronze / 3 Fools gold; Otterly 3 Bronze / 6 Fools gold; Rankscale 5 Bronze / 1 Fools gold; Brandlight, Change Agents, Locafy 0 graded cases.
-- Conflicts carried side by side: Scrunch deal value (not disclosed vs Bloomberg $225M); Rankscale HQ, ARR and currency; Otterly 5 cases (Fools gold teaser vs screened — not opened).
-- Blockers: none new. CHGA and LCFY filings remain tier-5 StockTitan substitutes (sec.gov 403 at P3-c2), labelled as such in both profiles; re-pull still queued as P3-repull-sec.
-- No git run. No files touched outside the six profiles and this block.
-
-### P7-incumbent-a — landed, pending verify
-- Deliverables: `docs/competitors/airops.md` (80), `conductor.md` (80), `hubspot.md` (80), `yext.md` (80), `ahrefs.md` (77), `birdeye.md` (80). No INDEX.md written (out of scope).
-- Oldest pull depended on: 2026-09-22 — every cited raw file carries that pull date; oldest data carried: Birdeye Search AI launch 2025-09-03, AirOps AEO positioning 2025-03-28, AirOps $40M Series B 2025-11-10.
-- Price delta disclosed: **2 of 6** — HubSpot ¥95,160/mo Starter→Professional plus standalone ¥6,000/mo ("$50/mo", unreconciled); Ahrefs quota ladder +¥18,500 / +¥30,500 / +¥162,000 from a base Lite ¥19,900/mo that already includes the feature. **4 of 6 `unknown — checked`**: AirOps, Conductor (feature absent from base plan), Yext and Birdeye (no tier structure at all).
-- Template questions: 10 of 10 sections answered in binding order in all six files. Fields recorded `unknown — checked <channel> 2026-09-22`: AirOps 7, Conductor 8, HubSpot 4, Yext 6, Ahrefs 5, Birdeye 8.
-- Proof: 0 Gold, 0 Silver across all six. Bronze — AirOps 7 cases, Conductor 3, HubSpot 2 (beta-cohort control claim; OMR negative AI Overviews case), Yext 1. Fools gold — AirOps 2, Conductor 1, HubSpot 3, Yext 1. Ahrefs and Birdeye: zero gradable claims; 3 Birdeye percentages discard-on-sight.
-- Blocked, carried from the Pass 3 pulls, not re-attempted (compile-only task, no pulls): sec.gov blocked session-wide — HubSpot latest filed revenue never retrieved (BamSEC filing index only), Yext Q2 FY2027 figures entered as an IR-site copy at tier 3 and labelled so in the file; Ahrefs launch date 2026-01-20 carried from the roster's Businesswire citation, unverified (connection failure x2).
-
-## P7-agency — landed, pending verify (2026-09-22)
-
-- Deliverables: `docs/competitors/pace-generative.md` (80), `orange142.md` (78), `intero-digital.md` (79), `seer-interactive.md` (80), `fire-and-spark.md` (77). No `INDEX.md` written.
-- Oldest pull depended on: 2026-09-22 — every cited raw file. Oldest source publication dates carried: Pace 2025-07-02, Intero 2026-04-08, Seer 2026-05-20, Orange142 2026-08-12, Fire&Spark undated.
-- Price disclosed: 1 of 5 — Pace Generative, Community Platform Mentions $1,499 / $1,999 / $2,499 list, per package. 4 of 5 record `unknown — checked <page> 2026-09-22`.
-- Template sections answered: 10 of 10 for each of the five. Fields left `unknown — checked`: Pace 6, Orange142 4, Intero 6, Seer 5, Fire&Spark 4.
-- Proof claims: Seer Silver (content recency) plus Fools gold (CMWorld abstract); Intero Bronze (Freshpet, c13 re-tick); Pace 2 x Fools gold (one engagement, two figure sets); Orange142 2 screened / 0 graded; Fire&Spark 3 screened / 0 graded.
-- Blockers: none new — compiled from docs/raw/ only, no pulls. Carried-forward gaps: Seer/Home Depot Search Engine Land page unreachable, Orange142 Green Energy link 404 and Pigeon Forge case page unresolved, Orange142 and Fire&Spark service pages truncated at fetch.
-
-
-### P7-organic-a — organic vendors, roster positions 2, 4, 5, 6, 7, 8, 12, 13 — 2026-09-22
-
-- Deliverables: `docs/competitors/searchable.md` (80), `geosurge.md` (74), `peec-ai.md` (80), `promptwatch.md` (80), `profound.md` (80), `athenahq.md` (80), `rankprompt.md` (80), `sitefire.md` (80). All template order, all within the 80-line budget. No `INDEX.md` written.
-- Oldest pull depended on: 2026-09-22 — every cited raw file. Oldest data windows carried inside them: Profound 2024-08-13 (first funding headline), Peec 2025-11-17 (TechCrunch), Searchable 2025-12 (pre-Seed), geoSurge 2025-02-13 (incorporation), RankPrompt 2025-06-16 (launch release), Sitefire 2026-02-23 (Pointhound case start).
-- Template sections answered: 10 of 10 for each of the eight. Fields reading `unknown — checked` or `not disclosed — checked`: Searchable 1, geoSurge 5, Peec AI 1, Promptwatch 3, Profound 2, AthenaHQ 5, RankPrompt 4, Sitefire 4.
-- Price disclosed: 5 of 8 publish at least one dollar tier (Searchable $125/$400/$999; Promptwatch $95/$245/$579; RankPrompt $39/$71/$119/$239; Sitefire $249/$499; AthenaHQ $295). geoSurge $0 BYOK plus undisclosed Enterprise; Profound free trial plus undisclosed Enterprise; Peec AI renders no figure on any current tier.
-- Scale disclosed: revenue found for 2 of 8 (Searchable €2.2M ARR; Peec $4M then a $10M URL-slug pointer, kept side by side). Headcount 4 of 8 (Searchable 30+, Peec 70+, Profound 300+, Sitefire 2). Funding figure 5 of 8; RankPrompt and Sitefire `not disclosed`, AthenaHQ `unknown` (Crunchbase and PitchBook 403).
-- Proof claims: 1 Silver in the cluster — Sitefire/Pointhound (P4-c4); Sitefire/Jerry carries conflicting grades, Silver at P4-c13 and Bronze at P4-c10, both recorded side by side. Bronze: Profound 13, AthenaHQ 2, RankPrompt 2. Fools gold: Profound 6 plus 4 revenue sub-claims, Promptwatch 3, Searchable 2, Peec 2, AthenaHQ 1. Zero Gold. geoSurge publishes no case at all. Paid-by-outcome unknown on every case; prompt set undisclosed on every case bar two partials (Grüns, Pointhound).
-- Blockers: none new — compiled from `docs/raw/` only, no pulls. Carried-forward gaps: AthenaHQ funding channels 403; Peec current prices not rendered; G2 low-star reviews for Peec AI and AthenaHQ CAPTCHA-blocked at P4-c11; Promptwatch's 20 named brands entirely unchecked at the P4-c7 cap; Searchable/Blackbird case page href unresolvable.
