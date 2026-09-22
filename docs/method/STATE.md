@@ -10,7 +10,8 @@ Pass 0 — Method completion. Gate: open (scope.md, trust-rubric.md exist).
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P0-a | Opus | Glossary (three metric definitions) and method templates | `docs/method/glossary.md`, `docs/method/templates/` | 2026-09-22 |
+| P0-b | Opus | Pre-registered hypotheses and demand-signal catalogue with empty segment matrix | `docs/method/hypotheses.md`, `docs/method/demand-signals.md` | 2026-09-22 |
+| P0-c | Opus | Pass 10 panel protocol | `docs/method/panel-protocol.md` | 2026-09-22 |
 
 ## Queue
 
@@ -18,8 +19,6 @@ Front first.
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P0-b | 0 | Opus | Pre-registered hypotheses and demand-signal catalogue with empty segment matrix | `docs/method/hypotheses.md`, `docs/method/demand-signals.md` |
-| P0-c | 0 | Opus | Pass 10 panel protocol | `docs/method/panel-protocol.md` |
 | P1-a | 1 | Opus | Channels, shortlist, query book | `docs/sources/channels.md`, `shortlist.md`, `query-book.md` |
 | P1-b | 1 | Opus | Red-team query-book.md | `docs/sources/query-book-redteam.md` |
 
@@ -27,6 +26,7 @@ Front first.
 
 | task | deliverable | verified | commit |
 |---|---|---|---|
+| P0-a glossary and templates | `docs/method/glossary.md`, `docs/method/templates/` (7 files) | 2026-09-22 | 5d2950d |
 
 ## Landed — pending verify
 
