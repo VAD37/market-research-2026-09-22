@@ -20,7 +20,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P4-c6 | Sonnet | Trade press that links primary data | `docs/raw/*-pointer-*`, `e-case-census-c6-2026-09-22.md` | 2026-09-22 |
 | P4-c9 | Sonnet | Per-vertical sweep — B2B SaaS | `docs/raw/e-case-c9-*`, `e-case-census-c9-2026-09-22.md` | 2026-09-22 |
 | P4-c11 | Sonnet | Negative-result sweep | `docs/raw/e-case-c11-*`, `e-case-census-c11-2026-09-22.md` | 2026-09-22 |
-| AMEND-1 | Opus | Apply plan-review-1 §7 appends to plan.md, ORCHESTRATION.md, panel-protocol.md, shortlist.md, hypotheses.md, run-prompt.md | dated appends only | 2026-09-22 |
+| P4-c12 | Sonnet | EU-brand sweep, set X aliases against C64/C65 | `docs/raw/e-case-c12-*`, `e-case-census-c12-2026-09-22.md` | 2026-09-22 |
 | P4-c7 | Sonnet | Brand-side corroboration of every brand named as customer or pilot in Pass 2/3 files | `docs/raw/e-case-c7-*`, `e-case-census-c7-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
@@ -29,7 +29,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P4-c12 | 4 | Sonnet | EU-brand sweep: set X aliases against C64/C65 German trade press and OMR | `docs/raw/e-case-c12-*`, `e-case-census-c12-2026-09-22.md` |
 | P4-c13 | 4 | Sonnet | Full-page re-grade of every Pass 3 Bronze-or-better and every `screened — not opened` title, per grading rule 1 | `docs/raw/e-case-c13-*`, `e-case-census-c13-2026-09-22.md` |
 | P8-c1-sk | 8 | Sonnet | Demand-signal sweep, skincare and beauty, nine cells | `docs/raw/f-signal-sk-*` |
 | P8-c1-bs | 8 | Sonnet | Demand-signal sweep, B2B SaaS, nine cells | `docs/raw/f-signal-bs-*` |
@@ -94,6 +93,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P5-c1 corpus seeding | 12 items `docs/raw/d-seeding-*` + `d-technique-census-c1-2026-09-22.md`; tiers 3–5; 10 quantified effects, none a single-action before-and-after; 70 candidates screened; no engine names seeding as a policy category | 2026-09-22 | ac841d4 |
 | P4-c2 agency data posts | 8 pulls `docs/raw/e-case-{foundation-inc,fractl,intero-digital,pace-generative,partnercentric,seer-interactive}-*` + `e-case-census-c2-2026-09-22.md`; 12 agencies checked; 1 Silver (Seer content recency, B2B SaaS), 3 Bronze, 2 Fools gold; no client null result found | 2026-09-22 | 90dbdc1 |
 | P5-c2 review manufacture | 8 items `docs/raw/d-review-*` + `d-technique-census-c2-2026-09-22.md`; tiers 2–5; 3 measured rows, none a before-and-after; H5 unresolved — checked; 46 screened, vertical density thin; reddit.com blocked | 2026-09-22 | 7a9b617 |
+| AMEND-1 review appends | plan.md +56, ORCHESTRATION.md +6, panel-protocol.md +6, shortlist.md +34 (42 clusters), hypotheses.md +1, run-prompt.md +6; insertions only | 2026-09-22 | 985e51e |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
