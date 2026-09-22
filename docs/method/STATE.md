@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Pass 9 — findings, open 2026-09-22 (Passes 5, 6, 8 done; Pass 7 done). P9 single Opus agent writes four findings files; P9-review (Opus) scores them against hypotheses.md before Pass 9 is marked done. Pass 10 held by user; Pass 11 gate reads "9, and 10 or its recorded hold" per plan.md append.
+**Paused by user 2026-09-23.** Pass 9 findings landed (a43edc9); P9-review was live and was stopped before writing anything — no `review-1` file exists. Resume: spawn P9-review from the front of the queue with the same brief, then apply its amendments, mark Pass 9 done, spawn P11. Pass 10 stays held; Pass 11 gate reads "9, and 10 or its recorded hold".
 
 ## Live agents
 
@@ -12,7 +12,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P9-review | Opus | Adversarial review of findings/ against hypotheses.md; every claim below tier 3 listed | `docs/findings/review-1-2026-09-22.md` | 2026-09-22 |
+| none | — | paused 2026-09-23; three P9-review agents stopped, no partial output kept | — | — |
 
 ## Queue
 
@@ -20,6 +20,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
+| P9-review (re-queued, front) | 9 | Opus | Adversarial review of findings/ against hypotheses.md: score all 23 H rows, recompute tier-3 share, trace ≥15 numbers to raw, survivorship check, done-condition audit incl. `blank` cells, execution-language sweep, paste-ready amendments per file | `docs/findings/review-1-2026-09-22.md` |
+| P9-amend (after review) | 9 | Opus | Apply review amendments to the four findings files, line-level corrections allowed | `docs/findings/*.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P11 | 11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals | `docs/findings/transition-evidence.md` |
 | P10-analysis | 10 held | Opus | Panel read — waits for a neutral day 0 or user reopening | `docs/findings/panel-read.md` |
@@ -150,6 +152,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-22 | Sitefire/Jerry carries two grades (P4-c10 Bronze: engine and sample size missing; P4-c13 Silver: date window and untouched-page control present). Both recorded; Pass 9 scores with both visible | Conflicting reads sit side by side, never averaged |
 | 2026-09-22 | Pass 8 files differ on partial checks: skincare-beauty writes `none — checked` on 9–10 of 12 signals with the shortfall itemised; high-cpa-regulated writes `blank` where S3 / S9 were unchecked. Both stand; Pass 9 scores H4 / H7 / H9 with the difference stated, not reconciled | demand-signals.md's `none` rule reads strictly; two compilers applied it differently on the same day |
 | 2026-09-22 | Pass 9 opened while P7-INDEX compiles: findings cite profiles and raw, not INDEX; INDEX is derived from landed profiles and lands before Pass 9 is marked done | Gate substance met; INDEX is a derived entry point |
+| 2026-09-23 | Run paused on user instruction; P9-review and its two helper agents stopped, nothing written; re-queued at front rather than resumed | User: "pause new agents and remember progress and state. we end here". Stopped agents had produced no file, so a fresh spawn is cheaper than a partial resume |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
