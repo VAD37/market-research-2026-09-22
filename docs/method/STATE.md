@@ -15,9 +15,9 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P6-agentic | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` | 2026-09-22 |
 | P7-organic-a | Opus | Competitor profiles, organic roster 1–8 (Searchable, geoSurge, Peec AI, Promptwatch, Profound, AthenaHQ, RankPrompt, Sitefire) | `docs/competitors/<vendor>.md` ×8 | 2026-09-22 |
 | P8-high-cpa | Opus | Compile `customers/high-cpa-regulated.md`, nine cells, one-word reads | `docs/customers/high-cpa-regulated.md` | 2026-09-22 |
-| P6-paid | Opus | Compile `markets/paid-placement.md` | `docs/markets/paid-placement.md` | 2026-09-22 |
+| P7-incumbent-a | Opus | Competitor profiles, incumbents 1–6 (AirOps, Conductor, HubSpot, Yext, Ahrefs, Birdeye) | `docs/competitors/<company>.md` ×6 | 2026-09-22 |
 | P8-skincare | Opus | Compile `customers/skincare-beauty.md`, nine cells, one-word reads | `docs/customers/skincare-beauty.md` | 2026-09-22 |
-| P6-organic | Opus | Compile `markets/organic-recommendation.md` | `docs/markets/organic-recommendation.md` | 2026-09-22 |
+| P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
 | P5-c4 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-citationpref-*`, `d-technique-census-c4-2026-09-22.md` | 2026-09-22 |
 | P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
 | P5-c6 | Sonnet | Prompt injection embedded in indexed content | `docs/raw/d-injection-*`, `d-technique-census-c6-2026-09-22.md` | 2026-09-22 |
@@ -29,7 +29,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P7-organic-b, P7-incumbent-a, P7-incumbent-b, P7-agency, P7-sellside, P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
+| P7-incumbent-b, P7-agency, P7-sellside, P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P9, P10-analysis, P11 | 9–11 | Opus | Blocked | per plan.md |
@@ -98,6 +98,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P8-c1-hr high-CPA signals | 12 pulls `docs/raw/f-signal-hr-S*` + `f-signal-census-hr-2026-09-22.md`; 1 of 9 cells attributed (organic × enterprise, Cigna SEO/AEO/GEO posting, tier 3); 8 unattributed — sources state no buyer band; Primerica 10-K new S7 filer; cards sub-vertical 0 GEO postings; llms.txt 3 of 9; tier-floor misread as in sk/bs | 2026-09-22 | 3a801c8 |
 | P5-c3 comparison farming | 7 pulls `docs/raw/d-comparison-*` + `d-technique-census-c3-2026-09-22.md`; tiers 3–7; 4 measured rows, none before-and-after; academic literature on the technique near-absent; density: B2B SaaS 1 specimen, regulated 0, skincare 0 (against H14 direction); G2/Capterra/SaaSHub blocked | 2026-09-22 | e16775e |
 | P5-c7 countermeasures | 9 pulls `docs/raw/d-countermeasure-*` + `d-technique-census-c7-2026-09-22.md`; 6 of 36 engine × technique cells named (OpenAI 1, Anthropic 2, Google 2, Microsoft 1, Perplexity 0, Amazon 0); prompt injection named by 4 engines; no engine names seeding, comparison farming or citation-preference content; 4 defence papers tier 4–5; Amazon policy surface unreachable | 2026-09-22 | 28c5b82 |
+| P6-organic | `docs/markets/organic-recommendation.md` (120 lines); bottom-up floor $5.3M–$35.2M annualised from 4 of 34 disclosing vendors; 5 published sizes all tier-6 forecasts; 5 of 5 structural checks answered; proof: 0 Gold / 3 Silver / 45 Bronze | 2026-09-22 | 4efff1a |
+| P6-paid | `docs/markets/paid-placement.md` (120 lines); 5 of 8 engines live product, Claude explicit no; 0 rate cards, no computable size; OpenAI $1B run-rate tier 3; 4 of 4 checks + addition 1; litigation table | 2026-09-22 | 4efff1a |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -171,3 +173,12 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 
 P8-c1-sk landed 2026-09-22: `docs/raw/f-signal-sk-S1-*` through `f-signal-sk-S12-*` (10 raw pulls: S1,S4,S5,S6,S7,S8,S9,S10,S11,S12) + `f-signal-census-sk-2026-09-22.md`. Cells with at least one checked signal: 2 of 9 (Organic/Enterprise, Agentic/Enterprise). SMB carries 1 checked signal (Organic, S4 only). Signals with a blocked channel: S1 (Indeed, Upwork both blocked), S4 (G2, Capterra both blocked), S5 (reddit.com 403). Spend-class signals found: 3 (S1 Organic/Ent tier 3, S1 Agentic/Ent tier 3, S7 Organic/Ent tier 2 — all below the tier-5 cell-read floor, so read as attention per demand-signals.md). Unknowns: 9 channel-level (see census "Unknowns per channel"). Deviations: S2/S3 not freshly pulled (task scope: read-only against a-vendor-census-c1-c4, zero beauty matches); sam.gov/Contracts Finder proved non-phrase-matching (recorded, not silently trusted); one raw file (S7) edited once post-creation to add a same-source headcount figure (Coty 10-K Human Capital section) for correct buyer-size attribution — flagged since raw/ is normally never edited after landing.
 | P5-c7 | `docs/raw/d-countermeasure-*-2026-09-22.md` (9 files: 4 engine-policy pulls — OpenAI/Anthropic/Google/Microsoft prompt injection, Google reviews-system; 3 defense papers — SCI-Defense, GEO Defender, HAE-GEO; 1 Semantic Scholar citation-trail pull), `docs/raw/d-technique-census-c7-2026-09-22.md` | 9 new pulls + citation trail; cited 6 pre-existing raw files (not re-pulled) | Cells named/unknown per engine: OpenAI 1/5, Anthropic 2/4, Google 2/4, Perplexity 0/6, Microsoft 1/5, Amazon 0/6 — 6/36 named total | Papers: 4 (SCI-Defense tier 5 no code, GEO Defender tier 4, HAE-GEO tier 4, SafeGEO tier 4 cited not re-pulled); highest tier 4 | Browser backlog: 14 (6 Amazon, 2 Perplexity, 2 OpenAI, 2 Google blog, 1 Bing, 1 Microsoft Copilot-specific 404) | Unknowns: 30 cells, each with exact pages-checked list in the matrix | Blocked by: Amazon domain 503/JS-shell on every policy page beyond crawler-identity/Alexa-help; Bing Webmaster Guidelines JS-rendered; no Chrome extension permitted this task per brief | 2026-09-22 |
+
+### P6-organic — landed 2026-09-22
+
+- Deliverable: `docs/markets/organic-recommendation.md` — 120 lines (budget 120).
+- Oldest pull depended on: 2026-09-22 (every cited `raw/` file). Oldest source-published date carried: 2025-07-15 (`raw/e-market-size-valuates-organic-2026-09-22.md`).
+- Structural checks: 5 answered (substitute, platform risk, incumbent bundling, regulatory, addition-1 engine countermeasures), 0 left as a whole-row unknown; within-cell `unknown — checked` lines recorded where a channel returned nothing.
+- Sizing: bottom-up **$5.3M-$35.2M annualised**, covering 4 of 34 rostered names; inputs are disclosed price x disclosed customer count for Searchable, Promptwatch, Scrunch, Rankscale, x12. No enterprise tier in the build. 5 published organic sizes recorded side by side as forecasts, all tier 6. One proxy: IAB 76%/48% buyer-focus shares (tier 4).
+- Numbers in file: ~95 figures, every one carrying a source label and a `raw/` path — yes. No figure appears that is not in a `docs/raw/` file.
+- Blockers: none. Concurrent-agent raw files (`d-countermeasure-*`, `d-comparison-*`, `d-citationpref-*`, `d-structured-*`, `d-injection-*`, `f-signal-*`) not read; `docs/markets/paid-placement.md` not read or written. Bounding unknowns: no named-analyst-house size for this sub-market, no dollar SEO-budget-share proxy, no vendor AI-visibility product revenue broken out, Scrunch/Sitecore deal value undisclosed at primary.
