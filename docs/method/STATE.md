@@ -13,8 +13,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
 | P7-organic-a | Opus | Competitor profiles, organic roster 1–8 (Searchable, geoSurge, Peec AI, Promptwatch, Profound, AthenaHQ, RankPrompt, Sitefire) | `docs/competitors/<vendor>.md` ×8 | 2026-09-22 |
-| P7-incumbent-a | Opus | Competitor profiles, incumbents 1–6 (AirOps, Conductor, HubSpot, Yext, Ahrefs, Birdeye) | `docs/competitors/<company>.md` ×6 | 2026-09-22 |
-| P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
 | P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
 | P7-agency | Opus | Competitor profiles, agencies (Pace Generative / Onfolio, Orange142, Intero Digital, Seer Interactive, Fire&Spark) | `docs/competitors/<agency>.md` ×5 | 2026-09-22 |
@@ -106,6 +104,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P6-agentic | `docs/markets/agentic-commerce.md` (120 lines); no computable size; 7 forecasts $144B–$5T (2029–30) plus Gartner $15T and GVR $5.7B side by side; measured present-state figures kept separate; 6 protocols with owner, licence, governance, gate; only fee disclosed Copilot 0% | 2026-09-22 | 1db88aa |
 | **Pass 6 done** | three markets/ files, 120 lines each, all structural checks answered or unknown; no sub-market has a measured size | 2026-09-22 | 1db88aa |
 | P3-repull-sec | `docs/raw/a-sec-probe-2026-09-22.md` — HTTP 503 Akamai maintenance page; re-pull deferred, substitutes stand | 2026-09-22 | 1db88aa |
+| P7-organic-b | `docs/competitors/{scrunch-ai,brandlight-ai,change-agents-corp,locafy,otterly-ai,rankscale-ai}.md` (65–78 lines); 3 of 6 publish a price; 0 Gold / 0 Silver; CHGA going-concern, Locafy AUD 3.11M 9-month revenue via tier-5 substitute; 11 brand subjects checked, 0 corroborate | 2026-09-22 | 3a27dbc |
+| P7-incumbent-a | `docs/competitors/{airops,conductor,hubspot,yext,ahrefs,birdeye}.md` (77–80 lines); price delta disclosed 2 of 6 (HubSpot, Ahrefs, JPY); 0 Gold / 0 Silver, 13 Bronze; HubSpot control claim beside its negative case; headcount unknown ×6 | 2026-09-22 | fa3cf48 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -231,3 +231,22 @@ P8-skincare landed 2026-09-22: `docs/customers/skincare-beauty.md` (100 lines). 
 - Protocols with owner, licence, governance and gate stated: 6 of 6 (ACP, AP2, UCP, x402, Visa TAP, Mastercard Agent Pay); MCP recorded as non-commerce transport.
 - No bottom-up size is computable: 1 of 3 lane-C vendors discloses price, 1 of 4 live engine programs discloses a fee (Copilot 0%), no engine discloses a merchant count.
 - Blocked: nothing. Compiled from docs/raw/ only; no pulls, no browsing, no git.
+
+### P7-organic-b — competitor profiles, organic roster 1, 17, 19, 20, 22, 24 (2026-09-22)
+
+- Deliverables: `docs/competitors/scrunch-ai.md` (72), `brandlight-ai.md` (65), `change-agents-corp.md` (66), `locafy.md` (67), `otterly-ai.md` (76), `rankscale-ai.md` (78). All under the 80-line budget; no INDEX.md written.
+- Oldest pull depended on: 2026-09-22 (every raw file cited; no pull older than the pass).
+- Template sections: 11 of 11 answered for all six. Fields reading `unknown — checked` or `not disclosed`: Scrunch 5, Brandlight 6, Change Agents 7, Locafy 6, Otterly 6, Rankscale 5.
+- Price disclosure: Scrunch (Core $250/mo, Enterprise custom), Otterly (3 of 4 tiers), Rankscale (all 4 tiers) disclose; Brandlight, Change Agents, Locafy disclose none.
+- Proof: 0 Gold, 0 Silver across all six. Scrunch 5 Bronze / 3 Fools gold; Otterly 3 Bronze / 6 Fools gold; Rankscale 5 Bronze / 1 Fools gold; Brandlight, Change Agents, Locafy 0 graded cases.
+- Conflicts carried side by side: Scrunch deal value (not disclosed vs Bloomberg $225M); Rankscale HQ, ARR and currency; Otterly 5 cases (Fools gold teaser vs screened — not opened).
+- Blockers: none new. CHGA and LCFY filings remain tier-5 StockTitan substitutes (sec.gov 403 at P3-c2), labelled as such in both profiles; re-pull still queued as P3-repull-sec.
+- No git run. No files touched outside the six profiles and this block.
+
+### P7-incumbent-a — landed, pending verify
+- Deliverables: `docs/competitors/airops.md` (80), `conductor.md` (80), `hubspot.md` (80), `yext.md` (80), `ahrefs.md` (77), `birdeye.md` (80). No INDEX.md written (out of scope).
+- Oldest pull depended on: 2026-09-22 — every cited raw file carries that pull date; oldest data carried: Birdeye Search AI launch 2025-09-03, AirOps AEO positioning 2025-03-28, AirOps $40M Series B 2025-11-10.
+- Price delta disclosed: **2 of 6** — HubSpot ¥95,160/mo Starter→Professional plus standalone ¥6,000/mo ("$50/mo", unreconciled); Ahrefs quota ladder +¥18,500 / +¥30,500 / +¥162,000 from a base Lite ¥19,900/mo that already includes the feature. **4 of 6 `unknown — checked`**: AirOps, Conductor (feature absent from base plan), Yext and Birdeye (no tier structure at all).
+- Template questions: 10 of 10 sections answered in binding order in all six files. Fields recorded `unknown — checked <channel> 2026-09-22`: AirOps 7, Conductor 8, HubSpot 4, Yext 6, Ahrefs 5, Birdeye 8.
+- Proof: 0 Gold, 0 Silver across all six. Bronze — AirOps 7 cases, Conductor 3, HubSpot 2 (beta-cohort control claim; OMR negative AI Overviews case), Yext 1. Fools gold — AirOps 2, Conductor 1, HubSpot 3, Yext 1. Ahrefs and Birdeye: zero gradable claims; 3 Birdeye percentages discard-on-sight.
+- Blocked, carried from the Pass 3 pulls, not re-attempted (compile-only task, no pulls): sec.gov blocked session-wide — HubSpot latest filed revenue never retrieved (BamSEC filing index only), Yext Q2 FY2027 figures entered as an IR-site copy at tier 3 and labelled so in the file; Ahrefs launch date 2026-01-20 carried from the roster's Businesswire citation, unverified (connection failure x2).
