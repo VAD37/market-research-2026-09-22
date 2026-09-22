@@ -1,0 +1,11 @@
+# Secrets — never tracked.
+.env
+.env.*
+!.env.example
+
+# Project contents — each project under projects/ is its own git repo.
+# This repo keeps only the execution-layer rules.
+projects/*
+!projects/CLAUDE.md
+!projects/ORCHESTRATION.md
+!projects/MVP-MANDATE.md
