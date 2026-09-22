@@ -12,7 +12,7 @@ Pass 3 — Raw wave B, vendor census. Gate: open. Pass 2 done 2026-09-22 (11 clu
 |---|---|---|---|---|
 | P2-reweight | Opus | Engine priority reweight from the share table, dated, appended to plan.md engine matrix | `docs/method/plan.md` (append only) | 2026-09-22 |
 | P2-c2 | Sonnet | CDN and crawler telemetry | `docs/raw/a-*-crawler-*-2026-09-22.md` per pull | 2026-09-22 |
-| P10-d0-google-aimode | Sonnet | Panel sample day 0, Google AI Mode + AI Overviews | `docs/raw/e-google-aimode-panel-2026-09-22.md` | 2026-09-22 |
+| P10-d0-perplexity | Sonnet | Panel sample day 0, Perplexity | `docs/raw/e-perplexity-panel-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
 
@@ -20,9 +20,9 @@ Front first. Pass 2 clusters run in any order; Passes 3–5 wait for P2-c1 and t
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P10-d0-perplexity | 10 | Sonnet | Panel sample day 0, Perplexity | `docs/raw/e-perplexity-panel-2026-09-22.md` |
 | P10-d0-copilot | 10 | Sonnet | Panel sample day 0, Copilot | `docs/raw/e-copilot-panel-2026-09-22.md` |
 | P10-d0-rufus-p3 | 10 | Sonnet | Panel sample day 0, Amazon Rufus + P3 existence checks | `docs/raw/e-rufus-panel-2026-09-22.md`, `docs/raw/e-p3-engines-existence-2026-09-22.md` |
+| P10-d0-google-aimode-retry | 10 | Sonnet | Google AI Mode + AI Overviews day 0 retry — needs the claude-in-chrome extension reconnected (Playwright IP is reCAPTCHA-blocked on google.com/search) | `docs/raw/e-google-aimode-panel-<date>.md` |
 | P10-d0-gemini-remainder | 10 | Sonnet | Gemini day 0 remainder — 30 of 32 prompts below n=5 after surface throttling; new file, same prompt set v1 | `docs/raw/e-gemini-panel-<date>-remainder.md` |
 | P10-d0-claude-remainder | 10 | Sonnet | Claude day 0 remainder — 7 P prompts and 9 X prompts not sampled (session scope); new file, supersedes none, same prompt set v1 | `docs/raw/e-claude-panel-<date>-remainder.md` |
 | P10-d0-chatgpt-retry | 10 | Sonnet | Retry ChatGPT day 0 — blocked until Chrome extension holds site permission for chatgpt.com (user action) | `docs/raw/e-chatgpt-panel-<date>.md` |
@@ -76,11 +76,14 @@ Front first. Pass 2 clusters run in any order; Passes 3–5 wait for P2-c1 and t
 | P2-c11 dockets | 9 dockets `docs/raw/b-court-*` + `b-court-dockets-table-2026-09-22.md`; OpenAI, Microsoft, Google ×2, Perplexity, Anthropic vs publishers/platforms; 4 candidates not opened (WAF) | 2026-09-22 | 60bd861 |
 | **Pass 2 done** | 11 clusters, ~150 raw pulls, reweight 1 | 2026-09-22 | 60bd861 |
 | P10-d0-gemini | `docs/raw/e-gemini-panel-2026-09-22.md` (1128 lines) — 24 of 160 runs, logged-out, model shown "Flash-Lite", toggle not exposed, surface silently throttled mid-session | 2026-09-22 | 28fffc5 |
+| P10-d0-google-aimode | `docs/raw/e-google-aimode-panel-2026-09-22.md` — surface blocked, 0 runs: google.com/search reCAPTCHA on Playwright IP 159.26.119.97 | 2026-09-22 | 66e3d42 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
 
 Agents append one block here on finish: deliverable path, pulls made (count), unknowns recorded (count), blockers.
+
+**P10-d0-google-aimode — Google AI Mode / AI Overviews panel sample day 0.** Deliverable: `docs/raw/e-google-aimode-panel-2026-09-22.md`. Runs completed / planned: **0 / 175** — primary arm (AI Mode) 0/161 (14 C x n=5, 9 P x n=5, 9 X x n=5, 1 toggle-arm run), secondary arm (AI Overviews) 0/14 (14 C x n=1, protocol deviation per task instructions). Prompts with achieved_n < 5: **32 of 32** (all, both arms — 0/5 or 0/1 throughout). Ad units observed: **0** — no page past Google's own bot-check ever rendered. Unknowns recorded: **1 file-wide** class, applied per field throughout (`model_version_shown`, `region_observed`, `login_state`, `search_toggle`, brand/citation/sponsored fields all `unknown — surface blocked before render` or `not-sampled`). Surface status: **blocked** — every `google.com/search` request this session (2 to the AI Mode `udm=50` URL, 1 cross-arm check to plain search) returned Google's `/sorry/` "unusual traffic" reCAPTCHA interstitial, verbatim text and IP (`159.26.119.97`) captured in the file; one wait (~45s) plus one retry per protocol did not clear it, and a cross-arm check confirmed the block is domain-wide, not AI-Mode-specific. Login state: never reached (block is pre-search). Blockers: Google bot-check, not solved (hard constraint); most plausibly aggregate automated-traffic volume from the shared session IP across concurrently-running agents, not query-specific — see file caveats. `claude-in-chrome` reported not connected at session start; fell back to `mcp__MCP_DOCKER` Playwright per task instructions, `pull_method: browser (Playwright MCP)`. Did not touch the other tabs open in the shared browser (`courtlistener.com`, `gemini.google.com`) — sampled from a dedicated new tab, closed once the block was confirmed persistent. Did not navigate to chatgpt.com, claude.ai, gemini.google.com, perplexity.ai, copilot.microsoft.com or amazon.com's assistant; did not edit `panel-protocol.md`.
 
 **P1-b — red-team of the query book.** Deliverable `docs/sources/query-book-redteam.md`, 120 lines. Queries tested: 28 (26 web searches, 2 EDGAR full-text fetches, 1 archive fetch that failed). Blind spots found: 13, numbered B1–B13. Amendments proposed: `channels.md` 8 new rows (C60–C67); `query-book.md` 8 amendments (2 corrections — exclusion scope and `-"vs"` — plus 6 additions covering alias sets O/P/X, grid rows, buyer-size overlay, negative-result row, EDGAR and academic venue lists, date rule); `shortlist.md` 3 new clusters (P2-c10, P2-c11, P8-c1), 1 roster-rule amendment, 2 pull-list additions (P2-c5, P5-c7). No `docs/raw/` files written; no reviewed file edited. Blockers: `web.archive.org` refused to plain fetch (`Claude Code is unable to fetch from web.archive.org`) — the archival channel proposed as C61 needs the Chrome extension; the search surface is US-only by its own description, so the EU coverage gap is measured by the instrument that causes it.
 
@@ -121,6 +124,7 @@ Agents append one block here on finish: deliverable path, pulls made (count), un
 | 2026-09-22 (day 0) | v1 | ChatGPT — blocked, 0 runs | `docs/raw/e-chatgpt-panel-2026-09-22.md` |
 | 2026-09-22 (day 0) | v1 | Claude — 83 of 160 runs, logged-in researcher account, memory confound | `docs/raw/e-claude-panel-2026-09-22.md` |
 | 2026-09-22 (day 0) | v1 | Gemini — 24 of 160 runs, logged-out, Flash-Lite, throttled | `docs/raw/e-gemini-panel-2026-09-22.md` |
+| 2026-09-22 (day 0) | v1 | Google AI Mode + AI Overviews — blocked, 0 runs | `docs/raw/e-google-aimode-panel-2026-09-22.md` |
 
 ## Decisions taken
 
@@ -152,6 +156,7 @@ Agents append one block here on finish: deliverable path, pulls made (count), un
 | OpenAI Instant Checkout fee / take rate | openai.com, help.openai.com, developers.openai.com commerce pages | 2026-09-22 |
 | Gemini app ad format; CPC/CPA or billing model for any Google AI-surface ad unit | Google Ads Help, blog.google, GML 2026 pages | 2026-09-22 |
 | Amazon Rufus assistant share | Similarweb, Comscore, Datos/SparkToro, StatCounter | 2026-09-22 |
+| Google AI Mode / AI Overviews consumer surface — reCAPTCHA "unusual traffic" on the Playwright browser's IP; claude-in-chrome extension disconnected | Playwright MCP ×2 (udm=50 and plain search) | 2026-09-22 |
 | ChatGPT consumer surface — extension denied on chatgpt.com ("Permission denied for this action on this domain"), tab reverts to newtab; site permission not granted | fetch (403), Chrome extension ×3 | 2026-09-22 |
 
 ## Done conditions
