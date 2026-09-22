@@ -72,3 +72,9 @@ REPORTING — every loop iteration, in chat, five lines max
   pass / live agents / queue depth / last commit / next spawn.
 Write `result:` only when step 8 fires, with the count of done-condition rows satisfied out of total and the path to findings/.
 ```
+
+## Revision 1 — 2026-09-22
+
+Hard rule "never more than 3" reads 10. Loop step 3 "live agents < 3" reads 10. Loop step 5 "never skip a sampling date" is suspended while the user's Pass 10 hold stands; gaps are recorded. AGENT BRIEF adds: cluster id in every filename; browser column value; `unknown — checked` over any remembered name; landing block by shell append.
+
+Source: `plan-review-1-2026-09-22.md` §7. The code block above is not edited — paste it, then apply this revision on top of it.

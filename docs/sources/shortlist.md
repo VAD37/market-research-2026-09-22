@@ -90,6 +90,8 @@ The 27 cells (3 sub-markets × 3 verticals × 3 buyer sizes) rested on `channels
 
 Pass 2: 11. Pass 3: 7. Pass 4: 6. Pass 5: 7. Pass 8: 1. Total 32 — 29 at P1-a, plus P2-c10, P2-c11 and P8-c1 added 2026-09-22.
 
+**Revised 2026-09-22 per `../method/plan-review-1-2026-09-22.md` §7: 32 → 42.** Pass 2: 11. Pass 3: 7. Pass 4: 13 (6 channel + 7 sweep). Pass 5: 7. Pass 6: 1. Pass 8: 3 (P8-c1 split by vertical). Total 42 = 32 + the 11 rows appended below (P4-c7–c13, P8-c1-sk/-bs/-hr, P6-c0) − 1, P8-c1 superseded by its three parts and no longer counted as a cluster of its own. The line above is not edited.
+
 ## Caveats
 
 - Cluster targets are channels and questions, not answers. No cluster asserts that its target exists in the form named; several will return `unknown — checked`.
@@ -99,3 +101,35 @@ Pass 2: 11. Pass 3: 7. Pass 4: 6. Pass 5: 7. Pass 8: 1. Total 32 — 29 at P1-a,
 - P8-c1 sits in a file titled "the pull list for Passes 2–5". It is kept here rather than split off because it is a source cluster of the same shape, and `plan.md` gates Pass 8 on Pass 1 and Pass 3, not on Passes 4 and 5.
 - Residual §3 gap, recorded not closed: H16 — every published sub-market size is a forecast — is routed to the Pass 6 sizing task, which has no cluster in this file and is outside its Passes 2–5 remit. `unknown — checked query-book-redteam.md §3 2026-09-22`.
 - Every cluster's pull list is a floor, not a ceiling: a pull that surfaces a better primary supersedes the listed one, and the substitution is noted in the `raw/` file's pull notes.
+
+## Pass 4 — second sweep, added 2026-09-22
+
+Per `../method/plan-review-1-2026-09-22.md` §1 and §7(a), and `../method/plan.md` "Pass 4 — second sweep, 2026-09-22". Seven clusters added; the six channel clusters above are not re-cut and not removed. Every cluster grades per `plan.md` "Evidence bar — grading rule 1, 2026-09-22" and tags per the per-vertical tagging rule above. Deliverable globs are `STATE.md` §Queue's.
+
+| id | lane | target | pulls | tier | moves | done when |
+|---|---|---|---|---|---|---|
+| P4-c7 | E, F | Brand-side corroboration — every brand a Pass 2/3 file names as a customer or pilot: Searchable 19 logos, Quattr / Men's Wearhouse, HubSpot Docebo/Fresha, Google Direct Offers Chewy/Gap/L'Oréal/Petco/e.l.f., Copilot Checkout Urban Outfitters/Etsy | Per brand: own newsroom, IR page, case page. Brand list taken from `../raw/a-vendor-census-c1-*`, `../raw/a-vendor-census-c3-*`, `../raw/a-vendor-census-c4-2026-09-22.md`, `../raw/b-google-platform-summary-*`, `../raw/c-vendor-census-c6-*` | 3 brand primary, 5 vendor-relayed | H3, H6, H10, H11 | Each brand reads `corroborates / contradicts / silent — checked <URL>`. Files: `docs/raw/e-case-c7-*`, `e-case-census-c7-2026-09-22.md` |
+| P4-c8 | E, F | Per-vertical sweep — skincare and beauty | Brand blogs; vertical trade press that links primary; community write-ups — per the skincare-and-beauty vertical overlay in `query-book.md` | 5 with n, 6 without | H3, H6, H10, H11 | Screened and cleared counts recorded for this vertical, every case graded per grading rule 1. Files: `docs/raw/e-case-c8-*`, `e-case-census-c8-2026-09-22.md` |
+| P4-c9 | E, F | Per-vertical sweep — B2B SaaS | Same channel set, B2B SaaS vertical overlay in `query-book.md` | 5 with n, 6 without | H3, H6, H10, H11 | As P4-c8, for B2B SaaS. Files: `docs/raw/e-case-c9-*`, `e-case-census-c9-2026-09-22.md` |
+| P4-c10 | E, F | Per-vertical sweep — high-CPA regulated (cards, insurance, supplements) | Same channel set, high-CPA regulated vertical overlay in `query-book.md` | 5 with n, 6 without | H3, H6, H10, H11 | As P4-c8, for high-CPA regulated. Files: `docs/raw/e-case-c10-*`, `e-case-census-c10-2026-09-22.md` |
+| P4-c11 | E, F | Negative-result sweep — published cases and threads reporting no lift | `query-book.md` amendment 7 rows: `reddit.com/r/SEO`, `/r/bigseo`, `/r/PPC` negatives; HN dissent via `hn.algolia.com/api/v1/search`; null-result papers; plus 1–2-star `g2.com` and `omr.com` reviews naming no lift | 4–5 | H3, H6, H10, H11 | Screened, negative-found and vendor-named counts recorded. Files: `docs/raw/e-case-c11-*`, `e-case-census-c11-2026-09-22.md` |
+| P4-c12 | E, F | EU-brand sweep — set X aliases never run | `query-book.md` amendment 4 set X aliases against C64/C65: horizont.net, wuv.de, t3n.de, onlinemarketing.de, omr.com. Extension-free channels | 5 with n, 6 without | H3, H6, H10, H11 | Every alias run and recorded; hits graded per grading rule 1; screened and cleared counts per vertical. Files: `docs/raw/e-case-c12-*`, `e-case-census-c12-2026-09-22.md` |
+| P4-c13 | E | Full-page re-grade of Pass 3 — every Bronze or better and every `screened — not opened` title in c1–c6 | The case's own full page, opened, for every such title already listed in the c1–c6 censuses | 5 with n, 6 without | H3, H6, H10, H11 | Every such title opened, or recorded unreachable, and regraded with the seven bar items ticked one by one per grading rule 1. Files: `docs/raw/e-case-c13-*`, `e-case-census-c13-2026-09-22.md` |
+
+## Pass 8 — split, 2026-09-22
+
+Per `../method/plan-review-1-2026-09-22.md` §1 row 6 and §7(b). P8-c1 above is superseded by the three rows below: 27 cells in one agent is the shape `../../projects/ORCHESTRATION.md`'s split rule forbids. Same pulls and same done condition as P8-c1, nine cells each. Needs the extension for indeed / upwork / gartner (403→ext) — one extension holder at a time.
+
+| id | lane | target | pulls | tier | moves | done when |
+|---|---|---|---|---|---|---|
+| P8-c1-sk | F, E | Demand-signal sweep, skincare and beauty — nine cells (3 sub-markets × 3 buyer sizes) — S1, S4, S5, S6, S8, S10, S11 | As P8-c1: `linkedin.com/jobs`, `indeed.com` (403→ext), `upwork.com` (403→ext), `freelancer.com` per alias × buyer-size overlay; `g2.com`, `capterra.com`, `omr.com` review velocity; `sam.gov`, `contractsfinder.service.gov.uk`, `ted.europa.eu` (405 to plain GET); `gartner.com/en/newsroom` (403→ext), `bluevine.com/blog`, `sbecouncil.org` | 2–5 | H4, H7, H9 | Each of the nine cells carries a checked-or-blank mark per signal with the exact query recorded; no cell inferred from a vendor target-customer page; a published survey tagged with the respondent revenue band the publisher states. Files: `docs/raw/f-signal-sk-*` |
+| P8-c1-bs | F, E | Demand-signal sweep, B2B SaaS — nine cells | Same pull set as P8-c1-sk | 2–5 | H4, H7, H9 | As P8-c1-sk, for B2B SaaS. Files: `docs/raw/f-signal-bs-*` |
+| P8-c1-hr | F, E | Demand-signal sweep, high-CPA regulated — nine cells | Same pull set as P8-c1-sk | 2–5 | H4, H7, H9 | As P8-c1-sk, for high-CPA regulated. Files: `docs/raw/f-signal-hr-*` |
+
+## Pass 6 — pull, 2026-09-22
+
+Per `../method/plan-review-1-2026-09-22.md` §4 and §7(a). Closes the residual §3 gap recorded in the caveats above: H16 had no cluster in this file. Pass 6's gate (Passes 2 and 3) is open; this is the raw pull the three `markets/` compiles read.
+
+| id | lane | target | pulls | tier | moves | done when |
+|---|---|---|---|---|---|---|
+| P6-c0 | E | Every published sub-market size — organic recommendation, paid placement, agentic commerce | Every published size found for the three sub-markets, each with the author's own label, forecast or measured | 3–5 | H16 | Each size carries its base period and the author's forecast/measured label, recorded verbatim; conflicting sizes sit side by side, never averaged; a size with no base period is recorded as `unknown — checked <page> 2026-09-22`. Files: `docs/raw/e-market-size-*`, `e-market-size-table-2026-09-22.md` |

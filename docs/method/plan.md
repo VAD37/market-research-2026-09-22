@@ -48,6 +48,13 @@ Added 2026-09-22 after plan review. Each is a question the file answers or marks
 | Incumbent bundling | Which SEO or analytics incumbent added this as a feature, at what price delta |
 | Regulatory | Ad disclosure rules inside AI answers — EU DSA, EU AI Act, FTC — what is in force as of the pull date |
 
+### Structural checks — addition 1, 2026-09-22
+
+Per `plan-review-1-2026-09-22.md` §6 and §7(e). Added to the table above; no row above is replaced.
+
+- **Incumbent bundling also records: acquired by whom, on what date, per filing.** Evidence behind the addition, review §6: Semrush a wholly owned Adobe subsidiary from 2026-04-28 (8-K) — `docs/raw/a-vendor-census-c4-2026-09-22.md` row 4; Scrunch acquired by Sitecore 2026-06-03 — `docs/raw/a-vendor-census-c2-*` row 1.
+- **Regulatory also names the designation status per engine** (review §6 directs this append here; §7 itemises only the bundling line): ChatGPT designated VLOSE 2026-08-31, 159.1M EU users, no Art. 39 repository yet — `docs/raw/b-eu-dsa-ad-repositories-table-2026-09-22.md`; EU AI Act Art. 50 in force 2026-08-02 — `docs/raw/b-regulators-ad-disclosure-table-2026-09-22.md`.
+
 ## Segments — what demand is read against
 
 | Axis | Values |
@@ -103,6 +110,14 @@ A finding that the category produces no Gold cases is a legitimate and valuable 
 
 Survivorship is structural: published cases are winners. Every `findings/` scorecard states this once and reports the search volume behind the case count — how many candidates screened, how many cleared.
 
+### Evidence bar — grading rule 1, 2026-09-22
+
+Per `plan-review-1-2026-09-22.md` §3 and §7(c). Applies to every Pass 4 brief and to the P4-c13 re-grade. The seven bar items and the grade table above are unchanged; this fixes how they are applied.
+
+> **A grade is assigned only from the case's own full page with the seven bar items ticked one by one in the raw file; a case not opened is `screened — not opened`, a page with no metric is `screened — no claim`, neither is graded, and a case missing any of items 1–7 is Bronze at best.**
+
+Why it is dated now, per review §3: five censuses operationalised one bar three ways — c1 graded metric-less testimonials Fools gold on intake and opened nothing; c2 screened the same items out as no-claim and did not grade them; c3 graded only opened pages and counted 26 unopened titles as screened; c4 assigned the one Silver without a visible seven-item checklist; c6 scored binary cleared / not-cleared with no Bronze or Fools gold grade at all. The "roughly 150 screened, 1 Silver" aggregate is a mixed count until P4-c13 re-grades it.
+
 ## Engine matrix
 
 Every lane is answered per engine. Absent evidence is recorded as absent, per root `CLAUDE.md`.
@@ -156,6 +171,17 @@ Reassigns the priorities above from `docs/raw/a-assistant-share-table-2026-09-22
 - Pointer-tier rows, tier 5, primary not independently confirmed: every Datos figure, via PPC Land; the seven-engine Similarweb May 2026 table and the StatCounter Jun 2026 figure, both via Search Engine Journal. Grok's and DeepSeek's only category-share figures rest wholly on that SEJ pointer — the weakest evidence behind any move in this table.
 - No figure at all: Amazon Rufus, and Naver, Kakao, Baidu.
 - Every publisher here sells analytics adjacent to what it measures; no figure is independently audited, and none is a recruited-and-disclosed-sample-size consumer panel.
+
+### Engine matrix — evidence notes 1, 2026-09-22
+
+Per `plan-review-1-2026-09-22.md` §6 and §7(d). Notes against the matrix rows above. No row and no "Known open question" cell is edited; each stands until a pass closes it.
+
+| Matrix row | Note, 2026-09-22 | Raw path |
+|---|---|---|
+| Claude — Anthropic, "Does it carry commercial recommendation at all" | Lane B answered at tier 3: "Claude will remain ad-free … nor will Claude's responses … include third-party product placements", 2026-02-04. Lanes A and C still open — no merchant program found | `docs/raw/b-anthropic-perplexity-platform-summary-2026-09-22.md` table 1 |
+| Perplexity, "Earliest mover on sponsored answers" | No live ad product or advertiser page; merchant-terms page 404; 2024-11-12 launch post still live. Status is by absence, not by a statement | `docs/raw/b-anthropic-perplexity-platform-summary-2026-09-22.md` tables 1–2 |
+| Amazon Rufus — the slug itself | Renamed "Alexa for Shopping" 2026-05-13; both names still on one page. Matrix slug unchanged; `panel-protocol.md` status note 1 carries both names | `docs/raw/b-microsoft-amazon-platform-summary-2026-09-22.md` naming table |
+| ChatGPT — OpenAI | Designated VLOSE 2026-08-31, 159.1M EU users, no Art. 39 ad repository yet, and no repository distinguishes an ad inside an AI answer. EU AI Act Art. 50 in force 2026-08-02 | `docs/raw/b-eu-dsa-ad-repositories-table-2026-09-22.md`; `docs/raw/b-regulators-ad-disclosure-table-2026-09-22.md` |
 
 ## Verticals
 
@@ -224,6 +250,30 @@ Lane D is **research into manipulation, not execution of it.** Any measurement r
 
 **Pass 11 — transition evidence.** Compiles, from Pass 4 cases and Pass 8 signals, what brands that moved actually changed. Descriptive, cited, per case. Not a recommendation. A playbook is out of scope per `MegaPlan.md`.
 
+### Pass 4 — second sweep, 2026-09-22
+
+Per `plan-review-1-2026-09-22.md` §1 and §7(b). Seven sweep clusters added alongside the six channel clusters; the six are not re-cut. Cluster rows with pulls, tier and deliverable globs are in `../sources/shortlist.md` under "Pass 4 — second sweep, added 2026-09-22". Every cluster grades per "Evidence bar — grading rule 1, 2026-09-22" above.
+
+| id | Task | Done when |
+|---|---|---|
+| P4-c7 | Brand-side corroboration — every brand a Pass 2/3 file names as a customer or pilot (Searchable 19 logos, Quattr / Men's Wearhouse, HubSpot Docebo/Fresha, Google Direct Offers Chewy/Gap/L'Oréal/Petco/e.l.f., Copilot Checkout Urban Outfitters/Etsy — c1, c4, c3, `b-google-platform-summary`, `c-vendor-census-c6`): the brand's own newsroom, IR page, case page | Each brand reads `corroborates / contradicts / silent — checked <URL>` |
+| P4-c8 | Per-vertical sweep — skincare and beauty; brand blogs, vertical trade press linking primary, community write-ups, per the vertical overlays in `../sources/query-book.md` | Screened and cleared counts exist for that vertical, every case graded per grading rule 1 |
+| P4-c9 | Per-vertical sweep — B2B SaaS; same channels | As P4-c8, for B2B SaaS |
+| P4-c10 | Per-vertical sweep — high-CPA regulated (cards, insurance, supplements); same channels | As P4-c8, for high-CPA regulated |
+| P4-c11 | Negative-result sweep — `query-book.md` amendment 7 rows (r/SEO, r/bigseo, r/PPC negatives; HN dissent; null-result papers), plus 1–2-star G2/OMR reviews naming no lift | Screened, negative-found and vendor-named counts are recorded |
+| P4-c12 | EU-brand sweep — set X aliases (`query-book.md` amendment 4) against C64/C65: horizont.net, wuv.de, t3n.de, onlinemarketing.de, omr.com | Every alias run and recorded; hits graded per grading rule 1; screened and cleared counts per vertical |
+| P4-c13 | Full-page re-grade of Pass 3 — every Bronze or better and every `screened — not opened` title in c1–c6, opened and graded per grading rule 1 | Every such title opened, or recorded unreachable, and regraded with the seven bar items ticked one by one |
+
+**Pass 4 is done when the six channel clusters and the seven sweep clusters have landed and per-vertical screened/cleared counts exist for all three verticals.**
+
+Why the sweep exists, per review §1: the six channel clusters are all publisher-typed and none asks the brand; the reserve-vertical trigger in "Verticals" above is live and untested because the one Silver found across roughly 150 vendor cases is apparel, outside all three verticals; no P4 cluster hunts failures; set X was never run; and Pass 3 screened roughly 150 titles from overview pages rather than from full pages.
+
+### Pass 10 and Pass 11 — hold note, 2026-09-22
+
+Pass 10 sampling held by user decision 2026-09-22 22:40; day 0 recorded per engine; done-row unchanged; HE2, HE3, HP1–HP4 marked `not produced` at Pass 9 if still held. Pass 11 gate reads: 9, and 10 or its recorded hold.
+
+The Pass 11 gate cell in the pass-sequence table above is not edited; this note supersedes it. Source: `plan-review-1-2026-09-22.md` §2, §4 and §7.
+
 ## Staleness rule
 
 Engines change monthly. Any `raw/` pull older than one quarter at the time a compiled file cites it is re-checked first, and the re-check dated. Competitor profiles older than one quarter are stale per `scope.md`. Every compiled file states the oldest pull it depends on.
@@ -256,6 +306,12 @@ Per `projects/ORCHESTRATION.md`: hard cap of 3 concurrent agents machine-wide, m
 Split rule from `ORCHESTRATION.md` applies: one agent per task with a single deliverable file, one question, one done condition. Passes 2 through 5 fan out widest — fan-out reading with one shared output shape.
 
 Agents never run git. The main thread commits after every agent lands, on master.
+
+### Orchestration — cap revision 1, 2026-09-22
+
+Cap 10 live agents machine-wide per user 2026-09-22 22:30, superseding line 244. One browser-extension holder and one Playwright holder at a time. Spawn on completion notifications only. Deliverable globs disjoint per spawn.
+
+Line 244 as numbered at review time is the sentence opening this section: "Per `projects/ORCHESTRATION.md`: hard cap of 3 concurrent agents machine-wide, main thread is scheduler and does not count." That line is not edited; this note supersedes it. Companion append: `projects/ORCHESTRATION.md` "Concurrency cap — revised by the user 2026-09-22". Source: `plan-review-1-2026-09-22.md` §7.
 
 ## Programme done — evidence conditions only
 

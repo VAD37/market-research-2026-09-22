@@ -62,3 +62,9 @@ Corollary: **do not give a demo more polish than the reality has.** Layout fixes
 ## Runs
 
 Nothing spawned yet. First entry goes below, dated, with model and brief.
+
+## Concurrency cap — revised by the user 2026-09-22
+
+10 live agents machine-wide, main thread not counted, subagents counted. The 2026-09-17 reasoning (one browser, one Docker daemon) still binds the browser: one extension holder and one Playwright holder at a time. Scheduler rules 1–6 stand with 3 read as 10. Agents append to `STATE.md` by shell append of a pre-written block, never by read-modify-write. Wave plan remains dormant.
+
+Source: `../docs/method/plan-review-1-2026-09-22.md` §7. The 2026-09-17 MANDATE section above is not edited and its reasoning is not withdrawn; this section supersedes its number only.

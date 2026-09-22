@@ -93,6 +93,7 @@ Evidence kind first, minimum tier second. A condition is met only by evidence at
 | Date | ID | Note |
 |---|---|---|
 | 2026-09-22 | — | Registered. 23 hypotheses, 6 panel-checkable, all `unresolved` |
+| 2026-09-22 | HE2, HE3, HP1–HP4 | Producing pass 10 held by user decision 2026-09-22 22:40. If unsampled at Pass 9, mark not produced. No post-hoc row added |
 
 ## Caveats
 
