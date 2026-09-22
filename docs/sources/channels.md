@@ -1,5 +1,7 @@
 # Channels
 
+**Amended 2026-09-22 per `query-book-redteam.md`: C60, C61, C62, C63, C64, C65, C66, C67 added — the eight §6 additions, closing blind spots B4, B5, B6, B8, B9 and B11. No row removed. The `## Regulators` heading was widened to `## Regulators, courts and enforcement`. Access codes on the new rows are this agent's own checks of 2026-09-22; three differ from the red-team's expectation — see caveats.**
+
 Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CLAUDE.md`: channel, what it reliably yields, refresh rate, access cost, known bias. Tier is the expectation from `../method/trust-rubric.md`, not an assignment. Lanes A–F per `../method/glossary.md`; signals S1–S12 per `../method/demand-signals.md`. No market facts here — channels, not numbers. Every vendor and publisher name below came from a search run 2026-09-22; the URL recorded is where it was found.
 
 **Access codes**, from HTTP status checks run 2026-09-22 on this machine: `200` loads to plain fetch; `403→ext` refuses fetch, needs the Chrome extension; `404` the checked URL is gone; `000` no response; `login` / `paid` as marked.
@@ -20,6 +22,7 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C10 | Amazon Ads — what's new | `advertising.amazon.com/resources/whats-new` | Sponsored-prompt formats, billing model, console reporting | Irregular | 200 | Seller-facing | 3 | B, C | 2 | — |
 | C11 | Perplexity blog / hub | `perplexity.ai/hub/blog` | Ad-product status, publisher revenue-share programme | Irregular | 403→ext | Own framing; ad status has reversed | 3 | B | 2 | — |
 | C12 | Priority-3 engine own surfaces (Meta AI, Grok, DeepSeek) | `unknown — checked "Meta AI Grok DeepSeek ads commercial surface 2026" 2026-09-22` | Existence check only per `plan.md` | — | — | — | 3 | B | 2 | — |
+| C61 | Wayback Machine | `web.archive.org` | Prior state of a withdrawn or edited platform page | Continuous | root 200; WebFetch refused 2026-09-22 → ext | Capture gaps; robots-era exclusions | 3 | A, B, C | 2, 4 | — |
 
 ## Filings, funding, procurement
 
@@ -33,6 +36,7 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C18 | UK Contracts Finder | `contractsfinder.service.gov.uk/Search` | UK public contract awards and values | Daily | 200 | Public sector only | 2 | A, F | 8 | S10 |
 | C19 | USAspending | `usaspending.gov` | Award values against vendor names | Daily | 200 | Public sector only | 2 | A | 8 | S10, S11 |
 | C20 | TED (EU tenders) | `ted.europa.eu/en/` | EU contract-award notices | Daily | 405 to plain GET — search API or ext | Public sector only | 2 | A | 8 | S10 |
+| C67 | UK Companies House | `find-and-update.company-information.service.gov.uk` | Filing histories and accounts for UK-registered vendors | Continuous | 200 | UK only; small-company exemptions hide detail | 2 | A, E | 3 | S3 |
 
 ## Clickstream, panel, referral telemetry — Pass 2 first
 
@@ -77,6 +81,8 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C43 | Earnings-call transcripts | `fool.com/earnings-call-transcripts/`; 8-K exhibits via C13; company IR pages | Brand-side mentions of AI-surface performance, named budget lines | Quarterly | 200 | Transcriber errors; mentions are rare | 2 filed / 5 transcript | B, E, F | 4 | S7, S11 |
 | C44 | Conference agendas | `marketingaiinstitute.com/events/marketing-artificial-intelligence-conference/agenda`; ANA, Content Marketing World, GEO Conference listings | Session counts, speaker employers, track names | Annual | 200 | Sponsor-driven; a paid slot is not demand | 3 | A, B, F | 4, 8 | S8 |
 | C45 | Google Trends | `trends.google.com/trends/` | Indexed interest for alias terms, relative only | Continuous | 200 | Index not a count; GEO term is ambiguous | 4 | A | 8 | S9 |
+| C65 | OMR Reviews | `omr.com/en/reviews/category/ai`; `omr.com/de/reviews/` | DACH B2B review corpus carrying its own GEO category criteria | Continuous | 200 | DACH only; same review-farming risk as C36 | 5 | A, E | 3, 8 | S4 |
+| C66 | Buyer-side surveys and freelance marketplaces | `gartner.com/en/newsroom`; `bluevine.com/blog`; `sbecouncil.org`; `upwork.com`; `freelancer.com` | CMO spend allocations; SMB adoption bands; posted freelance rates | Annual / continuous | Gartner and Upwork 403→ext; other three 200 | Self-report; Gartner enterprise-skewed; a posted rate is an asking rate | 4–5 | A, E, F | 8 | S1, S6, S7, S11 |
 | C46 | Vendor own sites — pricing, customers, case studies | `tryprofound.com`, `peec.ai`, `scrunchai.com`, `otterly.ai`, `geosurge.ai`, `ahrefs.com/brand-radar`, `semrush.com/blog` | Disclosed price, named logos, case-study rosters, claimed n | Continuous | 200 (`semrush.com/ai/` 404 2026-09-22) | Vendor-reported; logos are not contracts | 5 with n, 6 without | A, E | 3, 4 | S2, S11 |
 
 ## Academic
@@ -87,8 +93,9 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C48 | ACL Anthology | `aclanthology.org` | Peer-reviewed NLP venue papers with artefacts | Per conference | 200 | Venue lag against a monthly-changing market | 3 | D, E | 5 | — |
 | C49 | Semantic Scholar | `semanticscholar.org` | Citation graph, replication trails, venue metadata | Continuous | 200 (API keyless, rate-limited) | Coverage gaps outside CS | 3 | D, E | 5 | — |
 | C50 | Google Scholar | `scholar.google.com` | Cited-by counts, grey literature, vendor whitepapers | Continuous | 200, aggressive rate limiting | Mixes preprint and reviewed without labelling | 4 | D, E | 5 | — |
+| C63 | ACM DL, OpenReview, USENIX, IEEE Xplore, DBLP | `dl.acm.org`; `openreview.net`; `usenix.org`; `ieeexplore.ieee.org`; `dblp.org` | SIGIR, CIKM, WSDM, RecSys, WWW, KDD and security-venue papers | Per conference | ACM 403→ext; IEEE 418 default UA, 200 browser UA; three 200 | Venue lag; ACM partly paywalled | 3 | D, E | 5 | — |
 
-## Regulators
+## Regulators, courts and enforcement
 
 | # | Channel | URL | Yields | Refresh | Access | Bias | Tier | Lane | Pass | Signal |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -96,6 +103,8 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C53 | FTC | `ftc.gov/business-guidance/blog` (endorsement-guides URL checked 2026-09-22 returned 404) | Endorsement and disclosure guidance, enforcement actions | Irregular | 200 | US only | 2 | B, D | 2, 5 | — |
 | C54 | UK CMA | `gov.uk/cma` | Market studies, digital-markets decisions | Irregular | 200 | UK only | 2 | B | 2 | — |
 | C55 | UK ASA | `asa.org.uk` | Ad-labelling rulings that reach AI surfaces | Weekly | 200 | UK only, complaint-driven | 2 | B | 2 | — |
+| C60 | EU DSA — enforcement, and Art. 39 ad repositories | `transparency.dsa.ec.europa.eu/`; `digital-strategy.ec.europa.eu`; `cnam.ie` | Designations and proceedings; each designated service's own ad repository | Continuous | 200 all three 2026-09-22 | EU-designated services only; field coverage varies per platform | 2 | B, C, D | 2 | S11 |
+| C62 | CourtListener / RECAP | `courtlistener.com` | Dockets and exhibits in publisher-versus-engine litigation | Daily | 403→ext 2026-09-22, curl and fetch alike | US dockets only; exhibits often sealed | 2 | B, D, E | 2, 4 | S11 |
 
 ## Trade press that links primary data
 
@@ -104,6 +113,7 @@ Pass 1, task P1-a, compiled 2026-09-22. Where each lane pulls from. Per `docs/CL
 | C56 | PPC Land | `ppc.land` | Paid-surface changes, usually with a primary link | Daily | 200 | Announcement-led; little verification | 5 pointer | B, C | 2, 4 | — |
 | C57 | Search Engine Land | `searchengineland.com` | Organic and paid surface changes | Daily | 403→ext | Vendor-sponsored content mixed in | 5 pointer | A, B | 2, 4 | — |
 | C58 | Digital Commerce 360, TechCrunch, Search Engine Journal | per query-book | Commerce and funding pointers to primary sources | Daily | mixed | Press-release derived | 5 pointer | C, E | 3, 4 | S3 |
+| C64 | EU trade press, German-language | `horizont.net`; `wuv.de`; `t3n.de`; `onlinemarketing.de` | EU ad-rollout coverage no English-language query surfaced | Daily | 200 all four | Announcement-led; DACH-weighted | 5 pointer | A, B | 2, 4 | — |
 | C59 | Wikipedia — category article | `en.wikipedia.org/wiki/Generative_engine_optimization` | Reference list as a pointer set only, never as a source | Continuous | 200 | Editor-selected; cites listicles | 6 | A | 3 | — |
 
 Trade press is a **pointer channel**: pull the primary it links, and file the trade item only when the primary is unreachable.
@@ -130,11 +140,11 @@ Trade press is a **pointer channel**: pull the primary it links, and file the tr
 
 ## Signal coverage check — every S has a channel
 
-S1 jobs: C33, C34, C35. S2 vendor customers: C46, C1, C5. S3 funding and ARR: C13, C14, C15, C16, C58. S4 reviews: C36, C37, C38. S5 community: C39, C40, C41. S6 agency pages: C42. S7 earnings: C43, C13. S8 agendas: C44. S9 search interest and share: C45, C21, C22, C23, C24, C26, C30. S10 procurement: C17, C18, C19, C20. S11 price paid: C43, C13, C19, C46. S12 on-property artifacts: C28, plus our own domain sampling (`../method/panel-protocol.md`).
+S1 jobs: C33, C34, C35, C66. S2 vendor customers: C46, C1, C5. S3 funding and ARR: C13, C14, C15, C16, C58, C67. S4 reviews: C36, C37, C38, C65. S5 community: C39, C40, C41. S6 agency pages: C42, C66. S7 earnings: C43, C13, C66. S8 agendas: C44. S9 search interest and share: C45, C21, C22, C23, C24, C26, C30. S10 procurement: C17, C18, C19, C20. S11 price paid: C43, C13, C19, C46, C60, C62, C66. S12 on-property artifacts: C28, plus our own domain sampling (`../method/panel-protocol.md`).
 
 ## Lane coverage check — three or more channels each
 
-A: C1, C3, C5, C8, C21–C24, C26–C28, C33–C46, C57, C59. B: C1, C2, C6, C7, C9–C11, C13, C43, C51–C58. C: C4, C5, C9, C10, C30–C32, C40, C58. D: C3, C8, C26, C28, C39, C40, C47–C50, C53. E: C13, C21–C24, C30, C43, C46, C47–C50. F: C13, C17, C18, C33–C35, C41–C44.
+A: C1, C3, C5, C8, C21–C24, C26–C28, C33–C46, C57, C59, C61, C64, C65, C66, C67. B: C1, C2, C6, C7, C9–C11, C13, C43, C51–C58, C60, C61, C62, C64. C: C4, C5, C9, C10, C30–C32, C40, C58, C60, C61. D: C3, C8, C26, C28, C39, C40, C47–C50, C53, C60, C62, C63. E: C13, C21–C24, C30, C43, C46, C47–C50, C62, C63, C65, C66, C67. F: C13, C17, C18, C33–C35, C41–C44, C66.
 
 ## Caveats
 
@@ -142,4 +152,6 @@ A: C1, C3, C5, C8, C21–C24, C26–C28, C33–C46, C57, C59. B: C1, C2, C6, C7,
 - Tier columns are expectations from `../method/trust-rubric.md`. Hidden method drops a tier at pull time, every time.
 - Four rows read `unknown — checked <terms> 2026-09-22`: C12 (priority-3 commercial surfaces), C25 (Comscore free series), C29 (non-Cloudflare CDN telemetry), and the C41 community index (`thehiveindex.com` returned `000`).
 - Every clickstream and CDN row sells something adjacent to what it measures. C21, C22, C26 and C30 are publisher-and-vendor in one; `plan.md`'s reweight rule rests on them, so conflicting share figures sit side by side and are never averaged.
+- C60 correction, on read 2026-09-22: `transparency.dsa.ec.europa.eu` is the statements-of-reasons database plus a Research API and publishes no ad records. DSA ad repositories are per-service under Art. 39 and are reached through each designated engine's own transparency page, not centrally. The red-team's row called the central database an ad repository; the row above says what the page says.
+- Three red-team access expectations did not hold to this agent's fetch on 2026-09-22: C62 CourtListener (expected 200, observed 403 to curl and to plain fetch), C63 `dl.acm.org` (403) and `ieeexplore.ieee.org` (418 to a default user-agent, 200 to a browser one), C66 `gartner.com/en/newsroom` and `upwork.com` (403). Each is recorded `403→ext`, which is a fetch-path result and not proof the channel is closed.
 - C59 Wikipedia is a pointer at tier 6; its reference list routinely includes tier-7 listicles. This file names no vendor as a competitor and ranks nothing — the census is Pass 3.
