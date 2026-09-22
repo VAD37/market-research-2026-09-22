@@ -10,7 +10,7 @@ Pass 1 — Sources. Gate: open (Pass 0 landed 2026-09-22). Pass 10 sampling runs
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P1-a | Opus | Channels, shortlist, query book | `docs/sources/channels.md`, `shortlist.md`, `query-book.md` | 2026-09-22 |
+| P1-b | Opus | Red-team query-book.md | `docs/sources/query-book-redteam.md` | 2026-09-22 |
 | P10-d0-claude | Sonnet | Panel sample day 0, Claude, prompt set v1 | `docs/raw/e-claude-panel-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
@@ -19,7 +19,6 @@ Front first.
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P1-b | 1 | Opus | Red-team query-book.md | `docs/sources/query-book-redteam.md` |
 | P10-d0-gemini | 10 | Sonnet | Panel sample day 0, Gemini | `docs/raw/e-gemini-panel-2026-09-22.md` |
 | P10-d0-google-aimode | 10 | Sonnet | Panel sample day 0, Google AI Mode + AI Overviews | `docs/raw/e-google-aimode-panel-2026-09-22.md` |
 | P10-d0-perplexity | 10 | Sonnet | Panel sample day 0, Perplexity | `docs/raw/e-perplexity-panel-2026-09-22.md` |
@@ -36,12 +35,11 @@ Front first.
 | P0-c panel protocol | `docs/method/panel-protocol.md` | 2026-09-22 | f5a06cd |
 | **Pass 0 done** | all five Pass 0 deliverables | 2026-09-22 | f5a06cd |
 | P10-d0-chatgpt | `docs/raw/e-chatgpt-panel-2026-09-22.md` — surface blocked, 0 of 160 runs | 2026-09-22 | 58e469b |
+| P1-a channels, shortlist, query book | `docs/sources/channels.md` (145), `shortlist.md` (78), `query-book.md` (118); 29 clusters | 2026-09-22 | 9aca6b4 |
 
 ## Landed — pending verify
 
 Agents append one block here on finish: deliverable path, pulls made (count), unknowns recorded (count), blockers.
-
-- task: P10-d0-chatgpt | deliverable: `docs/raw/e-chatgpt-panel-2026-09-22.md` | runs completed / planned: 0 / 160 (32 prompts x n=5) | prompts with achieved_n < 5: 32 (all) | unknowns recorded: 6 (model_version_shown, region_observed, login_state, search_toggle, arm-toggle state, screenshot_ref) | surface status: surface blocked — Chrome extension site permission not granted for chatgpt.com (navigate to https://chatgpt.com/ succeeds; every subsequent read/interact call — get_page_text, screenshot — returns "Permission denied for this action on this domain"; tab reverts to chrome://newtab/ between calls) | blockers: extension needs chatgpt.com site permission granted before this task can be re-run.
 
 ## Pass 10 sampling log
 
