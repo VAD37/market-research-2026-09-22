@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Pass 4 done 2026-09-22 (13 clusters). Pass 5 done. Pass 6 compile open (P6-c0 landed): organic and paid live, agentic queued. Pass 7 open (gate 3+4): seven rows queued. Pass 8 done. Pass 9 blocked by: P6-agentic and the six Pass 7 profile clusters (all live). Pass 10 held by user; Pass 11 blocked.
+Pass 4 done 2026-09-22 (13 clusters). Pass 5 done. Pass 6 done. Pass 7 open (gate 3+4): seven rows queued. Pass 8 done. Pass 9 blocked by: Pass 7 (six profile clusters live, INDEX queued). Pass 10 held by user; Pass 11 blocked.
 
 ## Live agents
 
@@ -12,10 +12,8 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P6-agentic | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` | 2026-09-22 |
 | P7-organic-a | Opus | Competitor profiles, organic roster 1–8 (Searchable, geoSurge, Peec AI, Promptwatch, Profound, AthenaHQ, RankPrompt, Sitefire) | `docs/competitors/<vendor>.md` ×8 | 2026-09-22 |
 | P7-incumbent-a | Opus | Competitor profiles, incumbents 1–6 (AirOps, Conductor, HubSpot, Yext, Ahrefs, Birdeye) | `docs/competitors/<company>.md` ×6 | 2026-09-22 |
-| P3-repull-sec | Sonnet | Probe-gated SEC re-pull: CHGA, LCFY, HUBS, YEXT, SEMR, SMWB filings from sec.gov | `docs/raw/a-<co>-filing-sec-2026-09-22.md` | 2026-09-22 |
 | P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
 | P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
@@ -105,6 +103,9 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 8 done** | three customers/ files; 27 cells: spend 7, attention 1, none 11, blank 8; willingness to pay unknown in all 27 | 2026-09-22 | 0b99feb |
 | P5-c5 structured data / llms.txt | 9 pulls `docs/raw/d-structured-*` + `d-technique-census-c5-2026-09-22.md`; ChatGPT, Claude, Google, Perplexity read as not consuming llms.txt (Google explicit 2026-07-10; Borysenko HTTP study tier 4, zero fetches); 5 of 6 engines self-publish one; adoption 9 figures incl. measured-by-us; 5 measured rows, strongest vendor-authored RAG experiment | 2026-09-22 | 93898c1 |
 | **Pass 5 done** | 7 technique clusters, ~70 raw pulls; no technique has a published single-action before-and-after on a production surface; engines name prompt injection, fake reviews, scaled content abuse — not seeding, comparison farming or citation-preference content | 2026-09-22 | 93898c1 |
+| P6-agentic | `docs/markets/agentic-commerce.md` (120 lines); no computable size; 7 forecasts $144B–$5T (2029–30) plus Gartner $15T and GVR $5.7B side by side; measured present-state figures kept separate; 6 protocols with owner, licence, governance, gate; only fee disclosed Copilot 0% | 2026-09-22 | 1db88aa |
+| **Pass 6 done** | three markets/ files, 120 lines each, all structural checks answered or unknown; no sub-market has a measured size | 2026-09-22 | 1db88aa |
+| P3-repull-sec | `docs/raw/a-sec-probe-2026-09-22.md` — HTTP 503 Akamai maintenance page; re-pull deferred, substitutes stand | 2026-09-22 | 1db88aa |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -156,7 +157,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Per-engine (ChatGPT / Claude / Google) referral or conversion breakout from any free retail-analytics publisher | Adobe Digital Insights, Salesforce, Shopify | 2026-09-22 |
 | Any ad repository entry distinguishing an ad inside a conversational AI answer; Amazon Ad Library fields; UK codified AI-ad disclosure rule | DSA repositories of Google, Microsoft, Meta, X, Amazon; ASA/CAP | 2026-09-22 |
 | AthenaHQ funding (Crunchbase / PitchBook 403); Peec AI price (JS-rendered) | vendor sites, crunchbase.com, pitchbook.com | 2026-09-22 |
-| sec.gov, data.sec.gov, efts.sec.gov all 403 this session (robots.txt too) | fetch, Playwright | 2026-09-22 |
+| sec.gov, data.sec.gov, efts.sec.gov 403 all session; probe at ~01:00 next day HTTP 503 Akamai maintenance | fetch, Playwright, curl with contact UA | 2026-09-22 |
 | SEC EDGAR full-text on "AI visibility" (HTTP 500); Capterra / TrustRadius not reached | efts.sec.gov, capterra.com, trustradius.com | 2026-09-22 |
 | Dockets naming Amazon, Meta AI or xAI with a publisher/brand/advertiser | courtlistener.com (WAF challenge blocked search) | 2026-09-22 |
 | OpenAI Instant Checkout fee / take rate | openai.com, help.openai.com, developers.openai.com commerce pages | 2026-09-22 |
@@ -219,3 +220,14 @@ P8-skincare landed 2026-09-22: `docs/customers/skincare-beauty.md` (100 lines). 
 - Unknowns: 4 rows (Indeed/Upwork 403; G2/Capterra 403 plus reddit 403; Google Trends browser-only; sam.gov/Contracts Finder/TED).
 - Oldest pull depended on: 2026-09-22; underlying documents 2026-02-25 to 2026-09-17. Blocked: nothing. No git run.
 | P5-c5 correction | Filenames in the P5-c5 row above were landed as `d-llmstxt-*`, `d-schemaorg-*`, `d-google-ai-optimization-guide-*`, `d-arxiv-*`, `d-priority-engines-*`, `d-llmstxtio-*`, `d-redocly-*` — outside the task's assigned `d-structured-*` glob. All 9 files renamed to `d-structured-<slug>-2026-09-22.md` and all internal cross-references (within the 9 files and in `d-technique-census-c5-2026-09-22.md`) updated to match; content unchanged. Counts in the P5-c5 row above (9 pulls, 18 matrix cells, adoption/measured-effect/backlog/unknown counts) are unaffected and still accurate — only filenames moved | 2026-09-22 | — |
+| P3-repull-sec | Probe-gated SEC re-pull, per brief. Single fetch to EDGAR browse-edgar (CHGA) with browser-style UA naming contact, per SEC fair-access policy: HTTP 503, Akamai apology page ("File Unavailable" / "temporarily unavailable... undergoing maintenance"), not EDGAR content. `docs/raw/a-sec-probe-2026-09-22.md` written per template (tier 7, blocked-access record), STOPPED per instruction -- no other host tried, no retry, no company filings pulled, tier-5/tier-3 substitutes untouched | 2026-09-22 | -- |
+
+### P6-agentic — landed 2026-09-22
+
+- Deliverable: `docs/markets/agentic-commerce.md`, 120 lines (budget 120).
+- Oldest pull depended on: 2026-09-22 — every raw file cited. Oldest source publication carried: 2024-11-18 (Perplexity Buy with Pro), flagged stale; Google UCP post 2026-01-11 also outside the quarter.
+- Structural checks: 4 of 4 answered, plus addition 1 (acquirer/date, designation per engine). Three embedded `unknown — checked`: agentic-commerce acquisition, payment-specific rule, commerce docket (CourtListener WAF).
+- Per-engine cells (7 engines x 5 cells = 35): 21 filled from a quote, 9 `unknown — checked`, 5 n/a (no program exists).
+- Protocols with owner, licence, governance and gate stated: 6 of 6 (ACP, AP2, UCP, x402, Visa TAP, Mastercard Agent Pay); MCP recorded as non-commerce transport.
+- No bottom-up size is computable: 1 of 3 lane-C vendors discloses price, 1 of 4 live engine programs discloses a fee (Copilot 0%), no engine discloses a merchant count.
+- Blocked: nothing. Compiled from docs/raw/ only; no pulls, no browsing, no git.
