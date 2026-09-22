@@ -18,10 +18,10 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P7-incumbent-a | Opus | Competitor profiles, incumbents 1–6 (AirOps, Conductor, HubSpot, Yext, Ahrefs, Birdeye) | `docs/competitors/<company>.md` ×6 | 2026-09-22 |
 | P8-skincare | Opus | Compile `customers/skincare-beauty.md`, nine cells, one-word reads | `docs/customers/skincare-beauty.md` | 2026-09-22 |
 | P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
-| P5-c4 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-citationpref-*`, `d-technique-census-c4-2026-09-22.md` | 2026-09-22 |
+| P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
-| P8-b2b-saas | Opus | Compile `customers/b2b-saas.md`, nine cells, one-word reads | `docs/customers/b2b-saas.md` | 2026-09-22 |
+| P7-agency | Opus | Competitor profiles, agencies (Pace Generative / Onfolio, Orange142, Intero Digital, Seer Interactive, Fire&Spark) | `docs/competitors/<agency>.md` ×5 | 2026-09-22 |
 
 ## Queue
 
@@ -29,7 +29,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P7-agency, P7-sellside, P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
+| P7-INDEX (last) | 7 | Opus | Profiles per cluster, 80 lines each; INDEX compiled from landed profiles | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P9, P10-analysis, P11 | 9–11 | Opus | Blocked | per plan.md |
@@ -101,6 +101,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P6-organic | `docs/markets/organic-recommendation.md` (120 lines); bottom-up floor $5.3M–$35.2M annualised from 4 of 34 disclosing vendors; 5 published sizes all tier-6 forecasts; 5 of 5 structural checks answered; proof: 0 Gold / 3 Silver / 45 Bronze | 2026-09-22 | 4efff1a |
 | P6-paid | `docs/markets/paid-placement.md` (120 lines); 5 of 8 engines live product, Claude explicit no; 0 rate cards, no computable size; OpenAI $1B run-rate tier 3; 4 of 4 checks + addition 1; litigation table | 2026-09-22 | 4efff1a |
 | P5-c6 prompt injection | 13 pulls `docs/raw/d-injection-*` + `d-technique-census-c6-2026-09-22.md`; 9 papers tier 3–5, 4 engine statements, 1 disclosure (Brave / Comet 2025-08-20); no in-the-wild brand-steering campaign documented; OpenAI Operator card carries the only quantified figures; caveat: WebFetch summarises, "verbatim" is best-effort | 2026-09-22 | 937ab68 |
+| P8-b2b-saas | `docs/customers/b2b-saas.md` (100 lines); organic × SMB / mid / enterprise read spend on S1 job postings (Actindo, AutoLeap, Pennylane, Mercury; tier 3); 6 paid / agentic cells none — checked (9 of 12 signals); willingness to pay unknown ×9 | 2026-09-22 | f91ad1c |
+| P5-c4 citation preference | 9 pulls `docs/raw/d-citationpref-*` + `d-technique-census-c4-2026-09-22.md`; tiers 3–5; 9 measured rows all benchmark, 0 live-site; C-SEO Bench, FeatGEO, CC-GSEO-Bench contradict foundational GEO gains (side by side); engines name no content feature as a citation input | 2026-09-22 | 22e9125 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -183,3 +185,20 @@ P8-c1-sk landed 2026-09-22: `docs/raw/f-signal-sk-S1-*` through `f-signal-sk-S12
 - Sizing: bottom-up **$5.3M-$35.2M annualised**, covering 4 of 34 rostered names; inputs are disclosed price x disclosed customer count for Searchable, Promptwatch, Scrunch, Rankscale, x12. No enterprise tier in the build. 5 published organic sizes recorded side by side as forecasts, all tier 6. One proxy: IAB 76%/48% buyer-focus shares (tier 4).
 - Numbers in file: ~95 figures, every one carrying a source label and a `raw/` path — yes. No figure appears that is not in a `docs/raw/` file.
 - Blockers: none. Concurrent-agent raw files (`d-countermeasure-*`, `d-comparison-*`, `d-citationpref-*`, `d-structured-*`, `d-injection-*`, `f-signal-*`) not read; `docs/markets/paid-placement.md` not read or written. Bounding unknowns: no named-analyst-house size for this sub-market, no dollar SEO-budget-share proxy, no vendor AI-visibility product revenue broken out, Scrunch/Sitecore deal value undisclosed at primary.
+
+### P8-b2b-saas — landed 2026-09-22
+
+- Deliverable: `docs/customers/b2b-saas.md`, 100 lines (budget 100).
+- Cell reads: **spend 3** (organic × SMB / mid-market / enterprise), **attention 0**, **none — checked 6** (paid ×3, agentic ×3).
+- Deciding signal in all three spend cells: S1 job postings, tier 3, `docs/raw/f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md` — Actindo 52-70 emp (SMB), AutoLeap 199-225 (mid), Pennylane 1,100+ / Mercury 1,001-5,000 (enterprise). Tier 3 is above the tier-5 floor; the census had read the floor backwards and its contrary tally is cited side by side.
+- The six `none` reads are partial: 9 of 12 signals checked (S5, S6 never run with paid/agentic terms; S12 n/a by construction). Flagged in the file.
+- Willingness to pay: `unknown` in all nine cells. No disclosed price paid anywhere in this vertical.
+- Hypotheses: H4 falsifier condition met in this vertical (Organic/SMB reads spend). H7, H9 inputs recorded only.
+- Oldest pull depended on: 2026-09-22 (all cited raw). Oldest publication depended on: 2025-06-03.
+- Blocked: 9 browser-backlog items from the sweep stay open (G2, Capterra, Indeed, Upwork, Freelancer, Reddit, Google Trends, Contracts Finder, TED). No git run.
+
+## Landed — pending verify
+
+| task | deliverable | verified | commit |
+|---|---|---|---|
+| P5-c4 citation-preference content | 9 pulls `docs/raw/d-citationpref-*-2026-09-22.md` + `d-technique-census-c4-2026-09-22.md`; both shortlist seeds resolved to papers already pulled at P5-c1 (critical survey, GEO-Bench), followed the survey's own citation trail instead; 9 measured-effect rows, all benchmark setting, 0 live-site brand campaigns found, 1 genuine pre/post (FeatGEO Table 4, benchmark corpus); C-SEO Bench/FeatGEO/CC-GSEO-Bench contradict the foundational GEO paper's headline gains (side by side, not reconciled); highest tier 3 (FeatGEO ACL 2026, Venkit et al. ACM FAccT 2025); engines checked: Google (2 pages), OpenAI (FAQ + usage policy), Anthropic (usage policy) — 0 of 3 name any of the technique's content features; Perplexity/Copilot/Amazon routed to P5-c7 (unknown); browser backlog 0; unknowns 7; no blockers | 2026-09-22 | — |
