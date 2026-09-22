@@ -21,7 +21,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P5-c4 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-citationpref-*`, `d-technique-census-c4-2026-09-22.md` | 2026-09-22 |
 | P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
 | P5-c6 | Sonnet | Prompt injection embedded in indexed content | `docs/raw/d-injection-*`, `d-technique-census-c6-2026-09-22.md` | 2026-09-22 |
-| P8-c1-bs | Sonnet | Demand-signal sweep, B2B SaaS, nine cells | `docs/raw/f-signal-bs-*`, `f-signal-census-bs-2026-09-22.md` | 2026-09-22 |
+| P8-b2b-saas | Opus | Compile `customers/b2b-saas.md`, nine cells, one-word reads | `docs/customers/b2b-saas.md` | 2026-09-22 |
 
 ## Queue
 
@@ -30,7 +30,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | P6-agentic | 6 | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` |
-| P8-skincare, P8-b2b-saas, P8-high-cpa | 8 | Opus | Compile one customers/ file per vertical as each sweep lands | `docs/customers/<vertical>.md` |
+| P8-skincare, P8-high-cpa | 8 | Opus | Compile one customers/ file per vertical as each sweep lands | `docs/customers/<vertical>.md` |
 | P7-INDEX, P7-organic-a, P7-organic-b, P7-incumbent-a, P7-incumbent-b, P7-agency, P7-sellside | 7 | Opus | Pre-staged; spawn when Pass 4 lands | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
@@ -95,6 +95,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P4-c13 Pass 3 re-grade | 13 pulls `docs/raw/e-case-c13-*` + `e-case-census-c13-2026-09-22.md`; ~150 titles: 45 Bronze, 3 Silver, 0 Gold, 24 Fools gold, 34 no claim, 25 not opened; 12 up, 0 down; Sitefire/Jerry → Silver (conflicts with P4-c10's Bronze — both stand) | 2026-09-22 | 718b133 |
 | **Pass 4 done** | 13 clusters; Silvers: Quattr/Men's Wearhouse, Sitefire/Pointhound, Sitefire/Jerry (vendor); Seer content-recency (agency); Tiwari GSC audit (practitioner); NerdWallet (filing, negative); TW3/Citead replication (null); 0 Gold; per vertical: skincare 0 Silver, B2B SaaS 1, high-CPA 1 (negative) | 2026-09-22 | 718b133 |
 | P6-c0 published sizes | 16 pulls `docs/raw/e-market-size-*` + `e-market-size-table-2026-09-22.md`; 18 figures, 15 forecast-labelled, 3 measured (none a TAM), 6 with no base year; agentic forecasts diverge $5.7B–$15T; Gartner/GVR 403, no Forrester/IDC/Statista figure found | 2026-09-22 | 4b10b4c |
+| P8-c1-bs B2B SaaS signals | 15 pulls `docs/raw/f-signal-bs-S*` + `f-signal-census-bs-2026-09-22.md`; 3 of 9 cells checked (organic × SMB / mid / enterprise via S1 job postings, tier 3); paid and agentic cells none; S1/S4/S5/S9/S10 channels 403 or gated; 9 browser backlog. Note: agent's block reads the tier floor backwards — tier 3 is above the tier-5 floor; compile applies demand-signals.md literally | 2026-09-22 | ae1644b |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
