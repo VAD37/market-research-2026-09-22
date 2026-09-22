@@ -16,7 +16,7 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P5-c7 | Sonnet | Engine countermeasures, priority-1 and priority-2 engines | `docs/raw/d-countermeasure-*`, `d-technique-census-c7-2026-09-22.md` | 2026-09-22 |
 | P8-c1-hr | Sonnet | Demand-signal sweep, high-CPA regulated, nine cells | `docs/raw/f-signal-hr-*`, `f-signal-census-hr-2026-09-22.md` | 2026-09-22 |
 | P6-paid | Opus | Compile `markets/paid-placement.md` | `docs/markets/paid-placement.md` | 2026-09-22 |
-| P8-c1-sk | Sonnet | Demand-signal sweep, skincare and beauty, nine cells | `docs/raw/f-signal-sk-*`, `f-signal-census-sk-2026-09-22.md` | 2026-09-22 |
+| P8-skincare | Opus | Compile `customers/skincare-beauty.md`, nine cells, one-word reads | `docs/customers/skincare-beauty.md` | 2026-09-22 |
 | P6-organic | Opus | Compile `markets/organic-recommendation.md` | `docs/markets/organic-recommendation.md` | 2026-09-22 |
 | P5-c4 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-citationpref-*`, `d-technique-census-c4-2026-09-22.md` | 2026-09-22 |
 | P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
@@ -30,7 +30,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | P6-agentic | 6 | Opus | Compile `markets/agentic-commerce.md` | `docs/markets/agentic-commerce.md` |
-| P8-skincare, P8-high-cpa | 8 | Opus | Compile one customers/ file per vertical as each sweep lands | `docs/customers/<vertical>.md` |
+| P8-high-cpa | 8 | Opus | Compile one customers/ file per vertical as each sweep lands | `docs/customers/<vertical>.md` |
 | P7-INDEX, P7-organic-a, P7-organic-b, P7-incumbent-a, P7-incumbent-b, P7-agency, P7-sellside | 7 | Opus | Pre-staged; spawn when Pass 4 lands | `docs/competitors/` |
 | P3-repull-sec | 3 | Sonnet | Probe-gated: one EDGAR fetch first; 403 → record blocked and stop. Re-pull CHGA, LCFY, HUBS, YEXT filings | `docs/raw/a-<co>-filing-sec-<date>.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
@@ -96,6 +96,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 4 done** | 13 clusters; Silvers: Quattr/Men's Wearhouse, Sitefire/Pointhound, Sitefire/Jerry (vendor); Seer content-recency (agency); Tiwari GSC audit (practitioner); NerdWallet (filing, negative); TW3/Citead replication (null); 0 Gold; per vertical: skincare 0 Silver, B2B SaaS 1, high-CPA 1 (negative) | 2026-09-22 | 718b133 |
 | P6-c0 published sizes | 16 pulls `docs/raw/e-market-size-*` + `e-market-size-table-2026-09-22.md`; 18 figures, 15 forecast-labelled, 3 measured (none a TAM), 6 with no base year; agentic forecasts diverge $5.7B–$15T; Gartner/GVR 403, no Forrester/IDC/Statista figure found | 2026-09-22 | 4b10b4c |
 | P8-c1-bs B2B SaaS signals | 15 pulls `docs/raw/f-signal-bs-S*` + `f-signal-census-bs-2026-09-22.md`; 3 of 9 cells checked (organic × SMB / mid / enterprise via S1 job postings, tier 3); paid and agentic cells none; S1/S4/S5/S9/S10 channels 403 or gated; 9 browser backlog. Note: agent's block reads the tier floor backwards — tier 3 is above the tier-5 floor; compile applies demand-signals.md literally | 2026-09-22 | ae1644b |
+| P8-c1-sk skincare signals | 10 pulls `docs/raw/f-signal-sk-S*` + `f-signal-census-sk-2026-09-22.md`; enterprise organic (e.l.f. AEO/GEO team posting; Coty 10-K GEO passage, tier 2) and enterprise agentic (e.l.f. AI Product Owner, $110–140K) checked; SMB organic one OMR reviewer; paid and mid-market none; Indeed / Upwork / G2 / Capterra blocked even via extension; S7 Coty file edited once post-creation (headcount added) — flagged; tier-floor misread as in bs | 2026-09-22 | 20e92a4 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -166,3 +167,5 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Success stories | One Silver per vertical, or documented absence with screened count | not started |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | not started |
 | Pass 10 | Three pre-registered predictions checked against the panel | not started |
+
+P8-c1-sk landed 2026-09-22: `docs/raw/f-signal-sk-S1-*` through `f-signal-sk-S12-*` (10 raw pulls: S1,S4,S5,S6,S7,S8,S9,S10,S11,S12) + `f-signal-census-sk-2026-09-22.md`. Cells with at least one checked signal: 2 of 9 (Organic/Enterprise, Agentic/Enterprise). SMB carries 1 checked signal (Organic, S4 only). Signals with a blocked channel: S1 (Indeed, Upwork both blocked), S4 (G2, Capterra both blocked), S5 (reddit.com 403). Spend-class signals found: 3 (S1 Organic/Ent tier 3, S1 Agentic/Ent tier 3, S7 Organic/Ent tier 2 — all below the tier-5 cell-read floor, so read as attention per demand-signals.md). Unknowns: 9 channel-level (see census "Unknowns per channel"). Deviations: S2/S3 not freshly pulled (task scope: read-only against a-vendor-census-c1-c4, zero beauty matches); sam.gov/Contracts Finder proved non-phrase-matching (recorded, not silently trusted); one raw file (S7) edited once post-creation to add a same-source headcount figure (Coty 10-K Human Capital section) for correct buyer-size attribution — flagged since raw/ is normally never edited after landing.
