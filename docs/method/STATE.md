@@ -8,11 +8,20 @@ Pass 3 — Raw wave B, one cluster left (P3-c6). Pass 4 — success-story hunt, 
 
 ## Live agents
 
+Cap 10 from 2026-09-22 22:30 (user). One browser sampler at a time.
+
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P2-reweight | Opus | Engine priority reweight from the share table, dated, appended to plan.md engine matrix | `docs/method/plan.md` (append only) | 2026-09-22 |
-| P2-c2 | Sonnet | CDN and crawler telemetry | `docs/raw/a-*-crawler-*-2026-09-22.md` per pull | 2026-09-22 |
-| P3-c6 | Sonnet | Sell-side of paid and agentic commerce, from P2-c6/c7 partner lists, cap 8 | `docs/raw/{b,c}-<vendor>-*-2026-09-22.md` | 2026-09-22 |
+| P3-c6 | Sonnet | Sell-side of paid and agentic commerce, from P2-c6/c7 partner lists, cap 8 | `docs/raw/{b,c}-<vendor>-*-2026-09-22.md`, `c-vendor-census-c6-2026-09-22.md` | 2026-09-22 |
+| P4-c1 | Sonnet | Earnings calls and investor decks | `docs/raw/e-case-*`, `e-case-census-c1-2026-09-22.md` | 2026-09-22 |
+| P10-d0-google-aimode-retry | Sonnet | Google AI Mode + AI Overviews day 0 retry via reconnected extension | `docs/raw/e-google-aimode-panel-2026-09-22-retry.md` | 2026-09-22 |
+| P4-c2 | Sonnet | Agency data posts carrying client numbers | `docs/raw/e-case-*`, `e-case-census-c2-2026-09-22.md` | 2026-09-22 |
+| P4-c3 | Sonnet | Conference talks with slides | `docs/raw/e-case-*`, `f-conference-*`, `e-case-census-c3-2026-09-22.md` | 2026-09-22 |
+| P4-c4 | Sonnet | Vendor case studies | `docs/raw/e-case-*`, `e-case-census-c4-2026-09-22.md` | 2026-09-22 |
+| P4-c5 | Sonnet | Practitioner write-ups | `docs/raw/e-case-*`, `a-practitioner-*`, `e-case-census-c5-2026-09-22.md` | 2026-09-22 |
+| P4-c6 | Sonnet | Trade press that links primary data | `docs/raw/*-pointer-*`, `e-case-census-c6-2026-09-22.md` | 2026-09-22 |
+| P5-c1 | Sonnet | Corpus seeding in high-citation sources | `docs/raw/d-seeding-*`, `d-technique-census-c1-2026-09-22.md` | 2026-09-22 |
+| P5-c2 | Sonnet | Review and listicle manufacture | `docs/raw/d-review-*`, `d-technique-census-c2-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
 
@@ -20,13 +29,6 @@ Front first. One P10 sampler at a time. Rows marked `10 held` wait for the claud
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P4-c2 | 4 | Sonnet | Agency data posts carrying client numbers | as above |
-| P4-c3 | 4 | Sonnet | Conference talks with slides | as above |
-| P4-c4 | 4 | Sonnet | Vendor case studies | as above |
-| P4-c5 | 4 | Sonnet | Practitioner write-ups | as above |
-| P4-c6 | 4 | Sonnet | Trade press that links primary data | as above |
-| P5-c1 | 5 | Sonnet | Corpus seeding in high-citation sources | `docs/raw/d-*` |
-| P5-c2 | 5 | Sonnet | Review and listicle manufacture | `docs/raw/d-*` |
 | P5-c3 | 5 | Sonnet | Comparison-page farming | `docs/raw/d-*` |
 | P5-c4 | 5 | Sonnet | Content written to satisfy known citation preferences | `docs/raw/d-*` |
 | P5-c5 | 5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-*` |
@@ -155,6 +157,7 @@ Agents append one block here on finish: deliverable path, pulls made (count), un
 | 2026-09-22 | Remaining day-0 samplers (Copilot, Rufus + P3 checks, and the ChatGPT / AI Mode / Gemini / Claude retries) held until the claude-in-chrome extension reconnects; the sampling slot is lent to Passes 3–5 meanwhile | Two consecutive surfaces bot-blocked the Playwright fallback; a third blocked file adds no evidence. Not a skipped date: day 0 is recorded per engine as sampled, partial, or blocked |
 | 2026-09-22 | Chrome extension reconnected ~22:00 HCM (tabs_context_mcp answers); held samplers resume one at a time, priority-1 engines first | Extension is the only browser path not bot-blocked on consumer surfaces |
 | 2026-09-22 | WebSearch tool budget (200 calls) exhausted for this orchestrator session; agent briefs now tell agents to rely on direct fetch, site search endpoints (EDGAR full-text, HN Algolia, DuckDuckGo HTML) and the browser | Reported by P3-c0, P3-c1, P3-c3, P3-c5 |
+| 2026-09-22 22:30 | Concurrency cap raised by the user from 3 to 10 live agents machine-wide; one browser sampler at a time still | User instruction in chat; supersedes ORCHESTRATION.md and plan.md cap of 3 for this programme |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
