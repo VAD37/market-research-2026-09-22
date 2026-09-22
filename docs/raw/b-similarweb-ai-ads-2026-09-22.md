@@ -1,0 +1,58 @@
+# Similarweb — "Similarweb Unlocks the Black Box of AI Ad Placements Across ChatGPT, Google AI Overviews, and AI Mode"
+
+```yaml
+source:          Similarweb Ltd. (NYSE: SMWB), via its own Investor Relations press-release page
+url_or_doc_id:   https://ir.similarweb.com/news-events/press-releases/detail/158/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode (source release distributed via Business Wire: https://www.businesswire.com/news/home/20260818652197/en/)
+published:       2026-08-17 (8:00 am EDT; IR page assigns URL slug "20260818" reflecting a later UTC/distribution timestamp — the release itself is dated August 17, 2026, 8:00 am EDT, on the page)
+pull_date:       2026-09-22
+pull_method:     fetch (mcp fetch tool; ir.similarweb.com fetched cleanly, no 403)
+pull_purpose:    evidence about a number
+tier:            5
+tier_reason:     vendor press release, no independent n or sample disclosed for the three headline percentages (26% / ~30% / 40%+) beyond the general "real user panel conversations" methodology claim — no panel size, recruitment, or date window stated on this page, so held below tier 4 despite method being named; per trust-rubric.md tier 5 "vendor or agency study with n, dates, method" is not fully met (no n disclosed) and this is downgraded from a possible 4 to 5, bias flagged (Similarweb sells the product the release promotes)
+source_label:    vendor-reported
+lane:            B
+sub_market:      paid placement
+engine:          ChatGPT — OpenAI; Google (AI Mode, AI Overviews)
+metric_kind:     traffic
+supersedes:      none
+captured:        full page. Pointer trade item: PPC Land, "Similarweb opens AI ad data as 26% of ChatGPT replies carry sponsored ads," https://ppc.land/similarweb-opens-ai-ad-data-as-26-of-chatgpt-replies-carry-sponsored-ads/, published 2026-08-17, read 2026-09-22 — primary reached, no separate pointer file filed.
+```
+
+## Verbatim
+
+Headline: "Similarweb Unlocks the Black Box of AI Ad Placements Across ChatGPT, Google AI Overviews, and AI Mode." Sub-headline: "Until now, advertisers have had no visibility into AI ads for themselves and competitors." Dateline: "TEL AVIV, Israel--(BUSINESS WIRE)--" Released "August 17, 2026 8:00 am EDT."
+
+> "Today, Similarweb (NYSE: SMWB) announced its newest Ad Intelligence data set, AI Ads, that fills an important gap for advertisers trying to understand the changing competitive landscape for ads in ChatGPT and Google's AI Mode and AI Overviews.
+>
+> With AI Ads, Similarweb customers can see a competitive analysis of ads on the most used conversational AI platforms, ChatGPT, Google AI Mode & Google AI Overview, worldwide and for specific markets."
+
+The three headline figures:
+
+> "To-date, 26% of ChatGPT responses already carry a sponsored ad (shown to users in the ChatGPT Free and Go tiers), and nearly 30% of ad-eligible Google AI Mode queries already show ads as well. Finally, over 40% of Google searches now trigger an AI Overview, and those AI Overviews often include ads."
+
+Comparator on transparency:
+
+> "Most major ad channels have a public transparency layer: Meta has the Ad Library. Google has its Ads Transparency Center. TikTok has the Creative Center. ChatGPT, AI Mode, and AI Overview, however, have none of that — not for competitors, and often not even for the advertiser's own team.
+>
+> For AI Mode & AI Overview, advertisers participating in Google's broader digital advertising programs are blind to ad placements in Google AI answers. Most advertisers don't know whether their own ads are running in that context, let alone how they stack up against competitors. Google's visibility tools don't answer that question."
+
+Method statement (the full extent of method disclosure on this page):
+
+> "What makes Similarweb's approach unique is that these insights are drawn from real user panel conversations, not synthetic prompts. We anticipate upcoming releases of the AI Ads dataset will add advertisers' true share of voice, ad categories, and conversational intent."
+
+Quotes:
+
+> "'This is the rare moment when a major ad channel is still wide open. The advertisers who can see what's happening with AI ads now will have a real head start. Until today, nobody could see it at all,' said Harel Amir, General Manager & Head of Product for Similarweb Ad Intelligence."
+
+> "'When we started advertising on ChatGPT, we were flying blind, no visibility into who else was in the auction or what was working,' says Jonathan Bar Vardi, Head of Strategy at Natural Intelligence, a data-driven marketing specialist that has become a top buyer of ChatGPT ads. 'Similarweb changed that. It shows what other advertisers don't know: who's spending, where they're appearing, and what's driving performance.'"
+
+Standard disclaimer:
+
+> "The data, reports, and other materials provided or made available by Similarweb consist of or include estimated metrics and digital insights generated by Similarweb using its proprietary algorithms, based on information collected by Similarweb from multiple sources using its advanced data methodologies. Similarweb shall not be responsible for the accuracy of such data, reports, and materials..."
+
+Press contact: "David F. Carr, Similarweb, david.carr@similarweb.com." Investor contact: "Rami Myerson, Similarweb, rami.myerson@similarweb.com."
+
+## Pull notes — mechanical only
+
+- Fetched from Similarweb's own Investor Relations press-release detail page rather than the Business Wire syndication page, since the IR page is the company's own first-party hosting (also linked from the same Business Wire URL). No 403, no paywall.
+- No panel size (n), no exact date window for "to-date," and no country breakdown given for the three headline percentages on this specific release — recorded as a gap, not filled by inference. A separate, earlier Similarweb publication is referenced in PPC Land's article (the "2026 Generative AI Landscape report," published 2026-07-22) as the source of the "26% of US desktop chats during June 2026" figure with a country qualifier and a month-over-month comparison (14% in May) — that report was not independently located or pulled in this session; only this August 17 press release, which restates the 26% figure without the US/June qualifier, is captured here as the primary for the PPC Land item in question.
