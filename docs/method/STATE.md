@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Pass 4 done 2026-09-22 (13 clusters). Pass 5: c7, c3, c4, c5, c6 live; c1, c2 landed. Pass 6 compile open (P6-c0 landed): organic and paid live, agentic queued. Pass 7 open (gate 3+4): seven rows queued. Pass 8 done. Pass 9 blocked by 5, 6, 7, 8. Pass 10 held by user; Pass 11 blocked.
+Pass 4 done 2026-09-22 (13 clusters). Pass 5 done. Pass 6 compile open (P6-c0 landed): organic and paid live, agentic queued. Pass 7 open (gate 3+4): seven rows queued. Pass 8 done. Pass 9 blocked by: P6-agentic and the six Pass 7 profile clusters (all live). Pass 10 held by user; Pass 11 blocked.
 
 ## Live agents
 
@@ -18,7 +18,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P3-repull-sec | Sonnet | Probe-gated SEC re-pull: CHGA, LCFY, HUBS, YEXT, SEMR, SMWB filings from sec.gov | `docs/raw/a-<co>-filing-sec-2026-09-22.md` | 2026-09-22 |
 | P7-organic-b | Opus | Competitor profiles, organic roster 9–13 + Scrunch (Brandlight AI, Change Agents/Avalon, Locafy, Otterly.AI, Rankscale.ai, Scrunch AI) | `docs/competitors/<vendor>.md` ×6 | 2026-09-22 |
 | P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
-| P5-c5 | Sonnet | Structured data and llms.txt-style signalling | `docs/raw/d-structured-*`, `d-technique-census-c5-2026-09-22.md` | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
 | P7-agency | Opus | Competitor profiles, agencies (Pace Generative / Onfolio, Orange142, Intero Digital, Seer Interactive, Fire&Spark) | `docs/competitors/<agency>.md` ×5 | 2026-09-22 |
 
@@ -104,6 +103,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P8-skincare | `docs/customers/skincare-beauty.md` (100 lines); spend 3 (organic / paid / agentic × enterprise: e.l.f. AEO team and agentic PO postings, Google Direct Offers pilot, Estée Lauder Brandlight client), attention 1 (organic × SMB), none 5 on 9–10 of 12 signals; willingness to pay unknown ×9; proof 0 Silver / 2 Bronze | 2026-09-22 | 96b29d3 |
 | P8-high-cpa | `docs/customers/high-cpa-regulated.md` (100 lines); spend 1 (organic × enterprise, Cigna posting tier 3), blank 8 (S3 / S9 unchecked, so not `none`); 9 unattributed signals listed; Jerry Bronze (c10) and Silver (c13) side by side | 2026-09-22 | 0b99feb |
 | **Pass 8 done** | three customers/ files; 27 cells: spend 7, attention 1, none 11, blank 8; willingness to pay unknown in all 27 | 2026-09-22 | 0b99feb |
+| P5-c5 structured data / llms.txt | 9 pulls `docs/raw/d-structured-*` + `d-technique-census-c5-2026-09-22.md`; ChatGPT, Claude, Google, Perplexity read as not consuming llms.txt (Google explicit 2026-07-10; Borysenko HTTP study tier 4, zero fetches); 5 of 6 engines self-publish one; adoption 9 figures incl. measured-by-us; 5 measured rows, strongest vendor-authored RAG experiment | 2026-09-22 | 93898c1 |
+| **Pass 5 done** | 7 technique clusters, ~70 raw pulls; no technique has a published single-action before-and-after on a production surface; engines name prompt injection, fake reviews, scaled content abuse — not seeding, comparison farming or citation-preference content | 2026-09-22 | 93898c1 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
