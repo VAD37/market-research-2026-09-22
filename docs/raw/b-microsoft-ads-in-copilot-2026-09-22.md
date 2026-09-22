@@ -1,0 +1,106 @@
+# Microsoft Advertising — About ads in Copilot
+
+```yaml
+source:          Microsoft Learn — Microsoft Advertising API docs
+url_or_doc_id:   https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_adsforcopilot
+published:       2026-06-18 (page frontmatter ms.date); updated_at 2026-09-02T23:31:00Z per page frontmatter
+pull_date:       2026-09-22
+pull_method:     fetch
+pull_purpose:    evidence about a number
+tier:            3
+tier_reason:     table default (platform primary, advertiser-facing documentation)
+source_label:    company-stated
+lane:            B
+sub_market:      paid placement
+engine:          Microsoft Copilot
+metric_kind:     none
+supersedes:      none
+captured:        full page (markdown source returned by fetch, including YAML frontmatter)
+```
+
+## Verbatim
+
+---
+layout: Conceptual
+title: About ads in Copilot - Microsoft Advertising API | Microsoft Learn
+canonicalUrl: https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_adsforcopilot
+ms.date: 2026-06-18T00:00:00.0000000Z
+description: Learn all about advertising in Copilot
+updated_at: 2026-09-02T23:31:00.0000000Z
+word_count: 975
+---
+
+# About ads in Copilot - Microsoft Advertising API | Microsoft Learn
+
+Note
+
+This article refers to ad formats that are eligible to serve in [Copilot](https://go.microsoft.com/fwlink/?linkid=2291145). To learn more about how Copilot in the Microsoft Adverting Platform can assist you with your campaigns, see [Copilot in Microsoft Advertising Platform](hlp_ba_conc_copilotmsaplatform).
+
+Copilot in Bing is an AI-powered web assistant providing a conversational chat experience that finds relevant answers in response to people's queries by summarizing web search results. Copilot also generates creative content, such as poems, jokes, and letters. Microsoft Advertising serves ads in varying formats which are displayed in Copilot's responses.
+
+Ads in Copilot are automatically created using your campaign's existing assets, including text and images. All eligible campaign and ad types are automatically opted in to serving in Copilot. Advertisers cannot opt out of serving ads, and there's no guarantee that their ads will be displayed in Copilot. However, continuing to optimize your existing search-based campaigns for better performance overall will extend into the Copilot experience.
+
+Note
+
+Negative keyword matching applies to Copilot and works the same as it does for web searches on the Micrsoft Advertising Network. This means that your ads won't display against the negative keywords that you've added to your account, campaigns, or ad groups. See Negative keyword matching to learn more about negative keyword matching in Copilot.
+
+Note
+
+Microsoft Advertising does not currently support specific metrics for ads served in [Copilot](https://go.microsoft.com/fwlink/?linkid=2291145).
+
+## The benefits of serving ads in Copilot
+
+- **Extended audience reach.** Ads that display in Copilot can help you find new customers who are making queries related to your products and services. Complex queries can be understood and responded to with depth and precision, which creates expanded customer reach opportunities.
+- **Enhanced ad relevancy.** Through rich understanding of search intent, deep conversational engagement, and personalized responses, ads that serve in Copilot can deliver highly relevant messages to consumers. This can help improve ROI (return on investment) for advertisers.
+- **No manual effort required.** Existing assets in Microsoft Advertising are used to automatically create ads for potential customers making searches on Copilot. If an advertiser is optimizing their existing ads and campaigns, then they're optimized for ad delivery in Copilot as well.
+
+## Eligible campaign and ad types
+
+Here's a list of ad and campaign types that are eligible to serve in Copilot:
+
+- Multimedia ads
+- Product ads (including Shopping campaigns and Performance Max campaigns serving Product ads)
+- Search ads with logo extensions or business logo automated extensions (including Dynamic Search ads, Responsive Search ads, and ads in Performance Max campaigns serving in search placements)
+- The following Vertical ad types: Property promotion ads and Tours and Activities ads
+
+See Examples of ad placements in Copilot for examples of ad placements in Copilot.
+
+## Negative keyword matching
+
+In Copilot, negative keyword matching is leveraged the same as it is for search queries on the Micrsoft Advertising Network. Your ads won't serve against the negative keywords that you've added to your account, campaigns, or ad groups.
+
+## How to optimize campaigns for better performance overall
+
+- Performance Max campaigns are the best way to increase exposure on Copilot. This provides Copilot with the greatest number of assets and variables to match ads with relevant consumer intent.
+- Take advantage of our AI-powered tools and functionalities for your Search campaigns in Microsoft Advertising, such as broad match, autogenerated assets for Responsive Search ads and Multimedia ads, and leveraging Dynamic Search ads in your campaigns. This will help ensure that your Search ads are relevant for niche, specific searches in the Copilot chat experience.
+- Consider increasing your bids and improving your quality score to maximize your chances of serving ads in Copilot.
+- Leverage ad types that serve in richer formats, such as Multimedia ads and feed-based ads like Product ads and Vertical ads to improve your chances of showing ads in Copilot.
+
+## Examples of ad placements in Copilot
+
+- **Feed-based ads** [note: image, not captured]
+- **Multimedia ads** [note: image, not captured]
+- **Search ads** [note: image, not captured]
+
+## Frequently asked questions
+
+- **How are ads in Copilot chosen?**
+
+    We consider the context of the entire conversation, not only the last prompt to better connect brands to people's conversations in a more helpful way. After Copilot has resolved the initial query, we leverage user information to surface ads that are relevant to them while reaching the audiences that the advertisers are targeting.
+- **What brand safety tools are in place for advertisers?**
+
+    In addition to the usual brand safety constraints and policies that apply to Search advertising, we leverage the principles of Responsible AI to ensure Copilot adheres to the level of trust and security our customers expect. The AI models flag different types of potentially harmful content in search queries, chat queries, or generated responses, which signal Copilot to take action. In such cases, ads are not shown in any flagged conversations. Copilot will also honor any negative keywords you have in place for your campaigns to ensure ads will not show with content that is inappropriate for your brand.
+- **Can ads for restricted categories serve in Copilot (such as pharmaceutical advertising and advertising for financial services)?**
+
+    If an ad can serve on Microsoft Bing, it can also serve in Copilot. Ad copy will not be truncated, so for financial services and other industries that need to specify terms and conditions on their ads, the ad copy will continue to show. We recommend advertisers use disclaimers in ads for all restricted or sensitive categories. In pharmaceutical advertising, prescription ads will not be shown unless specific disclaimers are used.
+- **What can advertisers do to better optimize for more exposure in Copilot?**
+
+    Search ads must include a logo to be eligible to show in Copilot. We also highly recommend using image extensions to make your Search ads stand out more in the experience. The best way to increase exposure in Copilot is to adopt Performance Max campaigns. This provides Copilot with the greatest number of assets and variables to match your ads to relevant consumer intent. Using Performance Max optimizes performance for Copilot.
+
+## Pull notes — mechanical only
+
+- Chrome extension `get_page_text` returned only the "Ask Learn" sign-in widget text on this page (dynamic content not captured by that tool on this domain); switched to `WebFetch`, which returned the page's underlying markdown source including full YAML frontmatter (`ms.date`, `updated_at`, `word_count`) — used as the more complete and dated capture.
+- No CPC/CPM/billing-model figure or name stated on this page. Page explicitly states: "Microsoft Advertising does not currently support specific metrics for ads served in Copilot" — no separate Copilot-specific reporting metrics.
+- No distinct "ad format name" is given beyond reusing existing Microsoft Advertising Network ad-type names (Multimedia ads, Product ads, Search ads, Vertical ads) — Copilot is described as a placement/surface these existing ad types serve into, not a new named ad product.
+- Three referenced example-placement images not captured (rendered as images, not text).
+- Page cross-references a separate article "Copilot in Microsoft Advertising Platform" (`hlp_ba_conc_copilotmsaplatform`) — the advertiser-facing AI copilot tool for campaign management, a distinct product from ads-in-Copilot-chat covered here. Not conflated; see `b-microsoft-copilot-advertising-platform-2026-09-22.md`.
