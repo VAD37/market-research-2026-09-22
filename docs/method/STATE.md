@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Pass 9 — findings, open 2026-09-22 (Passes 5, 6, 8 done; Pass 7 profiles all landed, INDEX compiling in parallel). P9 single Opus agent writes four findings files; P9-review (Opus) scores them against hypotheses.md before Pass 9 is marked done. Pass 10 held by user; Pass 11 gate reads "9, and 10 or its recorded hold" per plan.md append.
+Pass 9 — findings, open 2026-09-22 (Passes 5, 6, 8 done; Pass 7 done). P9 single Opus agent writes four findings files; P9-review (Opus) scores them against hypotheses.md before Pass 9 is marked done. Pass 10 held by user; Pass 11 gate reads "9, and 10 or its recorded hold" per plan.md append.
 
 ## Live agents
 
@@ -12,7 +12,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P7-INDEX | Opus | Compile `competitors/INDEX.md`, one line per company from the 41 landed profiles | `docs/competitors/INDEX.md` | 2026-09-22 |
 | P9 | Opus | Findings: proof scorecard, demand map, whitespace, unknowns — from compiled files and raw | `docs/findings/proof-scorecard.md`, `demand-map.md`, `whitespace.md`, `unknowns.md` | 2026-09-22 |
 
 ## Queue
@@ -110,6 +109,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P7-sellside | `docs/competitors/{feedonomics,shopware,wix,criteo,stackadapt,pacvue,kargo}.md` (79–80 lines); price 1 of 7 (Shopware €600 / €2,400 tiers; Criteo CPM model only); 0 of 7 clear the bar, all cases `screened — not opened`; Pacvue and Kargo named only by OpenAI's partner page, not their own sites — conflict recorded | 2026-09-22 | c5f2f5c |
 | P7-incumbent-b | `docs/competitors/{brightedge,muck-rack,quattr,semrush,similarweb,soci,se-ranking,uberall,onclusive}.md` (78–80 lines); price delta 2 of 9 (Semrush +$60/mo, SE Ranking +¥10,478/mo); 1 Silver (Quattr / Men's Wearhouse, brand silent); 0 Gold; four cleared names rest on 1–2 pulls each | 2026-09-22 | 8112990 |
 | **Pass 7 profiles done** | 41 profiles in `docs/competitors/`; INDEX pending; across all: 0 Gold, 2 Silver (Quattr, Sitefire/Pointhound) + Jerry contested; 0 of 41 disclose a prompt set with n | 2026-09-22 | 8112990 |
+| P7-INDEX | `docs/competitors/INDEX.md` — 41 rows in roster order, brand-side column added, header and caveats per root CLAUDE.md; oldest pull 2026-09-22 | 2026-09-22 | 39b1468 |
+| **Pass 7 done** | 41 profiles + INDEX | 2026-09-22 | 39b1468 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
