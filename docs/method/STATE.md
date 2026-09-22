@@ -12,7 +12,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
 
 ## Queue
@@ -106,6 +105,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P7-incumbent-a | `docs/competitors/{airops,conductor,hubspot,yext,ahrefs,birdeye}.md` (77–80 lines); price delta disclosed 2 of 6 (HubSpot, Ahrefs, JPY); 0 Gold / 0 Silver, 13 Bronze; HubSpot control claim beside its negative case; headcount unknown ×6 | 2026-09-22 | fa3cf48 |
 | P7-agency | `docs/competitors/{pace-generative,orange142,intero-digital,seer-interactive,fire-and-spark}.md` (77–80 lines); price disclosed 1 of 5 (Pace $1,499 / $1,999 / $2,499 packages); best grade Silver once (Seer content recency); Intero/Freshpet Bronze; Pace two Fools-gold versions of one engagement side by side; parent-level scale only for the two public-company-owned | 2026-09-22 | 7d913f6 |
 | P7-organic-a | `docs/competitors/{searchable,geosurge,peec-ai,promptwatch,profound,athenahq,rankprompt,sitefire}.md` (74–80 lines); price 5 of 8; revenue 2 of 8 (Searchable €2.2M ARR; Peec $4M vs $10M pointer side by side); 1 Silver (Sitefire/Pointhound), Jerry two grades side by side; Profound 13 Bronze / 10 Fools gold; 0 Gold; paid-by-outcome unknown on every case | 2026-09-22 | b95392e |
+| P7-sellside | `docs/competitors/{feedonomics,shopware,wix,criteo,stackadapt,pacvue,kargo}.md` (79–80 lines); price 1 of 7 (Shopware €600 / €2,400 tiers; Criteo CPM model only); 0 of 7 clear the bar, all cases `screened — not opened`; Pacvue and Kargo named only by OpenAI's partner page, not their own sites — conflict recorded | 2026-09-22 | c5f2f5c |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
