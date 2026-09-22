@@ -10,7 +10,7 @@ Pass 1 — Sources. Gate: open (Pass 0 landed 2026-09-22). Pass 10 sampling runs
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P1-b | Opus | Red-team query-book.md | `docs/sources/query-book-redteam.md` | 2026-09-22 |
+| P1-c | Opus | Apply red-team amendments to channels, shortlist, query book | `docs/sources/channels.md`, `shortlist.md`, `query-book.md` | 2026-09-22 |
 | P10-d0-claude | Sonnet | Panel sample day 0, Claude, prompt set v1 | `docs/raw/e-claude-panel-2026-09-22.md` | 2026-09-22 |
 
 ## Queue
@@ -36,10 +36,13 @@ Front first.
 | **Pass 0 done** | all five Pass 0 deliverables | 2026-09-22 | f5a06cd |
 | P10-d0-chatgpt | `docs/raw/e-chatgpt-panel-2026-09-22.md` — surface blocked, 0 of 160 runs | 2026-09-22 | 58e469b |
 | P1-a channels, shortlist, query book | `docs/sources/channels.md` (145), `shortlist.md` (78), `query-book.md` (118); 29 clusters | 2026-09-22 | 9aca6b4 |
+| P1-b red-team | `docs/sources/query-book-redteam.md` (120); 13 blind spots, verdict amend all three | 2026-09-22 | 34994b8 |
 
 ## Landed — pending verify
 
 Agents append one block here on finish: deliverable path, pulls made (count), unknowns recorded (count), blockers.
+
+**P1-b — red-team of the query book.** Deliverable `docs/sources/query-book-redteam.md`, 120 lines. Queries tested: 28 (26 web searches, 2 EDGAR full-text fetches, 1 archive fetch that failed). Blind spots found: 13, numbered B1–B13. Amendments proposed: `channels.md` 8 new rows (C60–C67); `query-book.md` 8 amendments (2 corrections — exclusion scope and `-"vs"` — plus 6 additions covering alias sets O/P/X, grid rows, buyer-size overlay, negative-result row, EDGAR and academic venue lists, date rule); `shortlist.md` 3 new clusters (P2-c10, P2-c11, P8-c1), 1 roster-rule amendment, 2 pull-list additions (P2-c5, P5-c7). No `docs/raw/` files written; no reviewed file edited. Blockers: `web.archive.org` refused to plain fetch (`Claude Code is unable to fetch from web.archive.org`) — the archival channel proposed as C61 needs the Chrome extension; the search surface is US-only by its own description, so the EU coverage gap is measured by the instrument that causes it.
 
 ## Pass 10 sampling log
 
@@ -54,6 +57,7 @@ Agents append one block here on finish: deliverable path, pulls made (count), un
 | 2026-09-22 | Pass 0 split into three tasks (P0-a, P0-b, P0-c) rather than one agent | `panel-protocol.md` gates Pass 10, which needs elapsed calendar time; splitting lets it land sooner. P0-a first because glossary metric definitions feed the other two |
 | 2026-09-22 | Pass 10 sampling split one agent per engine per sample date, run one at a time | 32 prompts × 5 runs per engine is too large for one agent and the browser extension is a single shared resource; per-engine files match the protocol's one-file-per-engine-per-date rule |
 | 2026-09-22 | Panel raw files use lane `e` with `pass: P10` header | `templates/raw-pull.md` fixes lane slot to a–f; noted in panel-protocol.md |
+| 2026-09-22 | Red-team amendments applied by a third Pass 1 agent (P1-c), not by the scheduler | Scheduler does no research; amendments change source coverage and need the same rules as the original pass |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
