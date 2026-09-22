@@ -15,7 +15,6 @@ Cap 10 from 2026-09-22 22:30 (user). Browser: one extension holder (`ext`) and o
 | P7-organic-a | Opus | Competitor profiles, organic roster 1–8 (Searchable, geoSurge, Peec AI, Promptwatch, Profound, AthenaHQ, RankPrompt, Sitefire) | `docs/competitors/<vendor>.md` ×8 | 2026-09-22 |
 | P7-sellside | Opus | Competitor profiles, sell-side (Feedonomics, Shopware, Wix, Criteo, StackAdapt, Pacvue, Kargo) | `docs/competitors/<vendor>.md` ×7 | 2026-09-22 |
 | P7-incumbent-b | Opus | Competitor profiles, incumbents 7–12 + four cleared held (BrightEdge, Muck Rack, Quattr, Semrush, Similarweb, SOCi, SE Ranking, Uberall, Onclusive) | `docs/competitors/<company>.md` ×9 | 2026-09-22 |
-| P7-agency | Opus | Competitor profiles, agencies (Pace Generative / Onfolio, Orange142, Intero Digital, Seer Interactive, Fire&Spark) | `docs/competitors/<agency>.md` ×5 | 2026-09-22 |
 
 ## Queue
 
@@ -106,6 +105,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P3-repull-sec | `docs/raw/a-sec-probe-2026-09-22.md` — HTTP 503 Akamai maintenance page; re-pull deferred, substitutes stand | 2026-09-22 | 1db88aa |
 | P7-organic-b | `docs/competitors/{scrunch-ai,brandlight-ai,change-agents-corp,locafy,otterly-ai,rankscale-ai}.md` (65–78 lines); 3 of 6 publish a price; 0 Gold / 0 Silver; CHGA going-concern, Locafy AUD 3.11M 9-month revenue via tier-5 substitute; 11 brand subjects checked, 0 corroborate | 2026-09-22 | 3a27dbc |
 | P7-incumbent-a | `docs/competitors/{airops,conductor,hubspot,yext,ahrefs,birdeye}.md` (77–80 lines); price delta disclosed 2 of 6 (HubSpot, Ahrefs, JPY); 0 Gold / 0 Silver, 13 Bronze; HubSpot control claim beside its negative case; headcount unknown ×6 | 2026-09-22 | fa3cf48 |
+| P7-agency | `docs/competitors/{pace-generative,orange142,intero-digital,seer-interactive,fire-and-spark}.md` (77–80 lines); price disclosed 1 of 5 (Pace $1,499 / $1,999 / $2,499 packages); best grade Silver once (Seer content recency); Intero/Freshpet Bronze; Pace two Fools-gold versions of one engagement side by side; parent-level scale only for the two public-company-owned | 2026-09-22 | 7d913f6 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -250,3 +250,23 @@ P8-skincare landed 2026-09-22: `docs/customers/skincare-beauty.md` (100 lines). 
 - Template questions: 10 of 10 sections answered in binding order in all six files. Fields recorded `unknown — checked <channel> 2026-09-22`: AirOps 7, Conductor 8, HubSpot 4, Yext 6, Ahrefs 5, Birdeye 8.
 - Proof: 0 Gold, 0 Silver across all six. Bronze — AirOps 7 cases, Conductor 3, HubSpot 2 (beta-cohort control claim; OMR negative AI Overviews case), Yext 1. Fools gold — AirOps 2, Conductor 1, HubSpot 3, Yext 1. Ahrefs and Birdeye: zero gradable claims; 3 Birdeye percentages discard-on-sight.
 - Blocked, carried from the Pass 3 pulls, not re-attempted (compile-only task, no pulls): sec.gov blocked session-wide — HubSpot latest filed revenue never retrieved (BamSEC filing index only), Yext Q2 FY2027 figures entered as an IR-site copy at tier 3 and labelled so in the file; Ahrefs launch date 2026-01-20 carried from the roster's Businesswire citation, unverified (connection failure x2).
+
+## P7-agency — landed, pending verify (2026-09-22)
+
+- Deliverables: `docs/competitors/pace-generative.md` (80), `orange142.md` (78), `intero-digital.md` (79), `seer-interactive.md` (80), `fire-and-spark.md` (77). No `INDEX.md` written.
+- Oldest pull depended on: 2026-09-22 — every cited raw file. Oldest source publication dates carried: Pace 2025-07-02, Intero 2026-04-08, Seer 2026-05-20, Orange142 2026-08-12, Fire&Spark undated.
+- Price disclosed: 1 of 5 — Pace Generative, Community Platform Mentions $1,499 / $1,999 / $2,499 list, per package. 4 of 5 record `unknown — checked <page> 2026-09-22`.
+- Template sections answered: 10 of 10 for each of the five. Fields left `unknown — checked`: Pace 6, Orange142 4, Intero 6, Seer 5, Fire&Spark 4.
+- Proof claims: Seer Silver (content recency) plus Fools gold (CMWorld abstract); Intero Bronze (Freshpet, c13 re-tick); Pace 2 x Fools gold (one engagement, two figure sets); Orange142 2 screened / 0 graded; Fire&Spark 3 screened / 0 graded.
+- Blockers: none new — compiled from docs/raw/ only, no pulls. Carried-forward gaps: Seer/Home Depot Search Engine Land page unreachable, Orange142 Green Energy link 404 and Pigeon Forge case page unresolved, Orange142 and Fire&Spark service pages truncated at fetch.
+
+
+### P7-organic-a — organic vendors, roster positions 2, 4, 5, 6, 7, 8, 12, 13 — 2026-09-22
+
+- Deliverables: `docs/competitors/searchable.md` (80), `geosurge.md` (74), `peec-ai.md` (80), `promptwatch.md` (80), `profound.md` (80), `athenahq.md` (80), `rankprompt.md` (80), `sitefire.md` (80). All template order, all within the 80-line budget. No `INDEX.md` written.
+- Oldest pull depended on: 2026-09-22 — every cited raw file. Oldest data windows carried inside them: Profound 2024-08-13 (first funding headline), Peec 2025-11-17 (TechCrunch), Searchable 2025-12 (pre-Seed), geoSurge 2025-02-13 (incorporation), RankPrompt 2025-06-16 (launch release), Sitefire 2026-02-23 (Pointhound case start).
+- Template sections answered: 10 of 10 for each of the eight. Fields reading `unknown — checked` or `not disclosed — checked`: Searchable 1, geoSurge 5, Peec AI 1, Promptwatch 3, Profound 2, AthenaHQ 5, RankPrompt 4, Sitefire 4.
+- Price disclosed: 5 of 8 publish at least one dollar tier (Searchable $125/$400/$999; Promptwatch $95/$245/$579; RankPrompt $39/$71/$119/$239; Sitefire $249/$499; AthenaHQ $295). geoSurge $0 BYOK plus undisclosed Enterprise; Profound free trial plus undisclosed Enterprise; Peec AI renders no figure on any current tier.
+- Scale disclosed: revenue found for 2 of 8 (Searchable €2.2M ARR; Peec $4M then a $10M URL-slug pointer, kept side by side). Headcount 4 of 8 (Searchable 30+, Peec 70+, Profound 300+, Sitefire 2). Funding figure 5 of 8; RankPrompt and Sitefire `not disclosed`, AthenaHQ `unknown` (Crunchbase and PitchBook 403).
+- Proof claims: 1 Silver in the cluster — Sitefire/Pointhound (P4-c4); Sitefire/Jerry carries conflicting grades, Silver at P4-c13 and Bronze at P4-c10, both recorded side by side. Bronze: Profound 13, AthenaHQ 2, RankPrompt 2. Fools gold: Profound 6 plus 4 revenue sub-claims, Promptwatch 3, Searchable 2, Peec 2, AthenaHQ 1. Zero Gold. geoSurge publishes no case at all. Paid-by-outcome unknown on every case; prompt set undisclosed on every case bar two partials (Grüns, Pointhound).
+- Blockers: none new — compiled from `docs/raw/` only, no pulls. Carried-forward gaps: AthenaHQ funding channels 403; Peec current prices not rendered; G2 low-star reviews for Peec AI and AthenaHQ CAPTCHA-blocked at P4-c11; Promptwatch's 20 named brands entirely unchecked at the P4-c7 cap; Searchable/Blackbird case page href unresolvable.
