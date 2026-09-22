@@ -18,6 +18,20 @@ This field sells measurement. A rubric is not optional overhead here; it is the 
 
 Tier 6 and 7 may be pulled as *evidence about the category's noise level*, filed under `raw/` and labeled as such. Never as evidence about a number.
 
+## Academic sources — added 2026-09-22
+
+Lane D evidence lives largely in papers. Tier by provenance:
+
+| Source | Tier |
+|---|---|
+| Peer-reviewed, data or code published, replicated by an unrelated party | 2 |
+| Peer-reviewed, data or code published | 3 |
+| Preprint with code and prompt set | 4 |
+| Preprint without code | 5 |
+| Paper measuring a vendor's own product, vendor-authored | 5, bias flagged |
+
+Model versions and dates matter more here than anywhere: a 2024 result on a retired model is evidence about 2024.
+
 ## Discard on sight
 
 - No n, no date window, or no method

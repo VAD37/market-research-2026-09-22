@@ -1,27 +1,32 @@
-# MegaPlan
+# MegaPlan — research charter
 
-Source of truth for planning large execution tasks — making a test prototype and piloting an idea.
+Rewritten 2026-09-22. The original MegaPlan was an idea-to-MVP execution guideline. It is outdated and removed. This repo is research and exploration only.
 
-Each project runs differently and depends on the context of its market and its technical requirement. The final outcome is unclear and depends heavily on the explore and daydreaming phases. That is expected; do not resolve it by guessing early.
+## What this programme is
 
-## Ideas under execution
+Pure market research. Question: does real-world demand exist, per segment, for brand visibility and product recommendation inside AI assistants — and what evidence shows it works.
 
-**None yet.** Opened 2026-09-22. Ideas arrive here only after `docs/method/scope.md` names them and `docs/` holds a read on each. One section per idea, and the section states the open questions the build has to answer — not a design.
+A hypothetical successful product is allowed as a guiding star. It tells the research which questions matter. It is not a commitment. No date, no budget, no build.
 
-## Shared guideline — every project
+Standing brief: `docs/method/scope.md`. Pass sequence and done conditions: `docs/method/plan.md`.
 
-- One subagent per project at a time. Sonnet for exploration and pulls, Opus for planning and review. Full policy in `projects/ORCHESTRATION.md`.
-- Cache and write every subagent report and status into the repo state immediately, to prevent loss of work.
-- Orchestration steps, in order: explore → idea → review against market → detect possible technical solution → daydream → vibe-code a small MVP to see whether we can make something similar.
-- Use git, worktrees, and whatever tools this machine has.
-- Every project shares the same hierarchy and the same `docs/` rules for planning, execution and exploration. See `projects/CLAUDE.md`.
+## Non-goals — hard
 
-## Technical execution steps — inside the MVP phase
+- No execution plan. No MVP, no prototype, no build spec, no playbook as a deliverable, no `projects/` entry.
+- No dates, no cost caps, no kill dates. Research runs until the evidence is in or the channel is exhausted.
+- No go or no-go verdict. User's call, per root `CLAUDE.md`.
+- No interviews, no outreach. Internet-only sources. Chrome browser extension permitted for pulls and for measured-by-us sampling.
 
-explore → plan → solution design → review → loop execution → outcome review → edge-to-edge user test, end to end.
+## Guiding hypothetical
 
-## Ordering rule — set 2026-09-17, carried forward
+> A brand moves marketing into AI assistant surfaces, and it measurably pays.
 
-A project's `docs/outcome/success-vision.md` is written **before** its sales page and **before** its review, and every downstream agent reads it. Without a stated picture of what winning looks like, agents optimize against a spec and an acceptance checklist and produce something locally correct and globally pointless.
+The research tests whether the world holds evidence for this, per segment and per engine. No evidence is a result, not a failure.
 
-The vision doc grounds every present-tense claim in the build and e2e docs, reads the research verdicts honestly, and is allowed — encouraged — to conclude that the honest win is much smaller than the original ambition. Its ranked gap between what the e2e proves today and the win condition becomes the fix wave's work list.
+## Output
+
+`docs/findings/`: demand read per segment, proof scorecard, whitespace, and the list of what remains unknown with the channel checked.
+
+## Agent rules carried forward
+
+`projects/ORCHESTRATION.md` still governs spawning: cap of 3 concurrent agents, model policy, every agent report written into the repo immediately, agents never run git. Its execution waves are dormant.

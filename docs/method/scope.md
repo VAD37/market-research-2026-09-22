@@ -1,6 +1,6 @@
 # Scope — standing brief
 
-Set 2026-09-22 by the user. Per root `CLAUDE.md`, this is the standing brief. Every research pass in `docs/` serves it. Changes to it are dated and appended, not overwritten.
+Set 2026-09-22 by the user. Per root `CLAUDE.md`, this is the standing brief. Every research pass in `docs/` serves it. Changes to it are dated and appended, not overwritten. Latest revision wins.
 
 ## The brief
 
@@ -46,9 +46,9 @@ Research keeps these separate. Collapsing them produces unusable findings.
 | D5 | Anchor vertical for a measured pass | Measured-by-us pass |
 | D6 | Desk only, or desk plus our own prompt panel | Pass 7 |
 
-**All three resolved 2026-09-22. See the revision below.**
+**All three resolved 2026-09-22. See revision 1 below.**
 
-## Revision — 2026-09-22, user
+## Revision 1 — 2026-09-22, user
 
 Appended, not overwritten. Where this conflicts with the brief above, this section wins.
 
@@ -67,10 +67,30 @@ Consequences:
 - Manipulation and gaming of AI recommendation is now in scope as Lane D of `plan.md`. Research into it only — never execution against a third party.
 - The buyer is a brand in transition, not a vendor-category investor. `customers/` is weighted accordingly.
 
-Execution plan for all of this: `plan.md`.
+## Revision 2 — 2026-09-22, user, after plan review
+
+Appended. Where this conflicts with the brief or revision 1, this section wins.
+
+| # | Question | Answer |
+|---|---|---|
+| R1 | Decision served | **Changed again.** None. Pure research and exploration. Target is real-world demand per segment. A successful product is a hypothetical guiding goal, not a deliverable. No playbook, no build |
+| R2 | Sources | Internet only. No interviews, no outreach. Chrome browser extension allowed for pulls |
+| R3 | Dates, cost, kill criteria | None. No execution, so no schedule |
+| R4 | Engine priority | Not important. `plan.md` defaults stand; Pass 2 share table reweights |
+| R5 | Verticals, outreach | Not important. Defaults stand |
+| R6 | Predecessor repo, worktrees | Predecessor repo is one source channel among others. Work on master only |
+
+Consequences:
+
+- `MegaPlan.md` rewritten as a research charter. Its execution content is gone.
+- `projects/` is dormant. `projects/ORCHESTRATION.md` still governs agent spawning; nothing else in that folder applies.
+- Revision 1's "transition playbook" becomes Pass 11 "transition evidence" in `plan.md`: descriptive, cited, not prescriptive.
+- Builder-constraint framing in the brief is now a hypothetical only. It shapes which unknowns matter; it is not researched as a decision.
+- Demand is read per segment: sub-market × vertical × buyer size. Segment axes and signals fixed in `plan.md`.
 
 ## Caveats
 
 - Category is roughly two years old as of 2026-09. Vendor set turns over fast. Any competitor file older than one quarter is stale.
 - Assistant knowledge cutoff is 2026-05. Nothing from model memory enters `docs/`. Every claim re-pulled into `raw/` first.
 - "Everyone needs it" was the user's framing on 2026-09-22 and is recorded, not endorsed. A horizontal read is the widest and weakest lane; see `findings/` once it exists.
+- The brief's "Decision served" row is superseded twice. Kept verbatim because the file appends and never overwrites.
