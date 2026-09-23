@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 live (plan review + executive brief). Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
+**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 landed: `plan-review-2-2026-09-23.md` §8 appends a–g not yet applied to plan.md (awaits user); `findings/executive-brief-2026-09-23.md` is the reader-first entry point. Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
 
 ## Live agents
 
@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| REVIEW-2b | Opus (same agent, continued) | Add Pass 11 row to executive brief, replace its last caveat | `docs/findings/executive-brief-2026-09-23.md` | 2026-09-23 |
+| none | — | all passes but Pass 10 landed; Pass 10 held by user | — | — |
 
 ## Queue
 
@@ -117,6 +117,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | 91c8059 |
 | **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | 91c8059 |
 | REVIEW-2 | `docs/method/plan-review-2-2026-09-23.md` (119): 4 of 6 done rows can still move while Pass 10 held; tier-3 shortfall decomposed (8 case-corpus, 1 forecast, 3 third-party, 3 meta); grading rule 1 append; Pass 10 one date closes HE2, HP1, HP3, HP2/HP4 need two; 7 appends §8 a–g. `docs/findings/executive-brief-2026-09-23.md` (69): 22 metric rows, all sourced, no verdict, 4 owner questions | 2026-09-23 | 54ae617 |
+| REVIEW-2b | `docs/findings/executive-brief-2026-09-23.md` (70): Pass 11 row added (99 of 108 name a change; H10, H11 confirmed with prior marks beside), last caveat replaced | 2026-09-23 | PENDING |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -197,3 +198,5 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
 
 **REVIEW-2 landed 2026-09-23.** `docs/method/plan-review-2-2026-09-23.md` (119 lines, budget 120); `docs/findings/executive-brief-2026-09-23.md` (69 lines, budget 70). 0 pulls. Appends proposed: 7, all to `plan.md` (review-2 §8 a–g: done-row arithmetic, tier-3 reporting splits with bar unchanged, grading rule 1 reading fixed with both grades kept, Pass 10 closure map, `none` rule / n/a-by-construction, 8 failure-mode rows, reporting layer). Brief numbers: 22 table rows + 3 inline (6 of 7 spend on S1; 68.0% / 44.4%; day-0 run counts), each with a compiled or raw path. Sourcing notes: assistant-share figures cited from `plan.md` reweight 1 (method file carrying raw paths; no compiled file holds them); Profound round cited via `competitors/profound.md` + raw (tier 3 per raw); OpenAI $1B run-rate row added beyond the brief's list (from `markets/paid-placement.md`). Nothing left out for lack of a source. Execution-word grep: only hits are the path `organic-recommendation.md` and the programme question's "recommendation". `findings/transition-evidence.md` not read. Blockers: none.
+
+**REVIEW-2b landed 2026-09-23.** `docs/findings/executive-brief-2026-09-23.md` now 70 lines (budget 70): 1 row added (transition changes, from `findings/transition-evidence.md` Answer/Tallies/H10/H11, earlier marks beside); last caveat replaced (named changes only, not measured outcomes). No merge needed; no new numbers.

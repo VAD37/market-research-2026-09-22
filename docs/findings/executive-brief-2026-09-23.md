@@ -40,6 +40,7 @@ Paid ad inventory is live on two of the three priority-1 engines and refused by 
 | Regulation in force | EU AI Act Art. 50 from 2026-08-02; ChatGPT VLOSE 2026-08-31 | filed, 2 | `markets/paid-placement.md` line 92 |
 | Brand-side corroboration | 0 of 59 brands corroborate; 59 silent; ~107 unchecked | measured-by-us, 3 | `findings/proof-scorecard.md` C5 |
 | Engines' own countermeasures | 6 of 36 engine × technique cells named | company-stated, 3 | `findings/whitespace.md` E5 |
+| What brands that moved changed | 99 of 108 cases name one: content ops 63, stack 58, org 12, paid 2 | measured-by-us counts, C1 tier 6; H10, H11 confirmed, tier 3 | `findings/transition-evidence.md` Answer, Tallies, H10, H11; earlier marks beside: H10 not produced (Pass 9, review-1), H11 killed (Pass 9) / not produced (review-1) |
 
 ## What the evidence does not show
 
@@ -66,4 +67,4 @@ Load-bearing claims at tier 3 or better: 68.0% (17 of 25, Pass 9) and 44.4% (12 
 - Nothing is measured by us beyond day-0 partial panels on 2026-09-22 (Claude 83 of 160 runs logged-in; Gemini 24 of 160; AI Mode 76) and our own screen counts [`findings/unknowns.md` HE2–HP4].
 - Proof, prices, customer counts and funding are vendor or company self-reports; none is independently audited.
 - Every pull is dated 2026-09-22; the category turns over fast, and a pull older than one quarter is re-checked before citation (`method/plan.md` staleness rule).
-- Transition evidence (Pass 11) was in progress at writing and is not reflected here.
+- The transition row counts named changes only — postings and vendor pages, self-reported — not measured outcomes [`findings/transition-evidence.md` caveats].
