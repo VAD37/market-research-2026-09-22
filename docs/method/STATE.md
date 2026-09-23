@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Pass 9 — Findings. Gate open.** Resumed 2026-09-23 on user instruction; P9-review live (3rd spawn). Findings landed (a43edc9). Then P9-amend, mark Pass 9 done, spawn P11. Pass 10 stays held; Pass 11 gate reads "9, and 10 or its recorded hold".
+**Pass 9 — Findings. Gate open.** Findings landed (a43edc9); review-1 landed 2026-09-23; P9-amend live. Then mark Pass 9 done, spawn P11. Pass 10 stays held; Pass 11 gate reads "9, and 10 or its recorded hold".
 
 ## Live agents
 
@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P9-review | Opus (general-purpose, model=opus) | Adversarial review of findings/ vs hypotheses.md; 160-line budget | `docs/findings/review-1-2026-09-23.md` | 2026-09-23 (3rd spawn; 2nd stopped by user to check agent version) |
+| P9-amend | Opus | Apply review-1 amendments §9 to the four findings files, line-level corrections only | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` | 2026-09-23 |
 
 ## Queue
 
@@ -20,7 +20,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P9-amend (after review) | 9 | Opus | Apply review amendments to the four findings files, line-level corrections allowed | `docs/findings/*.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P11 | 11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals | `docs/findings/transition-evidence.md` |
 | P10-analysis | 10 held | Opus | Panel read — waits for a neutral day 0 or user reopening | `docs/findings/panel-read.md` |
@@ -112,6 +111,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P7-INDEX | `docs/competitors/INDEX.md` — 41 rows in roster order, brand-side column added, header and caveats per root CLAUDE.md; oldest pull 2026-09-22 | 2026-09-22 | 39b1468 |
 | **Pass 7 done** | 41 profiles + INDEX | 2026-09-22 | 39b1468 |
 | P9 findings | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` (100/100/90/100); hypotheses: 6 confirmed, 6 killed, 4 unresolved, 7 not produced; done rows 2 of 6; 17 of 25 load-bearing claims tier ≤3 = 68%; 0 Gold in ~980 screened, 7 Silver | 2026-09-22 | a43edc9 |
+| P9-review | `docs/findings/review-1-2026-09-23.md` (160 lines); 5 of 23 H marks disputed (H5, H6, H15, H16 → unresolved; H11 → not produced); tier-3 share recount 12 of 27 = 44.4% vs 17 of 25 = 68.0%, both stand; 3 of 16 traces mismatch; grading rule 1 literal leaves 1 of 7 Silvers; no execution language, Lane D clean; amendments per file | 2026-09-23 | PENDING |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -189,3 +189,4 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Success stories | One Silver per vertical, or documented absence with screened count | met — B2B SaaS and high-CPA on the Silver arm, skincare on documented absence (0 Silver, ~133 screened) per proof-scorecard.md (pending review) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 16 of 23 scored; 7 `not produced` (H10 pending Pass 11; HE2, HE3, HP1–HP4 held with Pass 10) |
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
+
