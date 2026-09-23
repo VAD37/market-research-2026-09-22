@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15 bake-off paused 2026-09-23: wave 1 resume queued (see §Queue). Maintenance round 2026-09-23 closed: CLEANUP-1, REPULL-AUDIT-2, GAP-SK, GAP-IND, RP2-A, RP2-B, RECOUNT-2, COMPRESS-C/F1/F2/M/CU, AMEND-4 landed. Open: RP2-B-110 (needs `ext`); compression beyond anchor floors (owner). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
+Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15 bake-off paused 2026-09-23: wave 1 resume queued (see §Queue). Maintenance round 2026-09-23 closed: CLEANUP-1, REPULL-AUDIT-2, GAP-SK, GAP-IND, RP2-A, RP2-B, RECOUNT-2, COMPRESS-C/F1/F2/M/CU, AMEND-4 landed. Orphan gap round 2026-09-24 closed: GAP-LIT, GAP-B, GAP-D, GAP-ACEF landed; snapshot index + `raw/CLAUDE.md` built. Open: RP2-B-110 (needs `ext`); compression beyond anchor floors (owner). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
 
 ## Live agents
 
@@ -12,9 +12,9 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| — | — | none live; maintenance round closed 2026-09-23 | — | — |
+| — | — | none live; orphan gap round closed 2026-09-24 | — | — |
 
-Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
 
 ## Queue
 
@@ -165,6 +165,11 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | COMPRESS-CU customers | high-cpa 262 → 252 (floor L170), skincare 263 → 245 (L135), b2b-saas 242 → 228 (L132); local 94 untouched. Cut: 13 repeated over-budget notices (fuller statement kept per file), 3 "Top engine" restatements, Budget-line prose repeating rows, heading-adjacent blanks. Every pre token present; only repeat counts dropped. Floors from bake-off R0 brief cites | 2026-09-23 | see commit |
 | AMEND-4 stale-fact corrections | Dated appends only: skincare-beauty +12 (header L6 3/1/5 vs cells 4/1/4; L7 3 → 4 of 9 spend); demand-map +15 (C1 7/1/11/8 → 9/1/17/0; C4 organic 5 → 7; C5 5 of 7 → 5 of 9 enterprise; C2 S1 share 7 of 9 (RECOUNT-2) vs 8 of 9 (deciding signal) side by side); whitespace +18 (C5 "no engine fetches llms.txt" beside Otterly 81 ChatGPT-User + 3 OAI-SearchBot t5; L17 fee line beside OpenAI "small fee" t3); hypotheses +7 (H7 strict → confirmed; H9 already logged L164). Stale cite `transition-evidence.md:158` is in bake-off R2 brief only, left | 2026-09-23 | see commit |
 | ROLES-* GEO/AEO role pass (JD, SAL, BLOG, AV, FORUM sonnet; C opus) | 26 raw `raw/f-roles-{jd,salary,blogs,av,forum}-*-2026-09-23.md` (32 new posting bodies, 17 with pay; BLS/survey/aggregator pay; 5 blog, 9 AV, 3 forum ~76 items) + `findings/geo-aeo-roles.md` (220 lines, over 100 budget). AI-search premium 27% (n=1,175) and 20.5% (n=13,779) side by side, one recruiter family (tier 5). Worktree guard: SAL/AV wrote via shell, BLOG ran git worktree add (rule breach) — files merged to master, worktree + branch removed by main thread on user order | 2026-09-23 | see commit |
+| GAP-D lane-D orphan compile (opus) | `findings/frontier-scan.md` L89–157 manipulation evidence ledger, 49 rows, 8 families; 48 orphans: 47 compiled, 1 superseded. 29 measured / 15 stated / 4 no effect. Yin, Greshake, Nestaas, Pfrommer raws abstract-only, no rate (`unknown`), main-thread "missing figures" note not borne out | 2026-09-24 | 07eefbe |
+| GAP-LIT publisher litigation (opus) | `markets/organic-recommendation.md` L212–236 (10 cases) + `findings/whitespace.md` L150–165 (6-row risk register); 6 raw `b-court-*-repull3-2026-09-24.md` via CourtListener API. Dow Jones MTD denied 2025-08-21; US News stayed 2025-12-22; LTL LED remanded 2026-01-09; no merits ruling on AI answers. Some status cells exceed 12 words | 2026-09-24 | 371b400 |
+| GAP-B lane-B orphan compile (opus) | `markets/paid-placement.md` L302–364 (ChatGPT Ads mechanics, timeline, EU/UK rules, vendor claims) + `findings/ai-ads-evidence.md` L153–167 (E19–E23, H20 stays killed); 51 orphans: 25 compiled, 23 covered (19 by date-less stem cite), 3 not briefable. Four lane-A report-content raws carried only in `method/demand-signals.md` | 2026-09-24 | 8598181 |
+| GAP-ACEF A/C/E/F orphan compile (opus) | Appends: organic L238–256 (ReFiBuy AI1000; landed inside 371b400), agentic L160–176, proof-scorecard L309–336 (X8 ungraded), market-potential L294–323, demand-map L306–327 (EU boards: FR/ES read, UK/IT/NL walled), local L96–107; 47 orphans: 21 compiled, 18 covered, 8 not briefable. Organic L243 "US retailers" wrong, corrected by append L256 | 2026-09-24 | see commit |
+| Snapshot index + raw guide (main thread) | `method/gen-snapshot-index.py` → `snapshot-index.csv/.md`; `raw/CLAUDE.md`; pointer in `docs/CLAUDE.md` §raw; `run-prompt.md` Revision 2; `method/orphan-audit-2026-09-24.md`. Cite match accepts stem without date suffix after GAP-B/ACEF found 19+ such cites | 2026-09-24 | see commit |
 
 ## Landed — pending verify
 
@@ -248,6 +253,9 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Live-agent cap 7 (was 8); subagents Opus or Sonnet only, no Fable; single authority `projects/ORCHESTRATION.md` §In force, `plan.md` cap revision 4 | User: "cap agents is 7 now. this session we run opus/sonnet only"; earlier: "no fable agent… convert to opus/sonnet subagent" |
 | 2026-09-23 | Maintenance round opened: CLEANUP-1 (orchestration/STATE), REPULL-AUDIT-2, gap pulls GAP-SK and GAP-IND, then repulls, tier-3 recount, lossless compression; P15 stays paused | User: "apply 1 and 2,3,4, then commit… run subagents to fix issue"; compression "lossless compress only"; repull "we have free time, run subagent to repull before we run brief report" |
 | 2026-09-23 | Compression floor = line anchors: lossless passes keep every `file:NN`/range anchor byte-identical, so over-budget files shrink only below their highest anchor (bake-off evidence pack, briefs, reviews, STATE pin most lines). Further cuts need split-and-repoint or a post-bake-off pass — owner decision | COMPRESS-C/F1/F2/M/CU reports; user: "lossless compress only" |
+| 2026-09-24 | Raw-coverage review: 147 of 1,038 raw files orphaned (filename match); four Opus agents GAP-LIT, GAP-B, GAP-D, GAP-ACEF compiled them into dated appends with a per-file verdict in `method/orphan-audit-2026-09-24.md`. Result 103 compiled, 44 covered, 11 not briefable, 1 superseded (agents' own tallies). Filename-only match overcounted: many cites use the stem without date | User: "review. check raw files and coverage and gap"; "run subagents to pull-compile the gaps, then build index / do recommendations" |
+| 2026-09-24 | No intermediate chunked-report layer between raw and briefs. Instead a generated snapshot index (`method/snapshot-index.md` + `.csv`: per-file lane, key, tokens_est, tier, label, reach, audit verdict; per-lane split planner; latest dated section per compiled file) and `raw/CLAUDE.md` (name grammar, header, special files). Agents select raw via the index; tokens are `ceil(chars/3.5)`, heuristic | User: "build ledger, snapshot index. small file enough ... include word tokens to help agents guess how much it should split"; "subfolder claude with index of folder and special files?" |
+| 2026-09-24 | Background-session worktree guard off for this repo: `.claude/settings.json` `"worktree": {"bgIsolation": "none"}`, set by user; matches master-only rule | User: "approve run subagents. claude have been edit" |
 
 ## Open decisions — owner
 
@@ -294,4 +302,3 @@ Recorded 2026-09-23 per `biz-review-2-bakeoff-2026-09-23.md` §4. The research c
 | Success stories | One Silver per vertical, or documented absence with screened count | met — unchanged, checked RECOUNT-2 2026-09-23. grade_raw: B2B SaaS and high-CPA on Silver arm, skincare on absence (~133 screened). grade_rule1: all three on absence arm (~133 / ~100 / 34). Today's pulls add 0 Silver (Ulta NielsenIQ Bronze; Otterly grades unchanged) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 26 of 32 scored, unchanged; 6 not produced (HE2, HE3, HP1–HP4; Pass 10 skipped). Moved since P9-r: H9 strict → confirmed (R-BLOCKED-2), H7 strict → confirmed (GAP-SK). Now confirmed 13 + H6 dual, killed 7, unresolved 5 + dual. P9-r 11 + 3 dual beside |
 | Pass 10 | Three pre-registered predictions checked against the panel | skipped by user 2026-09-23 — 0 of 3. Unchanged, checked RECOUNT-2 2026-09-23: no panel pull since day 0; day-0 gap recorded, never back-filled |
-

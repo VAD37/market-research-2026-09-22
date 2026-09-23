@@ -82,3 +82,9 @@ Source: `plan-review-1-2026-09-22.md` §7. The code block above is not edited �
 ## Revision 2 — 2026-09-23
 
 Cap and model: per `projects/ORCHESTRATION.md` §In force (cap 7, usage guard >80% → 3, Opus/Sonnet only, no Fable). Hard rule "never more than 3", loop step 3 "live agents < 3" and Revision 1's "reads 10" read as that section. The code block and Revision 1 are not edited.
+
+## Revision 2 — 2026-09-24
+
+AGENT BRIEF "Read:" adds, before any raw file: `docs/raw/CLAUDE.md` and `docs/method/snapshot-index.md`. Agents select raw by lane and key from `snapshot-index.csv` and size splits by its `tokens_est` against the per-agent budget in the index header. Main thread re-runs `python docs/method/gen-snapshot-index.py` after each landing commit. Compiled files carry stacked dated sections: read the latest dated section as current, and name the earlier figure it replaces.
+
+Source: user 2026-09-24 ("build ledger, snapshot index ... include word tokens to help agents guess how much it should split agents and task"; "how do i guide other future agents to understand this file then? subfolder claude with index of folder and special files?"). The code block above is not edited.

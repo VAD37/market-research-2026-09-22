@@ -28,6 +28,8 @@ Every file states at the top: the source, the URL or document ID, the pull date,
 
 Not here: interpretation. A sentence starting "this suggests" belongs in a compiled folder.
 
+Finding files: `raw/CLAUDE.md` (name grammar, header fields, special files) and the generated `method/snapshot-index.md` (sizes and token budgets per lane and key). Read both before selecting raw.
+
 ## `markets/`
 
 Per-market sizing and structure. One file per market or segment.
