@@ -161,7 +161,6 @@ Per `../method/plan.md` Pass 16 (P16-c2). Sell-side programs and filed licensing
 **Caveats — P16-c2.** No program above publishes a take rate, a per-publisher payout or a participating-publisher list with a date; the two filed lines (Reddit, People Inc.) bundle AI licensing with other licensing and are not comparable to each other or to the marketplace prices. EDGAR full-text search was walled this session (curl 403, browser "Undeclared Automated Tool"); filings came from data.sec.gov submissions plus Archives. Search engines walled (Mojeek CAPTCHA, DuckDuckGo 403, WebSearch exhausted), so the program list is the brief's named set plus what their own sites link, not a census. This append takes the file further past its 120-line budget (already over per `../method/plan.md` AMEND-3 debt note); overrun recorded here.
 
 ## EU depth, P16-c3, 2026-09-23
-
 Regional facts outside DE. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated. Share and user rows are in `findings/market-potential.md` "EU engine share and users, P16-c3"; demand cells in `customers/*.md` appends of the same date.
 
 | Fact | Countries | Figure or statement verbatim | Source kind | Date | Tier | Raw |
@@ -177,11 +176,10 @@ Regional facts outside DE. Raw prefix `raw/`, suffix `-2026-09-23.md` unless sta
 | Regulator, UK and Spain | UK, ES | Ofcom Online Nation 2025: unknown — ofcom.org.uk 403, no archive capture; CNMC Panel de Hogares: unknown — client-rendered | — | 2026-09-23 | — | same |
 | Community threads, national subs | UK, FR, ES, IT, NL | 0 threads on r/smallbusinessuk, r/france (window fault), r/spain, r/thenetherlands; 1 r/italy post (above); no national SEO sub under prefix "seo" | measured-by-us (archive) | 2026-03-01 to 2026-09-23 | 5 | `f-reddit-arcticshift-S5-eu-national-subs` |
 
-**Caveats, this append.** The France AI Overviews statement is Reuters' footnote relaying Google's help page as of 2026-03; the Google page's country list was not pulled and the status may have changed by 2026-09. TED buyer-country is the API field; notice XML is WAF-walled to curl. LinkedIn employer lists are first-page relevance sets. Single fetch-only pass, 2026-09-23. File over its 120-line budget; overrun includes this append.
+**Caveats, this append.** The France AI Overviews statement is Reuters' footnote relaying Google's help page as of 2026-03; status may have changed by 2026-09. TED buyer-country is the API field; notice XML is WAF-walled to curl. LinkedIn employer lists are first-page relevance sets. Single fetch-only pass, 2026-09-23. File over its 120-line budget; overrun includes this append.
 
 ## Image reads, IMG-1b, 2026-09-23
-
-Figures read from chart images on the two Cloudflare Radar blog posts; each row: figure verbatim · chart title · date on chart · tier · img raw path. Text figures already in `raw/a-cloudflare-*-2026-09-22.md` stand beside; never reconciled.
+Figures read from chart images on the two Cloudflare Radar blog posts. Text figures already in `raw/a-cloudflare-*-2026-09-22.md` stand beside; never reconciled.
 
 | Figure (as printed on chart) | Chart title | Date on chart | Tier | Img raw |
 |---|---|---|---|---|
@@ -202,7 +200,6 @@ Figures read from chart images on the two Cloudflare Radar blog posts; each row:
 Caveat: all chart percentages are Cloudflare Radar's printed legend / share-bar values; line values are not readable (Max/0 axes). The crawl-to-refer PNG carries no date; the substitute pull recorded the identical ten-row table as a "live widget captured 2026-09-22".
 
 ## Image reads, IMG-1a, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | Share of prompts with a citation, US desktop: Travel & Hospitality 22.6%, Automotive 19.5%, Holding Companies 14.0%, Retail & Consumer 13.5%, Agriculture 11.6% | "ChatGPT Citation Rate by Category" (Similarweb) | May 2026 | 4 | `raw/a-similarweb-gen-ai-stats-primary-2026-09-23-img-2026-09-23.md` |

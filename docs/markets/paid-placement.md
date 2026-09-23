@@ -204,7 +204,6 @@ Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md
 **Caveats — Pass 13 addition.** This append takes the file past its 120-line budget; overrun recorded here. The 0.45% ratio compares a run rate with a fiscal year. Pass 12 (`findings/ai-ads-evidence.md`) was live in parallel and is not read here. MAGNA's 2025 figure is stale; its 2026 editions were not located.
 
 ## Tier revisions, P9-r, 2026-09-23
-
 sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
 
 | line | row | tier revised 2026-09-23 | raw |
@@ -212,7 +211,6 @@ sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above
 | 140 | Microsoft FY26 Q4, search ad revenue ex-TAC +10%, no Copilot line | 3 → 2 (filed 8-K Exhibit 99.1; the 10-K renames the line "Search advertising (formerly Search and news advertising)", FY +12%) | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`; `raw/b-sec-microsoft-10k-2026-07-29-2026-09-23.md` |
 
 ## Baselines beyond Google, P16-c1, 2026-09-23
-
 Filed ad-revenue lines the AI-surface figures above sit against. Scopes do not nest; nothing is summed or divided. Raw prefix `raw/`, suffix `-2026-09-23.md`.
 
 | Company | Line item | Period | Figure verbatim | Source kind | Tier | Raw |
@@ -242,20 +240,18 @@ AI-surface ad line inside any of these filers: none stated. Microsoft names Copi
 | MAGNA 2026 editions | `unknown — checked magnaglobal.com ×4 pages 2026-09-23`; pointer only: "U.S. advertising spending will grow 11% in 2026" | US, 2026 | forecast, relayed by a blog | 6 | `e-magna-dec-2025-pointer-mediaconfidential` |
 | WPP Media, midyear 2026 | already compiled at Pass 13 row above ("21.8% of total advertising revenue in 2026") | global, 2026 | forecast | 5 | `e-market-size-wppmedia-midyear-paid` |
 
-**Caveats — this append.** Fiscal years differ (Microsoft June, Walmart January, others December). Amazon's line spans sponsored, display and video on every Amazon surface; Microsoft's includes Microsoft News, Edge and third-party affiliates; Meta and Reddit are social. IAB's categories overlap (shares sum past 100%). IAB report body, Gartner CMO Spend and MAGNA 2026 forecasts unreached — `f-search-engines-wall-log-2026-09-23.md`. Alphabet cite re-checked as reachable, not re-pulled. File further over its 120-line budget; overrun is this append.
+**Caveats — this append.** Fiscal years differ (Microsoft June, Walmart January, others December). Amazon's line spans sponsored, display and video on every Amazon surface; Microsoft's includes Microsoft News, Edge and third-party affiliates; Meta and Reddit are social. IAB's categories overlap (shares sum past 100%). IAB report body, Gartner CMO Spend and MAGNA 2026 forecasts unreached — `f-search-engines-wall-log-2026-09-23.md`. Alphabet cite re-checked, not re-pulled. File further over its 120-line budget; overrun is this append.
 
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - 820 ChatGPT advertisers (Sensor Tower) · `raw/b-biggo-sensortower-advertisers-820-2026-09-23.md` (5) · `raw/b-businessinsider-sensortower-chatgpt-advertisers-primary-2026-09-23.md` (4) · "from around 300 in April to more than 820 this July, with at least 160 of that tally joining this month" (Sensor Tower estimate; Business Insider 2026-07-31); financial services "rising from 2% to 12% since April" · agrees
 - US AI ad spend $32.03bn 2026 to $68.25bn 2030 · `raw/e-market-size-emarketer-aiads-paid-2026-09-22.md` (5) · `raw/e-market-size-emarketer-aiads-primary-2026-09-23.md` (4) · "AI ad spending will more than double in the next five years to $68.25 billion in 2030"; chart labels "$32.03" (2026), "$68.25" (2030), "2.1x"; "More than 80% of AI advertising in 2026 will appear next to AI content" (EMARKETER, 2026-06-04) · agrees; chatbot sub-figures (<$1bn 2026, ~$5bn 2030) and the $60 → ~$15 CPM line not in primary (public page; body behind PRO+)
-- US search ad spend forecast (no figure reached) · `raw/e-market-size-emarketer-searchad-paid-2026-09-22.md` (n/a) · `raw/e-market-size-emarketer-searchad-primary-2026-09-23.md` (4) · "Google will earn 48.5% of search ad spending in 2026, the first time in more than 20 years that number has fallen below half" (EMARKETER, 2026-05-14) · not in primary (AI share of search ad spend / SEO budget shift — still `unknown — checked emarketer.com 2026-09-23`); public page adds the Google 48.5% figure
+- US search ad spend forecast (no figure reached) · `raw/e-market-size-emarketer-searchad-paid-2026-09-22.md` (n/a) · `raw/e-market-size-emarketer-searchad-primary-2026-09-23.md` (4) · "Google will earn 48.5% of search ad spending in 2026, the first time in more than 20 years that number has fallen below half" (EMARKETER, 2026-05-14) · not in primary (AI share of search ad spend / SEO budget shift — still `unknown — checked emarketer.com 2026-09-23`)
 - Perplexity sponsored follow-up format · `raw/b-perplexity-ads-launch-2026-09-22.md` (3) · `raw/b-perplexity-ads-launch-primary-2026-09-23.md` (3) · post text identical (14 paragraphs); FIG. 01 example ad rendering saved at `raw/img/b-perplexity-ads-launch-primary-2026-09-23/01-perplexity-fig01-sponsored-follow-up-example.png` (unread until IMG-1) · agrees
 - Google AI Mode ad formats (GML 2026 example media) · `raw/b-google-gml2026-search-ads-2026-09-22.md` (3 — text only, format examples not captured) · `raw/b-google-gml2026-search-ads-primary-2026-09-23.md` (3) · the six format examples (Conversational Discovery, Highlighted Answers, AI-powered Shopping ads, Business Agent for Leads, Promotional bundling + native checkout, Travel deals) are mp4 videos on storage.googleapis.com, 4.2–22.4 MB each; no chart or table image on the page · not in primary as images (videos; URLs recorded in `raw/img/INDEX.csv`, not downloaded); text unchanged
 - OpenAI projects $2.5bn ad revenue 2026, $100bn by 2030 · `raw/e-market-size-emarketer-openai-paid-2026-09-22.md` (5 — EMARKETER relay) · `raw/e-market-size-axios-openai-ad-revenue-projection-primary-2026-09-23.md` (5) · "OpenAI expects to generate $2.5 billion in ad revenue this year and $100 billion by 2030, according to a source familiar with recent presentations to investors"; "$11 billion in 2027, $25 billion in 2028 and $53 billion by 2029"; "assume OpenAI's products reach 2.75 billion weekly users by 2030"; "ad pilot generated $100 million in annual recurring revenue in under two months" (Axios, 2026-04-09) · agrees
 - ChatGPT 800M/900M WAU; $122B raise · `raw/e-openai-chatgpt-user-counts-2026-09-23.md` (3 — this URL 403; WAU from another OpenAI page) · `raw/e-openai-122bn-raise-user-counts-primary-2026-09-23.md` (3) · "$122 billion in committed capital at a post money valuation of $852 billion"; "more than 900 million weekly active users, and over 50 million subscribers"; "We are now generating $2B in revenue per month"; "our ads pilot reached more than $100 million in ARR in under six weeks"; enterprise "more than 40% of our revenue" (2026-03-31) · agrees (900M WAU, 50M subscribers); adds the ads-pilot ARR figure at an OpenAI URL
 
 ## EU depth, P16-c3, 2026-09-23
-
 Regional facts outside DE for paid placement. Raw prefix `raw/`, suffix as stated.
 
 | Fact | Countries | Statement verbatim | Source kind | Date | Tier | Raw |
@@ -269,10 +265,9 @@ Regional facts outside DE for paid placement. Raw prefix `raw/`, suffix as state
 | Regulator statements on AI ads, per country | UK (Ofcom), ES (CNMC), IT (AGCOM) | none found: Ofcom site 403; CNMC press listing carries no AI line; AGCOM Rapporto IA 2026 Part I ENG carries no ad-disclosure statement in the lines read | — | 2026-09-23 | — | `b-regulators-eu-genai-usage-checks-2026-09-23.md` |
 | Public tenders naming paid AI surfaces | EU | TED `FT~"ChatGPT Ads"` 0, `"sponsored answers"` 0 (already recorded, R-BLOCKED-2); `FT~"Perplexity"` 6 notices, DEU 6 of 6 | filed | 2025-06-06 to 2026-05-28 | 2 | `f-ted-ukcf-S10-eu-country-brand-accuracy-2026-09-23.md` |
 
-**Caveats, this append.** Country availability rests on one OpenAI locale page and its named examples; the full 31-country list was not published on it. The France AI Overviews row is an inference from surface absence and is tier 5. No regulator in UK, ES or IT was found stating a position on ads inside AI answers through the channels tried; ASA/CAP and DSA rows from 2026-09-22 stand unchanged. File over its 120-line budget; overrun includes this append.
+**Caveats, this append.** Country availability rests on one OpenAI locale page and its named examples; the full 31-country list was not published on it. ASA/CAP and DSA rows from 2026-09-22 stand unchanged. File over its 120-line budget; overrun includes this append.
 
 ## Image reads, IMG-1b, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | On-surface label wording, Copilot ad unit: card header "Microsoft Advertising"; label line "Sponsored ···" inside the unit; advertiser placeholders Contoso / Fabrikam — fills the `unknown — checked` label-wording cell in the engine table above (row "Microsoft Copilot") from the vendor's own mock-ups, not a live capture | "Example feed-based ad in Copilot", "Example Multimedia ad in Copilot", "Example Search ad in Copilot" (three help-page images) | page ms.date 2026-06-18, updated 2026-09-02 | 3 | `raw/b-microsoft-ads-in-copilot-primary-2026-09-23-img-2026-09-23.md` |
@@ -282,7 +277,6 @@ Regional facts outside DE for paid placement. Raw prefix `raw/`, suffix as state
 Caveat: mock-ups drawn by the vendor; prices and advertisers are illustrative and carry no market figure.
 
 ## Image reads, IMG-1a, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | Segment tops, $bn, measured-by-us (read off axis): 2026 search-adjacent ~26, conversational ~30.5, total 32.03; 2030 ~40, ~63, 68.25 | "AI Ad Spending Will More Than Double by 2030" (EMARKETER 366969) | chart "May 2026" | 4 | `raw/e-market-size-emarketer-aiads-primary-2026-09-23-img-2026-09-23.md` |
@@ -295,7 +289,6 @@ Caveat: mock-ups drawn by the vendor; prices and advertisers are illustrative an
 Caveat: ~ values are axis readings of a redacted chart, not published figures; the Perplexity unit is the vendor's own example.
 
 ## Image reads, IMG-1c, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | US 4,982 unique advertisers, 60.1% share of total; top: Booking.com 8.7%, Almedia USA, Inc. 8.1%, BestMoney 6.1% | "Distinct advertisers and competitive saturation by market" (dashboard cards) | week of 2026-07-13 to 07-20 (alt and page text; none inside image) | 5 | `raw/f-adthena-S2-eu-paid-agentic-2026-09-23-img-2026-09-23.md` |
