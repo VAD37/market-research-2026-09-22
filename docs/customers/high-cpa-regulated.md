@@ -220,3 +220,13 @@ EU cells — organic sub-market only; paid and agentic not checked with EU terms
 S2, S5, S10 per country as in the B2B SaaS append of the same date: Yext /fr and /it Scout pages, no customer; 0 national-sub threads (1 off-topic r/italy post); TED 0 notices outside DEU and IRL; UK CF 0. Raw: `f-vendor-S2-yext-scout-localized-fr-it` (3), `f-reddit-arcticshift-S5-eu-national-subs` (5), `f-ted-ukcf-S10-eu-country-brand-accuracy` (2).
 
 **Caveats, this append.** Compare the Market's vertical is read from the employer's business, which the posting does not state; the boundary rule keeps it out of a cell. "Regulated" here follows the segment definition above (credit cards, insurance, supplements). Single pass, fetch-only, 2026-09-23. File over its 100-line budget; overrun includes this append.
+
+## S1 posting bodies, P16-c4b, 2026-09-23
+
+Indeed walled on the first posting page (Cloudflare "Additional Verification Required", 16:21); bodies read from employer career sites instead. Raw: `raw/f-indeed-S1-repull3-2026-09-23.md` (tier 3, company-stated). Format: employer · title · phrase in body · engines named · budget or tool named · salary · size band · raw section.
+
+- The Cigna Group · "Lead Analyst, Technical Search (SEO/AEO/GEO)" · yes — "Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO)"; "Enterprise AI Search Technical Roadmap" · none by brand ("AI-powered answer engines", "large language models"; "Claude Code" named as a development tool) · vendors: "AEO tools (e.g. Profound, Scrunch, Bluefish, Evertune, etc.)"; "SEO tools (e.g. BrightEdge, SEMrush, Conductor, etc.)"; no budget figure · "79,100 - 131,800 USD / yearly" plus annual bonus · Enterprise by the source's word only, unchanged (no headcount in body) · §posting #20
+- GESA Credit Union · "Brand Content Strategist" · unread — Indeed wall; Paycom listing has no match · — · — · card "$29.90 - $60.25 an hour" · `unassigned` · §Checked, not found
+- Safe Life US LLC, CAL Financial, Inc., Ann & Robert H. Lurie Children's Hospital · unread — Indeed wall; employer sites not attempted · — · — · cards: none, "$40 - $60 an hour", "$70,720.00 - $115,627.20 a year" · `unassigned` · superseded file
+
+Cell check. Organic / Enterprise **spend** rests on the LinkedIn pull of the same Cigna posting (`raw/f-signal-hr-S1-linkedin-2026-09-22.md`), not on the Indeed card; the employer-site body **confirms** the duty and adds the first buyer-side naming of AEO vendors in this vertical (Profound, Scrunch, Bluefish, Evertune — "e.g.", tools the candidate should know, not a purchase). Posted 2026-09-14 (Workday startDate), six US locations.

@@ -230,3 +230,20 @@ Tally, 9 cells: spend 1, attention 3, none — checked 5, blank 0. Willingness t
 Cell-attributable engine naming exists in five cells only: skincare Organic and Agentic / Enterprise (e.l.f. posting: ChatGPT, Perplexity, AI Overviews, Copilot, Claude), skincare Paid / Enterprise (AI Mode, Direct Offers), high-CPA Organic / Enterprise (Juice Plus+: AI Overviews, ChatGPT, Gemini, Perplexity), local Agentic / Enterprise (IHG: ChatGPT, AI Mode). B2B SaaS postings name no engine. Per-vertical detail: the four `customers/` files, §"Engine × segment and buying process, P16-c4".
 
 **Caveats, this append.** L3 rests on an Indeed card whose posting body was not read — the match on "generative engine optimization" is Indeed's, the title names "AI Marketing"; P16-c4b is queued to open the body. L2 and L6 are S7 statements without a budget figure, attention by rule. Engine counts are word matches over raw files of unequal size and provenance (headers, query strings and case text all count); they order engines, they do not measure share. The local vertical overlaps travel (hotels) and healthcare (dental, chiropractic); its boundary is stated in the customer file. The 27-cell done row is unchanged by this append. File over its 100-line budget; overrun includes this append.
+
+## S1 body check, P16-c4b, 2026-09-23
+
+Indeed viewjob channel: walled at page 1 (Cloudflare "Additional Verification Required", Ray ID a3f87a4098e73f67, 2026-09-23 16:21); 0 of 35 bodies and 0 of 34 remaining queries read on Indeed. Bodies then read from employer career sites and ATS endpoints (`raw/f-indeed-S1-repull3-2026-09-23.md`, tier 3, company-stated).
+
+| Count | n | Detail |
+|---|---|---|
+| Cards checked (body read) | 6 of 35 | Walgreens #22, Choice Hotels #21, A Place for Mom #4, MAHEC #6, The Cigna Group #20, AT&T #2 |
+| Confirmed — phrase in body as a duty | 6 | GEO in all six; AEO in Choice, Cigna, AT&T; "LLM visibility" in Choice |
+| Weakened — phrase only in card | 0 | — |
+| Unread — wall | 29 | 6 of these also absent from the employer's own board (Ziggi's, RestauNax, Vasion, GESA, Intuit, Solventum) |
+| Spend cells resting on a read card | 2 confirmed / 0 weakened | local Organic / Enterprise (Walgreens, Choice); high-CPA Organic / Enterprise (Cigna — via the LinkedIn pull of the same posting) |
+| Engines named by brand in bodies | 0 of 6 | generic "AI assistants" (Walgreens, AT&T), "answer engines" (Cigna, AT&T); "Claude Code" in Cigna is a development tool |
+| Vendors named in bodies | 1 of 6 | Cigna: "Profound, Scrunch, Bluefish, Evertune" (AEO tools, "e.g.") — buyer-side naming, no purchase stated |
+| Salary lines in bodies | 5 of 6 | Walgreens $125,000–$218,750; Choice $123,663–$145,486; APFM $165,000–$195,000 + 10%; Cigna $79,100–$131,800; AT&T $128,400–$215,800; MAHEC none |
+
+Caveats: S1 stays the weakest spend class ("headcount budget, not category spend"); the six bodies are the employer's own text, tier 3, and none states a category budget. The 29 unread cards keep their card-only status; skincare and B2B SaaS cells rest on no Indeed card, so this check moves no read in those files.

@@ -190,3 +190,14 @@ S2 local-language listings: Yext /fr/scout and /it/scout exist, no customer name
 
 **Caveats, this append.** Pennylane's FR read repeats the Worldwide enterprise read of 2026-09-22 with a new per-country pull, not a second employer. Make's vertical is read from its product (automation SaaS), not stated in the posting. LinkedIn pages are first-page relevance sets, not counts. File over its 100-line budget; overrun includes this append.
 - Agency ChatGPT-ads service claim (E2M, S6 B2B SaaS paid) · `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md` (3 on existence — search synthesis, `verbatim: partial`) · `raw/f-e2m-white-label-chatgpt-ads-services-primary-2026-09-23.md` (3) · "We build ChatGPT Ads as part of a broader white label PPC service, so it complements, rather than competes with, your clients' existing Google, Meta, and LinkedIn Ads campaigns"; "Sponsored Answers for SaaS/B2B, Shopping Carousels for Retail/DTC"; plans "Up to $5K budget $499/mo · Up to $10K budget $999/mo · Up to $20K budget $1,999/mo · Above $20K Custom"; "one-time setup fee starts at $499 per website" · agrees in substance (synthesis wording is not the page's); primary adds list prices — an asking price, not a price paid
+
+## S1 posting bodies, P16-c4b, 2026-09-23
+
+Indeed walled on the first posting page (Cloudflare "Additional Verification Required", 16:21); bodies read from employer career sites instead. Raw: `raw/f-indeed-S1-repull3-2026-09-23.md` (tier 3, company-stated). Format: employer · title · phrase in body · engines named · budget or tool named · salary · size band · raw section.
+
+- AT&T (AT&T Business) · "Lead, Digital Customer Growth" — body: "As an SEO & AEO/GEO Manager supporting AT&T Business" · yes — "Answer Engine Optimization (AEO), Generative Engine Optimization (GEO)"; "generative search, answer engines, AI assistants, and citation-based discovery" · none by brand · tools listed as familiarity: "Google Search Console, Bing Webmaster Tools, Adobe Analytics, Ahrefs, SEMrush, BrightEdge, Botify, Screaming Frog"; no budget figure · "$128,400.00 - $215,800.00 USD Annual" · `unassigned` (no headcount in body); telecom, B2B buyer audience — not B2B SaaS, moves no cell · §posting #2
+- Vasion · "Head of Search & AI Visibility" · unread — Indeed wall; Workable board lists 5 roles, this title absent as of 2026-09-23 · — · — · card: no salary · `unassigned` · §Checked, not found
+- Intuit · "Staff AI Scientist" · unread — Indeed wall; jobs.intuit.com results script-rendered · — · — · card "$209,500 - $283,500 a year" · `unassigned` · §Checked, not found
+- CWILL INC · "Bilingual Mandarin Product Manager (SEO SaaS Product)" · unread — Indeed wall; not attempted · — · — · card "$100,000 - $160,000 a year" · `unassigned` · superseded file
+
+Cell check. No B2B SaaS S1 cell rests on an Indeed card; nothing confirmed or weakened here. The eight B2B-term Indeed queries (SaaS, "B2B software" × 4 phrases) remain unrun — wall.

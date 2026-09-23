@@ -98,3 +98,7 @@ Not case-based — survivorship does not apply. Events enter only when a raw fil
 - Filing rows carry the filer's framing (`method/trust-rubric.md`); the Chegg and People Inc sentences sit in a regex-selected raw. "Not carried" means no compiled file cites the figure as of 2026-09-23.
 - The oldest pull cited is 2026-09-22; pulls older than one quarter at citation are re-checked and the re-check dated (`method/plan.md` staleness rule).
 - This file carries evidence, not a verdict.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- HubSpot CMO op-ed, 2026-09-22 row (blog "5 million" fewer visits, thirty days) · `raw/e-case-fortune-hubspot-blog-traffic-loss-2026-09-23.md` (3) · `raw/e-case-fortune-hubspot-blog-traffic-loss-primary-2026-09-23.md` (3) · "Our blog lost 5 million visits in a thirty-day period. We saw AI search usage climbing 37% while traditional search declined 11 percent."; dateline "September 22, 2026, 9:00 AM ET" · agrees — date, figure and window identical on the primary re-read (P16-c4b, 2026-09-23)
