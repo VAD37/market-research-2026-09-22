@@ -146,3 +146,11 @@ Caveats, this append: (b) rests on the grade table's reading of Bronze as a move
 ## Primary re-pulls, REPULL-1, 2026-09-23
 
 - +54% GPT-User bot hits (C7 Seer "SaaS HR", Silver) · `raw/e-case-seer-interactive-content-recency-2026-09-22.md` (5) · `raw/e-case-seer-interactive-content-recency-primary-2026-09-23.md` (5) · text figures "300%", "219%", "54%", "80%", "3.6%" unchanged; two results charts saved at `raw/img/e-case-seer-interactive-content-recency-primary-2026-09-23/02-seer-content-recency-test.png`, `03-seer-content-recency-travel-client-results.png` (unread until IMG-1) · agrees
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- T6 Ulta Beauty (L27, L105) — "among the first retailers to implement the protocol at scale," screened — no claim, tier 5 (BeautyMatter, 2026-04-24). Primary located: Ulta Beauty's own IR press release of the same announcement, released 2026-04-22 (predates the BeautyMatter relay by two days), quotes match verbatim. Grade unchanged (screened — no claim, no visibility/traffic/sales metric); tier upgrades **5 to 3** (platform primary). Raw: `raw/e-case-ulta-google-gemini-primary-2026-09-23.md`.
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- T13 row (L34), B2B SaaS "/llms.txt served: ... 9 of 10" — zendesk.com was excluded from that 10-domain sample (TLS handshake failure on `www.zendesk.com`, 2026-09-22). Re-pull 2026-09-23: zendesk.com now returns HTTP 200, text/plain, 741,350 bytes — **present**. If added to the sample: 10 of 11 B2B SaaS domains checked carry `/llms.txt` (still 1 genuine 404, docusign.com; box.com remains excluded, separately 403). Raw: `raw/f-signal-bs-S12-zendesk-llms-txt-repull2-2026-09-23.md`.

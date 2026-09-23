@@ -286,3 +286,7 @@ One definition per row; rows with different definitions are never combined. Raw 
 | 41 % of the population declare themselves competent in generative AI (vs 77 % digital platforms) | Baromètre p.4 | same | 4 | same |
 
 Caveat: ~ values are measured-by-us axis readings; Similarweb's ~ readings carry ±2 points; the Reuters "*" definition replaces the source raw file's guessed "urban/younger" reading.
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- llms.txt cross-section row, "B2B SaaS 9 of 10" — zendesk.com (excluded from that 10, TLS handshake failure 2026-09-22) re-checked 2026-09-23: HTTP 200, text/plain, 741,350 bytes, **present**. Wall did not hold on re-check; extended sample reads 10 of 11 B2B SaaS domains present (docusign.com the one confirmed 404; box.com still excluded, separately 403). Raw: `raw/f-signal-bs-S12-zendesk-llms-txt-repull2-2026-09-23.md`.

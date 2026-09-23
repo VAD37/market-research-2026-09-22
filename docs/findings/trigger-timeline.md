@@ -102,3 +102,11 @@ Not case-based — survivorship does not apply. Events enter only when a raw fil
 ## Primary re-pulls, REPULL-1, 2026-09-23
 
 - HubSpot CMO op-ed, 2026-09-22 row (blog "5 million" fewer visits, thirty days) · `raw/e-case-fortune-hubspot-blog-traffic-loss-2026-09-23.md` (3) · `raw/e-case-fortune-hubspot-blog-traffic-loss-primary-2026-09-23.md` (3) · "Our blog lost 5 million visits in a thirty-day period. We saw AI search usage climbing 37% while traditional search declined 11 percent."; dateline "September 22, 2026, 9:00 AM ET" · agrees — date, figure and window identical on the primary re-read (P16-c4b, 2026-09-23)
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- IAC deck, 2026-02-03 (row L43): "50% decline in Google Search referrals since 2023" — chart image pull confirms the underlying Google Search segment of the Core Sessions stacked bar (1,223 → 612, Q4'23 → Q4'25) declines 49.96%, reconciling the callout against the chart it sits on (prior pull's text extraction could not reconcile it). The separate "63% decline... over two years" figure at row L53 (2026-05-04 deck) is unaffected, carried side by side. Raw: `raw/e-case-iac-investor-deck-repull2-2026-09-23.md`; `raw/e-case-iac-investor-deck-repull2-2026-09-23-img-2026-09-23.md`. Tier 2, filed.
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- Row L65, "Chegg, Penske consolidated motion-to-dismiss hearing, Judge Mehta" — outcome was "not carried". Docket re-pull resolves it: hearing held 2026-08-25 before Judge Mehta, **matter taken under advisement** (Chegg docket minute entry, covering both consolidated cases per the 2026-07-29 consolidation order); hearing transcript filed 2026-09-02 (main document itself unavailable); no ruling entered on either docket as of the most recent entry captured 2026-09-23. Raw: `raw/b-court-dockets-table-repull2-2026-09-23.md`. Tier 2, filed.

@@ -154,3 +154,7 @@ Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md
 | Scope note: includes Target's app in ChatGPT, Atlas, Google AI Mode; excludes retailer-native assistants, BuyScout, AI search summaries | same | same | 4 | same |
 
 Caveat: EDC pages read from a local render of the saved PDF; nothing on pp. 11–15 prints "$1.7 trillion".
+
+### Primary re-pull RP2-A, 2026-09-23
+
+- Regulatory row's "No commerce-relevant docket found; every Amazon-side docket query was WAF-blocked — `unknown — checked courtlistener.com 2026-09-22`" — re-attempted 2026-09-23 with five free-text queries ("Amazon Rufus publisher", "Amazon advertising AI publisher", "Meta AI advertising publisher", "xAI Grok publisher", "xAI advertising") plus a quoted variant, all six returning HTTP 202 (WAF/rate-limit challenge), same as 2026-09-22 — **wall confirmed still standing**, not resolved. By contrast, docket-number-scoped lookups (not free-text search) succeeded at HTTP 200 the same session, used to resolve a different unknown (Chegg/Penske MTD hearing outcome, see `findings/trigger-timeline.md` Primary re-pull RP2-A). Raw: `raw/b-court-dockets-table-repull2-2026-09-23.md`. `unknown — checked courtlistener.com free-text search 2026-09-23` stands unchanged.

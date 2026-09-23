@@ -12,9 +12,8 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| RP2-A | sonnet | repull batch A (fetch only): rows 137, 144, 142, 141, 109, 47, 49, 48, 39, 31, 159; images read inline | raw `*-repull2-2026-09-23.md`, `raw/img/`, compiled cite appends | 2026-09-23 |
 
-Slots free: 6 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
@@ -155,6 +154,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | GAP-SK skincare Organic/Mid (E2) | 5 raw `f-signal-sk-*` / `f-edgar-sk-*-2026-09-23.md`; E2 blank → spend: Beauty Health (Hydrafacial) Workday JR101647 "SEO, AEO, and GEO strategies", $121,000–143,000 (S1 tier 3); mid band by 10-K headcount 613 (Olaplex 278, S1 negative 8/8); S12 llms.txt olaplex.com + hydrafacial.com (attention, tier 1); S6 Passionfruit mid band $12k–$30k/mo, unattributed. Appends `skincare-beauty.md`, `demand-map.md`: 27-cell matrix strict = loose 9/1/17/0 blank. Caveat: one posting, one employer | 2026-09-23 | see commit |
 | RP2-B repull batch B | `ext` not connected (3 attempts 2026-09-23), no tab opened; row 110 Adobe Q3 PDF pp. 13–53 not attempted, CSV `open` (curl timeout, no Wayback); rows 74, 77, 37 by curl → `unknown-checked`: GEICO 403, GNC px-captcha, Estée Lauder 403, Ulta Akamai waiting room, Adthena Data Pulse LinkedIn-only. 3 raw `*-repull2-2026-09-23.md`; no compiled figure moved | 2026-09-23 | see commit |
 | GAP-IND Indeed card bodies | `raw/f-indeed-S1-repull4-2026-09-23.md`; 28 cards attempted (35 − 7 already read), 13 bodies read (11 name GEO/AEO duties: Fresenius Kabi, Solventum, Lurie Children's, Giftogram, Playboy etc.), 9 not on employer board, 6 not retried. Cells moved 0: healthcare/pharma outside high-CPA definition (cards, insurance, supplements), Giftogram/CCYP not self-labelled SaaS. Vendors named 0. No compiled appends | 2026-09-23 | see commit |
+| RP2-A repull batch A | 11 rows: 8 `done-RP2A`, 3 `unknown-checked` (Adobe Q2 Wayback 429 ×11, 5W report 404, Sensor Tower report not found). IAC slide 7 JPG: 1,223→612 = 49.96% ("50%" reconciled; "63%" other deck, side by side). Otterly ×3 cases: 11 chart images reconfirm text; llms.txt 84 hits = 81 ChatGPT-User + 3 OAI-SearchBot; HTML cited 52+17 vs .md 0. Ulta×Google IR primary 2026-04-22 (tier 5→3, no metric); Ulta/NielsenIQ Gen Alpha study (tier 3, Bronze). CourtListener: Chegg/Penske MTD heard 2026-08-25, no ruling as of 2026-09-02. Zendesk llms.txt 200. 12 images in INDEX.csv, analysed. Appends: proof-scorecard, trigger-timeline, transition-evidence, skincare-beauty, agentic-commerce, market-potential | 2026-09-23 | see commit |
 
 ## Landed — pending verify
 
