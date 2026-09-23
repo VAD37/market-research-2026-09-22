@@ -460,6 +460,13 @@ Cap in force is the latest cap line in `STATE.md` §Decisions taken; as read 202
 - Paywalled text is recorded as the figures, dates, named entities, headings and short quotes (≤25 words each) the research needs, never as a full-article copy. `[note: paywalled; figures and short quotes only]` marks the file.
 - Compiled files that cite the secondary pull get an appended row pointing at the primary pull with its tier; the secondary row stays, so tier changes are visible side by side. `docs/method/repull-audit-<date>.md` and `repull-queue-<date>.csv` are the inventory; REPULL-1 works the queue in priority order.
 
+### Orchestration — image pulls, 2026-09-23
+
+- From 2026-09-23 every re-pull and every new pull also saves the images on the source page that carry data: charts, tables rendered as images, screenshots of dashboards, infographics. Decorative images are skipped. User instruction 2026-09-23: charts and metrics inside images are critical; pull now, analyse later.
+- Location: `docs/raw/img/<raw-file-stem>/<NN>-<slug>.<ext>` where `<raw-file-stem>` is the raw markdown file the image belongs to, without `.md`. One row per image in `docs/raw/img/INDEX.csv` (header: `image_path,source_raw_file,page_url,image_url,caption_or_alt,pull_date,pull_method,analysed_in`). The raw markdown file carries `[image: <path>]` at the point where the image sat in the page.
+- Method: `curl` on the image URL first (publisher CDNs rarely wall images); browser screenshot of the rendered element when the image is drawn by script; `[note: image not saved — <reason>]` plus the image URL in INDEX when neither works. Never a whole-page screenshot in place of a chart.
+- Images are raw pulls: never edited, never annotated in place. Reading them is a separate pass (IMG-1): an agent reads each image, writes the numbers, axes, series, dates and source lines it shows into `docs/raw/<raw-file-stem>-img-<date>.md` as a new raw file (tier inherits from the page, `source_label` as the chart states, `measured-by-us` only if the agent read values off an unlabelled axis and says so), fills `analysed_in`, and appends the compiled rows that change. Until IMG-1 lands, `analysed_in` is blank and no compiled file cites an image.
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.
