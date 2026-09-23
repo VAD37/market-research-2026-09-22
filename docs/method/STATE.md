@@ -114,8 +114,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P9-amend | four findings files amended per review-1 §9: 34 of 34 applied verbatim; tallies 4/3/8/8; 68.0% and 44.4% side by side; line counts 100/100/91/100 | 2026-09-23 | b5ed1c7 |
 | P9-amend-2 | `proof-scorecard.md`, `unknowns.md` reconciled: C4 tier 6, eight `not produced` rows, H5/H15/H6 both marks side by side, 44.4% beside 68.0% | 2026-09-23 | bd62e6f |
 | **Pass 9 done** | four findings + review-1 + amendments; hypotheses 4 confirmed / 3 killed / 8 unresolved / 8 not produced; tier-3 share 68.0% (P9) and 44.4% (review-1) both stand; 0 Gold, 7 raw Silver (1 under grading rule 1 literal) | 2026-09-23 | bd62e6f |
-| P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | PENDING |
-| **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | PENDING |
+| P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | 91c8059 |
+| **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | 91c8059 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
