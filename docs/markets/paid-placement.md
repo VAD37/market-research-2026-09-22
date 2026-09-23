@@ -280,3 +280,16 @@ Regional facts outside DE for paid placement. Raw prefix `raw/`, suffix as state
 | Merchant Center "Ad example": Product ads grid ("Ads" heading, 8 tiles, prices $29.99–$69.99) on a search results page layout, not a Copilot response | "Ad example." (help-page image) | page ms.date 2026-06-18, updated 2026-07-27 | 3 | `raw/c-microsoft-merchant-center-overview-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: mock-ups drawn by the vendor; prices and advertisers are illustrative and carry no market figure.
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| Segment tops, $bn, measured-by-us (read off axis): 2026 search-adjacent ~26, conversational ~30.5, total 32.03; 2030 ~40, ~63, 68.25 | "AI Ad Spending Will More Than Double by 2030" (EMARKETER 366969) | chart "May 2026" | 4 | `raw/e-market-size-emarketer-aiads-primary-2026-09-23-img-2026-09-23.md` |
+| 2027–2029 totals redacted "$--.--"; intermediate tops ~43, ~51.5, ~59.5 (read off axis) | same | same | 4 | same |
+| Amazon 24.2% of US search ad revenues 2026 (not in page text); Google 48.5% | "Google's Share of Search Advertising Will Fall Below 50%…" (365186) | chart "March 2026" | 4 | `raw/e-market-size-emarketer-searchad-primary-2026-09-23-img-2026-09-23.md` |
+| Sponsored follow-up unit: "How can I use Indeed to enhance my job search?" labelled "SPONSORED", first of six "Related" rows | second page image (no caption) | page undated (2024-11 per substitute) | 3 | `raw/b-perplexity-ads-launch-primary-2026-09-23-img-2026-09-23.md` |
+| "FIG. 01" is an illustration: no ad unit, no text | FIG. 01 | same | 3 | same |
+| Ad-impression-by-session-position chart absent: image under that alt is a product demo table | alt "Where ChatGPT ad impressions land in a session" | page 2026-07-29 | 4 | `raw/a-similarweb-gen-ai-stats-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: ~ values are axis readings of a redacted chart, not published figures; the Perplexity unit is the vendor's own example.

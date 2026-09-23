@@ -270,3 +270,19 @@ One definition per row; rows with different definitions are never combined. Raw 
 **Reads.** Five countries carry a tier-4 per-engine referral share for 2026-08 (StatCounter); ChatGPT holds 69–82 % on that definition, Gemini 9–17 %, Italy the Gemini high. Population-level generative-AI use is tier 3 for FR, ES, IT, NL, DE (Eurostat 2025) and absent for the UK. France is the only country with a survey naming which engine users use most (ChatGPT 63 %, tier 4). No per-country user count exists for any engine; the DSA figures are EU-wide. Google AI Overviews were not rolled out in France as of 2026-03 per Google's own documentation as relayed by Reuters DNR 2026 (footnote, `a-reuters-dnr-2026-ai-chatbots-countries`; primary Google page not pulled for the country list).
 
 **Caveats, this append.** StatCounter measures referral clicks to tracked sites, not users; its HTML table and CSV differ by hundredths for the same month. Eurostat, Crédoc and YouGov measure people; none measures queries. The Datos row is a relayed pointer (tier 5). Country rows sit beside the worldwide rows in Evidence above and are not averaged with them. File over its 100-line budget; overrun includes this append.
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| ChatGPT share of gen-AI chatbot web visits, read off axis: Jun-24 ~84%, Feb-25 ~77%, Jun-25 ~78%, Dec-25 ~66%, May-26 ~53%; Gemini ~28%, Claude ~9% at May-26 | "Gen AI Chatbot Websites by Visits", worldwide, Jun 2024 – May 2026 | 2026-07-29 | 4 | `raw/a-similarweb-gen-ai-stats-primary-2026-09-23-img-2026-09-23.md` |
+| Jun-25 ChatGPT reading ~78% — differs from text: "about 76%" (within axis-reading error) | same | same | 4 | same |
+| US app MAU change Jun 2025 → May 2026: ChatGPT +87%, Gemini +31%, Meta AI +435%, Copilot 365 −31%, Grok +117%, Perplexity +94%, Claude +349%, Deepseek −23% | "Standalone AI Apps by Monthly Active Users…" US iOS & Android | 2026-07-29 | 4 | same |
+| ChatGPT ~27M → ~51M US app MAU, Gemini ~23M → ~30M (read off axis) | same | same | 4 | same |
+| Usage-acceleration chart (9.5bn visits, 655M uniques) absent: image under that alt is a product demo screenshot | alt "Generative AI usage is still accelerating" | same | 4 | same |
+| "R² = 0.81" use-vs-trust across 48 markets; base "≈ 2,000" per market; "*" = predominantly English-speaking sample, not nationally representative | DNR 2026 chart AkjEw | fieldwork 2026-01/02 | 4 | `raw/a-reuters-dnr-2026-ai-chatbots-countries-2026-09-23-img-2026-09-23.md` |
+| Age bases: 18–24 11,041; 25–34 16,944; 35–44 17,822; 45–54 16,764; 55+ 34,949; "Once a day 7%" completes the frequency series | DNR 2026 chart cN3Fo | same | 4 | same |
+| Pie confirms pairing: Chat GPT 63 %, Autres IA 24 %, Gemini 13 %; usage 2023 20 % → 2024 33 % → 2025 48 %; 85 % of 18-24 | Baromètre du numérique 2026, p.1 | fieldwork 2025-06 | 4 | `raw/b-arcep-barometre-numerique-2026-2026-09-23-img-2026-09-23.md` |
+| 41 % of the population declare themselves competent in generative AI (vs 77 % digital platforms) | Baromètre p.4 | same | 4 | same |
+
+Caveat: ~ values are measured-by-us axis readings; Similarweb's ~ readings carry ±2 points; the Reuters "*" definition replaces the source raw file's guessed "urban/younger" reading.

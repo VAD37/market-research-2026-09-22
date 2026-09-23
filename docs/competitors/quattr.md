@@ -82,3 +82,17 @@ Scoring, verbatim: "each citation counts 1.25 and each brand mention counts 1, s
 ## Primary re-pulls, REPULL-1, 2026-09-23
 
 - Kiteworks 79% more AI Overview citations; CloudEagle 3x AI citation share · `raw/e-case-c13-quattr-kiteworks-2026-09-22.md` (6 — index cards only) · `raw/e-case-quattr-kiteworks-internal-linking-primary-2026-09-23.md` (5); `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23.md` (5) · Kiteworks: "79% expansion in AI Overview presence, with their content citation rate climbing 20% higher than the baseline within just one week"; "30% increase in indexed pages" (eight weeks); "22% jump in keywords ranking in positions 1-3 within six weeks"; "difference-in-differences analysis against a control group" (sessions: glossary 19.93%, solution 8.55%, blog 2.3%). CloudEagle: "organic clicks across the pilot cohort increased from 2.47K to 5.25K, representing a +113% sustained lift" (12 weeks, 33 pages); "AI Citation Share increased by 3× post optimizations"; "328 net-new Page 1 queries" · agrees (79%, 30%, 22%, 113%, 3x, 328); full pages add the control design, week counts and absolute click counts; no absolute dates, no prompt n; seven result/dashboard images saved (unread until IMG-1)
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| AI Overview presence, %, read off axis: ~3.9–4.4% before deployment (~06-09), ~5.9–6.3% from 06-18, ~6.3–7.1% in August; no year printed | "Kiteworks Expanded its Presence in AI Overview" | 05-28 to 08-24 (year absent) | 5 | `raw/e-case-quattr-kiteworks-internal-linking-primary-2026-09-23-img-2026-09-23.md` |
+| Indexed pages: ~6,650 at chart start (05-24), ~4,850 at deployment, ~6,250 at 08-02 (read off axis) | "Kiteworks Increased Indexation Count…" | 05-24 to 08-02 | 5 | same |
+| Ranking 1–3 keywords: weekday peaks ~800–880 pre-deployment, ~1,330 peak ~07-31 (read off axis) | "Kiteworks Expands Page 1 Keyword Presence in USA" | 05-18 to 08-02 | 5 | same |
+| AI Citation Share: ~0.13 (10-12-2025), ~0.075 at deployment (11-02-2025), ~0.325 (12-21-2025); "3X" printed | "3X Increase in AI Citation Share Within 12 Weeks" | 2025-10-12 to 2025-12-21 | 5 | `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23-img-2026-09-23.md` |
+| Weekly clicks ~235 (08-03-2025) → ~420 at deployment → ~670 (01-11-2026); impressions ~195,000 → peak ~390,000 (11-23-2025) → ~335,000 | "113% Increase in Clicks Within 12 Weeks…" | 2025-08-03 to 2026-01-11 | 5 | same |
+| One AI Overview citation shown for query "saas spend management" (CloudEagle.ai first source card) | Google SERP screenshot | undated | 5 | same |
+| Dashboard: "Page Level Content Quality 100 ↑ +29"; cluster "Saas Spend Management 14 Keywords" avg position 8.23, 3.62K impressions, 4 clicks, CTR 0.1% | product dashboard screenshot | undated | 5 | same |
+
+Caveat: none of the five charts prints a data label, n, or source line; the "79%", "30%", "22%" and "113%" text figures are not readable from the charts.

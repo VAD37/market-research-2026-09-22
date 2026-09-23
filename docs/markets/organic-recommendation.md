@@ -200,3 +200,15 @@ Figures read from chart images on the two Cloudflare Radar blog posts; each row:
 | Radar Bots Directory: "286 results" (not in text) | "Bots Directory" screenshot (image 11 of crawl-refer post) | none printed | 4 | `raw/a-cloudflare-crawl-refer-ratio-blog-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: all chart percentages are Cloudflare Radar's printed legend / share-bar values; line values are not readable (Max/0 axes). The crawl-to-refer PNG carries no date; the substitute pull recorded the identical ten-row table as a "live widget captured 2026-09-22".
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| Share of prompts with a citation, US desktop: Travel & Hospitality 22.6%, Automotive 19.5%, Holding Companies 14.0%, Retail & Consumer 13.5%, Agriculture 11.6% | "ChatGPT Citation Rate by Category" (Similarweb) | May 2026 | 4 | `raw/a-similarweb-gen-ai-stats-primary-2026-09-23-img-2026-09-23.md` |
+| Lowest: Technology 6.6%, Healthcare 6.3%, Media & Entertainment 6.0%, Education 4.8%, Professional Services 3.9% | same | same | 4 | same |
+| % of searches with AI Overviews, US, read off axis: Jan 2025 ~16%, Aug 2025 ~41%, May 2026 ~43%; AI Mode visits ~120M Jun 2025 → ~320M Mar 2026 → ~270M May 2026 | "AI Overviews (as a % of searches) and AI Mode Visits" | Jan 2025 – May 2026 | 4 | same |
+| Citation-rate-over-time chart absent: image under that alt is a product demo screenshot | alt "ChatGPT citation rate over time" | page 2026-07-29 | 4 | same |
+| Google's share line flat 2023–2024 then falling to 2027; Amazon rising; only 2026 labelled (48.5% / 24.2%) | "Google's Share of Search Advertising Will Fall Below 50%…" | chart "March 2026" | 4 | `raw/e-market-size-emarketer-searchad-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: ~ values are measured-by-us axis readings; Similarweb prints no panel size on either chart.

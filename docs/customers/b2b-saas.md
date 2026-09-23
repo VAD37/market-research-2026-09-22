@@ -201,3 +201,15 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 - CWILL INC · "Bilingual Mandarin Product Manager (SEO SaaS Product)" · unread — Indeed wall; not attempted · — · — · card "$100,000 - $160,000 a year" · `unassigned` · superseded file
 
 Cell check. No B2B SaaS S1 cell rests on an Indeed card; nothing confirmed or weakened here. The eight B2B-term Indeed queries (SaaS, "B2B software" × 4 phrases) remain unrun — wall.
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| GPT-User bot hits/day, read off axis: ~80–100 at red marker (~6/17/2025), ~150 at teal marker (~7/9/2025), ~215–245 after ~8/6, ~275 at ~8/28 | "Content Recency Page GPT-User Bot Hits" (Seer, travel client) | 2025-06 to 2025-08 | 5 | `raw/e-case-seer-interactive-content-recency-primary-2026-09-23-img-2026-09-23.md` |
+| Text says "red line … blue line"; chart draws red and teal vertical markers; the only blue element is the data series | same | same | 5 | same |
+| Test-page sessions/week (left axis 0–12) ~2–12; overall AI sessions (right axis) ~540–840 throughout; two black boxes ~3/8–4/22 and ~6/8–end | "Content Recency Sessions and Organic Sessions" (SaaS HR client) | 2025-01 to 2025-06 | 5 | same |
+| Header image is an unrelated 8-bar chart (flight comparison 100% … discounts 74%), no title | header image, no alt | page 2026-01-19 | 5 | same |
+| CloudEagle AI Citation Share, read off axis: ~0.075 at deployment (11-02-2025) → ~0.325 at 12-21-2025; weekly clicks ~420 → ~670 (01-11-2026) | "3X Increase in AI Citation Share Within 12 Weeks"; "113% Increase in Clicks…" (Quattr) | 2025-10 to 2026-01 | 5 | `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: the Seer "54%" and "300%" are not printed on the charts; ~ values are measured-by-us axis readings from vendor screenshots.

@@ -198,3 +198,18 @@ Raw: `f-linkedin-S1-eu-countries`, `f-jobboards-S1-eu-national`, `f-vendor-S2-ye
 ## S1 posting bodies, P16-c4b, 2026-09-23
 
 Indeed walled on the first posting page (Cloudflare "Additional Verification Required", 16:21, `raw/f-indeed-S1-repull3-2026-09-23.md`). None of the 35 cards captured in `raw/f-indeed-S1-repull2-2026-09-23.md` names a skincare, beauty or cosmetics employer; no skincare S1 cell rests on an Indeed card; nothing confirmed or weakened. The eight skincare-term Indeed queries (skincare, beauty, cosmetics × 4 phrases) remain unrun — wall. The open question at L89 stands.
+
+## Image reads, IMG-1a, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| Overall brand mention rate, ChatGPT, Q1 2026: La Roche-Posay 22%, CeraVe 20%, Neutrogena 15%, Vanicream 15%, Dior 14% | "AI Visibility Index: Personal Care & Beauty Leaderboard, Q1 2026" (EMARKETER 362433) | chart "March 2026" | 5 | `raw/e-case-emarketer-ai-visibility-index-beauty-q1-2026-primary-2026-09-23-img-2026-09-23.md` |
+| Ranks 6–10: Maybelline 12%, L'Oréal Paris 11%, Clinique 11%, Chanel 10%, Fenty Beauty 9% | same | same | 5 | same |
+| Category leaders: body care CeraVe 58%; facial skincare La Roche-Posay 81%; fragrance Chanel 52%; face makeup Fenty 35%; eye makeup Clinique 37% | same | same | 5 | same |
+| Lip makeup Maybelline 56%; haircare Kérastase 43%; hair color L'Oréal Paris 47%; oral care Colgate 75% | same | same | 5 | same |
+| Facial skincare top 5: La Roche-Posay 81%, CeraVe 71%, Neutrogena 45%, Vanicream 41%, Paula's Choice 28% | same | same | 5 | same |
+| Body care Q4 2025 → Q1 2026 rank, rate: CeraVe 1→1 58%; La Roche-Posay 3→2 57%; Vanicream 6→3 47%; Aveeno 4→4 33%; Neutrogena 2→5 32%; Eucerin 5→6 30% | "…Body Care Leaderboard, Q1 2026" (363213) | same | 5 | same |
+| Body care 7–10: Dove 9→7 24%; EltaMD new→8 16%; Cetaphil 7→9 13%; Native new→10 12%; Kiehl's and Paula's Choice drop off | same | same | 5 | same |
+| Definition on chart: "percentage of queries in which a brand appeared in ChatGPT's recommendations" | both charts | same | 5 | same |
+
+Caveat: vendor index of its own product; prompt set, run dates, model version unpublished (as the source raw file's tier reason states).
