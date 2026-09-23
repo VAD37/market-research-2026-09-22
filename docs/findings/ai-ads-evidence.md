@@ -138,3 +138,7 @@ sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above
 |---|---|---|---|
 | 51 | E13, "search ad revenue ex-TAC +10%" element | 3 → 2 (8-K Exhibit 99.1: "Search advertising revenue excluding traffic acquisition costs increased 10% (up 9% in constant currency)"; no Copilot advertising line) | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`; annual +12% in `raw/b-sec-microsoft-10k-2026-07-29-2026-09-23.md` |
 | 51 | E13, Copilot "fully ramped" / "25% better" element | unchanged 3 (blog) | — |
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- X plans ads inside Grok responses · `raw/b-techcrunch-grok-ads-plan-2026-09-23.md` (5) · `raw/b-ft-grok-ads-plan-primary-2026-09-23.md` (5) · "introduce advertising into the answers of X's artificial intelligence chatbot"; X "would allow marketers to pay to appear in suggestions from Grok" (FT, 2025-08-07); advertiser email: conversions "risen by 40 per cent since June", cost "decreased by 7 per cent quarter on quarter" · agrees (Musk quotes and $45bn match verbatim); primary adds the email figures and a "checkout feature" plan; later Grok status still not found

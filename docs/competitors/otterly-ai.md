@@ -85,3 +85,7 @@
 - Conflicting, not reconciled: five cases read Fools gold on the Pass 3 teaser and "screened — not opened" at the P4-c13 re-grade; both records stand.
 - Layer mismatch: "40,000+ Marketing Pros" counts users of a product with a free trial, not paying customers; no revenue figure exists at any layer.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Instant Commerce 2x AI visibility · `raw/a-otterly-customers-2026-09-22.md` (6) · `raw/a-otterly-instant-commerce-case-study-primary-2026-09-23.md` (6) · "2x increase in AI search visibility"; "Doubled incoming traffic from AI search engines in just 6 months"; "tracked directly through OtterlyAI's Brand Report"; no absolute dates, no n · agrees; no further figure after the substitute's cut

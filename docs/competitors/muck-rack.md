@@ -78,3 +78,8 @@
 - **The pricing page was Cloudflare-blocked to three separate methods, so price is `unknown — checked`, not "no price exists".** Absence here was produced by a block, not by a check that completed.
 - "Thousands of companies" is platform-wide and company-stated — a layer mismatch against Generative Pulse adoption, for which no figure exists. The 15M citations and 25M prompts figures are different units and are never summed.
 - Oldest pull depended on: 2026-09-22. Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Three Rings case study (Generative Pulse) · `raw/a-muckrack-customers-2026-09-22.md` (6) · `raw/a-muckrack-three-rings-case-study-primary-2026-09-23.md` (6) · "this client closed a six-figure deal with a major consulting firm that was directly linked to an inquiry generated through ChatGPT and attributed to its GEO program"; "By the numbers: 350+ pitches sent · 51% open rate · 61% click-through rate · 70+ placements" (pitch campaign, not GEO) · agrees (six-figure anecdote; teaser text itself not on the page); no baseline, window, n or engine beyond "ChatGPT"
+- Muck Rack pricing / price delta · `raw/a-muckrack-pricing-2026-09-22.md` (n/a — Cloudflare wall) · `raw/a-muckrack-pricing-primary-2026-09-23.md` (3) · page reached: plan matrix, add-ons incl. "Generative Pulse", FAQ "Why doesn't Muck Rack list its pricing publicly?"; no price or price delta for any plan or add-on; CTA "Talk to our team" · not in primary (no list price; `unknown` now checked on the page itself, 2026-09-23)

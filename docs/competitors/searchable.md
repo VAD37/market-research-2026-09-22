@@ -78,3 +78,7 @@ Paid-by-outcome unknown and prompt set undisclosed on all three (`raw/e-case-cen
 - Conflicting figures stand side by side, unreconciled: customers 1,000+ vs users 12,000+; Claude, Copilot and Grok listed on all tiers in the comparison table but described as add-ons in the same page's prose.
 - Layer mismatch: ARR and valuation are group-level company statements inside a funding article; "1,000+ teams" is a logo-wall claim, not a disclosed paying-customer count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Searchable open-role count · `raw/a-searchable-careers-2026-09-22.md` (3) · `raw/a-searchable-careers-primary-2026-09-23.md` (3) · "We have 13 Open Positions" (Sales 6, Marketing 2, Design 3, Partnerships 1, Engineering 1; London 9, Salt Lake City 3, Remote 1); "30+ employees · 5 days in office / week · 1000+ customers"; "$85m valuation in 5 months" · agrees (30+ employees, 1000+ customers); role count new — 13 as of 2026-09-23

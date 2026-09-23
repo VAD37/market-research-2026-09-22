@@ -77,3 +77,7 @@
 - "500+ Clients Served" is company-wide across all service lines; it is not a GEO customer count.
 - The Clutch trajectory row rests on self-displayed badges; neither Clutch page was reached.
 - Agency pages are S6 sell-side belief (`method/demand-signals.md`): a list price is an asking price, never a purchase. Roster is a floor — 7 agencies held on one qualifying source (`raw/f-agency-census-c5-2026-09-22.md` §3). Stale after 2026-12-22.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Intero Gro launch · `raw/f-intero-digital-martech360-2026-09-22.md` (5 — search snippet plus PRNewswire mirror excerpt) · `raw/f-martech360-intero-gro-launch-primary-2026-09-23.md` (5) · "Intero Digital Announces Intero Gro: Making An Impact With Advanced Generative Engine Optimization", "News Desk · Jun 18, 2024", "SOURCE: PRNewswire"; "ChatGPT alone has 200 million active monthly users"; "up to 60% of organic traffic can be influenced by AI-driven searches" · differs on date (substitute `published: 2026-04-08` from a snippet; page shows 2024-06-18); "RASE" framework not in primary (six named GRO techniques instead)

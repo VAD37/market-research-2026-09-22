@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 130" role="img" aria-label="Citations gained 171 versus lost 32; mentions gained 32 versus lost 27" style="width:100%;height:auto;">
+    <text x="0" y="18" font-size="13" font-weight="600" fill="#1b1b1b">Citations: a real shift</text>
+    <rect x="150" y="8" width="428" height="14" rx="4" fill="#29ace0"></rect>
+    <text x="584" y="20" font-size="12.5" font-weight="700" fill="#1b1b1b">+171 gained</text>
+    <rect x="150" y="28" width="80" height="14" rx="4" fill="#c9d6dc"></rect>
+    <text x="236" y="40" font-size="12.5" fill="#555">−32 lost</text>
+    <text x="0" y="86" font-size="13" font-weight="600" fill="#1b1b1b">Mentions: inside the noise</text>
+    <rect x="150" y="76" width="80" height="14" rx="4" fill="#29ace0"></rect>
+    <text x="236" y="88" font-size="12.5" font-weight="700" fill="#1b1b1b">+32 gained</text>
+    <rect x="150" y="96" width="68" height="14" rx="4" fill="#c9d6dc"></rect>
+    <text x="224" y="108" font-size="12.5" fill="#555">−27 lost</text>
+  </svg>

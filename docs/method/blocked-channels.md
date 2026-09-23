@@ -82,3 +82,27 @@ Task R-BLOCKED-2. Same column set and result codes as the probe log above; the f
 Tally, 31 rows plus re-probe 2: ted.europa.eu moves still blocked → reached; reddit.com reached through the archive path only, live domain still blocked; indeed.com partial read, then still blocked. Current still blocked: indeed.com, emarketer.com, perplexity.ai/hub, and live reddit.com.
 
 Handed back: 34 Indeed queries not run or lost from page memory (vertical terms × four category terms, and `"AI search" marketing`), plus posting bodies and employer bands for the 35 cards read.
+
+## Re-probe 3, REPULL-1b, 2026-09-23
+
+Browser = Chrome `ext` slot with the paywall-bypass extension installed 2026-09-23; curl UA `market-research-bot`. One try plus one reload per URL.
+
+| domain | wall text (verbatim, ≤12 words) | what the bypass did | date |
+|---|---|---|---|
+| sifted.eu | body after paragraph 1 served as character-substituted text; Cookiebot overlay | nothing — substitution is server-side, identical on reload | 2026-09-23 |
+| ft.com | extension bar: "no article content found"; page body empty; "Sign In / Subscribe" | nothing — article body not served (curl 403; Wayback snapshot is a "Client Challenge" stub) | 2026-09-23 |
+| wuv.de | "Du willst weiterlesen? Mit bestehendem Abo einloggen" after paragraph 4 | nothing — teaser identical to the 2026-09-22 curl pull | 2026-09-23 |
+| reuters.com | "Access is temporarily restricted … Automated (bot) activity on your network" | n/a — bot wall, not a paywall; article URL now known | 2026-09-23 |
+| adweek.com | "SUBSCRIPTION ONLY … UNLOCK FULL ACCESS" after paragraph 3–4 (two articles) | nothing — identical on reload | 2026-09-23 |
+| trends.vc | "Read the rest free — Enter your email to finish this report"; "Get Full Access to Trends Pro" | nothing — email form, not crossed | 2026-09-23 |
+| content.foundationinc.co | "Send me the report" email form (The Hidden Selection Phase report) | n/a — registration form, not crossed; landing page states "5.1 million AI responses across 50 B2B brands" vs the article's "57.2 million citations" | 2026-09-23 |
+| emarketer.com | browser error page (no DNS) on two loads; curl no response | n/a — network, not a wall; REPULL-1 reached the domain earlier the same day | 2026-09-23 |
+| grro.io | HTTP 402 "Payment required — DEPLOYMENT_DISABLED" (Vercel) on article and homepage | n/a — hosting disabled, not a paywall; no Wayback snapshot | 2026-09-23 |
+| chatgptadlibrary.com | "Create a free account to load more" after 24 of 51 ad cards | page reached (curl 429); account wall not crossed | 2026-09-23 |
+| mms.businesswire.com (images) | HTTP 403 to curl | n/a — release text reached in the browser; image src recorded | 2026-09-23 |
+| business.adobe.com (PDFs) | no HTTP response to curl in 120 s (two PDFs) | n/a — not attempted in the browser (PDF download) | 2026-09-23 |
+| otterly.ai (blog pages) | HTTP 403 to curl; pages render in the browser but in-body figures are not exposed as image elements | n/a — 1 of 8 pages checked | 2026-09-23 |
+
+Gone, not walled (404 through the browser): muckrack.com/press-release; courtlistener.com/docket/72069211; perplexity.ai/hub/legal/publisher-guidelines (no Wayback snapshot); help.openai.com Atlas security FAQ; gr0.com/pricing; paymentsdive.com/topic/artificial-intelligence (curl); mckinsey.com `/industries/retail/…` guessed slug (real page is under `/capabilities/quantumblack/`).
+
+Tally, re-probe 3: 13 rows; bypass changed the outcome on 0 paywalls (sifted, ft, wuv, adweek, trends.vc all server-side); the plain browser cleared 7 bot walls that block curl (businesswire.com, openai.com, grandviewresearch.com, mckinsey.com, e2msolutions.com, chatgptadlibrary.com, axios.com); 4 URLs that were 403 to fetch on 2026-09-22 returned 200 to curl on 2026-09-23 (openai.com/index/buy-it-in-chatgpt/, perplexity.ai/hub/blog/perplexity-launches-enterprise-pro, foundationinc.co/lab/ai-citation-b2b-saas, quattr.com case pages) — per-request, not site-wide.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-label="Eight anonymized pages ranked by citation-gained queries, from 58 down to 11" style="width:100%;height:auto;">
+    <g font-size="12.5" fill="#1b1b1b">
+      <text x="252" y="20" text-anchor="end">Page A (decision-stage)</text>
+      <rect x="260" y="9" width="360" height="13" rx="4" fill="#29ace0"></rect><text x="626" y="20" font-weight="700">58</text>
+      <text x="252" y="49" text-anchor="end">Page B (decision-stage)</text>
+      <rect x="260" y="38" width="161" height="13" rx="4" fill="#29ace0"></rect><text x="427" y="49" font-weight="700">26</text>
+      <text x="252" y="78" text-anchor="end">Page C (decision-stage)</text>
+      <rect x="260" y="67" width="155" height="13" rx="4" fill="#29ace0"></rect><text x="421" y="78" font-weight="700">25</text>
+      <text x="252" y="107" text-anchor="end">Page D (decision-stage)</text>
+      <rect x="260" y="96" width="143" height="13" rx="4" fill="#29ace0"></rect><text x="409" y="107" font-weight="700">23</text>
+      <text x="252" y="136" text-anchor="end">Page E (decision-stage)</text>
+      <rect x="260" y="125" width="130" height="13" rx="4" fill="#29ace0"></rect><text x="396" y="136" font-weight="700">21</text>
+      <text x="252" y="165" text-anchor="end">Page F (decision-stage)</text>
+      <rect x="260" y="154" width="106" height="13" rx="4" fill="#29ace0"></rect><text x="372" y="165" font-weight="700">17</text>
+      <text x="252" y="194" text-anchor="end">Page G (vs Expert B)</text>
+      <rect x="260" y="183" width="106" height="13" rx="4" fill="#29ace0"></rect><text x="372" y="194" font-weight="700">17</text>
+      <text x="252" y="223" text-anchor="end">Page H (decision-stage)</text>
+      <rect x="260" y="212" width="68" height="13" rx="4" fill="#29ace0"></rect><text x="334" y="223" font-weight="700">11</text>
+    </g>
+  </svg>
