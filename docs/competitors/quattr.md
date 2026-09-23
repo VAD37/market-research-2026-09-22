@@ -5,7 +5,7 @@
 | Profile date | 2026-09-22 |
 | Oldest pull depended on | 2026-09-22 — every cited `raw/` file |
 | Lane | A, E |
-| Sub-market | incumbent bundling (organic recommendation) per the roster; the vendor's own copy says "AI-native... from founding" — both recorded, not reconciled |
+| Sub-market | incumbent bundling (organic recommendation) per the roster; the vendor's own copy says "AI-native... from founding" — both recorded, not reconciled; nothing in `raw/` resolves it |
 | Roster position | 23 — `raw/a-vendor-roster-2026-09-22.md` §2 |
 | Roster sources | G2 AEO category listing, read 2026-09-22; perpetualny.com case study, read 2026-09-22, independent of the vendor |
 | Status | operating; private — no ticker found, checked roster channels 2026-09-22. HQ Palo Alto, CA |
@@ -54,13 +54,11 @@ Scoring, verbatim: "each citation counts 1.25 and each brand mention counts 1, s
 | CloudEagle: "3× increase in AI Citation Share"; clicks "2.47K to 5.25K, a +113% sustained lift" over "12 complete weeks" | visibility, traffic | Bronze | 2 (no single engine named), 3, 7; no control cohort | vendor-reported | `raw/e-case-quattr-cloudeagle-2026-09-22.md` |
 | Kiteworks: "79% more citations in AI Overviews. 30% increase in indexed pages. 22% jump in keywords ranking in positions 1-3 within six weeks" | visibility, traffic | Bronze | 3, 4, 7; item 6 partial | vendor-reported | `raw/e-case-c13-quattr-kiteworks-2026-09-22.md` |
 | Housing.com: "12.8% year-over-year growth in relative search market share" | — | not graded — no AI surface named; reads as a classical search case | — | vendor-reported | `raw/a-quattr-customers-2026-09-22.md` |
-
 ## Positioning
 | Against | How it positions itself | Vendor's own words | Raw |
 |---|---|---|---|
 | Tools that report a combined AI score | Keeps AI citation and click verdicts in separate lanes | "AI citation rate fell 2.6 pt on the tracked prompt set, reported beside the click verdict, never validated by it" | `raw/a-quattr-ai-visibility-2026-09-22.md` |
 | Claims of causality | Admits the limit of its own design inline | "Observational, no causal claim · AI citation rate covers the tracked prompt set only" | `raw/a-quattr-ai-visibility-2026-09-22.md` |
-
 ## Negatives
 | Negative | Evidence | Source | Raw |
 |---|---|---|---|
@@ -68,23 +66,15 @@ Scoring, verbatim: "each citation counts 1.25 and each brand mention counts 1, s
 | Tracked prompt basket size and content undisclosed | The published prompt gallery (106 analyst example questions) is a different set | vendor-reported | `raw/a-quattr-method-2026-09-22.md` |
 | Its strongest case has no brand-side corroboration | Men's Wearhouse domain checked, `silent` | measured-by-us | `raw/e-case-census-c7-2026-09-22.md` |
 | The vendor's own ladder marks a rung incomplete | R4 Represented: "Partially instrumented... the positioning-fidelity half is not fully measured yet" | vendor-reported | `raw/a-quattr-method-2026-09-22.md` |
-
 ## Unknowns
-- Price, price delta, revenue, headcount, funding, founding year, AI Visibility launch date — checked quattr.com/pricing, /press-release (3 entries), /press (404), /ai-visibility, roster channels 2026-09-22.
 - Tracked-prompt-basket n and content; the dedicated Kiteworks case page (two click attempts did not navigate) — checked quattr.com/ai-visibility, /ai-visibility/prompts, /ai-visibility/method/ai-visibility-proof, /case-studies 2026-09-22.
-
 ## Caveats
-- Every case figure is vendor-reported, with Quattr measuring its own customers' first-party Search Console data; no independent replication exists. The Silver is graded on disclosure, and per `glossary.md` is cited as evidence, labelled correlational — the control is an observational treated-vs-untreated comparison, not a holdout, geo-split or switchback.
+- Every case figure is vendor-reported: Quattr measures its customers' first-party Search Console data; no independent replication. The Silver is graded on disclosure; per `glossary.md` it is cited as evidence, labelled correlational — the control is an observational treated-vs-untreated comparison, not a holdout, geo-split or switchback.
 - The Men's Wearhouse product-page figure is reported by the vendor in two layers: +46.4% total treated-lineage rollout outcome over 1,136 lineages, against a "roughly 7% to 8%" isolated linking signal after controls. Both stand; they are not the same number.
-- The roster classifies Quattr as incumbent bundling while the vendor's own copy claims AI-native from founding. Both are recorded; nothing in `raw/` resolves it.
-- Oldest pull depended on: 2026-09-22. Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
+- Category turnover is fast; this profile is stale one quarter after 2026-09-22.
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Kiteworks 79% more AI Overview citations; CloudEagle 3x AI citation share · `raw/e-case-c13-quattr-kiteworks-2026-09-22.md` (6 — index cards only) · `raw/e-case-quattr-kiteworks-internal-linking-primary-2026-09-23.md` (5); `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23.md` (5) · Kiteworks: "79% expansion in AI Overview presence, with their content citation rate climbing 20% higher than the baseline within just one week"; "30% increase in indexed pages" (eight weeks); "22% jump in keywords ranking in positions 1-3 within six weeks"; "difference-in-differences analysis against a control group" (sessions: glossary 19.93%, solution 8.55%, blog 2.3%). CloudEagle: "organic clicks across the pilot cohort increased from 2.47K to 5.25K, representing a +113% sustained lift" (12 weeks, 33 pages); "AI Citation Share increased by 3× post optimizations"; "328 net-new Page 1 queries" · agrees (79%, 30%, 22%, 113%, 3x, 328); full pages add the control design, week counts and absolute click counts; no absolute dates, no prompt n; seven result/dashboard images saved (unread until IMG-1)
-
 ## Image reads, IMG-1a, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | AI Overview presence, %, read off axis: ~3.9–4.4% before deployment (~06-09), ~5.9–6.3% from 06-18, ~6.3–7.1% in August; no year printed | "Kiteworks Expanded its Presence in AI Overview" | 05-28 to 08-24 (year absent) | 5 | `raw/e-case-quattr-kiteworks-internal-linking-primary-2026-09-23-img-2026-09-23.md` |

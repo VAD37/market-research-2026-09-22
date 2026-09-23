@@ -67,20 +67,16 @@
 | Its own pages price the same SKU in two currencies the same day | ¥6,000/mo on `/pricing/marketing` vs "$50/mo" on the launch post and product page | vendor-reported | `raw/a-hubspot-pricing-2026-09-22.md` |
 | Filed revenue could not be retrieved; the filing text naming AEO was never opened | Four sec.gov URL shapes and two tools blocked; ir.hubspot.com 403; BamSEC paywalled | filed — access attempt | `raw/a-hubspot-filing-2026-09-22.md` |
 | No brand-side corroboration | Sandler, Scrums, Anedot, Fresha, Docebo all in the c7 not-checked cap; 0 of 59 brands checked programme-wide corroborate | measured-by-us (desk check) | `raw/e-case-census-c7-2026-09-22.md` |
-
 ## Unknowns
 | Question | Channels checked | Date |
 |---|---|---|
 | Latest filed revenue and the verbatim 10-K/DEF 14A passage naming AEO; headcount; engines beyond ChatGPT/Gemini/Perplexity; a seat-normalised Starter→Professional dollar delta | sec.gov (4 URL shapes, 2 tools), efts.sec.gov, data.sec.gov, ir.hubspot.com, bamsec.com, hubspot.com/products/marketing/aeo, /pricing/marketing | 2026-09-22 |
-
 ## Caveats
 - Product, price and case figures are vendor-reported or company-stated; the one negative case is company-stated through German trade press (OMR, tier 5), whose primary is podcast audio not transcribed. 8 claims screened, 5 graded; 0 Gold, 0 Silver.
 - Conflicting figures kept side by side, unreconciled: ¥6,000/mo vs "$50/mo" for the standalone SKU; and the OMR case's 700,000-visitor baseline is the German blog while the 30–40% loss is Latin American keywords.
 - Layer mismatch: HubSpot is a multi-product public company and no revenue figure of any layer was retrieved, so nothing sizes the AEO product; named customers are logos, not a count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
 ## Tier revisions, P9-r, 2026-09-23
-
 sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
 
 | line | row | tier revised 2026-09-23 | raw |

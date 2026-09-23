@@ -69,13 +69,10 @@ No claim clears the bar — 1 claim screened, 0 cleared, as of 2026-09-22. The o
 | Question | Channels checked | Date |
 |---|---|---|
 | Launch-post text; the $199 vs ¥30,600 and 454M vs 475M discrepancies; the Octopus Energy case study; per-tier platform count and update frequency; revenue, headcount, funding, HQ country | businesswire.com (×2), ahrefs.com/blog/introducing-brand-radar, /brand-radar, /pricing, /case-studies, /case-studies/octopus-energy | 2026-09-22 |
-
 ## Caveats
 - Every figure is vendor-reported on Ahrefs's own pages; none is independently audited, and the disclosed 454M-prompt method is Ahrefs's own account of its own pipeline.
 - Conflicting figures kept side by side, unreconciled: $199/mo vs ¥30,600/mo; 454M+ vs 475M+; JPY on `/pricing` vs USD on `/brand-radar` in the same session (exit IP geolocated to Japan).
 - Layer mismatch: "3,000+ companies" is a product-wide figure that may not be Brand Radar users, and no revenue of any layer exists to size the feature.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Ahrefs Brand Radar custom-prompt launch date 2026-01-20 · `raw/a-ahrefs-launch-2026-09-22.md` (n/a — connection failure) · `raw/a-businesswire-ahrefs-brand-radar-custom-prompts-primary-2026-09-23.md` (3) · "Jan 21, 2026 12:16 AM Eastern Standard Time"; "today announced custom AI prompt tracking in Brand Radar"; "over $100 million in annual recurring revenue"; "bootstrapped, profitable"; "available now in Brand Radar for paid Ahrefs customers" · differs by one day (display 2026-01-21 00:16 EST; release ID 20260120714417) — both recorded; primary adds the $100M+ ARR company-stated figure

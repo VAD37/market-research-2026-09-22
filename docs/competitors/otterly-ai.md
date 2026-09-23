@@ -72,20 +72,16 @@
 | Unsourced market stats on the product page | "900M Weekly Active Users on ChatGPT", "65% zero-click", "6x higher conversion" — no n, no date, no citation | vendor-reported, tier 6 | `raw/a-otterly-method-2026-09-22.md` |
 | Engine-coverage copy inconsistent | "Tracks all 7" on /features; two homepage sentences name 6 and omit Claude, which is an add-on | vendor-reported | `raw/a-otterly-engines-2026-09-22.md` |
 | Brand-side corroboration not run | Otterly case subjects listed among c7's not-checked remainder | measured-by-us | `raw/e-case-census-c7-2026-09-22.md` |
-
 ## Unknowns
 | Question | Channels checked | Date |
 |---|---|---|
 | HQ country; funding round or investor; headcount | otterly.ai/about, /careers | 2026-09-22 |
 | Add-on price for Claude, Google AI Mode, Gemini | otterly.ai/pricing (page capped before the detail rendered) | 2026-09-22 |
 | Changelog page; how mentions are extracted from model output | docs.otterly.ai homepage; otterly.ai/features | 2026-09-22 |
-
 ## Caveats
 - Every price, engine list, user count and case figure is vendor-reported; no third party replicated any of them.
 - Conflicting, not reconciled: five cases read Fools gold on the Pass 3 teaser and "screened — not opened" at the P4-c13 re-grade; both records stand.
 - Layer mismatch: "40,000+ Marketing Pros" counts users of a product with a free trial, not paying customers; no revenue figure exists at any layer.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Instant Commerce 2x AI visibility · `raw/a-otterly-customers-2026-09-22.md` (6) · `raw/a-otterly-instant-commerce-case-study-primary-2026-09-23.md` (6) · "2x increase in AI search visibility"; "Doubled incoming traffic from AI search engines in just 6 months"; "tracked directly through OtterlyAI's Brand Report"; no absolute dates, no n · agrees; no further figure after the substitute's cut

@@ -32,24 +32,20 @@
 | Customers | "Trusted by 1000+ active users" — brands, agencies, publishers, unbroken out | users claimed, not paying count | 2026-09 | vendor-reported | `raw/a-rankscale-pricing-2026-09-22.md` |
 | Funding | unknown — checked rankscale.ai careers, imprint, facts, pricing 2026-09-22 | — | — | — | `raw/a-rankscale-careers-facts-2026-09-22.md` |
 | HQ | Untere Viaduktgasse 10/6, 1030 Vienna (imprint and /facts); getlatka.com says Königstetten | legal entity | 2026-09 | vendor-reported; analyst-derived | `raw/a-rankscale-careers-facts-2026-09-22.md` |
-
 ## Trajectory — a number and a direction
 | Measure | From | To | Window | Direction | Source | Raw |
 |---|---|---|---|---|---|---|
 | Revenue, customers, headcount | unknown — no dated series published; checked facts, pricing, careers 2026-09-22 | — | — | unknown | — | `raw/a-rankscale-careers-facts-2026-09-22.md` |
 | Shipping cadence | — | 7 dated changelog entries | 2026-08-28 to 2026-09-04 | — | vendor-reported | `raw/a-rankscale-careers-facts-2026-09-22.md` |
-
 ## Per-engine coverage
 | Engine | Covered | Surface | Metric offered | Method disclosed | Source | Raw |
 |---|---|---|---|---|---|---|
 | ChatGPT | yes — named; GPT-5 named "where configured" | consumer chat | mentions, citations, sentiment, Top-3 rate, share of voice | no — "semantic reconstruction" is a positioning claim, no prompt set or n | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Claude | yes — named on homepage, /facts and pricing tooltip | consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Google — AI Overviews, AI Mode, Gemini | yes — all three named individually | search-integrated; consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
-| Microsoft Copilot | yes — named | consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
-| Grok (P2) | yes — named in the 10-engine ticker | consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
+| Microsoft Copilot; Grok (P2) | yes — named; Grok in the 10-engine ticker | consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Amazon Rufus; Meta AI | not named — checked homepage and /facts 2026-09-22 | — | — | — | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Perplexity, DeepSeek, Mistral (P3); "17+" total claimed | named; the remaining 7+ behind "17+" are not itemized | consumer chat | same | no | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
-
 ## Proof claims — graded against the evidence bar
 | Claim, as published | Metric | Grade | Bar items missing | Paid by outcome | Prompt set | Raw |
 |---|---|---|---|---|---|---|
@@ -60,13 +56,11 @@
 | Spanish bank "+215% top-3 placements", "+180% visibility", "#1 share of voice" | visibility | Bronze — full page confirmed | 2, 3, 4, 6, 7 | unknown — not stated | no | `raw/e-case-c12-rankscale-spanish-bank-2026-09-22.md` |
 | AI SMS platform "$280,000 in qualified pipeline... initial six months" | sales | Fools gold | numeric baseline, control, absolute dates | unknown; "ongoing retainer secured" with partner agency Spyndle | partial | `raw/e-case-census-c4-2026-09-22.md` |
 | European public-sector GEO pilot | none | screened — no claim | — | — | — | `raw/e-case-c12-rankscale-eu-publicsector-2026-09-22.md` |
-
 ## Positioning
 | Against | How it positions itself | Vendor's own words | Raw |
 |---|---|---|---|
 | Generic SEO rank trackers | Specialist AI-visibility product, not blue-link tracking | "a specialized AI visibility product—not a generic SEO rank tracker for blue links" | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Vendors with undisclosed panel methods and per-engine upsells | Verifiable estimation, flat engine access | "not a black-box panel number nobody can verify"; "no per-engine upsell tiers" | `raw/a-rankscale-method-engines-2026-09-22.md` |
-
 ## Negatives
 | Negative | Evidence | Source | Raw |
 |---|---|---|---|
@@ -74,14 +68,11 @@
 | 5 of 7 cases graded from teaser text | Only the optical-retail and AI SMS pages were opened in full at Pass 3 | vendor-reported | `raw/a-rankscale-customers-2026-09-22.md` |
 | "No per-engine upsell" contradicts its own tiering | Pricing tiers gate credits and engine selection per plan | vendor-reported | `raw/a-rankscale-method-engines-2026-09-22.md` |
 | Lowest review in the OMR GEO category is its own | 3.0/5, 2026-05-18: "not easy to edit in bulk... a bit cluttered"; no lift claim; aggregate 4.58 over 26 reviews | analyst-derived | `raw/e-case-c11-omr-rankscale-review-2026-09-22.md` |
-
 ## Unknowns
 | Question | Channels checked | Date |
 |---|---|---|
-| Funding round; ARR; true headcount; HQ against the getlatka figure | rankscale.ai careers, imprint, facts, pricing | 2026-09-22 |
 | The full "17+" engine list beyond the 10 named; Essentials tier feature counts | rankscale.ai homepage, /facts, /pricing (cells rendered "0") | 2026-09-22 |
 | Fee structure of the partner agencies behind each case | Each case page; rankscale.ai Agency Program terms | 2026-09-22 |
-
 ## Caveats
 - Prices, engine counts, user count and every case figure are vendor-reported; the case studies are produced with paying Agency Program partners, so the measurer has a commercial interest.
 - Conflicting, not reconciled: HQ Vienna (own imprint and /facts, filed registration) against Königstetten (getlatka.com via the roster pull); ~$220K ARR and a 2-person team (getlatka.com) against 5 concurrently open roles; "$20/mo" on the pricing page against "from €20" on /facts.

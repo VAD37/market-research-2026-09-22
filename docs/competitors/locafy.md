@@ -78,7 +78,6 @@ No claim clears the bar — 9 claims screened, 0 cleared, as of 2026-09-22. Eigh
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
 
 ## Tier revisions, P9-r, 2026-09-23
-
 sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
 
 | line | row | tier revised 2026-09-23 | raw |

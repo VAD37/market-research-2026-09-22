@@ -66,20 +66,15 @@
 | One engagement described two ways | Different client wording and different figure sets; not reconciled | vendor-reported | `raw/e-case-pace-generative-ai-visibility-playbook-2026-09-22.md` |
 | No case-studies page | `pacegenerative.com/case-studies/` returned 404 on pull | vendor-reported | `raw/f-pace-generative-service-2026-09-22.md` |
 | Sole accolade is a directory listing | "Listed as a Top GEO Agency on DesignRush", self-displayed | vendor-reported | `raw/f-pace-generative-service-2026-09-22.md` |
-
 ## Unknowns
 | Question | Channels checked | Date |
 |---|---|---|
-| Subsidiary revenue, headcount, client count | Onfolio 10-K, pacegenerative.com | 2026-09-22 |
+| Subsidiary revenue, headcount, client count — none in Onfolio's 10-K; Scale rows are parent-level | Onfolio 10-K, pacegenerative.com | 2026-09-22 |
 | Price of every service but Community Platform Mentions | pacegenerative.com/services/, /get-started/ | 2026-09-22 |
-
 ## Caveats
 - Every performance figure here is vendor-reported or company-stated; no third party replicated 358% / 101% / 2%→5%.
 - The 2025-07-02 press release and the playbook landing page describe one engagement two ways; both stand, unreconciled.
-- Scale rows are parent-level: Onfolio's 10-K discloses no Pace revenue, headcount or customer count.
 - Agency pages are S6 sell-side belief (`method/demand-signals.md`): a list price is an asking price, never a purchase. Roster is a floor — 7 agencies held on one qualifying source (`raw/f-agency-census-c5-2026-09-22.md` §3). Stale after 2026-12-22.
-
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Pace Generative 358% AI Overview increase; 2% to 5% conversion · `raw/f-pace-generative-clients-2026-09-22.md` (5 — StockTitan mirror) · `raw/f-globenewswire-pace-generative-358-case-primary-2026-09-23.md` (3) · "The client saw an increase in AI Overview ownership of 358%, an increase in AI Chat traffic of 101%, and conversion rates of that traffic went from 2% to 5%." (January to May 2025; "a publicly traded enterprise client"; GlobeNewswire 2025-07-02) · agrees
 - Onfolio / Pace Generative ThriveCart webinar release · `raw/f-onfolio-press-2026-09-22.md` (5 — Yahoo Finance mirror) · `raw/f-globenewswire-onfolio-thrivecart-webinar-primary-2026-09-23.md` (3) · "attracting close to 200 live attendees"; "AI answer engines, such as Google AI overviews, ChatGPT, Perplexity, and Grok" (GlobeNewswire 2025-07-22) · agrees (Grok named in the release's About text; substitute's "approximately 200" reads "close to 200" in the original)

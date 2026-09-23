@@ -31,7 +31,6 @@
 | Measure | From | To | Window | Direction | Source | Raw |
 |---|---|---|---|---|---|---|
 | Round size and valuation | $3.5M, valuation not stated | $180M Series D at $1.8B | 2024-08 to 2026-09 | up | company-stated, tier 3 | `raw/a-profound-funding-2026-09-22.md` |
-
 ## Per-engine coverage
 | Engine | Covered | Surface | Metric offered | Method disclosed | Source | Raw |
 |---|---|---|---|---|---|---|
@@ -42,7 +41,6 @@
 | Amazon Rufus / Alexa for Shopping (P2) | no — not among the nine "Answer Engines"; Shopping is ChatGPT-side | n/a | n/a | n/a | vendor-reported | `raw/a-profound-pricing-2026-09-22.md` |
 | Grok (P2) | no — not named on any page pulled | n/a | n/a | n/a | vendor-reported | `raw/a-profound-pricing-2026-09-22.md` |
 | Perplexity, DeepSeek, Exa Search (P3 / non-assistant) | Enterprise only; Exa Search is a search API, not a consumer assistant | not stated | as above | no | vendor-reported | `raw/a-profound-pricing-2026-09-22.md` |
-
 ## Proof claims — graded against the evidence bar
 | Claim, as published | Metric | Grade | Bar items missing | Raw |
 |---|---|---|---|---|
@@ -54,12 +52,10 @@
 | Arizona College of Nursing, Alchemy, Jordan Digital Marketing, GR0, Omnilux, one unnamed "100x" (Fools gold ×6, revenue claims, no baseline or control); WHOOP, Optro, Kiteworks, Apartment List, One Identity, Statsig (screened — no claim ×6) | sales; none | Fools gold ×6; screened ×6 | not re-opened at P4-c13 | `raw/a-profound-customers-2026-09-22.md`, `raw/e-case-census-c13-2026-09-22.md` |
 
 Paid-by-outcome unknown on every case; prompt set disclosed: no on every case (`raw/e-case-census-c4-2026-09-22.md`, `raw/e-case-census-c13-2026-09-22.md`). Brand-side (P4-c7): Plaid, MongoDB, Aleph, OpusClip, Hone, Ramp, Airbyte, Lake.com, 1840 & Co. all read `silent — checked`; Ramp is a recorded near-miss (its own spend product profiles Profound as a vendor, not as its own case) — `raw/e-case-census-c7-2026-09-22.md`.
-
 ## Positioning
 | Against | How it positions itself | Vendor's own words | Raw |
 |---|---|---|---|
 | Rivals, unnamed, in a customer's words | claims depth and completeness over the alternatives tried | "the deepest and most complete tool in the market. We tried the others, and Profound was immediately the obvious choice" — Skye Scofield, Statsig | `raw/a-profound-pricing-2026-09-22.md` |
-
 ## Negatives
 | Negative | Evidence | Source | Raw |
 |---|---|---|---|
@@ -67,20 +63,16 @@ Paid-by-outcome unknown on every case; prompt set disclosed: no on every case (`
 | Zero Gold or Silver across 24 screened cases | 13 Bronze, 6 Fools gold, 5 not pulled at intake; full-page re-grade changed no headline grade and surfaced four new Fools-gold revenue sub-claims | vendor-reported | `raw/a-vendor-census-c1-2026-09-22.md`, `raw/e-case-census-c13-2026-09-22.md` |
 | Plaid's own figures conflict across Profound's pages | "50% increase in AI Search visibility" (index) vs "300% traffic / 210% conversions" (case page); not reconciled | vendor-reported | `raw/e-case-census-c4-2026-09-22.md` |
 | The only 1-star G2 review found in the category names this vendor | "It is trying to solve AI Visibility but again is that really benefiting I doubt it", 2026-05-21 — screened, no claim | vendor-reported, tier 5 | `raw/e-case-c11-g2-profound-review-2026-09-22.md` |
-
 ## Unknowns
 | Question | Channels checked | Date |
 |---|---|---|
 | Any revenue figure; founding date; institutional investors beyond 8 named angels; docs/changelog | tryprofound.com/newsroom, /careers, /pricing; help.tryprofound.com (robots.txt disallow); the $180M press-release slug (404) | 2026-09-22 |
-
 ## Caveats
 - Every figure here is vendor-reported or company-stated on Profound's own site; the $180M Series D rests on the newsroom index headline because the individual release page 404'd, and no external article was pulled for it.
 - Conflicting figures stand side by side, unreconciled: 1800+ customers vs 25,000+ marketers; Plaid's two differing result sets.
 - Layer mismatch: the Series D and valuation are group-level company statements, not filings; "a third of the Fortune 100" is a logo claim, not a disclosed contract count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
 ## Ads module, P16-c2, 2026-09-23
-
 | Product | What it does | Disclosed price | Source | Raw |
 |---|---|---|---|---|
 | OpenAI Ads integration; four "OpenAI Ads nodes" in Profound Agents (2026-05-06) | Reads ChatGPT Ads campaigns, ad groups, ads; impressions, clicks, spend, CTR, CPC, CPM beside organic visibility | none separate — "available today for all customers of Profound" | vendor-reported, 3 | `raw/a-profound-openai-ads-integration-2026-09-23.md` |

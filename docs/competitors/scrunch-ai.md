@@ -81,9 +81,7 @@
 - Conflicting, not reconciled: deal value "not disclosed" (Sitecore via PRNewswire) against $225M (Bloomberg via the roster pull, re-fetch returned 403).
 - Layer mismatch: "500+ brands and agencies" is a logo claim, not a paying-customer count; headcount is a 2025 pre-acquisition figure with no 2026 restatement.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
-
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Sitecore acquired Scrunch for ~$225M · `raw/a-bloomberg-scrunch-sitecore-repull-2026-09-23.md` (5) · `raw/a-bloomberg-scrunch-sitecore-primary-2026-09-23.md` (5) · "The deal is worth about $225 million, said people familiar with the matter"; "Representatives for Sitecore and Scrunch declined to comment on the valuation" (Bloomberg, 2026-06-03, 12 paragraphs) · agrees
 - Sitecore/Scrunch deal terms; Akamai 364% claim · `raw/a-scrunch-funding-sitecore-acquisition-2026-09-22.md` (3) · `raw/a-prnewswire-sitecore-scrunch-acquisition-primary-2026-09-23.md` (3) · "364%", "218%", "400% increase in paying customers", "500+ leading brands and agencies"; release carries no deal value or terms in any section · agrees (364%); not in primary (deal terms — the $225M exists only in Bloomberg)
 - Akamai 5x brand presence · `raw/a-scrunch-customers-2026-09-22.md` (5) · `raw/a-scrunch-akamai-case-study-primary-2026-09-23.md` (5) · "364% increase in brand presence for non-branded prompts"; "85% more total citations"; "38% more unique prompts with citations"; "133%" ChatGPT alone; AXP vs non-AXP pages 2025-12-01 to 2026-01-19; "Last updated: 04.02.2026" · agrees (364% = "nearly 5x"); differs from the release's "218% increase in citations", which is not on the case page
