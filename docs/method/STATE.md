@@ -12,8 +12,10 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| COMPRESS-C | opus | lossless prose compression, competitor profiles over 80 lines | `docs/competitors/*.md` (not INDEX) | 2026-09-23 |
+| RECOUNT-2 | opus | tier-3 share recount after Pass 16 + RP2; segment-matrix and done-row text | `findings/unknowns.md` append | 2026-09-23 |
 
-Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 5 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
