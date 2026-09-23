@@ -12,16 +12,10 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P15-R0 | Opus, read-only, continuation | Bake-off run R0 — `runs/R0-baseline/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R0-baseline/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R0b | Opus, read-only, continuation | Bake-off run R0b — `runs/R0b-baseline-repeat/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R0b-baseline-repeat/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R1 | Opus, read-only, continuation | Bake-off run R1 — `runs/R1-pyramid-principle/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R1-pyramid-principle/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R2 | Opus, read-only, continuation | Bake-off run R2 — `runs/R2-minto-pyramid/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R2-minto-pyramid/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R3 | Opus, read-only, continuation | Bake-off run R3 — `runs/R3-strategy-communicator/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R3-strategy-communicator/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R4 | Opus, read-only, continuation | Bake-off run R4 — `runs/R4-structure-synthesize/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R4-structure-synthesize/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R5 | Opus, read-only, continuation | Bake-off run R5 — `runs/R5-knowledge-synthesis/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R5-knowledge-synthesis/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
-| P15-R6 | Opus, read-only, continuation | Bake-off run R6 — `runs/R6-deliverable-creation/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05; continues the Fable 5.1 draft stopped by HTTP 429, reading `prior-attempt-digest.md` | `runs/R6-deliverable-creation/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
 
-Slots free: 0 of 8. Wave 1 respawned 2026-09-23 as Opus continuations of the rate-limited Fable drafts. Wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
+| — | — | none live; paused by the user 2026-09-23 | — | — |
+
+Slots free: 8 of 8. Paused 2026-09-23 (user: "pause all agents and save work"); P15 wave 1 Opus continuations stopped mid-run, work on disk committed. Wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
 
 ## Queue
 
@@ -29,6 +23,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
+| P15 wave 1 resume | 15 | Opus ×8 | R0, R0b, R1–R6: finish each run from `runs/<id>/PROMPT.md`, the draft on disk, `prior-attempt-digest.md` (Fable) and `pause-digest-opus.md` (paused Opus finish); on disk at pause: R3 `trace.md`, R5 `_body.tmp`/`_appendix.tmp`, R2 `body.md`; no `notes.md` anywhere. Scratch files deleted before landing | `runs/R0…R6/brief.md`, `notes.md`, `trace.md` |
 | P15 wave 2 | 15 | Opus ×3 | R7 decision-memo, R8 assumption-audit, R9 mbb-extract — after wave 1 frees slots | `runs/R7…R9/` |
 | P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
@@ -235,6 +230,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Same-day brief rewrite takes suffix `-r2` (`executive-brief-2026-09-23-r2.md`, `director-brief-2026-09-23-r2.md`, `gen-director-deck-r2.py`); the 2026-09-23 originals stay as the bake-off's "failed brief" input. IMG-1 pass complete: 71 of 82 INDEX rows analysed, 11 not saved (6 GML mp4, 2 Adobe PDFs, 2 OpenAI images, 1 Business Wire 403) | Reporting-layer rule says new date per rewrite; two rewrites on one date need a suffix |
 | 2026-09-23 | P15 spawn: snapshot 8badc05 (evidence tree at BRIEF-4 landing); pack line ranges and the not-input list in shared-instruction Addition 2; each run's exact prompt saved as `runs/<id>/PROMPT.md` and the agent told to follow that file — identical text, auditable, instead of an in-chat paste; wave 1 = R0, R0b, R1–R6 under cap 8 | README Amendments; cap 8 |
 | 2026-09-23 | P15 wave 1 (8 Fable 5.1 agents) stopped by HTTP 429 "You've reached your Fable limit" after each wrote a `brief.md` draft (R2 also `body.md`); none wrote `notes.md` or `trace.md`. User: no Fable agents this session, Opus or Sonnet only; runs already started on Fable continue from their transcript. Each failed transcript was reduced to `runs/<id>/prior-attempt-digest.md` (reads, writes, text; subagent jsonl under the session folder) and an Opus agent finishes the run from its PROMPT.md, the draft on disk and the digest. R7–R9 and the judge run on Opus from scratch. Consequence: README rule "one model for all" broken — R0–R6 are Fable-drafted, Opus-finished; R7–R10 are not; the judge's verdict and the eval finding carry model as a confound, and each `notes.md` records both model ids | User 2026-09-23: "no fable agent… convert to opus/sonnet subagent" |
+| 2026-09-23 | Paused on user instruction; 8 P15 Opus continuations stopped mid-run. Drafts, R3 `trace.md`, R5 scratch files and per-run `pause-digest-opus.md` (digest of each stopped transcript) committed; wave 1 re-queued as a resume ahead of wave 2 | User: "pause all agents and save work" |
 
 ## Open decisions — owner
 

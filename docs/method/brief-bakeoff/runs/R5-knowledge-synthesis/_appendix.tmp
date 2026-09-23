@@ -1,0 +1,60 @@
+
+---
+
+## Appendix A — figures carried twice that this brief touches
+
+Both figures stand; nothing averaged. Paths relative to `docs/`.
+
+| # | Figure in the body (date, path) | Other reading (date, path) | Kind |
+|---|---|---|---|
+| 1 | 27-cell tally strict 8/1/17/1, loose 8/1/18/0 (2026-09-23, `findings/demand-map.md:165–166`) | 7/1/11/8 (2026-09-22, `findings/demand-map.md:17`); strict 8/1/10/8 (2026-09-23, first re-run, `:123`) | three dated reads |
+| 2 | Silver rule-1 1, +1 (`findings/proof-scorecard.md:23`, `:113`) | raw 7, +4 (same lines); two readings of one set (`method/glossary.md:144–145`) | two readings |
+| 3 | Transition classes R1 6/61/37 (2026-09-23, `findings/transition-evidence.md:135`) | R2 1/66/37 (same date, `:136`); 4 cases outside the classes in both | two readings |
+| 4 | Brand confirms case: 1 of 168 (2026-09-23, `findings/proof-scorecard.md:116`) | 0 of 59 (2026-09-22, `findings/proof-scorecard.md:63`) | two dates |
+| 5 | Engines selling ads: four (2026-09-23, `findings/ai-ads-evidence.md:18`) | "5 of 8 engines carry a live product" (2026-09-22, `markets/paid-placement.md:39`) | two counting bases |
+| 6 | Organic floor $42.2M–$48.2M + €2.2M ARR (2026-09-23, `findings/market-potential.md:60`) | $5.3M–$35.2M, price × count build, analyst-derived from vendor-reported inputs (2026-09-22, `markets/organic-recommendation.md:36`) | two bases |
+| 7 | Agentic spread 26.3×, 2030 (2026-09-23, `findings/market-potential.md:54`) | "roughly 35×", 2029–2030 (2026-09-22, `markets/agentic-commerce.md:54`) | two bases |
+| 8 | Checkout fees stated: Copilot 0%, OpenAI "a small fee" (2026-09-23 re-read, `markets/agentic-commerce.md:142`) | "1 of 4" (2026-09-22, `markets/agentic-commerce.md:25`); Copilot fee `unknown` in one pull (`:119`) | two dates; two pulls |
+| 9 | ChatGPT advertisers "tens of thousands" (2026-08-31, `findings/ai-ads-evidence.md:39`, E1) | "over 600" (2026-03-26, `:40`, E2); panels 820–7,378 (2026-07, `:44`, E6) | two dates; panel scopes |
+| 10 | ChatGPT ad presence 0.8%–26% (`findings/whitespace.md:104`, rank 6) | 26% Similarweb, 4.47% US Adthena, 0.00% of 169,560 UK scrapes (`markets/paid-placement.md:26–28`) | panels, not reconciled |
+| 11 | Tier-3 share, six counts (2026-09-23, `findings/unknowns.md:179–184`) | 17 of 25 = 68.0% (2026-09-22, `findings/unknowns.md:55`) | two lists, two tier bases |
+| 12 | Skincare × agentic × enterprise reads spend (`findings/demand-map.md:30`, E6) | attention (`markets/agentic-commerce.md:105`) | two compilers |
+| 13 | "18 figures, 15 forecasts, 0 measured" (risk rank 11, `findings/whitespace.md:109`) | 10 new forecasts added 2026-09-23 (`findings/market-potential.md:46`) | stale count |
+| 14 | Hypotheses 26 of 32 scored (2026-09-23, `findings/unknowns.md:225`) | 15 of 23 (2026-09-22, `findings/unknowns.md:17`) | stale count |
+| 15 | Peec AI ARR inside the organic floor: "more than $4 million" (2025-11-17, `competitors/INDEX.md:77`) | "10m" (2026-05-23, `competitors/INDEX.md:78`) | two dates, two sources |
+| 16 | Profound round labelled vendor-reported (`findings/trigger-timeline.md:71`) | company-stated (`competitors/INDEX.md:66`) | two labels, one fact |
+
+## Appendix B — sources
+
+Compiled files read at snapshot 8badc05; every figure traces through them to `docs/raw/` (`trace.md`, this folder): `findings/director-brief-2026-09-23.md` (the failed brief); `method/scope.md`, `glossary.md`, `trust-rubric.md`, `plan.md` §Evidence bar; `findings/trigger-timeline.md`, `market-potential.md`, `ai-ads-evidence.md`, `demand-map.md`, `proof-scorecard.md`, `transition-evidence.md`, `whitespace.md` §Risk register, `unknowns.md`; `markets/paid-placement.md`, `organic-recommendation.md`, `agentic-commerce.md`; `competitors/INDEX.md`; `customers/skincare-beauty.md`, `b2b-saas.md`, `high-cpa-regulated.md`, `local-multi-location.md`; `method/blocked-channels.md`.
+
+Strongest single sources: OpenAI run-rate post (`raw/b-openai-1bn-run-rate-milestone-2026-09-22.md`, tier 3); NerdWallet 8-K (`raw/e-case-nerdwallet-earnings-release-2026-02-25-2026-09-22.md`, tier 2); court exhibit ECF 1977-1 (`raw/a-court-mdl-microsoft-ctr-data-2026-09-22.md`, tier 2); Semrush filing (`raw/a-semrush-filing-2026-09-22.md`, tier 2); DSA designation table (`raw/b-eu-dsa-ad-repositories-table-2026-09-22.md`, tier 2); optimisation-lever replication (`raw/e-case-c11-arxiv-tw3-partners-geo-score-2026-09-22.md`, tier 4).
+
+## Glossary
+
+| Term | Meaning here |
+|---|---|
+| AI; engine | Artificial intelligence; one assistant product (ChatGPT, Gemini, Perplexity, Copilot, Claude, Rufus) |
+| AI Overviews; AI Mode | Google's AI answer block on a results page; Google's conversational search tab. Both distinct from the Gemini app |
+| Copilot; Rufus | Microsoft's assistant; Amazon's shopping assistant |
+| GEO; AEO; AI visibility | Generative engine optimisation; answer engine optimisation — names for the organic sub-market. GEO is never geographic here |
+| SEO | Search engine optimisation, classical |
+| Visibility; traffic; sales | Brand appears in an AI answer; a session referred from an AI surface; revenue attributed to an AI surface |
+| Cell | One sub-market × vertical × buyer size. Verticals: skincare and beauty; B2B SaaS (business-to-business software as a service); high-CPA regulated (cost per acquisition: credit cards, insurance, supplements); local and multi-location added separately. Sizes: SMB (small and medium business), mid-market, enterprise |
+| spend / attention / none — checked / blank | A cell read: money moved; interest only; every signal run and nothing found; not yet checked |
+| Strict / loose | Whether a channel blocked-and-logged counts as checked for a `none` read: no (strict) or yes (loose) |
+| Tier | Source provenance 1–7: 1 measured by us; 2 filed (filing, court exhibit); 3 platform's own pages; 4 panel or clickstream; 5 vendor study with n; 6 vendor blog, no n; 7 listicle |
+| Source kind | vendor-reported; analyst-derived; filed; company-stated; measured-by-us |
+| Gold / Silver / Bronze | Case grades: causal design (holdout, geo-split, switchback); pre/post with an unaffected control; visibility change only |
+| raw / rule-1 | Two grade readings: as the screener assigned it; the literal rule that any missing item of the seven-item bar caps a case at Bronze |
+| R1 / R2 | Two evidence-class readings: pre/post with control counted as experimental (R1) or observational (R2) |
+| Load-bearing claim | A compiled claim a finding rests on; the bar is 80% at tier 3 or better |
+| Hypothesis marks | confirmed; killed; unresolved — checked; not produced (producing work did not run); dual = two marks under two readings |
+| ARR | Annual recurring revenue |
+| MAU | Monthly active users, as each engine defines them |
+| Q1 | First calendar quarter |
+| CMA | UK Competition and Markets Authority |
+| EU AI Act Art. 50 | Article requiring AI-interaction notice and synthetic-content marking; names no assistant |
+| VLOSE | Very Large Online Search Engine, a designation under the EU Digital Services Act; an ad-repository duty follows |
+| Prompt set | The fixed prompts a vendor's visibility score is run on |
+| Own engine sampling | The programme's measured-by-us runs of prompts against engines; one partial day exists, 2026-09-22 |
