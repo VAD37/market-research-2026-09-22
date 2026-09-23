@@ -22,6 +22,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
+| R-BLOCKED-2 | re-pull | Opus, `ext` | Reddit (modern UI first) advertiser-reported ChatGPT-ads threads + S5; Indeed S1 (US, logged-in); TED S10; update `blocked-channels.md` rows | `docs/raw/*-repull2-2026-09-23.md`; `docs/method/blocked-channels.md` append |
 | P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
@@ -180,6 +181,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Blocked channels re-pulled (R-BLOCKED); any channel needing registration or paid credentials goes to `docs/method/blocked-channels.md` for the user | User: "if any channels require registration then feedback to user"; "append to blocked list for human to review" |
 | 2026-09-23 | Briefs report evidence quality explicitly: transition evidence with no moved metric = "everyone did this, unknown if it works"; metric-moved experimental cases are the target and must be pulled when found | User feedback 3 |
 | 2026-09-23 | Method debt (plan-review-2 §6) cleaned by AMEND-2 appends | User feedback 4 |
+| 2026-09-23 | User logged Chrome into reddit.com and indeed.com (US location); extension pulls from those sessions allowed, raw header notes `logged-in` + location; modern reddit.com tried before old.reddit; R-BLOCKED-2 queued front for Reddit, Indeed, TED once P8-r frees `ext` | User: "i have login indeed and it use united states location now. same with reddit old"; "try use modern reddit one first"; extension has no per-site permission setting |
 | 2026-09-23 | BRIEF-3 spawned on user request: a 10–20 minute director reading brief, metrics and key details, plus a PowerPoint. Budget 300 lines (finding budget 100 lifted for this file only); deck is a generated file from `docs/method/gen-director-deck.py`, never hand-edited; `python-pptx` may be installed for it | User: "brief reading 10-20 minutes max, full of key metrics and highlight key details; convert reading into powerpoint". Compiled files only, no verdict, no execution language |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
