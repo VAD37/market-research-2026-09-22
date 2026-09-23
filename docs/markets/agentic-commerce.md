@@ -118,3 +118,17 @@
 - The measured rows describe one publisher's own customer base each, never the open web; none is broken out per engine; Salesforce's "influenced" figures are modelled and attributed, never incremental. Adobe's two December 2025 traffic figures and Google's three country statements each conflict inside one publisher and are kept side by side.
 - Copilot Checkout's fee reads 0% in `b-microsoft-agentic-commerce-2026-09-22.md` and `unknown` in the protocols table, whose pull could not render the same FAQ answer. Both recorded; the answered pull is cited above. Everything else about programs and protocols here is company-stated, tier 3, on the vendor's own domain. Nothing is independently audited or replicated. Protocol churn is fast — AP2 changed governance 2026-04-28, x402 changed owner, UCP's repo was pushed the day it was pulled.
 - The Perplexity row rests on a 2024-11-18 post and Google's UCP announcement on 2026-01-11, both outside the one-quarter staleness window in `../method/plan.md`; neither was re-checked against a current page beyond finding Perplexity's terms page now 404s. The category is roughly two years old as of 2026-09; every figure here is a point reading, and the staleness rule applies to each pull cited.
+
+### Pass 13 addition, 2026-09-23
+
+Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md`. Nothing above is edited.
+
+| Read | Figure | As of | Label, tier | Raw |
+|---|---|---|---|---|
+| Assistant reach, Amazon | Rufus "250 million customers using it this year" → "300 million+ customers" in 2025; Alexa for Shopping "active users close to doubling" YoY | 2025-10-30 → 2026-02-05 → 2026-07-30 | company-stated, 3 | `raw/c-amazon-rufus-user-sales-statements-2026-09-23.md` |
+| Assistant-influenced sales, adjacent | Rufus "nearly $12 billion in incremental annualized sales last year"; method unstated | 2025 | company-stated, 3 | same |
+| Floor — agent-executed checkout GMV | `unknown — checked openai.com (403), shopify.com 2026-08-05 release, PayPal/Stripe, aboutamazon.com 2026-09-23` | 2026-09 | — | `raw/e-engine-user-count-checks-2026-09-23.md`; `raw/c-shopify-q2-2026-results-2026-09-23.md` |
+| New forecasts, never sizes | Juniper "$1.5 trillion in 2030", global; NextMSC $1.90B (2025) → $54.22B (2035); Market Intelo $2.8B (2025) → $16.8B (2034); Mordor agentic-AI-in-retail software $60.43B (2026) → $218.37B (2031), adjacent | pub. 2026-04 to 2026-09 | analyst-derived, 6 | `raw/e-market-size-juniper-agentic-`, `-nextmsc-agentic-`, `-marketintelo-organic-agentic-`, `-mordor-agentic-2026-09-23.md` |
+| Forecast spread, 2030 | Morgan Stanley US $190B to McKinsey global $5T, 26.3× over 7 forecasts; US-only 5.26×; global 3.33× | 2030 | analyst-derived, 5–6 | same, plus rows 12–14, 18 of `raw/e-market-size-table-2026-09-22.md` |
+
+**Caveats — Pass 13 addition.** This append takes the file past its 120-line budget; overrun recorded here. Rufus figures count in-year customers and "incremental" sales on Amazon's own definition — not agent-executed checkout and not comparable to the forecasts. A BCG page credited with "$3 trillion to $5 trillion" by a search summary carries no such figure (`raw/e-bcg-commerce-everywhere-2026-09-23.md`).

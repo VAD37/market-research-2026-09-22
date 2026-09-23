@@ -118,3 +118,18 @@ Columns adapted to the task's four questions; section position per the template.
 - Every organic size figure found is a forecast from a tier-6 report-sales firm, and four of five present a base-year figure as measured with no method disclosed. No figure in the Forecasts table is used as the size.
 - Survivorship: the ~150 graded cases are vendor-selected winners from pages vendors chose to publish, and full-page re-grading moved 12 up and 0 down. Against that favourable selection, 0 Gold and 3 Silver exist, and 59 of 59 named brands checked say nothing on their own domains.
 - The category is roughly two years old as of 2026-09; every figure is a point reading, and the staleness rule in `../method/plan.md` applies to each pull cited. All cited pulls are dated 2026-09-22; the oldest source-published date carried is 2025-07-15.
+
+### Pass 13 addition, 2026-09-23
+
+Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md`. Nothing above is edited.
+
+| Read | Figure | As of | Label, tier | Raw |
+|---|---|---|---|---|
+| Engine reach | ChatGPT "more than 1 billion weekly active users"; Gemini app 950M MAU; AI Overviews 2.5B MAU; AI Mode 1B MAU | 2026-08-31; 2026-07-22; 2026-05-19 | company-stated, 3 | `raw/e-openai-chatgpt-user-counts-2026-09-23.md`; `raw/e-google-alphabet-user-counts-2026-09-23.md` |
+| AI referral visits to sites | 770.7M/month average, "+117.4%" YoY | Jun 2025–May 2026 | vendor-reported, 4 | `raw/a-similarweb-ai-referral-industry-2026-09-23.md` |
+| AI-chatbot referral share | ChatGPT 84.21% → 79.4%; Gemini 2.31% → 10.93%; Claude 0.3% → 2.53% | 2025-04 → 2026-08 | vendor-reported, 4 | `raw/e-statcounter-share-monthly-series-2026-09-23.md` |
+| Floor — disclosed ARR, 4 vendors | $38M (Semrush AI products, filed) + $4M–$10M (Peec AI) + $0.22M (Rankscale) = **$42.2M–$48.2M**, plus €2.2M (Searchable) unconverted | 2025-11 to 2026-05 | filed 2; company-stated 5 | `raw/a-semrush-filing-`, `a-peec-funding-techcrunch-2025-11-`, `a-vendor-roster-`, `a-searchable-funding-2026-09-22.md` |
+| New forecasts, never sizes | MarketsandMarkets $390M (2025) → $4,250M (2032); Coherent platform $2.70B → $26.85B, services $1.25B → $13B (2026 → 2033); Market Intelo $848M (2025) → $19.8B (2034) | pub. 2026-05 to 2026-08 | analyst-derived, 6 | `raw/e-market-size-marketsandmarkets-organic-`, `-coherent-organic-`, `-marketintelo-organic-agentic-2026-09-23.md` |
+| Forecast spread, 2034 | Dimension $17.15B to Market Decipher $32.92B, 1.92× across 4 forecasts | 2034 | analyst-derived, 6 | same, plus rows 2, 3, 5 of `raw/e-market-size-table-2026-09-22.md` |
+
+**Caveats — Pass 13 addition.** This append takes the file past its 120-line budget (`../method/plan.md` Pass sequence additions 2026-09-23); overrun recorded here. The ARR floor mixes dates and currencies and includes a filed "AI products" line broader than AI visibility. Coherent's stated CAGRs (13.6%, 14%) do not reproduce its own endpoints. H22 killed on the 1.92× spread.
