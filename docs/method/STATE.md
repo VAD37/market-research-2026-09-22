@@ -117,7 +117,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | 91c8059 |
 | **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | 91c8059 |
 | REVIEW-2 | `docs/method/plan-review-2-2026-09-23.md` (119): 4 of 6 done rows can still move while Pass 10 held; tier-3 shortfall decomposed (8 case-corpus, 1 forecast, 3 third-party, 3 meta); grading rule 1 append; Pass 10 one date closes HE2, HP1, HP3, HP2/HP4 need two; 7 appends §8 a–g. `docs/findings/executive-brief-2026-09-23.md` (69): 22 metric rows, all sourced, no verdict, 4 owner questions | 2026-09-23 | 54ae617 |
-| REVIEW-2b | `docs/findings/executive-brief-2026-09-23.md` (70): Pass 11 row added (99 of 108 name a change; H10, H11 confirmed with prior marks beside), last caveat replaced | 2026-09-23 | PENDING |
+| REVIEW-2b | `docs/findings/executive-brief-2026-09-23.md` (70): Pass 11 row added (99 of 108 name a change; H10, H11 confirmed with prior marks beside), last caveat replaced | 2026-09-23 | 950c8e7 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
