@@ -8,13 +8,17 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Live agents
 
-Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one extension holder (`ext`) and one Playwright holder (`pw`) at a time; the rest fetch only.
+Cap 7 from 2026-09-23 (user); falls back to 3 when the session token counter shows more than 80% used (check at every spawn; last check 2026-09-23 spawn of REPULL-1: 15.0M left, under the line). Browser: one extension holder (`ext`) and one Playwright holder (`pw`) at a time; the rest fetch only.
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
 | R-BLOCKED-2 | Opus, `ext` | Reddit via Arctic Shift archive API (curl, default): advertiser-reported AI-ads results + S5 counts; Indeed S1 via `ext` (logged-in, US); TED S10 via `ext`; blocked-channels re-probe 2 | `docs/raw/*-repull2-2026-09-23.md`; `blocked-channels.md`, `ai-ads-evidence.md`, `demand-map.md`, `high-cpa-regulated.md`, `hypotheses.md` appends | 2026-09-23 |
 | COMPILE-1 | Opus, no browser | Trigger timeline; risk register; evidence-quality three-count; tier-2 negative tail beside positive Silvers (shell appends only) | `findings/trigger-timeline.md`; `whitespace.md`, `proof-scorecard.md`, `transition-evidence.md` appends | 2026-09-23 |
 | P9-r | Opus, fetch | sec.gov primaries re-fetched for the 10 queue rows (generic UA); sub-tier claims re-evidenced from 2026-09-23 raws; tier-3 share recounted three ways on both lists; H17–H25 / HE / HP register | `docs/raw/b-sec-*-2026-09-23.md`; `unknowns.md` append; tier-revision appends | 2026-09-23 |
+| REPULL-1 | Opus, `ext` | Repull queue P1 → P1.5 (P4-r hand-offs) → P2 → P3 through the extension with paywall-bypass; images to `docs/raw/img/`; compiled cites appended; sec.gov and P4 rows skipped | `docs/raw/*-primary-2026-09-23.md`; `docs/raw/img/`; `blocked-channels.md` re-probe 3; compiled appends | 2026-09-23 |
+| P16-c1 | Opus, fetch/`pw` | Search-ad and retail-media baselines beyond Google (MSFT, AMZN, META, RDDT filings; IAB/PwC, MAGNA); budget line stolen from, per segment | `markets/paid-placement.md`, `customers/*.md`, `market-potential.md` appends; raw | 2026-09-23 |
+| P16-c2 | Opus, fetch/`pw` | Publisher monetisation (pay-per-crawl, licensing, publisher 10-Ks); AI-ads measurement vendors + OpenAI partner list; DSA Art. 39 / AI Act Art. 50 compliance tooling | `markets/organic-recommendation.md`, `competitors/`, `INDEX.md`, `whitespace.md` appends; raw | 2026-09-23 |
+| P16-c3 | Opus, fetch/`pw`, Arctic Shift | Brand-accuracy signal S13 defined and read across 27 cells; EU depth UK/FR/ES/IT/NL, EU engine share | `demand-signals.md` addition; `customers/*.md`, `market-potential.md`, `markets/*.md` appends; raw | 2026-09-23 |
 
 ## Queue
 
@@ -22,12 +26,8 @@ Front first. Re-cut 2026-09-23 per `biz-review-solution-2026-09-23.md` §3; user
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| REPULL-1 | re-pull | Opus, `ext` | Work `repull-queue-2026-09-23.csv` priority 1→2 (skip sec.gov rows, P9-r re-fetches them; add P4-r hand-offs grro.io, aicited.org, searchengineland.com) through the extension with the paywall-bypass installed; new raw files `supersedes:` the secondary pull; paywalled text recorded as figures, dates, names, short quotes; data images saved to `docs/raw/img/<stem>/` + `INDEX.csv`; compiled cites re-pointed by append | `docs/raw/*-primary-2026-09-23.md`; `docs/raw/img/`; `blocked-channels.md` re-probe 3; compiled appends |
-| COMPILE-2 + AMEND-3 | 16 | Opus, no browser | 32-row hypothesis register; funding/M&A/valuation table; cross-sub-market pricing table; glossary rows; unknowns roll-up; figures-carried-twice table; line-budget debt note in plan.md | `unknowns.md`, `INDEX.md`, `market-potential.md`, `glossary.md`, `plan.md` appends |
-| P16-c1 | 16 | Opus, fetch | Search-ad and retail-media baselines beyond Google; budget line stolen from | `markets/paid-placement.md`, `customers/*.md` appends; raw |
-| P16-c2 | 16 | Opus, fetch/`pw` | Publisher monetisation; ad-measurement vendors and OpenAI partner list; compliance tooling | `markets/`, `competitors/`, `whitespace.md` appends; raw |
-| P16-c3 | 16 | Opus, fetch | Brand-accuracy signal S13; EU depth and engine share | `demand-signals.md` addition; `markets/`, `customers/` appends; raw |
-| P16-c4 | 16 | Opus, `ext` for Indeed | Local/multi-location vertical; engine × segment; brand-side adoption series; switching cost and buying process | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md` appends; raw |
+| COMPILE-2 + AMEND-3 | 16 | Opus, no browser (after P9-r: shares unknowns.md) | 32-row hypothesis register; funding/M&A/valuation table; cross-sub-market pricing table; glossary rows; unknowns roll-up; figures-carried-twice table; line-budget debt note in plan.md | `unknowns.md`, `INDEX.md`, `market-potential.md`, `glossary.md`, `plan.md` appends |
+| P16-c4 | 16 | Opus, `ext` for Indeed (after REPULL-1; takes R-BLOCKED-2's Indeed remainder, 34 of 36 searches, paced) | Local/multi-location vertical; engine × segment; brand-side adoption series; switching cost and buying process | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md` appends; raw |
 | IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in`; write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change (held until REPULL-1 lands) | `docs/raw/*-img-2026-09-23.md`; compiled appends |
 | REV-BIZ-B | review | Opus | Bake-off output-needs review: what each of the 10 brief methods and the judge columns demand as input; which inputs the repo lacks; how BRIEF-4 input should be shaped | `docs/method/biz-review-2-bakeoff-2026-09-23.md` |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after COMPILE-1/2 and P16) | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
@@ -205,6 +205,8 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Image pulls: every re-pull and new pull saves data-bearing images (charts, image tables, dashboards) to `docs/raw/img/<raw-file-stem>/`, indexed in `docs/raw/img/INDEX.csv`; analysis is a separate later pass IMG-1 writing `<stem>-img-<date>.md` raw transcriptions then compiled appends. Rule in `plan.md` Orchestration | User: "pull image raw too since it might include chart and metric critical ... run attached image analyze later ... how you organize pulled img is up to you" |
 | 2026-09-23 | REV-BIZ-A accepted in full; `biz-review-solution-2026-09-23.md` maps 22 gaps to COMPILE-1/2, AMEND-3, P16-c1…c4, BRIEF-4, one credential-blocked; queue re-cut with REPULL-1 and COMPILE-1 at front; Pass 16 registered in `plan.md` addition 3 | Compile-before-pull: 12 gaps close from raw already pulled; user's same-day paywall and image instructions rank first |
 | 2026-09-23 | P4-r landed → P9-r released; COMPILE-1 spawned in parallel (both no browser, shell appends only, unknowns.md reserved to P9-r). REPULL-1 waits for `ext` (R-BLOCKED-2 still holds it); sec.gov queue rows given to P9-r since Archives answer 200 without a bypass | Cap 3 full: R-BLOCKED-2, COMPILE-1, P9-r |
+| 2026-09-23 | Cap raised by the user 3 → 7 with a usage guard: at every spawn read the session token counter; more than 80% used → cap back to 3. Checked at this spawn: 15.0M tokens left, under the line. Spawned REPULL-1 (`ext`, released by R-BLOCKED-2 whose browser work is done), P16-c1, P16-c2, P16-c3 → 7 live. COMPILE-2 held for P9-r (shares `unknowns.md`); P16-c4 held for `ext` | User: "I increase the cap agent from 3 -> 7. Remember to check for left oever usage. If >80% then cap back to 3" |
+| 2026-09-23 | R-BLOCKED-2 progress read: TED done (tier 2, KKH €11M framework names GEO), Indeed stopped at "Additional Verification Required" after 2 of 36 searches (not solved), Reddit harvest 272 records in progress. Told to finish Reddit at reduced scope and land; Indeed remainder → P16-c4 | User asked for a summary and a split |
 
 ## Unknowns
 

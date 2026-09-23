@@ -482,6 +482,10 @@ Cap in force is the latest cap line in `STATE.md` §Decisions taken; as read 202
 - Method: `curl` on the image URL first (publisher CDNs rarely wall images); browser screenshot of the rendered element when the image is drawn by script; `[note: image not saved — <reason>]` plus the image URL in INDEX when neither works. Never a whole-page screenshot in place of a chart.
 - Images are raw pulls: never edited, never annotated in place. Reading them is a separate pass (IMG-1): an agent reads each image, writes the numbers, axes, series, dates and source lines it shows into `docs/raw/<raw-file-stem>-img-<date>.md` as a new raw file (tier inherits from the page, `source_label` as the chart states, `measured-by-us` only if the agent read values off an unlabelled axis and says so), fills `analysed_in`, and appends the compiled rows that change. Until IMG-1 lands, `analysed_in` is blank and no compiled file cites an image.
 
+### Orchestration — cap revision 2, 2026-09-23
+
+Live-agent cap 7, set by the user 2026-09-23, with a usage guard: the main thread reads the session token counter at every spawn; when more than 80% of the session budget is used, the cap falls back to 3 until the counter resets. Browser rule unchanged: one `ext` holder, one `pw` holder at a time. Concurrent agents append to shared compiled files by shell append only (`cat >>`); no agent rewrites a compiled file while another is live.
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.
