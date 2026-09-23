@@ -12,6 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| P13-size | Opus, fetch + WebSearch | Market potential, three sub-markets: engine user counts over time, share and referral trends, forecasts side by side, bottom-up floors | `docs/raw/*-2026-09-23.md`; `docs/markets/*.md` appends; `docs/findings/market-potential.md` | 2026-09-23 |
 | R-BLOCKED | Opus, `ext` | Probe every blocked channel via browser; re-pull filings, funding, Trends, review sites; credential register | `docs/method/blocked-channels.md`; `docs/raw/*-repull-2026-09-23.md` | 2026-09-23 |
 | P12-ads | Opus, `pw` | AI ads and AI engines selling ads — inventory, advertisers, prices, revenue, networks | `docs/raw/b-*-2026-09-23.md`; `docs/markets/paid-placement.md` append; `docs/findings/ai-ads-evidence.md` | 2026-09-23 |
 
@@ -23,7 +24,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 |---|---|---|---|---|
 | P8-r | 8 re-run | Sonnet, `ext` after R-BLOCKED | Close the 8 blank high-CPA cells and unrun signals (S2, S3, S9, S10; skincare S4, S6, S12; B2B SaaS S5, S6 paid/agentic terms) via browser | `docs/raw/f-signal-*-2026-09-23.md`; `customers/*.md` appends; `findings/demand-map.md` append |
 | P4-r | 4 re-run | Opus, `ext` | Success-story hunt on Reddit, G2, sec.gov, ~107 unchecked brand pages, 25 unopened titles; metric-moved experimental cases only | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append |
-| P13-size | 13 | Opus | Market potential, all three sub-markets: engine user counts over time, trend data, forecasts side by side with tiers | `docs/markets/*.md` appends; `findings/market-potential.md` |
 | P14-papers | 14 | Opus | Research-paper scan: state-of-the-art capabilities that could be abused or monetised; builder-constraint question; descriptive only | `docs/raw/d-paper-*-2026-09-23.md`; `findings/frontier-scan.md` |
 | P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
