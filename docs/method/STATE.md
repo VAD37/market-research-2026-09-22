@@ -112,7 +112,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 7 done** | 41 profiles + INDEX | 2026-09-22 | 39b1468 |
 | P9 findings | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` (100/100/90/100); hypotheses: 6 confirmed, 6 killed, 4 unresolved, 7 not produced; done rows 2 of 6; 17 of 25 load-bearing claims tier ≤3 = 68%; 0 Gold in ~980 screened, 7 Silver | 2026-09-22 | a43edc9 |
 | P9-review | `docs/findings/review-1-2026-09-23.md` (160 lines); 5 of 23 H marks disputed (H5, H6, H15, H16 → unresolved; H11 → not produced); tier-3 share recount 12 of 27 = 44.4% vs 17 of 25 = 68.0%, both stand; 3 of 16 traces mismatch; grading rule 1 literal leaves 1 of 7 Silvers; no execution language, Lane D clean; amendments per file | 2026-09-23 | 83ed796 |
-| P9-amend | four findings files amended per review-1 §9: 34 of 34 applied verbatim; tallies 4/3/8/8; 68.0% and 44.4% side by side; line counts 100/100/91/100 | 2026-09-23 | PENDING |
+| P9-amend | four findings files amended per review-1 §9: 34 of 34 applied verbatim; tallies 4/3/8/8; 68.0% and 44.4% side by side; line counts 100/100/91/100 | 2026-09-23 | b5ed1c7 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
