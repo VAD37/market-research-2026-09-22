@@ -12,7 +12,6 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| AMEND-2 | Opus | Apply plan-review-2 §8 a–g; append user decisions 2026-09-23; Pass 12–14 sections; hypotheses H17+ | `docs/method/plan.md`, `docs/method/hypotheses.md` appends | 2026-09-23 |
 | R-BLOCKED | Opus, `ext` | Probe every blocked channel via browser; re-pull filings, funding, Trends, review sites; credential register | `docs/method/blocked-channels.md`; `docs/raw/*-repull-2026-09-23.md` | 2026-09-23 |
 | P12-ads | Opus, `pw` | AI ads and AI engines selling ads — inventory, advertisers, prices, revenue, networks | `docs/raw/b-*-2026-09-23.md`; `docs/markets/paid-placement.md` append; `docs/findings/ai-ads-evidence.md` | 2026-09-23 |
 
@@ -127,6 +126,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | REVIEW-2b | `docs/findings/executive-brief-2026-09-23.md` (70): Pass 11 row added (99 of 108 name a change; H10, H11 confirmed with prior marks beside), last caveat replaced | 2026-09-23 | 950c8e7 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 | BRIEF-3 | `docs/findings/director-brief-2026-09-23.md` (293 lines, budget 300) — 10–20 min director reading brief, 14 sections, 140 sourced rows, all 23 H, both-readings pairs kept; `docs/method/gen-director-deck.py` → `docs/findings/director-brief-2026-09-23.pptx` (18 slides, generated, never hand-edited; run with Python 3.14 where python-pptx is installed). 0 pulls | 2026-09-23 | fee9d0d |
+| AMEND-2 | `docs/method/plan.md` 362 → 567 lines, additions only; `docs/method/hypotheses.md` 105 → 156, H17–H25 (post-hoc to Passes 2–9, pre-registered for 12–14). §8 a–g applied; scope addition 1; Pass 10 skipped; Pass 12/13/14 + P8-r/P4-r/P9-r sections; evidence-quality reporting; browser/search revision; 15 failure-mode rows + debt map; done rows for 12–14. 0 pulls | 2026-09-23 | d1d62cf |
 
 ## Landed — pending verify
 
