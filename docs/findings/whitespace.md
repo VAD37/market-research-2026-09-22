@@ -129,3 +129,21 @@ Task P16-c2 (Pass 16). Appended only; lines above unchanged. Same columns as "Ev
 
 Caveats, this append: search engines were walled (Mojeek CAPTCHA, DuckDuckGo 403, WebSearch exhausted), so S3's vendor set is four privacy/consent vendors plus two IAB bodies, not a census; S2's "8 named" is the count on two OpenAI help articles at pull time and the "more than 50" sits beside it unreconciled; S1 mixes marketplace list terms (tier 3) with filed bundled lines (tier 2) and reconciles nothing.
 - HubSpot blog "5 million" fewer visits (row 5, no-payback evidence) · `raw/e-case-fortune-hubspot-blog-traffic-loss-2026-09-23.md` (3) · `raw/e-case-fortune-hubspot-blog-traffic-loss-primary-2026-09-23.md` (3) · "Our blog lost 5 million visits in a thirty-day period. We saw AI search usage climbing 37% while traditional search declined 11 percent." · agrees — same body on both pulls, no paywall or meter on either (P16-c4b, 2026-09-23)
+
+## Correction AMEND-4, 2026-09-23
+
+Flagged by RECOUNT-2 (`findings/unknowns.md:395`, `:399`, `:406`). Claim rows left as written; contrary rows beside, not resolved.
+
+**C5 (L62):** "No engine measured fetches llms.txt, and one engine states in its own docs that no such file is needed".
+
+| Side | Evidence, verbatim | Tier | Raw |
+|---|---|---|---|
+| for | "No tool requested llms.txt" — 15 tools × 3 trials | 4 | `raw/d-structured-arxiv-borysenko-http-fingerprints-2026-09-22.md` |
+| for | "Google Search itself doesn't use them"; last updated 2026-07-10 | 3 | `raw/d-structured-google-ai-optimization-guide-2026-09-22.md` |
+| contra | /llms.txt 84 hits: 81 ChatGPT-User, 3 OAI-SearchBot | 5 | `raw/e-case-otterly-llms-txt-experiment-repull2-2026-09-23-img-2026-09-23.md` |
+
+Otterly text pull states the 84 aggregate only; per-bot split from image 03. No Claude, Perplexity, Gemini or Mistral hit on /llms.txt there. Vendor measuring with its own product. Text raw: `raw/e-case-otterly-llms-txt-experiment-repull2-2026-09-23.md`.
+
+**Answer line L17**, "no protocol states a fee": OpenAI Instant Checkout, "Merchants pay a small fee on completed purchases"; rate undisclosed; tier 3; published 2025-09-29; `raw/b-openai-buy-it-in-chatgpt-instant-checkout-primary-2026-09-23.md` (REPULL-1b). A checkout program's fee, not a protocol spec clause; E10 (L32) "6 of 6 protocol fee clauses `unknown — checked`" stands beside.
+
+Caveat: no claim re-scored; tiers unchanged per RECOUNT-2.

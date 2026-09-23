@@ -287,3 +287,18 @@ Segment-matrix done row: **both readings now satisfied, 27 of 27, zero blanks.**
 **Hypotheses, re-touched.** H4 (kill: any SMB cell with spend) — unaffected, E2 is Mid-market not SMB; still killed via B2B SaaS Organic/SMB. H7 (organic > paid, agentic in spend-cell count) — organic rises to 7 (skincare 2, B2B SaaS 3, high-CPA 2) against paid 1 and agentic 1; **strict now also confirmed**. H9 (agentic spend only at enterprise) — unaffected by an organic cell; both readings remain confirmed per R-BLOCKED-2.
 
 **Caveats, this append.** S1 is this vertical's fourth spend cell resting on a single job posting at a single employer — the catalogue's own weakest spend class, per C2 above ("Six of the seven spend reads rest on S1…"; now seven of nine). The mid-market band for both new employers rests on one filed headcount snapshot, 2025-12-31. Only two mid-market-banded beauty companies were checked; not an exhaustive sweep of small/mid-cap beauty issuers. Willingness to pay is unchanged: `unknown` in all 27 cells — the Hydrafacial posting's salary band is internal headcount cost, not a price paid to a vendor. File over its 100-line budget; overrun is this append, consistent with every prior append.
+
+## Correction AMEND-4, 2026-09-23
+
+Claims rows L76–80 stale after GAP-SK, flagged by RECOUNT-2 (`findings/unknowns.md:385–389`, `:406`). Claim rows left as written; current figures beside.
+
+| Claim | Line | As written | Current | Source section |
+|---|---|---|---|---|
+| C1 | L76 | 7 spend / 1 attention / 11 none / 8 blank | 9 / 1 / 17 / 0, strict = loose | §GAP-SK tallies, L282 |
+| C2 | L77 | six of seven spend reads rest on S1 | 7 of 9 (L289); 8 of 9 by deciding signal | E2, E3, E6–E9, E11, E13 S1; E5 S2 |
+| C4 | L79 | organic 5 spend; paid 1; agentic 1 | organic 7; paid 1; agentic 1 | §GAP-SK hypotheses, L287 |
+| C5 | L80 | 5 of 7 spend enterprise; 1 of 9 SMB | 5 of 9 enterprise; 1 of 9 SMB | E3, E5, E6, E9, E11; SMB E7 only |
+
+C2 count: GAP-SK caveat (L289) and RECOUNT-2 (`unknowns.md:386`) read "seven of nine". This append's count by deciding signal is 8 of 9: E11 deciding signal S1 (L35), reinforced by S2, S7/S8 at P8-r (L113). Both counts stand, not reconciled. Spend cells, 9: E2 (Mid), E3, E5, E6, E9, E11 (Enterprise), E7 (SMB), E8, E13 (Mid). E2 raw: `raw/f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23.md`; E13: `raw/f-signal-hr-band-attribution-2026-09-23.md`.
+
+Caveat: arithmetic on this file's own rows; no cell re-read, no new pull. Tier of each claim unchanged per RECOUNT-2.

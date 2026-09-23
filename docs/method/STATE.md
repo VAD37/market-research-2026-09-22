@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15 bake-off paused 2026-09-23: wave 1 resume queued (see §Queue). Maintenance round opened 2026-09-23: CLEANUP-1, REPULL-AUDIT-2, gap pulls (GAP-SK, GAP-IND), then repulls, tier-3 recount, lossless compression. Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
+Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15 bake-off paused 2026-09-23: wave 1 resume queued (see §Queue). Maintenance round 2026-09-23 closed: CLEANUP-1, REPULL-AUDIT-2, GAP-SK, GAP-IND, RP2-A, RP2-B, RECOUNT-2, COMPRESS-C/F1/F2/M/CU, AMEND-4 landed. Open: RP2-B-110 (needs `ext`); compression beyond anchor floors (owner). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
 
 ## Live agents
 
@@ -12,9 +12,9 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| AMEND-4 | opus | dated correction appends for stale facts flagged by RECOUNT-2 | `customers/skincare-beauty.md`, `findings/demand-map.md`, `findings/whitespace.md`, `method/hypotheses.md` appends | 2026-09-23 |
+| — | — | none live; maintenance round closed 2026-09-23 | — | — |
 
-Slots free: 6 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
@@ -22,6 +22,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
+| RP2-B-110 | repull | sonnet | Adobe Q3 report PDF pp. 13–53 (queue row 110) — needs `ext`; extension not connected 2026-09-23 | raw + `agentic-commerce.md` append |
 | P15 wave 1 resume | 15 | Opus ×8 | R0, R0b, R1–R6: finish each run from `runs/<id>/PROMPT.md`, the draft on disk, `prior-attempt-digest.md` (Fable) and `pause-digest-opus.md` (paused Opus finish); on disk at pause: R3 `trace.md`, R5 `_body.tmp`/`_appendix.tmp`, R2 `body.md`; no `notes.md` anywhere. Scratch files deleted before landing | `runs/R0…R6/brief.md`, `notes.md`, `trace.md` |
 | P15 wave 2 | 15 | Opus ×3 | R7 decision-memo, R8 assumption-audit, R9 mbb-extract — after wave 1 frees slots | `runs/R7…R9/` |
 | P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
@@ -162,6 +163,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | COMPRESS-M markets | paid-placement 308 → 301 (floor L206), organic 214 → 211 (L162), agentic 160 → 158 (L142); bytes identical above floors. Tokens: organic 1,035 = 1,035, agentic 567 = 567, paid 1,063 → 1,061 (duplicate "48.5%" and "tier 5" removed, both still carried). Note: bake-off pack pins whole-file line counts 308/214/156 — runs read snapshot 8badc05, not working tree | 2026-09-23 | see commit |
 | COMPRESS-F1 scorecard + unknowns | proof-scorecard 310 → 307 (floor L294: bake-off pack L246–294, biz-review-2 to :293); unknowns 490 unchanged (anchored to EOF by STATE RECOUNT-2 row; pack L132–135, L234–366). Tokens 1,454 = 1,454; 3,162 = 3,162; duplicates removed 0. Agent ran one read-only `git diff --stat` (disclosed) | 2026-09-23 | see commit |
 | COMPRESS-CU customers | high-cpa 262 → 252 (floor L170), skincare 263 → 245 (L135), b2b-saas 242 → 228 (L132); local 94 untouched. Cut: 13 repeated over-budget notices (fuller statement kept per file), 3 "Top engine" restatements, Budget-line prose repeating rows, heading-adjacent blanks. Every pre token present; only repeat counts dropped. Floors from bake-off R0 brief cites | 2026-09-23 | see commit |
+| AMEND-4 stale-fact corrections | Dated appends only: skincare-beauty +12 (header L6 3/1/5 vs cells 4/1/4; L7 3 → 4 of 9 spend); demand-map +15 (C1 7/1/11/8 → 9/1/17/0; C4 organic 5 → 7; C5 5 of 7 → 5 of 9 enterprise; C2 S1 share 7 of 9 (RECOUNT-2) vs 8 of 9 (deciding signal) side by side); whitespace +18 (C5 "no engine fetches llms.txt" beside Otterly 81 ChatGPT-User + 3 OAI-SearchBot t5; L17 fee line beside OpenAI "small fee" t3); hypotheses +7 (H7 strict → confirmed; H9 already logged L164). Stale cite `transition-evidence.md:158` is in bake-off R2 brief only, left | 2026-09-23 | see commit |
 
 ## Landed — pending verify
 
@@ -244,6 +246,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Paused on user instruction; 8 P15 Opus continuations stopped mid-run. Drafts, R3 `trace.md`, R5 scratch files and per-run `pause-digest-opus.md` (digest of each stopped transcript) committed; wave 1 re-queued as a resume ahead of wave 2 | User: "pause all agents and save work" |
 | 2026-09-23 | Live-agent cap 7 (was 8); subagents Opus or Sonnet only, no Fable; single authority `projects/ORCHESTRATION.md` §In force, `plan.md` cap revision 4 | User: "cap agents is 7 now. this session we run opus/sonnet only"; earlier: "no fable agent… convert to opus/sonnet subagent" |
 | 2026-09-23 | Maintenance round opened: CLEANUP-1 (orchestration/STATE), REPULL-AUDIT-2, gap pulls GAP-SK and GAP-IND, then repulls, tier-3 recount, lossless compression; P15 stays paused | User: "apply 1 and 2,3,4, then commit… run subagents to fix issue"; compression "lossless compress only"; repull "we have free time, run subagent to repull before we run brief report" |
+| 2026-09-23 | Compression floor = line anchors: lossless passes keep every `file:NN`/range anchor byte-identical, so over-budget files shrink only below their highest anchor (bake-off evidence pack, briefs, reviews, STATE pin most lines). Further cuts need split-and-repoint or a post-bake-off pass — owner decision | COMPRESS-C/F1/F2/M/CU reports; user: "lossless compress only" |
 
 ## Open decisions — owner
 

@@ -163,3 +163,10 @@ Coverage: lane B — H17, H18, H19; D — H23, H24, H25; E — H20, H21, H22. H2
 | 2026-09-23 | H17, H18, H19 | Not moved; Reddit carries no engine disclosure, rate card or reseller page |
 | 2026-09-23 | H9 | Strict reading: unresolved — checked → **confirmed**. TED reached; high-CPA Agentic SMB and Enterprise read none under both readings; agentic spend only at skincare Enterprise — `findings/demand-map.md` §R-BLOCKED-2, `raw/f-ted-S10-repull2-2026-09-23.md` |
 | 2026-09-23 | H7 | Strict reading unchanged, unresolved — checked; one strict blank left, skincare Organic/Mid |
+
+### Log — AMEND-4, 2026-09-23
+
+| Date | ID | Note |
+|---|---|---|
+| 2026-09-23 | H7 | Strict reading: unresolved — checked → **confirmed**. E2 skincare Organic/Mid closed to spend; organic 7 vs paid 1, agentic 1, 27 of 27 checked — `findings/demand-map.md` §GAP-SK L287, `raw/f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23.md`. Prior marks: unresolved — checked (Pass 9, demand-map L65); loose confirmed / strict unresolved (P8-r, L135); strict unchanged (R-BLOCKED-2, L165 above) |
+| 2026-09-23 | H9 | No new entry; strict → confirmed already logged, R-BLOCKED-2, L164 above |

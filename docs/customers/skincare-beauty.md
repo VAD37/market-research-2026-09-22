@@ -243,3 +243,15 @@ Closes skincare × Organic × Mid-market (cell E2), the strict matrix's one rema
 ### Primary re-pull RP2-A, 2026-09-23
 - Agentic / Enterprise cell (L44, L57) — "Ulta Beauty 'among the first retailers to implement' Google UCP, no metric" cited to BeautyMatter (tier 5, secondary, 2026-04-24). Primary located: Ulta Beauty's own IR press release, "Ulta Beauty and Google Introduce Gemini-Enabled Shopping Experiences," released 2026-04-22 (two days before the BeautyMatter relay). Same substance, same quotes (Brindley, Gupta, Maresca) verbatim; still **no visibility, traffic or sales metric** — "46+ million members" is a loyalty-program size, not an AI-performance figure. Grade unchanged (screened — no claim); tier upgrades from 5 (trade-press relay) to **3** (platform primary, company's own IR release). Raw: `raw/e-case-ulta-google-gemini-primary-2026-09-23.md`.
 - Buyer-size proxy row (L16) and adjacent NielsenIQ figure — new primary found, not previously cited: Ulta Beauty's own IR press release "Ulta Beauty Launches New NielsenIQ Study on Gen Alpha and AI-Powered Beauty Discovery," 2026-06-18, NielsenIQ-conducted, n=522 Gen Alpha consumers + 500 parents, fieldwork April-May 2026. Key figures: AI-tool users visit stores to browse/try more than non-users (57% vs. 36%); 73% of Gen Alpha use personalization tools; teen boys lead AI-shopping-assistant adoption (26% vs. ~15% other groups). Grade Bronze (self-reported, cross-sectional, no named engine, no revenue link). This is a **different NielsenIQ output** from the "1 billion beauty-related searches per week on ChatGPT" figure relayed by Glossy elsewhere in this file — not corroborating or contradicting that figure, carried side by side. Raw: `raw/e-case-ulta-nielseniq-smart-beauty-primary-2026-09-23.md`.
+
+### Correction AMEND-4, 2026-09-23
+Stale header rows flagged by RECOUNT-2 (`findings/unknowns.md:477`). Header lines left as written; current reads beside.
+
+| Line | As written | Current, after GAP-SK | Basis |
+|---|---|---|---|
+| L6 | spend 3, attention 1, none 5 | spend 4, attention 1, none 4 | L21–29 cells plus §Gap fill GAP-SK |
+| L7 | 3 of 9 spend, all enterprise | 4 of 9; 3 enterprise, 1 mid-market | E2 spend, `raw/f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23.md` |
+
+Cells verified: spend Organic/Mid (L22 read superseded by GAP-SK), Organic/Enterprise (L23), Paid/Enterprise (L26), Agentic/Enterprise (L29); attention Organic/SMB (L21); none Paid SMB/Mid, Agentic SMB/Mid (L24–25, L27–28; 12 of 12 per P8-r).
+
+Caveat: correction only; no cell re-read, no new pull.
