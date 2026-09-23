@@ -247,3 +247,20 @@ Indeed viewjob channel: walled at page 1 (Cloudflare "Additional Verification Re
 | Salary lines in bodies | 5 of 6 | Walgreens $125,000–$218,750; Choice $123,663–$145,486; APFM $165,000–$195,000 + 10%; Cigna $79,100–$131,800; AT&T $128,400–$215,800; MAHEC none |
 
 Caveats: S1 stays the weakest spend class ("headcount budget, not category spend"); the six bodies are the employer's own text, tier 3, and none states a category budget. The 29 unread cards keep their card-only status; skincare and B2B SaaS cells rest on no Indeed card, so this check moves no read in those files.
+
+## EU paid and agentic cells, P16-c3b, 2026-09-23
+
+Per-country EU cells (UK, FR, ES, IT, NL × 3 verticals), sub-markets paid placement and agentic commerce, read 2026-09-23 from `customers/*.md` appends of the same name. Cell = country × vertical × sub-market; size band inside the cell as the evidence states. The 27-cell core tally above is not recomputed.
+
+| Cut | Cells | spend | attention | none — checked | unassigned beside |
+|---|---|---|---|---|---|
+| EU organic, P16-c3 | 15 | 1 (FR × B2B SaaS × enterprise, Pennylane) | 0 | 12 | 2 (Make ES; Compare the Market UK) |
+| EU paid, P16-c3b | 15 | 0 | 0 | 15 | 2 (Jotform UK B2B SaaS; BestMoney UK high-CPA) |
+| EU agentic, P16-c3b | 15 | 1 (FR × high-CPA × mid-market, Alan) | 0 | 14 | 0 |
+| EU total | 45 | 2 | 0 | 41 | 4 |
+
+Channels behind the 30: S1 LinkedIn guest API 38 pages, Hellowork FR, Tecnoempleo ES (tier 3); S2 OpenAI locale posts es/it/nl, Shopify Agentic Storefronts ×5 locales, Adyen, Adform, Adthena UK index (3–5); S5 Arctic Shift 17 queries, 6 unresolved after 422 ×2 (5); S10 TED 20 terms, UK Contracts Finder 12 terms (2). Raw: `f-*-eu-paid-agentic-2026-09-23.md`, six files; images 3 (Adthena leaderboard, saturation, look-up; IMG-1 pending).
+
+Outside the verticals, EU paid, recorded and moving no cell: Volkswagen, Vodafone testing ChatGPT Ads via Adform (release 2026-09-10, tier 3); giffgaff, Vodafone, Booking.com top UK ChatGPT advertisers, 1,342 distinct UK advertisers week 2026-07-13 to 07-20 (tier 5).
+
+**Caveats, this append.** Nine of the 30 `none` reads (UK agentic, ES paid, NL agentic, across three verticals) carry S5 unresolved; they rest on S1, S2, S10. The single agentic spend read is one product posting, S1 alone, tier 3. TED phrase hits on "commerce agentique" and "publicité IA" are pre-category text matches, not demand. Publication bias: private ChatGPT Ads buyers in the five countries leave no trace in any channel here except Adthena's images, which are unread.

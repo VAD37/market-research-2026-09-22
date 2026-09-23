@@ -230,3 +230,29 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 - Safe Life US LLC, CAL Financial, Inc., Ann & Robert H. Lurie Children's Hospital · unread — Indeed wall; employer sites not attempted · — · — · cards: none, "$40 - $60 an hour", "$70,720.00 - $115,627.20 a year" · `unassigned` · superseded file
 
 Cell check. Organic / Enterprise **spend** rests on the LinkedIn pull of the same Cigna posting (`raw/f-signal-hr-S1-linkedin-2026-09-22.md`), not on the Indeed card; the employer-site body **confirms** the duty and adds the first buyer-side naming of AEO vendors in this vertical (Profound, Scrunch, Bluefish, Evertune — "e.g.", tools the candidate should know, not a purchase). Posted 2026-09-14 (Workday startDate), six US locations.
+
+## EU paid and agentic cells, P16-c3b, 2026-09-23
+
+Closes the paid and agentic EU cells P16-c3 left blank. Raw prefix `raw/`, suffix `-2026-09-23.md`. Channels as in the skincare append of the same date.
+
+| Country | Sub-market | Size | S1 | S2 | S5 | S10 | Read |
+|---|---|---|---|---|---|---|---|
+| UK | Paid | all three | 0 regulated employers of 6 pages | BestMoney "3.88% across the UK and US" — see unassigned row | 0 threads, 4 queries | TED 0, UK CF 0; FCA "Agentic AI" award is buyer-side IT | none — checked |
+| UK | Agentic | all three | 0 regulated employers | none | query 422 ×2 | UK CF "agentic commerce" 0 | none — checked (S5 failed) |
+| FR | Paid | all three | Havea/Biocyte (supplements) intern: ChatGPT as creative tool, Meta/TikTok ads — nil | OpenAI posts name no advertiser | 0 threads | TED 0 | none — checked |
+| FR | Agentic | **Mid-market** | Alan "Product Lead - Growth", 2026-09-22: "a GPT app where a prospect can shop for and buy health insurance, and agentic commerce more broadly"; "The team is 800+ people" | none | 0 threads | TED 0 | **spend** |
+| FR | Agentic | SMB, Enterprise | no other insurer, card or supplement employer | none | 0 threads | TED 0 | none — checked |
+| ES | Paid | all three | 0 of 8 pages; Tecnoempleo 0 | none | both queries 422 ×2 | TED 0 | none — checked (S5 failed) |
+| ES | Agentic | all three | 0 regulated employers | none | 0 threads | TED 0 | none — checked |
+| IT | Paid | all three | 0 of 8 pages | none | 0 threads | TED 0 | none — checked |
+| IT | Agentic | all three | 0 of 8 pages | none | 0 threads | TED 0 | none — checked |
+| NL | Paid | all three | 0 regulated employers of 9 pages | OpenAI nl-NL names no advertiser | 0 threads, 2 queries | TED 0 | none — checked |
+| NL | Agentic | all three | 0 regulated employers | Adyen names no insurer | query 422 ×2 | TED 0 | none — checked (S5 failed) |
+
+Alan cell: vertical stated in the posting (health insurance); size from alan.com/en/careers "800+ people" → mid-market per `method/demand-signals.md` bands; S1 spend class, tier 3 (`f-jobboards-S1-eu-paid-agentic`). The posting is a product role naming the surface, not a media or checkout buy.
+
+Unassigned, UK × Paid: BestMoney "3.88% across the UK and US", Adthena index week 2026-07-13 to 07-20 — "financial comparison" per the source, not an issuer or insurer; size unknown; moves no cell (`b-ppcland-adthena-7378-advertisers`, 5). Outside vertical, EU paid, for the record: Volkswagen and Vodafone "testing ChatGPT Ads" via Adform, release 2026-09-10, country entity unstated (`f-vendor-S2-eu-paid-agentic`, 3); giffgaff 14.0%, Vodafone 11.3% top UK ChatGPT advertisers (`b-ppcland-adthena-7378-advertisers`, 5).
+
+Raw: `f-linkedin-S1-eu-paid-agentic` (3), `f-jobboards-S1-eu-paid-agentic` (3), `f-vendor-S2-eu-paid-agentic` (3), `f-adthena-S2-eu-paid-agentic` (5), `f-reddit-arcticshift-S5-eu-paid-agentic` (5), `f-ted-ukcf-S10-eu-paid-agentic` (2).
+
+**Caveats, this append.** The one spend read rests on a single posting (S1 alone — flagged per `demand-signals.md`) whose "agentic commerce" wording is aspirational product scope, not a checkout programme joined. "Regulated" follows the segment definition (credit cards, insurance, supplements). "(S5 failed)" cells rest on S1, S2, S10 only. File over its 100-line budget; overrun includes this append.

@@ -213,3 +213,26 @@ Cell check. No B2B SaaS S1 cell rests on an Indeed card; nothing confirmed or we
 | CloudEagle AI Citation Share, read off axis: ~0.075 at deployment (11-02-2025) → ~0.325 at 12-21-2025; weekly clicks ~420 → ~670 (01-11-2026) | "3X Increase in AI Citation Share Within 12 Weeks"; "113% Increase in Clicks…" (Quattr) | 2025-10 to 2026-01 | 5 | `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: the Seer "54%" and "300%" are not printed on the charts; ~ values are measured-by-us axis readings from vendor screenshots.
+
+## EU paid and agentic cells, P16-c3b, 2026-09-23
+
+Closes the paid and agentic EU cells P16-c3 left blank. Raw prefix `raw/`, suffix `-2026-09-23.md`. Channels as in the skincare append of the same date.
+
+| Country | Sub-market | Size | S1 | S2 | S5 | S10 | Read |
+|---|---|---|---|---|---|---|---|
+| UK | Paid | all three | 0 SaaS employers of 6 pages; Google posting is sell-side | Jotform, Lovable in Adthena top ten — see unassigned row | 0 threads, 4 queries | TED 0, UK CF 0 | none — checked |
+| UK | Agentic | all three | 0 SaaS employers | Shopify /uk names no merchant | query 422 ×2 | UK CF "agentic" 8, all public-sector AI builds | none — checked (S5 failed) |
+| FR | Paid | all three | 0 SaaS employers; Hellowork "ChatGPT ads" 3, none SaaS | OpenAI posts name no advertiser | 0 threads | TED 0 | none — checked |
+| FR | Agentic | all three | Hellowork "agentic commerce" 2: Alan (insurance), Square (consultancy) | none | 0 threads | TED "commerce agentique" 2, both 2017–2019 training | none — checked |
+| ES | Paid | all three | team.blue posting is agentic automation, not ads | none | both queries 422 ×2 | TED 0 | none — checked (S5 failed) |
+| ES | Agentic | all three | Accenture Song ×2 (Tecnoempleo, LinkedIn) — sell-side | Shopify /es names no merchant | 0 threads | TED 0 | none — checked |
+| IT | Paid | all three | team.blue, Avanade, Deloitte — engineering roles | none | 0 threads | TED 0 | none — checked |
+| IT | Agentic | all three | 0 of 8 pages | Shopify /it names no merchant | 0 threads | TED 0 | none — checked |
+| NL | Paid | all three | Seedtag PM (ad tech, sell-side); eBay ML | OpenAI nl-NL names no advertiser | 0 threads, 2 queries | TED 0 | none — checked |
+| NL | Agentic | all three | Picnic, Zonneplan — own assistants, outside vertical | Adyen (NL vendor) names no SaaS customer | query 422 ×2 | TED 0 | none — checked (S5 failed) |
+
+Unassigned, UK × Paid, this vertical: Jotform "reaches 4.17% across four market groupings" (US, UK, AU, rest of world) and Lovable 3.66% (markets unstated) in Adthena's ChatGPT Ads index, week of 2026-07-13 to 07-20 — form software and software, per the source; spend class, tier 5; Jotform headcount `unknown — checked jotform.com/about 2026-09-23` → `unassigned`, moves no cell (`b-ppcland-adthena-7378-advertisers`, relay; `f-adthena-S2-eu-paid-agentic`, page and images).
+
+Raw: `f-linkedin-S1-eu-paid-agentic` (3), `f-jobboards-S1-eu-paid-agentic` (3), `f-vendor-S2-eu-paid-agentic` (3), `f-adthena-S2-eu-paid-agentic` (5), `f-reddit-arcticshift-S5-eu-paid-agentic` (5), `f-ted-ukcf-S10-eu-paid-agentic` (2).
+
+**Caveats, this append.** Jotform's UK presence is one line in a trade relay of a vendor index, tier 5 at best; the index images are unread (IMG-1). "(S5 failed)" cells rest on S1, S2, S10 only. Sell-side postings (Accenture, Seedtag, Google) are recorded and move no cell. File over its 100-line budget; overrun includes this append.

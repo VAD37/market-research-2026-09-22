@@ -213,3 +213,24 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 | Definition on chart: "percentage of queries in which a brand appeared in ChatGPT's recommendations" | both charts | same | 5 | same |
 
 Caveat: vendor index of its own product; prompt set, run dates, model version unpublished (as the source raw file's tier reason states).
+
+## EU paid and agentic cells, P16-c3b, 2026-09-23
+
+Closes the paid and agentic EU cells P16-c3 left blank. Raw prefix `raw/`, suffix `-2026-09-23.md`. Channels: S1 LinkedIn guest API (38 pages, paid and agentic terms, 5 countries), Hellowork FR, Tecnoempleo ES; S2 OpenAI locale posts (es-ES, it-IT, nl-NL via Wayback), Shopify Agentic Storefronts uk/fr/es/it/nl, Adyen Agentic, Adform release, Adthena UK index; S5 Arctic Shift national subs; S10 TED (20 terms), UK Contracts Finder (12 terms).
+
+| Country | Sub-market | Size | S1 | S2 | S5 | S10 | Read |
+|---|---|---|---|---|---|---|---|
+| UK | Paid | all three | 0 beauty employers of 6 pages | Adthena 1,342 UK advertisers, vertical unstated | 0 threads, 4 queries | TED 0, UK CF 0 | none — checked |
+| UK | Agentic | all three | 0 beauty employers; ASOS is fashion retail | Shopify /uk names no UK merchant | query 422 ×2 | 0 | none — checked (S5 failed) |
+| FR | Paid | all three | Havea/Biocyte intern names ChatGPT as creative tool, nil | OpenAI es/it/nl posts name no advertiser | 0 threads, 2 queries | TED 0 | none — checked |
+| FR | Agentic | all three | 0 beauty employers; Sezane is fashion | Adyen names Sezane, vertical not stated | 0 threads | TED 0 | none — checked |
+| ES | Paid | all three | 0 of 8 pages; Tecnoempleo 0 | none | both queries 422 ×2 | TED 0 | none — checked (S5 failed) |
+| ES | Agentic | all three | Mango is fashion retail; Accenture sell-side | Shopify /es names no ES merchant | 0 threads | TED 0 | none — checked |
+| IT | Paid | all three | 0 of 8 pages | none | 0 threads | TED 0 | none — checked |
+| IT | Agentic | all three | 0 of 8 pages | Shopify /it names no IT merchant | 0 threads | TED 0 | none — checked |
+| NL | Paid | all three | 0 beauty employers of 9 pages | OpenAI nl-NL post names no advertiser | 0 threads, 2 queries | TED 0 | none — checked |
+| NL | Agentic | all three | Picnic is grocery; Zonneplan is energy | Shopify /nl quotes Steve Madden (US) | query 422 ×2 | TED 0 | none — checked (S5 failed) |
+
+Raw: `f-linkedin-S1-eu-paid-agentic` (3), `f-jobboards-S1-eu-paid-agentic` (3), `f-vendor-S2-eu-paid-agentic` (3), `f-adthena-S2-eu-paid-agentic` (5), `f-reddit-arcticshift-S5-eu-paid-agentic` (5), `f-ted-ukcf-S10-eu-paid-agentic` (2). No observation names a beauty brand in any of the five countries on either sub-market.
+
+**Caveats, this append.** Single pass 2026-09-23, fetch-only, WebSearch exhausted. LinkedIn pages are relevance-sorted first pages, not counts. Three cells marked "(S5 failed)" rest on S1, S2 and S10 only: the Arctic Shift query returned 422 twice. Adthena's UK advertiser leaderboard sits in three unread images (IMG-1 pending); a beauty advertiser there would move a UK paid cell. File over its 100-line budget; overrun includes this append.
