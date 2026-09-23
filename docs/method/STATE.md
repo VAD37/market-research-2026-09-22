@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Pass 9 — Findings. Gate open.** Resumed 2026-09-23. Findings landed (a43edc9); P9-review live. Then P9-amend, mark Pass 9 done, spawn P11. Pass 10 stays held; Pass 11 gate reads "9, and 10 or its recorded hold".
+**Pass 9 — Findings. Gate open. Paused 2026-09-23** — P9-review stopped by the user mid-read, no file written, re-queued at front. Findings landed (a43edc9). Resume: spawn P9-review from the queue. Then P9-amend, mark Pass 9 done, spawn P11. Pass 10 stays held; Pass 11 gate reads "9, and 10 or its recorded hold".
 
 ## Live agents
 
@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P9-review | Opus | Adversarial review of findings/ vs hypotheses.md: score all 23 H rows, recompute tier-3 share, trace ≥15 numbers to raw, survivorship check, done-condition audit incl. `blank` cells, execution-language sweep, paste-ready amendments per file | `docs/findings/review-1-2026-09-23.md` | 2026-09-23 (respawned after /clear; prior spawn left no file) |
+| none | — | P9-review stopped by user 2026-09-23 while reading the findings files; no file written | — | — |
 
 ## Queue
 
@@ -20,6 +20,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
+| P9-review (re-queued, front, 2nd time) | 9 | Opus | Adversarial review of findings/ against hypotheses.md: score all 23 H rows, recompute tier-3 share, trace ≥15 numbers to raw, survivorship check, done-condition audit incl. `blank` cells, execution-language sweep, paste-ready amendments per file; 160-line budget | `docs/findings/review-1-2026-09-23.md` |
 | P9-amend (after review) | 9 | Opus | Apply review amendments to the four findings files, line-level corrections allowed | `docs/findings/*.md` |
 | P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
 | P11 | 11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals | `docs/findings/transition-evidence.md` |
