@@ -78,3 +78,15 @@ peec.ai/customers returns 404: testimonials on the pricing and home pages are th
 - Conflicting figures stand side by side, unreconciled: ARR $4M vs $10M; headcount 20 vs 70+; customers 1,300 vs 3000+; funding $21M Series A vs "$29m in capital" cumulative; two price structures ten months apart.
 - Layer mismatch: "3000+ brands and agencies" is an undated vendor claim of unstated kind, not a disclosed paying-customer count; "$29m in capital" is a careers-page claim, not a filing.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Peec AI Starter/Pro/Advanced prices · `raw/a-peec-pricing-2026-09-22.md` (3 — no figure rendered) · `raw/a-peec-pricing-primary-2026-09-23.md` (3) · Starter "$95 /mo" (50 prompts), Pro "$245 /mo" (150), Advanced "$495 /mo" (350), Enterprise "Custom (Annual)"; "Additional Models" add-on $30 / $70 / $140 /mo (annual toggle); 15% annual discount (FAQ); "Trusted by 3000+ brands and agencies"; monthly AI answers 4500 / 13500 / 31500 · differs — `unknown — checked peec.ai/pricing 2026-09-22` resolves to USD list prices on the rendered page 2026-09-23; the 2025-11 "€75 / €169 / from €424" tiers (`market-potential.md:117`) are superseded, not contradicted
+
+## Ads module, P16-c2, 2026-09-23
+
+| Product | What it does | Disclosed price | Source | Raw |
+|---|---|---|---|---|
+| Ads page (2026-07-16) | Lists brands advertising on the account's tracked ChatGPT prompts; creatives; relative "spend tier"; ad coverage | none separate — "rolling out now ... once it's enabled for your organization" | vendor-reported, 3 | `raw/a-peec-ads-page-2026-09-23.md` |
+
+Caveat: monitoring only ("not for buying ChatGPT ads yourself"); scoped to prompts already tracked, "not a general ad library"; the "79 brands ... 50 prompts" line is illustrative copy.

@@ -78,3 +78,11 @@ No claim clears the bar — 1 claim screened, 0 cleared, as of 2026-09-22. The o
 - The exchange for ticker SMWB is stated as Nasdaq in the census and as NYSE in the company's own 2026-08-17 release. Both stand, side by side, unreconciled.
 - The "150 tracked prompts" in the $99 tier is a customer-configured capacity, not a published prompt set; no page discloses how often each tracked prompt is run against each engine.
 - Oldest pull depended on: 2026-09-22. Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Ads module, P16-c2, 2026-09-23
+
+| Product | What it does | Disclosed price | Source | Raw |
+|---|---|---|---|---|
+| AI Ads (Ad Intelligence data set, 2026-08-17) | Ad placements in ChatGPT, Google AI Mode and AI Overviews from "real user panel conversations" | not disclosed — no AI Ads line on similarweb.com/corp/pricing 2026-09-23 | vendor-reported, 5 (press release, no n) | `raw/b-similarweb-ai-ads-2026-09-22.md`; `raw/b-similarweb-chatgpt-ad-stats-2026-09-23.md` |
+
+Caveat: headline shares (26% of ChatGPT replies with ads; 5,171 advertisers since 2026-03-30) carry no panel size or method; `/corp/ai-ads/` and `/corp/ad-intelligence/` return 404, so the product has no reachable page of its own.

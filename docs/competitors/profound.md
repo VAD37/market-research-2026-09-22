@@ -78,3 +78,11 @@ Paid-by-outcome unknown on every case; prompt set disclosed: no on every case (`
 - Conflicting figures stand side by side, unreconciled: 1800+ customers vs 25,000+ marketers; Plaid's two differing result sets.
 - Layer mismatch: the Series D and valuation are group-level company statements, not filings; "a third of the Fortune 100" is a logo claim, not a disclosed contract count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Ads module, P16-c2, 2026-09-23
+
+| Product | What it does | Disclosed price | Source | Raw |
+|---|---|---|---|---|
+| OpenAI Ads integration; four "OpenAI Ads nodes" in Profound Agents (2026-05-06) | Reads ChatGPT Ads campaigns, ad groups, ads; impressions, clicks, spend, CTR, CPC, CPM beside organic visibility | none separate — "available today for all customers of Profound" | vendor-reported, 3 | `raw/a-profound-openai-ads-integration-2026-09-23.md` |
+
+Caveat: the blog's CTR figures ("around 1.3% versus Google Search's 29.2%") are attributed to unnamed "independent estimates"; not carried.
