@@ -12,10 +12,9 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| FP-A…FP-F | opus ×6 | P15 fact pack parts A–F from snapshot 8badc05 | `brief-bakeoff/fact-pack/part-{A..F}.md` | 2026-09-24 |
-| P15-CHECK | opus | judge mechanical-check script | `brief-bakeoff/check-runs.py` | 2026-09-24 |
+| — | — | none live; P15 R0–R9 landed 2026-09-24 | — | — |
 
-Slots free: 0 of 7. P15 R1–R9 spawn together once the fact pack merges (cap lifted for this wave, user 2026-09-24). P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
+Slots free: 7 of 7. P15 runs R0–R9 landed 2026-09-24; judge next. Earlier: P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
 
 ## Queue
 
@@ -24,8 +23,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | RP2-B-110 | repull | sonnet | Adobe Q3 report PDF pp. 13–53 (queue row 110) — needs `ext`; extension not connected 2026-09-23 | raw + `agentic-commerce.md` append |
-| P15 wave 1 resume | 15 | Opus ×8 | R0, R0b done 2026-09-24; R1–R6 queued (evidence = fact pack, one wave with R7–R9): finish each run from `runs/<id>/PROMPT.md`, the draft on disk, `prior-attempt-digest.md` (Fable) and `pause-digest-opus.md` (paused Opus finish); on disk at pause: R3 `trace.md`, R5 `_body.tmp`/`_appendix.tmp`, R2 `body.md`; no `notes.md` anywhere. Scratch files deleted before landing | `runs/R0…R6/brief.md`, `notes.md`, `trace.md` |
-| P15 wave 2 | 15 | Opus ×3 | R7 decision-memo, R8 assumption-audit, R9 mbb-extract — after wave 1 frees slots | `runs/R7…R9/` |
+| P15 wave 1 resume, wave 2 | 15 | Opus ×11 | done 2026-09-24: R0, R0b (snapshot reads), R1–R9 (fact pack) — see Landed | `runs/R0…R9/` |
 | P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
@@ -172,6 +170,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | GAP-ACEF A/C/E/F orphan compile (opus) | Appends: organic L238–256 (ReFiBuy AI1000; landed inside 371b400), agentic L160–176, proof-scorecard L309–336 (X8 ungraded), market-potential L294–323, demand-map L306–327 (EU boards: FR/ES read, UK/IT/NL walled), local L96–107; 47 orphans: 21 compiled, 18 covered, 8 not briefable. Organic L243 "US retailers" wrong, corrected by append L256 | 2026-09-24 | see commit |
 | Snapshot index + raw guide (main thread) | `method/gen-snapshot-index.py` → `snapshot-index.csv/.md`; `raw/CLAUDE.md`; pointer in `docs/CLAUDE.md` §raw; `run-prompt.md` Revision 2; `method/orphan-audit-2026-09-24.md`. Cite match accepts stem without date suffix after GAP-B/ACEF found 19+ such cites | 2026-09-24 | see commit |
 | P15 baseline R0, R0b (opus finish of Fable draft + paused Opus) | `brief-bakeoff/runs/R0-baseline/`, `runs/R0b-baseline-repeat/`: brief, notes, trace. R0: body 1,194 words, 119 trace rows, 4 unknown. R0b: body 1,179 words, 128 rows, 8 unknown. Contract C1–C9: all pass except C3 partial (draft model logged as `<synthetic>` per digest, not `claude-fable-5-1`) both runs; C8 R0 "IAC" (company name) undefined. R0b sent back once on C2 (1,330 words); user then allowed ≤20% over; stopped mid-trim, trace re-synced. Evidence from `.bakeoff-snapshot/8badc05/` (untracked) | 10/10 trace rows each verified in snapshot | see commit |
+| P15 runs R1–R9 (opus; R1–R6 resumed from Fable draft + paused Opus, R7–R9 fresh) | `brief-bakeoff/runs/R1…R9/`: brief, notes, trace; scratch (R2 `body.md`, R5 `_body.tmp`/`_appendix.tmp`) deleted. Body words 1,185–1,198; trace rows R1 278, R2 252, R3 236, R4 130, R5 148, R6 240, R7 164, R8 198, R9 198; unknown counts 1–4. `check-runs.py` over all 11 runs: 0 forbidden cites, 0 verdict-push hits, 0–1 process leaks, every unverified trace row a source date / tier / path line / total not printed on the cited line; C5 send-backs once each: R1 (5 rows without path, from escaped pipes in pack), R4 (2 rows with raw pipes) — both fixed. Fact pack parts A–F kept untracked in `fact-pack/` (merged file is tracked). Script fixes: appendix heading rule, bullet/bold glossary parse | all trace rows machine-checked against snapshot | see commit |
 
 ## Landed — pending verify
 

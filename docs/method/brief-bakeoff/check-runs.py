@@ -24,7 +24,7 @@ Usage
                      five-line return, compared with what this script counts.
 
 Brief split
-    Body = lines before the first heading matching '^## 9' or '^## Appendix'
+    Body = lines before the first level-2 heading titled Appendix or Glossary (optionally numbered, e.g. '## 9. Appendix')
     (case-insensitive). A '---' line directly above that heading (blank lines
     between allowed) is the separator and belongs to neither part.
     Appendix = everything from that heading on. No such heading: whole file is
@@ -135,7 +135,7 @@ import sys
 DEFAULT_SNAPSHOT = r"D:\researchs\market-research-2026-09-22\.bakeoff-snapshot\8badc05"
 
 NUM_RE = re.compile(r"(?<![\d.,])(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?")
-APPX_RE = re.compile(r"^##\s+(9\b|appendix\b)", re.I)
+APPX_RE = re.compile(r"^##\s+(?:\d+\.?\s*)?(?:appendix|glossary)\b", re.I)
 HEADING_RE = re.compile(r"^#{1,6}\s")
 KINDS = r"(?:vendor-reported|analyst-derived|filed|company-stated|measured-by-us)"
 MONTHS = (r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
@@ -487,10 +487,16 @@ def glossary_terms(lines, appx_start):
         else:
             if not st:
                 in_gloss_table = False
+            # a bold-only line such as '**Glossary**' opens a glossary like a heading
+            if re.match(r"^\*\*[^*]+\*\*:?$", st):
+                in_gloss = bool(GLOSS_HEAD_RE.search(st))
+                continue
             if in_gloss:
                 bm = re.match(r"^\s*[-*]\s+(\*\*[^*]+\*\*|[^—–:]+?)\s*[—–:]", l)
                 if bm:
-                    cell = bm.group(1)
+                    # every bold term on the bullet line counts ('**A**: x. **B**: y.')
+                    bolds = re.findall(r"\*\*([^*]+)\*\*", l)
+                    cell = ";".join(bolds) if bolds else bm.group(1)
         if cell:
             for part in re.split(r"[;/,]", cell.replace("*", "")):
                 for a in ACRO_RE.findall(part):
