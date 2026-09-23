@@ -144,3 +144,52 @@ Full register, both marks beside the 2026-09-22 originals: `findings/unknowns.md
 - No band in this append rests on a guess: every Mid-market or Enterprise assignment traces to a headcount figure in `raw/f-signal-hr-band-attribution-2026-09-23.md`, and one candidate promotion (John Lewis Financial Services via its parent's headcount) was deliberately not applied, recorded instead as a named possibility.
 - Willingness to pay is unchanged: `unknown` in all 27 cells; this pass found no price paid in any new pull.
 - File now 145 lines against the 100-line `finding.md` budget; overrun is this append.
+
+### R-BLOCKED-2, 2026-09-23
+
+Re-probe of TED, Indeed and Reddit. Compiled source: `customers/high-cpa-regulated.md` §R-BLOCKED-2; `findings/ai-ads-evidence.md` §R-BLOCKED-2. Raw: `raw/f-ted-S10-repull2-`, `f-indeed-S1-repull2-`, `f-reddit-S5-counts-repull2-`, `b-reddit-advertiser-reports-repull2-2026-09-23.md`.
+
+**Cells whose read changes:**
+
+| # | Cell | Before (strict / loose) | Now (strict / loose) | Deciding change |
+|---|---|---|---|---|
+| E14 | High-CPA, Organic, SMB | blank / none | none — checked / none | TED reached; no SMB buyer in vertical |
+| E15 | High-CPA, Paid, all three (×3) | blank / none | none — checked / none | TED 0 on paid terms |
+| E16 | High-CPA, Agentic, all three (×3) | blank / none | none — checked / none | TED 0 in vertical; John Lewis FS still unassigned |
+| E11 | High-CPA, Organic, Enterprise | spend / spend | spend / spend, reinforced | S10 KKH, 11,000,000.00 EUR framework, tier 2 |
+
+**Tallies, 27 cells:**
+
+| Reading | spend | attention | none | blank |
+|---|---|---|---|---|
+| Strict | 8 | 1 | 17 | 1 |
+| Loose | 8 | 1 | 18 | 0 |
+
+Segment-matrix done row: loose met, 27 of 27; strict 26 of 27. Strict blank left: E2, skincare Organic/Mid-market — S6, S12 unrun there; not in this task's channels.
+
+**Hypotheses.** H9 strict: unresolved — checked → **confirmed**; both readings now confirmed. H7 strict: unresolved — checked, unchanged, resting on E2 alone. H4: killed, unchanged — no SMB spend signal found.
+
+**Signals found, no cell moved (size unstated):**
+
+| Signal | Observation | Vertical, sub-market | Tier |
+|---|---|---|---|
+| S11 buyer-stated spend | DTC supplement brand, Spain: "€37.61", "0 conversions" | High-CPA, Paid | 5 |
+| S11 buyer-stated spend | marketing SaaS, ZapDigits, SaaS free tier, developer software | B2B SaaS, Paid | 5 |
+| S10 filed | JLU Gießen, visitBerlin, BIÖG, An Post, NRW.BANK, KfW | public sector / lending, outside verticals | 2 |
+| S1 postings | 35 Indeed cards, none banded | mixed, unassigned | 3 |
+| S5 threads | 9 subreddits, Mar–Sep 2026, no vertical term | vertical-level only | 5 |
+
+The B2B SaaS Paid rows sit beside that vertical's `none — checked` Paid reads (E10), attributed, not merged: sub-market and vertical are source-stated, buyer size is not.
+
+**S5 counts, nine subreddits summed (r/SaaS timed out), threads per month Mar → Sep-to-23:**
+
+| Query sent | Mar | Apr | May | Jun | Jul | Aug | Sep | Total |
+|---|---|---|---|---|---|---|---|---|
+| `"generative engine optimization"` | 12 | 9 | 22 | 15 | 9 | 8 | 3 | 78 |
+| `GEO` | 155 | 177 | 151 | 141 | 102 | 72 | 66 | 864 |
+| `"AI visibility"` | 58 | 61 | 53 | 44 | 45 | 36 | 23 | 320 |
+| `AEO` | 57 | 76 | 75 | 63 | 55 | 39 | 34 | 399 |
+
+r/SEO carries most: `GEO` 525 threads, 418 unique authors; `AEO` 259 / 210; `"AI visibility"` 168 / 140. Unique posters are per window only. `GEO` includes geo-targeting noise. Attention class; moves no cell.
+
+**Caveats, this append.** Strict `none` reads on seven high-CPA cells rest on TED (EU public buyers only) plus earlier channels; private demand stays invisible there. Reddit counts are an archive's, held at tier 5, coverage unverified; September is partial. Indeed gave card fields for 2 of 36 queries before its wall; no S1 band assigned. Willingness to pay: `unknown` in all 27 cells — spends above are ad spend or a framework ceiling, not a price paid for a visibility product.

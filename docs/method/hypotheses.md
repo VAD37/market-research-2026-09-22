@@ -154,3 +154,12 @@ Coverage: lane B — H17, H18, H19; D — H23, H24, H25; E — H20, H21, H22. H2
 - H21 depends on engines publishing user counts at all; a count published only by a panel is tier 4 and does not meet it.
 - H25 confirmed or killed says nothing on whether any party can win a market; that verdict is the user's (`MegaPlan.md` line 17).
 - These rows carry claims to test. No market facts; the paid-placement line references above only fix wording.
+
+### Log — R-BLOCKED-2, 2026-09-23
+
+| Date | ID | Note |
+|---|---|---|
+| 2026-09-23 | H20 | Killed mark stands. Reddit via Arctic Shift: 10 advertiser reports with metric and window, 0 with a registered design; nearest is RB1b, concurrent same-page Google comparison, tier 5 — `findings/ai-ads-evidence.md` §R-BLOCKED-2, `raw/b-reddit-advertiser-reports-repull2-2026-09-23.md` |
+| 2026-09-23 | H17, H18, H19 | Not moved; Reddit carries no engine disclosure, rate card or reseller page |
+| 2026-09-23 | H9 | Strict reading: unresolved — checked → **confirmed**. TED reached; high-CPA Agentic SMB and Enterprise read none under both readings; agentic spend only at skincare Enterprise — `findings/demand-map.md` §R-BLOCKED-2, `raw/f-ted-S10-repull2-2026-09-23.md` |
+| 2026-09-23 | H7 | Strict reading unchanged, unresolved — checked; one strict blank left, skincare Organic/Mid |

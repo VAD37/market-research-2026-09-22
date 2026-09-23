@@ -128,3 +128,35 @@ Task P8-r. Runs S2, S3, S9, S10 across all nine cells (previously unchecked or p
 **Caveats, this append:** The Mid-market band for Embrace Pet Insurance, Insurify and Simply Business rests on third-party workforce aggregators (Revelio Labs, LeadIQ, Tracxn, GetLatka) whose headcount method is not published on the page — tier 5, hidden method, per `trust-rubric.md`. Sources disagree by tens of employees per company; ranges are recorded, not averaged. John Lewis Financial Services is deliberately left `unassigned` rather than banded to its parent's ~74,000 headcount: a division is not the company, and the boundary rule's proxy order (filing, careers page, network profile) named none for the division itself — accepting the parent would flip Agentic/Enterprise from `none` to `attention`, and is recorded here as a live possibility, not applied. The strict-reading blank on six cells rests entirely on one channel, TED's human-verification wall; UK Contracts Finder's non-functional keyword filter is the second-weakest link (667 unfiltered notices, not inspected for relevance).
 
 File now 128 lines against the 100-line `customer-segment.md` budget; overrun is this append, kept whole rather than cut to fit.
+
+### R-BLOCKED-2, 2026-09-23
+
+Re-probe of the channels behind this file's strict-reading blanks. Raw: `raw/f-ted-S10-repull2-2026-09-23.md` (TED, tier 2); `raw/f-indeed-S1-repull2-2026-09-23.md` (Indeed, tier 3, logged-in US); `raw/b-reddit-advertiser-reports-repull2-2026-09-23.md` and `raw/f-reddit-S5-counts-repull2-2026-09-23.md` (Reddit archive, tier 5).
+
+**S10, TED — reached.** Brief terms: "generative engine optimization" 14 notices, 5 procedures; a sixth, An Post, under "optimisation"; "AI visibility", "answer engine optimization", "AI search optimisation", "large language model visibility" 0 each. Paid/agentic terms: "ChatGPT Ads", "sponsored answers", "agentic checkout" 0; "agentic commerce" 1 (tourism website). One buyer in this vertical:
+
+| Buyer | Band, source | Notice | Scope naming GEO | Value | Cell |
+|---|---|---|---|---|---|
+| KKH Kaufmännische Krankenkasse (statutory health insurer) | Enterprise — "rund 4.000 Menschen beschäftigt", kkh.de | 66176-2026 call; 522860-2026, 533563-2026 results | GEO one of ~18 marketing-agency themes | framework max 11,000,000.00 EUR; winner, award value not published | Organic / Enterprise |
+
+NRW.BANK (development bank) and KfW Bankengruppe also named GEO or Perplexity; lending sits outside this vertical's definition — recorded, unassigned.
+
+**S1, Indeed — partial, then walled.** 2 of 36 queries completed before "Too Many Requests" and "Additional Verification Required"; no vertical-term query ran. Names from this vertical among 35 cards: The Cigna Group (already Enterprise); Safe Life US LLC, GESA Credit Union, CAL Financial — posting bodies unread, band and sub-vertical `unassigned`, no cell moves.
+
+**S11 / S5, Reddit.** A "premium DTC supplement brand" in Spain reports ChatGPT Ads spend "€37.61", "0 conversions" (RB2, `findings/ai-ads-evidence.md`). Supplements, paid placement, buyer size unstated → `unassigned`, moves no cell; recorded beside the Paid `none` reads, not merged. S5 counts are subreddit-level, no vertical attribution.
+
+**Cell reads, both readings:**
+
+| Cell | Before (strict / loose) | Now (strict / loose) | Deciding change |
+|---|---|---|---|
+| Organic / SMB | blank / none | **none — checked** / none | TED reached, no SMB buyer in vertical |
+| Organic / Mid-market | spend / spend | spend / spend | unchanged |
+| Organic / Enterprise | spend / spend | spend / spend, reinforced | S10 KKH, tier 2 filed |
+| Paid / SMB, Mid, Enterprise | blank / none (×3) | **none — checked** / none (×3) | TED 0 on paid terms; RB2 unassigned beside |
+| Agentic / SMB, Mid, Enterprise | blank / none (×3) | **none — checked** / none (×3) | TED 0 on agentic terms in vertical |
+
+**Tally, 9 cells.** Strict: spend 2, attention 0, none 7, blank 0. Loose: unchanged, spend 2, none 7.
+
+**Still blank or thin, with reason.** No cell blank. Indeed vertical queries: unrun, wall. UK Contracts Finder keyword filter: untrusted zero, unchanged. John Lewis Financial Services: `unassigned`, unchanged.
+
+**Caveats.** KKH is a public-law statutory insurer; counting it as "insurance" follows the vertical definition's wording, not a separate check. The 11,000,000.00 EUR is the whole agency framework ceiling, not GEO spend. TED covers EU public buyers only; the strict `none` reads rest on TED plus the earlier channels, and publication bias still runs one way. Indeed names are card fields only.

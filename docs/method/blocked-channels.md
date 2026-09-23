@@ -68,3 +68,17 @@ Tally, 31 rows: reached 21; still blocked 5 (reddit.com, indeed.com, emarketer.c
 - G2 counts are G2's own review counts; the verification method is G2's.
 - Playwright was used only for reddit.com and the eMarketer DNS check, in its own tab; P12-ads held `pw` in parallel.
 - No verdict is drawn here; the raw files carry the evidence.
+
+## Re-probe 2, 2026-09-23
+
+Task R-BLOCKED-2. Same column set and result codes as the probe log above; the fifth column holds the 2026-09-23 re-probe-2 result. No login, account, credential, form or verification step was touched.
+
+| channel | URL probed | needed for (task / signal / hypothesis) | block on 2026-09-22 | browser result 2026-09-23 | credential that would unblock | raw file if pulled |
+|---|---|---|---|---|---|---|
+| reddit.com | `arctic-shift.photon-reddit.com/api/posts/search`, `/comments/search`, `/posts/search/aggregate` (curl) | Lane B advertiser reports; S5; H20 | 403 ×5 methods | reached via archive — 852 records; live reddit.com not tried (extension refuses by policy); frequent "Timeout. Maybe slow down a bit" and HTTP 422 on long windows; r/SaaS aggregates all timed out; Wayback capture of one permalink is a Reddit verification page | none for the archive path; live domain: none known | `b-reddit-advertiser-reports-repull2-2026-09-23.md`, `f-reddit-S5-counts-repull2-2026-09-23.md` |
+| indeed.com | `jobs?q="generative engine optimization"&l=United States`, in-page `jobs?q=…&start=…` | S1 all verticals; high-CPA Organic/SMB | 403 | reached, then still blocked — 2 of 36 queries read (logged-in, US); "Too Many Requests" (Ray ID a3f72b5f3da1daa5), then "Additional Verification Required" on the first vertical query; stopped | none known; a slower human session | `f-indeed-S1-repull2-2026-09-23.md` |
+| ted.europa.eu | `en/search/result?FT=…` (browser); `api.ted.europa.eu/v3/notices/search` (POST); `en/notice/<id>/xml` (browser fetch; curl) | S10 all cells; high-CPA strict blanks; H9 | 405 | reached — UI and API, 12 queries; notice XML read in-browser; curl to notice XML gets AWS WAF "Human Verification" (2148 bytes, 8 of 8) | none; API is anonymous | `f-ted-S10-repull2-2026-09-23.md` |
+
+Tally, 31 rows plus re-probe 2: ted.europa.eu moves still blocked → reached; reddit.com reached through the archive path only, live domain still blocked; indeed.com partial read, then still blocked. Current still blocked: indeed.com, emarketer.com, perplexity.ai/hub, and live reddit.com.
+
+Handed back: 34 Indeed queries not run or lost from page memory (vertical terms × four category terms, and `"AI search" marketing`), plus posting bodies and employer bands for the 35 cards read.

@@ -98,3 +98,34 @@ Not reconciled: E1 vs E6, E7 (scopes: global, US month, 3-market week, prompt sa
 - H18 confirms on a "starting from" floor, not a schedule; H19 on a 2023 page with no 2026 status. Both sit outside P1 engines.
 - The run rate (E1) is one month × 12, not booked revenue; EMARKETER forecasts under $1B for all chatbot ads in 2026 (`raw/b-emarketer-chatgpt-inventory-2026-09-23.md`). No metric crossing is relied on. Oldest pull cited 2026-09-22.
 - Absences (Gemini app, Meta AI, Duck.ai, Leo) hold only for the channels named; Snap and Copilot-format sources predate one quarter, flagged stale. Tier 6 noise filed, not used: `raw/b-seroundtable-similarweb-ctr-`, `b-novadata-rufus-ads-free-`, `b-trendsvc-ai-ad-networks-`, `b-q1media-chatgpt-ads-results-2026-09-23.md`. This file carries evidence, not a verdict.
+
+### R-BLOCKED-2, 2026-09-23
+
+Advertiser-reported results from Reddit, pulled through the Arctic Shift archive (curl, no browser). All rows: engine ChatGPT (OpenAI Ads), label company-stated (self-report), tier 5 held — archive copy, coverage unverified, no permalink verified elsewhere. Raw: `raw/b-reddit-advertiser-reports-repull2-2026-09-23.md`. No Perplexity or Google AI Mode / AI Overviews advertiser metric found; AI Mode posts relay third-party figures only.
+
+| # | Advertiser, as posted | Window | Figures verbatim | Class | Design |
+|---|---|---|---|---|---|
+| RB1 | US visa/passport expediting service, AOV ~$650 | Aug 28 – Sep 4 | $707 spend; CTR 0.75%; CPC $3.37; Orders: 0 | metric-moved | observational |
+| RB1b | same, vs own Google campaign, identical page | six days | click→session 9.1% vs 29.8%; ~$555 vs ~$92 | metric-moved | observational, concurrent channel comparison |
+| RB2 | premium DTC supplement brand, Spain | 4 September | 5,590 impressions; 160 clicks; €37.61; 0 conversions | metric-moved | observational |
+| RB3 | marketing software (Launch10), three ad groups | 3 days; then 2 weeks | 228 impressions; then CTR 1.31%/2.16%/0.43%, conversions 4/6/0 | metric-moved | observational; own Google Search "8-10%+ CTR" |
+| RB4 | unnamed, $25/day | about a week | CTR "around 0.5%" to "around 5%" after image swap | metric-moved | pre/post, no control |
+| RB5 | SaaS with free tier, worldwide | 4 days | "73 signups, 0 of them became paying customers" | metric-moved | observational |
+| RB6 | unnamed, broad topic | month to 2026-07-27 | "CPM of $47"; "likely shutting it down" | metric-moved | observational |
+| RB7 | PPC audit offer, US targeting | couple of days | CPC "less than $6"; one conversion | metric-moved | observational |
+| RB8 | SaaS signups | Sept 11 | Ads Manager 4 conversions vs API 18 | metric-moved | measurement discrepancy |
+| RB9 | home services, Sydney | about 4 days | CTR "Around 0.8%" | metric-moved | observational |
+| RB10 | unnamed | a few days | CTR "around 0.8%" | metric-moved | observational |
+| RB11 | ZapDigits, agency-reporting software | unstated | ~$4,800; CTR ~2.9%; 87 paid; CAC ~$55 | metric, window unstated | observational |
+| RB12 | six further advertisers | unstated | CPC $7-8; CTR 0.65%; 70.2% recorded; 50 vs 5-10 clicks; 2x budget | metric, window unstated | observational |
+| RB13 | AU in-house, agency trial offer | 2026-05-19 | "$5k USD minimum outlay"; "$50 USD CPM" | price terms, question | n/a |
+| RB14 | eight posters | 2026-06 to 2026-09 | 3 positive, 5 negative; one "~34,000 usd" spend, no outcome | claim-without-metric | action named, outcome unknown |
+| RB15 | Nile employee, public Penn/Haverford dataset | Mar 8 – Apr 12 2026 | 3,602 placements; 91 pairs; "-0.3 percentage points" | third-party measurement | paired, ad vs no ad |
+
+**Quality of evidence.** Metric moved, experimental: 0. Metric moved, observational: 10 advertiser reports (RB1–RB10). Metric stated, window unstated: 7 advertisers (RB11, RB12 ×6; RB13 is price terms, not a result). Action named, outcome unknown: 8 (RB14). Screened: 852 archive records, 499 naming an engine and an ad term, 38 read in full.
+
+**Survivorship.** Most reports with a sales outcome are negative or zero (RB1, RB2, RB5; RB14 five of eight); RB11 is the one positive paid-conversion figure and names its own product. Posters self-select; nothing is audited.
+
+**Hypotheses.** H20: no holdout, geo-split, switchback or pre/post-with-control case; RB1b is the nearest — concurrent same-page channel comparison, all seven bar items present on its own page, not a registered design. Mark stands **killed**, near-miss recorded. H17, H18, H19: not moved — Reddit carries no engine disclosure; price relays (RB13; "$1 million upfront", "$250K minimum" in comments) are hearsay, not rate cards.
+
+**Caveats.** Archive copy; posts could be deleted or edited live. Several posters promote products or communities (RB3 Launch10, RB11 ZapDigits, RB15 Nile). Figures are platform-reported unless stated; RB2's figures were confirmed by OpenAI support per the poster's quote. Buyer size is unstated for every row; no row moves a segment cell. Channels not reached: comments outside r/PPC and r/marketing; nine title searches timed out (raw lists them).
