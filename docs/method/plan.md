@@ -566,3 +566,23 @@ Per `plan-review-2-2026-09-23.md` §6, lines 75–85, and `STATE.md` §Decisions
 - The evidence bar may disqualify most of what the category publishes. That outcome is the answer to D6, not a failure of the pass.
 - Internet-only demand reads are proxies. `customers/` states this in its caveats every time. Willingness to pay is never inferred; it is either a disclosed price paid or `unknown`.
 - Vendor and practitioner names discussed in chat on 2026-09-22 came from model memory and are **not** recorded here. They enter research only as Pass 1 query seeds, and survive only if re-pulled into `raw/`.
+
+### Pass sequence — addition 2, 2026-09-23
+
+Per user instruction 2026-09-23: the brief bake-off is "a real evaluation report … part of this project … final step of this project research", not tooling. No row above is edited; this row extends the additions table. Full plan: `brief-bakeoff/README.md`.
+
+| # | Pass | Question | Deliverable | Gate — needs |
+|---|---|---|---|---|
+| 15 | Brief-method evaluation | Which brief-writing method turns the evidence into a cold-readable director brief with zero invented numbers | `findings/brief-method-eval-<date>.md`; `method/brief-bakeoff/runs/`, `judge/`, `scoresheet.csv` | 9-r landed; every other pass row landed or recorded skipped |
+
+**Pass 15 — brief-method evaluation.** Lane E, reporting layer.
+
+- Question: one input (the failed `findings/director-brief-2026-09-23.md`), one shared instruction, one agent per method — seven external brief-writing methods, pulled 2026-09-23 with commit and license recorded in `brief-bakeoff/README.md`, plus the user's own template as control and one control repeat for variance. Which produced the brief a cold director reads in 10 minutes, and which invented a number.
+- Inputs: `brief-bakeoff/README.md`, `shared-instruction.md`, `baseline-template.md`; the failed brief; `findings/`, `markets/`, `competitors/INDEX.md`, `customers/`, `raw/` read-only; `trust-rubric.md`.
+- Runs: R0 control, R1–R9 one method each, R0b control repeat, R10 = BRIEF-4 output if landed. Each run writes `brief.md`, `notes.md`, `trace.md` into `brief-bakeoff/runs/<id>/` and nowhere else.
+- Scoring: blind judge agent, then the user, same 14 columns in `brief-bakeoff/scoresheet.csv`; disagreement ≥2 is the read.
+- Deliverable: `findings/brief-method-eval-<date>.md`, 100 lines, per `templates/finding.md`; evidence is the scoresheet and trace files, raw is `runs/`.
+- Gate to open: 9-r landed and every other pass row landed or recorded skipped — it is the last pass. BRIEF-4 may land before or after; if before, its brief is judged as R10.
+- Gate to close: every run has three files and a judge row; user rows filled; finding landed.
+- Does not: pick a method for the user; create a skill under `.claude/`; copy unlicensed method text (StrategyU, aapersh) into `docs/`; use the web inside a run; run any method's own commands.
+- Orchestration: cap in force per `STATE.md`; one model for all runs; agents never run git; main thread adds queue row `P15-brief-eval` and commits after each wave.
