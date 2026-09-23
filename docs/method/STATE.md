@@ -13,10 +13,9 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
 | RP2-A | sonnet | repull batch A (fetch only): rows 137, 144, 142, 141, 109, 47, 49, 48, 39, 31, 159; images read inline | raw `*-repull2-2026-09-23.md`, `raw/img/`, compiled cite appends | 2026-09-23 |
-| RP2-B | sonnet | repull batch B (`ext` holder): row 110 Adobe Q3 PDF; rows 74, 77, 37 if cheap | raw, `raw/img/`, compiled cite appends | 2026-09-23 |
 | GAP-IND | sonnet | 29 Indeed card bodies via employer career sites | `docs/raw/f-*-2026-09-23.md`, customer file appends | 2026-09-23 |
 
-Slots free: 4 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 5 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
@@ -155,6 +154,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | CLEANUP-1 orchestration cleanup | `projects/ORCHESTRATION.md` §In force (cap 7, Opus/Sonnet only, single authority); older cap/model sections marked superseded; `plan.md` cap revision 4; `MegaPlan.md` pointer; `run-prompt.md` revision 2; STATE header, live table, worktree row, Unknowns statuses. Agent ran one read-only `git diff --stat` (disclosed) | 2026-09-23 | see commit |
 | REPULL-AUDIT-2 | `docs/method/repull-audit-2-2026-09-23.md` (~75); `repull-queue-2026-09-23.csv` + `status` column, 169 rows: done 61, unknown-checked 21, credential 13, open 74 (52 uncited, dropped; 22 cited, 7 low value). Batches RP2-A fetch, RP2-B `ext`, RP2-C image reads (folded into A/B by main thread). Skipped: GML mp4s, OpenAI/Business Wire images 403, paywall retries. REPULL-1 vs 1b split by file mtime | 2026-09-23 | see commit |
 | GAP-SK skincare Organic/Mid (E2) | 5 raw `f-signal-sk-*` / `f-edgar-sk-*-2026-09-23.md`; E2 blank → spend: Beauty Health (Hydrafacial) Workday JR101647 "SEO, AEO, and GEO strategies", $121,000–143,000 (S1 tier 3); mid band by 10-K headcount 613 (Olaplex 278, S1 negative 8/8); S12 llms.txt olaplex.com + hydrafacial.com (attention, tier 1); S6 Passionfruit mid band $12k–$30k/mo, unattributed. Appends `skincare-beauty.md`, `demand-map.md`: 27-cell matrix strict = loose 9/1/17/0 blank. Caveat: one posting, one employer | 2026-09-23 | see commit |
+| RP2-B repull batch B | `ext` not connected (3 attempts 2026-09-23), no tab opened; row 110 Adobe Q3 PDF pp. 13–53 not attempted, CSV `open` (curl timeout, no Wayback); rows 74, 77, 37 by curl → `unknown-checked`: GEICO 403, GNC px-captcha, Estée Lauder 403, Ulta Akamai waiting room, Adthena Data Pulse LinkedIn-only. 3 raw `*-repull2-2026-09-23.md`; no compiled figure moved | 2026-09-23 | see commit |
 
 ## Landed — pending verify
 
