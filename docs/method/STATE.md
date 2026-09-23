@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 landed: `plan-review-2-2026-09-23.md` §8 appends a–g not yet applied to plan.md (awaits user); `findings/executive-brief-2026-09-23.md` is the reader-first entry point. Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
+**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 landed: `plan-review-2-2026-09-23.md` §8 appends a–g not yet applied to plan.md (awaits user); `findings/executive-brief-2026-09-23.md` is the reader-first entry point (10 min); `findings/director-brief-2026-09-23.md` and its `.pptx` are the 10–20 min long form. BRIEF-3 landed. Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
 
 ## Live agents
 
@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| BRIEF-3 | Opus | Director reading brief, 10–20 min, metrics-first, plus pptx via generator | `docs/findings/director-brief-2026-09-23.md`; `docs/method/gen-director-deck.py` → `docs/findings/director-brief-2026-09-23.pptx` | 2026-09-23 |
+| none | — | all passes but Pass 10 landed; Pass 10 held by user | — | — |
 
 ## Queue
 
@@ -119,6 +119,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | REVIEW-2 | `docs/method/plan-review-2-2026-09-23.md` (119): 4 of 6 done rows can still move while Pass 10 held; tier-3 shortfall decomposed (8 case-corpus, 1 forecast, 3 third-party, 3 meta); grading rule 1 append; Pass 10 one date closes HE2, HP1, HP3, HP2/HP4 need two; 7 appends §8 a–g. `docs/findings/executive-brief-2026-09-23.md` (69): 22 metric rows, all sourced, no verdict, 4 owner questions | 2026-09-23 | 54ae617 |
 | REVIEW-2b | `docs/findings/executive-brief-2026-09-23.md` (70): Pass 11 row added (99 of 108 name a change; H10, H11 confirmed with prior marks beside), last caveat replaced | 2026-09-23 | 950c8e7 |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
+| BRIEF-3 | `docs/findings/director-brief-2026-09-23.md` (293 lines, budget 300) — 10–20 min director reading brief, 14 sections, 140 sourced rows, all 23 H, both-readings pairs kept; `docs/method/gen-director-deck.py` → `docs/findings/director-brief-2026-09-23.pptx` (18 slides, generated, never hand-edited; run with Python 3.14 where python-pptx is installed). 0 pulls | 2026-09-23 | fee9d0d |
 
 ## Landed — pending verify
 
@@ -197,7 +198,3 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Success stories | One Silver per vertical, or documented absence with screened count | met — raw grades: B2B SaaS and high-CPA on the Silver arm, skincare on absence (~133 screened); grading rule 1 literal: all three on the absence arm (~133 / ~100 / 34 screened) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 17 of 23 scored (Pass 11 adds H10, H11 confirmed; review-1 4 / 3 / 8 and Pass 9 6 / 6 / 4 both stand); 6 `not produced` (HE2, HE3, HP1–HP4 held with Pass 10) |
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
-
-**REVIEW-2 landed 2026-09-23.** `docs/method/plan-review-2-2026-09-23.md` (119 lines, budget 120); `docs/findings/executive-brief-2026-09-23.md` (69 lines, budget 70). 0 pulls. Appends proposed: 7, all to `plan.md` (review-2 §8 a–g: done-row arithmetic, tier-3 reporting splits with bar unchanged, grading rule 1 reading fixed with both grades kept, Pass 10 closure map, `none` rule / n/a-by-construction, 8 failure-mode rows, reporting layer). Brief numbers: 22 table rows + 3 inline (6 of 7 spend on S1; 68.0% / 44.4%; day-0 run counts), each with a compiled or raw path. Sourcing notes: assistant-share figures cited from `plan.md` reweight 1 (method file carrying raw paths; no compiled file holds them); Profound round cited via `competitors/profound.md` + raw (tier 3 per raw); OpenAI $1B run-rate row added beyond the brief's list (from `markets/paid-placement.md`). Nothing left out for lack of a source. Execution-word grep: only hits are the path `organic-recommendation.md` and the programme question's "recommendation". `findings/transition-evidence.md` not read. Blockers: none.
-
-**REVIEW-2b landed 2026-09-23.** `docs/findings/executive-brief-2026-09-23.md` now 70 lines (budget 70): 1 row added (transition changes, from `findings/transition-evidence.md` Answer/Tallies/H10/H11, earlier marks beside); last caveat replaced (named changes only, not measured outcomes). No merge needed; no new numbers.
