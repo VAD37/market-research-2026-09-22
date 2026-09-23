@@ -44,3 +44,31 @@ Write the document the director should have received. Save as `{OUT_DIR}\brief.m
 ## Return
 
 Five lines: run id · body word count · rows in trace.md · count of "unknown" entries in brief.md · count of overrides in notes.md.
+
+## Addition 1, 2026-09-23 — applies to every run; set before any run was spawned
+
+Per `../biz-review-2-bakeoff-2026-09-23.md` §3. Identical for all runs; the orchestrator fills `{SNAPSHOT_HASH}` and the pack's line ranges at spawn from the pinned commit.
+
+Read next, in order, and treat as the same input as the failed brief. Input snapshot is commit `{SNAPSHOT_HASH}`; cite nothing newer:
+
+1. `docs/method/scope.md` §what the market is; `docs/method/glossary.md` — what: market, three sub-markets, three metrics never crossed
+2. `docs/method/trust-rubric.md`; `docs/method/plan.md` §"Evidence bar — evidence-quality reporting" — tier, grade, demand-read and evidence-class scales
+3. `docs/findings/trigger-timeline.md` — why now: dated events
+4. `docs/findings/market-potential.md` — size three ways; floors; forecast spreads; sub-markets side by side; pricing
+5. `docs/findings/ai-ads-evidence.md`; `docs/markets/paid-placement.md` — paid supply: who sells, prices published, baselines
+6. `docs/competitors/INDEX.md`; `docs/markets/organic-recommendation.md` — who is there; disclosure ratios; funding table; publisher side
+7. `docs/markets/agentic-commerce.md` — agentic supply, fees, gates
+8. `docs/findings/demand-map.md`; `docs/customers/*.md` cell tables — who buys: latest 27-cell tallies, both readings; local vertical
+9. `docs/findings/proof-scorecard.md` §three-count and §negative tail — evidence ladder; negative tail beside positives
+10. `docs/findings/transition-evidence.md` — what movers changed; three-count of 108
+11. `docs/findings/whitespace.md` §risk register — gaps; ranked risks with platform capture
+12. `docs/findings/unknowns.md` §tier-3 recount, §hypothesis register, §figures carried twice; `docs/method/blocked-channels.md` — unknowns, tier-3 share six ways, 32 hypothesis marks, credential-gated channels
+
+Constraints 11–16 (win over the operating instruction, same as 1–10):
+
+11. The answer slot every method demands (governing thought, recommendation, resolution, verdict) carries the evidential answer to the reader's question — what the evidence supports and where it stops — never a course of action. Where a method's gate asks whether the reader must accept a judgment, the judgment is that reading.
+12. Audience fields: stance neutral; decision wanted: none, the reader decides; priorities: none stated. You cannot ask; record every assumption in notes.md.
+13. Method commentary the operating instruction requires (sequencing choice, emotional lever, MECE groups, pyramid visual, self-checks) goes to notes.md, never brief.md.
+14. When one figure carries two readings or two dates, the body carries the later-dated figure with its reading label (strict/loose, raw/rule-1, R1/R2) and names that another reading exists; the appendix carries the pair with both dates and paths. Neither is dropped.
+15. A rounded, re-unitised or converted number is arithmetic. Carry the figure as the repo states it. Likelihood, impact, mitigation and owner: write "no source states one".
+16. trace.md cites `docs/raw/` path:line, or a compiled file plus row id (E1, C1, T1, rank 1). Never a `STATE.md` or `plan.md` line number. Repo paths may appear in the appendix, never in the body. The return-line `unknown` count includes both `unknown — not in repo` and `unknown — checked`.

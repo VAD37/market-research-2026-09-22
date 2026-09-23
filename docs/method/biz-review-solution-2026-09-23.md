@@ -61,9 +61,24 @@ Cap 3. The user's same-day instructions rank above this review: paywall re-pulls
 - Pass 10 stays skipped; the tier-1 AI Mode row in `whitespace.md` keeps its skipped-pass caveat.
 - Review §7 row 14 is not worked around; the owner supplies credentials or the cell stays `unknown — checked`.
 
-## 5. Bake-off output needs — pending REV-BIZ-B
+## 5. Bake-off output needs — from `biz-review-2-bakeoff-2026-09-23.md`
 
-Reserved. When `biz-review-2-bakeoff-2026-09-23.md` lands, this section maps each input the ten methods and the judge columns demand to the file that supplies it, and adds tasks only where §2 above leaves a hole.
+Accepted in full. Of 47 inputs the ten methods demand, 14 are supplied complete, 16 partial, 10 absent, 7 forbidden by the research-only constraints; 7 of 14 judge columns are supplied after COMPILE-1 and P9-r. Its 15 new gaps close as follows.
+
+| # | Gap (review §4) | Closed by | Where |
+|---|---|---|---|
+| 1 | No pinned input snapshot | Orchestrator pins a commit hash in `brief-bakeoff/README.md` at P15 spawn; pack line ranges filled from that tree | README Amendments 2026-09-23 |
+| 2 | Failed brief's STATE/plan line cites rot | BRIEF-4 cites raw path:line or compiled row ids only; judge note added | STATE queue row BRIEF-4; README Amendments |
+| 3, 4 | 30 of 35 acronyms undefined; evidence classes and R1/R2 not in glossary | COMPILE-2 brief widened by message: every acronym in both briefs, classes a/b/c, readings R1/R2 | `method/glossary.md` append |
+| 5, 6, 7, 8, 9, 13, 15 | Recommendation slots, self-commentary routing, audience fields, rounding, likelihood words, appendix status, `unknown` count | Constraints 11–16 appended to `shared-instruction.md` as Addition 1, identical for every run, before any run exists | `brief-bakeoff/shared-instruction.md` |
+| 10 | No cross-sub-market table | COMPILE-2 appends "Sub-markets side by side" (demand cells, proof grade, supply, floor, risk rank per sub-market; no choice) | `findings/market-potential.md` |
+| 11 | Importance order over 32 hypotheses | Owner decision; register stays in lane order meanwhile | STATE §Open decisions row 4 |
+| 12 | Open owner decisions scattered | New STATE section with options and the research consequence if deferred | STATE §Open decisions |
+| 14 | `negative_tail` column prescribes a headline signal | Owner decision: rubric or thumb; judge scores as written meanwhile, `verdict.md` states the tension | STATE §Open decisions row 2 |
+
+Evidence pack: the 12-entry read list is now a required second read in `shared-instruction.md` Addition 1; the failed brief stays the primary input so R10 stays comparable. The pack's line ranges are filled at spawn because files are appended all day. The 1,200-word cap stands (review §3: executive brief body 853 words over 22 rows).
+
+Not applied: nothing in the two reviews that would pick a method, choose a sub-market, or rank hypotheses — those are owner calls and sit in STATE §Open decisions.
 
 ## Caveats
 

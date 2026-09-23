@@ -131,3 +131,13 @@ Downstream, reporting layer only: the final rewrite of `findings/executive-brief
 - Judge is one model reading briefs written by the same model family. Human scores exist to bound that bias.
 - The failed input is one document. A method that wins here won on this evidence base and this reader; the finding says so.
 - External methods were read at the commits above. Later commits are not this evaluation.
+
+## Amendments, 2026-09-23 — before any run
+
+Per `../biz-review-2-bakeoff-2026-09-23.md`. Nothing above is edited.
+
+- Input snapshot: the orchestrator pins one commit hash here at spawn (`snapshot: <hash>`); every run and the judge read that tree; compiled files appended after it are not input. Line ranges in `shared-instruction.md` Addition 1 are filled from the pinned tree.
+- `shared-instruction.md` Addition 1 (evidence pack as required second read; constraints 11–16) is part of the identical text every run receives.
+- Judge note: trace rows pointing at `STATE.md` or `plan.md` line numbers count as "pointing nowhere" (column `invented`); those files are appended all day.
+- Open owner decisions recorded in `../STATE.md` §Open decisions, not decided here: whether column `negative_tail` is rubric or thumb (README L92 vs the side-by-side rule); whether sub-market choice is a permissible ask; importance order over the 32 hypotheses.
+- snapshot: not yet pinned.
