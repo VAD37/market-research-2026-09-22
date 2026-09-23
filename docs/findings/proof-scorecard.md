@@ -176,3 +176,118 @@ H11 rows: skincare — Coty 10-K 2026-08-20 "deploying improvements… to drive 
 - WebSearch session cap (200 calls) was reached; later searches used DuckDuckGo html. Reddit came from an archive, comments only; G2, Capterra and live Reddit deferred to the extension holder.
 - Sitemap lastmod is not a publication date; "new since 2026-09-01" means new to this programme.
 - Paywalled or blocked primaries (grro.io, aicited.org, one SEL article) are listed in the census for REPULL-1; none is graded.
+
+## Evidence-quality three-count, 2026-09-23
+
+Task COMPILE-1 (Pass 16), per `method/plan.md` "Evidence bar — evidence-quality reporting, 2026-09-23". Appended only. Classes: (a) metric moved, experimental design — holdout, geo-split, switchback, pre/post with control; (b) metric moved, observational; (c) action named, outcome unknown. Itemised over every graded case above: E1–E7 (2026-09-22) and the P4-r register `raw/e-case-census-r1-2026-09-23.md` (raw abbreviated to `raw/e-case-<name>-2026-09-23.md`). Two readings of pre/post-with-control stand side by side: R1 reads it as (a) per plan.md L146; R2 reads vendor pre/post as (b) per C2 above.
+
+| Case | Vertical | Class | grade_raw | grade_rule1 | Raw path |
+|---|---|---|---|---|---|
+| E1 Quattr / Men's Wearhouse | none | a (R1) / b (R2) | Silver | Bronze | `raw/e-case-quattr-menswearhouse-2026-09-22.md` |
+| E2 Sitefire / Pointhound | none | a / b | Silver | Bronze | `raw/e-case-sitefire-pointhound-2026-09-22.md` |
+| E3 Sitefire / Jerry | high-CPA (c10); none (c13) | a / b | Bronze / Silver | Bronze | `raw/e-case-c13-sitefire-jerry-2026-09-22.md`; `-c10-` |
+| E4 Seer / "SaaS HR" client | B2B SaaS | a / b | Silver | Bronze | `raw/e-case-seer-interactive-content-recency-2026-09-22.md` |
+| E5 Tiwari, GSC audit — negative | none | a / b | Silver | Bronze | `raw/e-case-practitioner-blog-gauravtiwari-ai-overviews-ctr-2026-09-22.md` |
+| E6 NerdWallet 8-K — negative | high-CPA | b | Silver | Bronze | `raw/e-case-nerdwallet-earnings-release-2026-02-25-2026-09-22.md` |
+| E7 TW3 Partners / Citead — null | none | a (replication, not a brand case) | Silver | Silver | `raw/e-case-c11-arxiv-tw3-partners-geo-score-2026-09-22.md` |
+| T7 AirOps / Venn | high-CPA, borderline | b | Bronze | Bronze | `airops-venn` |
+| T10 Otterly / Chatarmin | B2B SaaS | b | Fools gold | Fools gold | `otterly-chatarmin` |
+| T11 Otterly / NOLA Marketing | none | b | Bronze | Bronze | `otterly-nola-spoc` |
+| T12 Otterly / SORN.AI | B2B SaaS | b | Bronze | Bronze | `otterly-sornai-pagepilot` |
+| T13 Otterly / What IF Web | none | b | Bronze | Bronze | `otterly-whatifweb` |
+| T15 Searchable / Blackbird | none | b | Bronze | Bronze | `titles-opened-multi` |
+| T16 Orange142 / Pigeon Forge | none | b | Bronze | Bronze | `titles-opened-multi` |
+| T17 Feedonomics / Euro Car Parts; Fruugo — 2 | none | c ×2 | — | — | `titles-opened-multi` |
+| B1 Chime — AirOps, brand-side | high-CPA, borderline | b | Bronze | Bronze | `chime-careers-airops` |
+| B2 Fresha, own post | skincare, borderline | b | Fools gold | Fools gold | `fresha-ai-bookings` |
+| B3 Proper Propaganda — Scrunch | none | b | Bronze | Bronze | `brandside-found-multi` |
+| V1 AthenaHQ / Nuvadermis | skincare | b | Bronze | Bronze | `athenahq-new-multi` |
+| V2 AthenaHQ / AutoRFP.ai | B2B SaaS | b | Fools gold | Fools gold | `athenahq-new-multi` |
+| V3 AthenaHQ / Lago | B2B SaaS | b | Bronze | Bronze | `athenahq-new-multi` |
+| V4 AthenaHQ / Buried | none | b | Fools gold | Fools gold | `athenahq-new-multi` |
+| V5 Profound / Kiteworks | B2B SaaS | b | Bronze | Bronze | `profound-new-multi` |
+| V6 Profound / WHOOP | none | b | Bronze | Bronze | `profound-new-multi` |
+| V7 Profound / Apartment List | none | b | Bronze | Bronze | `profound-new-multi` |
+| V8 Fire&Spark / supplement brand | high-CPA | b | Bronze | Bronze | `fireandspark-supplement-citations` |
+| V9 Birdeye / Arrow Senior Living | none | b | Bronze | Bronze | `birdeye-arrow-senior-living` |
+| A1 OptimizeGEO / haircare brand | skincare | b | Bronze | Bronze | `ddg-vendor-multi` |
+| A2 BrandCited / "Lumara" | skincare | b | Bronze | Bronze | `ddg-vendor-multi` |
+| A3 Over The Top SEO / "ProjectFlow" | B2B SaaS | b | Bronze | Bronze | `ddg-vendor-multi` |
+| A4 Go Fish Digital / unnamed | unknown | b | Bronze / Fools gold | Bronze / Fools gold | `ddg-vendor-multi` |
+| A8 HubSpot AEO cohort | B2B SaaS | b | Fools gold | Fools gold | `hubspot-aeo-data-cohort` |
+| A9 HubSpot CMO op-ed — negative | B2B SaaS | b | Bronze | Bronze | `fortune-hubspot-blog-traffic-loss` |
+| X1 Otterly Reddit test | none | a | Silver | Silver | `otterly-reddit-experiment` |
+| X2 Otterly HTML vs Markdown — null | none | a | Silver | Bronze | `otterly-html-vs-markdown-experiment` |
+| X3 Otterly llms.txt — null | none | b | Bronze | Bronze | `otterly-llms-txt-experiment` |
+| X4 Otterly FAQ on homepage | none | b | Bronze | Bronze | `otterly-geo-guide-experiment-claims` |
+| X5 Jonathan Mall / "Brand A" | none | a | Silver | Bronze | `jonathanmall-geo-experiment` |
+| X6 Boily / two dental clinics | none | a | Silver | Bronze | `boily-dental-geo-comparison` |
+| E1 Yext 8-K, own brand | B2B SaaS | b | Bronze | Bronze | `edgar-fulltext-results` |
+| E3 TechTarget 8-K; E7 Freshworks 10-K; E8 HubSpot DEF 14A — 3 | B2B SaaS | c ×3 | — | — | `edgar-fulltext-results` |
+| E4 Coty 10-K | skincare | c | — | — | `edgar-fulltext-results` |
+| E5 LendingTree 8-K; E6 Chime DRS/A — 2 | high-CPA | c ×2 | — | — | `edgar-fulltext-results` |
+| E9 JOINT Corp 8-K; E10 Klarna, Etsy, Rent the Runway, ZipRecruiter — 5 | none | c ×5 | — | — | `edgar-fulltext-results` |
+
+| Count | (a) experimental | (b) observational | (c) action named, outcome unknown | Total |
+|---|---|---|---|---|
+| P4-r own tally, append above L136–138 | 4 | 28 | 13 | 45 |
+| COMPILE-1 recount, P4-r register only | 4 | 28 | 13 | 45 — agrees |
+| COMPILE-1 cumulative, E1–E7 added, R1 | 10 | 29 | 13 | 52 |
+| COMPILE-1 cumulative, E1–E7 added, R2 | 5 | 34 | 13 | 52 |
+| Skincare and beauty (R1 / R2) | 0 / 0 | 4 / 4 | 1 / 1 | 5 |
+| B2B SaaS (R1 / R2) | 1 / 0 | 9 / 10 | 3 / 3 | 13 |
+| High-CPA regulated (R1 / R2) | 1 / 0 | 4 / 5 | 2 / 2 | 7 |
+| None named or borderline-excluded (R1 / R2) | 8 / 5 | 12 / 15 | 7 / 7 | 27 |
+
+Divergence: P4-r and this recount agree on the register; the cumulative rows differ only by the R1/R2 reading of E1–E5 (pre/post with control) and E7 (controlled replication). E3 sits in high-CPA per c10's tag. The 45 Bronze and 24 Fools gold of `raw/e-case-census-c13-2026-09-22.md` carry no design field and are not classed here.
+
+Caveats, this append: (a) counts vendor- or practitioner-run designs with one unit per arm (X1, X6) and unmatched arms; no (a) case is randomised or replicated; classes describe design, never grade; two rows (T17, E10) group cases as the census does; file overrun of the 100-line budget recorded, not trimmed.
+
+## Negative tail — filings and exhibits, 2026-09-23
+
+Task COMPILE-1 (Pass 16). Every tier-1/2/3 document in `docs/raw/` carrying a decline, null or negative direction, then the listed lower-tier nulls; the positive Silver cases follow in the same columns. No averaging, no net read.
+
+| Company | Document, date | Figure verbatim | Direction | Tier | Raw path | Compiled file:line |
+|---|---|---|---|---|---|---|
+| Microsoft, in News plaintiffs' brief | ECF 1977-1, 1:25-md-03143, 2026-09-17 | "83-93% drops in click-through rates for The Times and DNP's domains, and 51% to 94% for ZD's domains" | negative | 2 | `raw/a-court-mdl-microsoft-ctr-data-2026-09-22.md` | `markets/paid-placement.md:97` |
+| NerdWallet | 8-K Ex-99.1, 2026-02-25 | "Credit cards revenue of $26.5 million decreased 24% year-over-year, primarily due to continued headwinds in organic search traffic" | negative | 2 | `raw/e-case-nerdwallet-earnings-release-2026-02-25-2026-09-22.md`; `raw/e-nerdwallet-8k-repull-2026-09-23.md` | L32 above |
+| IAC / People Inc | 8-K Ex-99.2 deck, 2026-02-03 | "50% decline in Google Search referrals since 2023"; AIO on "nearly 70% of top People Inc. queries" | negative | 2 | `raw/e-case-iac-investor-deck-2026-02-03-2026-09-22.md` | `findings/transition-evidence.md:35` |
+| IAC / People Inc | 8-K Ex-99.2 deck, 2026-05-04 | "63% decline in Google Search referrals over two years" | negative | 2 | `raw/e-case-iac-investor-deck-2026-05-04-2026-09-22.md` | `findings/transition-evidence.md:35` |
+| People Inc | 10-Q, 2026-08-03 | "22% decline in Core Sessions, due primarily to the impact of the increasing prominence of Google AI Overviews" | negative | 2 | `raw/e-case-edgar-fulltext-results-2026-09-23.md` | not carried |
+| Chegg | 8-K, 2025-08-05 | "2.6 million subscribers... year-over-year decline of 40%... lower traffic, largely due to Google AI Overviews" | negative | 2 | `raw/e-case-edgar-fulltext-results-2026-09-23.md` | not carried |
+| Chegg | 10-Q, 2026-05-11 | AIO, ChatGPT "materially adversely affected our business... by reducing traffic to our platform" | negative, no figure | 2 | `raw/e-case-chegg-10q-2026-05-11-2026-09-22.md` | not carried |
+| Chegg v. Google | complaint, D.D.C. 1:25-cv-00543, 2025-02-24 | "71% of Chegg Study traffic" and "60% of Chegg Study acquisitions" from search referrals (2024) | negative, dependence pleaded | 2 | `raw/b-court-dockets-table-2026-09-22.md` | `markets/paid-placement.md:98` |
+| Penske Media v. Google | amended complaint, 1:25-cv-03192, 2025-12-04 | affiliate revenue "declined by more than a third" by end-2024; "over 80%" zero-click among AIO searches | negative | 2 | `raw/b-court-dockets-table-2026-09-22.md` | `markets/paid-placement.md:99` |
+| Dow Jones, NYP v. Perplexity | complaint, 1:24-cv-07984, 2024-10 | "virtually no click-through traffic"; ad-revenue share "unspecified portion" | negative | 2 | `raw/b-court-dockets-table-2026-09-22.md` | `markets/paid-placement.md:100` |
+| LendingTree | 10-K, 2026-03-09 | "organic searches and artificial intelligence ('AI') overviews, that depend upon the searchable content on our sites" | negative, risk factor, no figure | 2 | `raw/e-case-lendingtree-10k-2026-03-09-2026-09-22.md` | not carried |
+| Reddit | 10-Q, 2026-07-31 | suit "alleging... false or misleading statements... concerning the impact of Google Search and its AI Overviews feature" | negative, allegation | 2 | `raw/e-case-reddit-10q-2026-07-31-2026-09-22.md` | not carried |
+| EDGAR full-text, R-BLOCKED re-pull | 4 phrases, 57 hits, filed 2025-03-24 to 2026-09-22 | no hit states a moved metric; TechTarget risk factor "would reduce the number of visitors" only | null — no result-stating filing | 2 | `raw/e-edgar-fulltext-repull-2026-09-23.md` | not carried |
+| Yelp | 8-K Ex-99.2, 2026-08-06 | "3.4x as many AI citations than the next closest platform", commissioned study | positive, cross-sectional | 2 | `raw/e-case-yelp-shareholder-letter-2026-08-06-2026-09-22.md` | `findings/transition-evidence.md:35` |
+| TechTarget | 10-K, 2026-03-11 | "2x to 3x higher membership conversion rate from answer engine and LLM citations" | positive, ratio, no baseline | 2 | `raw/e-case-techtarget-10k-2026-03-11-2026-09-22.md` | not carried |
+| Criteo | 8-K Ex-99.1, 2026-08-05 | "over 2,000 brands advertising on ChatGPT across seven countries" | positive, count only | 2 | `raw/e-case-criteo-earnings-release-2026-08-05-2026-09-22.md` | `findings/ai-ads-evidence.md:47` |
+| EverQuote | 8-K Ex-99.2 deck, 2026-08-03 | "Consumer adoption of AI adds new sources of high-intent traffic" | positive, no figure | 2 | `raw/e-case-everquote-investor-deck-2026-08-03-2026-09-22.md` | not carried |
+| Yext | 8-K Ex-99.3, 2026-09-01 | "grow its AI visibility by 147%... in only two weeks", vendor on itself | positive | 2 | `raw/e-case-edgar-fulltext-results-2026-09-23.md` | `markets/organic-recommendation.md:87` |
+| HubSpot | Fortune op-ed, 2026-09-22 | blog "5 million" fewer visits in a thirty-day period; AI search "+37%", traditional search "−11%" | negative | 3 | `raw/e-case-fortune-hubspot-blog-traffic-loss-2026-09-23.md` | L145 above |
+| TW3 Partners / Citead | arXiv 2609.07559, 2026-09-07 | 2023 GEO levers move citation on "none" of ten engine families | null | 4 | `raw/e-case-c11-arxiv-tw3-partners-geo-score-2026-09-22.md` | L33 above |
+| OtterlyAI | HTML vs Markdown experiment, 2026-04-01 | .md citations 0; bot visits 0% vs HTML 2.8–4.6% | null, tactic | 5 | `raw/e-case-otterly-html-vs-markdown-experiment-2026-09-23.md` | L126 above |
+| OtterlyAI | llms.txt experiment, 2026-02-05 | /llms.txt 84 of 62,100+ AI bot visits (0.1%) | null | 5 | `raw/e-case-otterly-llms-txt-experiment-2026-09-23.md` | not carried |
+| Jonathan Mall | GEO experiment, undated | mentions +32 / −27, flat; citations 171 gained vs 32 lost | null (mentions); up (citations) | 5 | `raw/e-case-jonathanmall-geo-experiment-2026-09-23.md` | L127 above |
+| Gaurav Tiwari | GSC audit, 2026-08-31 | "22% CTR drop"; 14 of 18 AI-Overview queries down | negative | 5 | `raw/e-case-practitioner-blog-gauravtiwari-ai-overviews-ctr-2026-09-22.md` | L31 above |
+| SE Ranking | own ChatGPT campaigns, publ. 2026-08-10 | CTR 1.30% on 97,000+ impressions, "very few sign-ups" | null, paid | 5 | `raw/b-seranking-chatgpt-ads-study-2026-09-23.md` | `findings/ai-ads-evidence.md:45` |
+| Adthena client, via Campaign | 2026-03 | "just 3%" of $250K spent after weeks; CTR 0.91% | negative, paid | 5 | `raw/b-campaign-chatgpt-ads-underwhelming-2026-09-23.md` | `findings/ai-ads-evidence.md:46` |
+| r/SEO commenter | Arctic Shift, 2026-09-03 | impressions 5K → 15K daily, "no traffic increase at all" | null | 7 | `raw/e-case-reddit-arcticshift-comments-2026-09-23.md` | not carried |
+
+**Positive Silver cases, same columns** — grade_raw / grade_rule1 in the company cell.
+
+| Company | Document, date | Figure verbatim | Direction | Tier | Raw path | Compiled file:line |
+|---|---|---|---|---|---|---|
+| Quattr / Men's Wearhouse — Silver / Bronze | vendor case, undated | "75% more AI Mode visibility... 46% more clicks"; untreated 10,940 → 11,356 | positive | 5 | `raw/e-case-quattr-menswearhouse-2026-09-22.md` | L27 above |
+| Sitefire / Pointhound — Silver / Bronze | vendor case, window 2026-02-23 to 06-29 | "+300% more site visits from AI Search"; "Visibility Score 0 → 1.0%" | positive | 5 | `raw/e-case-sitefire-pointhound-2026-09-22.md` | L28 above |
+| Sitefire / Jerry — Bronze (c10), Silver (c13) / Bronze | vendor case, Apr–Jun 2026 | "+78% AI referral traffic... 112% vs. 72% treated-vs-untouched" | positive | 5 | `raw/e-case-c13-sitefire-jerry-2026-09-22.md`; `-c10-` | L29 above |
+| Seer Interactive / "SaaS HR" — Silver / Bronze | agency study, July 2026 | "300% increase in AI traffic"; site-wide AI sessions "remained stagnant" | positive | 5 | `raw/e-case-seer-interactive-content-recency-2026-09-22.md` | L30 above |
+| OtterlyAI Reddit test — Silver / Silver | vendor experiment, 2026-04-11 to 06-10 | AI citations 48 (dormant arm) vs 426 (active arm) | positive | 5 | `raw/e-case-otterly-reddit-experiment-2026-09-23.md` | L125 above |
+| Jonathan Mall / "Brand A" — Silver / Bronze | practitioner experiment, July 2–9, year absent | treated page 23 → 72 citing queries; 171 gained vs 32 lost | positive, citations | 5 | `raw/e-case-jonathanmall-geo-experiment-2026-09-23.md` | L127 above |
+| Boily / two dental clinics — Silver / Bronze | vendor comparison, 2026-06 | mention rate 11% → 27% treated; 11% → 10% untreated | positive | 5 | `raw/e-case-boily-dental-geo-comparison-2026-09-23.md` | L128 above |
+| Chime / AirOps — Bronze / Bronze, brand-side | careers page, 2025-11-24 | "tripled our AI citations and increased content velocity by 70 percent" | positive | 3 | `raw/e-case-chime-careers-airops-2026-09-23.md` | L148 above |
+
+Caveats, this append: the two Silvers that run negative or null (E6 NerdWallet, E7 TW3) and X2 sit in the first table, not the second; Yelp, TechTarget, Criteo, EverQuote and Yext run positive and are kept in the first table because the brief names them, direction column stating it; every positive Silver is tier 5 and vendor- or practitioner-measured, the one tier-3 positive is Bronze; the tier-2 negatives are the filer's own attribution to AI surfaces, not a measured incremental effect; Chegg 8-K and People Inc 10-Q sentences come from a regex-selected raw and no compiled file carries them; overrun of the 100-line budget recorded, not trimmed.

@@ -90,3 +90,55 @@ Screened: ~980 case candidates, Passes 3–4 (`findings/proof-scorecard.md`), pl
 - Grouped rows (T2, T5, T8, T10, T13, C1, C8, C10–C16) hold 93 cases, to fit the 100-line budget; per-case engines, windows and quotes sit in the raws named.
 - Outside the set: three ChatGPT Ads paid-media cases graded Fools gold (`e-case-common-thread-collective-*` tier 5; `-muneeb-ahmad-*`, `-veonib-*` tier 6) and Employers Holdings' ChatGPT app, screened — no claim (`e-case-census-c10`). All below the tier-3 floor; H10 unchanged if counted.
 - Conflicts not reconciled: Jerry Bronze (c10) / Silver (c13); Brandlight tier 5 in raw vs 6 in `customers/high-cpa-regulated.md` — raw used. Claims below tier 3: C1, C5 (tier 6). No pull older than one quarter cited. This file carries evidence, not a verdict.
+
+## Evidence-quality three-count, 2026-09-23
+
+Task COMPILE-1 (Pass 16), per `method/plan.md` "Evidence bar — evidence-quality reporting, 2026-09-23". Appended only; rows above unchanged. Classes: (a) metric moved, experimental — holdout, geo-split, switchback, pre/post with control; (b) metric moved, observational; (c) action named, outcome unknown. A fourth line, "outside the classes", holds rows naming neither an action nor a moved metric. Bronze is read as a moved visibility metric per the grade table; per-case from → to values sit in the raws named above. Two readings stand: R1 counts pre/post with control as (a) per plan.md L146; R2 counts vendor pre/post as (b) per `proof-scorecard.md` C2.
+
+| Row | Cases | Vertical | Class | grade_raw | grade_rule1 | Raw path |
+|---|---|---|---|---|---|---|
+| T1 e.l.f. Beauty | 1 | beauty | c | n/a — signal | n/a | `f-signal-sk-S1-jobs-linkedin-indeed-upwork-freelancer-2026-09-22.md` |
+| T2 e.l.f. Cosmetics; L'Oréal | 2 | beauty | c | n/a — signal | n/a | `c-google-ucp-merchant-agentic-2026-09-22.md`; `b-google-gml2026-search-ads-2026-09-22.md` |
+| T3 Coty | 1 | beauty | c | n/a — signal | n/a | `f-signal-sk-S7-coty-10k-2026-09-22.md` |
+| T4 Estée Lauder Cos. | 1 | beauty | c | screened — no claim | n/a | `e-case-c8-estee-lauder-profound-partnership-2026-09-22.md` |
+| T5 Brandlight, Peec, Yext named clients | 5 | beauty ×2; insurance ×2; banking | c | n/a — signal | n/a | `a-brandlight-customers-*`, `a-peec-customers-*`, `a-yext-customers-*` |
+| T6 Ulta Beauty | 1 | beauty | c | screened — no claim | n/a | `e-case-c8-beautymatter-ulta-google-agentic-2026-09-22.md` |
+| T7 Pennylane | 1 | B2B SaaS | c | n/a — signal | n/a | `f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md` |
+| T8 Actindo; AutoLeap; Mercury | 3 | B2B SaaS | c | n/a — signal | n/a | same |
+| T9 The Cigna Group | 1 | insurance | c | n/a — signal | n/a | `f-signal-hr-S1-linkedin-2026-09-22.md` |
+| T10 GEICO, Amica, Insurify, Simply Business; Juice Plus+ | 5 | insurance ×4; supplements | c | n/a — signal | n/a | same |
+| T11 Embrace Pet Insurance | 1 | insurance | outside — no AI action, no metric | n/a — signal | n/a | same |
+| T12 Primerica | 1 | insurance | c | n/a — signal | n/a | `f-signal-hr-S7-primerica-10k-2026-09-22.md` |
+| T13 llms.txt served, 15 domains | 15 | beauty 3; B2B SaaS 9; high-CPA 3 | c | n/a — S12 | n/a | `f-signal-sk-S12-*`, `-bs-S12-*`, `-hr-S12-*` |
+| C1 TW3 / Citead — null | 1 | none | a (controlled replication) | Silver | Silver | `e-case-c11-arxiv-tw3-partners-geo-score-2026-09-22.md` |
+| C1 Tiwari — negative | 1 | none | a (R1) / b (R2) | Silver | Bronze | `e-case-practitioner-blog-gauravtiwari-ai-overviews-ctr-2026-09-22.md` |
+| C1 IAC ×2; NerdWallet — negative | 3 | publisher; cards | b | Bronze ×2; Silver | Bronze | `e-case-iac-investor-deck-*`, `e-case-nerdwallet-earnings-release-*` |
+| C1 Yelp; eMarketer index; 5W ranking | 3 | local; beauty ×2 | outside — snapshot, no before/after, no action | Bronze ×3 | Bronze | `e-case-yelp-shareholder-letter-*`, `e-case-c8-*` |
+| C2 G2 | 1 | B2B SaaS | b | Bronze | Bronze | `e-case-c9-g2-traffic-momentum-2026-09-22.md` |
+| C3 hearing care provider — Yext | 1 | hearing care | b | Bronze | Bronze | `e-case-c13-yext-hearing-care-2026-09-22.md` |
+| C4 Men's Wearhouse — Quattr | 1 | apparel | a / b | Silver | Bronze | `e-case-quattr-menswearhouse-2026-09-22.md` |
+| C5 Pointhound — Sitefire | 1 | travel points | a / b | Silver | Bronze | `e-case-sitefire-pointhound-2026-09-22.md` |
+| C6 Jerry — Sitefire | 1 | insurance (c10) | a / b | Bronze (c10) / Silver (c13) | Bronze | `e-case-c10-sitefire-jerry-*`, `-c13-` |
+| C7 Seer "SaaS HR" client | 1 | B2B SaaS | a / b | Silver | Bronze | `e-case-seer-interactive-content-recency-2026-09-22.md` |
+| C8 Freshpet; Bitly; matchmaking; Heyflow ×2 | 5 | pet food; B2B SaaS; matchmaking; B2B SaaS | b | Bronze ×5 | Bronze | `e-case-intero-*`, `-foundation-inc-bitly-*`, `-fractl-*`, `-c9-*heyflow*` |
+| C9 HubSpot — negative | 1 | B2B SaaS | b | Bronze | Bronze | `e-case-c9-hubspot-omr-podcast-2026-09-22.md` |
+| C10 sixclicks / Albrink; OMR | 2 | none; B2B SaaS | b | Bronze ×2 | Bronze | `e-case-c12-omr-*` |
+| C11 MongoDB, Plaid, CRS, Verito, Humand, Owings Auto, HubSpot beta | 7 | SaaS ×2; finance; automotive; none ×3 | b | Bronze ×7 | Bronze | `e-case-profound-*`, `-athenahq-verito-*`, `-rankprompt-*`, `-c13-hubspot-*` |
+| C12 Aleph, OpusClip, Hone, Ramp, Lake.com, Airbyte, 1840; AirOps ×7 | 14 | none | b | Bronze ×14 | Bronze | `e-case-c13-profound-multi-*`, `-c13-airops-multi-*` |
+| C13 Grüns; CloudEagle; Kiteworks | 3 | none; B2B SaaS; none | b | Bronze ×3 | Bronze | `e-case-athenahq-gruns-*`, `-quattr-cloudeagle-*`, `-c13-quattr-kiteworks-*` |
+| C14 5 Rankscale clients; Title Nine, Zurich UK, H&R Block | 8 | optical, IoT, SaaS, grocery, banking; retail, insurer, tax | b | Bronze ×8 | Bronze | `e-case-rankscale-optical-*`, `-c12-rankscale-*`, `-c13-rankscale-multi-*`, `-conductor-*`, `-c13-conductor-multi-*` |
+| C15 5 Scrunch clients; 5 BrightEdge clients | 10 | none | b | Bronze ×10 | Bronze | `e-case-c13-scrunch-multi-*`, `-c13-brightedge-multi-*` |
+| C16 Bacula, Neur A, Instant Commerce; Sure Oak, Dryer Vent, SF restaurant | 6 | none; MedTech; SaaS; none ×3 | b | Bronze ×6 | Bronze | `e-case-c13-otterly-multi-*`, `-c13-semrush-multi-*` |
+
+| Count, 108 cases | (a) experimental | (b) observational | (c) action named, outcome unknown | outside the classes |
+|---|---|---|---|---|
+| All, R1 | 6 | 61 | 37 | 4 |
+| All, R2 | 1 | 66 | 37 | 4 |
+| Beauty (13) | 0 | 0 | 11 | 2 |
+| B2B SaaS (25) | 1 / 0 | 15 / 16 | 9 | 0 |
+| High-CPA regulated (18) | 1 / 0 | 5 / 6 | 11 | 1 |
+| Other or none named (52) | 4 / 1 | 41 / 44 | 6 | 1 |
+
+Prior count beside it: L15 above reads "99 of 108 name a change" with "no metric claimed"; this append reads the same 108 as 67 metric-moved (Bronze or better), 37 action-only, 4 neither. The two differ in what they count — named changes versus moved metrics — and both stand. grade_rule1 for the C rows is Bronze where a grade_raw Silver misses a bar item, per `proof-scorecard.md` L17; Bronze rows stay Bronze. Vertical buckets follow the rows above: Jerry per c10, C8's Heyflow and Bitly in B2B SaaS, C13's CloudEagle in B2B SaaS, C11's SaaS tags and C14's SaaS tag in "other".
+
+Caveats, this append: (b) rests on the grade table's reading of Bronze as a moved visibility metric — grouped vendor rows (C11–C16, 50 cases) were not re-opened per case here; (c) rows are postings, filings and partnership pages, intent not completed change; T13's llms.txt files are measured-by-us presence, not a brand's stated action; T11 and the three snapshot rows fall outside the plan's three classes and are counted separately, not forced in; per-vertical counts use the row buckets, so "borderline" tags from `proof-scorecard.md` are not applied; overrun of the 100-line budget recorded, not trimmed.
