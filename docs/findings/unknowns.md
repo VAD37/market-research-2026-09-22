@@ -230,3 +230,137 @@ Marks now carried, every H: confirmed H2, H8, H13, HE1, H10, H11, H18, H19, H23,
 - sec.gov: 0 fetches failed; efts.sec.gov full-text search 403 (not needed — filings located through `data.sec.gov/submissions/`). HubSpot's revenue and headcount passages were not extracted (outside the carried claim). The Wix ChatGPT-app claim has no filed primary; the Change Agents "AWS $125,000" line has none.
 - Recount "all" counts n/a meta-claims as not at tier 3; a reader treating n/a as excluded reads the ex-meta row. Lane E case corpus membership follows `plan-review-2-2026-09-23.md` §2's decomposition (8 case-corpus, 1 forecast, 3 third-party, 3 meta).
 - H17–H25 marks are copied from the producing files, not re-scored here; H18 and H19 confirm outside P1 engines (`ai-ads-evidence.md:98`). This file was over budget before this append; overrun stated here. Evidence, not a verdict.
+
+## Hypothesis register — 32 rows, COMPILE-2, 2026-09-23
+
+Task COMPILE-2 (Pass 16), per `method/plan.md` "Pass sequence — addition 3" and `method/biz-review-solution-2026-09-23.md` §2 row 6. Appended only. Every prior mark copied verbatim from its producing file; nothing re-scored, nothing reconciled. `—` = that pass did not re-score the row; `not registered` = row registered 2026-09-23, after the pass ran; `not produced` = producing pass did not run (`hypotheses.md` scoring rule). Statements abbreviated from `method/hypotheses.md` register rows. Line numbers as read 2026-09-23 before this append.
+
+| ID | Statement | Pass 9 (2026-09-22) | review-1 | P8-r / P4-r / R-BLOCKED-2 / P11–P14 | P9-r 2026-09-23 | Producing file:line | Strongest raw (tier) |
+|---|---|---|---|---|---|---|---|
+| H1 | AI referral converts above organic search | unresolved — checked Adobe, Salesforce, Shopify 2026-09-22 | unresolved | — | no change | `unknowns.md:25` | `raw/c-retail-analytics-table-2026-09-22.md` (4) |
+| H2 | Paid inventory inside AI surfaces exists at scale | **confirmed** | confirmed | — | no change | `unknowns.md:26`; `markets/paid-placement.md:74` | `raw/b-openai-platform-summary-2026-09-22.md` (3) |
+| H3 | At least one vendor demonstrates causal lift | **killed** | killed | P4-r: killed — unchanged | no change | `unknowns.md:27`, `:124`; `proof-scorecard.md:59`, `:112` | `raw/e-case-census-c13-2026-09-22.md` (5); `raw/e-case-census-r1-2026-09-23.md` (5) |
+| H4 | Demand is attention-only in every SMB cell | **killed** | killed | P8-r: killed — unchanged, reinforced; R-BLOCKED-2: killed, unchanged | no change | `unknowns.md:28`, `:108`; `demand-map.md:148` §R-BLOCKED-2 | `raw/f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md` (3) |
+| H5 | Corpus seeding measurably moves an answer | killed | **unresolved — checked** | P14: Pass-9 mark stands, confirm side strengthened (t3/4 pre/post) | no change | `unknowns.md:29`; `frontier-scan.md:64` | `raw/d-citationpref-featgeo-2026-09-22.md` (3); `raw/d-paper-bias-beware-cognitive-bias-2026-09-23.md` (3) |
+| H6 | Brand action precedes measured visibility change, P1 engine | confirmed | **unresolved — checked** | P4-r: confirmed (rule1, narrow) / unresolved — checked (three verticals), both stand | no change | `unknowns.md:30`, `:125`; `proof-scorecard.md:102` §P4-r | `raw/e-case-otterly-reddit-experiment-2026-09-23.md` (5); `raw/e-case-sitefire-pointhound-2026-09-22.md` (5) |
+| H7 | Organic carries spend in more cells than others | unresolved — checked (channel list in `demand-map.md`) 2026-09-22 | unresolved | P8-r: confirmed (loose reading) / unresolved — checked (strict reading), both stand; R-BLOCKED-2: strict unchanged, unresolved — checked, resting on E2 alone | no change | `unknowns.md:31`, `:109`; `demand-map.md:130`, `:148` | `raw/f-ted-S10-repull2-2026-09-23.md` (2); S1 posting raws (3) |
+| H8 | A protocol is implementable without a contract | **confirmed** | confirmed | — | no change | `unknowns.md:32`; `markets/agentic-commerce.md:84` | `raw/c-agentic-commerce-protocols-table-2026-09-22.md` (3) |
+| H9 | Agentic spend in enterprise cells, absent from SMB | unresolved — checked (same list) 2026-09-22 | unresolved | P8-r: confirmed (loose reading) / unresolved — checked (strict reading), both stand; R-BLOCKED-2: strict unresolved — checked → **confirmed**; both readings now confirmed | no change | `unknowns.md:33`, `:110`; `demand-map.md:148` §R-BLOCKED-2; `hypotheses.md` log R-BLOCKED-2 | `raw/f-ted-S10-repull2-2026-09-23.md` (2); `raw/c-google-ucp-merchant-agentic-2026-09-22.md` (3) |
+| H10 | Org / content-ops changes outnumber paid-media changes | **not produced** | not produced | P11: **confirmed** — tier ≤3: org/content 28 (13 excl. llms.txt), paid 2 | no change | `unknowns.md:34`; `transition-evidence.md:66` | `raw/c-google-ucp-merchant-agentic-2026-09-22.md` (3); `f-signal-*-S1-*` (3) |
+| H11 | Tier-3 transition evidence in each vertical | **killed** | **not produced** | P4-r: confirmed — action named; outcome unknown in two of three; P11: **confirmed** — e.l.f., Pennylane, Cigna | mark unchanged; B2B SaaS row evidence tier 3 → 2 | `unknowns.md:35`, `:126`, `:218`; `transition-evidence.md:67` | `raw/b-sec-hubspot-10k-2026-02-11-2026-09-23.md` (2) |
+| H12 | Paid inventory price disclosed publicly, not under contract | unresolved — checked openai.com, support.google.com/google-ads, about.ads.microsoft.com, advertising.amazon.com 2026-09-22 | unresolved | — | no change | `unknowns.md:36`; `markets/paid-placement.md:39` | `raw/b-openai-ads-basics-pricing-2026-09-22.md` (3) |
+| H13 | A P1 engine names a Pass-5 technique | **confirmed** | confirmed | P14: stands, dated P1 statements added | no change | `unknowns.md:37`; `frontier-scan.md:65` | `raw/d-technique-census-c7-2026-09-22.md` (3) |
+| H14 | Manipulation evidence denser in regulated than anchor | **killed** | killed | — | no change | `unknowns.md:38` | `raw/d-technique-census-c2-2026-09-22.md` (4) |
+| H15 | Composite-score vendors disclose the prompt set | killed | **unresolved — checked** | — | no change | `unknowns.md:39`; `markets/organic-recommendation.md` | `raw/a-vendor-census-c1-2026-09-22.md` (3) |
+| H16 | Every published sub-market size is a forecast | confirmed | **unresolved — checked** | P13: unresolved — checked | no change | `unknowns.md:40`; `market-potential.md:84` | `raw/e-market-size-table-2026-09-22.md` (6) |
+| HE1 | ChatGPT paid product live on its own surface | **confirmed** | confirmed | — | **confirmed** | `unknowns.md:41`, `:201` | `raw/b-openai-platform-summary-2026-09-22.md` (3) |
+| HE2 | Claude returns brand recommendations to buying prompts | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:42`, `:202`; `plan.md:320` | `raw/e-claude-panel-2026-09-22.md` (1, unusable for this row) |
+| HE3 | Ad-labelled formats render inside Google AI surfaces | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:43`, `:202` | `raw/e-google-aimode-panel-2026-09-22-retry.md` (1, one date) |
+| HP1 | Between-engine gap exceeds within-engine spread | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:44`, `:202` | `raw/e-gemini-panel-2026-09-22.md`, `raw/e-chatgpt-panel-2026-09-22.md` (1) |
+| HP2 | Recommended brand set unstable between dates | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:45`, `:202` | none — `method/STATE.md` §Pass 10 sampling log |
+| HP3 | Citation-to-mention ratio below 0.50 | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:46`, `:202` | `raw/e-claude-panel-2026-09-22.md` (1) |
+| HP4 | Citation rate higher with web search on | **not produced** | not produced | Pass 10 skipped by owner 2026-09-23 | **not produced** | `unknowns.md:47`, `:202` | `raw/e-gemini-panel-2026-09-22.md` (1) |
+| H17 | Non-ChatGPT engine discloses AI-surface advertiser count or revenue | not registered | not registered | P12: **killed**; R-BLOCKED-2: not moved | **killed** | `ai-ads-evidence.md:74`, `:129`; `unknowns.md:192` | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md` (2); `raw/b-alphabet-q2-2026-earnings-transcript-2026-09-23.md` (3) |
+| H18 | An engine or network publishes an AI-answer rate card | not registered | not registered | P12: **confirmed**; R-BLOCKED-2: not moved | **confirmed** | `ai-ads-evidence.md:75`; `unknowns.md:193` | `raw/b-kontext-advertisers-page-2026-09-23.md` (3) |
+| H19 | A party outside an engine's ad program sells placement | not registered | not registered | P12: **confirmed**; R-BLOCKED-2: not moved | **confirmed** | `ai-ads-evidence.md:76`; `unknowns.md:194` | `raw/b-microsoft-ads-snap-my-ai-partnership-2026-09-23.md` (3) |
+| H20 | Advertiser reports a controlled AI-ads result, n and window | not registered | not registered | P12: **killed** — 15 screened; R-BLOCKED-2: killed mark stands, near-miss RB1b recorded | **killed** | `ai-ads-evidence.md:77`, `:129`; `unknowns.md:195` | `raw/b-reddit-advertiser-reports-repull2-2026-09-23.md` (5) |
+| H21 | Every P1 engine has two dated tier-3 user counts | not registered | not registered | P13: **killed** | **killed** | `market-potential.md:82`, `:84`; `unknowns.md:196` | `raw/e-anthropic-claude-scale-statements-2026-09-23.md` (3) |
+| H22 | Highest forecast exceeds lowest by more than 3× everywhere | not registered | not registered | P13: **killed** | **killed** | `market-potential.md:82`, `:84`; `unknowns.md:197` | `raw/e-market-size-table-2026-09-22.md` (6); organic 2034 rows (6) |
+| H23 | Peer-reviewed steering technique with code, no named countermeasure | not registered | not registered | P14: **confirmed** | **confirmed** | `frontier-scan.md:61`; `unknowns.md:198` | `raw/d-paper-bias-beware-cognitive-bias-2026-09-23.md` (3); `raw/d-technique-census-c7-2026-09-22.md` (3) |
+| H24 | Paper describes in-answer monetisation no P1 engine offers | not registered | not registered | P14: **confirmed** | **confirmed** | `frontier-scan.md:62`; `unknowns.md:199` | `raw/d-paper-token-auction-mechanism-2026-09-23.md` (4) |
+| H25 | A kept capability runs on public code and models | not registered | not registered | P14: **confirmed** | **confirmed** | `frontier-scan.md:63`; `unknowns.md:200` | `raw/d-paper-strategic-text-sequence-2026-09-23.md` (4); `raw/d-paper-meta-secalign-open-defense-2026-09-23.md` (4) |
+
+**Tallies, one line per source of marks** — each as its source states it, none reconciled:
+
+| Source | Rows | confirmed | killed | unresolved — checked | not produced | Where stated |
+|---|---|---|---|---|---|---|
+| Pass 9, 2026-09-22 file before amendment | 23 | 6 (H2, H6, H8, H13, H16, HE1) | 6 (H3, H4, H5, H11, H14, H15) | 4 (H1, H7, H9, H12) | 7 (H10, HE2, HE3, HP1–HP4) | `unknowns.md:206–223` "Pass 9" column; `biz-review-1:73` "6/6/4/7" |
+| Pass 9 as amended 2026-09-23 per review-1 §9 | 23 | 4 (H2, H8, H13, HE1) | 3 (H3, H4, H14) | 8 (H1, H5, H6, H7, H9, H12, H15, H16) | 8 (H10, H11, HE2, HE3, HP1–HP4) | `unknowns.md:49` |
+| review-1, 2026-09-23 | 23 | 4 | 3 | 8 | 8 | `review-1-2026-09-23.md:41`; disagreements 5 |
+| P8-r | 23 | 4 + 2 dual (H7, H9, loose only) | 3 | 8 (H7, H9 carry both) | 8 | `unknowns.md:112` |
+| P4-r | 3 touched | H6 dual; H11 confirmed | H3 unchanged | H6 dual | H11 leaves `not produced` | `unknowns.md:128` |
+| P11 | 2 touched | H10, H11 | — | — | — | `transition-evidence.md:66–67`, `:74` |
+| P12 | 4 touched | H18, H19 | H17, H20 | — | — | `ai-ads-evidence.md:74–77` |
+| P13 | 3 touched | — | H21, H22 | H16 | — | `market-potential.md:84` |
+| P14 | 5 touched | H23, H24, H25; H13 stands | — | H5 stands | — | `frontier-scan.md:61–65` |
+| R-BLOCKED-2 | 6 touched | H9 (strict → confirmed) | H20 stands; H4 unchanged | H7 unchanged | — | `hypotheses.md` log R-BLOCKED-2; `demand-map.md:148`; `ai-ads-evidence.md:129` |
+| P9-r, 2026-09-23 (latest full register) | 32 | 11 (H2, H8, H10, H11, H13, HE1, H18, H19, H23, H24, H25) + 3 dual (H6, H7, H9) | 7 (H3, H4, H14, H17, H20, H21, H22) | 5 (H1, H5, H12, H15, H16) + 3 dual | 6 (HE2, HE3, HP1–HP4) | `unknowns.md:225`; `STATE.md` Done conditions "26 of 32 scored" |
+| P9-r with R-BLOCKED-2's H9 mark applied | 32 | 12 + 2 dual (H6, H7) | 7 | 5 + 2 dual | 6 | this table — arithmetic on the two rows above, not a new score |
+
+Programme-done Hypotheses row, as `plan.md` "Programme done — addition 2026-09-23" asks: scored 26 of 32; the six named `not produced` are HE2, HE3, HP1, HP2, HP3, HP4, Pass 10 skipped by owner 2026-09-23.
+
+**Caveats, this append.** Marks are copied, not re-scored; where a producing file gives a mark with a qualifier ("loose", "strict", "rule1, narrow", "action named; outcome unknown") the qualifier is part of the mark and stays. Dual marks count once in each of two columns; the "12 + 2 dual" row is this append's arithmetic on stated marks, not a score from any pass. H17–H25 "not registered" for Pass 9 and review-1 is a registration fact (`hypotheses.md` "Additions 2026-09-23"), not a scoring mark. Line numbers cite files as read 2026-09-23 before this append; concurrent appends by other agents do not move lines above them. This file was over its 100-line budget before this append; overrun stated here. Evidence, not a verdict.
+
+## Figures carried twice, COMPILE-2, 2026-09-23
+
+Task COMPILE-2 (Pass 16), per `method/biz-review-solution-2026-09-23.md` §2 (contradictions paragraph). Rows 1–14 are `method/biz-review-1-2026-09-23.md` §4 verbatim; rows 15 on are pairs found in this pass. Both figures stand; nothing reconciled or averaged. Kinds: stale duplicate · two bases · two tiers · two definitions · two sources · two dates · two readings. Line numbers as read 2026-09-23.
+
+| # | Figure A (file:line) | Figure B (file:line) | Kind |
+|---|---|---|---|
+| 1 | Organic floor "$5.3M–$35.2M annualised", tier 5 — `organic-recommendation.md:36`; `executive-brief:22` | Floor "$42.2M–$48.2M + €2.2M", tier 2/5 — `market-potential.md:60`; `organic-recommendation.md:131` | two bases (price × count vs disclosed ARR); same label "floor" |
+| 2 | Segment tally 7/1/11/8 — `demand-map.md:17`; `executive-brief:36`; `director-brief:126` | 8/1/18/0 loose, 8/1/10/8 strict — `demand-map.md:121–124`; 8/1/17/1 strict after R-BLOCKED-2 — `demand-map.md:148` § | stale duplicate; three dated reads |
+| 3 | "15 of 18 published figures are forecasts" — `executive-brief:21`; `whitespace.md:24` | 10 new forecasts added — `market-potential.md:46`, `:84` | stale count |
+| 4 | Agentic spread "roughly 35×" (2029–30) — `agentic-commerce.md:54`; `director-brief:58` | 26.3× (2030 only) — `market-potential.md:54`; `agentic-commerce.md:132` | two bases |
+| 5 | Paid engines live "5 of 8" — `paid-placement.md:39` | "Four engines" — `ai-ads-evidence.md:18`; "two of the three priority-1 engines" — `executive-brief:15` | three counting bases |
+| 6 | Perplexity ads "status read by absence" — `paid-placement.md:82` | "winding down… by the end of 2026", tier 5 — `ai-ads-evidence.md:53` E15 | two dates; older row not annotated |
+| 7 | Within-AIO ads "12 named countries" — `paid-placement.md:76` | "Australia… and US" — `ai-ads-evidence.md:48` E10 | two dates, same page family |
+| 8 | ChatGPT VLOSE, filed tier 2 — `executive-brief:40`; `paid-placement.md:92` | Same fact, analyst-derived tier 5 — `ai-ads-evidence.md:56` E18 | two tiers |
+| 9 | Datos ChatGPT "34.80% share of total desktop visits" — `plan.md:183` | Datos "AI tools 1.65% of desktop search events" — `market-potential.md:41` | two definitions (glossary rows added 2026-09-23) |
+| 10 | AI Mode "1B MAU" 2026-05-19 — `market-potential.md:26` | AI Mode "query share 0.34%" Jan–Apr 2026 — `plan.md:185` | two definitions; not contradictory |
+| 11 | Hypothesis tallies 6/6/4/7 (Pass 9), 4/3/8/8 (review-1), "4 + 2 dual" — `unknowns.md:49`, `:112` | H17–H25 marks only in `ai-ads-evidence.md:74–77`, `market-potential.md:84`, `frontier-scan.md:61–63`; 32-row register now above | stale duplicate; closed this pass |
+| 12 | Pass 10 "held" — `director-brief:36`, `:245` | "skipped by owner" — `plan.md:320–328`; `STATE.md` Done conditions | stale status wording |
+| 13 | By-file tier-3 counts "demand-map 6 of 6, whitespace 6 of 8" — `unknowns.md:55` | Headers "5 of 7" (`demand-map.md:9`), "4 of 8" (`whitespace.md:9`) | stale roll-up; restated below |
+| 14 | Copilot Checkout fee 0% — `agentic-commerce.md:25`, `:89` | `unknown` — `raw/c-agentic-commerce-protocols-table-2026-09-22.md` | two pulls, one FAQ; recorded at `agentic-commerce.md:119` |
+| 15 | Peec AI ARR "more than $4 million", 2025-11-17 — `competitors/peec-ai.md:26`; `market-potential.md:60` | "10m", 2026-05-23 headline slug — `peec-ai.md:26`; `organic-recommendation.md:115` | two dates, two sources |
+| 16 | geoSurge "$12M seed" — `competitors/geosurge.md:28`; `organic-recommendation.md:28` | "€10M" same round, EU-Startups — `geosurge.md:61`; `organic-recommendation.md:117` | two sources, one round |
+| 17 | Scrunch acquisition "not disclosed", tier 3 — `competitors/scrunch-ai.md:32`; `organic-recommendation.md:87` | "$225 Million", tier 5 — `raw/a-bloomberg-scrunch-sitecore-primary-2026-09-23.md`; `raw/a-vendor-roster-2026-09-22.md` row 1 | two tiers |
+| 18 | Tier-3 share "17 of 25 = 68.0%" — `unknowns.md:55`, `:72` | "12 of 27 = 44.4%" — `review-1:9`; "11 of 25 = 44.0%" — `unknowns.md:179` | two lists, two tier bases |
+| 19 | Silver "7" as graded in raw — `proof-scorecard.md:23`, `:60` | Silver "1" under grading rule 1 — `proof-scorecard.md:23`, `:113` | two readings (grade_raw / grade_rule1) |
+| 20 | Sitefire / Jerry "Bronze (c10)" — `proof-scorecard.md:27`; `competitors/sitefire.md:52` | "Silver (c13)" — same lines | two censuses, one page |
+| 21 | ChatGPT ad presence "0.8% of 500+ prompts" (launch weeks) — `ai-ads-evidence.md:46` E8 | "26% US desktop (Jun)"; "24.7% (Jul)"; "25.94% of 50,006 US prompts" — `ai-ads-evidence.md:45–46` E7, E8 | two dates, panels; not reconciled per `ai-ads-evidence.md:58` |
+| 22 | Amazon Q1 2026 ads growth "up 22%" — `paid-placement.md:141`; `ai-ads-evidence.md:58` | "24%" — PPC Land, same lines | two sources, tier 3 vs 5 |
+| 23 | Hypotheses scored "15 of 23" — `unknowns.md:17`, `:59` | "26 of 32" — `unknowns.md:225`; `STATE.md` Done conditions | stale count |
+| 24 | OpenAI ads "$1 billion in annualized revenue run rate", tier 3 — `paid-placement.md:25`; `ai-ads-evidence.md:39` | "roughly $83 million a month", tier 5 — `paid-placement.md:131`; `ai-ads-evidence.md:40` | two tiers, same fact |
+| 25 | ChatGPT advertisers "tens of thousands", 2026-08-31, tier 3 — `ai-ads-evidence.md:39` | "over 600", 2026-03-26, tier 5 — `ai-ads-evidence.md:40`; panels 820 to 7,378 — `:44` | two dates; panel scopes |
+| 26 | Microsoft "search ad revenue ex-TAC +10%", tier 3 — `paid-placement.md:140`; `ai-ads-evidence.md:51` | same, tier 2 (8-K Ex. 99.1) — `ai-ads-evidence.md:139` | two tiers |
+| 27 | Kontext "Rates starting from just $3 CPM", tier 3 — `paid-placement.md:150` | "$2.50 CPM vs Facebook $7.35 (one pilot)", tier 5 — `paid-placement.md:151` | two kinds (floor vs pilot), two tiers |
+| 28 | Comscore Copilot "US desktop unique visitors" 5.02M, Mar 2026 — `plan.md:187` | Comscore "desktop unique visitors", CustomIQ 33.4M, Dec 2025 — `plan.md:187` | two bases, one publisher |
+| 29 | Similarweb AI Mode "query share 0.34%" — `plan.md:185` | Datos AI Mode "0.16% US, 0.21% EU/UK, share of total desktop visits" — `plan.md:185` | two definitions, two panels |
+| 30 | Rankscale "$20/mo" — `competitors/rankscale-ai.md:22` | "from €20" on /facts — same line; `organic-recommendation.md:117` | two pages, one vendor |
+| 31 | Ahrefs Brand Radar standalone "$199" — `competitors/ahrefs.md:71` | "¥30,600/mo" — same line; `organic-recommendation.md:117` | two pages, geolocated |
+| 32 | RankPrompt Starter "$39 per month" — `INDEX.md:26` | "$49/mo" same page — `INDEX.md:26`; `organic-recommendation.md:117` | one page, two figures |
+| 33 | HubSpot standalone "¥6,000/mo" — `INDEX.md:25` | "$50/mo" — `INDEX.md:25` | two pages, geolocated |
+| 34 | Shopware Rise "€600/mo" — `competitors/shopware.md:77` | "$600" on G2 — same line | two sources |
+| 35 | Similarweb ticker SMWB "Nasdaq" — `competitors/similarweb.md:11` | "NYSE" own release 2026-08-17 — same line | two sources |
+| 36 | Peec AI headcount "the 20-person startup", 2025-11 — `competitors/peec-ai.md:27` | "around 70+ people", undated — same line | two dates |
+| 37 | Peec AI customers "1,300 companies and agencies" — `peec-ai.md:28` | "Trusted by 3000+ brands and agencies" — same line | two dates, two units |
+| 38 | SE Ranking ARR "$35M", 2024 — `INDEX.md:42` | "$21M", 2024 — same line; `competitors/se-ranking.md:78` | two aggregators, one year |
+| 39 | Change Agents "AWS gave $125,000 project funding" — `competitors/change-agents-corp.md:31` | not found in the S-1/A or 10-Q — `change-agents-corp.md:89` | tier-5 substitute vs tier-2 filing |
+| 40 | Similarweb "share of worldwide generative AI web traffic" ChatGPT ~53%, May 2026 — `plan.md:183` | StatCounter "AI Chatbot Market Share" 79.4%, Aug 2026 — `plan.md:183` | two definitions, two publishers |
+| 41 | Skincare × Agentic × Enterprise reads "spend" — `demand-map.md:135`, `:52` | Same cell reads "attention" — e.l.f. posting tier 3, "below the tier-5 spend floor" — `agentic-commerce.md:105` | two readings, two compilers |
+
+41 pairs: 14 from review §4, 27 found. Kinds: stale duplicate or count 6; two bases or definitions 9; two tiers 5; two sources, dates or pages 17; two readings 3; two pulls 1.
+
+**Caveats, this section.** A pair is listed so the brief writer sees both figures; listing is not a judgment that either is wrong. Rows 30–38 are vendor-page conflicts already carried unreconciled in their profiles; they are repeated here because the profile caveats are not read from `findings/`. Row 11 and row 13 are closed by this pass's appends (register above, roll-up below); the older lines stand unedited. Line numbers were verified 2026-09-23 before this append.
+
+## By-file tier-3 roll-up restated, 2026-09-23
+
+Per `biz-review-1-2026-09-23.md` §4 row 13 and §7 row 21. The stale roll-up at `unknowns.md:55` sits beside each findings file's current header line ("Claims at tier 3 or better"), read 2026-09-23. Headers count every claim the file lists; the L55 roll-up counted load-bearing claims as of 2026-09-22.
+
+| File | Roll-up at `unknowns.md:55` (2026-09-22) | Header line, as read 2026-09-23 | What moved |
+|---|---|---|---|
+| `proof-scorecard.md` | 1 of 6 | 1 of 7 (`:9`) | header counts C1–C7; C4 5 → 6 per review-1 §9 |
+| `demand-map.md` | 6 of 6 | 5 of 7 (`:9`) | review-1 §9: header "7 of 7" → "5 of 7"; C1 3 → 5, C6 → n/a |
+| `whitespace.md` | 6 of 8 | 4 of 8 (`:9`) | review-1 §9: "6 of 8" → "4 of 8"; C2 → 6, C8 → 5 |
+| `unknowns.md` | 4 of 5 | 4 of 5 (`:9`) | none in header; C4, C5 → n/a per review-1 §2 |
+| `ai-ads-evidence.md` | not in roll-up | 3 of 5 (`:10`) | file written 2026-09-23 |
+| `market-potential.md` | not in roll-up | 3 of 7 (`:8`) | file written 2026-09-23 |
+| `frontier-scan.md` | not in roll-up | 6 of 9 (`:9`) | file written 2026-09-23 |
+| `transition-evidence.md` | not in roll-up | 5 of 7 (`:9`) | file written 2026-09-23 |
+| `trigger-timeline.md` | not in roll-up | 2 of 2 (`:9`) | file written 2026-09-23 |
+| `review-1-2026-09-23.md` | not in roll-up | "recount 12 of 27 = 44.4%; findings state 17 of 25" (`:9`) | recount, not a file count |
+| `executive-brief-2026-09-23.md`; `director-brief-2026-09-23.md` | not in roll-up | "none new; restates compiled figures" (`:9`) | no own claims |
+
+Sum of the nine header lines with a count: 33 of 57. Stated for diffing only: it is a sum of headers, not a recount on the Pass 9 list (11 of 25 = 44.0%) or the review-1 list (12 of 27 = 44.4%) at `unknowns.md:177–184`, and headers include non-load-bearing claims. Programme-done bar 80% is met by no figure in this section.
+
+**Caveats, this section.** The L55 roll-up is not edited; it is the 2026-09-22 read and stands. Headers are self-reported by each file's author on its file date and were not re-verified claim by claim here; P9-r's itemised recount (`unknowns.md:155–171`) is the verified count. This file was over its 100-line budget before this append; overrun stated here. Evidence, not a verdict.

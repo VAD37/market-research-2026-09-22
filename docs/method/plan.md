@@ -619,3 +619,40 @@ Per user instruction 2026-09-23: the brief bake-off is "a real evaluation report
 - Gate to close: every run has three files and a judge row; user rows filled; finding landed.
 - Does not: pick a method for the user; create a skill under `.claude/`; copy unlicensed method text (StrategyU, aapersh) into `docs/`; use the web inside a run; run any method's own commands.
 - Orchestration: cap in force per `STATE.md`; one model for all runs; agents never run git; main thread adds queue row `P15-brief-eval` and commits after each wave.
+### Line budgets — debt note, AMEND-3, 2026-09-23
+
+Per `biz-review-1-2026-09-23.md` §7 row 22 and `biz-review-solution-2026-09-23.md` §2 row 22. The Line budgets table above is not edited. Counts are `wc -l` on 2026-09-23 after COMPILE-1, P9-r and R-BLOCKED-2 landed and before COMPILE-2's appends; the COMPILE-2 column states what this pass adds. No rewrite was performed.
+
+| File | Lines | Budget | Over by | Appends that took it over (heading, line) | COMPILE-2 adds |
+|---|---|---|---|---|---|
+| `findings/proof-scorecard.md` | 293 | 100 | 193 | Pass 4 re-run (:102); Evidence-quality three-count (:180); Negative tail (:246) | — |
+| `findings/director-brief-2026-09-23.md` | 293 | 100 | 193 | written at 293, no append | — |
+| `findings/unknowns.md` | 232 | 100 | 132 | Pass 8 re-run (:102); Pass 4 re-run (:118); Tier-3 recount, P9-r (:132) | register 32 rows; figures carried twice; roll-up restated |
+| `findings/demand-map.md` | 195 | 100 | 95 | Pass 8 re-run (:102); R-BLOCKED-2 (:148) | — |
+| `findings/review-1-2026-09-23.md` | 160 | 100 | 60 | written at 160, no append | — |
+| `findings/transition-evidence.md` | 144 | 100 | 44 | Evidence-quality three-count (:94); was 93 before it | — |
+| `findings/ai-ads-evidence.md` | 140 | 100 | 40 | R-BLOCKED-2 (:102); Tier revisions, P9-r (:133) | — |
+| `findings/whitespace.md` | 111 | 100 | 11 | Risk register (:93) | — |
+| `findings/market-potential.md` | 100 | 100 | 0 | at budget as written | pricing table |
+| `findings/trigger-timeline.md` | 100 | 100 | 0 | at budget as written | — |
+| `markets/paid-placement.md` | 212 | 120 | 92 | Pass 12 addition (:122); Pass 13 addition (:191); Tier revisions, P9-r (:206) | — |
+| `markets/organic-recommendation.md` | 135 | 120 | 15 | Pass 13 addition (:122) | — |
+| `markets/agentic-commerce.md` | 134 | 120 | 14 | Pass 13 addition (:122) | — |
+| `customers/high-cpa-regulated.md` | 162 | 100 | 62 | Pass 8 re-run (:102); R-BLOCKED-2 (:132) | — |
+| `customers/skincare-beauty.md` | 127 | 100 | 27 | Pass 8 re-run (:102) | — |
+| `customers/b2b-saas.md` | 123 | 100 | 23 | Pass 8 re-run (:102) | — |
+| `competitors/change-agents-corp.md`; `locafy.md` | 91 | 80 | 11 | Tier revisions, P9-r (:79; :80) | — |
+| `competitors/criteo.md`; `feedonomics.md` | 90 | 80 | 10 | Tier revisions, P9-r (:82; :81) | — |
+| `competitors/hubspot.md`; `wix.md`; `yext.md` | 89 | 80 | 9 | Tier revisions, P9-r (:82 each) | — |
+| `competitors/rankscale-ai.md` | 89 | 80 | 9 | written at 89, no append | — |
+| `competitors/otterly-ai.md` | 87 | 80 | 7 | written at 87, no append | — |
+| `competitors/scrunch-ai.md` | 83 | 80 | 3 | written at 83, no append | — |
+| `competitors/INDEX.md` | 58 | one line per company, nothing else | second table | — | funding, M&A and valuation table (per addition 3, COMPILE-2) |
+
+Files over budget: 24 of 55 compiled files (10 findings, 3 markets, 3 customers, 8 profiles) plus `INDEX.md` on its "nothing else" rule; `frontier-scan.md` (88), `executive-brief` (70) and 32 profiles sit at or under budget. Every dated append that took a `markets/` or `findings/` file over states the overrun in its own caveats, per "Pass sequence — additions 2026-09-23" line 350.
+
+**Rule for the compression pass, when it runs.** A compression pass compresses prose only: hedging, filler, restatement of a table row in prose, a fact stated twice in one file. It never removes a number, a date, a source label, a tier, a quoted string, a URL or a `raw/` path; conflicting figures stay side by side; dated appends stay dated and in order; `raw/` is exempt (root `CLAUDE.md` Compression). A file over budget is method debt, not an error in the evidence; the debt is cleared by compressing prose or by splitting a file at a dated heading into a new file that keeps every citation — never by deleting evidence rows to fit a line count.
+
+**Caveats, this note.** Counts are one `wc -l` on 2026-09-23; concurrent P16 appends move them the same day. Briefs and review files were written over budget by their authors, not pushed over by appends. This note names files and rules; it schedules nothing and sets no date for the compression pass (`MegaPlan.md` non-goals).
+
+**Correction, AMEND-3, same day 2026-09-23.** The "Files over budget" line above miscounts the breakdown: files over budget are 24 of 59 compiled files (8 findings, 3 markets, 3 customers, 10 profiles) plus `INDEX.md` on its "nothing else" rule; 31 profiles, `frontier-scan.md` (88) and `executive-brief` (70) sit at or under budget; `market-potential.md` and `trigger-timeline.md` sat at exactly 100 before COMPILE-2. The table rows are unchanged and correct; only the summary line is restated here.
