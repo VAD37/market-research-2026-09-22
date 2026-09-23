@@ -18,15 +18,22 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 ## Queue
 
-Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user priority). Spawn on completion only. Filenames carry the cluster id. Rows marked `10 held` stay held until the user reopens Pass 10.
+Front first. Re-cut 2026-09-23 per `biz-review-solution-2026-09-23.md` §3; user same-day priorities (paywall re-pulls, images) lead. Spawn on completion only. Rows marked `10 held` stay held until the user reopens Pass 10.
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
 | REPULL-1 | re-pull | Opus, `ext` | Work `repull-queue-2026-09-23.csv` priority 1→2 through the extension with the paywall-bypass installed; new raw files `supersedes:` the secondary pull; paywalled text recorded as figures, dates, names, short quotes; data images saved to `docs/raw/img/<stem>/` + `INDEX.csv`; compiled cites re-pointed by append | `docs/raw/*-primary-2026-09-23.md`; `docs/raw/img/`; `blocked-channels.md` re-probe 3; compiled appends |
-| IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in`; write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change | `docs/raw/*-img-2026-09-23.md`; compiled appends; held until REPULL-1 lands |
+| COMPILE-1 | 16 | Opus, no browser | Trigger timeline; risk register (criterion stated, platform capture a row); evidence-quality three-count; tier-2 negative tail table beside positive Silvers | `findings/trigger-timeline.md`; `whitespace.md`, `proof-scorecard.md`, `transition-evidence.md` appends |
+| P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways (held for P4-r) | `findings/*.md` appends; `findings/unknowns.md` append |
+| COMPILE-2 + AMEND-3 | 16 | Opus, no browser | 32-row hypothesis register; funding/M&A/valuation table; cross-sub-market pricing table; glossary rows; unknowns roll-up; figures-carried-twice table; line-budget debt note in plan.md | `unknowns.md`, `INDEX.md`, `market-potential.md`, `glossary.md`, `plan.md` appends |
+| P16-c1 | 16 | Opus, fetch | Search-ad and retail-media baselines beyond Google; budget line stolen from | `markets/paid-placement.md`, `customers/*.md` appends; raw |
+| P16-c2 | 16 | Opus, fetch/`pw` | Publisher monetisation; ad-measurement vendors and OpenAI partner list; compliance tooling | `markets/`, `competitors/`, `whitespace.md` appends; raw |
+| P16-c3 | 16 | Opus, fetch | Brand-accuracy signal S13; EU depth and engine share | `demand-signals.md` addition; `markets/`, `customers/` appends; raw |
+| P16-c4 | 16 | Opus, `ext` for Indeed | Local/multi-location vertical; engine × segment; brand-side adoption series; switching cost and buying process | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md` appends; raw |
+| IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in`; write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change (held until REPULL-1 lands) | `docs/raw/*-img-2026-09-23.md`; compiled appends |
 | REV-BIZ-B | review | Opus | Bake-off output-needs review: what each of the 10 brief methods and the judge columns demand as input; which inputs the repo lacks; how BRIEF-4 input should be shaped | `docs/method/biz-review-2-bakeoff-2026-09-23.md` |
-| BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
+| BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after COMPILE-1/2 and P16) | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
+| P15 | 15 | Opus ×11 + judge | Brief bake-off per `brief-bakeoff/README.md`; last pass | `brief-bakeoff/runs/`, `judge/`, `scoresheet.csv`; `findings/brief-method-eval-<date>.md` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
 ## Landed
@@ -196,6 +203,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | User installed a paywall-bypass extension in Chrome; the `ext` slot may now open pages earlier recorded as paywalled. REPULL-AUDIT (read-only) inventories every raw pull that carries a secondary source in place of a blocked primary and ranks a repull queue; REPULL-1 then re-pulls through `ext` in priority order, ahead of REV-BIZ-B. Rule appended to `plan.md` Orchestration: bypass applies to paywalls only; bot walls, login walls and CAPTCHAs stay untouched; paywalled text is recorded as figures, dates, names and short quotes, never full article text | User: "I have install paywall bypass for chrome browser ... report full site instead you dont have to find original source anymore ... investigate and repull anything that need to pull from web again" |
 | 2026-09-23 | R-BLOCKED-2 asked for a mid-run progress and quality block in STATE; if remaining work exceeds ~40 tool rounds it lands the Reddit/Arctic Shift part first and hands Indeed/TED remainder back for a split spawn | User: "ArticShift reddit agent run really long ... report summary ... maybe split tasks" |
 | 2026-09-23 | Image pulls: every re-pull and new pull saves data-bearing images (charts, image tables, dashboards) to `docs/raw/img/<raw-file-stem>/`, indexed in `docs/raw/img/INDEX.csv`; analysis is a separate later pass IMG-1 writing `<stem>-img-<date>.md` raw transcriptions then compiled appends. Rule in `plan.md` Orchestration | User: "pull image raw too since it might include chart and metric critical ... run attached image analyze later ... how you organize pulled img is up to you" |
+| 2026-09-23 | REV-BIZ-A accepted in full; `biz-review-solution-2026-09-23.md` maps 22 gaps to COMPILE-1/2, AMEND-3, P16-c1…c4, BRIEF-4, one credential-blocked; queue re-cut with REPULL-1 and COMPILE-1 at front; Pass 16 registered in `plan.md` addition 3 | Compile-before-pull: 12 gaps close from raw already pulled; user's same-day paywall and image instructions rank first |
 
 ## Unknowns
 

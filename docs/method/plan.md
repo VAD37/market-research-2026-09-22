@@ -390,6 +390,21 @@ Every pass below may pull by extension (`ext`) or Playwright (`pw`), including c
 - **P4-r.** Scope, line 26: Reddit, G2, sec.gov, ~107 unchecked brand pages (`raw/e-case-census-c7-2026-09-22.md`), 25 unopened titles; metric-moved experimental cases only. Qualified when: every opened case carries `grade_raw`, `grade_rule1` and the evidence-quality fields; every brand page reads corroborates, contradicts or silent, with URL; every unopened title is opened or recorded unreachable; screened and cleared counts stated per vertical and per channel; blocked channels logged.
 - **P9-r.** Scope, line 29. Qualified when: every re-evidenced claim cites a new dated raw file at tier 3 or better; the tier-3 share is recounted on both the Pass 9 and review-1 lists, each reported three ways per "Tier-3 share — reporting splits, 2026-09-23" and itemised file:claim; H17 onward scored where the producing pass landed, `not produced` otherwise; prior marks kept beside new ones.
 
+### Pass sequence — addition 3, 2026-09-23
+
+Per `biz-review-1-2026-09-23.md` and `biz-review-solution-2026-09-23.md`. No row above is edited.
+
+| # | Pass | Question | Deliverable | Gate — needs |
+|---|---|---|---|---|
+| 16 | Widen and compile | Which overview-level inputs a cold business analyst needs are still missing after Passes 0–14, and which close from raw already pulled | COMPILE-1, COMPILE-2 appends; `findings/trigger-timeline.md`; `customers/local-multi-location.md`; P16-c1…c4 raw pulls and appends | REV-BIZ-A landed (done); COMPILE-1 needs no browser |
+
+**Pass 16 — widen and compile.** All lanes, compilation first.
+
+- COMPILE-1 (desk, no browser): dated external-trigger timeline; risk register with stated ranking criterion, platform capture as a row; evidence-quality three-count per `plan.md` L146–155; tier-2 negative tail in one table beside the positive Silvers.
+- COMPILE-2 (desk): 32-row hypothesis register with every prior mark side by side; funding, M&A and valuation table; cross-sub-market pricing table; glossary rows; `unknowns.md` roll-up restated; "figures carried twice" table.
+- P16-c1 baseline: search-ad and retail-media baselines beyond Google (MSFT, AMZN 10-K; IAB/PwC; MAGNA); budget line stolen from, per segment. P16-c2 supply side: publisher monetisation (pay-per-crawl, licensing), ad-measurement and attribution vendors, compliance tooling for DSA Art. 39 and AI Act Art. 50. P16-c3 signals and regions: brand-accuracy demand signal S13; EU depth outside DE and EU engine share. P16-c4 segments: local and multi-location vertical, engine × segment read from postings, brand-side adoption series, switching cost and buying process.
+- Does not: reopen Pass 10; average any pair of figures; write a verdict; fill a cell from memory. Every append cites raw; `unknown — checked` where the channel is silent.
+
 ## Staleness rule
 
 Engines change monthly. Any `raw/` pull older than one quarter at the time a compiled file cites it is re-checked first, and the re-check dated. Competitor profiles older than one quarter are stale per `scope.md`. Every compiled file states the oldest pull it depends on.
