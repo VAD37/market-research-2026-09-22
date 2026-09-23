@@ -98,3 +98,33 @@
 - Eight cells read `blank`, not `none`: the sources naming this vertical omit the buyer band, and S3, S9 and two thirds of S10 were never reached. `demand-signals.md`: a blank is never written as `none`.
 - The credit-card sub-vertical returned zero marketing postings across nine LinkedIn queries, and four supplement filers zero EDGAR hits — an absence on the channels named, not proven silence. Publication bias runs one way: quiet spending leaves no public trace, so `blank` and `none` are weaker evidence than `spend`.
 - No read rests on a vendor target-customer page: the S11 sweep's `primeaxiom.ai/geo/geo-for-insurance` and `viewership.ai/industries/insurance` hits are sell-side claims, excluded. A list price is not a price paid; Simply Business's $114,700–$189,200 is compensation, not a price paid.
+
+### Pass 8 re-run, 2026-09-23
+
+Task P8-r. Runs S2, S3, S9, S10 across all nine cells (previously unchecked or partial per `plan-review-2-2026-09-23.md` §5), and bands every S1/S2/S7/S8 name found without one 2026-09-22. Raw: `raw/f-signal-hr-band-attribution-2026-09-23.md` (headcount); `raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md` (S2 paid/agentic); `raw/a-funding-crunchbase-pitchbook-repull-2026-09-23.md` (S3, R-BLOCKED); `raw/f-google-trends-S9-repull-2026-09-23.md` (S9, R-BLOCKED); `raw/f-procurement-S10-repull-2026-09-23.md` (S10, R-BLOCKED).
+
+**Bands resolved (S1, S2, S7, S8 names), headcount, tier 5 (aggregator/LinkedIn, hidden method):** GEICO 26,142 (Enterprise); Amica 3,132–3,524 (Enterprise); Embrace Pet Insurance 201–202 (**Mid-market**); Insurify 166–242 (**Mid-market**); The Juice Plus+ Company 3,875 (Enterprise); Simply Business 850–851 (**Mid-market**); Jerry.ai 392–394 (Mid-market); Zurich Insurance UK ~5,000 (Enterprise); The Hartford 18,100–27,220 (Enterprise, three sources, not averaged); Aetna ~40,000–41,000 (Enterprise); MidFirst Bank 1,640–3,300 (Enterprise, four sources, not averaged); Primerica 45,392 total / 2,800+ corporate (Enterprise either way); NerdWallet 735 (Mid-market); Mutual of Omaha 6,000–9,500 (Enterprise); Franklin Templeton 9,800–12,000 (Enterprise); John Lewis Financial Services — `unknown — checked LinkedIn, Wikipedia, Statista, Revelio Labs, ZoomInfo 2026-09-23` for the unit itself; parent John Lewis Partnership ~74,000 found but not applied to the cell (division ≠ company; `unassigned` stands, per boundary rule, moves no cell).
+
+**S2 paid and agentic, all nine cells:** `none — checked` — Google Direct Offers pilot names Petco, e.l.f. Cosmetics, Samsonite, Rugs USA, Shopify merchants; ChatGPT/Google AI Mode agentic-checkout rosters name Wayfair, Chewy, Etsy; Perplexity Instant Buy names no roster. No insurance, card or supplement name in any roster — `raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md`.
+
+**S3, all nine cells:** checked, `blank — unattributed` (vertical-level, moves no cell). Vendor funding found: AthenaHQ seed $2.1M (01-Apr-2025); Peec AI seed $8.08M (02-Jul-2025), Series A undated; Profound Series D $180M (15-Sep-2026) — all filed via PitchBook/Crunchbase free previews, tier 5. None ties to a high-CPA customer; these are organic-recommendation-tool vendors, not paid or agentic vendors.
+
+**S9, all nine cells:** checked, `blank — unattributed` (vertical-level). Google Trends "AI visibility insurance", US, past 12 months: average index 7 (of 100, normalised against "generative engine optimization" 35 and "AI search optimization" 42 in the same comparison) — nonzero but not decomposable by sub-market or buyer size.
+
+**S10, all nine cells:** mixed. SAM.gov exact-phrase, active records: "No matches found" — checked, zero. UK Contracts Finder: "We've found 667 notices" but the keyword URL parameter is not applied by the page — exhausted, untrusted, not a clean zero. TED: "Human Verification" wall — **blocked**, `blocked-channels.md` row stands, not exhausted.
+
+**Cell reads, updated:**
+
+| Cell | Change | New read | Deciding signal |
+|---|---|---|---|
+| Organic / Mid-market | blank → **spend** | **spend** | S1 — Embrace Pet Insurance (201 emp., "Organic Search / SEO Manager"), Insurify (166–242 emp., "AI Search & Discovery (GEO/AEO)"), Simply Business (850 emp., "SEO & GEO"); tier 3, all Mid-market by headcount |
+| Organic / Enterprise | spend (reinforced) | spend | GEICO, Amica, Juice Plus+ now band Enterprise (S1); Zurich UK, Hartford, Aetna, MidFirst Bank band Enterprise (S2); Primerica, Mutual of Omaha, Franklin Templeton band Enterprise (S7/S8) |
+| Organic / SMB | blank → **none — checked** (loose) / blank (strict) | none (loose) / blank (strict) | No S1/S2/S7/S8 name bands SMB; S3, S9 checked-unattributed; S10 blocked (TED) |
+| Paid / SMB, Mid, Enterprise (×3) | blank → **none — checked** (loose) / blank (strict) | none (loose) / blank (strict) | S2 checked-none (Direct Offers roster); S3, S9 checked-unattributed; S10 blocked (TED) |
+| Agentic / SMB, Mid, Enterprise (×3) | blank → **none — checked** (loose) / blank (strict) | none (loose) / blank (strict) | S2 checked-none (agentic-checkout rosters); S8 John Lewis Financial Services stays `unassigned` (division, no independent band); S3, S9 checked-unattributed; S10 blocked (TED) |
+
+**Tally, both readings — 9 cells:** loose: spend 2, attention 0, none 7, blank 0 (9 of 9 closed). Strict (TED still blocked counts as unchecked): spend 2, attention 0, none 0, blank 7 (2 of 9 closed). Of the original 8 blanks: 1 closes to spend under the strict reading (Organic/Mid); all 8 close under the loose reading (7 to none, 1 to spend).
+
+**Caveats, this append:** The Mid-market band for Embrace Pet Insurance, Insurify and Simply Business rests on third-party workforce aggregators (Revelio Labs, LeadIQ, Tracxn, GetLatka) whose headcount method is not published on the page — tier 5, hidden method, per `trust-rubric.md`. Sources disagree by tens of employees per company; ranges are recorded, not averaged. John Lewis Financial Services is deliberately left `unassigned` rather than banded to its parent's ~74,000 headcount: a division is not the company, and the boundary rule's proxy order (filing, careers page, network profile) named none for the division itself — accepting the parent would flip Agentic/Enterprise from `none` to `attention`, and is recorded here as a live possibility, not applied. The strict-reading blank on six cells rests entirely on one channel, TED's human-verification wall; UK Contracts Finder's non-functional keyword filter is the second-weakest link (667 unfiltered notices, not inspected for relevance).
+
+File now 128 lines against the 100-line `customer-segment.md` budget; overrun is this append, kept whole rather than cut to fit.

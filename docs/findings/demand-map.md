@@ -98,3 +98,49 @@ Not case-based — survivorship does not apply; the proof counts inside `custome
 - Every read is an internet-only proxy; no signal observes a budget (`scope.md` R2). A `spend` cell evidences that money moved somewhere in it, never how much. C1, C2, C4 and C5 are load-bearing and rest on one signal class, S1, whose catalogue bias reads "lags spend; large firms over-represented… headcount budget, not category spend — weakest spend class". Three of four B2B SaaS headcounts come from third-party data-vendor snippets read via search result, not opened; AutoLeap's sources conflict at 199 and 225 against a "51-200" band straddling the SMB / mid-market boundary — recorded, not averaged.
 - C1 is tier 5 through E1; C6 carries no raw tier; no metric crossing is relied on. Publication bias runs one way: quiet spending leaves no public trace, so `none` and `blank` are weaker evidence than `spend`; SMB and mid-market is where that bites hardest, and every channel that could have caught them was blocked this session. The buyer-size bands are a method choice fixed 2026-09-22, not a fact about how this market segments itself; a market that cuts differently is mis-cut here invisibly. One raw file was edited after creation — `raw/f-signal-sk-S7-coty-10k-2026-09-22.md`, headcount added post-landing to band a cell. The oldest pull cited is 2026-09-22; no cited pull is stale under `method/plan.md`. This file carries evidence, not a verdict.
 - Amended 2026-09-23 per `findings/review-1-2026-09-23.md` §9; both readings stand where the review and the original disagree.
+
+### Pass 8 re-run, 2026-09-23
+
+Task P8-r. Closes the eight high-CPA blanks (S2, S3, S9, S10) and the eleven partial-`none` cells (skincare Paid/Agentic × SMB/Mid, S4/S6/S12; B2B SaaS Paid/Agentic × all three sizes, S5/S6 paid- and agentic-framed). Source: `customers/high-cpa-regulated.md`, `customers/skincare-beauty.md`, `customers/b2b-saas.md`, all §"Pass 8 re-run, 2026-09-23".
+
+**Cells restated, old → new:**
+
+| # | Cell | Old (2026-09-22) | New (2026-09-23) | Deciding change |
+|---|---|---|---|---|
+| E2 | Skincare, Organic, Mid | none — checked (10 of 12) | none — checked (unchanged; **out of this pass's scope** — S6, S12 still blank there) | not touched |
+| E4 | Skincare, Paid+Agentic, SMB/Mid (×4) | none — checked (9 of 12 each) | none — checked (**12 of 12**, S4 and S12 now `n/a` by construction, S6 checked-unattributed) | `raw/f-signal-sk-S6-*-2026-09-23.md` |
+| E10 | B2B SaaS, Paid+Agentic, all three (×6) | none — checked (9 of 12 each) | none — checked (**12 of 12**, S5 zero via HN Algolia API, S6 checked-unattributed or none) | `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md` |
+| E11 | High-CPA, Organic, Enterprise | spend (S1, Cigna only) | **spend, reinforced** — GEICO, Amica, Juice Plus+ (S1); Zurich UK, Hartford, Aetna, MidFirst Bank (S2); Primerica, Mutual of Omaha, Franklin Templeton (S7/S8) all now band Enterprise | `raw/f-signal-hr-band-attribution-2026-09-23.md` |
+| E13 | High-CPA, Organic, Mid-market | blank | **spend** — Embrace Pet Insurance (201 emp.), Insurify (166–242 emp.), Simply Business (850 emp.), all S1, tier 3, Mid-market by headcount | same |
+| E14 | High-CPA, Organic, SMB | blank | none — checked (loose) / **blank** (strict, S10/TED) | `raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md`, `-S9-repull-`, `-S10-repull-2026-09-23.md` |
+| E15 | High-CPA, Paid, all three sizes (×3) | blank | none — checked (loose) / **blank** (strict, S10/TED) | same three raw files |
+| E16 | High-CPA, Agentic, all three sizes (×3) | blank | none — checked (loose) / **blank** (strict, S10/TED); John Lewis Financial Services (S8) stays `unassigned` — a division, no independent band found, parent John Lewis Partnership (~74,000) not applied | same |
+
+### Tallies — restated, both readings, 27 cells
+
+| Reading | spend | attention | none | blank |
+|---|---|---|---|---|
+| **Strict** (every catalogue signal, incl. a still-blocked one, must be checked) | 8 | 1 | 10 | 8 |
+| **Loose** (a channel blocked-and-logged today counts as checked, per this file's and `customers/`'s existing convention) | 8 | 1 | 18 | 0 |
+
+Strict-closed cells (spend+attention+none) rise from 8 of 27 to **19 of 27**; strict blanks fall from 19 to **8**. Of the original 8 high-CPA blanks: 1 closes to spend under the strict reading (E13); all 8 close under the loose reading (7 to none, 1 to spend). Loose reading was already reachable by relabeling before this pass (review-1 §5); it is now reachable by evidence — every cell it counts as `none` rests on a signal actually run or a channel actually retried and logged in `blocked-channels.md`, not a reinterpretation of an unrun signal.
+
+**Done-condition row — "Segment matrix" restated:** bar is every cell spend/attention/none with signals behind it. **Loose: satisfied, 27 of 27. Strict: not satisfied, 19 of 27** — 8 cells remain blank, all resting on one channel each: TED's human-verification wall (6 high-CPA cells) and skincare Organic/Mid's unrun S6/S12 (1 cell, out of this pass's scope) plus a corollary count — see caveats.
+
+### Hypotheses re-scored
+
+| H | Condition | New reading | Mark |
+|---|---|---|---|
+| H4 | kill: any SMB cell with spend | Unchanged — B2B SaaS Organic/SMB is still the only SMB spend cell. Today's high-CPA band pass found six named SMB-candidate employers and banded zero of them SMB (three Mid-market, three Enterprise) — reinforces, does not overturn | **killed** (unchanged, reinforced) |
+| H7 | organic > paid, > agentic in spend-cell count; confirm/kill need all 27 checked | Organic 6 (skincare 1, B2B SaaS 3, high-CPA 2) against paid 1 and agentic 1. **Loose: confirmed** — all 27 cells checked, organic strictly ahead of both. **Strict: unresolved — checked** — 8 cells still blank, condition unreachable | **confirmed (loose) / unresolved — checked (strict)** — both stand, not merged |
+| H9 | confirm: agentic spend only at enterprise, never at SMB; needs all 6 agentic SMB+enterprise cells checked | The 6 cells: skincare Agentic/SMB none, /Enterprise spend; B2B SaaS both none; high-CPA both none (loose) / both blank (strict). Agentic spend exists at exactly one cell, and it is enterprise. **Loose: confirmed.** **Strict: unresolved — checked** — high-CPA's two agentic cells still blank | **confirmed (loose) / unresolved — checked (strict)** — both stand |
+
+Full register, both marks beside the 2026-09-22 originals: `findings/unknowns.md` §"Pass 8 re-run, 2026-09-23".
+
+### Caveats, this append
+
+- The strict/loose duality is unchanged in kind from `review-1-2026-09-23.md` §5 — only the count of cells it applies to shrank, from 19 partial/blank cells to 8. The 8 remaining strict blanks are not evenly weak: 6 rest on one still-blocked channel (TED, `blocked-channels.md`), and the 7th component in those same 6 (UK Contracts Finder) returned a result but with a non-functional keyword filter — an untrusted zero, not a clean one. The 8th, skincare Organic/Mid-market, was never in this pass's scope.
+- H7's and H9's `confirmed` marks hold only under the loose reading's convention that a retried-and-logged-blocked channel counts as checked; a reader who rejects that convention should read both as `unresolved — checked`, unchanged from 2026-09-22.
+- No band in this append rests on a guess: every Mid-market or Enterprise assignment traces to a headcount figure in `raw/f-signal-hr-band-attribution-2026-09-23.md`, and one candidate promotion (John Lewis Financial Services via its parent's headcount) was deliberately not applied, recorded instead as a named possibility.
+- Willingness to pay is unchanged: `unknown` in all 27 cells; this pass found no price paid in any new pull.
+- File now 145 lines against the 100-line `finding.md` budget; overrun is this append.

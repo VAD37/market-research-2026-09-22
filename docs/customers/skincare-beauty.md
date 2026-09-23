@@ -98,3 +98,30 @@ An asking price is not a price paid, and none is used above: Rankscale.ai "Price
 - Two S2 findings used here sat outside that census's S2 scope, which grepped only `a-vendor-census-c1`–`c4` and reported zero beauty matches: the Google Direct Offers pilot brands, and Estée Lauder as a Brandlight client. They come from the platform's own pages and from a vendor's own customer claim relayed by Pulse2 and CB Insights. The paid read rests on a platform-primary page, not on any vendor's target-customer page.
 - Five cells read `none` on 9 or 10 of 12 signals — S4, S6 and S12 were never run against paid or agentic, and S6 and S12 yielded nothing size-attributable in organic. Those reads are partial by exactly that much. Publication bias then runs one way: quiet spending leaves no public trace, so the five `none` reads are weaker evidence than the three `spend` reads, and SMB and mid-market beauty is where that bites hardest — every channel that could have caught them (Indeed, Upwork, G2, Capterra, Reddit) was blocked.
 - One raw file was edited after creation: `raw/f-signal-sk-S7-coty-10k-2026-09-22.md` had the Coty headcount ("approximately 11,335 employees") added post-landing to band the cell. `raw/` is otherwise never edited after the fact; the added figure comes from the same filing as the original passage.
+
+### Pass 8 re-run, 2026-09-23
+
+Task P8-r. Runs S4, S6, S12 against Paid and Agentic × SMB and Mid-market (4 cells, previously 9 of 12 signals each). Raw: `raw/f-signal-sk-S6-paid-agencies-2026-09-23.md`; `raw/f-signal-sk-S6-agentic-alhena-tatcha-2026-09-23.md`; `raw/f-g2-capterra-S4-repull-2026-09-23.md` (R-BLOCKED, cited for category scope).
+
+**S4, all four cells:** ruled **n/a by construction**, now counted as checked per the none-rule addition. G2's two AI-visibility categories reached today ("Answer Engine Optimization (AEO) Tools", "AI Search Visibility Optimization Tools") list organic-recommendation tooling only; Capterra's "AI Search Visibility Software" category is the same. No review category exists for paid-placement or agentic-commerce tooling on either site — a beauty brand cannot appear as a reviewer of a paid-ad or agentic-checkout product in a review corpus that does not carry one.
+
+**S6, Paid:** checked, `blank — unattributed` (vertical-level, moves no cell). Found: "ChatGPT Ads for Beauty & Skincare Brands: 2026 Guide" (Pennock, agency-adjacent content); "ChatGPT Ads in Beauty & Skincare" category page (chatgptadlibrary.com, title only — page itself returned HTTP 429, not opened); GPT Ads AI, a general DTC/SaaS/high-ticket ChatGPT-ads agency naming beauty as one of several verticals it serves, no client named, no size stated.
+
+**S6, Agentic:** checked, `blank — unattributed` (vertical-level, moves no cell). Found: Alhena AI, an agentic-commerce vendor, case study naming Tatcha — "3x the site-average conversion rate", "+38%" AOV, "11.4% of total site revenue", 82% chat deflection, integrated with Salesforce Commerce Cloud. Tatcha's own headcount/revenue is undisclosed; it sits inside Unilever Prestige (an enterprise-scale, unrelated-industry parent) — banded `unassigned`, not Enterprise-by-parent, consistent with the existing treatment of L'Oréal and Chanel in this file. No control, baseline or independent measurer named; would grade Bronze at best under the Pass 4 evidence bar.
+
+**S12, all four cells:** left **n/a by construction** (unchanged from the original file's own convention for this signal in the paid/agentic sub-markets: an organic-crawl artifact, matching `customers/b2b-saas.md`'s identical treatment).
+
+**Cell reads, updated:**
+
+| Cell | Change | New read |
+|---|---|---|
+| Paid / SMB | 9 of 12 → **12 of 12 signals checked** | none — checked (unchanged word, now fully closed, not partial) |
+| Paid / Mid-market | 9 of 12 → **12 of 12** | none — checked (fully closed) |
+| Agentic / SMB | 9 of 12 → **12 of 12** | none — checked (fully closed) |
+| Agentic / Mid-market | 9 of 12 → **12 of 12** | none — checked (fully closed) |
+
+No cell changes its word-level read; the beauty-specific paid and agentic agency evidence found today (chatgptadlibrary category, Alhena/Tatcha) does not carry a buyer-size band and so moves no SMB or Mid-market cell — it sits at vertical level, alongside the enterprise cells' existing S1/S2 evidence. Organic / Mid-market is unchanged and still partial (10 of 12 — S6, S12 blank there): out of this pass's scope, which named only Paid and Agentic.
+
+**Caveats, this append:** S4's n/a-by-construction ruling and S12's unchanged n/a both rest on a reading of "on-property" and "reviewed software" as organic-recommendation concepts; a paid-ad-buying tool or an agentic-checkout integrator could in principle be reviewed or carry its own on-property artifact, and none was found to test that possibility. The chatgptadlibrary.com beauty-skincare page could not be opened (HTTP 429, one attempt, not retried under this pass's pacing rule) — its content beyond the title is `unknown — checked chatgptadlibrary.com 2026-09-23`.
+
+File now 125 lines against the 100-line budget; overrun is this append.

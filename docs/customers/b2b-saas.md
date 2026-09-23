@@ -98,3 +98,26 @@ Postings: `raw/f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md` (3). Cases:
 - **All three spend reads rest on a single signal, S1, at tier 3.** `demand-signals.md` calls S1 "headcount budget, not category spend — weakest spend class", lagging spend and over-representing large firms. Three of the four postings' headcounts come from third-party data-vendor snippets (PitchBook, Revelio Labs, ZoomInfo, LeadIQ, RocketReach) read via search snippet, not opened; only Pennylane's "More than 1,100 Pennylaners" is primary. AutoLeap's sources conflict — 199 and 225 against a "51-200" range straddling the SMB / mid-market boundary — recorded, not averaged. LinkedIn's guest API does not enforce exact-phrase matching either — `"generative engine optimization"` returned zero relevant hits across two attempts — so S1 counts here likely undercount real hiring.
 - **The six `none — checked` reads are partial.** S5 and S6 were run with organic-alias terms only, so those cells rest on 9 of 12 signals; several of the nine are access-level blocks (G2, Capterra, Reddit, Trends, Indeed, Upwork) that would have blocked any sub-market equally. 9 browser-backlog items stay open — `raw/f-signal-census-bs-2026-09-22.md` §Browser backlog.
 - Publication bias runs one way: quiet spending leaves no public trace, so `none` reads are weaker evidence than `spend` reads. S12's 90% is measured-by-us at tier 1, but the sample's Enterprise band comes from public-record reputation and was not re-verified in the pull; it decides nothing, its cell already reading spend on S1.
+
+### Pass 8 re-run, 2026-09-23
+
+Task P8-r. Runs S5 and S6 with paid- and agentic-framed query terms against all six Paid and Agentic cells (previously 9 of 12 signals each, S5/S6 run with organic-alias terms only). Raw: `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md`.
+
+**S5, all six cells:** `none — checked`. HN Algolia API, direct fetch, two queries: `"ChatGPT ads" SaaS` → `{"nbHits":0,"hits":[]}`; `agentic commerce SaaS checkout` → `{"nbHits":0,"hits":[]}`. A published zero, tier 4 per `demand-signals.md`'s "4 if the platform publishes counts". reddit.com stays blocked (unchanged from 2026-09-22).
+
+**S6, Paid:** checked, `blank — unattributed` (vertical-level, moves no cell). Found, existence only: Obility ("B2B marketing agency with strong reputation in paid search and performance marketing for SaaS"); E2M ("sponsored answer placements for SaaS, B2B, and service brands", direct fetch 403, recorded via search synthesis); InterTeam Marketing ("a B2B SaaS and services advertising agency ... suited for B2B SaaS and service companies looking to test ChatGPT Ads"); Directive Consulting (uses the Scrunch platform to measure AI-answer surfacing). No named client, no n, no date on any of the four — tier 3 on existence, tier 6 on framing.
+
+**S6, Agentic:** `none — checked`. No agency page names B2B SaaS or SaaS specifically as a served vertical for agentic-checkout setup. 1Digital Agency's "Agentic Strategy Consulting" is general e-commerce, not SaaS-named; commercetools' "Agentic Commerce in B2B" is a platform vendor's own blog post naming no client and no agency service.
+
+**Cell reads, updated:**
+
+| Cell | Change | New read |
+|---|---|---|
+| Paid / SMB, Mid-market, Enterprise (×3) | 9 of 12 → **12 of 12 signals checked** | none — checked (unchanged word, now fully closed) |
+| Agentic / SMB, Mid-market, Enterprise (×3) | 9 of 12 → **12 of 12** | none — checked (fully closed) |
+
+No cell changes its word-level read. All nine B2B SaaS cells now read on a fully-checked signal set (12 of 12, counting S12's `n/a` by construction) under both the strict and loose readings — this vertical carries no remaining strict/loose gap.
+
+**Caveats, this append:** The four paid-placement agency hits are generic B2B/SaaS marketing agencies applying a ChatGPT-ads line of business to existing clients, not agencies built around AI-answer placement specifically; none discloses a client roster or a buyer-size band, so none moves a cell. E2M's claim is recorded via search-tool synthesis only — its own page refused a direct fetch (HTTP 403) — and is flagged `verbatim: partial` in the raw file.
+
+File now 121 lines against the 100-line budget; overrun is this append.
