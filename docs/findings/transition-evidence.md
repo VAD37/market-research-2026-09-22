@@ -149,7 +149,7 @@ Caveats, this append: (b) rests on the grade table's reading of Bronze as a move
 
 ### Primary re-pull RP2-A, 2026-09-23
 
-- T6 Ulta Beauty (L27, L105) — "among the first retailers to implement the protocol at scale," screened — no claim, tier 5 (BeautyMatter, 2026-04-24). Primary located: Ulta Beauty's own IR press release of the same announcement, released 2026-04-22 (predates the BeautyMatter relay by two days), quotes match verbatim. Grade unchanged (screened — no claim, no visibility/traffic/sales metric); tier upgrades **5 to 3** (platform primary). Raw: `raw/e-case-ulta-google-gemini-primary-2026-09-23.md`.
+- T6 Ulta Beauty (L27, L105) — "among the first retailers to implement the protocol at scale," screened — no claim, tier 5 (BeautyMatter, 2026-04-24). Primary located: Ulta Beauty's own IR press release of the same announcement, released 2026-04-22, quotes match verbatim. Grade unchanged (screened — no claim, no visibility/traffic/sales metric); tier upgrades **5 to 3** (platform primary). Raw: `raw/e-case-ulta-google-gemini-primary-2026-09-23.md`.
 
 ### Primary re-pull RP2-A, 2026-09-23
 
