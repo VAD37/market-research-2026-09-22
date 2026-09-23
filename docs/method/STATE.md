@@ -18,6 +18,7 @@ Cap 7 from 2026-09-23 (user); falls back to 3 when the session token counter sho
 | P16-c1 | Opus, fetch/`pw` | Search-ad and retail-media baselines beyond Google (MSFT, AMZN, META, RDDT filings; IAB/PwC, MAGNA); budget line stolen from, per segment | `markets/paid-placement.md`, `customers/*.md`, `market-potential.md` appends; raw | 2026-09-23 |
 | P16-c2 | Opus, fetch/`pw` | Publisher monetisation (pay-per-crawl, licensing, publisher 10-Ks); AI-ads measurement vendors + OpenAI partner list; DSA Art. 39 / AI Act Art. 50 compliance tooling | `markets/organic-recommendation.md`, `competitors/`, `INDEX.md`, `whitespace.md` appends; raw | 2026-09-23 |
 | P16-c3 | Opus, fetch/`pw`, Arctic Shift | Brand-accuracy signal S13 defined and read across 27 cells; EU depth UK/FR/ES/IT/NL, EU engine share | `demand-signals.md` addition; `customers/*.md`, `market-potential.md`, `markets/*.md` appends; raw | 2026-09-23 |
+| P16-c4 | Opus, fetch/`pw`, Arctic Shift | Local / multi-location vertical (9 cells, P8 pattern); reserve-vertical trigger read; engine × segment counts; brand-side adoption series (Wayback); switching cost and buying process from T&Cs. Indeed excluded | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md`, `demand-map.md` appends; raw | 2026-09-23 |
 
 ## Queue
 
@@ -26,7 +27,7 @@ Front first. Re-cut 2026-09-23 per `biz-review-solution-2026-09-23.md` §3; user
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | COMPILE-2 + AMEND-3 | 16 | Opus, no browser (after P9-r: shares unknowns.md) | 32-row hypothesis register; funding/M&A/valuation table; cross-sub-market pricing table; glossary rows; unknowns roll-up; figures-carried-twice table; line-budget debt note in plan.md | `unknowns.md`, `INDEX.md`, `market-potential.md`, `glossary.md`, `plan.md` appends |
-| P16-c4 | 16 | Opus, `ext` for Indeed (after REPULL-1; takes R-BLOCKED-2's Indeed remainder, 34 of 36 searches, paced) | Local/multi-location vertical; engine × segment; brand-side adoption series; switching cost and buying process | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md` appends; raw |
+| P16-c4b | 16 | Opus, `ext` | Indeed S1 remainder handed back by R-BLOCKED-2: 34 of 36 queries, posting bodies and employer sizes for the 35 captured postings, paced to avoid "Too Many Requests"; stop at any verification wall (after REPULL-1 frees `ext`) | `docs/raw/f-indeed-S1-repull3-2026-09-23.md`; `customers/*.md`, `customers/local-multi-location.md` appends |
 | IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in`; write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change (held until REPULL-1 lands) | `docs/raw/*-img-2026-09-23.md`; compiled appends |
 | REV-BIZ-B | review | Opus | Bake-off output-needs review: what each of the 10 brief methods and the judge columns demand as input; which inputs the repo lacks; how BRIEF-4 input should be shaped | `docs/method/biz-review-2-bakeoff-2026-09-23.md` |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after COMPILE-1/2 and P16) | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
@@ -207,6 +208,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | P4-r landed → P9-r released; COMPILE-1 spawned in parallel (both no browser, shell appends only, unknowns.md reserved to P9-r). REPULL-1 waits for `ext` (R-BLOCKED-2 still holds it); sec.gov queue rows given to P9-r since Archives answer 200 without a bypass | Cap 3 full: R-BLOCKED-2, COMPILE-1, P9-r |
 | 2026-09-23 | Cap raised by the user 3 → 7 with a usage guard: at every spawn read the session token counter; more than 80% used → cap back to 3. Checked at this spawn: 15.0M tokens left, under the line. Spawned REPULL-1 (`ext`, released by R-BLOCKED-2 whose browser work is done), P16-c1, P16-c2, P16-c3 → 7 live. COMPILE-2 held for P9-r (shares `unknowns.md`); P16-c4 held for `ext` | User: "I increase the cap agent from 3 -> 7. Remember to check for left oever usage. If >80% then cap back to 3" |
 | 2026-09-23 | R-BLOCKED-2 progress read: TED done (tier 2, KKH €11M framework names GEO), Indeed stopped at "Additional Verification Required" after 2 of 36 searches (not solved), Reddit harvest 272 records in progress. Told to finish Reddit at reduced scope and land; Indeed remainder → P16-c4 | User asked for a summary and a split |
+| 2026-09-23 | R-BLOCKED-2 landed → P16-c4 spawned without Indeed (REPULL-1 holds `ext`); Indeed remainder split off as P16-c4b behind REPULL-1. Usage check: 14.97M tokens left, under the 80% line; 7 live | Cap 7 with guard |
 
 ## Unknowns
 
