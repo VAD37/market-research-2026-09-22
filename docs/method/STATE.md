@@ -12,7 +12,6 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-
 | — | — | none live; paused by the user 2026-09-23 | — | — |
 
 Slots free: 8 of 8. Paused 2026-09-23 (user: "pause all agents and save work"); P15 wave 1 Opus continuations stopped mid-run, work on disk committed. Wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
