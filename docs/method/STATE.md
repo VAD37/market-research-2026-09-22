@@ -12,9 +12,10 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| — | — | none live; orphan gap round closed 2026-09-24 | — | — |
+| FP-A…FP-F | opus ×6 | P15 fact pack parts A–F from snapshot 8badc05 | `brief-bakeoff/fact-pack/part-{A..F}.md` | 2026-09-24 |
+| P15-CHECK | opus | judge mechanical-check script | `brief-bakeoff/check-runs.py` | 2026-09-24 |
 
-Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
+Slots free: 0 of 7. P15 R1–R9 spawn together once the fact pack merges (cap lifted for this wave, user 2026-09-24). P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
 
 ## Queue
 
@@ -23,7 +24,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | RP2-B-110 | repull | sonnet | Adobe Q3 report PDF pp. 13–53 (queue row 110) — needs `ext`; extension not connected 2026-09-23 | raw + `agentic-commerce.md` append |
-| P15 wave 1 resume | 15 | Opus ×8 | R0, R0b, R1–R6: finish each run from `runs/<id>/PROMPT.md`, the draft on disk, `prior-attempt-digest.md` (Fable) and `pause-digest-opus.md` (paused Opus finish); on disk at pause: R3 `trace.md`, R5 `_body.tmp`/`_appendix.tmp`, R2 `body.md`; no `notes.md` anywhere. Scratch files deleted before landing | `runs/R0…R6/brief.md`, `notes.md`, `trace.md` |
+| P15 wave 1 resume | 15 | Opus ×8 | R0, R0b done 2026-09-24; R1–R6 queued (evidence = fact pack, one wave with R7–R9): finish each run from `runs/<id>/PROMPT.md`, the draft on disk, `prior-attempt-digest.md` (Fable) and `pause-digest-opus.md` (paused Opus finish); on disk at pause: R3 `trace.md`, R5 `_body.tmp`/`_appendix.tmp`, R2 `body.md`; no `notes.md` anywhere. Scratch files deleted before landing | `runs/R0…R6/brief.md`, `notes.md`, `trace.md` |
 | P15 wave 2 | 15 | Opus ×3 | R7 decision-memo, R8 assumption-audit, R9 mbb-extract — after wave 1 frees slots | `runs/R7…R9/` |
 | P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
@@ -170,6 +171,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | GAP-B lane-B orphan compile (opus) | `markets/paid-placement.md` L302–364 (ChatGPT Ads mechanics, timeline, EU/UK rules, vendor claims) + `findings/ai-ads-evidence.md` L153–167 (E19–E23, H20 stays killed); 51 orphans: 25 compiled, 23 covered (19 by date-less stem cite), 3 not briefable. Four lane-A report-content raws carried only in `method/demand-signals.md` | 2026-09-24 | 8598181 |
 | GAP-ACEF A/C/E/F orphan compile (opus) | Appends: organic L238–256 (ReFiBuy AI1000; landed inside 371b400), agentic L160–176, proof-scorecard L309–336 (X8 ungraded), market-potential L294–323, demand-map L306–327 (EU boards: FR/ES read, UK/IT/NL walled), local L96–107; 47 orphans: 21 compiled, 18 covered, 8 not briefable. Organic L243 "US retailers" wrong, corrected by append L256 | 2026-09-24 | see commit |
 | Snapshot index + raw guide (main thread) | `method/gen-snapshot-index.py` → `snapshot-index.csv/.md`; `raw/CLAUDE.md`; pointer in `docs/CLAUDE.md` §raw; `run-prompt.md` Revision 2; `method/orphan-audit-2026-09-24.md`. Cite match accepts stem without date suffix after GAP-B/ACEF found 19+ such cites | 2026-09-24 | see commit |
+| P15 baseline R0, R0b (opus finish of Fable draft + paused Opus) | `brief-bakeoff/runs/R0-baseline/`, `runs/R0b-baseline-repeat/`: brief, notes, trace. R0: body 1,194 words, 119 trace rows, 4 unknown. R0b: body 1,179 words, 128 rows, 8 unknown. Contract C1–C9: all pass except C3 partial (draft model logged as `<synthetic>` per digest, not `claude-fable-5-1`) both runs; C8 R0 "IAC" (company name) undefined. R0b sent back once on C2 (1,330 words); user then allowed ≤20% over; stopped mid-trim, trace re-synced. Evidence from `.bakeoff-snapshot/8badc05/` (untracked) | 10/10 trace rows each verified in snapshot | see commit |
 
 ## Landed — pending verify
 
@@ -256,6 +258,11 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-24 | Raw-coverage review: 147 of 1,038 raw files orphaned (filename match); four Opus agents GAP-LIT, GAP-B, GAP-D, GAP-ACEF compiled them into dated appends with a per-file verdict in `method/orphan-audit-2026-09-24.md`. Result 103 compiled, 44 covered, 11 not briefable, 1 superseded (agents' own tallies). Filename-only match overcounted: many cites use the stem without date | User: "review. check raw files and coverage and gap"; "run subagents to pull-compile the gaps, then build index / do recommendations" |
 | 2026-09-24 | No intermediate chunked-report layer between raw and briefs. Instead a generated snapshot index (`method/snapshot-index.md` + `.csv`: per-file lane, key, tokens_est, tier, label, reach, audit verdict; per-lane split planner; latest dated section per compiled file) and `raw/CLAUDE.md` (name grammar, header, special files). Agents select raw via the index; tokens are `ceil(chars/3.5)`, heuristic | User: "build ledger, snapshot index. small file enough ... include word tokens to help agents guess how much it should split"; "subfolder claude with index of folder and special files?" |
 | 2026-09-24 | Background-session worktree guard off for this repo: `.claude/settings.json` `"worktree": {"bgIsolation": "none"}`, set by user; matches master-only rule | User: "approve run subagents. claude have been edit" |
+| 2026-09-24 | Runs read evidence from a `git archive 8badc05` export at `.bakeoff-snapshot/8badc05/` (untracked); remaining runs and the judge use the same export | Working-tree drift from COMPRESS-* and AMEND-4 moved line numbers below anchor floors |
+| 2026-09-24 | R1–R9 read a verified fact pack (`brief-bakeoff/fact-pack-8badc05.md`, built by 6 Opus agents from the snapshot, every row line-checked) instead of re-reading the evidence tree; R0/R0b did not use it — input differs, recorded as a confound for the judge and finding | User: "Build one checked fact pack before the next runs first… then run the rest without slow lookup tools" |
+| 2026-09-24 | Cap lifted for the R1–R9 wave: all nine spawn at once after the pack merges | User: "i approve subagents increase this time to run all pack block to build brief from R1-R9 right away" |
+| 2026-09-24 | Word cap tolerance: body up to 20% over 1,200 (`wc -w`, tables included) passes contract check C2 | User: "small 20% gap of word count is within reasonable" |
+| 2026-09-24 | Judge mechanical columns (words, process_leak, glossary, invented) filled by `brief-bakeoff/check-runs.py`; judge scores the rest | User: "subagents improve judge script mechanical checks too" |
 
 ## Open decisions — owner
 
