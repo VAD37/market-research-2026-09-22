@@ -13,8 +13,11 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
 | P16-c3b | Opus, fetch, Arctic Shift | EU paid and agentic demand cells, 30 (UK/FR/ES/IT/NL × 3 verticals × paid, agentic) left unchecked by P16-c3 | `customers/*.md`, `demand-map.md` appends; raw | 2026-09-23 |
+| P16-c4b | Opus, `ext` | Fortune HubSpot cite rows; Indeed S1 posting bodies (six priority cards first), 34 queries, paced; stop at verification wall | `docs/raw/f-indeed-S1-repull3-2026-09-23.md`; `customers/*.md`, `demand-map.md` appends | 2026-09-23 |
+| IMG-1a | Opus, read-only | Image transcriptions INDEX.csv rows 2–40 (as of 3a290b8); `analysed_in` set by one read-modify-write at end | `docs/raw/*-img-2026-09-23.md`; compiled appends | 2026-09-23 |
+| IMG-1b | Opus, read-only | Image transcriptions INDEX.csv rows 41–80 (as of 3a290b8) | `docs/raw/*-img-2026-09-23.md`; compiled appends | 2026-09-23 |
 
-Slots free: 7 of 8. Next spawns blocked by dependencies, not cap: P16-c4b needs `ext` (REPULL-1b); IMG-1 needs INDEX.csv stable (REPULL-1b, P16-c2/c3/c4 all append rows); BRIEF-4 needs P16 and IMG-1; P15 last.
+Slots free: 4 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
 
 ## Queue
 
@@ -22,8 +25,6 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P16-c4b | 16 | Opus, `ext` | Fortune HubSpot primary cite rows (3 files) first; then Indeed S1 remainder: 34 of 36 queries, posting bodies and employer sizes for the 35 captured postings, first the six cards the local spend cell rests on (Walgreens, Choice Hotels, Ziggi's, RestauNax, A Place for Mom, MAHEC), paced; stop at any verification wall (after REPULL-1b frees `ext`) | `docs/raw/f-indeed-S1-repull3-2026-09-23.md`; `customers/*.md` appends |
-| IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in` (24 now); write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change (after REPULL-1b so INDEX.csv is stable) | `docs/raw/*-img-<date>.md`; compiled appends |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after P16 and IMG-1); cites raw path:line or compiled row ids only, never STATE/plan lines; reads the evidence pack in `shared-instruction.md` Addition 1; defines every acronym in-file; carries both readings per constraint 14 | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` via `gen-director-deck.py` (Python 3.14 interpreter) |
 | P15 | 15 | Opus ×11 + judge | Brief bake-off per `brief-bakeoff/README.md` + Amendments 2026-09-23; orchestrator pins snapshot hash and fills pack line ranges at spawn; last pass | `brief-bakeoff/runs/`, `judge/`, `scoresheet.csv`; `findings/brief-method-eval-<date>.md` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
