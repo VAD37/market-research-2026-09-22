@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Pass 11 — Transition evidence. Gate open** (9 done 2026-09-23; 10 held with hold recorded, per plan.md hold note). P11 live. Pass 10 stays held; P10-analysis waits on user reopening.
+**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 live (plan review + executive brief). Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
 
 ## Live agents
 
@@ -12,7 +12,6 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals; scores H10, H11 | `docs/findings/transition-evidence.md` | 2026-09-23 |
 | REVIEW-2 | Opus | Plan improvements after nine passes + director-level reporting spec and evidence-only executive brief (user request 2026-09-23) | `docs/method/plan-review-2-2026-09-23.md`, `docs/findings/executive-brief-2026-09-23.md` | 2026-09-23 |
 
 ## Queue
@@ -115,6 +114,8 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | P9-amend | four findings files amended per review-1 §9: 34 of 34 applied verbatim; tallies 4/3/8/8; 68.0% and 44.4% side by side; line counts 100/100/91/100 | 2026-09-23 | b5ed1c7 |
 | P9-amend-2 | `proof-scorecard.md`, `unknowns.md` reconciled: C4 tier 6, eight `not produced` rows, H5/H15/H6 both marks side by side, 44.4% beside 68.0% | 2026-09-23 | bd62e6f |
 | **Pass 9 done** | four findings + review-1 + amendments; hypotheses 4 confirmed / 3 killed / 8 unresolved / 8 not produced; tier-3 share 68.0% (P9) and 44.4% (review-1) both stand; 0 Gold, 7 raw Silver (1 under grading rule 1 literal) | 2026-09-23 | bd62e6f |
+| P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | PENDING |
+| **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | PENDING |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -191,5 +192,5 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Priority-1 engine × sub-market cells | Every cell a number or `unknown — checked` | met — 9 of 9 in whitespace.md; review-1 re-derived, agrees |
 | Segment matrix | Every cell spend, attention, or none, with signals | not met — 19 of 27; 8 high-CPA cells `blank` (S3 / S9 unchecked); review-1: strict `none` rule leaves 8 of 27, loose rule 27 of 27, both recorded |
 | Success stories | One Silver per vertical, or documented absence with screened count | met — raw grades: B2B SaaS and high-CPA on the Silver arm, skincare on absence (~133 screened); grading rule 1 literal: all three on the absence arm (~133 / ~100 / 34 screened) |
-| Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 15 of 23 scored (4 / 3 / 8 per review-1; 6 / 6 / 4 per Pass 9, both stand); 8 `not produced` (H10, H11 pending Pass 11; HE2, HE3, HP1–HP4 held with Pass 10) |
+| Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 17 of 23 scored (Pass 11 adds H10, H11 confirmed; review-1 4 / 3 / 8 and Pass 9 6 / 6 / 4 both stand); 6 `not produced` (HE2, HE3, HP1–HP4 held with Pass 10) |
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
