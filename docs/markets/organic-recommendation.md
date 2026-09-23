@@ -253,3 +253,4 @@ Per-member-state ChatGPT or Bing DSA recipient counts: `unknown — checked open
 - "Largest AI traffic source" counts retailers, not traffic volume; ChatGPT still leads 722 of 1,000.
 - The tracker publishes code and method, no results dataset; it does not change the "0 of 34 rostered vendors" row above.
 - Practitioner threads (HN ×2, LinkedIn ×1) carry no figure; graded "Not a case" in `e-case-census-c5-2026-09-22.md` rows 2, 7, 9.
+- Correction, same append: row 1 reads "US retailers"; the source says "Top 1000 retailers by online sales", country not stated.

@@ -156,3 +156,21 @@ Caveat: EDC pages read from a local render of the saved PDF; nothing on pp. 11�
 
 ### Primary re-pull RP2-A, 2026-09-23
 - Regulatory row's "No commerce-relevant docket found; every Amazon-side docket query was WAF-blocked — `unknown — checked courtlistener.com 2026-09-22`" — re-attempted 2026-09-23: five free-text queries ("Amazon Rufus publisher", "Amazon advertising AI publisher", "Meta AI advertising publisher", "xAI Grok publisher", "xAI advertising") plus a quoted variant, all six HTTP 202 (WAF/rate-limit challenge), as on 2026-09-22 — **wall confirmed still standing**. Docket-number-scoped lookups (not free-text search) returned HTTP 200 the same session, resolving a different unknown (Chegg/Penske MTD hearing outcome, `findings/trigger-timeline.md` Primary re-pull RP2-A). Raw: `raw/b-court-dockets-table-repull2-2026-09-23.md`. `unknown — checked courtlistener.com free-text search 2026-09-23` stands unchanged.
+
+## Merchant readiness and orphan lane-C items — added 2026-09-24
+Task GAP-ACEF. Appended only. Raw prefix `raw/`.
+
+| Fact | Figure verbatim | Date | Source kind, tier | Raw |
+|---|---|---|---|---|
+| UCP endpoint, Top 1000 retailers | "only 225 of the Top 1000 retailers have a detectable Universal Commerce Protocol (UCP) endpoint" | publ. 2026-08-18 | analyst-derived, 5 | `a-refibuy-ai1000-rankings-2026-09-22.md` |
+| AI1000 readiness index average | 42.0 (Q1) → 39.7 (Q2) | Q1–Q2 2026 | analyst-derived, 5 | same |
+| Holiday AI-agent traffic, forecast | "20% of 2026 holiday ecommerce traffic will originate from AI chat agents" — Salesforce, relayed | forecast, relayed 2026-08-18 | analyst-derived, relay; Salesforce primary not pulled | same |
+| Booking platform in Google AI Mode | Fresha real-time availability in "Google Search and its experimental AI Mode"; "2025 Agentic Commerce Moment" 2025-11-17 | 2025-11-18 | company-stated, 3 | `e-case-fresha-google-agentic-2026-09-23.md` |
+| Cloudflare Pay Per Crawl diagram | components only; no price, no 402 code on image | docs 2026-07-28 | vendor-reported, 3 | `c-cloudflare-pay-per-crawl-docs-2026-09-23-img-2026-09-23.md` |
+
+Adobe Q2 2026 AI traffic PDF, second route: `unknown — checked business.adobe.com (timeout), Wayback id_ (HTTP 429 ×11) 2026-09-23` (`c-adobe-analytics-q2-2026-traffic-report-repull2-2026-09-23.md`); the 2026-09-22 screenshot pull stands.
+
+### Caveats
+- ReFiBuy sells Agentic Commerce Optimization; "detectable" UCP endpoint method is not published. Retailer country not stated.
+- The Salesforce 20% is a forecast relayed inside a vendor release; not a measurement.
+- Fresha is a booking platform describing its own inclusion; no booking volume or fee stated. Sell-side; moves no demand cell.

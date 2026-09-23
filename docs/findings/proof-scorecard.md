@@ -305,3 +305,32 @@ Caveats, this append: the two Silvers that run negative or null (E6 NerdWallet, 
 - OtterlyAI llms.txt experiment (L273, X3 L221) — claim: "/llms.txt 84 of 62,100+ AI bot visits (0.1%)". Image pull confirms both headline figures via a per-URL bot-breakdown screenshot: /llms.txt's 84 hits break down as 81 ChatGPT-User On-Demand Fetcher + 3 OAI-SearchBot, zero from Claude/Perplexity/Gemini/Mistral. New, not in the article's own text: a dashboard tile reads "Total Agents Page Visits: 62.1K" against "418.2K human page visits" = agent share **12.9%** of combined traffic; and /robots.txt (the article's own comparator) received **1,140** total bot hits across five named bots, ~13.6x llms.txt's 84. Figures agree; grade unchanged (Bronze/Bronze, tier 5). Raw: `raw/e-case-otterly-llms-txt-experiment-repull2-2026-09-23.md`; `raw/e-case-otterly-llms-txt-experiment-repull2-2026-09-23-img-2026-09-23.md`.
 - OtterlyAI Reddit test (L125, X1 "Silver / Silver" — the one rule-1 Silver Otterly case) — chart images (social-citation-share bar, methodology infographic, organic-search version-A-vs-B bar) reconfirm the article's own text figures (7 vs 20 Google keywords ranked; 46.4%/31.8%/13.0% social-citation shares); grade unchanged (Silver/Silver, tier 5). One new, uncorroborated figure: a Reddit-native mod-insights screenshot shows "2.8k views, 1.5k members, 52 posts, 221 comments" over an unlabeled 30-day window, not attributable to either arm by the image alone — not carried into a grade. Raw: `raw/e-case-otterly-reddit-experiment-repull2-2026-09-23.md`; `raw/e-case-otterly-reddit-experiment-repull2-2026-09-23-img-2026-09-23.md`.
 - OtterlyAI HTML vs Markdown experiment (L272, X2 L220) — claim: ".md citations 0; bot visits 0% vs HTML 2.8-4.6%". Image pull (Citations dashboard screenshot) adds a figure not in the article's own text: the two HTML test pages were cited **52 and 17 times** respectively (69 total, 14-day window) in OtterlyAI's own Brand Report citations view, while both `.md` mirrors show 0 — corroborating "zero .md citations". This citation-count metric is a different OtterlyAI product surface than the article's own "AI bot visits" crawler-analytics figure (7.4%/0%, 137 visits) — carried side by side, not summed. Grade unchanged (Silver/Bronze — item 3, tier 5). Raw: `raw/e-case-otterly-html-vs-markdown-experiment-repull2-2026-09-23.md`; `raw/e-case-otterly-html-vs-markdown-experiment-repull2-2026-09-23-img-2026-09-23.md`.
+
+## Orphan case files, GAP-ACEF — added 2026-09-24
+Appended only. Raw prefix `raw/`. Grades per the Pass 3 bar are not re-assigned here; design column states what the source states.
+
+**X8 — Search Engine Land / Zeeshan Yaseen, two GEO experiments** (census r1 row X8 "not reachable — HTTP 403"; primary now read). `e-case-searchengineland-two-geo-experiments-primary-2026-09-23.md`, tier 5, vendor-reported (author's own manual tracking), publ. 2026-09-14.
+
+| Experiment | Window | n | Figure verbatim | Design, as stated |
+|---|---|---|---|---|
+| 1 — existing client brand | "several months"; peak "37.01% on April 29", year not printed | 15 keywords × 4 engines | citations ChatGPT 148, Claude 96, Gemini 87, Perplexity 64; listicles 72.4%, PR 24.1% | observational tracking, no untreated arm |
+| 2 — cold-start SaaS agency | baseline 2026-04-30 to 05-29; run 05-30 to 06-28 | 15 keywords × 6 engines; 437 source mentions | third-party listicles 85.8%, own listicle 14.0%, PR 0.2%; 3 sources 342 of 437 | pre/post, no untreated arm |
+| 2 — traffic | same | GA4, new users | referral 18.5%, "AI Assistant" channel 3.25%; ChatGPT referral sessions +166%; Claude.ai "tripled" | pre/post |
+| 2 — placement hit rate | same | 8 targets | 5 of 8 cited; Indie Hackers 44 → 146; time to citation 1–18 days | pre/post |
+
+Both experiments: "775 citation events". Author sells link building; no prompt list, no model versions, no raw data.
+
+**Image-only figures, existing cases.**
+
+| Case | New figure from image | Text figure beside it | Raw |
+|---|---|---|---|
+| E5 Tiwari, AI Overviews CTR | per query type: definitions −40%, factual −30%, how-to −20%, listicles −15%, comparisons −5%, opinion +5%, original research +12%; "200+ queries" | "22% CTR drop"; 18 triggering vs 32 non-triggering queries (L31) | `e-case-practitioner-blog-gauravtiwari-ai-overviews-ctr-primary-2026-09-23-img-2026-09-23.md` |
+| X5 Mall, "Brand A" | citation-gained queries per page: 58, 26, 25, 23, 21, 17, 17, 11 — all decision-stage or comparison pages; "1,353 identical ChatGPT queries" | 171 gained vs 32 lost (L127) | `e-case-jonathanmall-geo-experiment-primary-2026-09-23.md`; `-img-2026-09-23.md` |
+| X6 Boily, dental | chart footnote "N=2 관찰(통제 실험 아님) · 인과 단정 아님" (N=2 observation, not a controlled experiment) | 11% → 27% vs 11% → 10%, agrees (L128) | `e-case-boily-dental-geo-comparison-primary-2026-09-23.md`; `-img-2026-09-23.md` |
+
+5W AI Communications beauty-citation primary: `unknown — checked 5wpr.com homepage, /new/news/ (404), site search 2026-09-23`; five `/research/` studies listed, none beauty (`e-case-5w-ai-communications-report-repull2-2026-09-23.md`). The 5W Bronze (L41) stays a Glossy relay.
+
+### Caveats
+- X8 is a consultant measuring his own client work, manual runs, no model versions; Semrush owns the publisher. Citation volume and referral sessions diverge in the source's own words ("Citations don't equal clicks").
+- Tiwari's "200+ queries" and the 50 queries in text are different printings, not reconciled. Image values are designed infographics without per-query n.
+- Mall's per-page chart is week 1 only; year of the July window still absent.

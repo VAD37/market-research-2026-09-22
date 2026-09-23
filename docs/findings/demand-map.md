@@ -302,3 +302,26 @@ Claims rows L76–80 stale after GAP-SK, flagged by RECOUNT-2 (`findings/unknown
 C2 count: GAP-SK caveat (L289) and RECOUNT-2 (`unknowns.md:386`) read "seven of nine". This append's count by deciding signal is 8 of 9: E11 deciding signal S1 (L35), reinforced by S2, S7/S8 at P8-r (L113). Both counts stand, not reconciled. Spend cells, 9: E2 (Mid), E3, E5, E6, E9, E11 (Enterprise), E7 (SMB), E8, E13 (Mid). E2 raw: `raw/f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23.md`; E13: `raw/f-signal-hr-band-attribution-2026-09-23.md`.
 
 Caveat: arithmetic on this file's own rows; no cell re-read, no new pull. Tier of each claim unchanged per RECOUNT-2.
+
+## EU national job boards, all terms — added 2026-09-24
+Task GAP-ACEF. Consolidates S1 national-board reads per country; LinkedIn per-country reads stay in §EU paid and agentic cells and `markets/organic-recommendation.md` §EU depth. Board counts are each board's count for its own normalised query, not GEO-titled postings. Source: company-stated, tier 3, pulled 2026-09-23. Raw: `raw/f-jobboards-S1-eu-national-2026-09-23.md` (organic terms), `raw/f-jobboards-S1-eu-paid-agentic-2026-09-23.md` (paid, agentic terms).
+
+| Country | Board | Query → count | Employers served (first page) | Cell effect |
+|---|---|---|---|---|
+| FR | Hellowork | "generative engine optimization" → "18 offres" | Plus que pro (SEO ×2); Meteoria (Account Executive ×3, incl. Italian, Spanish speaker); Neoma ×2; GBH | none — titles generic SEO, sales, digital |
+| FR | Hellowork | "ChatGPT" → 15 | incl. "Consultant SEO - Geo Senior" — Search Booster | unassigned — employer business `unknown — not checked 2026-09-24` |
+| FR | Hellowork | "agentic commerce" → 2; "commerce agentique" → 7 | Alan, Square Management; Hardis, Team.is, Accenture, Easypartner, iAdvize ×3 | Alan spend (existing); rest sell-side or generic |
+| FR | Hellowork | "ChatGPT ads" → 3; "publicité IA" → HTTP 500 | ISCOD, Havea (Meta/TikTok ads; ChatGPT as creative tool), Prélude | none — no AI-surface ad role |
+| ES | Tecnoempleo | "agentic commerce" → 2; "publicidad IA" → 1; "ChatGPT" → 7 | Accenture ×2 (Madrid, Barcelona, 2026-08-31) | none — sell-side |
+| ES | infojobs.net | — | HTTP 405 | wall |
+| IT | infojobs.it | — | "ufficialmente chiusa" (platform closed) | no national board read |
+| UK | reed, cv-library, totaljobs | — | HTTP 403 ×3 | wall |
+| NL | NVB; werkzoeken; indeed.nl | — | client-rendered; 403; 403 | wall |
+| FR S2 | capterra.fr; appvizer.fr | "AI visibility"; "generative engine optimization" | 403; no result cards | wall / empty |
+
+National-board S1 reads exist for FR and ES only; UK, IT and NL rest on LinkedIn guest API alone. No cell moves.
+
+### Caveats
+- Hellowork normalised the organic query to "generatif engin optimisation"; its 18 is not a GEO count. Only first-page card titles parsed.
+- Meteoria and Search Booster business lines not checked; whether either is a GEO vendor stays `unknown`.
+- One request per URL, no retries, no login; a 403 is a wall, not an absence of postings.

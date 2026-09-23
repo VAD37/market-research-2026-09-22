@@ -290,3 +290,34 @@ Caveat: ~ values are measured-by-us axis readings; Similarweb's ~ readings carry
 ### Primary re-pull RP2-A, 2026-09-23
 
 - llms.txt cross-section row, "B2B SaaS 9 of 10" — zendesk.com (excluded from that 10, TLS handshake failure 2026-09-22) re-checked 2026-09-23: HTTP 200, text/plain, 741,350 bytes, **present**. Wall did not hold on re-check; extended sample reads 10 of 11 B2B SaaS domains present (docusign.com the one confirmed 404; box.com still excluded, separately 403). Raw: `raw/f-signal-bs-S12-zendesk-llms-txt-repull2-2026-09-23.md`.
+
+## US / EU cuts and unused forecast detail — added 2026-09-24
+Task GAP-ACEF. Appended only. Every row a forecast or estimate, never a measured size; beside (iii) above, not averaged. Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+**Regional split, organic (GEO), MarketsandMarkets** — base year 2025, target 2032, method not published, "reached" wording, analyst-derived, tier 6, publ. "October 2026" as displayed (`e-market-size-marketsandmarkets-organic`).
+
+| Region | 2025 | 2032 | CAGR as printed |
+|---|---|---|---|
+| North America | USD 164M | USD 1,700M | 40.0% |
+| Europe | USD 101M | USD 1,100M | 41.0% |
+| Asia Pacific | USD 86M | USD 1,050M | 43.0% |
+| Rest of World | USD 39M | USD 400M | 39.0% |
+
+Rows sum to the headline USD 390M and USD 4,250M (measured-by-us arithmetic). No other organic forecast on file prints a US or EU split.
+
+**Forecast detail not carried in (iii).**
+
+| Source | Figure verbatim | Base year, method | Label, tier | Raw |
+|---|---|---|---|---|
+| Market Intelo, GEO | "$848 million in 2025" → "$19.8 billion by 2034", "CAGR of 50.5%" | 2025; "primary and secondary research … through Q4 2025" | analyst-derived, 6 | `e-market-size-marketintelo-organic-agentic` |
+| Market Intelo, agentic | "$2.8 billion in 2025" → "$16.8 billion by 2034", "CAGR of 22.4%" | 2025; same wording | analyst-derived, 6 | same |
+| NextMSC, agentic | "USD 1.90 billion in 2025"; "USD 2.66 billion by the end of 2026"; "39.81%" 2026–2035 | 2025; primary interviews, no n | analyst-derived, 6 | `e-market-size-nextmsc-agentic` |
+| Juniper, agentic | "$1.5 trillion in 2030"; "38,000 datapoints over a five-year period" | none stated; no definition | analyst-derived, 6 | `e-market-size-juniper-agentic` |
+| dentsu, all advertising | US "+5.0 percent"; EMEA "4.2 percent"; UK "5.7 percent" in 2026 | 2025 actuals; bottom-up, 56 markets, data to 2025-10 | analyst-derived, 5 | `e-dentsu-global-ad-spend-forecast-2026` |
+
+Already carried elsewhere, not repeated: Coherent (L51, L99); dentsu global, Gartner 2028 prediction, MAGNA search 2024 and blog pointer (`markets/paid-placement.md` L237–240); Profound Wayback count (L226).
+
+### Caveats
+- MarketsandMarkets' publication date is later than the pull date as displayed; base-year figure presented as "reached" without method (H16 unchanged).
+- A WebSearch summary credits Market Intelo's agentic figures to Precedence Research; the page reached carries them under Market Intelo.
+- dentsu growth rates are total advertising, not AI-surface spend.

@@ -92,3 +92,16 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 - RestauNax · "AI-Native Marketing Lead" · unread — Indeed wall; restaunax.com has no careers page · — · — · card "$10 - $25 an hour" · `unassigned` · §Checked, not found
 
 Cell check. Organic / Enterprise **spend** rested on the Walgreens #22 and Choice Hotels #21 cards: **confirmed** — the phrase is in both bodies as a duty, not an Indeed match artefact. A Place for Mom (referral marketplace, remote) and MAHEC (one regional healthcare and education organisation) sit at this vertical's boundary; both bodies name GEO as a duty; neither is band-attributable; neither moves a cell. Six bodies name no assistant by brand.
+
+## Birdeye study cover — added 2026-09-24
+Task GAP-ACEF. Appended only.
+
+| Figure | Press body | Report cover image | Source kind, tier | Raw |
+|---|---|---|---|---|
+| ChatGPT location-level scans | 16,240 | "16,240 location-level ChatGPT scans" | vendor-reported, 5 | `raw/f-birdeye-multilocation-ai-search-S2-S6-2026-09-23-img-2026-09-23.md` |
+| Multi-location brands | "1,500+" | "1,762 multi-location brands" | vendor-reported, 5 | same |
+
+Brand counts sit side by side, not reconciled. Cover prints no rate; the "18.6% of locations never surfaced" row above stands on the press body. Sell-side; moves no cell.
+
+### Caveats
+- Birdeye sells the remedy it measures; no prompt set or engine version on the cover. Press release dated 2026-07-16.
