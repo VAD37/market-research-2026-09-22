@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Passes 0–9 and 11 done 2026-09-23. Pass 10 held** by user decision 2026-09-22 22:40; P10 samplers and P10-analysis wait on user reopening. REVIEW-2 landed: `plan-review-2-2026-09-23.md` §8 appends a–g not yet applied to plan.md (awaits user); `findings/executive-brief-2026-09-23.md` is the reader-first entry point (10 min); `findings/director-brief-2026-09-23.md` and its `.pptx` are the 10–20 min long form. BRIEF-3 landed. Programme-done rows: 2 of 6 met; the four unmet rows are itemised under Done conditions.
+**Passes 0–9 and 11 done; Pass 10 skipped by user 2026-09-23. Wave 2 open 2026-09-23:** AMEND-2 (plan appends + new pass sections), R-BLOCKED (browser probe and re-pull of blocked channels), P12-ads (AI-ads evidence, Lane B) live. Then P8-r, P4-r, P13-size, P14-papers, P9-r, BRIEF-4. `findings/executive-brief-2026-09-23.md` and `findings/director-brief-2026-09-23.md` are the reader entry points until BRIEF-4 rewrites them.
 
 ## Live agents
 
@@ -12,7 +12,9 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| none | — | all passes but Pass 10 landed; Pass 10 held by user | — | — |
+| AMEND-2 | Opus | Apply plan-review-2 §8 a–g; append user decisions 2026-09-23; Pass 12–14 sections; hypotheses H17+ | `docs/method/plan.md`, `docs/method/hypotheses.md` appends | 2026-09-23 |
+| R-BLOCKED | Opus, `ext` | Probe every blocked channel via browser; re-pull filings, funding, Trends, review sites; credential register | `docs/method/blocked-channels.md`; `docs/raw/*-repull-2026-09-23.md` | 2026-09-23 |
+| P12-ads | Opus, `pw` | AI ads and AI engines selling ads — inventory, advertisers, prices, revenue, networks | `docs/raw/b-*-2026-09-23.md`; `docs/markets/paid-placement.md` append; `docs/findings/ai-ads-evidence.md` | 2026-09-23 |
 
 ## Queue
 
@@ -20,8 +22,13 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P10-d0-copilot, P10-d0-rufus-p3, P10-d0-google-aimode-remainder (7 P + 9 X prompts), P10-d0-gemini-remainder, P10-d0-claude-remainder, P10-d0-chatgpt-retry | 10 held | Sonnet | Held by user decision 2026-09-22 22:40; gap rows, never back-filled | per panel-protocol.md |
-| P10-analysis | 10 held | Opus | Panel read — waits for a neutral day 0 or user reopening | `docs/findings/panel-read.md` |
+| P8-r | 8 re-run | Sonnet, `ext` after R-BLOCKED | Close the 8 blank high-CPA cells and unrun signals (S2, S3, S9, S10; skincare S4, S6, S12; B2B SaaS S5, S6 paid/agentic terms) via browser | `docs/raw/f-signal-*-2026-09-23.md`; `customers/*.md` appends; `findings/demand-map.md` append |
+| P4-r | 4 re-run | Opus, `ext` | Success-story hunt on Reddit, G2, sec.gov, ~107 unchecked brand pages, 25 unopened titles; metric-moved experimental cases only | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append |
+| P13-size | 13 | Opus | Market potential, all three sub-markets: engine user counts over time, trend data, forecasts side by side with tiers | `docs/markets/*.md` appends; `findings/market-potential.md` |
+| P14-papers | 14 | Opus | Research-paper scan: state-of-the-art capabilities that could be abused or monetised; builder-constraint question; descriptive only | `docs/raw/d-paper-*-2026-09-23.md`; `findings/frontier-scan.md` |
+| P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
+| BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
+| P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
 ## Landed
 
@@ -164,6 +171,15 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Session works on master checkout directly, no worktree | Root CLAUDE.md: master only, no worktrees |
 | 2026-09-23 | REVIEW-2 spawned on user request: plan improvements plus a director-level brief; brief is evidence only, verdict stays the user's | User: report to a business owner what was done and what could improve the plan; MegaPlan.md non-goals forbid a verdict, so the brief names owner decisions as questions |
 | 2026-09-23 | P9-review respawned after a session /clear; deliverable renamed `review-1-2026-09-23.md` (was `-09-22`); budget 160 lines | Prior spawn wrote no file; file date must be the write date; amendments quote lines verbatim, which the 100-line finding budget cannot hold |
+| 2026-09-23 | Pass 10 skipped, not held: own-panel sampling out of scope for now | User: "pass 10 skip for now. We dont care about what observed ourself". HE2, HE3, HP1–HP4 stay `not produced`; gap recorded |
+| 2026-09-23 | Pass 12 opened: evidence of AI ads and of AI engines selling ads, Lane B deep pull | User: "vastly important key details that we are missing" |
+| 2026-09-23 | plan-review-2 §8 appends applied (AMEND-2); tasks that failed to qualify re-run: P8-r segment blanks, P4-r success hunt on blocked channels, P9-r tier-3 re-evidence | User: "apply review-2 and then rerun whatever tasks failed to qualified" |
+| 2026-09-23 | Scope: potential of all three sub-markets; market size read from trends, engine user counts and forecasts side by side (Pass 13). Forecasts stay labelled forecast, tier 6 | User: "researching potential for all markets... trends and user count regarding market size of organic vs paid vs agentic and future prediction" |
+| 2026-09-23 | Builder-constraint question back in scope; engineering-enabled new market potential and novel solutions in scope; research-paper scan (Pass 14) for state-of-the-art capabilities open to abuse or monetisation, descriptive only | User items 5 and feedback 6 |
+| 2026-09-23 | Browser (extension `ext`, Playwright `pw`) allowed for every agent including blocked channels; one `ext` holder at a time (shared browser); WebSearch budget 5000+ | User: "Allow chrome extension and browser access", "I allow 5000+ websearch budget now" |
+| 2026-09-23 | Blocked channels re-pulled (R-BLOCKED); any channel needing registration or paid credentials goes to `docs/method/blocked-channels.md` for the user | User: "if any channels require registration then feedback to user"; "append to blocked list for human to review" |
+| 2026-09-23 | Briefs report evidence quality explicitly: transition evidence with no moved metric = "everyone did this, unknown if it works"; metric-moved experimental cases are the target and must be pulled when found | User feedback 3 |
+| 2026-09-23 | Method debt (plan-review-2 §6) cleaned by AMEND-2 appends | User feedback 4 |
 | 2026-09-23 | BRIEF-3 spawned on user request: a 10–20 minute director reading brief, metrics and key details, plus a PowerPoint. Budget 300 lines (finding budget 100 lifted for this file only); deck is a generated file from `docs/method/gen-director-deck.py`, never hand-edited; `python-pptx` may be installed for it | User: "brief reading 10-20 minutes max, full of key metrics and highlight key details; convert reading into powerpoint". Compiled files only, no verdict, no execution language |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
@@ -197,4 +213,4 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Segment matrix | Every cell spend, attention, or none, with signals | not met — 19 of 27; 8 high-CPA cells `blank` (S3 / S9 unchecked); review-1: strict `none` rule leaves 8 of 27, loose rule 27 of 27, both recorded |
 | Success stories | One Silver per vertical, or documented absence with screened count | met — raw grades: B2B SaaS and high-CPA on the Silver arm, skincare on absence (~133 screened); grading rule 1 literal: all three on the absence arm (~133 / ~100 / 34 screened) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 17 of 23 scored (Pass 11 adds H10, H11 confirmed; review-1 4 / 3 / 8 and Pass 9 6 / 6 / 4 both stand); 6 `not produced` (HE2, HE3, HP1–HP4 held with Pass 10) |
-| Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
+| Pass 10 | Three pre-registered predictions checked against the panel | skipped by user 2026-09-23 — 0 of 3; day-0 gap recorded, never back-filled |
