@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P9-amend | Opus | Apply review-1 amendments §9 to the four findings files, line-level corrections only | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` | 2026-09-23 |
+| P9-amend-2 | Opus (same agent, continued) | Reconcile four lines the review left unamended and now contradict amended lines: proof-scorecard L94–95 C4 tier; unknowns L69 "Seven rows", L98 H5/H15 kill list and H6 basis, L99 "seven rows" and "68.0% over the 25" | `docs/findings/{proof-scorecard,unknowns}.md` | 2026-09-23 |
 
 ## Queue
 
@@ -112,6 +112,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 7 done** | 41 profiles + INDEX | 2026-09-22 | 39b1468 |
 | P9 findings | `docs/findings/{proof-scorecard,demand-map,whitespace,unknowns}.md` (100/100/90/100); hypotheses: 6 confirmed, 6 killed, 4 unresolved, 7 not produced; done rows 2 of 6; 17 of 25 load-bearing claims tier ≤3 = 68%; 0 Gold in ~980 screened, 7 Silver | 2026-09-22 | a43edc9 |
 | P9-review | `docs/findings/review-1-2026-09-23.md` (160 lines); 5 of 23 H marks disputed (H5, H6, H15, H16 → unresolved; H11 → not produced); tier-3 share recount 12 of 27 = 44.4% vs 17 of 25 = 68.0%, both stand; 3 of 16 traces mismatch; grading rule 1 literal leaves 1 of 7 Silvers; no execution language, Lane D clean; amendments per file | 2026-09-23 | 83ed796 |
+| P9-amend | four findings files amended per review-1 §9: 34 of 34 applied verbatim; tallies 4/3/8/8; 68.0% and 44.4% side by side; line counts 100/100/91/100 | 2026-09-23 | PENDING |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -189,4 +190,5 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Success stories | One Silver per vertical, or documented absence with screened count | met — B2B SaaS and high-CPA on the Silver arm, skincare on documented absence (0 Silver, ~133 screened) per proof-scorecard.md (pending review) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 16 of 23 scored; 7 `not produced` (H10 pending Pass 11; HE2, HE3, HP1–HP4 held with Pass 10) |
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
+
 

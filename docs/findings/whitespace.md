@@ -6,7 +6,7 @@
 | Oldest pull depended on | 2026-09-22 — every `raw/` file cited. Oldest source publication carried: 2024-11-12, `raw/b-perplexity-ads-launch-2026-09-22.md`, via `markets/paid-placement.md` |
 | Lane | A, B, C and D, read across |
 | Hypotheses touched | H2, H8, H12, H13, H15, H16, HE1 (scored in `unknowns.md`) |
-| Claims at tier 3 or better | 6 of 8 |
+| Claims at tier 3 or better | 4 of 8 |
 
 ## Question
 
@@ -21,7 +21,7 @@ Observations, not recommendations. The gaps sit in three places: **price** (no e
 | # | Gap — stated as an observation | Figure, verbatim where one exists | Compiled file | Raw behind it | Tier |
 |---|---|---|---|---|---|
 | E1 | No rate card exists for any AI-surface ad unit | "0 of 8 publish a rate card"; the only price any engine states is OpenAI's recommended max bid, "$3–$5 USD per click" | `markets/paid-placement.md` | `raw/b-openai-platform-summary-`, `b-google-platform-summary-`, `b-microsoft-amazon-platform-summary-2026-09-22.md` | 3 |
-| E2 | No sub-market has a measured size | 18 published figures: 15 author-labelled forecasts, 3 measured — and "zero of these three carries a market-size figure with a forward target year" | `markets/organic-recommendation.md`, `paid-placement.md`, `agentic-commerce.md` | `raw/e-market-size-table-2026-09-22.md` | 3 |
+| E2 | No sub-market has a measured size | 18 published figures: 15 author-labelled forecasts, 3 measured — and "zero of these three carries a market-size figure with a forward target year" | `markets/organic-recommendation.md`, `paid-placement.md`, `agentic-commerce.md` | `raw/e-market-size-table-2026-09-22.md` | 6 |
 | E3 | Bottom-up sizing is not computable for two of three sub-markets; the third yields a floor over 12% coverage | organic **$5.3M–$35.2M annualised** from 4 of 34 rostered vendors; paid and agentic `unknown — cannot be built from disclosed inputs` | same three | `raw/a-vendor-census-c1-`…`-c4-`, `c-vendor-census-c6-2026-09-22.md` | 5 |
 | E4 | No vendor discloses the prompt set behind a composite score | "0 of 34 rostered vendors disclose a fixed published prompt set with n"; Ahrefs the fullest partial ("454M+ prompts"); no profile among the 41 in `competitors/` records one either | `markets/organic-recommendation.md`; `competitors/*.md` | `raw/a-vendor-census-c1-`…`-c4-2026-09-22.md` | 3 |
 | E5 | No priority-1 engine names corpus seeding, comparison-page farming, or citation-preference content as a policy category | 6 of 36 engine × technique cells read `named`; the 6 sit in prompt injection (4 engines), fake reviews (Anthropic) and a Google disclaimer | — | `raw/d-technique-census-c7-2026-09-22.md` | 3 |
@@ -43,7 +43,7 @@ Nine cells, each a number or an explicit `unknown — checked <path>`.
 |---|---|---|---|
 | **ChatGPT — OpenAI** | 3 crawler tokens (OAI-SearchBot, GPTBot, ChatGPT-User); 1 referral tag, `utm_source=chatgpt.com`; **0** native visibility tools — `unknown — checked raw/a-openai-publishers-developers-faq-2026-09-22.md` | product live from 2026-02-09; **$1B annualized run rate** (tier 3); ad presence 26% (Similarweb) vs 4.47% of US queries (Adthena) vs 0.00% of 169,560 UK scrapes — three figures, not reconciled; **0** rate cards | Instant Checkout live on ACP; fee `unknown — checked raw/c-openai-commerce-get-started-2026-09-22.md`; merchant count `unknown — checked` same |
 | **Claude — Anthropic** | 3 crawler tokens (Claude-SearchBot, ClaudeBot, Claude-User); **0** inclusion-guidance pages, **0** referral tags, **0** native tools — `unknown — checked raw/b-anthropic-perplexity-platform-summary-2026-09-22.md` | **0** — "Claude will remain ad-free… nor will Claude's responses… include third-party product placements", 2026-02-04 (tier 3) | **0** programs found; MCP transport only; "Project Deal" a 69-employee internal pilot — `unknown — checked raw/c-anthropic-mcp-connector-2026-09-22.md` |
-| **Google — AI Overviews, AI Mode, Gemini** | 1 reporting surface (Search Console "Web" type, no AI-specific segment); 1 crawler token named (Google-Extended, "Does not impact a site's inclusion"); Gemini app: **0** on all four cells — `unknown — checked raw/b-google-platform-summary-2026-09-22.md` | AI Overviews live, 12 named countries within-AIO and "200+ markets" above/below; AI Mode "testing", 5 named formats, pricing model `unknown — checked raw/b-google-gml2026-search-ads-2026-09-22.md`; Gemini app format `unknown — checked` same; **0 ad units observed in 90 measured runs**, tier 1 | UCP live for "select merchants"; fee `unknown — checked raw/c-google-merchant-ucp-checkout-2026-09-22.md`; country scope conflicts — "United States, Canada, and Australia" vs "eligible U.S. retailers", both kept |
+| **Google — AI Overviews, AI Mode, Gemini** | 1 reporting surface (Search Console "Web" type, no AI-specific segment); 1 crawler token named (Google-Extended, "Does not impact a site's inclusion"); Gemini app: **0** on all four cells — `unknown — checked raw/b-google-platform-summary-2026-09-22.md` | AI Overviews live, 12 named countries within-AIO and "200+ markets" above/below; AI Mode "testing", 5 named formats, pricing model `unknown — checked raw/b-google-gml2026-search-ads-2026-09-22.md`; Gemini app format `unknown — checked` same; **0 ad units in 76 AI Mode runs; 0 of 14 AI Overview checks rendered a block**, tier 1 | UCP live for "select merchants"; fee `unknown — checked raw/c-google-merchant-ucp-checkout-2026-09-22.md`; country scope conflicts — "United States, Canada, and Australia" vs "eligible U.S. retailers", both kept |
 
 **Done-condition row — "Priority-1 engine × sub-market cells" (bar: every cell a number or an explicit `unknown — checked`): satisfied, 9 of 9.**
 
@@ -56,13 +56,13 @@ Nine cells, each a number or an explicit `unknown — checked <path>`.
 | # | Claim | Evidence | Tier of weakest row | Grade | Load-bearing |
 |---|---|---|---|---|---|
 | C1 | No engine publishes a rate card for any AI-surface ad unit; 0 of 8 | E1 | 3 | n/a | yes |
-| C2 | No sub-market has a measured size; 15 of 18 published figures are author-labelled forecasts and the 3 measured ones are present-state metrics, not sizes | E2 | 3 | n/a | yes |
+| C2 | No sub-market has a measured size; 15 of 18 published figures are author-labelled forecasts and the 3 measured ones are present-state metrics, not sizes | E2 | 6 | n/a | yes |
 | C3 | No priority-1 engine names corpus seeding, comparison-page farming, or citation-preference content as a policy category | E5 | 3 | n/a | yes |
 | C4 | No vendor discloses a prompt set with n behind a composite visibility score | E4 | 3 | n/a | yes |
 | C5 | No engine measured fetches llms.txt, and one engine states in its own docs that no such file is needed | E6 | 4 | n/a | yes |
 | C6 | Two evidence deserts inside the tracked verticals: supplements 0 cleared at 6 screened, skincare 0 Silver at ~133 screened | E8 | 5 | Bronze at best | yes |
 | C7 | No named brand corroborates a vendor claim on its own property; 59 of 59 checked are silent | E9 | 3 | n/a | yes |
-| C8 | Every priority-1 engine × sub-market cell carries a number or an explicit `unknown — checked`; 9 of 9 | per-engine table | 3 | n/a | yes |
+| C8 | Every priority-1 engine × sub-market cell carries a number or an explicit `unknown — checked`; 9 of 9 | per-engine table | 5 | n/a | yes |
 
 ## Survivorship
 
@@ -81,10 +81,11 @@ Published cases are winners; the screened and cleared counts behind E8 and the c
 
 ## Caveats
 
-- C1, C2, C3, C4, C7 and C8 are load-bearing at tier 3 and rest on platform-primary and vendor-primary pages — reliable on existence, biased on framing (`method/trust-rubric.md`). C5 is tier 4 and C6 tier 5.
+- C1, C3, C4 and C7 are load-bearing at tier 3; C2 is tier 6 and C8 tier 5, and rest on platform-primary and vendor-primary pages — reliable on existence, biased on framing (`method/trust-rubric.md`). C5 is tier 4 and C6 tier 5.
 - Every gap above is an absence on the channels named, not proof that nothing exists. Five channels were blocked rather than exhausted this session: sec.gov, reddit.com, G2 / Capterra, Indeed / Upwork, Google Trends.
 - The measured-by-us row in the engine table (0 ad units across 90 runs on Google AI Mode and AI Overviews) is one date, one localised network path, logged-out, and text-extraction-scoped: an icon-only or CSS-only "Sponsored" label would not be caught. It bounds nothing about the market.
 - No metric crossing is relied on in this file; E3's dollar figure is a coverage-limited floor, never cited as a size.
 - Conflicts left unreconciled: the three ChatGPT ad-presence percentages; Google's two UCP country statements; E2's three measured present-state figures beside 15 forecasts.
 - The oldest pull cited is 2026-09-22; two pages behind the paid-placement cells are dated 2025-12-08 and 2025-08-06 and are flagged stale in their own raw files (`method/plan.md` staleness rule).
 - This file carries evidence, not a verdict. It names gaps; it does not propose filling any of them.
+- Amended 2026-09-23 per `findings/review-1-2026-09-23.md` §9; both readings stand where the review and the original disagree.

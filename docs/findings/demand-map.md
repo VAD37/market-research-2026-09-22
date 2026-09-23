@@ -6,7 +6,7 @@
 | Oldest pull depended on | 2026-09-22 — every `raw/` file cited. Oldest source publication carried: 2025-06-03 (HN thread title), via `customers/b2b-saas.md`; oldest load-bearing 2026-01-11, `raw/c-google-ucp-merchant-agentic-2026-09-22.md`, via `customers/skincare-beauty.md` |
 | Lane | F, with A, B and C feeding it |
 | Hypotheses touched | H4, H7, H9 — scored below; full register in `unknowns.md` |
-| Claims at tier 3 or better | 7 of 7 |
+| Claims at tier 3 or better | 5 of 7 |
 
 ## Question
 
@@ -73,12 +73,12 @@ Channels behind both `unresolved` marks, 2026-09-22: LinkedIn guest API, Indeed,
 
 | # | Claim | Evidence | Tier of weakest row | Grade | Load-bearing |
 |---|---|---|---|---|---|
-| C1 | 7 of 27 cells read spend, 1 attention, 11 none — checked, 8 blank | E1–E12 | 3 | n/a | yes |
+| C1 | 7 of 27 cells read spend, 1 attention, 11 none — checked, 8 blank | E1–E12 | 5 | n/a | yes |
 | C2 | Six of the seven spend reads rest on S1 job postings, the catalogue's own weakest spend class | E3, E6, E7, E8, E9, E11 | 3 | n/a | yes |
 | C3 | Willingness to pay is unknown in all 27 cells; no buyer anywhere discloses a price paid | willingness-to-pay block | 3 | n/a | yes |
 | C4 | Organic carries 5 spend cells against 1 each for paid and agentic | tallies | 3 | n/a | yes |
 | C5 | 5 of the 7 spend cells are enterprise; exactly 1 of 9 SMB cells reads spend | tallies | 3 | n/a | yes |
-| C6 | Two compilers applied the `none` rule differently on the same day; the difference moves 19 of 27 reads | side-by-side table | 3 | n/a | yes |
+| C6 | Two compilers applied the `none` rule differently on the same day; the difference moves 19 of 27 reads | side-by-side table | n/a — compiled files only, no raw/ | n/a | yes |
 | C7 | Skincare agentic × enterprise reads spend in `customers/` and attention in `markets/agentic-commerce.md`; both stand | E6 | 3 | n/a | no |
 
 ## Survivorship
@@ -96,5 +96,5 @@ Not case-based — survivorship does not apply; the proof counts inside `custome
 ## Caveats
 
 - Every read is an internet-only proxy; no signal observes a budget (`scope.md` R2). A `spend` cell evidences that money moved somewhere in it, never how much. C1, C2, C4 and C5 are load-bearing and rest on one signal class, S1, whose catalogue bias reads "lags spend; large firms over-represented… headcount budget, not category spend — weakest spend class". Three of four B2B SaaS headcounts come from third-party data-vendor snippets read via search result, not opened; AutoLeap's sources conflict at 199 and 225 against a "51-200" band straddling the SMB / mid-market boundary — recorded, not averaged.
-- No claim here is below tier 3; no metric crossing is relied on. Publication bias runs one way: quiet spending leaves no public trace, so `none` and `blank` are weaker evidence than `spend`; SMB and mid-market is where that bites hardest, and every channel that could have caught them was blocked this session. The buyer-size bands are a method choice fixed 2026-09-22, not a fact about how this market segments itself; a market that cuts differently is mis-cut here invisibly. One raw file was edited after creation — `raw/f-signal-sk-S7-coty-10k-2026-09-22.md`, headcount added post-landing to band a cell.
-- The oldest pull cited is 2026-09-22; no cited pull is stale under `method/plan.md`. This file carries evidence, not a verdict.
+- C1 is tier 5 through E1; C6 carries no raw tier; no metric crossing is relied on. Publication bias runs one way: quiet spending leaves no public trace, so `none` and `blank` are weaker evidence than `spend`; SMB and mid-market is where that bites hardest, and every channel that could have caught them was blocked this session. The buyer-size bands are a method choice fixed 2026-09-22, not a fact about how this market segments itself; a market that cuts differently is mis-cut here invisibly. One raw file was edited after creation — `raw/f-signal-sk-S7-coty-10k-2026-09-22.md`, headcount added post-landing to band a cell. The oldest pull cited is 2026-09-22; no cited pull is stale under `method/plan.md`. This file carries evidence, not a verdict.
+- Amended 2026-09-23 per `findings/review-1-2026-09-23.md` §9; both readings stand where the review and the original disagree.

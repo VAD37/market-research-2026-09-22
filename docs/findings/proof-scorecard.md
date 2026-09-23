@@ -14,13 +14,13 @@
 
 ## Answer
 
-Visibility and traffic, with two sales crossings named below. **No Gold case exists as of 2026-09-22**: across approximately 980 candidates screened in Passes 3 and 4, zero disclose a holdout, geo-split or switchback. Seven cases clear Silver; every one is an observational pre/post with a within-site or within-company control, and two of the seven run negative or null.
+Visibility and traffic, with two sales crossings named below. **No Gold case exists as of 2026-09-22**: across approximately 980 candidates screened in Passes 3 and 4, zero disclose a holdout, geo-split or switchback. Seven cases carry a raw-file Silver grade, and under grading rule 1 six of them miss a bar item, leaving only E7 at Silver — both counts stand; every one is an observational pre/post with a within-site or within-company control, and two of the seven run negative or null.
 
 ## Evidence
 
 **The bar, restated once.** A case qualifies only when it names all seven of: brand; engine(s); absolute date window; baseline; intervention; sample size or traffic volume; who measured and whether paid by the outcome (`method/plan.md` evidence bar + grading rule 1).
 
-### Every Gold and Silver case — 0 Gold, 7 Silver
+### Every Gold and Silver case — 0 Gold, 7 Silver as graded in raw; 1 under grading rule 1
 
 | # | Case | Metric, direction | Engines named | Date window | Control | Who measured | Paid by outcome | Brand-side | Tier | Raw |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -39,9 +39,9 @@ E3's two grades conflict — **not reconciled**. E6 and E7 run against the categ
 | Vertical | Screened | Cleared Bronze or better | Silver | Gold | Compiled file |
 |---|---|---|---|---|---|
 | Skincare and beauty | ~133 (c8); 0 screened as such in c1, c2, c3, c5, c11 | 2 Bronze — eMarketer index via BeautyMatter; 5W ranking via Glossy | **0** | 0 | `customers/skincare-beauty.md` |
-| B2B SaaS | ~100 (c9) | 4 Bronze (c9) + 4 (c4, c13) + 3 (c2) | **1** — E4 | 0 | `customers/b2b-saas.md` |
+| B2B SaaS | ~100 (c9) | 4 Bronze (c9) + 4 (c4, c13) + 2 (c2: Foundation/Bitly Bronze, Seer Silver; one aggregate not graded) | **1** — E4 | 0 | `customers/b2b-saas.md` |
 | High-CPA regulated | 34 (cards 16, insurance 12, supplements 6) | cards 1, insurance 2, supplements **0** | **1, negative** — E6; E3 contested | 0 | `customers/high-cpa-regulated.md` |
-| None named — the rest | ~150 Pass 3 titles re-graded + c1 64 + c2 19 + c3 27 + c5 34 + c6 30 + c11 ~180 + c12 151 | 45 Bronze, 24 Fools gold (c13 tally) | 4 — E1, E2, E5, E7 | 0 | `markets/organic-recommendation.md` |
+| None named — the rest | ~150 Pass 3 titles re-graded + c1 64 + c2 8 pulled + 7 screened + c3 6 talks + c5 34 + c6 30 + c11 ~180 + c12 151 | 45 Bronze, 24 Fools gold (c13 tally) | 4 — E1, E2, E5, E7 | 0 | `markets/organic-recommendation.md` |
 
 ### Done-condition row — "Success stories"
 
@@ -50,7 +50,7 @@ E3's two grades conflict — **not reconciled**. E6 and E7 run against the categ
 | One Silver per vertical, **or** documented absence with screened count | Skincare and beauty | documented-absence arm — 0 Silver at ~133 screened | met |
 | | B2B SaaS | Silver arm — E4 | met |
 | | High-CPA regulated | Silver arm — E6 (negative direction); E3 contested | met |
-| | **Row verdict** | all three verticals meet one arm | **satisfied** |
+| | **Row status** | all three meet one arm; under grading rule 1, B2B SaaS and high-CPA via absence arm (~100, 34 screened) | **satisfied** |
 
 ## Claims
 
@@ -59,7 +59,7 @@ E3's two grades conflict — **not reconciled**. E6 and E7 run against the categ
 | C1 | No Gold case exists as of 2026-09-22; zero of ~980 candidates screened in Passes 3 and 4 discloses a holdout, geo-split or switchback | E1–E7, survivorship below | 5 | Gold 0 | yes |
 | C2 | Seven cases clear Silver; every one is observational treated-vs-untreated, not randomized | E1–E7 | 5 | Silver | yes |
 | C3 | Two of the seven Silvers report a negative or null direction | E6, E7 | 4 | Silver | yes |
-| C4 | Paid-by-outcome is disclosed on no graded vendor case — 0 yes / 0 no / 12 unknown at full-page re-grade | E1–E4, `raw/e-case-census-c4-2026-09-22.md` | 5 | n/a | yes |
+| C4 | Paid-by-outcome is disclosed on no graded vendor case — 0 yes / 0 no / 12 unknown at full-page re-grade | E1–E4, `raw/e-case-census-c4-2026-09-22.md` | 6 | n/a | yes |
 | C5 | Brand-side corroboration is absent: of 59 brands checked on their own domains, 0 corroborate, 0 contradict, 59 silent | `raw/e-case-census-c7-2026-09-22.md` via `markets/organic-recommendation.md` | 3 | n/a | yes |
 | C6 | The anchor vertical produced no Silver at all; the two Silvers inside a tracked vertical are one agency-authored and one negative filing | E4, E6, per-vertical table | 5 | Silver | yes |
 | C7 | One case carries two grades from two clusters, Bronze and Silver, not reconciled | E3 | 5 | Bronze / Silver | no |
@@ -72,7 +72,7 @@ Published cases are winners. Stated once for this programme.
 
 | | |
 |---|---|
-| Candidates screened, Passes 3 and 4 | **~980** — Pass 3 ~150 case titles (re-graded by c4 and c13, not re-screened) + Pass 4 c1 64, c2 19, c3 27, c5 34, c6 30, c7 59 of ~166, c8 ~133, c9 ~100, c10 34, c11 ~180, c12 151 |
+| Candidates screened, Passes 3 and 4 | **~980** — Pass 3 ~150 case titles (re-graded by c4 and c13, not re-screened) + Pass 4 c1 64, c2 8 pulled + 7 screened, c3 6 talks, c5 34, c6 30, c7 59 of ~166 (brand checks, not case candidates), c8 ~133, c9 ~100, c10 34, c11 ~180, c12 151 |
 | Cleared Silver or better | **7** |
 | Cleared Gold | **0** |
 | Screen window | 2026-09-22 to 2026-09-22 (all pulls same day; source publications 2026-02-25 to 2026-09-17) |
@@ -96,5 +96,5 @@ The counts do not sum cleanly and are not forced to. `plan-review-1-2026-09-22.m
 - Metric crossings: E6 crosses a traffic-headwind statement to a revenue line inside one filing — Silver, correlational. E1, E2, E3 stop at traffic; E4, E5 at traffic; E7 at citation. None is cited as sales proof.
 - Conflicts left unreconciled: E3's Bronze/Silver split; E5's three CTR figures (15–30%, 20–40%, 22%) for what reads as one phenomenon, kept side by side.
 - Absence is only as strong as the channels listed. Reddit, G2/Capterra and sec.gov were blocked this session, not exhausted.
-- The oldest pull cited is 2026-09-22; pulls older than one quarter at citation are re-checked and the re-check dated (`method/plan.md` staleness rule). No cited pull is stale.
-- This file carries evidence, not a verdict.
+- The oldest pull cited is 2026-09-22; pulls older than one quarter at citation are re-checked and the re-check dated (`method/plan.md` staleness rule). No cited pull is stale. This file carries evidence, not a verdict.
+- Amended 2026-09-23 per `findings/review-1-2026-09-23.md` §9; both readings stand where the review and the original disagree.
