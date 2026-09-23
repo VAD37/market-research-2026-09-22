@@ -147,3 +147,19 @@ Otterly text pull states the 84 aggregate only; per-bot split from image 03. No 
 **Answer line L17**, "no protocol states a fee": OpenAI Instant Checkout, "Merchants pay a small fee on completed purchases"; rate undisclosed; tier 3; published 2025-09-29; `raw/b-openai-buy-it-in-chatgpt-instant-checkout-primary-2026-09-23.md` (REPULL-1b). A checkout program's fee, not a protocol spec clause; E10 (L32) "6 of 6 protocol fee clauses `unknown — checked`" stands beside.
 
 Caveat: no claim re-scored; tiers unchanged per RECOUNT-2.
+
+## Litigation risk register — added 2026-09-24
+Task GAP-LIT. Appended only. Cases whose pleadings address how an answer engine cites, attributes or recommends a publisher or brand. Case list and status: `markets/organic-recommendation.md` "Publisher litigation — added 2026-09-24". All tier 2, filed.
+
+| Case | What is pleaded about the answer, verbatim | Status as of pull | Raw |
+|---|---|---|---|
+| NYT v. Microsoft, OpenAI | ¶127 answers "often fully reproducing Wirecutter's recommendations"; ¶128 no affiliate revenue via "Defendants' platforms" | SJ briefing, no ruling found | `raw/b-court-nyt-v-microsoft-openai-2026-09-22.md` |
+| Dow Jones, NYP v. Perplexity | ¶69 citations let readers "Skip the Links"; ¶70 "virtually no click-through traffic" | Dismissal denied 2025-08-21 | `raw/b-court-dow-jones-v-perplexity-2026-09-22.md`; `raw/b-court-dow-jones-v-perplexity-repull3-2026-09-24.md` |
+| Britannica v. Perplexity | ¶83 "de minimis click-through traffic" from "cited sources"; §1125 count | Dismissal motion pending; discovery to 2027 | `raw/b-court-britannica-v-perplexity-2026-09-22.md`; `raw/b-court-britannica-v-perplexity-repull3-2026-09-24.md` |
+| Penske Media v. Google | Count V tying; "over 80%" zero-click among AI-Overview searches | Under advisement since 2026-08-25 | `raw/b-court-penske-v-google-2026-09-22.md` |
+| MDL, News plaintiffs' SJ brief | Microsoft "83-93% drops in click-through rates" (risk row 1 above) | Filed 2026-09-17 | `raw/a-court-mdl-microsoft-ctr-data-2026-09-22.md` |
+| LTL LED v. Google | Business defamation, "320 Assault Libel & Slander"; answer content | Remanded to state 2026-01-09 | `raw/f-courtlistener-ltl-led-v-google-ai-overview-defamation-2026-09-23.md`; `raw/b-court-ltl-led-v-google-repull3-2026-09-24.md` |
+
+Not bearing on citation or recommendation in the raw captured: Reddit v. Anthropic (contract, data access), U.S. News v. OpenAI (training, trademark; stayed), Chegg v. Google (search-referral dependence, antitrust).
+
+Caveats, this append: pleadings are allegations, not findings; no merits ruling on any answer-content claim found as of 2026-09-24. LTL LED is the only brand-side (non-publisher) docket found; its AI Overview link rests on the pull's framing. Amazon, Meta AI, xAI dockets `unknown — checked courtlistener.com 2026-09-23`.

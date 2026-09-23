@@ -209,3 +209,47 @@ Caveat: all chart percentages are Cloudflare Radar's printed legend / share-bar 
 | Google's share line flat 2023–2024 then falling to 2027; Amazon rising; only 2026 labelled (48.5% / 24.2%) | "Google's Share of Search Advertising Will Fall Below 50%…" | chart "March 2026" | 4 | `raw/e-market-size-emarketer-searchad-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: ~ values are measured-by-us axis readings; Similarweb prints no panel size on either chart.
+
+## Publisher litigation — added 2026-09-24
+Task GAP-LIT. Appended only. Filed claims by publishers or businesses against answer engines; pleaded figures stay in `markets/paid-placement.md` L97–100. Status source: filed (CourtListener docket entries). Filed dates per complaint or docket.
+
+| Case | Court / docket | Filed | Claim | Status as of pull | Raw |
+|---|---|---|---|---|---|
+| NYT v. Microsoft, OpenAI | S.D.N.Y. 1:23-cv-11195 | 2023-12-27 | Copyright, DMCA, misappropriation; ¶127 Wirecutter recommendations reproduced | MDL summary-judgment briefing 2026-09-17; no ruling found | `raw/b-court-nyt-v-microsoft-openai-2026-09-22.md`; `raw/b-court-daily-news-v-microsoft-openai-repull3-2026-09-24.md` |
+| Daily News + 7 titles v. Microsoft, OpenAI | S.D.N.Y. 1:24-cv-03285 | 2024-04-30 | Copyright, DMCA, trademark dilution, NY GBL §360-l | 2026-09-21 defendants seek extension to oppose partial summary judgment | `raw/b-court-daily-news-v-microsoft-openai-2026-09-22.md`; same repull3 |
+| In re OpenAI Copyright Litigation (MDL) | S.D.N.Y. 1:25-md-03143 | 2025-04-11 docket opened | Coordination docket; counts sit in member cases | ECF 1977-1 News plaintiffs' SJ brief 2026-09-17; Daubert due 2026-09-24 | `raw/b-court-mdl-openai-copyright-2026-09-22.md`; `raw/b-court-usnews-v-openai-repull3-2026-09-24.md` |
+| U.S. News & World Report v. OpenAI | S.D.N.Y. 1:25-cv-09912 | 2025-11-26 | Copyright, DMCA, trademark infringement and counterfeiting | Stayed 2025-12-22 pending MDL summary-judgment rulings | `raw/b-court-usnews-v-openai-2026-09-22.md`; `raw/b-court-usnews-v-openai-repull3-2026-09-24.md` |
+| Dow Jones, NYP v. Perplexity | S.D.N.Y. 1:24-cv-07984 | 2024-10-21 | Copyright inputs and outputs; false designation, trademark dilution | Dismiss/transfer motion "DENIED in full" 2025-08-21; docket updated 2026-09-16 | `raw/b-court-dow-jones-v-perplexity-2026-09-22.md`; `raw/b-court-dow-jones-v-perplexity-repull3-2026-09-24.md` |
+| Britannica, Merriam-Webster v. Perplexity | S.D.N.Y. 1:25-cv-07546 | 2025-09-10 | Copyright on RAG inputs and outputs; false designation §1125 | Amended complaint 2026-03-17; dismissal motion fully briefed, no ruling found | `raw/b-court-britannica-v-perplexity-2026-09-22.md`; `raw/b-court-britannica-v-perplexity-repull3-2026-09-24.md` |
+| Chegg v. Google | D.D.C. 1:25-cv-00543 | 2025-02-24 | Sherman Act §1/§2 over AI Overviews; unjust enrichment | Dismissal heard 2026-08-25, "under advisement"; no entry after 2026-09-02 | `raw/b-court-dockets-table-repull2-2026-09-23.md`; `raw/b-court-chegg-penske-v-google-repull3-2026-09-24.md` |
+| Penske Media v. Google | D.D.C. 1:25-cv-03192 | 2025-09-12; amended 2025-12-04 | Sherman Act §2; tying AI Overviews to search | Heard with Chegg 2026-08-25; no ruling found | `raw/b-court-penske-v-google-2026-09-22.md`; same repull3 |
+| Reddit v. Anthropic | N.D. Cal. 3:25-cv-05643; SF Superior CGC-25-625892 | 2025-06-04 state court | Contract, unjust enrichment, trespass to chattels, UCL §17200 | Federal case remanded, terminated 2026-03-30; state status unknown | `raw/b-court-reddit-v-anthropic-2026-09-22.md` |
+| LTL LED (Wolf River Electric) v. Google | D. Minn. 0:25-cv-02394 | 2025-06-09 removal | "320 Assault Libel & Slander"; AI Overview per suit description | Remanded to Ramsey County 2026-01-09; dateTerminated 2026-02-26 | `raw/f-courtlistener-ltl-led-v-google-ai-overview-defamation-2026-09-23.md`; `raw/b-court-ltl-led-v-google-repull3-2026-09-24.md` |
+
+Unknowns: dockets naming Amazon, Meta AI or xAI with a publisher or brand — `unknown — checked courtlistener.com free-text search 2026-09-23` (HTTP 202). Post-remand state dockets for Reddit and LTL LED — `unknown — checked CourtListener only 2026-09-24`. Captions of CourtListener dockets 66834516, 70965989, 72069211 — `unknown — checked courtlistener.com 2026-09-22`.
+
+### Caveats
+- Status is docket-entry text via CourtListener API search, not the PACER record; queries matched keywords, so unmatched later entries may exist.
+- Complaints carry the filer's framing (`method/trust-rubric.md`). No ruling on the merits of any AI-answer claim was found.
+- Reddit federal order captioned "Granting Defendant's Motion to Remand" while the raw records Reddit moved to remand; recorded as the raw states.
+- LTL LED remand order 2026-01-09 and docket dateTerminated 2026-02-26 sit side by side, not reconciled. AI Overview link rests on the pull's framing; docket fields name no product.
+- Filed dates: dockets table gives NYT "2023-12", Dow Jones "2024-10", Daily News "2024-04", US News "2025"; complaint-level raws give the exact dates used here.
+
+## Engine spread and orphan lane-A items — added 2026-09-24
+Task GAP-ACEF. Appended only. Raw prefix `raw/`.
+
+| Fact | Figure verbatim | Window | Source kind, tier | Raw |
+|---|---|---|---|---|
+| Top 1000 US retailers, largest AI-referral engine: ChatGPT | 844 (Q1) → 722 (Q2) | Q1 vs Q2 2026 | analyst-derived, 5 | `a-refibuy-ai1000-rankings-2026-09-22.md` |
+| Same, Gemini / Perplexity / Claude | 16 → 32; 8 → 21; 1 → 15 | same | analyst-derived, 5 | same |
+| Rank churn in the index | "972 changed position"; median move 35; 641 moved ≥25 | Q2 2026 | analyst-derived, 5 | same |
+| Size vs readiness | "only 10 of the 100 largest online retailers" in AI1000 top 100 | Q2 2026, second quarter running | analyst-derived, 5 | same |
+| Open-source prompt tracker, published method | MIT licence, Wilson intervals, adaptive sampling; "Star 2", "Fork 0" | undated README | company-stated, 4 | `a-practitioner-github-open-prompt-visibility-tool-2026-09-22.md` |
+
+Per-member-state ChatGPT or Bing DSA recipient counts: `unknown — checked openai.com (403), web.archive.org, three DSA raw files 2026-09-23` (`a-similarweb-openai-dsa-country-cut-walls-2026-09-23.md`); EU-wide 159.1M stays the only figure. Similarweb per-country assistant share: `unknown — checked similarweb.com (202 empty), data.similarweb.com (403) 2026-09-23`.
+
+### Caveats
+- ReFiBuy sells Agentic Commerce Optimization; index co-built with Digital Commerce 360; no scoring appendix on the article. DC360's 2026-09-03 relay matches the figures.
+- "Largest AI traffic source" counts retailers, not traffic volume; ChatGPT still leads 722 of 1,000.
+- The tracker publishes code and method, no results dataset; it does not change the "0 of 34 rostered vendors" row above.
+- Practitioner threads (HN ×2, LinkedIn ×1) carry no figure; graded "Not a case" in `e-case-census-c5-2026-09-22.md` rows 2, 7, 9.
