@@ -114,3 +114,17 @@ Marks, updated: **confirmed 4** (H2, H8, H13, HE1) plus **2 dual-mark** (H7, H9,
 **Programme-done, Segment matrix row, restated:** was "not met — 19 of 27; 8 high-CPA cells read blank". Now: **loose — met, 27 of 27. Strict — not met, 19 of 27; 8 cells blank** (down from 19 blank before this pass). See `demand-map.md` for the full arithmetic and the channel each remaining blank rests on.
 
 **Caveats, this append:** H7's and H9's loose-reading `confirmed` marks depend on treating a channel retried today and logged in `blocked-channels.md` (TED) as "checked" for the none-rule's purpose — a convention this repo's `customers/skincare-beauty.md` and `customers/b2b-saas.md` already applied before this pass, extended here to `customers/high-cpa-regulated.md` for consistency. A reader who requires literal 100% signal completion should read both hypotheses as unchanged from 2026-09-22: `unresolved — checked`. Neither mark is deleted; both sit side by side, per root `CLAUDE.md`'s rule against overwriting a prior reading.
+
+### Pass 4 re-run, 2026-09-23
+
+Task P4-r. Full detail: `findings/proof-scorecard.md` §"Pass 4 re-run, 2026-09-23"; census `raw/e-case-census-r1-2026-09-23.md`.
+
+| ID | 2026-09-22 mark | 2026-09-23 mark, beside it | Deciding change | Tier |
+|---|---|---|---|---|
+| H3 | **killed** | **killed — unchanged** | 0 Gold in ~1,640 more items; best new design two arms, one unit each | 5 |
+| H6 | unresolved — checked | **confirmed (rule1, narrow) / unresolved — checked (three verticals), both stand** | OtterlyAI Reddit test: own communities, dated action, six engines, Silver rule1 | 5 |
+| H11 | **not produced** | **confirmed — action named; outcome unknown in two of three** | Coty 10-K; LendingTree 8-K; HubSpot op-ed; Chime careers page | 2–3 |
+
+Marks, updated: H6 moves from `unresolved — checked 8` to a dual mark; H11 moves from `not produced 8` to confirmed.
+
+**Caveats, this append:** H6's confirm rests on a vendor testing a tactic on communities it created, not on a named brand in a tracked vertical; the grade_raw Silvers X5 and X6 (anonymised sites) sit beside it. H11's high-CPA row relies on LendingTree's ChatGPT app (tier 2) or Chime (tier 3, borderline vertical). This file was over its line budget before this append; overrun stated here.

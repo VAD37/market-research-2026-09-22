@@ -98,3 +98,81 @@ The counts do not sum cleanly and are not forced to. `plan-review-1-2026-09-22.m
 - Absence is only as strong as the channels listed. Reddit, G2/Capterra and sec.gov were blocked this session, not exhausted.
 - The oldest pull cited is 2026-09-22; pulls older than one quarter at citation are re-checked and the re-check dated (`method/plan.md` staleness rule). No cited pull is stale. This file carries evidence, not a verdict.
 - Amended 2026-09-23 per `findings/review-1-2026-09-23.md` §9; both readings stand where the review and the original disagree.
+
+### Pass 4 re-run, 2026-09-23
+
+Task P4-r. Census `raw/e-case-census-r1-2026-09-23.md`; 29 new raw files `raw/e-case-*-2026-09-23.md`. Grades per grading rule 1 (2026-09-23 reading) and the evidence-quality append; both grades stated.
+
+**Answer, this pass.** Still no Gold: 0 holdout, geo-split or switchback in ~1,640 new items screened. Four new Silver (raw), one under grading rule 1 — all four experimental, all outside the three verticals. First brand-side corroboration: Chime's own page states AirOps' result.
+
+#### Claims restated — 2026-09-22 beside 2026-09-23
+
+| # | 2026-09-22 | 2026-09-23, beside it |
+|---|---|---|
+| C1 | No Gold; ~980 screened | No Gold; ~1,640 more screened, detail below |
+| C2 | 7 Silver raw, 1 rule1; all observational | +4 Silver raw (X1, X2, X5, X6); +1 rule1 (X1) |
+| C3 | 2 of 7 Silvers negative or null | +4 negative or null graded; +1 ungraded replication |
+| C4 | Paid-by-outcome 0 yes / 0 no / 12 unknown | Unchanged; 0 new cases state fees |
+| C5 | 0 of 59 brands corroborate | 1 of 109 corroborates (Chime); cumulative 1 of 168 |
+| C6 | Anchor vertical: 0 Silver | Unchanged: 0 new Silver in any vertical |
+
+Screened this pass: EDGAR 1,098 documents (30 queries) plus 34 tickers per-CIK; brand pages 109; Pass 3 titles 19 line items plus 16 client pages; vendor sitemap-new 44 URLs; agency and talks ~110 search entries; experiments ~25; Reddit 221 comments (Arctic Shift archive).
+
+#### Every new case at Silver or better — 0 Gold, 4 Silver raw, 1 Silver rule1
+
+| # | Case | Vertical | Metric moved | Window | Design | Raw / rule1 | Brand side | Raw |
+|---|---|---|---|---|---|---|---|---|
+| X1 | OtterlyAI Reddit test | none — vendor's test communities | AI citations 48 control vs 426 treated | 2026-04-11 to 2026-06-10 | experimental: two arms, one unit each, unmatched | Silver / Silver | n/a — own | `raw/e-case-otterly-reddit-experiment-2026-09-23.md` |
+| X2 | OtterlyAI HTML vs Markdown | none | .md citations 0; bot visits 0% vs 2.8–4.6% | 14 days, dates not printed | experimental: paired pages | Silver / Bronze — item 3 | n/a — own | `raw/e-case-otterly-html-vs-markdown-experiment-2026-09-23.md` |
+| X5 | Jonathan Mall, "Brand A" | none — expert services | ChatGPT citations +171 / −32; mentions flat | July 2 to 9, year absent | experimental: pre/post, untreated pages, noise floor | Silver / Bronze — items 1, 3 | n/a — anonymised | `raw/e-case-jonathanmall-geo-experiment-2026-09-23.md` |
+| X6 | Boily, two dental clinics | none — healthcare | mention rate 11→27% vs 11→10% | two weeks, slug 2026-06 | experimental: pre/post, one untreated clinic | Silver / Bronze — item 3 | n/a — anonymised | `raw/e-case-boily-dental-geo-comparison-2026-09-23.md` |
+
+X2 and X5's mention result run null. X1's vendor labels its own design "observational study"; X6's vendor writes "not a controlled A/B".
+
+#### Quality of evidence, this pass
+
+| Category | Cases | Inside the three verticals |
+|---|---|---|
+| Metric moved, experimental | 4 (X1, X2, X5, X6) | 0 |
+| Metric moved, observational | 28 | 16 |
+| Action named, outcome unknown | 13 | 6 |
+
+#### Per vertical, this pass — grade_rule1
+
+| Vertical | Screened | Bronze+ | Fools gold | Silver | Gold | Negative / null |
+|---|---|---|---|---|---|---|
+| Skincare and beauty | 22 | 3 — Nuvadermis, OptimizeGEO haircare, "Lumara" | 1 — Fresha | 0 | 0 | 0 |
+| B2B SaaS | 41 | 6 — incl. Lago, PagePilot, HubSpot blog loss | 3 — incl. HubSpot cohort | 0 | 0 | 1 — HubSpot −5M visits |
+| High-CPA regulated | 21 | 3 — Venn, Chime (both borderline), supplement brand | 0 | 0 | 0 | 0 |
+
+Supplements had 0 cleared on 2026-09-22; the Fire&Spark supplement case (V8) is the first Bronze. Chime (B1) is the only case with a brand-side page stating the vendor's result: "tripled our AI citations" (`raw/e-case-chime-careers-airops-2026-09-23.md`).
+
+#### Done row "Success stories" — restated
+
+| Vertical | 2026-09-22 | 2026-09-23, rule1 reading |
+|---|---|---|
+| Skincare and beauty | absence arm, ~133 screened | absence arm, ~155 screened |
+| B2B SaaS | Silver E4 (raw); absence under rule1 | absence arm under rule1, ~141 screened |
+| High-CPA regulated | Silver E6 (raw); absence under rule1 | absence arm under rule1, ~55 screened |
+| Row | satisfied | satisfied — absence arm in all three |
+
+#### Hypotheses — marks beside 2026-09-22
+
+| ID | 2026-09-22 | 2026-09-23 | Deciding evidence |
+|---|---|---|---|
+| H3 | killed | killed — unchanged | 0 Gold in ~1,640 more; best design X1, one unit per arm |
+| H6 | unresolved — checked | confirmed narrowly (rule1) / unresolved in verticals, both stand | X1: vendor-owned property, dated action, P1 engines, Silver rule1 |
+| H11 | not produced | confirmed — tier 2–3, action named | Coty 10-K; LendingTree 8-K; HubSpot op-ed; Chime page |
+
+H11 rows: skincare — Coty 10-K 2026-08-20 "deploying improvements… to drive generative engine optimization" (tier 2); high-CPA — LendingTree 8-K 2026-07-29 ChatGPT app (tier 2), Chime careers page (tier 3, borderline); B2B SaaS — HubSpot CMO op-ed, Fortune 2026-09-22 (tier 3). Outcome unknown for Coty and LendingTree. Sources: `raw/e-case-edgar-fulltext-results-2026-09-23.md`, `raw/e-case-fortune-hubspot-blog-traffic-loss-2026-09-23.md`.
+
+#### Caveats, this append
+
+- This file was at 100 lines, its budget; this append adds 78 lines. Overrun recorded here, not trimmed from the original.
+- All four new Silvers are vendor- or practitioner-run on their own properties; trust-rubric "vendor measuring the thing it sells" applies to X1, X2, X6. None is replicated.
+- The evidence-quality table counts pre/post with control as experimental. By that reading E1–E4 above also qualify; C2's "observational" label stands beside it.
+- Vertical tags "borderline": Venn (business cards), Chime (neobank), Fresha (beauty booking). Readings without them: high-CPA 1 Bronze, skincare 0 Fools gold.
+- Chime's page is a 2026-02-23 Wayback copy of a 2025-11-24 post; the live page blocks fetch.
+- WebSearch session cap (200 calls) was reached; later searches used DuckDuckGo html. Reddit came from an archive, comments only; G2, Capterra and live Reddit deferred to the extension holder.
+- Sitemap lastmod is not a publication date; "new since 2026-09-01" means new to this programme.
+- Paywalled or blocked primaries (grro.io, aicited.org, one SEL article) are listed in the census for REPULL-1; none is graded.
