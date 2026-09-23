@@ -12,11 +12,12 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| REPULL-AUDIT-2 | opus | decide what still needs repull; status column on repull-queue CSV | `docs/method/repull-audit-2-2026-09-23.md`, `repull-queue-2026-09-23.csv` | 2026-09-23 |
+| RP2-A | sonnet | repull batch A (fetch only): rows 137, 144, 142, 141, 109, 47, 49, 48, 39, 31, 159; images read inline | raw `*-repull2-2026-09-23.md`, `raw/img/`, compiled cite appends | 2026-09-23 |
+| RP2-B | sonnet | repull batch B (`ext` holder): row 110 Adobe Q3 PDF; rows 74, 77, 37 if cheap | raw, `raw/img/`, compiled cite appends | 2026-09-23 |
 | GAP-SK | sonnet | skincare Organic/Mid (E2) demand cell | `docs/raw/f-signal-sk-*-2026-09-23.md`, `customers/skincare-beauty.md` append | 2026-09-23 |
 | GAP-IND | sonnet | 29 Indeed card bodies via employer career sites | `docs/raw/f-*-2026-09-23.md`, customer file appends | 2026-09-23 |
 
-Slots free: 4 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 3 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
@@ -153,6 +154,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | IMG-1c Adthena images | 3 images read; `analysed_in` set 3 — INDEX.csv 82 rows, 71 analysed, 11 blank = not saved/video; IMG-1 pass complete. UK ChatGPT-ads leaderboard (week of 2026-07-13, tier 5): Booking.com, Almedia, efaq.com, Expert Market, giffgaff, Vodafone — 0 in-vertical; no UK paid cell moves. Market counts: US 4,982 advertisers / 60.1%, UK 1,342 / 16.2%, AU 912 / 11%; Booking.com visibility Other 32.38% / AU 13.41% / UK 9.00% / US 8.72%. Relay-only figures (Jotform, BestMoney, Lovable ranks 6–10; 7,378 total) absent from images. Appends: paid-placement +6 rows, three customer files +1 para each | 2026-09-23 | d9e141d |
 | BRIEF-4 briefs r2 | `findings/executive-brief-2026-09-23-r2.md` (61 lines; 27-row metric spine), `findings/director-brief-2026-09-23-r2.md` (299 lines; 17 tables, every row cited), `method/gen-director-deck-r2.py` → `findings/director-brief-2026-09-23-r2.pptx` (18 slides, verified by re-load). Snapshot c1e632c; 0 pulls. 30 both-readings pairs in appendix (segment strict 8/1/17/1 vs loose 8/1/18/0; Silver 7 grade_raw / 1 grade_rule1; tier-3 share six ways; three-counts R1 10/29/13 vs R2 5/34/13; H6, H7 dual). biz-review-1 §7 gaps: closed 20 / open 2 (14 credential-gated; 22 compression pass not run). Execution-word grep 0 (research terms quoted); STATE/plan line cites 0 (two section-level cites: §Open decisions, §Decisions taken "25 + 7 bot walls"); acronyms 39/39 and 82/82 defined. Owner questions: six verbatim, no lean | 2026-09-23 | f78a7a1 |
 | CLEANUP-1 orchestration cleanup | `projects/ORCHESTRATION.md` §In force (cap 7, Opus/Sonnet only, single authority); older cap/model sections marked superseded; `plan.md` cap revision 4; `MegaPlan.md` pointer; `run-prompt.md` revision 2; STATE header, live table, worktree row, Unknowns statuses. Agent ran one read-only `git diff --stat` (disclosed) | 2026-09-23 | see commit |
+| REPULL-AUDIT-2 | `docs/method/repull-audit-2-2026-09-23.md` (~75); `repull-queue-2026-09-23.csv` + `status` column, 169 rows: done 61, unknown-checked 21, credential 13, open 74 (52 uncited, dropped; 22 cited, 7 low value). Batches RP2-A fetch, RP2-B `ext`, RP2-C image reads (folded into A/B by main thread). Skipped: GML mp4s, OpenAI/Business Wire images 403, paywall retries. REPULL-1 vs 1b split by file mtime | 2026-09-23 | see commit |
 
 ## Landed — pending verify
 
