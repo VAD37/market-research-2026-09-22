@@ -13,6 +13,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
 | P11 | Opus | Transition evidence, descriptive, from Pass 4 cases and Pass 8 signals; scores H10, H11 | `docs/findings/transition-evidence.md` | 2026-09-23 |
+| REVIEW-2 | Opus | Plan improvements after nine passes + director-level reporting spec and evidence-only executive brief (user request 2026-09-23) | `docs/method/plan-review-2-2026-09-23.md`, `docs/findings/executive-brief-2026-09-23.md` | 2026-09-23 |
 
 ## Queue
 
@@ -157,6 +158,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Resumed; cap read as 3 live agents | Re-pasted run prompt states "never more than 3" as a hard rule; stricter reading never violates either instruction. Next tasks are sequential, so the cap does not bind |
 | 2026-09-23 | Pass 10 hold kept despite run prompt's "never skip a sampling date" | Specific dated user decision 2026-09-22 22:40 outranks the generic run-prompt template; gap stays recorded, never back-filled |
 | 2026-09-23 | Session works on master checkout directly, no worktree | Root CLAUDE.md: master only, no worktrees |
+| 2026-09-23 | REVIEW-2 spawned on user request: plan improvements plus a director-level brief; brief is evidence only, verdict stays the user's | User: report to a business owner what was done and what could improve the plan; MegaPlan.md non-goals forbid a verdict, so the brief names owner decisions as questions |
 | 2026-09-23 | P9-review respawned after a session /clear; deliverable renamed `review-1-2026-09-23.md` (was `-09-22`); budget 160 lines | Prior spawn wrote no file; file date must be the write date; amendments quote lines verbatim, which the 100-line finding budget cannot hold |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
