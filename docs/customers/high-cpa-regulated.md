@@ -173,3 +173,50 @@ Which existing line funds AI-visibility or AI-ads spend for an insurance, credit
 | Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
 
 **Read.** `unknown — checked EDGAR FTS (10 CIKs plus phrase queries), eHealth 10-K and 10-Q, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). The one in-segment filer names SEO and paid search as the lines AI platforms threaten and expects marketing expenditure to rise; no filer names the line that funds AI-surface work. The only filed shift statement found sits outside the segment (LegalZoom). File over its 100-line budget; overrun includes this append.
+
+## Engine × segment and buying process, P16-c4, 2026-09-23
+
+**Engines named, this vertical's raw.** Mentions and files-with-mention across the 22 high-CPA raw files (`f-signal-hr-*`, `f-signal-census-hr-*`, `e-case-census-c10-*`, `e-case-c10-*`, `e-case-aicited-*`, `e-case-fireandspark-*`), regex count, method in `raw/f-engine-mentions-raw-count-2026-09-23.md` (measured-by-us on raw already pulled). Partial by design.
+
+| Engine | Mentions | Files | Cell-attributable naming, source, tier |
+|---|---|---|---|
+| ChatGPT | 49 | 10 | Juice Plus+ S1 posting: "how Juice Plus+ appears across Google Search, AI Overviews, ChatGPT, Gemini, Perplexity, and emerging answer engines" — Organic / Enterprise (band per `raw/f-signal-hr-band-attribution-2026-09-23.md`), 3, `raw/f-signal-hr-S1-linkedin-2026-09-22.md` |
+| Gemini / AI Mode / AI Overviews | 35 | 7 | Juice Plus+ posting (AI Overviews, Gemini); NerdWallet 8-K "AI overviews and LLMs" — Organic / Enterprise, negative direction, 2, `raw/e-nerdwallet-8k-repull-2026-09-23.md` |
+| Perplexity | 15 | 6 | Juice Plus+ posting |
+| Claude | 7 | 3 | vendor and case files only |
+| Grok | 2 | 2 | vendor and case files only |
+| Copilot | 0 | 0 | — |
+| Rufus / Alexa for Shopping | 0 | 0 | — |
+
+Top engine by mention: ChatGPT. Cell-level naming exists only at Organic / Enterprise (Juice Plus+, supplements; NerdWallet, cards). The Cigna, GEICO, Amica, Embrace, Insurify and Simply Business postings name GEO/AEO duties without an engine in the text captured (`raw/f-signal-hr-S1-*`; `raw/f-indeed-S1-repull2-2026-09-23.md` card only). Mid-market cell: `unknown — checked the three banded postings 2026-09-23`. Paid and agentic rosters name no insurance, card or supplement brand (`raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md`).
+
+**Switching cost and buying process.** Buyer-side: `unknown — checked every raw file cited in this document, OMR (0 lines naming a buying step), G2 review text (403 to fetch), TED, sam.gov, Contracts Finder 2026-09-23`. The one public-buyer procurement near this vertical, KKH's EUR 11,000,000 marketing framework naming GEO (`raw/f-ted-S10-repull2-2026-09-23.md`, tier 2), states a framework ceiling and a tender path, not a vendor contract length. Vendor-side terms, tier 3, `raw/a-vendor-terms-contract-length-2026-09-23.md`: monthly cancel-anytime self-serve at Peec, Otterly, AthenaHQ, Local Falcon, BrightLocal; annual auto-renewal at Otterly and Semrush (Semrush non-cancellable, 7-day refund on 12-month-or-longer terms only); enterprise order forms of undisclosed length at Profound, Scrunch, AthenaHQ, SOCi; Yext "annual and multi-year subscriptions", "non-cancelable contracts" (10-K, tier 2). Regulated-buyer reviewer presence: Profound G2 industry "Financial Services (76)" of 1,129, AthenaHQ "Financial Services (3)" of 47, Brandlight "Financial Services (7)" of 216 (`raw/f-g2-capterra-S4-repull-2026-09-23.md`, tier 5). Board-level pull, not vertical-cut: Corporate Ink survey via Yext 8-K, 88% / 34%, tier 5 relay, no n (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`).
+
+**Caveats, this append.** Word counts over raw include headers and query strings; this vertical's raw set is the smallest of the three, so counts are not comparable across verticals in absolute terms. One posting carries every cell-level engine naming. Vendor terms are asking terms; no regulated buyer's contract is on record. File over its 100-line budget; overrun includes this append.
+
+## S13 brand accuracy and EU cells, P16-c3, 2026-09-23
+
+S13 per `method/demand-signals.md` addition 2026-09-23. Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+| Sub-market | Size | S13 | Channels checked 2026-09-23 |
+|---|---|---|---|
+| Organic | SMB, Mid-market, Enterprise | none — checked | LinkedIn guest API (3 terms); Arctic Shift r/smallbusiness, r/SEO, r/marketing (r/bigseo 422); CourtListener; TED, UK CF; vendor sitemaps; SEJ; engine help ×5 |
+| Paid | all three | none — checked | same; no insurance, card or supplement brand named |
+| Agentic commerce | all three | none — checked | same |
+
+Nearest S13 observation: LTL LED, LLC (Wolf River Electric) v. Google LLC, D. Minn. 0:25-cv-02394, "320 Assault Libel & Slander", filed 2025-06-09, terminated 2026-02-26 — solar installer, outside this vertical (`f-courtlistener-ltl-led-v-google-ai-overview-defamation`, tier 2, moves no cell).
+
+EU cells — organic sub-market only; paid and agentic not checked with EU terms, blank:
+
+| Country | Size | S1 | Read | Raw, tier |
+|---|---|---|---|---|
+| UK | unassigned | Compare the Market "Senior Manager - Search & LLM Discovery", Peterborough, 2026-09-08, 26 applicants: "LLM Discovery & Optimisation Lead", "generative AI discovery" — insurance comparison per employer, vertical not stated in posting; headcount `unknown — checked comparethemarket.com (403) 2026-09-23` | moves no cell | `f-linkedin-S1-eu-countries`, 3 |
+| UK | SMB, Mid-market, Enterprise | no other regulated employer of 30 cards | none — checked | same |
+| FR | all three | Hello Watt "Responsable SEO et GEO" is energy brokerage — outside vertical; 0 insurance, card, supplement employers | none — checked | same |
+| ES | all three | 0 of 30 cards | none — checked | same |
+| IT | all three | 0 of 30 cards | none — checked | same |
+| NL | all three | 0 of 30 cards | none — checked | same |
+
+S2, S5, S10 per country as in the B2B SaaS append of the same date: Yext /fr and /it Scout pages, no customer; 0 national-sub threads (1 off-topic r/italy post); TED 0 notices outside DEU and IRL; UK CF 0. Raw: `f-vendor-S2-yext-scout-localized-fr-it` (3), `f-reddit-arcticshift-S5-eu-national-subs` (5), `f-ted-ukcf-S10-eu-country-brand-accuracy` (2).
+
+**Caveats, this append.** Compare the Market's vertical is read from the employer's business, which the posting does not state; the boundary rule keeps it out of a cell. "Regulated" here follows the segment definition above (credit cards, insurance, supplements). Single pass, fetch-only, 2026-09-23. File over its 100-line budget; overrun includes this append.

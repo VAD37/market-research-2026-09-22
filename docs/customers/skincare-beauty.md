@@ -140,3 +140,56 @@ Which existing line funds AI-visibility or AI-ads spend for a beauty buyer. Raw 
 | HubSpot State of Marketing 2026 | gated; public page carries no search or budget statement | — | 6 | `f-hubspot-state-of-marketing-2026-check` |
 
 **Read.** `unknown — checked EDGAR FTS (6 CIKs), Coty 8-K and 10-K, IAB outlook release, gartner.com, hubspot.com 2026-09-23; DuckDuckGo, Bing, Google, Brave, Mojeek, Yahoo, Startpage walled or off-locale` (`f-search-engines-wall-log`). Nearest filed statement is Coty's, tier 2: AI-platform visibility named in the same sentence group as a brand-marketing function cut, line unnamed. No agency or vendor survey with disclosed n reached for this vertical. File over its 100-line budget; overrun includes this append.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- eMarketer AI Visibility Index, beauty Q1 2026 · `raw/e-case-c8-beautymatter-emarketer-ai-visibility-index-2026-09-22.md` (5) · `raw/e-case-emarketer-ai-visibility-index-beauty-q1-2026-primary-2026-09-23.md` (5) · "we analyzed more than 5,200 ChatGPT responses across nine personal care and beauty categories"; "ChatGPT recommended La Roche-Posay in 81% of facial skincare queries"; La Roche-Posay "the most recommended brand in personal care and beauty overall"; CeraVe "maintained the top ranking" in body care (EMARKETER, 2026-04-13) · agrees (81%; La Roche-Posay #1; CeraVe body care #1); "22%… CeraVe 20%… 15%… 14%" not in primary text (leaderboard images saved, unread until IMG-1); primary adds n
+- WWD beauty AI-search coverage · `raw/e-case-census-c8-2026-09-22.md` (n/a — HTTP 402 on 2026-09-22) · `raw/e-case-wwd-beauty-ai-search-coverage-primary-2026-09-23.md` (5) · 10 on-site search results; "300 hair care-specific prompts and fan-out queries run through ChatGPT by digital agency Avenue Z in June showed that the top five brands accounted for 49 percent of total hair care visibility" (2026-08-04); "ChatGPT captured 17 percent of total searches versus Google's 78 percent" (First Page Sage, Q4 2025, 2026-02-27); E.l.f.: no visibility, traffic or sales figure · not in primary (no named-brand outcome case — agency and analyst figures only, no method); substitute carried nothing
+- Google AI Mode ad formats (GML 2026 example media) · `raw/b-google-gml2026-search-ads-2026-09-22.md` (3 — text only, format examples not captured) · `raw/b-google-gml2026-search-ads-primary-2026-09-23.md` (3) · the six format examples (Conversational Discovery, Highlighted Answers, AI-powered Shopping ads, Business Agent for Leads, Promotional bundling + native checkout, Travel deals) are mp4 videos on storage.googleapis.com, 4.2–22.4 MB each; no chart or table image on the page · not in primary as images (videos; URLs recorded in `raw/img/INDEX.csv`, not downloaded); text unchanged
+- Coty brand-side AI statement (census c8: coty.com/newsroom 404, ir.coty.com DNS) · `raw/e-case-census-c8-2026-09-22.md` (n/a) · `raw/e-case-coty-openai-collaboration-primary-2026-09-23.md` (3) · "Coty Enters Strategic Collaboration With OpenAI" (2026-02-02): "With ChatGPT Enterprise, Coty employees will gain access to OpenAI's most capable models" — internal tooling; newsroom (`coty.com/news`) lists no release on AI search visibility, referral traffic or AI-attributed sales as of 2026-09-23 · not in primary (no visibility, traffic or sales figure); the 10-K "generative engine optimization" line in `raw/e-case-edgar-fulltext-results-2026-09-23.md` remains the only Coty GEO statement
+
+## Engine × segment and buying process, P16-c4, 2026-09-23
+
+**Engines named, this vertical's raw.** Mentions and files-with-mention across the 26 skincare raw files (`f-signal-sk-*`, `f-signal-census-sk-*`, `e-case-census-c8-*`, `e-case-c8-*`, `e-case-*beauty*`), regex count, method and file list in `raw/f-engine-mentions-raw-count-2026-09-23.md` (measured-by-us on raw already pulled; each mention keeps its source's tier). Partial by design: counts words, not intent.
+
+| Engine | Mentions | Files | Cell-attributable naming, source, tier |
+|---|---|---|---|
+| ChatGPT | 91 | 18 | e.l.f. S1 posting lists "ChatGPT, Perplexity, Google AI Overviews, Copilot, Claude" — Organic and Agentic / Enterprise, 3, `raw/f-signal-sk-S1-jobs-linkedin-indeed-upwork-freelancer-2026-09-22.md`; ELC × Profound names ChatGPT and Gemini — Organic / Enterprise, 3, `raw/e-case-c8-estee-lauder-profound-partnership-2026-09-22.md` |
+| Gemini / AI Mode / AI Overviews | 51 | 13 | e.l.f. posting (AI Overviews); ELC × Profound (Gemini); Google Direct Offers in AI Mode — Paid / Enterprise, 3, `raw/c-google-ucp-merchant-agentic-2026-09-22.md` |
+| Claude | 16 | 6 | e.l.f. posting only, at cell level |
+| Perplexity | 8 | 4 | e.l.f. posting only, at cell level |
+| Copilot | 2 | 1 | e.l.f. posting only |
+| Rufus / Alexa for Shopping | 17 | 3 | trade-press beauty-retail pieces, no buyer cell (`raw/e-case-c8-glossy-*`) |
+| Grok | 0 | 0 | — |
+
+Top engine by mention: ChatGPT. Every cell-level naming rests on one employer (e.l.f.) plus one vendor partnership (ELC). SMB and mid-market cells name no engine — no source there names one.
+
+**Switching cost and buying process.** Buyer-side: `unknown — checked every raw file cited in this document, OMR review text (0 lines naming a buying step), G2 review text (DataDome 403 to fetch), sam.gov, TED, Contracts Finder 2026-09-23`. No beauty buyer discloses decider, blocker, cycle length or a switch between vendors. Vendor-side terms, tier 3, `raw/a-vendor-terms-contract-length-2026-09-23.md`: Peec monthly, 15% annual discount, "adjust your prompt volume at any time"; Otterly monthly or annual, auto-renews for an identical period, terminable before renewal, charges nonrefundable (SaaS Agreement effective 2026-04-24); AthenaHQ self-serve auto-renews per billing period, cancel in-app effective end of period, non-refundable; Scrunch 7-day trial, 30 days' notice before end of term for commercial users; Semrush auto-renews for the same period, non-cancellable, one-time 7-day refund on 12-month-or-longer terms only; Profound Trial 7 days then Enterprise "Custom", credits sized with "our accounts teams"; Yext "annual and multi-year subscriptions", "non-cancelable contracts" (10-K, tier 2); SOCi term and renewal "as set forth in the Order Form", six-month tail. Procurement-path evidence, not vertical-cut: Yext 8-K relays a Corporate Ink survey, "88% of CMOs and VP-level marketers are being asked by leadership or their board about AI visibility", "only 34% … have a defined AI visibility strategy" — tier 5 relay, no n (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`); Profound's G2 reviewer roles read User 394, Administrator 135, Executive Sponsor 57, Agency 112 of 1,129 (`raw/f-g2-capterra-S4-repull-2026-09-23.md`, tier 5) — who reviews, not who signs.
+
+**Caveats, this append.** Mention counts double-count a raw file's header, query strings and quoted text alike; a file that pulled a "ChatGPT ads" query contributes mentions with no buyer behind them. Engine attribution to a cell exists only where the enterprise cells already read spend. Vendor terms are asking terms; no beauty buyer's signed term is on record. File over its 100-line budget; overrun includes this append.
+
+## S13 brand accuracy and EU cells, P16-c3, 2026-09-23
+
+S13 per `method/demand-signals.md` addition 2026-09-23. Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+| Sub-market | Size | S13 | Channels checked 2026-09-23 |
+|---|---|---|---|
+| Organic | SMB, Mid-market, Enterprise | none — checked | LinkedIn guest API (3 terms, worldwide); Arctic Shift r/smallbusiness, r/SEO, r/marketing (r/bigseo failed 422); CourtListener; TED, UK Contracts Finder; SEJ, Reputation, Yext, Birdeye, Profound; engine help pages ×5 |
+| Paid | all three | none — checked | same channels; no beauty brand named |
+| Agentic commerce | all three | none — checked | same channels |
+
+No S13 observation names a beauty brand. Nearest: SEJ 2026-09-03 relay of Productrise, AI Mode prices vs carousel, "over 2 million product listings", 2026-08-09 to 08-31, US and UK — vertical unstated (`f-vendor-tradepress-S13-brand-accuracy`, tier 5, attention, moves no cell).
+
+EU cells — organic sub-market only; paid and agentic were not checked with EU terms and stay blank:
+
+| Country | S1 LinkedIn, 3 terms | S2 local-language listing | S5 national subs | S10 | Read |
+|---|---|---|---|---|---|
+| UK | 0 beauty employers of 30 cards | nil | 0 r/smallbusinessuk (window fault, see raw) | UK CF 0 | none — checked |
+| FR | 0 of 30; Hellowork "18 offres", none beauty | Yext /fr/scout exists, no customer named | 0 r/france (window fault) | TED FRA 0 of 14 | none — checked |
+| ES | 0 of 30; infojobs.net 405 | no Yext /es/scout | 0 r/spain | TED ESP 0 | none — checked |
+| IT | 0 of 30; infojobs.it closed | Yext /it/scout exists, no customer named | 1 r/italy post, not visibility | TED ITA 0 | none — checked |
+| NL | 0 of 30; NVB JS-only | no Yext /nl/scout | 0 r/thenetherlands | TED NLD 0 | none — checked |
+
+Raw: `f-linkedin-S1-eu-countries`, `f-jobboards-S1-eu-national`, `f-vendor-S2-yext-scout-localized-fr-it`, `f-reddit-arcticshift-S5-eu-national-subs`, `f-ted-ukcf-S10-eu-country-brand-accuracy`. Tiers: S1 3, S2 3, S5 5, S10 2.
+
+**Caveats, this append.** S13 and the EU cut ran once, 2026-09-23, fetch-only (no browser), WebSearch exhausted; LinkedIn pages are relevance-sorted first pages, not counts; two Arctic Shift aggregate calls had an inverted window and their zeros are not evidence (raw note); TED notice XML is WAF-walled, so buyer country comes from the API fields. File over its 100-line budget; overrun includes this append.

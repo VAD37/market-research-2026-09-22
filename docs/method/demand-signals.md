@@ -106,3 +106,28 @@ Signal cell contents at Pass 8: the observation in 12 words with the figure verb
 - Tier expectations in the catalogue are expectations, not assignments. Every pull is tiered on its own evidence per `trust-rubric.md`, and a hidden method drops it one tier.
 - The buyer-size bands are a method choice; a market that segments itself differently will be mis-cut by them, and the mis-cut will be invisible in the matrix.
 - The catalogue is fixed at Pass 0. A signal found later is appended with its date and marked as added after registration, so cells read before the addition are known to be incomplete.
+
+### S13 — brand accuracy, addition 2026-09-23
+
+Added after registration, per Caveats above ("a signal found later is appended with its date"), on `biz-review-1-2026-09-23.md` §6 row 6 and `biz-review-solution-2026-09-23.md` §2 row 17. Cells read before 2026-09-23 are incomplete on S13.
+
+| Code | Signal | Proxies | Channel kind | Unit | Bias | Expected tier | Class |
+|---|---|---|---|---|---|---|---|
+| S13 | Brand acts to correct or defend an assistant's description of it | Defensive budget, separate from visibility | Engine correction channels; postings, tenders; vendor buyers; owner threads; dockets | Postings, notices, dockets per period; named buyers; threads, posters | Engine channels are supply; person-data paths exclude brands; lawsuits rare, US-skewed | 3 docs, postings; 2 dockets, tenders; 5 threads | spend: posting, tender, docket, named buyer; attention: rest |
+
+**Counts.** A brand-side posting, RFP or tender naming correction, monitoring or repair of what an AI assistant states about the brand (wrong facts, prices, availability, recalls, substituted identity); a court or regulator complaint filed by a business over an AI answer about it; a vendor product naming brand accuracy in AI answers **with a named paying customer**; a thread by a brand owner about what an assistant says about the brand. An engine page that names a business as complainant counts as channel existence — attention, never spend.
+
+**Does not count.** Visibility work without accuracy wording (S1, S2); personal-data erasure channels for natural persons; consumer-side "the AI is wrong" complaints; vendor framing without a buyer; ad brand-safety policy (Lane B); litigation by persons or publishers.
+
+**First reads, 2026-09-23** (raw prefix `raw/`, suffix `-2026-09-23.md`):
+
+- Engine channels. Google's legal removal form reaches "Defamation: Report content that defames you or your business/organization" after "Yes, such as AI Overviews or AI Mode" — the only engine channel naming a business (`b-google-report-content-ai-overviews-gemini-feedback`, tier 3). OpenAI: content-report webform, trademark form, thumbs-down "Safety or Legal concern"; personal-data removal is for persons, with ID (`b-openai-help-reporting-content-personal-data-removal`, 3). Perplexity: flag icon or support@, issue types include "Misinformation", "Outdated information" (`b-perplexity-help-report-inaccurate-answers`, 3). Anthropic: site owners block URLs, public reports policy violations, no brand wording (`b-anthropic-help-report-block-remove-content`, 3). Microsoft: `unknown — checked microsoft.com concern portal (SPA), support.microsoft.com (article retired) 2026-09-23` (`b-microsoft-copilot-report-concern-check`).
+- Legal. LTL LED, LLC (Wolf River Electric) v. Google LLC, D. Minn. 0:25-cv-02394, filed 2025-06-09 on removal, nature "320 Assault Libel & Slander", terminated 2026-02-26; disposition not reached (`f-courtlistener-ltl-led-v-google-ai-overview-defamation`, tier 2). Solar installer — outside the three verticals.
+- Postings. 22 cards on "AI reputation", "brand accuracy" AI, "LLM misinformation brand": none brand-side (`f-linkedin-S13-brand-accuracy-postings`, 3). One GEO posting names correctness: Make, Madrid, "cited (correctly, favorably, and often)", "source repair" (`f-linkedin-S1-eu-countries`, 3).
+- Tenders. TED "AI reputation": `unknown — API validation error, two attempts 2026-09-23`; UK Contracts Finder "AI reputation": 0 (`f-ted-ukcf-S10-eu-country-brand-accuracy`, 2).
+- Threads. r/smallbusiness 2026-09-21 "I checked how AI describes 5 small businesses I know. Only 1 came up looking good.", 31 comments; r/marketing 2026-04-06 "I asked AI 3 questions about my company…", 6 comments; r/marketing 2025-03-26 "How are you managing brand reputation with LLMs and AI search?", removed (`f-reddit-arcticshift-S13-brand-accuracy`, 5). r/bigseo query failed (422 ×2).
+- Vendors and press. Reputation "AI Search Representation" press page; Birdeye "correct the inaccurate field"; Brandlight "accuracy and consistency of brand representation"; SEJ 2026-09-07 "Conflicting Information About Your Brand" (3.5K reads), 2026-09-03 "It Describes Someone Else" (860 reads), 2026-09-03 AI Mode price mismatch (Productrise, "over 2 million product listings", 2026-08-09 to 08-31, US and UK) — no named buyer in any (`f-vendor-tradepress-S13-brand-accuracy`, 6; Productrise row 5).
+
+**Cell reads.** 0 spend / 0 attention / 27 `none — checked`. No observation names a vertical-and-size cell; Make sits against B2B SaaS × organic with size `unassigned` and moves no cell (boundary rule above). Detail in `customers/*.md` appends dated 2026-09-23.
+
+**Caveats.** Engine channels evidence a correction path's existence, not its use; a business using one leaves no public trace. The one docket is US and outside the verticals. Community and press rows are attention at tier 5–6. Run once, 2026-09-23, with WebSearch exhausted and general search engines walled; a wider posting or docket sweep could move cells.

@@ -186,3 +186,87 @@ The filed baselines the sub-market figures in (iv) sit against. No ratio is comp
 | Sub-market figures these sit against | organic ARR floor $42.2M–$48.2M + €2.2M; paid "≥ $1B run rate", one engine; agentic `unknown — checked` | — | (iv) above | as cited in (iv) |
 
 **Caveats — this append.** Bases differ in scope, currency unit and fiscal year; no two rows are like quantities. None of the filers states an AI-surface ad line, so the paid floor stays one engine's run rate. Search engines walled this pass (`f-search-engines-wall-log-2026-09-23.md`); MAGNA 2026 and IAB report body unreached. Nothing here is a verdict. File now over its 100-line budget; overrun is this append.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Similarweb gen-AI traffic shares · `raw/a-similarweb-share-gen-ai-stats-2026-09-22.md` (4 — WebFetch summary) · `raw/a-similarweb-gen-ai-stats-primary-2026-09-23.md` (4) · "ChatGPT's share of generative AI website visits fell from about 76% in June 2025 to roughly 53% by May 2026"; "Gemini … rising from under 9% to around 27–28%"; "Claude moved from barely 2% to close to 9%"; citations in US ChatGPT prompts "1.6% in June 2025 to roughly 6.8% by May 2026"; "roughly 26% of ChatGPT responses now contain an ad" (2026-07-29; eight charts saved) · agrees
+- Perplexity query volume (169M/month) · `raw/e-perplexity-user-query-counts-2026-09-23.md` (3 — figure from a search snippet, page 403) · `raw/e-perplexity-enterprise-pro-launch-primary-2026-09-23.md` (3) · "now serving 169 million queries per month" (Perplexity blog, 2024-04-23); "Prices start at $40/month or $400/year per seat" (Enterprise Pro) · agrees
+
+## Brand-side adoption series, P16-c4, 2026-09-23
+
+Time series of brand-side adoption proxies, each point dated and tiered. Wayback captures are the page's own claim at that date (tier 5); host counts read off an archived directory page are ours over what that page rendered. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated. No point below is a count of paying brands; every row is a proxy (`method/demand-signals.md`).
+
+| Date | Proxy | Value | Method | Tier | Raw |
+|---|---|---|---|---|---|
+| 2025-11-14 | G2 "Answer Engine Optimization (AEO)" listings | 160 | Wayback capture, "N Listings … Available" string | 5 | `e-wayback-g2-capterra-category-counts` |
+| 2025-12-03 | same | 216 | same | 5 | same |
+| 2026-01-13 | same | 159 | same | 5 | same |
+| 2026-07-24 | same | 458 | same | 5 | same |
+| 2026-08-05 | same | 477 | same | 5 | same |
+| 2026-09-14 | same | 618 | same | 5 | same |
+| 2026-09-23 | same | 632 | live page, browser | 5 | `f-g2-capterra-S4-repull` |
+| 2026-07-22 | G2 "AI Search Visibility Optimization Tools" listings | 246 | Wayback capture | 5 | `e-wayback-g2-capterra-category-counts` |
+| 2026-08-01 | same | 288 | same | 5 | same |
+| 2026-09-17 | same | 521 | same | 5 | same |
+| 2026-09-23 | same | 541 | live page, browser | 5 | `f-g2-capterra-S4-repull` |
+| 2026-08-03 | Capterra "AI Search Visibility Software" | pagination to page 5, no count printed | Wayback capture | 5 | `e-wayback-g2-capterra-category-counts` |
+| 2026-09-23 | same | "Page 1 of 9"; page 9 holds 36 profiles | live page, browser | 5 | `f-g2-capterra-S4-repull` |
+| 2024-11-27 | llmstxt.site — distinct hosts listed | 56 | Wayback capture, hosts before `/llms.txt` counted by us | 5 | `e-wayback-llms-txt-directories` |
+| 2025-03-02 | same | 89 | same | 5 | same |
+| 2025-06-15 | same | 224 | same | 5 | same |
+| 2025-09-09 | same | 683 | same | 5 | same |
+| 2025-12-13 | same | 1,491 | same | 5 | same |
+| 2026-04-01 | same | 1,491 | same — byte-identical to 2025-12-13 | 5 | same |
+| 2026-08-27 | same | 1,491 | same — byte-identical | 5 | same |
+| 2026-09-23 | same | 1,497 | live page, curl | 5 | same |
+| 2024-11-17 | directory.llmstxt.cloud — distinct hosts rendered | 51 | Wayback capture, counted by us | 5 | same |
+| 2025-03-05 | same | 107 | same | 5 | same |
+| 2025-06-06 · 2025-09-04 · 2025-12-11 | same | 583 · 583 · 583 | same | 5 | same |
+| 2026-09-23 | directory.llmstxt.cloud — "Websites listed" | 3,830 | live page prints the total; rendered list is a featured subset (9 hosts) | 5 | same |
+| 2025-01-24 | Profound /customers — case-study links | 1 (9 logo alts) | Wayback capture, `/customers/<slug>` links counted by us | 5 | `e-wayback-profound-customers` |
+| 2025-04-28 | same | 2 | same | 5 | same |
+| 2025-08-06 | same | 5 | same | 5 | same |
+| 2025-11-26 | same | 7 | same | 5 | same |
+| 2026-03-06 | same | 10 | same | 5 | same |
+| 2026-07-01 | same | 18 | same | 5 | same |
+| 2026-09-03 | same | 20 | same | 5 | same |
+| 2026-09-23 | same | 21 (21 logo alts) | live page, curl | 5 | same |
+| 2026-09-22 · 2026-09-23 | llms.txt on sampled brand domains, cross-section | beauty 3 of 5; B2B SaaS 9 of 10; high-CPA 3 of 9; local/multi-location 2 of 16 answering | measured-by-us HTTP checks, one date each | 1 | `f-signal-sk-S12-llms-txt-beauty-domains-2026-09-22.md`; `f-signal-bs-S12-llms-txt-domains-2026-09-22.md`; `f-signal-hr-S12-llmstxt-sample-2026-09-22.md`; `f-llms-txt-multilocation-domains-S12` |
+
+**Read.** Three series carry more than three dated points: G2 AEO listings (160 → 632, 2025-11-14 → 2026-09-23, with a 216 → 159 dip between 2025-12 and 2026-01 that the archived pages state and this file does not explain); llmstxt.site hosts (56 → 1,497, 2024-11 → 2026-09, flat at 1,491 across the last three captures); Profound customer stories (1 → 21, 2025-01 → 2026-09). No series distinguishes a paying brand from a listed vendor or a self-submitted domain.
+
+**Checked, nothing usable.** Wayback CDX returned no captures for peec.ai/customers, otterly.ai/customers, scrunchai.com/customers, scrunch.com/customers, athenahq.ai/customers, and no JSON for a G2 "generative-engine-optimization-geo" slug (`e-wayback-profound-customers`, `e-wayback-g2-capterra-category-counts`). HTTP Archive and Cloudflare Radar publish no llms.txt statistic on record (`findings/unknowns.md`, 2026-09-22); a Common Crawl path-wildcard query is not a supported shape — `unknown — checked web.archive.org CDX, httparchive.org (2026-09-22), index.commoncrawl.org query shape 2026-09-23`. Single-date vendor claims are not series and sit in their profiles (Scrunch "Trusted by 500+ leading brands and agencies", `raw/a-scrunch-customers-2026-09-22.md`; Birdeye 16,240 scans across "1,500+" / "1,762" brands, `raw/f-birdeye-multilocation-ai-search-S2-S6`).
+
+**Caveats, this append.** G2 listing counts are vendor sign-ups to a review site, not buyers; both G2 categories overlap (Profound sits in both). Directory host counts are self-submissions and, for directory.llmstxt.cloud after 2026-02, a rendered subset against a printed total — the 583 → 3,830 step is a page redesign, not measured growth. Wayback sampling is one capture per month, chosen by CDX collapse; digests differ where byte counts are identical. Profound story counts are the vendor's publishing cadence. The llms.txt cross-sections are four different samples on two dates, not a series. File over its 100-line budget; overrun includes this append.
+
+## EU engine share and users, P16-c3, 2026-09-23
+
+One definition per row; rows with different definitions are never combined. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated. UK, FR, ES, IT, NL requested; DE and EU-wide rows carried where the same pull returned them.
+
+| Country | Engine / measure | Figure verbatim | Definition | Date | Tier | Raw |
+|---|---|---|---|---|---|---|
+| UK | ChatGPT · Gemini · Copilot · Claude · Perplexity | 77.44% · 9.28% · 6.47% · 3.99% · 2.81% | referral page-view share to StatCounter-tracked sites | 2026-08 | 4 | `a-statcounter-ai-chatbot-share-eu-countries` |
+| FR | same five | 80.68% · 9.92% · 3.17% · 2.9% · 3.29% | same | 2026-08 | 4 | same |
+| ES | same five | 78.42% · 12.66% · 3.11% · 2.26% · 3.54% | same | 2026-08 | 4 | same |
+| IT | same five | 69.35% · 17.34% · 5.42% · 2.86% · 5.03% | same | 2026-08 | 4 | same |
+| NL | same five | 81.67% · 8.73% · 3.19% · 3.18% · 3.23% | same | 2026-08 | 4 | same |
+| DE | same five | 77.83% · 9.85% · 3.82% · 3.05% · 5.44% | same | 2026-08 | 4 | same |
+| UK | ChatGPT, series | 80.83% (2025-09) → 65.53% (2026-04) → 77.48% (2026-08) | same, monthly CSV | 2025-09 to 2026-08 | 4 | same |
+| IT | Gemini, series | 2.41% (2025-09) → 17.52% (2026-08) | same, monthly CSV | 2025-09 to 2026-08 | 4 | same |
+| FR | ChatGPT · Gemini · "Autres IA" | 63 % · 13 % · 24 % | share of generative-AI users naming it most used, Crédoc survey n=4,145 | fieldwork 2025-06-05 to 06-21 | 4 | `b-arcep-barometre-numerique-2026` |
+| FR | generative AI, population | 48 % (2025) · 33 % (2024) · 20 % (2023); "85 % chez les 18-24 ans" | share of population aged 12+ using generative AI | 2025 | 4 | same |
+| EU27 · DE · ES · FR · IT · NL | generative AI tools, last 3 months | 32.66 · 32.25 · 37.88 · 37.46 · 19.86 · 44.7 | percentage of all individuals, Eurostat isoc_ai_iaiu | 2025 | 3 | `a-eurostat-genai-use-individuals-2025` |
+| EU27 · DE · ES · FR · IT · NL | generative AI for work purposes | 15.36 · 15.79 · 17.94 · 18.44 · 8.0 · 26.56 | percentage of all individuals | 2025 | 3 | same |
+| UK | generative AI, Eurostat | not in dataset — UK absent from the 2025 EU survey | — | 2025 | — | same |
+| UK · FR · ES · IT · NL · DE | AI chatbots for news, weekly use | 4% · 5% · 8% · 6% · 7% · 5% | share of online adults using AI chatbots for news weekly, YouGov panel | fieldwork 2026-01 to 02 | 4 | `a-reuters-dnr-2026-ai-chatbots-countries` |
+| UK · FR · ES · IT · NL · DE | trust news from AI chatbots | 6% · 15% · 18% · 16% · 11% · 13% | share trusting news from AI chatbots | same | 4 | same |
+| EU/UK | AI tools, desktop search events | 0.54% (2025-01) → 1.08% (2026-03) | share of desktop search events, Datos clickstream, relayed | 2026-03 | 5 | `a-ppc-land-share-datos-q1-2026-2026-09-22.md` |
+| EU (27) | ChatGPT search, average monthly active recipients | "approximately 159.1 million" | DSA Art. 24(2) six-month average; per-state split not published | period ending 2026-03-31 | 3 | `b-eu-openai-dsa-transparency-2026-09-22.md`; walls in `a-similarweb-openai-dsa-country-cut-walls` |
+| EU (27) | Bing, average monthly active users | "approximately 155 million" | DSA six-month average | period ending 2025-12-31 | 3 | `b-eu-microsoft-dsa-bing-2026-09-22.md` |
+| UK · FR · ES · IT · NL | Similarweb visit share per country | unknown — checked similarweb.com (202 empty), data.similarweb.com (403) 2026-09-23 | — | — | — | `a-similarweb-openai-dsa-country-cut-walls` |
+| UK | Ofcom Online Nation 2025 gen-AI use | unknown — checked ofcom.org.uk (403), web.archive.org 2026-09-23 | — | — | — | `b-regulators-eu-genai-usage-checks` |
+| ES · IT | CNMC Panel de Hogares; AGCOM Rapporto IA 2026 | unknown — CNMC pages client-rendered; AGCOM Part I ENG carries no Italian user share | — | 2026 | 3 | same |
+
+**Reads.** Five countries carry a tier-4 per-engine referral share for 2026-08 (StatCounter); ChatGPT holds 69–82 % on that definition, Gemini 9–17 %, Italy the Gemini high. Population-level generative-AI use is tier 3 for FR, ES, IT, NL, DE (Eurostat 2025) and absent for the UK. France is the only country with a survey naming which engine users use most (ChatGPT 63 %, tier 4). No per-country user count exists for any engine; the DSA figures are EU-wide. Google AI Overviews were not rolled out in France as of 2026-03 per Google's own documentation as relayed by Reuters DNR 2026 (footnote, `a-reuters-dnr-2026-ai-chatbots-countries`; primary Google page not pulled for the country list).
+
+**Caveats, this append.** StatCounter measures referral clicks to tracked sites, not users; its HTML table and CSV differ by hundredths for the same month. Eurostat, Crédoc and YouGov measure people; none measures queries. The Datos row is a relayed pointer (tier 5). Country rows sit beside the worldwide rows in Evidence above and are not averaged with them. File over its 100-line budget; overrun includes this append.

@@ -135,3 +135,57 @@ Which existing line funds AI-visibility or AI-ads spend for a B2B SaaS buyer. Ra
 | Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated, no budget statement public | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
 
 **Read.** `unknown — checked EDGAR FTS (6 CIKs plus phrase queries), HubSpot, Semrush, TechTarget 10-Ks, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). Two filed pointers, neither a budget line: a vendor says GEO tools are bought beside SEO tools (tier 2, seller's framing); a B2B media seller says its customers' marketing budgets are subdued while AI R&D absorbs spend (tier 2). File over its 100-line budget; overrun includes this append.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Bitly AI-search sessions case · `raw/e-case-foundation-inc-bitly-2026-09-22.md` (5) · `raw/e-case-foundation-inc-bitly-primary-2026-09-23.md` (5) · "citation share for link shorteners grew to 11.7%, nearly double the next competitor"; "referral sessions growing from 178 to 930 (up 422%) and engaged sessions increasing from 98 to 426 (up 335%)" (12 months; published 2026-08-17) · agrees; sections after the cut add 27.3% QR-code visibility, 8 AI Overview citations, 41 top-3 rankings, 2,010 organic monthly visits
+- +54% GPT-User bot hits (Silver-graded case) · `raw/e-case-seer-interactive-content-recency-2026-09-22.md` (5) · `raw/e-case-seer-interactive-content-recency-primary-2026-09-23.md` (5) · text figures "300%", "219%", "54%", "80%", "3.6%" unchanged; the two results charts saved at `raw/img/e-case-seer-interactive-content-recency-primary-2026-09-23/02-seer-content-recency-test.png` and `03-seer-content-recency-travel-client-results.png` (unread until IMG-1) · agrees
+
+## Engine × segment and buying process, P16-c4, 2026-09-23
+
+**Engines named, this vertical's raw.** Mentions and files-with-mention across the 38 B2B SaaS raw files (`f-signal-bs-*`, `f-signal-census-bs-*`, `e-case-census-c9-*`, `e-case-c9-*`, `e-case-airops-*`, `e-case-hubspot-*`, `e-case-fortune-hubspot-*`, `e-case-chime-*`), regex count, method in `raw/f-engine-mentions-raw-count-2026-09-23.md` (measured-by-us on raw already pulled). Partial by design.
+
+| Engine | Mentions | Files | Cell-attributable naming, source, tier |
+|---|---|---|---|
+| ChatGPT | 104 | 22 | none from an S1 posting — the Actindo, AutoLeap, Pennylane and Mercury postings name GEO/SEO duties, no engine (`raw/f-signal-bs-S1-linkedin-jobs-guest-api-2026-09-22.md`; its only ChatGPT hits are query strings); case evidence names ChatGPT at vendor level (AirOps / Chime, HubSpot cohort — `raw/e-case-airops-chime-case-study-2026-09-23.md`, `raw/e-case-hubspot-aeo-data-cohort-2026-09-23.md`), size unassigned |
+| Gemini / AI Mode / AI Overviews | 63 | 16 | case and vendor files; no S1 posting names it |
+| Perplexity | 30 | 10 | case and vendor files |
+| Claude | 29 | 10 | case and vendor files |
+| Copilot | 17 | 5 | case and vendor files |
+| Rufus / Alexa for Shopping | 0 | 0 | — |
+| Grok | 0 | 0 | — |
+
+Top engine by mention: ChatGPT. The three spend cells (Organic × SMB, Mid, Enterprise) rest on postings that name no engine, so engine × cell is `unknown — checked the four S1 postings 2026-09-23` in every B2B SaaS cell; engine naming here is vendor- and case-level only. Paid: agency pages name ChatGPT Ads for "B2B SaaS and service companies" (S6, `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md`, tier 3 on existence) — sell-side.
+
+**Switching cost and buying process.** Buyer-side: `unknown — checked every raw file cited in this document, OMR review text (0 lines naming a buying step), G2 review text (403 to fetch), HN Algolia, sam.gov, TED 2026-09-23`. Vendor-side terms, tier 3, `raw/a-vendor-terms-contract-length-2026-09-23.md`: self-serve tiers cancel monthly (Peec, Otterly, AthenaHQ, Local Falcon "Cancel anytime", BrightLocal 14-day trial with monthly/annual switch "at any time"); annual terms auto-renew (Otterly, Semrush — Semrush non-cancellable with a one-time 7-day refund only on 12-month-or-longer terms); enterprise tiers are order-form contracts of undisclosed length (Profound "Custom", Scrunch Enterprise, AthenaHQ "negotiated as part of the Enterprise contract", SOCi Order Form, Yext "annual and multi-year subscriptions", tier 2). Who in a SaaS buyer signs: G2 reviewer panels — Profound industry "Computer Software (131)" of 1,129 reviews, roles User 394 / Administrator 135 / Executive Sponsor 57 / Agency 112; Peec company size "Small Business (14) · Mid-Market (6) · Enterprise (1)"; Brandlight "Mid-Market (118)" of 216 (`raw/f-g2-capterra-S4-repull-2026-09-23.md`, tier 5; reviewers, not signatories). Board-level pull, not vertical-cut: Corporate Ink survey via Yext 8-K, 88% of CMOs asked about AI visibility, 34% with a strategy, tier 5 relay, no n (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`).
+
+**Caveats, this append.** Counts are word matches over raw files, headers and query strings included; they weight vendor case files, numerous in this vertical, over buyer statements. No posting text in this vertical names an engine, so the engine × cell read is empty where the spend reads are strongest. Vendor terms are list terms; no B2B SaaS buyer's contract length is on record. File over its 100-line budget; overrun includes this append.
+
+## S13 brand accuracy and EU cells, P16-c3, 2026-09-23
+
+S13 per `method/demand-signals.md` addition 2026-09-23. Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+| Sub-market | Size | S13 | Deciding observation |
+|---|---|---|---|
+| Organic | SMB, Mid-market, Enterprise | none — checked | size-unassigned observation below moves no cell |
+| Paid | all three | none — checked | no observation |
+| Agentic commerce | all three | none — checked | no observation |
+
+Unassigned, organic, this vertical: Make (make.com), "Senior GEO Manager - LLM Search Optimization", Madrid, posted 2026-09-03, 151 applicants: "cited (correctly, favorably, and often) across ChatGPT, Perplexity, Google AI Overviews, and Claude"; "Authority & source repair" — spend class, tier 3; headcount `unknown — checked make.com 2026-09-23` → `unassigned` (`f-linkedin-S1-eu-countries`). r/marketing 2026-04-06 "I asked AI 3 questions about my company" — company and size unnamed, attention, tier 5 (`f-reddit-arcticshift-S13-brand-accuracy`).
+
+EU cells — organic sub-market only; paid and agentic not checked with EU terms, blank:
+
+| Country | Size | S1 | Read | Raw, tier |
+|---|---|---|---|---|
+| FR | Enterprise | Pennylane "SEO & AI Content Specialist", 2026-09-18, 75 applicants, "Generative Engine Optimization (GEO) are central", "ChatGPT and Perplexity"; headcount 1,100+ per cell reads above | **spend** | `f-linkedin-S1-eu-countries`, 3 |
+| FR | SMB, Mid-market | no SaaS employer at these bands of 30 cards | none — checked | same |
+| ES | unassigned | Make (above) — vertical from employer's product, size unknown | moves no cell | same |
+| ES | SMB, Mid-market, Enterprise | none besides Make; Semrush posting is sell-side | none — checked | same |
+| UK | Mid-market | Proton "Senior Technical SEO Manager", "700+ team members" — description names no AI-search term; not a category hit | nil | same |
+| UK | SMB, Enterprise | 0 SaaS category hits of 30 cards; Compare the Market recorded under high-CPA | none — checked | same |
+| IT | all three | 0 SaaS employers of 30 cards (agency and education hits only) | none — checked | same |
+| NL | all three | 0 SaaS employers of 30 cards (agencies only) | none — checked | same |
+
+S2 local-language listings: Yext /fr/scout and /it/scout exist, no customer named; no /es, /nl (`f-vendor-S2-yext-scout-localized-fr-it`, 3). S5: 0 threads on r/smallbusinessuk, r/france, r/spain, r/thenetherlands; 1 r/italy post, off-topic (`f-reddit-arcticshift-S5-eu-national-subs`, 5). S10: TED GEO notices 14 of 14 DEU, 1 IRL; FR/ES/IT/NL/UK 0; UK CF 0 on four phrases (`f-ted-ukcf-S10-eu-country-brand-accuracy`, 2).
+
+**Caveats, this append.** Pennylane's FR read repeats the Worldwide enterprise read of 2026-09-22 with a new per-country pull, not a second employer. Make's vertical is read from its product (automation SaaS), not stated in the posting. LinkedIn pages are first-page relevance sets, not counts. File over its 100-line budget; overrun includes this append.
