@@ -12,8 +12,9 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| BRIEF-4 | Opus, read-only | Executive + director briefs `-r2` (same-day rewrite; predecessors untouched), deck via `gen-director-deck-r2.py`; snapshot c1e632c; constraints 14–16; six owner questions no lean | `findings/executive-brief-2026-09-23-r2.md`, `director-brief-2026-09-23-r2.md`, `.pptx` | 2026-09-23 |
 
-Slots free: 8 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
+Slots free: 7 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
 
 ## Queue
 
@@ -21,7 +22,6 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after P16 and IMG-1); cites raw path:line or compiled row ids only, never STATE/plan lines; reads the evidence pack in `shared-instruction.md` Addition 1; defines every acronym in-file; carries both readings per constraint 14 | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` via `gen-director-deck.py` (Python 3.14 interpreter) |
 | P15 | 15 | Opus ×11 + judge | Brief bake-off per `brief-bakeoff/README.md` + Amendments 2026-09-23; orchestrator pins snapshot hash and fills pack line ranges at spawn; last pass | `brief-bakeoff/runs/`, `judge/`, `scoresheet.csv`; `findings/brief-method-eval-<date>.md` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
@@ -223,6 +223,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Live-agent cap 8 (was 7 the same day); usage guard unchanged (>80% used → 3); one `ext`, one `pw`; shell-append rule unchanged. `plan.md` cap revision 3 records it | User: "I approve new concurrency cap to 8 subagents max. update state and orchestration" |
 | 2026-09-23 | P16-c3b spawned to close the 30 EU paid/agentic cells P16-c3 left blank (its brief said demand cells per country; it read organic terms only) | Gap found at verification; fetch-only, no slot needed |
 | 2026-09-23 | Paywall-bypass read after REPULL-1 + 1b: 0 of 5 server-side paywalls opened (sifted, FT, W&V, Adweek, trends.vc); 25 + 7 bot walls cleared by the plain browser; extension value is bot-wall clearance, not paywalls. Queue rows still paywalled stay `unknown — checked` | REPULL-1b landing; no further paywall retries queued |
+| 2026-09-23 | Same-day brief rewrite takes suffix `-r2` (`executive-brief-2026-09-23-r2.md`, `director-brief-2026-09-23-r2.md`, `gen-director-deck-r2.py`); the 2026-09-23 originals stay as the bake-off's "failed brief" input. IMG-1 pass complete: 71 of 82 INDEX rows analysed, 11 not saved (6 GML mp4, 2 Adobe PDFs, 2 OpenAI images, 1 Business Wire 403) | Reporting-layer rule says new date per rewrite; two rewrites on one date need a suffix |
 
 ## Open decisions — owner
 
