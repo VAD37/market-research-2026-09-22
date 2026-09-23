@@ -140,4 +140,5 @@ Per `../biz-review-2-bakeoff-2026-09-23.md`. Nothing above is edited.
 - `shared-instruction.md` Addition 1 (evidence pack as required second read; constraints 11–16) is part of the identical text every run receives.
 - Judge note: trace rows pointing at `STATE.md` or `plan.md` line numbers count as "pointing nowhere" (column `invented`); those files are appended all day.
 - Open owner decisions recorded in `../STATE.md` §Open decisions, not decided here: whether column `negative_tail` is rubric or thumb (README L92 vs the side-by-side rule); whether sub-market choice is a permissible ask; importance order over the 32 hypotheses.
-- snapshot: not yet pinned.
+- snapshot: 8badc05 (evidence tree; the bake-off method files themselves are as of the commit that follows it). Pinned 2026-09-23 by the main thread at P15 spawn. R10 = `docs/findings/director-brief-2026-09-23-r2.md` (BRIEF-4, landed f78a7a1), copied into `runs/R10-brief4/brief.md` at judge time; runs are told not to open `-r2` files (shared-instruction Addition 2).
+- Wave plan under cap 8: wave 1 R0, R0b, R1, R2, R3, R4, R5, R6; wave 2 R7, R8, R9; then judge.

@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Resumed 2026-09-23 (user: "continue previous orchestration agent tasks").** Passes 0–9, 11–14 done; Pass 10 skipped; Pass 16 (widen and compile) half landed: COMPILE-1, COMPILE-2 + AMEND-3, P16-c1 landed; P16-c2, c3, c3b, c4, c4b, REPULL-1b, IMG-1a, IMG-1b all landed 2026-09-23 — Pass 16 research complete; IMG-1c (3 rows) then BRIEF-4 then P15 remain. Reviews REV-BIZ-A and REV-BIZ-B landed and applied (`biz-review-solution-2026-09-23.md`). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
+**Resumed 2026-09-23 (user: "continue previous orchestration agent tasks").** Passes 0–9, 11–14 done; Pass 10 skipped; Pass 16 (widen and compile) half landed: COMPILE-1, COMPILE-2 + AMEND-3, P16-c1 landed; P16-c2, c3, c3b, c4, c4b, REPULL-1b, IMG-1a, IMG-1b all landed 2026-09-23 — Pass 16 and IMG-1 complete; BRIEF-4 landed (r2 briefs). Pass 15 bake-off running: snapshot 8badc05 pinned in `brief-bakeoff/README.md`; per-run `PROMPT.md` on disk; wave 1 of 8 live. Reviews REV-BIZ-A and REV-BIZ-B landed and applied (`biz-review-solution-2026-09-23.md`). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
 
 ## Live agents
 
@@ -12,8 +12,16 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| P15-R0 | Opus, read-only | Bake-off run R0 — `runs/R0-baseline/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R0-baseline/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R0b | Opus, read-only | Bake-off run R0b — `runs/R0b-baseline-repeat/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R0b-baseline-repeat/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R1 | Opus, read-only | Bake-off run R1 — `runs/R1-pyramid-principle/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R1-pyramid-principle/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R2 | Opus, read-only | Bake-off run R2 — `runs/R2-minto-pyramid/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R2-minto-pyramid/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R3 | Opus, read-only | Bake-off run R3 — `runs/R3-strategy-communicator/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R3-strategy-communicator/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R4 | Opus, read-only | Bake-off run R4 — `runs/R4-structure-synthesize/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R4-structure-synthesize/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R5 | Opus, read-only | Bake-off run R5 — `runs/R5-knowledge-synthesis/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R5-knowledge-synthesis/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
+| P15-R6 | Opus, read-only | Bake-off run R6 — `runs/R6-deliverable-creation/PROMPT.md` (shared-instruction verbatim, three substitutions); snapshot 8badc05 | `runs/R6-deliverable-creation/brief.md`, `notes.md`, `trace.md` | 2026-09-23 |
 
-Slots free: 8 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
+Slots free: 0 of 8. Wave 2 (R7, R8, R9) and the judge follow. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
 
 ## Queue
 
@@ -21,7 +29,8 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| P15 | 15 | Opus ×11 + judge | Brief bake-off per `brief-bakeoff/README.md` + Amendments 2026-09-23; orchestrator pins snapshot hash and fills pack line ranges at spawn; last pass | `brief-bakeoff/runs/`, `judge/`, `scoresheet.csv`; `findings/brief-method-eval-<date>.md` |
+| P15 wave 2 | 15 | Opus ×3 | R7 decision-memo, R8 assumption-audit, R9 mbb-extract — after wave 1 frees slots | `runs/R7…R9/` |
+| P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
 ## Landed
@@ -224,6 +233,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | P16-c3b spawned to close the 30 EU paid/agentic cells P16-c3 left blank (its brief said demand cells per country; it read organic terms only) | Gap found at verification; fetch-only, no slot needed |
 | 2026-09-23 | Paywall-bypass read after REPULL-1 + 1b: 0 of 5 server-side paywalls opened (sifted, FT, W&V, Adweek, trends.vc); 25 + 7 bot walls cleared by the plain browser; extension value is bot-wall clearance, not paywalls. Queue rows still paywalled stay `unknown — checked` | REPULL-1b landing; no further paywall retries queued |
 | 2026-09-23 | Same-day brief rewrite takes suffix `-r2` (`executive-brief-2026-09-23-r2.md`, `director-brief-2026-09-23-r2.md`, `gen-director-deck-r2.py`); the 2026-09-23 originals stay as the bake-off's "failed brief" input. IMG-1 pass complete: 71 of 82 INDEX rows analysed, 11 not saved (6 GML mp4, 2 Adobe PDFs, 2 OpenAI images, 1 Business Wire 403) | Reporting-layer rule says new date per rewrite; two rewrites on one date need a suffix |
+| 2026-09-23 | P15 spawn: snapshot 8badc05 (evidence tree at BRIEF-4 landing); pack line ranges and the not-input list in shared-instruction Addition 2; each run's exact prompt saved as `runs/<id>/PROMPT.md` and the agent told to follow that file — identical text, auditable, instead of an in-chat paste; wave 1 = R0, R0b, R1–R6 under cap 8 | README Amendments; cap 8 |
 
 ## Open decisions — owner
 
