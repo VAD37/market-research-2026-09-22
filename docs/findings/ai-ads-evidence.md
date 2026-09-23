@@ -142,3 +142,11 @@ sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above
 ## Primary re-pulls, REPULL-1, 2026-09-23
 
 - X plans ads inside Grok responses · `raw/b-techcrunch-grok-ads-plan-2026-09-23.md` (5) · `raw/b-ft-grok-ads-plan-primary-2026-09-23.md` (5) · "introduce advertising into the answers of X's artificial intelligence chatbot"; X "would allow marketers to pay to appear in suggestions from Grok" (FT, 2025-08-07); advertiser email: conversions "risen by 40 per cent since June", cost "decreased by 7 per cent quarter on quarter" · agrees (Musk quotes and $45bn match verbatim); primary adds the email figures and a "checkout feature" plan; later Grok status still not found
+
+## Image reads, IMG-1b, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| Copilot on-surface label wording: "Microsoft Advertising" card header + "Sponsored ···" line — fills the "On-surface label wording … Copilot" gap row above (pages name formats, not label text) from the vendor's help-page mock-ups, not a live capture | "Example feed-based ad in Copilot", "Example Multimedia ad in Copilot", "Example Search ad in Copilot" | page ms.date 2026-06-18, updated 2026-09-02 | 3 | `raw/b-microsoft-ads-in-copilot-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: mock-ups; advertiser names are Microsoft placeholders (Contoso, Fabrikam). No n, no engagement figure on the images.

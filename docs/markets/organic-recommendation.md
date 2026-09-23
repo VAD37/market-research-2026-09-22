@@ -178,3 +178,25 @@ Regional facts outside DE. Raw prefix `raw/`, suffix `-2026-09-23.md` unless sta
 | Community threads, national subs | UK, FR, ES, IT, NL | 0 threads on r/smallbusinessuk, r/france (window fault), r/spain, r/thenetherlands; 1 r/italy post (above); no national SEO sub under prefix "seo" | measured-by-us (archive) | 2026-03-01 to 2026-09-23 | 5 | `f-reddit-arcticshift-S5-eu-national-subs` |
 
 **Caveats, this append.** The France AI Overviews statement is Reuters' footnote relaying Google's help page as of 2026-03; the Google page's country list was not pulled and the status may have changed by 2026-09. TED buyer-country is the API field; notice XML is WAF-walled to curl. LinkedIn employer lists are first-page relevance sets. Single fetch-only pass, 2026-09-23. File over its 120-line budget; overrun includes this append.
+
+## Image reads, IMG-1b, 2026-09-23
+
+Figures read from chart images on the two Cloudflare Radar blog posts; each row: figure verbatim · chart title · date on chart · tier · img raw path. Text figures already in `raw/a-cloudflare-*-2026-09-22.md` stand beside; never reconciled.
+
+| Figure (as printed on chart) | Chart title | Date on chart | Tier | Img raw |
+|---|---|---|---|---|
+| Crawl-to-refer: Anthropic 70.9K : 1 (↓ -5.7%); OpenAI 1.6K : 1 (↓ -13.1%); Perplexity 202.4 : 1 (↓ -3.6%); Microsoft 40 : 1; Yandex 18 : 1 (↑ +6.4%); Google 9.4 : 1 (↓ -19.4%); ByteDance 1.4 : 1; Baidu 1 : 1; DuckDuckGo 0.3 : 1 (↑ +6.8%); Mistral 0.1 : 1 | "Crawl-to-refer ratio" (static PNG, image 03) | none printed; page text: June 19-26, 2025 | 4 | `raw/a-cloudflare-crawl-refer-ratio-blog-primary-2026-09-23-img-2026-09-23.md` |
+| OpenAI user agents: GPTBot 94.2%, ChatGPT-User 3.7%, OAI-SearchBot 2.1%; Anthropic: ClaudeBot 100%, Claude-SearchBot < 0.1%, Claude-User < 0.1%; Perplexity: PerplexityBot 85.1%, Perplexity-User 14.9% | "Crawl-to-refer ratio" (image 03) | none printed | 4 | same |
+| Referred HTML requests share: google.* 82%, tiktok.com 9.3%; AI platforms (chatgpt.com, claude.ai, perplexity.ai, gemini.google.com, chat.mistral.ai) stacked ~0.1–0.4% — measured-by-us (read off axis) | "Referred HTML requests time series" (images 06–08) | Jun 1–~27, year not printed; text: June 2025 | 4 | same |
+| Crawler HTML requests share by user agent: Googlebot 55%, GPTBot 16%, ClaudeBot 11%, Bingbot 6.5% | "Crawler HTML requests by user agent time series" (image 09) | Jun 1–~27, year not printed | 4 | same |
+| Crawl purpose share: Training 79.5%, Search 16.5%, User action 3%, Undeclared 1% — differs from text: "nearly 80%" and "less than 5%" (User action + Undeclared) | "Crawl purpose" (image 03) | Jul 1–~28, year not printed; text: July 2025 | 4 | `raw/a-cloudflare-crawler-purpose-industry-blog-primary-2026-09-23-img-2026-09-23.md` |
+| User-action crawl share: ChatGPT-User 73.6%, TikTokSpider 24.1%, Perplexity-User 2.2%, MistralAI-User < 0.1%, Meta-ExternalFetcher < 0.1% — differs from text: "nearly three quarters" | "HTTP traffic by bot — Crawl purpose: User action" (image 02) | Jul 1–~28 | 4 | same |
+| Training crawl share by bot: GPTBot 36%, ClaudeBot 29%, Meta-ExternalAgent 23%, Bytespider 7.4%, Applebot 4.5% (not in text) | "AI bots by HTTP traffic time series — Crawl purpose: Training" (image 04) | Jul 1–~28 | 4 | same |
+| Top five, no filter: ClaudeBot 27.4%, GPTBot 22.3%, Meta-ExternalAgent 17.2%, Amazonbot 16.4%, Bytespider 6.3% — text: "nearly half" for ClaudeBot + GPTBot | "HTTP traffic by bot" (image 06) | Aug 1–7, year not printed; text: August 2025 | 4 | same |
+| News & Publications: GPTBot 17.4%, Meta-ExternalAgent 17.3%, Amazonbot 16.3%, ClaudeBot 15.3%, ChatGPT-User 14.9% (text carries 17.4% and 14.9%) | "HTTP traffic by bot — Industry set: News & Publications" (image 07) | Aug 1–7 | 4 | same |
+| Computer & Electronics: GPTBot 22.1%, Amazonbot 19.2%, ClaudeBot 13.9%, Meta-ExternalAgent 13.9%, Bytespider 11.2% (text carries 13.9% ×2, "over 40%" for the top two) | "HTTP traffic by bot — Industry set: Computer & Electronics" (image 08) | Aug 1–7 | 4 | same |
+| Finance / Cryptocurrency: ClaudeBot 31%, GPTBot 24%, Meta-ExternalAgent 15%, Amazonbot 12%; crawl purpose Training 80%, Search 14% (text: "80%", "three-quarters … four bots") | "AI bots by HTTP traffic time series" and "AI bot crawl purposes by HTTP traffic time series" (images 09, 10) | Aug 1, 2025, 00:00 UTC → Aug 7, 2025, 23:45 UTC (printed) | 4 | same |
+| Gaming industries: Meta-ExternalAgent 30%, ClaudeBot 28%, Amazonbot 16%, GPTBot 15% (not in text) | "AI bots by HTTP traffic time series — Industry: Computer Games; Gambling & Casinos; …" (image 11) | Aug 1–7, 2025 (printed) | 4 | same |
+| Radar Bots Directory: "286 results" (not in text) | "Bots Directory" screenshot (image 11 of crawl-refer post) | none printed | 4 | `raw/a-cloudflare-crawl-refer-ratio-blog-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: all chart percentages are Cloudflare Radar's printed legend / share-bar values; line values are not readable (Max/0 axes). The crawl-to-refer PNG carries no date; the substitute pull recorded the identical ten-row table as a "live widget captured 2026-09-22".

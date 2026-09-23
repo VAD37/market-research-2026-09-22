@@ -270,3 +270,13 @@ Regional facts outside DE for paid placement. Raw prefix `raw/`, suffix as state
 | Public tenders naming paid AI surfaces | EU | TED `FT~"ChatGPT Ads"` 0, `"sponsored answers"` 0 (already recorded, R-BLOCKED-2); `FT~"Perplexity"` 6 notices, DEU 6 of 6 | filed | 2025-06-06 to 2026-05-28 | 2 | `f-ted-ukcf-S10-eu-country-brand-accuracy-2026-09-23.md` |
 
 **Caveats, this append.** Country availability rests on one OpenAI locale page and its named examples; the full 31-country list was not published on it. The France AI Overviews row is an inference from surface absence and is tier 5. No regulator in UK, ES or IT was found stating a position on ads inside AI answers through the channels tried; ASA/CAP and DSA rows from 2026-09-22 stand unchanged. File over its 120-line budget; overrun includes this append.
+
+## Image reads, IMG-1b, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| On-surface label wording, Copilot ad unit: card header "Microsoft Advertising"; label line "Sponsored ···" inside the unit; advertiser placeholders Contoso / Fabrikam — fills the `unknown — checked` label-wording cell in the engine table above (row "Microsoft Copilot") from the vendor's own mock-ups, not a live capture | "Example feed-based ad in Copilot", "Example Multimedia ad in Copilot", "Example Search ad in Copilot" (three help-page images) | page ms.date 2026-06-18, updated 2026-09-02 | 3 | `raw/b-microsoft-ads-in-copilot-primary-2026-09-23-img-2026-09-23.md` |
+| Feed-based unit: five product cards with price and advertiser (e.g. "119.97" struck "$154", Contoso.com); Multimedia unit: image + headline + "Book Now" button + URL; Search unit: headline + sitelink-style title + Contoso.com | same three images | same | 3 | same |
+| Merchant Center "Ad example": Product ads grid ("Ads" heading, 8 tiles, prices $29.99–$69.99) on a search results page layout, not a Copilot response | "Ad example." (help-page image) | page ms.date 2026-06-18, updated 2026-07-27 | 3 | `raw/c-microsoft-merchant-center-overview-primary-2026-09-23-img-2026-09-23.md` |
+
+Caveat: mock-ups drawn by the vendor; prices and advertisers are illustrative and carry no market figure.
