@@ -12,8 +12,8 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P13-size | Opus, fetch + WebSearch | Market potential, three sub-markets: engine user counts over time, share and referral trends, forecasts side by side, bottom-up floors | `docs/raw/*-2026-09-23.md`; `docs/markets/*.md` appends; `docs/findings/market-potential.md` | 2026-09-23 |
 | P14-papers | Opus, `pw` | Research-paper scan: capabilities that steer LLM recommendation or monetise answers; builder-constraint; descriptive only | `docs/raw/d-paper-*-2026-09-23.md`; `docs/findings/frontier-scan.md` | 2026-09-23 |
+| P4-r | Opus, `pw` + fetch | Success-story re-hunt: ~107 unchecked brand pages, 25 unopened titles, EDGAR full-text via curl; metric-moved experimental cases only; Reddit/G2 deferred to `ext` slot | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append | 2026-09-23 |
 | R-BLOCKED | Opus, `ext` | Probe every blocked channel via browser; re-pull filings, funding, Trends, review sites; credential register | `docs/method/blocked-channels.md`; `docs/raw/*-repull-2026-09-23.md` | 2026-09-23 |
 
 ## Queue
@@ -23,7 +23,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | P8-r | 8 re-run | Sonnet, `ext` after R-BLOCKED | Close the 8 blank high-CPA cells and unrun signals (S2, S3, S9, S10; skincare S4, S6, S12; B2B SaaS S5, S6 paid/agentic terms) via browser | `docs/raw/f-signal-*-2026-09-23.md`; `customers/*.md` appends; `findings/demand-map.md` append |
-| P4-r | 4 re-run | Opus, `ext` | Success-story hunt on Reddit, G2, sec.gov, ~107 unchecked brand pages, 25 unopened titles; metric-moved experimental cases only | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append |
 | P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
@@ -127,6 +126,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | BRIEF-3 | `docs/findings/director-brief-2026-09-23.md` (293 lines, budget 300) — 10–20 min director reading brief, 14 sections, 140 sourced rows, all 23 H, both-readings pairs kept; `docs/method/gen-director-deck.py` → `docs/findings/director-brief-2026-09-23.pptx` (18 slides, generated, never hand-edited; run with Python 3.14 where python-pptx is installed). 0 pulls | 2026-09-23 | fee9d0d |
 | AMEND-2 | `docs/method/plan.md` 362 → 567 lines, additions only; `docs/method/hypotheses.md` 105 → 156, H17–H25 (post-hoc to Passes 2–9, pre-registered for 12–14). §8 a–g applied; scope addition 1; Pass 10 skipped; Pass 12/13/14 + P8-r/P4-r/P9-r sections; evidence-quality reporting; browser/search revision; 15 failure-mode rows + debt map; done rows for 12–14. 0 pulls | 2026-09-23 | d1d62cf |
 | P12-ads | `docs/findings/ai-ads-evidence.md` (100 lines); `docs/markets/paid-placement.md` +69 (L121–189). 91 raw `b-*-2026-09-23.md`: tier 2 ×1, tier 3 ×38, tier 5 ×48, tier 6 noise ×4. Live ads at tier 3: ChatGPT, Google AIO, AI Mode (testing), Copilot, Rufus/Alexa, Snap My AI (stale). Prices: OpenAI $3–$5 CPC bid + 25 USD/day min (t3); Kontext $3 CPM (t3, network); launch $60 CPM / $200–250K min (t5). Revenue at t3: OpenAI $1B run rate only. Controlled results: 0 of 15. H17 killed, H18 confirmed, H19 confirmed, H20 killed. 60 WebSearch calls. Blocked: sec.gov 10-Q 403, investing.com 403, searchengineland 403, markey.senate.gov 403; Adweek/EMARKETER/FT paywalled | 2026-09-23 | c86608f |
+| P13-size | `docs/findings/market-potential.md` (100 lines); `markets/` appends organic +15, paid +15, agentic +14 (overrun in caveats). 24 raw `-2026-09-23.md`: t2 ×2 (Alphabet 10-K, SpaceX S-1/A), t3 ×8, t4 ×2, t5 ×3, t6 ×8, t7 ×1. ≥2 dated user-count points at t≤3: ChatGPT, Google (Gemini app/AIO/AI Mode), Copilot, Meta AI, Grok (t2), Rufus; none for Claude, Perplexity 2026, DeepSeek. Forecast spread: organic 1.92× (2034), paid ~20× (2030, scopes differ), agentic 26.3× (2030). Floors: organic $42.2M–$48.2M + €2.2M ARR (4 vendors); paid ≥$1B (ChatGPT only); agentic GMV unknown. H16 unresolved, H21 killed, H22 killed. Done cells 9 of 9. 43 WebSearch. openai.com/perplexity.ai/gartner.com 403 → archive captures; datos.live behind form (register) | 2026-09-23 | 248b1d3 |
 
 ## Landed — pending verify
 
