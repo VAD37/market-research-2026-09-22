@@ -12,7 +12,7 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| COMPRESS-CU | opus | lossless compression | `customers/*.md` | 2026-09-23 |
+| AMEND-4 | opus | dated correction appends for stale facts flagged by RECOUNT-2 | `customers/skincare-beauty.md`, `findings/demand-map.md`, `findings/whitespace.md`, `method/hypotheses.md` appends | 2026-09-23 |
 
 Slots free: 6 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
@@ -161,6 +161,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | COMPRESS-F2 findings (6 files) | 4 in-line tightenings, 0 lines removed: demand-map 289 (floor L266), market-potential 292 (L273), ai-ads 152 (L140), transition 156 (L145), whitespace 131 (L112), trigger 112 (L76). Floors = bake-off evidence-pack ranges + cites. Tokens 5,297 → 5,297; one duplicate "$100 million annualized" (row C2 keeps it). Stale: r2 brief cites transition :158/:159 past EOF. Further cuts need split-and-repoint or post-bake-off pass (owner) | 2026-09-23 | see commit |
 | COMPRESS-M markets | paid-placement 308 → 301 (floor L206), organic 214 → 211 (L162), agentic 160 → 158 (L142); bytes identical above floors. Tokens: organic 1,035 = 1,035, agentic 567 = 567, paid 1,063 → 1,061 (duplicate "48.5%" and "tier 5" removed, both still carried). Note: bake-off pack pins whole-file line counts 308/214/156 — runs read snapshot 8badc05, not working tree | 2026-09-23 | see commit |
 | COMPRESS-F1 scorecard + unknowns | proof-scorecard 310 → 307 (floor L294: bake-off pack L246–294, biz-review-2 to :293); unknowns 490 unchanged (anchored to EOF by STATE RECOUNT-2 row; pack L132–135, L234–366). Tokens 1,454 = 1,454; 3,162 = 3,162; duplicates removed 0. Agent ran one read-only `git diff --stat` (disclosed) | 2026-09-23 | see commit |
+| COMPRESS-CU customers | high-cpa 262 → 252 (floor L170), skincare 263 → 245 (L135), b2b-saas 242 → 228 (L132); local 94 untouched. Cut: 13 repeated over-budget notices (fuller statement kept per file), 3 "Top engine" restatements, Budget-line prose repeating rows, heading-adjacent blanks. Every pre token present; only repeat counts dropped. Floors from bake-off R0 brief cites | 2026-09-23 | see commit |
 
 ## Landed — pending verify
 

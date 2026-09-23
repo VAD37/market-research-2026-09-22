@@ -134,15 +134,11 @@ Which existing line funds AI-visibility or AI-ads spend for a B2B SaaS buyer. Ra
 | EDGAR FTS, "AI search", six B2B SaaS filers, 2026 | 3 hits, all Semrush and TechTarget (sellers); ZoomInfo, Sprout, Zoom, HubSpot 0 | none | 2 | `f-edgar-fts-budget-line-queries` |
 | Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated, no budget statement public | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
 
-**Read.** `unknown — checked EDGAR FTS (6 CIKs plus phrase queries), HubSpot, Semrush, TechTarget 10-Ks, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). Two filed pointers, neither a budget line: a vendor says GEO tools are bought beside SEO tools (tier 2, seller's framing); a B2B media seller says its customers' marketing budgets are subdued while AI R&D absorbs spend (tier 2). File over its 100-line budget; overrun includes this append.
-
+**Read.** `unknown — checked EDGAR FTS (6 CIKs plus phrase queries), HubSpot, Semrush, TechTarget 10-Ks, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). Two filed pointers (Semrush, TechTarget rows), tier 2, neither a budget line; Semrush is the seller's framing.
 ## Primary re-pulls, REPULL-1, 2026-09-23
-
 - Bitly AI-search sessions case · `raw/e-case-foundation-inc-bitly-2026-09-22.md` (5) · `raw/e-case-foundation-inc-bitly-primary-2026-09-23.md` (5) · "citation share for link shorteners grew to 11.7%, nearly double the next competitor"; "referral sessions growing from 178 to 930 (up 422%) and engaged sessions increasing from 98 to 426 (up 335%)" (12 months; published 2026-08-17) · agrees; sections after the cut add 27.3% QR-code visibility, 8 AI Overview citations, 41 top-3 rankings, 2,010 organic monthly visits
 - +54% GPT-User bot hits (Silver-graded case) · `raw/e-case-seer-interactive-content-recency-2026-09-22.md` (5) · `raw/e-case-seer-interactive-content-recency-primary-2026-09-23.md` (5) · text figures "300%", "219%", "54%", "80%", "3.6%" unchanged; the two results charts saved at `raw/img/e-case-seer-interactive-content-recency-primary-2026-09-23/02-seer-content-recency-test.png` and `03-seer-content-recency-travel-client-results.png` (unread until IMG-1) · agrees
-
 ## Engine × segment and buying process, P16-c4, 2026-09-23
-
 **Engines named, this vertical's raw.** Mentions and files-with-mention across the 38 B2B SaaS raw files (`f-signal-bs-*`, `f-signal-census-bs-*`, `e-case-census-c9-*`, `e-case-c9-*`, `e-case-airops-*`, `e-case-hubspot-*`, `e-case-fortune-hubspot-*`, `e-case-chime-*`), regex count, method in `raw/f-engine-mentions-raw-count-2026-09-23.md` (measured-by-us on raw already pulled). Partial by design.
 
 | Engine | Mentions | Files | Cell-attributable naming, source, tier |
@@ -155,14 +151,12 @@ Which existing line funds AI-visibility or AI-ads spend for a B2B SaaS buyer. Ra
 | Rufus / Alexa for Shopping | 0 | 0 | — |
 | Grok | 0 | 0 | — |
 
-Top engine by mention: ChatGPT. The three spend cells (Organic × SMB, Mid, Enterprise) rest on postings that name no engine, so engine × cell is `unknown — checked the four S1 postings 2026-09-23` in every B2B SaaS cell; engine naming here is vendor- and case-level only. Paid: agency pages name ChatGPT Ads for "B2B SaaS and service companies" (S6, `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md`, tier 3 on existence) — sell-side.
+The three spend cells (Organic × SMB, Mid, Enterprise) rest on postings that name no engine, so engine × cell is `unknown — checked the four S1 postings 2026-09-23` in every B2B SaaS cell; engine naming here is vendor- and case-level only. Paid: agency pages name ChatGPT Ads for "B2B SaaS and service companies" (S6, `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md`, tier 3 on existence) — sell-side.
 
 **Switching cost and buying process.** Buyer-side: `unknown — checked every raw file cited in this document, OMR review text (0 lines naming a buying step), G2 review text (403 to fetch), HN Algolia, sam.gov, TED 2026-09-23`. Vendor-side terms, tier 3, `raw/a-vendor-terms-contract-length-2026-09-23.md`: self-serve tiers cancel monthly (Peec, Otterly, AthenaHQ, Local Falcon "Cancel anytime", BrightLocal 14-day trial with monthly/annual switch "at any time"); annual terms auto-renew (Otterly, Semrush — Semrush non-cancellable with a one-time 7-day refund only on 12-month-or-longer terms); enterprise tiers are order-form contracts of undisclosed length (Profound "Custom", Scrunch Enterprise, AthenaHQ "negotiated as part of the Enterprise contract", SOCi Order Form, Yext "annual and multi-year subscriptions", tier 2). Who in a SaaS buyer signs: G2 reviewer panels — Profound industry "Computer Software (131)" of 1,129 reviews, roles User 394 / Administrator 135 / Executive Sponsor 57 / Agency 112; Peec company size "Small Business (14) · Mid-Market (6) · Enterprise (1)"; Brandlight "Mid-Market (118)" of 216 (`raw/f-g2-capterra-S4-repull-2026-09-23.md`, tier 5; reviewers, not signatories). Board-level pull, not vertical-cut: Corporate Ink survey via Yext 8-K, 88% of CMOs asked about AI visibility, 34% with a strategy, tier 5 relay, no n (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`).
 
-**Caveats, this append.** Counts are word matches over raw files, headers and query strings included; they weight vendor case files, numerous in this vertical, over buyer statements. No posting text in this vertical names an engine, so the engine × cell read is empty where the spend reads are strongest. Vendor terms are list terms; no B2B SaaS buyer's contract length is on record. File over its 100-line budget; overrun includes this append.
-
+**Caveats, this append.** Counts are word matches over raw files, headers and query strings included; they weight vendor case files, numerous in this vertical, over buyer statements. Vendor terms are list terms; no B2B SaaS buyer's contract length is on record.
 ## S13 brand accuracy and EU cells, P16-c3, 2026-09-23
-
 S13 per `method/demand-signals.md` addition 2026-09-23. Raw prefix `raw/`, suffix `-2026-09-23.md`.
 
 | Sub-market | Size | S13 | Deciding observation |
@@ -188,11 +182,9 @@ EU cells — organic sub-market only; paid and agentic not checked with EU terms
 
 S2 local-language listings: Yext /fr/scout and /it/scout exist, no customer named; no /es, /nl (`f-vendor-S2-yext-scout-localized-fr-it`, 3). S5: 0 threads on r/smallbusinessuk, r/france, r/spain, r/thenetherlands; 1 r/italy post, off-topic (`f-reddit-arcticshift-S5-eu-national-subs`, 5). S10: TED GEO notices 14 of 14 DEU, 1 IRL; FR/ES/IT/NL/UK 0; UK CF 0 on four phrases (`f-ted-ukcf-S10-eu-country-brand-accuracy`, 2).
 
-**Caveats, this append.** Pennylane's FR read repeats the Worldwide enterprise read of 2026-09-22 with a new per-country pull, not a second employer. Make's vertical is read from its product (automation SaaS), not stated in the posting. LinkedIn pages are first-page relevance sets, not counts. File over its 100-line budget; overrun includes this append.
+**Caveats, this append.** Pennylane's FR read repeats the Worldwide enterprise read of 2026-09-22 with a new per-country pull, not a second employer. Make's vertical is read from its product (automation SaaS), not stated in the posting. LinkedIn pages are first-page relevance sets, not counts.
 - Agency ChatGPT-ads service claim (E2M, S6 B2B SaaS paid) · `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md` (3 on existence — search synthesis, `verbatim: partial`) · `raw/f-e2m-white-label-chatgpt-ads-services-primary-2026-09-23.md` (3) · "We build ChatGPT Ads as part of a broader white label PPC service, so it complements, rather than competes with, your clients' existing Google, Meta, and LinkedIn Ads campaigns"; "Sponsored Answers for SaaS/B2B, Shopping Carousels for Retail/DTC"; plans "Up to $5K budget $499/mo · Up to $10K budget $999/mo · Up to $20K budget $1,999/mo · Above $20K Custom"; "one-time setup fee starts at $499 per website" · agrees in substance (synthesis wording is not the page's); primary adds list prices — an asking price, not a price paid
-
 ## S1 posting bodies, P16-c4b, 2026-09-23
-
 Indeed walled on the first posting page (Cloudflare "Additional Verification Required", 16:21); bodies read from employer career sites instead. Raw: `raw/f-indeed-S1-repull3-2026-09-23.md` (tier 3, company-stated). Format: employer · title · phrase in body · engines named · budget or tool named · salary · size band · raw section.
 
 - AT&T (AT&T Business) · "Lead, Digital Customer Growth" — body: "As an SEO & AEO/GEO Manager supporting AT&T Business" · yes — "Answer Engine Optimization (AEO), Generative Engine Optimization (GEO)"; "generative search, answer engines, AI assistants, and citation-based discovery" · none by brand · tools listed as familiarity: "Google Search Console, Bing Webmaster Tools, Adobe Analytics, Ahrefs, SEMrush, BrightEdge, Botify, Screaming Frog"; no budget figure · "$128,400.00 - $215,800.00 USD Annual" · `unassigned` (no headcount in body); telecom, B2B buyer audience — not B2B SaaS, moves no cell · §posting #2
@@ -201,9 +193,7 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 - CWILL INC · "Bilingual Mandarin Product Manager (SEO SaaS Product)" · unread — Indeed wall; not attempted · — · — · card "$100,000 - $160,000 a year" · `unassigned` · superseded file
 
 Cell check. No B2B SaaS S1 cell rests on an Indeed card; nothing confirmed or weakened here. The eight B2B-term Indeed queries (SaaS, "B2B software" × 4 phrases) remain unrun — wall.
-
 ## Image reads, IMG-1a, 2026-09-23
-
 | Figure / text as shown | Chart or image | Date | Tier | Img raw |
 |---|---|---|---|---|
 | GPT-User bot hits/day, read off axis: ~80–100 at red marker (~6/17/2025), ~150 at teal marker (~7/9/2025), ~215–245 after ~8/6, ~275 at ~8/28 | "Content Recency Page GPT-User Bot Hits" (Seer, travel client) | 2025-06 to 2025-08 | 5 | `raw/e-case-seer-interactive-content-recency-primary-2026-09-23-img-2026-09-23.md` |
@@ -213,9 +203,7 @@ Cell check. No B2B SaaS S1 cell rests on an Indeed card; nothing confirmed or we
 | CloudEagle AI Citation Share, read off axis: ~0.075 at deployment (11-02-2025) → ~0.325 at 12-21-2025; weekly clicks ~420 → ~670 (01-11-2026) | "3X Increase in AI Citation Share Within 12 Weeks"; "113% Increase in Clicks…" (Quattr) | 2025-10 to 2026-01 | 5 | `raw/e-case-quattr-cloudeagle-ai-citation-share-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: the Seer "54%" and "300%" are not printed on the charts; ~ values are measured-by-us axis readings from vendor screenshots.
-
 ## EU paid and agentic cells, P16-c3b, 2026-09-23
-
 Closes the paid and agentic EU cells P16-c3 left blank. Raw prefix `raw/`, suffix `-2026-09-23.md`. Channels as in the skincare append of the same date.
 
 | Country | Sub-market | Size | S1 | S2 | S5 | S10 | Read |
@@ -235,8 +223,6 @@ Unassigned, UK × Paid, this vertical: Jotform "reaches 4.17% across four market
 
 Raw: `f-linkedin-S1-eu-paid-agentic` (3), `f-jobboards-S1-eu-paid-agentic` (3), `f-vendor-S2-eu-paid-agentic` (3), `f-adthena-S2-eu-paid-agentic` (5), `f-reddit-arcticshift-S5-eu-paid-agentic` (5), `f-ted-ukcf-S10-eu-paid-agentic` (2).
 
-**Caveats, this append.** Jotform's UK presence is one line in a trade relay of a vendor index, tier 5 at best; the index images are unread (IMG-1). "(S5 failed)" cells rest on S1, S2, S10 only. Sell-side postings (Accenture, Seedtag, Google) are recorded and move no cell. File over its 100-line budget; overrun includes this append.
-
+**Caveats, this append.** Jotform's UK presence is one line in a trade relay of a vendor index, tier 5 at best; the index images are unread (IMG-1). "(S5 failed)" cells rest on S1, S2, S10 only. Sell-side postings (Accenture, Seedtag, Google) are recorded and move no cell.
 ## Image reads, IMG-1c, 2026-09-23
-
 No advertiser stated as SaaS or software in Adthena's UK leaderboard images (ChatGPT Ad Index, week of 2026-07-13 to 07-20; tier 5, vendor index, vendor-reported). Full UK-tagged list as printed — all-markets table: Booking.com 13.81%, Almedia USA, Inc. 12.76%, efaq.com 4.55%, Expert Market 4.38%, giffgaff 4.28% (UK only); UK card: giffgaff 14.0%, Vodafone 11.3%, Booking.com 9.0%. The images print no vertical for any advertiser. Side by side with the P16-c3b unassigned row above: Jotform 4.17% and Lovable 3.66% are not visible in any image — the all-markets table is cut after rank 5 — so both rest on the trade relay (`b-ppcland-adthena-7378-advertisers`, 5) alone, not on "page and images". UK × Paid cells unchanged: none — checked; Jotform / Lovable stay `unassigned`. Class per `method/demand-signals.md` S2 rules for any advertiser named by a vendor index: attention (vendor-reported, not a budget). Raw: `raw/f-adthena-S2-eu-paid-agentic-2026-09-23-img-2026-09-23.md`.

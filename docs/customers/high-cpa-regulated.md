@@ -172,10 +172,8 @@ Which existing line funds AI-visibility or AI-ads spend for an insurance, credit
 | LegalZoom, 10-Q Q2 2026 — adjacent, legal is outside this segment's definition | "a reduction in organic traffic and a higher emphasis on paid search"; "expanding beyond traditional search through strategic partnerships ... including with AI platforms"; "we are investing accordingly" | organic → paid search; AI-platform partnerships funded, line unnamed | 2 | `f-signal-hr-S7-legalzoom-10q-q2-2026` |
 | Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
 
-**Read.** `unknown — checked EDGAR FTS (10 CIKs plus phrase queries), eHealth 10-K and 10-Q, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). The one in-segment filer names SEO and paid search as the lines AI platforms threaten and expects marketing expenditure to rise; no filer names the line that funds AI-surface work. The only filed shift statement found sits outside the segment (LegalZoom). File over its 100-line budget; overrun includes this append.
-
+**Read.** `unknown — checked EDGAR FTS (10 CIKs plus phrase queries), eHealth 10-K and 10-Q, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). No filer names the line that funds AI-surface work.
 ## Engine × segment and buying process, P16-c4, 2026-09-23
-
 **Engines named, this vertical's raw.** Mentions and files-with-mention across the 22 high-CPA raw files (`f-signal-hr-*`, `f-signal-census-hr-*`, `e-case-census-c10-*`, `e-case-c10-*`, `e-case-aicited-*`, `e-case-fireandspark-*`), regex count, method in `raw/f-engine-mentions-raw-count-2026-09-23.md` (measured-by-us on raw already pulled). Partial by design.
 
 | Engine | Mentions | Files | Cell-attributable naming, source, tier |
@@ -188,14 +186,12 @@ Which existing line funds AI-visibility or AI-ads spend for an insurance, credit
 | Copilot | 0 | 0 | — |
 | Rufus / Alexa for Shopping | 0 | 0 | — |
 
-Top engine by mention: ChatGPT. Cell-level naming exists only at Organic / Enterprise (Juice Plus+, supplements; NerdWallet, cards). The Cigna, GEICO, Amica, Embrace, Insurify and Simply Business postings name GEO/AEO duties without an engine in the text captured (`raw/f-signal-hr-S1-*`; `raw/f-indeed-S1-repull2-2026-09-23.md` card only). Mid-market cell: `unknown — checked the three banded postings 2026-09-23`. Paid and agentic rosters name no insurance, card or supplement brand (`raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md`).
+Cell-level naming exists only at Organic / Enterprise (Juice Plus+, supplements; NerdWallet, cards). The Cigna, GEICO, Amica, Embrace, Insurify and Simply Business postings name GEO/AEO duties without an engine in the text captured (`raw/f-signal-hr-S1-*`; `raw/f-indeed-S1-repull2-2026-09-23.md` card only). Mid-market cell: `unknown — checked the three banded postings 2026-09-23`. Paid and agentic rosters name no insurance, card or supplement brand (`raw/f-signal-hr-S2-paid-agentic-check-2026-09-23.md`).
 
 **Switching cost and buying process.** Buyer-side: `unknown — checked every raw file cited in this document, OMR (0 lines naming a buying step), G2 review text (403 to fetch), TED, sam.gov, Contracts Finder 2026-09-23`. The one public-buyer procurement near this vertical, KKH's EUR 11,000,000 marketing framework naming GEO (`raw/f-ted-S10-repull2-2026-09-23.md`, tier 2), states a framework ceiling and a tender path, not a vendor contract length. Vendor-side terms, tier 3, `raw/a-vendor-terms-contract-length-2026-09-23.md`: monthly cancel-anytime self-serve at Peec, Otterly, AthenaHQ, Local Falcon, BrightLocal; annual auto-renewal at Otterly and Semrush (Semrush non-cancellable, 7-day refund on 12-month-or-longer terms only); enterprise order forms of undisclosed length at Profound, Scrunch, AthenaHQ, SOCi; Yext "annual and multi-year subscriptions", "non-cancelable contracts" (10-K, tier 2). Regulated-buyer reviewer presence: Profound G2 industry "Financial Services (76)" of 1,129, AthenaHQ "Financial Services (3)" of 47, Brandlight "Financial Services (7)" of 216 (`raw/f-g2-capterra-S4-repull-2026-09-23.md`, tier 5). Board-level pull, not vertical-cut: Corporate Ink survey via Yext 8-K, 88% / 34%, tier 5 relay, no n (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`).
 
-**Caveats, this append.** Word counts over raw include headers and query strings; this vertical's raw set is the smallest of the three, so counts are not comparable across verticals in absolute terms. One posting carries every cell-level engine naming. Vendor terms are asking terms; no regulated buyer's contract is on record. File over its 100-line budget; overrun includes this append.
-
+**Caveats, this append.** Word counts over raw include headers and query strings; this vertical's raw set is the smallest of the three, so counts are not comparable across verticals in absolute terms. One posting carries every cell-level engine naming. Vendor terms are asking terms; no regulated buyer's contract is on record.
 ## S13 brand accuracy and EU cells, P16-c3, 2026-09-23
-
 S13 per `method/demand-signals.md` addition 2026-09-23. Raw prefix `raw/`, suffix `-2026-09-23.md`.
 
 | Sub-market | Size | S13 | Channels checked 2026-09-23 |
@@ -219,10 +215,8 @@ EU cells — organic sub-market only; paid and agentic not checked with EU terms
 
 S2, S5, S10 per country as in the B2B SaaS append of the same date: Yext /fr and /it Scout pages, no customer; 0 national-sub threads (1 off-topic r/italy post); TED 0 notices outside DEU and IRL; UK CF 0. Raw: `f-vendor-S2-yext-scout-localized-fr-it` (3), `f-reddit-arcticshift-S5-eu-national-subs` (5), `f-ted-ukcf-S10-eu-country-brand-accuracy` (2).
 
-**Caveats, this append.** Compare the Market's vertical is read from the employer's business, which the posting does not state; the boundary rule keeps it out of a cell. "Regulated" here follows the segment definition above (credit cards, insurance, supplements). Single pass, fetch-only, 2026-09-23. File over its 100-line budget; overrun includes this append.
-
+**Caveats, this append.** Compare the Market's vertical is read from the employer's business, which the posting does not state; the boundary rule keeps it out of a cell. "Regulated" here follows the segment definition above (credit cards, insurance, supplements). Single pass, fetch-only, 2026-09-23.
 ## S1 posting bodies, P16-c4b, 2026-09-23
-
 Indeed walled on the first posting page (Cloudflare "Additional Verification Required", 16:21); bodies read from employer career sites instead. Raw: `raw/f-indeed-S1-repull3-2026-09-23.md` (tier 3, company-stated). Format: employer · title · phrase in body · engines named · budget or tool named · salary · size band · raw section.
 
 - The Cigna Group · "Lead Analyst, Technical Search (SEO/AEO/GEO)" · yes — "Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO)"; "Enterprise AI Search Technical Roadmap" · none by brand ("AI-powered answer engines", "large language models"; "Claude Code" named as a development tool) · vendors: "AEO tools (e.g. Profound, Scrunch, Bluefish, Evertune, etc.)"; "SEO tools (e.g. BrightEdge, SEMrush, Conductor, etc.)"; no budget figure · "79,100 - 131,800 USD / yearly" plus annual bonus · Enterprise by the source's word only, unchanged (no headcount in body) · §posting #20
@@ -230,9 +224,7 @@ Indeed walled on the first posting page (Cloudflare "Additional Verification Req
 - Safe Life US LLC, CAL Financial, Inc., Ann & Robert H. Lurie Children's Hospital · unread — Indeed wall; employer sites not attempted · — · — · cards: none, "$40 - $60 an hour", "$70,720.00 - $115,627.20 a year" · `unassigned` · superseded file
 
 Cell check. Organic / Enterprise **spend** rests on the LinkedIn pull of the same Cigna posting (`raw/f-signal-hr-S1-linkedin-2026-09-22.md`), not on the Indeed card; the employer-site body **confirms** the duty and adds the first buyer-side naming of AEO vendors in this vertical (Profound, Scrunch, Bluefish, Evertune — "e.g.", tools the candidate should know, not a purchase). Posted 2026-09-14 (Workday startDate), six US locations.
-
 ## EU paid and agentic cells, P16-c3b, 2026-09-23
-
 Closes the paid and agentic EU cells P16-c3 left blank. Raw prefix `raw/`, suffix `-2026-09-23.md`. Channels as in the skincare append of the same date.
 
 | Country | Sub-market | Size | S1 | S2 | S5 | S10 | Read |
@@ -255,8 +247,6 @@ Unassigned, UK × Paid: BestMoney "3.88% across the UK and US", Adthena index we
 
 Raw: `f-linkedin-S1-eu-paid-agentic` (3), `f-jobboards-S1-eu-paid-agentic` (3), `f-vendor-S2-eu-paid-agentic` (3), `f-adthena-S2-eu-paid-agentic` (5), `f-reddit-arcticshift-S5-eu-paid-agentic` (5), `f-ted-ukcf-S10-eu-paid-agentic` (2).
 
-**Caveats, this append.** The one spend read rests on a single posting (S1 alone — flagged per `demand-signals.md`) whose "agentic commerce" wording is aspirational product scope, not a checkout programme joined. "Regulated" follows the segment definition (credit cards, insurance, supplements). "(S5 failed)" cells rest on S1, S2, S10 only. File over its 100-line budget; overrun includes this append.
-
+**Caveats, this append.** The one spend read rests on a single posting (S1 alone — flagged per `demand-signals.md`) whose "agentic commerce" wording is aspirational product scope, not a checkout programme joined. "(S5 failed)" cells rest on S1, S2, S10 only.
 ## Image reads, IMG-1c, 2026-09-23
-
 No insurer, lender, card issuer, legal or health advertiser in Adthena's UK leaderboard images (ChatGPT Ad Index, week of 2026-07-13 to 07-20; tier 5, vendor index, vendor-reported). Full UK-tagged list as printed — all-markets table: Booking.com 13.81%, Almedia USA, Inc. 12.76%, efaq.com 4.55%, Expert Market 4.38%, giffgaff 4.28% (UK only); UK card: giffgaff 14.0%, Vodafone 11.3%, Booking.com 9.0%. The images print no vertical for any advertiser. Side by side with the unassigned row above: BestMoney appears only in the US card (rank 3, 6.1%), not in the UK card or the visible all-markets rows; "3.88% across the UK and US" rests on the trade relay (`b-ppcland-adthena-7378-advertisers`, 5) alone. giffgaff 14.0% and Vodafone 11.3% (telecom, outside vertical) match the relay figures. UK × Paid cells unchanged: none — checked. Class per `method/demand-signals.md` S2 rules for any advertiser named by a vendor index: attention (vendor-reported, not a budget). Raw: `raw/f-adthena-S2-eu-paid-agentic-2026-09-23-img-2026-09-23.md`.
