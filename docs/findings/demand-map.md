@@ -264,3 +264,26 @@ Channels behind the 30: S1 LinkedIn guest API 38 pages, Hellowork FR, Tecnoemple
 Outside the verticals, EU paid, recorded and moving no cell: Volkswagen, Vodafone testing ChatGPT Ads via Adform (release 2026-09-10, tier 3); giffgaff, Vodafone, Booking.com top UK ChatGPT advertisers, 1,342 distinct UK advertisers week 2026-07-13 to 07-20 (tier 5).
 
 **Caveats, this append.** Nine of the 30 `none` reads (UK agentic, ES paid, NL agentic, across three verticals) carry S5 unresolved; they rest on S1, S2, S10. The single agentic spend read is one product posting, S1 alone, tier 3. TED phrase hits on "commerce agentique" and "publicité IA" are pre-category text matches, not demand. Publication bias: private ChatGPT Ads buyers in the five countries leave no trace in any channel here except Adthena's images, which are unread.
+
+## GAP-SK — cell E2 closed, 2026-09-23
+
+Closes E2 (Skincare, Organic, Mid-market), the strict matrix's last blank cell (R-BLOCKED-2 note above, "Strict blank left: E2, skincare Organic/Mid-market — S6, S12 unrun there"). Compiled source: `customers/skincare-beauty.md` §"Gap fill GAP-SK, 2026-09-23". Raw: `raw/f-edgar-sk-headcount-midmarket-olaplex-beautyhealth-2026-09-23.md`, `raw/f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23.md`, `raw/f-signal-sk-S1-olaplex-greenhouse-check-2026-09-23.md`, `raw/f-signal-sk-S12-llms-txt-midmarket-2026-09-23.md`, `raw/f-signal-sk-S6-organic-midmarket-2026-09-23.md`.
+
+| # | Cell | Before (strict / loose) | After | Deciding signal, figure verbatim | Tier |
+|---|---|---|---|---|---|
+| E2 | Skincare, Organic, Mid-market | blank / none — checked | **spend** | S1 — The Beauty Health Company (Hydrafacial), "Develop and execute SEO, AEO, and GEO strategies…", posting JR101647, "$121,000- 143,000/annually" | 3 |
+
+New mid-market beauty employers, filed headcount: OLAPLEX Inc. 278 employees, The Beauty Health Company (Hydrafacial) 613 employees, both as of 2025-12-31 (10-K, tier 2). S12: genuine llms.txt present on both companies' consumer domains (olaplex.com, hydrafacial.com), tier 1, attention — corroborating, not deciding. S6: checked, blank — unattributed (Passionfruit "Mid-market" GEO/SEO retainer band, $12,000–$30,000/month; no named mid-market beauty buyer). S7: checked, nothing in either 10-K.
+
+**Tallies, 27 cells, revised (all signals now run or n/a by construction for every cell):**
+
+| Reading | spend | attention | none | blank |
+|---|---|---|---|---|
+| Strict | 9 | 1 | 17 | 0 |
+| Loose | 9 | 1 | 17 | 0 |
+
+Segment-matrix done row: **both readings now satisfied, 27 of 27, zero blanks.** Strict and loose converge for the first time since Pass 8 — every remaining cell's `none — checked` rests on a signal actually run, not a channel-blocked reinterpretation.
+
+**Hypotheses, re-touched.** H4 (kill: any SMB cell with spend) — unaffected, E2 is Mid-market not SMB; still killed via B2B SaaS Organic/SMB. H7 (organic > paid, agentic in spend-cell count) — organic rises to 7 (skincare 2, B2B SaaS 3, high-CPA 2) against paid 1 and agentic 1; **strict now also confirmed**, both readings converge. H9 (agentic spend only at enterprise) — unaffected by an organic cell; both readings remain confirmed per R-BLOCKED-2.
+
+**Caveats, this append.** S1 is this vertical's fourth spend cell resting on a single job posting at a single employer — the catalogue's own weakest spend class, per C2 above ("Six of the seven spend reads rest on S1…"; now seven of nine). The mid-market band for both new employers rests on one filed headcount snapshot, 2025-12-31. Only two mid-market-banded beauty companies were checked; not an exhaustive sweep of small/mid-cap beauty issuers. Willingness to pay is unchanged: `unknown` in all 27 cells — the Hydrafacial posting's salary band is internal headcount cost, not a price paid to a vendor. File over its 100-line budget; overrun is this append, consistent with every prior append.
