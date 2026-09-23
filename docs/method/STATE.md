@@ -12,8 +12,9 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| IMG-1c | Opus, read-only | 3 Adthena leaderboard images (INDEX rows after 3a290b8); UK in-vertical advertisers → customers appends | `f-adthena-S2-eu-paid-agentic-2026-09-23-img-2026-09-23.md`; `analysed_in` | 2026-09-23 |
 
-Slots free: 8 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
+Slots free: 7 of 8. Next: BRIEF-4 after P16-c3b, P16-c4b, IMG-1a/b land; P15 last. IMG-1 split in two by INDEX.csv row range so both halves run in parallel; rows appended after 3a290b8 go to a later IMG pass.
 
 ## Queue
 
@@ -21,7 +22,6 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| IMG-1c | image read | Opus | Rows appended to INDEX.csv after 3a290b8 (3 now + any P16-c3b adds), same rule as IMG-1a/b; after P16-c3b lands | `docs/raw/*-img-<date>.md`; `analysed_in` |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after P16 and IMG-1); cites raw path:line or compiled row ids only, never STATE/plan lines; reads the evidence pack in `shared-instruction.md` Addition 1; defines every acronym in-file; carries both readings per constraint 14 | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` via `gen-director-deck.py` (Python 3.14 interpreter) |
 | P15 | 15 | Opus ×11 + judge | Brief bake-off per `brief-bakeoff/README.md` + Amendments 2026-09-23; orchestrator pins snapshot hash and fills pack line ranges at spawn; last pass | `brief-bakeoff/runs/`, `judge/`, `scoresheet.csv`; `findings/brief-method-eval-<date>.md` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
