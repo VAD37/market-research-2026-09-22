@@ -453,6 +453,13 @@ Per `STATE.md` §Decisions taken lines 179–180, reasons: User: "Allow chrome e
 
 Cap in force is the latest cap line in `STATE.md` §Decisions taken; as read 2026-09-23, line 169: 3 live agents. `plan.md` line 312 (10) and `MegaPlan.md` line 32 (3) are not edited; the STATE line governs where they differ (`plan-review-2-2026-09-23.md` §6, last row).
 
+### Orchestration — paywall-bypass revision, 2026-09-23
+
+- From 2026-09-23 the Chrome browser behind the `ext` slot carries a paywall-bypass extension installed by the user. A page earlier recorded as paywalled, metered or truncated is retried once through `ext`. Raw header: `pull_method: browser (claude-in-chrome, paywall-bypass extension active)`; the new file names the secondary-source pull in `supersedes:`; the old file is never edited.
+- The bypass is for paywalls only. Bot walls (WAF, Cloudflare, reCAPTCHA), login or registration walls and any human-verification step stay untouched; those channels stay in `blocked-channels.md` for the owner. Agents never solve CAPTCHAs, never create accounts, never enter credentials.
+- Paywalled text is recorded as the figures, dates, named entities, headings and short quotes (≤25 words each) the research needs, never as a full-article copy. `[note: paywalled; figures and short quotes only]` marks the file.
+- Compiled files that cite the secondary pull get an appended row pointing at the primary pull with its tier; the secondary row stays, so tier changes are visible side by side. `docs/method/repull-audit-<date>.md` and `repull-queue-<date>.csv` are the inventory; REPULL-1 works the queue in priority order.
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.

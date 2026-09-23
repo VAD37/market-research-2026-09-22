@@ -14,6 +14,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 |---|---|---|---|---|
 | P4-r | Opus, `pw` + fetch | Success-story re-hunt: ~107 unchecked brand pages, 25 unopened titles, EDGAR full-text via curl; metric-moved experimental cases only; Reddit/G2 deferred to `ext` slot | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append | 2026-09-23 |
 | R-BLOCKED-2 | Opus, `ext` | Reddit via Arctic Shift archive API (curl, default): advertiser-reported AI-ads results + S5 counts; Indeed S1 via `ext` (logged-in, US); TED S10 via `ext`; blocked-channels re-probe 2 | `docs/raw/*-repull2-2026-09-23.md`; `blocked-channels.md`, `ai-ads-evidence.md`, `demand-map.md`, `high-cpa-regulated.md`, `hypotheses.md` appends | 2026-09-23 |
+| REPULL-AUDIT | Opus, read-only | Scan all raw pulls for primaries blocked/paywalled and replaced by secondary sources; tally by wall type; load-bearing check against compiled cites; build prioritised repull queue | `docs/method/repull-audit-2026-09-23.md`, `docs/method/repull-queue-2026-09-23.csv` | 2026-09-23 |
 
 ## Queue
 
@@ -22,6 +23,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
 | P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
+| REPULL-1 | re-pull | Opus, `ext` | Work `repull-queue-2026-09-23.csv` priority 1→2 through the extension with the paywall-bypass installed; new raw files `supersedes:` the secondary pull; paywalled text recorded as figures, dates, names, short quotes; compiled cites re-pointed by append | `docs/raw/*-primary-2026-09-23.md`; `blocked-channels.md` re-probe 3; compiled appends |
 | REV-BIZ-B | review | Opus | Bake-off output-needs review: what each of the 10 brief methods and the judge columns demand as input; which inputs the repo lacks; how BRIEF-4 input should be shaped | `docs/method/biz-review-2-bakeoff-2026-09-23.md` |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
@@ -190,6 +192,8 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | BRIEF-3 spawned on user request: a 10–20 minute director reading brief, metrics and key details, plus a PowerPoint. Budget 300 lines (finding budget 100 lifted for this file only); deck is a generated file from `docs/method/gen-director-deck.py`, never hand-edited; `python-pptx` may be installed for it | User: "brief reading 10-20 minutes max, full of key metrics and highlight key details; convert reading into powerpoint". Compiled files only, no verdict, no execution language |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 | 2026-09-23 | Business-reviewer pass opened on user request: REV-BIZ-A (macro sufficiency + gaps) live, REV-BIZ-B (bake-off output needs) queued for next free slot; main thread writes `docs/method/biz-review-solution-2026-09-23.md` from their reports, then queue is re-cut. Reviewers are read-only, no web; gaps are described, never filled from memory | User: "reconsider if this market research so far already have enough information, context, sources ... for any business analyst to make a good brief report. finding any gaps"; cap 3 leaves one slot |
+| 2026-09-23 | User installed a paywall-bypass extension in Chrome; the `ext` slot may now open pages earlier recorded as paywalled. REPULL-AUDIT (read-only) inventories every raw pull that carries a secondary source in place of a blocked primary and ranks a repull queue; REPULL-1 then re-pulls through `ext` in priority order, ahead of REV-BIZ-B. Rule appended to `plan.md` Orchestration: bypass applies to paywalls only; bot walls, login walls and CAPTCHAs stay untouched; paywalled text is recorded as figures, dates, names and short quotes, never full article text | User: "I have install paywall bypass for chrome browser ... report full site instead you dont have to find original source anymore ... investigate and repull anything that need to pull from web again" |
+| 2026-09-23 | R-BLOCKED-2 asked for a mid-run progress and quality block in STATE; if remaining work exceeds ~40 tool rounds it lands the Reddit/Arctic Shift part first and hands Indeed/TED remainder back for a split spawn | User: "ArticShift reddit agent run really long ... report summary ... maybe split tasks" |
 
 ## Unknowns
 
