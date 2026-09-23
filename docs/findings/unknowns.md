@@ -364,3 +364,127 @@ Per `biz-review-1-2026-09-23.md` §4 row 13 and §7 row 21. The stale roll-up at
 Sum of the nine header lines with a count: 33 of 57. Stated for diffing only: it is a sum of headers, not a recount on the Pass 9 list (11 of 25 = 44.0%) or the review-1 list (12 of 27 = 44.4%) at `unknowns.md:177–184`, and headers include non-load-bearing claims. Programme-done bar 80% is met by no figure in this section.
 
 **Caveats, this section.** The L55 roll-up is not edited; it is the 2026-09-22 read and stands. Headers are self-reported by each file's author on its file date and were not re-verified claim by claim here; P9-r's itemised recount (`unknowns.md:155–171`) is the verified count. This file was over its 100-line budget before this append; overrun stated here. Evidence, not a verdict.
+
+## Tier-3 recount and done rows, RECOUNT-2, 2026-09-23
+
+Task RECOUNT-2. Desk only, 0 pulls. P9-r method (`unknowns.md` §Tier-3 recount, P9-r) re-run on both lists against every `raw/` file on disk (1,013 files; 405 dated 2026-09-23, up from 204 at P9-r). Claim tier = tier of its weakest load-bearing row; moved only if that row now has a tier ≤3 source. Line numbers as read 2026-09-23.
+
+### Pass 9 (25) and review-1 (27) lists, itemised
+
+Tiers column: Pass 9 / review-1 / P9-r. n/a = meta-claim, no raw tier.
+
+| list | file:claim | best raw now (tier) | weakest row now (tier) | tiers | now | moved |
+|---|---|---|---|---|---|---|
+| both | proof:59 C1 0 Gold | `e-case-edgar-fulltext-results-2026-09-23` (2) | `e-case-census-r1-2026-09-23` (5) | 5/5/5 | 5 | no |
+| both | proof:60 C2 seven Silver | `e-case-nerdwallet-earnings-release-2026-02-25-2026-09-22` (2) | E1–E5 raws; Otterly `-repull2` (5) | 5/5/5 | 5 | no |
+| both | proof:61 C3 two negative/null | NerdWallet 8-K (2) | `e-case-c11-arxiv-tw3-partners-geo-score` (4), no reviewed version | 4/4/4 | 4 | no |
+| both | proof:62 C4 paid-by-outcome | `e-case-ulta-nielseniq-smart-beauty-primary` (3), Bronze, ungraded set | `e-case-census-c4-2026-09-22` (6) | 5/6/6 | 6 | no |
+| both | proof:63 C5 59 brands silent | `e-case-census-c7-2026-09-22` (3) | same (3); count stale, 1 of 168 | 3/3/3 | 3 | no |
+| both | proof:64 C6 anchor 0 Silver | `e-case-ulta-*-primary-2026-09-23` (3), Bronze / no claim | Seer E4 (5) | 5/5/5 | 5 | no |
+| r1 | proof:53 success-stories row | NerdWallet 8-K (2) | Seer E4 (5) | —/5/5 | 5 | no |
+| both | demand:76 C1 7/1/11/8 | `f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23` (3) | `f-signal-sk-S4-omr-reviews-2026-09-22` (5) | 3/5/5 | 5 | no; count stale |
+| both | demand:77 C2 S1 weakest class | same Hydrafacial raw (3) | S1 raws (3) | 3/3/3 | 3 | no; now 7 of 9 |
+| both | demand:78 C3 WTP unknown | `f-signal-*-S11-price-paid-2026-09-22` (2 / n/a) | same (3) | 3/3/3 | 3 | no |
+| both | demand:79 C4 organic 5/1/1 | S1 raws (3) | same (3) | 3/3/3 | 3 | no; now 7/1/1 |
+| both | demand:80 C5 5 of 7 enterprise | S1 raws (3) | same (3) | 3/3/3 | 3 | no; now 5 of 9 |
+| both | demand:81 C6 compilers differ | none by construction | — | 3/n/a/n/a | n/a | no |
+| both | white:58 C1 0 rate cards | `b-openai-help-ads-basics-2026-09-23` (3) | same (3) | 3/3/3 | 3 | no |
+| both | white:59 C2 no measured size | `e-market-size-emarketer-aiads-primary-2026-09-23` (4) | `e-market-size-table-2026-09-22` (6) | 3/6/6 | 6 | no |
+| both | white:60 C3 techniques unnamed | `d-openai-prompt-injections-primary-2026-09-23` (3) | `d-technique-census-c7` (3); Google generic clause beside | 3/3/3 | 3 | no |
+| both | white:61 C4 no prompt set | `a-vendor-census-c1`…`-c4-2026-09-22` (3) | same (3) | 3/3/3 | 3 | no |
+| both | white:62 C5 llms.txt unread | `a-google-ai-features-guidance-2026-09-22` (3) | Borysenko preprint (4); Otterly 81 ChatGPT-User fetches (5) contra | 4/4/4 | 4 | no; contested |
+| both | white:63 C6 two deserts | `e-case-census-c8`, `-c10-2026-09-22` (5) | same (5) | 5/5/5 | 5 | no |
+| both | white:64 C7 59 of 59 silent | `e-case-census-c7-2026-09-22` (3) | same (3); P4-r 1 of 168 | 3/3/3 | 3 | no |
+| both | white:65 C8 9 of 9 cells | `b-openai-1bn-run-rate-milestone-2026-09-22` (3) | `b-similarweb-ai-ads-2026-09-22` (5) | 3/5/5 | 5 | no |
+| r1 | white:17 no protocol fee | `c-agentic-commerce-protocols-table-2026-09-22` (3) | same; Instant Checkout "small fee" beside (3) | —/3/3 | 3 | no |
+| both | unk:68 C1 hypothesis tallies | `b-sec-hubspot-10k-2026-02-11-2026-09-23` (2) | H3, H6 case raws (5) | 5/5/5 | 5 | no |
+| both | unk:69 C2 unscorable rows | day-0 panel raws (1) | same (1) | 1/1/1 | 1 | no |
+| both | unk:70 C3 channels blocked | pull logs; `method/blocked-channels.md` (1) | same (1) | 1/1/1 | 1 | no |
+| both | unk:71 C4 done rows | findings files only | — | 3/n/a/n/a | n/a | no |
+| both | unk:72 C5 17 of 25 | findings files only | — | 1/n/a/n/a | n/a | no |
+
+Moved: 0 of 12 sub-tier claims (review-1), 0 of 11 (Pass 9); 0 of 12 at ≤3 moved down. Content drift without tier change: demand C1, C2, C4, C5 counts stale after GAP-SK; white C5 contradicted by a tier-5 row (`raw/e-case-otterly-llms-txt-experiment-repull2-2026-09-23.md`: "81 ChatGPT-User" of 84 llms.txt hits); white:17 beside `raw/b-openai-buy-it-in-chatgpt-instant-checkout-primary-2026-09-23.md` "Merchants pay a small fee on completed purchases", rate undisclosed.
+
+### Do the two lists still carry the findings' load?
+
+No. `executive-brief-2026-09-23-r2.md` metric spine has 27 rows; 12 touch a list claim (rows 1, 8, 12, 14, 15, 18, 19, 21, 23, 24, 26, 27), 15 cite only files written 2026-09-23 (`ai-ads-evidence.md`, `market-potential.md`, `transition-evidence.md`, `frontier-scan.md`, P16 appends). Third list counted below.
+
+### Third list — r2 brief metric spine, 27 rows
+
+Brief = the tier the row's "Label, tier" cell states. E = Lane E case corpus (P9-r membership rule). M = meta-claim.
+
+| # | row | best raw now (tier) | weakest row now (tier) | brief | now | ≤3 | E/M |
+|---|---|---|---|---|---|---|---|
+| 1 | Market size, measured | `e-market-size-emarketer-aiads-primary-2026-09-23` (4) | `e-market-size-table-2026-09-22` (6) | 6 | 6 | no | |
+| 2 | Organic floor, two bases | `b-semrush-10k-2025-geo-demand-2026-09-23` (2) | `a-peec-funding-techcrunch-2025-11-2026-09-22` (5) | 2 / 5 | 5 | no | |
+| 3 | Paid floor; agentic floor | `b-alphabet-10k-2025-search-revenue-2026-09-23` (2) | `b-openai-1bn-run-rate-milestone-2026-09-22` (3) | 3; 2 | 3 | yes | |
+| 4 | Forecasts, never sizes | emarketer primaries 2026-09-23 (4) | forecast rows, `e-market-size-*` (6) | 5–6 | 6 | no | |
+| 5 | Engine reach | `b-sec-spacex-s1a-2026-06-03-2026-09-23` (2) | `e-openai-chatgpt-user-counts-2026-09-23` (3) | 3; 2 | 3 | yes | |
+| 6 | Ad baselines, filed | `b-alphabet-10k-2025-search-revenue-2026-09-23` (2) | `e-iab-pwc-internet-ad-revenue-fy2025-2026-09-23` (4) | 2 (IAB 4) | 4 | no | |
+| 7 | Paid inventory per engine | `b-openai-help-ads-in-chatgpt-2026-09-23` (3) | `b-campaign-perplexity-ads-end-2026-09-23` (5) | 3 (5) | 5 | no | |
+| 8 | Prices published | `b-openai-help-ads-basics-2026-09-23` (3) | `b-ppcland-openai-ads-manager-cpc-2026-09-23`, "$60" (5) | 3 (5) | 5 | no | |
+| 9 | ChatGPT ad presence, advertisers | `b-openai-1bn-run-rate-milestone-2026-09-22` (3) | `b-similarweb-chatgpt-ad-stats-2026-09-23` (5) | 5 | 5 | no | |
+| 10 | Publisher side | `b-sec-reddit-10q-q2-2026-content-licensing-2026-09-23` (2) | `c-cloudflare-pay-per-crawl-docs-2026-09-23` (3) | 3; 2 | 3 | yes | |
+| 11 | Regulation in force | `b-regulators-ad-disclosure-table-2026-09-22` (2) | `b-compliance-vendor-dsa-ai-act-check-2026-09-23` (3) | 2 | 3 | yes | |
+| 12 | Supply | `b-semrush-10k-2025-geo-demand-2026-09-23` (2) | `a-bloomberg-scrunch-sitecore-primary-2026-09-23`, "$225 Million" (5) | 3–5; 2 | 5 | no | |
+| 13 | Measurement, tooling | `a-openai-help-measurement-partners-2026-09-23` (3) | same (3) | 3 | 3 | yes | |
+| 14 | Demand, 27 cells | S1 raws (3) | `f-signal-sk-S4-omr-reviews-2026-09-22` (5); figure stale | 3–5 | 5 | no | |
+| 15 | Where demand sits | `f-signal-sk-S1-hydrafacial-workday-geo-aeo-2026-09-23` (3) | S1 raws (3); counts stale | 3 | 3 | yes | |
+| 16 | Local 9; EU 45; S13 | `f-edgar-fts-local-multilocation-S7-2026-09-23` (2) | `f-reddit-localseo-smallbusiness-franchise-S5-2026-09-23` (5) | 2–5 | 5 | no | |
+| 17 | Engine × segment; bodies | `f-engine-mentions-raw-count-2026-09-23` (1) | `f-indeed-S1-repull3-2026-09-23` (3) | 1; 3 | 3 | yes | |
+| 18 | WTP; budget line | `f-signal-sk-S7-coty-8k-q4-fy2026-2026-09-23` (2) | `f-signal-*-S11-price-paid-2026-09-22` (3, per review-1) | — | 3 | yes | |
+| 19 | Proof: Gold; Silver | NerdWallet 8-K (2) | case raws (5) | 5 | 5 | no | E |
+| 20 | Three-counts | `e-case-edgar-fulltext-results-2026-09-23` (2) | `e-case-*` vendor pages (5) | 1 | 5 | no | E |
+| 21 | Negative tail vs positives | `e-case-iac-investor-deck-repull2-2026-09-23` (2) | seven positive Silvers (5) | 2; 5 | 5 | no | E |
+| 22 | What movers changed | `b-sec-hubspot-10k-2026-02-11-2026-09-23` (2) | transition raws (6) | 2–6 | 6 | no | |
+| 23 | Lane D | `d-paper-bias-beware-cognitive-bias-2026-09-23` (3) | `d-paper-ecogeo-evidence-ecosystem-2026-09-23` (5) | 3–5 | 5 | no | |
+| 24 | Hypotheses, 32 | `b-sec-hubspot-10k-2026-02-11-2026-09-23` (2) | `e-market-size-table-2026-09-22` (6) | 1–6 | 6 | no | E |
+| 25 | Risks | `b-regulators-ad-disclosure-table-2026-09-22` (2) | `e-market-size-table-2026-09-22`, risk 11 (6) | 2–6 | 6 | no | |
+| 26 | Done rows | findings files only | — | — | n/a | no | M |
+| 27 | Channels | `method/blocked-channels.md`; pull logs (1) | same (1) | 1 | 1 | yes | |
+
+Moved against the brief's own label: 0 up; rows 11 (2 → 3) and 20 (1 → 5) read lower under weakest-row. Row 20's counts are ours; the rows counted are vendor pages.
+
+### Recount — nine figures, prior six beside
+
+| list | split | prior (P9-r) | RECOUNT-2 |
+|---|---|---|---|
+| Pass 9 (25) | all | 11/25 = 44.0% (68.0% on 2026-09-22 tiers) | 11/25 = 44.0% |
+| Pass 9 (25) | excl. Lane E (7) | 11/18 = 61.1% | 11/18 = 61.1% |
+| Pass 9 (25) | excl. meta (3) | 11/22 = 50.0% | 11/22 = 50.0% |
+| review-1 (27) | all | 12/27 = 44.4% | 12/27 = 44.4% |
+| review-1 (27) | excl. Lane E (8) | 12/19 = 63.2% | 12/19 = 63.2% |
+| review-1 (27) | excl. meta (3) | 12/24 = 50.0% | 12/24 = 50.0% |
+| r2 spine (27) | all | — | 9/27 = 33.3% |
+| r2 spine (27) | excl. Lane E (rows 19, 20, 21, 24) | — | 9/23 = 39.1% |
+| r2 spine (27) | excl. meta (row 26) | — | 9/26 = 34.6% |
+
+Bar 80%: met by none of the nine. At ≤3 on the spine: rows 3, 5, 10, 11, 13, 15, 17, 18, 27.
+
+### Segment matrix — three cuts, strict and loose
+
+| cut | reading | spend / attention / none / blank | closed | prior beside |
+|---|---|---|---|---|
+| core 27 | strict | 9 / 1 / 17 / 0 | 27 of 27 | 8/1/17/1, 26 of 27 (R-BLOCKED-2); 19 of 27 (P8-r); 8 of 27 (review-1) |
+| core 27 | loose | 9 / 1 / 17 / 0 | 27 of 27 | 8/1/18/0 (P8-r, R-BLOCKED-2); 7/1/11/8 (Pass 9) |
+| local 9 | as file states | 1 / 3 / 5 / 0 | 9 of 9, strict = loose | P16-c4, same |
+| local 9 | strict, S9 unrun | 1 / 3 / 0 / 5 | 4 of 9 | not stated before |
+| EU 45 | demand-map | 2 / 0 / 41, 2 cells unassigned | 43 of 45 | P16-c3b, same; P16-c3 organic only, 15 of 45 |
+| EU 45 | customers files | 2 / 0 / 43; 4 unassigned beside | 45 of 45 | not stated before |
+| EU 45 | strict, cut's four signals | 2 / 0 / 28–29; 14 S5 failed or void | 30–31 of 45 | not stated before |
+| EU 45 | strict, full catalogue | 2 / 0 / 0 | 2 of 45 | not stated before |
+
+Core 27 verified from `customers/`: skincare 4/1/4/0 (E2 spend per GAP-SK; file header still reads "spend 3, attention 1, none 5"), B2B SaaS 3/0/6/0, high-CPA 2/0/7/0. Local S9: "S9 unrun" in paid and agentic cells (`customers/local-multi-location.md` signals table; Trends token gate). EU S5: 9 paid/agentic cells "(S5 failed)", 422 ×2; UK and FR organic S5 from aggregate calls whose "0 is not evidence of absence" (`raw/f-reddit-arcticshift-S5-eu-national-subs-2026-09-23.md`) — 5 cells (customers basis), 4 (demand-map basis). EU cut ran S1, S2, S5, S10 (S13 organic) only. EU unassigned: demand-map counts ES × B2B SaaS and UK × high-CPA organic as unassigned cells; customers files read both `none — checked`, Make and Compare the Market beside. Both stand.
+
+### Hypotheses — scored-of-32
+
+Scored 26 of 32, unchanged. Not produced: HE2, HE3, HP1, HP2, HP3, HP4 (Pass 10 skipped by owner 2026-09-23). Marks since the P9-r register: H9 strict → confirmed (R-BLOCKED-2, already in COMPILE-2 last row); H7 strict → confirmed (`demand-map.md` §GAP-SK, "strict now also confirmed"; not yet in `hypotheses.md` log). Marks now: confirmed 13 + 1 dual (H6) · killed 7 · unresolved — checked 5 + 1 dual · not produced 6. P9-r tallies 11 + 3 dual / 7 / 5 + 3 dual / 6 beside.
+
+Checked, no mark moved: RP2-A (IAC slide 7 "50%" reconciled, tier 2 unchanged; Otterly ×3 grades unchanged — H3, H6; Ulta IR primaries no metric — H11); RP2-B (Adobe Q3 open — H1; Adthena walls — H20); GAP-IND (0 cells; no SMB spend — H4; GEO/AEO duties outside verticals — H10 unchanged); REPULL-1b (Instant Checkout "small fee" — H12; Edgar Dunn primary — H22 rests on organic 1.92×); P16-c1…c4b (H4, H7, H9 "consistent" per local file; H17 no AI-surface ad line in any filer).
+
+### Caveats, this append
+
+- Weakest-row rule follows each findings file's "Tier of weakest row" column and P9-r; a best-row rule would lift proof C4 (Ulta "paid_by_outcome: no"), white C8 and spine rows 2, 6–9, 12, 14 to ≤3. Not applied; stated for diffing.
+- Spine tiers are this append's assignment from the brief's cited compiled files and their raws; row 18's "—" is read as 3 per review-1's demand C3. Lane E membership on the spine follows P9-r (case-corpus rows plus the hypothesis tally); row 22 is Lane F, kept in.
+- `raw/` count is a directory listing on 2026-09-23; files landed by agents after this read are not counted. Strict EU and local reads are this append's arithmetic on the none rule (`method/plan.md` "Demand signals — none rule"), not a compiler's read; the compilers' reads stand beside.
+- H7's GAP-SK mark is copied from `demand-map.md`, not re-scored. This file was over its 100-line budget before this append; overrun stated here. Evidence, not a verdict.
