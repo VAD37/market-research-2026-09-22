@@ -91,8 +91,8 @@ The counts do not sum cleanly and are not forced to. `plan-review-1-2026-09-22.m
 
 ## Caveats
 
-- C1, C2, C4 and C6 are load-bearing and sit at tier 5: every case above Bronze except E6 and E7 is vendor- or agency-reported about its own work, with no independent replication. `trust-rubric.md`'s "vendor measuring the thing it sells" flag applies to all three Silver vendor cases.
-- Claims below tier 3: C1, C2, C4, C6, C7 (tier 5) and C3 (tier 4). Only C5 reaches tier 3.
+- C1, C2 and C6 are load-bearing and sit at tier 5, C4 at tier 6: every case above Bronze except E6 and E7 is vendor- or agency-reported about its own work, with no independent replication. `trust-rubric.md`'s "vendor measuring the thing it sells" flag applies to all three Silver vendor cases.
+- Claims below tier 3: C4 (tier 6), C1, C2, C6, C7 (tier 5) and C3 (tier 4). Only C5 reaches tier 3.
 - Metric crossings: E6 crosses a traffic-headwind statement to a revenue line inside one filing — Silver, correlational. E1, E2, E3 stop at traffic; E4, E5 at traffic; E7 at citation. None is cited as sales proof.
 - Conflicts left unreconciled: E3's Bronze/Silver split; E5's three CTR figures (15–30%, 20–40%, 22%) for what reads as one phenomenon, kept side by side.
 - Absence is only as strong as the channels listed. Reddit, G2/Capterra and sec.gov were blocked this session, not exhausted.
