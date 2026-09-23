@@ -486,6 +486,10 @@ Cap in force is the latest cap line in `STATE.md` §Decisions taken; as read 202
 
 Live-agent cap 7, set by the user 2026-09-23, with a usage guard: the main thread reads the session token counter at every spawn; when more than 80% of the session budget is used, the cap falls back to 3 until the counter resets. Browser rule unchanged: one `ext` holder, one `pw` holder at a time. Concurrent agents append to shared compiled files by shell append only (`cat >>`); no agent rewrites a compiled file while another is live.
 
+### Orchestration — cap revision 3, 2026-09-23
+
+Live-agent cap 8, set by the user 2026-09-23 ("I approve new concurrency cap to 8 subagents max"), replacing 7 from cap revision 2 the same day. Usage guard unchanged: the main thread reads the session token counter at every spawn; more than 80% of the session budget used → cap 3 until the counter resets. Browser rule unchanged: one `ext` holder, one `pw` holder at a time; every other live agent fetches. Shell-append rule unchanged. Dependencies, not the cap, gate spawns: a task whose input files another live agent appends to waits for that agent.
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.

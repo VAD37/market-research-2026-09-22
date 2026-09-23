@@ -4,26 +4,27 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-**Paused by the user 2026-09-23 ("pause agent and write report now. we run later").** Passes 0–9, 11–14 done; Pass 10 skipped; Pass 16 (widen and compile) half landed: COMPILE-1, COMPILE-2 + AMEND-3, P16-c1 landed; P16-c2, c3, c4 stopped mid-run with no compiled append and no raw file on disk; REPULL-1 stopped with 25 primaries and 24 images committed, compiled cites not yet appended. Reviews REV-BIZ-A and REV-BIZ-B landed and applied (`biz-review-solution-2026-09-23.md`). Resume from the queue below, front first; every stopped task is a fresh spawn that reads what is on disk. Reader entry points until BRIEF-4: `findings/executive-brief-2026-09-23.md`, `findings/director-brief-2026-09-23.md` (both stale; the evidence pack in `brief-bakeoff/shared-instruction.md` Addition 1 lists the current files).
+**Resumed 2026-09-23 (user: "continue previous orchestration agent tasks").** Passes 0–9, 11–14 done; Pass 10 skipped; Pass 16 (widen and compile) half landed: COMPILE-1, COMPILE-2 + AMEND-3, P16-c1 landed; P16-c2, c3, c4 and REPULL-1b live as fresh spawns from the original briefs (WebSearch removed, search-engine walls stated). Reviews REV-BIZ-A and REV-BIZ-B landed and applied (`biz-review-solution-2026-09-23.md`). Reader entry points until BRIEF-4: `findings/executive-brief-2026-09-23.md`, `findings/director-brief-2026-09-23.md` (both stale; the evidence pack in `brief-bakeoff/shared-instruction.md` Addition 1 lists the current files).
 
 ## Live agents
 
-Cap 7 from 2026-09-23 (user); falls back to 3 when the session token counter shows more than 80% used (check at every spawn). Browser: one extension holder (`ext`) and one Playwright holder (`pw`) at a time; the rest fetch only. Concurrent agents append to shared compiled files by shell append only.
+Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls back to 3 when the session token counter shows more than 80% used (check at every spawn). Browser: one extension holder (`ext`) and one Playwright holder (`pw`) at a time; the rest fetch only. Concurrent agents append to shared compiled files by shell append only.
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| — | — | none live; paused 2026-09-23 | — | — |
+| REPULL-1b | Opus, `ext` | Step 1 compiled cites for the 25 prior primaries; then queue P1 remainder, P2, P3 `bypass_helps` yes; images; blocked-channels re-probe 3 | `docs/raw/*-primary-2026-09-23.md`; compiled appends; `blocked-channels.md` | 2026-09-23 |
+| P16-c2 | Opus, `pw` | Publisher monetisation; AI-ads measurement vendors + OpenAI partner list; DSA Art. 39 / AI Act Art. 50 compliance tooling | `markets/organic-recommendation.md`, `competitors/`, `INDEX.md`, `whitespace.md` appends; raw | 2026-09-23 |
+| P16-c3 | Opus, fetch, Arctic Shift | S13 brand-accuracy signal defined and read across 27 cells; EU depth UK/FR/ES/IT/NL, EU engine share | `demand-signals.md` addition; `customers/*.md`, `market-potential.md`, `markets/*.md` appends; raw | 2026-09-23 |
+| P16-c4 | Opus, fetch, Arctic Shift | Local / multi-location vertical (9 cells); reserve trigger; engine × segment; adoption series (Wayback CDX); switching cost | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md`, `demand-map.md` appends; raw | 2026-09-23 |
+
+Slots free: 4 of 8. Next spawns blocked by dependencies, not cap: P16-c4b needs `ext` (REPULL-1b); IMG-1 needs INDEX.csv stable (REPULL-1b, P16-c2/c3/c4 all append rows); BRIEF-4 needs P16 and IMG-1; P15 last.
 
 ## Queue
 
-Front first. Paused 2026-09-23; resume spawns are fresh agents. Usage guard: read the token counter before each spawn. Rows marked `10 held` stay held until the user reopens Pass 10.
+Front first. Resumed 2026-09-23. Usage guard: read the token counter before each spawn. Rows marked `10 held` stay held until the user reopens Pass 10.
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| REPULL-1b | re-pull | Opus, `ext` | Resume `repull-queue-2026-09-23.csv`: 25 primaries already on disk as `docs/raw/*-primary-2026-09-23.md` (skip those rows); first append the compiled cites for those 25 under `## Primary re-pulls, REPULL-1, 2026-09-23` (rule in plan.md paywall-bypass revision), then continue P1 rows not yet reached (sifted.eu Promptwatch; FT Perplexity ads-end 2026-02-17; wuv.de; grro.io 402), then P2, then P3 `bypass_helps` yes; images to `docs/raw/img/` + INDEX.csv; `blocked-channels.md` re-probe 3 | `docs/raw/*-primary-2026-09-23.md`; compiled appends; `blocked-channels.md` |
-| P16-c2 | 16 | Opus, fetch/`pw` | Publisher monetisation; AI-ads measurement vendors + OpenAI partner list; DSA Art. 39 / AI Act Art. 50 compliance tooling (stopped before any file; respawn from the original brief in the 2026-09-23 spawn; search engines walled — use EDGAR FTS, site endpoints, archive.org, vendor pages) | `markets/organic-recommendation.md`, `competitors/`, `INDEX.md`, `whitespace.md` appends; raw |
-| P16-c3 | 16 | Opus, fetch/`pw`, Arctic Shift | Brand-accuracy signal S13 defined and read across 27 cells; EU depth UK/FR/ES/IT/NL, EU engine share (stopped before any file) | `demand-signals.md` addition; `customers/*.md`, `market-potential.md`, `markets/*.md` appends; raw |
-| P16-c4 | 16 | Opus, fetch/`pw`, Arctic Shift | Local / multi-location vertical (9 cells); reserve-vertical trigger; engine × segment; brand-side adoption series (Wayback CDX); switching cost / buying process (stopped before any file; Indeed excluded) | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md`, `demand-map.md` appends; raw |
 | P16-c4b | 16 | Opus, `ext` | Indeed S1 remainder: 34 of 36 queries, posting bodies and employer sizes for the 35 captured postings, paced; stop at any verification wall (after REPULL-1b frees `ext`) | `docs/raw/f-indeed-S1-repull3-2026-09-23.md`; `customers/*.md` appends |
 | IMG-1 | image read | Opus | Read every image in `docs/raw/img/INDEX.csv` with blank `analysed_in` (24 now); write `<stem>-img-<date>.md` raw transcriptions; fill `analysed_in`; append compiled rows that change (after REPULL-1b so INDEX.csv is stable) | `docs/raw/*-img-<date>.md`; compiled appends |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck (after P16 and IMG-1); cites raw path:line or compiled row ids only, never STATE/plan lines; reads the evidence pack in `shared-instruction.md` Addition 1; defines every acronym in-file; carries both readings per constraint 14 | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` via `gen-director-deck.py` (Python 3.14 interpreter) |
@@ -215,6 +216,8 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | COMPILE-1 landed → COMPILE-2 and REV-BIZ-B spawned (7 live). Usage check: 14.95M tokens left, under the line. Open method question for the owner recorded, not decided: reading R1 (plan.md L146, pre/post with control = experimental) vs R2 (proof-scorecard C2, observational); every count carries both | Both readings stand per conflicting-figures rule |
 | 2026-09-23 | REV-BIZ-B accepted: shared-instruction Addition 1 and README amendments applied by the main thread before any Pass 15 run exists (identical text for all runs, so the bake-off design holds); owner-only questions moved to a new STATE §Open decisions; glossary widening and sub-market side-by-side table added to COMPILE-2's brief | User asked how the bake-off output is needed; method text is the orchestrator's to amend before runs, verdict-type questions are the owner's |
 | 2026-09-23 | Paused on user instruction; REPULL-1, P16-c2, P16-c3, P16-c4 stopped. REPULL-1's 25 primaries and 24 images were complete self-contained pulls and are committed; the other three had written nothing. All four re-queued as fresh spawns (REPULL-1b resumes from disk). Usage at pause: 14.99M tokens left | User: "pause agent and write report now. we run later" |
+| 2026-09-23 | Resumed on user instruction; REPULL-1b, P16-c2, P16-c3, P16-c4 spawned from the original briefs with WebSearch removed (harness budget exhausted) and search-engine walls stated; `pw` to P16-c2, `ext` to REPULL-1b; Arctic Shift shared by c3 and c4 at ≤1 call per 90 s each. Usage at resume: 14.9M tokens left | User: "continue previous orchestration agent tasks" |
+| 2026-09-23 | Live-agent cap 8 (was 7 the same day); usage guard unchanged (>80% used → 3); one `ext`, one `pw`; shell-append rule unchanged. `plan.md` cap revision 3 records it | User: "I approve new concurrency cap to 8 subagents max. update state and orchestration" |
 
 ## Open decisions — owner
 
@@ -262,6 +265,3 @@ Recorded 2026-09-23 per `biz-review-2-bakeoff-2026-09-23.md` §4. The research c
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 26 of 32 scored after P9-r register (H17 killed, H18–H19 confirmed, H20–H22 killed, H23–H25 confirmed, HE1 confirmed; prior tallies stand beside); 6 `not produced` (HE2, HE3, HP1–HP4, Pass 10 skipped) |
 | Pass 10 | Three pre-registered predictions checked against the panel | skipped by user 2026-09-23 — 0 of 3; day-0 gap recorded, never back-filled |
 
-## P8-r landing, 2026-09-23
-
-## P14-papers landing, 2026-09-23
