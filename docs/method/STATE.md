@@ -14,6 +14,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 |---|---|---|---|---|
 | P14-papers | Opus, `pw` | Research-paper scan: capabilities that steer LLM recommendation or monetise answers; builder-constraint; descriptive only | `docs/raw/d-paper-*-2026-09-23.md`; `docs/findings/frontier-scan.md` | 2026-09-23 |
 | P4-r | Opus, `pw` + fetch | Success-story re-hunt: ~107 unchecked brand pages, 25 unopened titles, EDGAR full-text via curl; metric-moved experimental cases only; Reddit/G2 deferred to `ext` slot | `docs/raw/e-case-*-2026-09-23.md`; `findings/proof-scorecard.md` append | 2026-09-23 |
+| R-BLOCKED-2 | Opus, `ext` | Reddit via Arctic Shift archive API (curl, default): advertiser-reported AI-ads results + S5 counts; Indeed S1 via `ext` (logged-in, US); TED S10 via `ext`; blocked-channels re-probe 2 | `docs/raw/*-repull2-2026-09-23.md`; `blocked-channels.md`, `ai-ads-evidence.md`, `demand-map.md`, `high-cpa-regulated.md`, `hypotheses.md` appends | 2026-09-23 |
 
 ## Queue
 
@@ -21,7 +22,6 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 
 | id | pass | model | task | deliverable |
 |---|---|---|---|---|
-| R-BLOCKED-2 | re-pull | Opus, `ext` | Reddit via Arctic Shift archive API (curl; reddit.com blocked by extension policy on modern and old URLs, login irrelevant): advertiser-reported ChatGPT-ads threads + S5; Indeed S1 via `ext` (US, logged-in, opens); TED S10 via `ext` (opens); update `blocked-channels.md` rows | `docs/raw/*-repull2-2026-09-23.md`; `docs/method/blocked-channels.md` append |
 | P9-r | 9 re-run | Opus | Tier-3 re-evidence of sub-tier claims using re-pulled filings and brand pages; recount both ways | `findings/*.md` appends; `findings/unknowns.md` append |
 | BRIEF-4 | reporting | Opus | Rewrite executive and director briefs with an evidence-quality section; regenerate deck | `findings/executive-brief-<date>.md`, `findings/director-brief-<date>.md`, `.pptx` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
