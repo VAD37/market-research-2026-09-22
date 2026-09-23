@@ -299,3 +299,66 @@ Caveat: ~ values are axis readings of a redacted chart, not published figures; t
 | Rest-of-world 1,055 (12.7%) and the 7,378 headline are absent from all three images; they rest on the relay row above (`b-ppcland-adthena-7378-advertisers`) | — | — | 5 | same |
 
 Caveat: dashboard screenshots of a vendor index promoting the vendor's paid product; "Visibility %" denominator (monitored prompts) and panel unpublished; every figure in the images matches the PPC Land relay where both carry it, with two-decimal vs one-decimal rounding on Booking.com (8.72% / 8.7%, 13.41% / 13.4%).
+
+## ChatGPT Ads buying mechanics, GAP-B — added 2026-09-24
+Orphan-audit lane B. Raw prefix `raw/`, suffix `-2026-09-23.md`. OpenAI help pages undated, pulled 2026-09-23; label company-stated, tier 3 unless shown.
+
+| Fact | Figure | Raw |
+|---|---|---|
+| Stage | beta; "focused pilot from February through April" | `b-openai-help-ads-faq` |
+| Benchmarks | "does not yet have performance benchmarks across advertisers" | same |
+| Billing | postpay; card charged at assigned threshold, e.g. "$25" | `b-openai-help-billing-payment` |
+| Conversion objective | oCPC or oCPM; "Ads are not billed per conversion" | same |
+| Daily budget | 7-day average; max 2× per day, 7× per week | `b-openai-help-daily-budgets` |
+| Total-budget pacing | to end date, max 365 days; default 60 days | `b-openai-help-budget-pacing` |
+| Default bid | "Maximize results"; no CPA, CPC or ROAS guarantee | `b-openai-help-maximize-results` |
+| Who may open accounts | businesses only; agencies cannot create client accounts, invited after | `b-openai-help-account-setup` |
+| Account caps | 10 ad accounts per login; verification via Persona, "rolling queue" | same |
+| Object caps | 5,000 campaigns, 5,000 ad groups, 5,000 ads per account | `b-openai-help-launch-campaigns` |
+| Ad unit spec | title ≤50 chars, copy ≤100; square image ≤1200×1200 | same |
+| Targeting inputs | objective, country, ad-group "context hints"; no keywords named | same; `b-openai-help-quickstart` |
+| Reporting latency | clicks, CTR ~15 min; spend delayed 7–8 hours | `b-openai-help-quickstart` |
+| Product feeds | "among the strongest-performing ads", no figure | `b-openai-help-product-feed-campaigns` |
+| Feed vs organic | feed products "will not appear in organic ChatGPT conversations" | same |
+
+## ChatGPT Ads and Gemini timeline, GAP-B — added 2026-09-24
+| Date | Event | Label, tier | Raw |
+|---|---|---|---|
+| 2025-12-08 | Adweek: Google told ≥2 clients Gemini ads target 2026 | analyst-derived, 5 | `b-ppcland-gemini-ads-denial`, `b-mediaincanada-gemini-ads-denial` |
+| 2025-12-08 | Google VP: "no ads in the Gemini app… no current plans" | company-stated, 5 | same |
+| 2026-03-02 | Criteo first ad-tech partner in US pilot | company-stated, 3 | `b-criteo-openai-pilot-march` |
+| 2026-03-27 | pilot extended past April; IO commitments requested; Canada, NZ, Australia next | analyst-derived, 5 | `b-emarketer-openai-ads-100m` |
+| 2026-04-21; 04-23 | OAI-AdsBot documented; ads shown to logged-out users | analyst-derived, 5 | `b-ppcland-criteo-1000-brands` |
+| 2026-04-17/18 | Criteo buyers report CPM "$35-$25" | analyst-derived, 5 | same |
+| 2026-06-06 | UK live, first European market | analyst-derived, 5 | `b-trendingtopics-chatgpt-ads-eu-privacy` |
+| 2026-08-05 | email: feed carousel test; oCPC beta for feeds; Brazil, Mexico "coming week" | analyst-derived, 5 | `b-seroundtable-chatgpt-ads-updates` |
+| 2026-08-06 | carousel: one retailer per unit; platform picks single vs carousel | analyst-derived, 5 | `b-digiday-openai-carousels` |
+| 2026-08-11 | OpenAI update: live in Mexico, Brazil, Japan, South Korea | analyst-derived, 5 | `b-trendingtopics-chatgpt-ads-eu-privacy` |
+| 2026-08-24 | 31 EEA+CH countries; Plus, Pro, Enterprise, Business, Education ad-free | analyst-derived, 5 | `b-euperspectives-chatgpt-ads-eu` |
+| end 2026-08 | WPP Media NL tests; NL "approximately 4 million weekly active users" | company-stated, 3 | `b-wppmedia-netherlands-chatgpt-ads` |
+| 2026-08-31 | self-serve rollout India, Europe, Middle East, North Africa | company-stated, 5 | `b-cnbc-openai-ads-1bn` |
+
+UK row answers the `unknown` UK cell in "EU depth, P16-c3" at tier 5; `b-euperspectives-chatgpt-ads-eu` also lists the UK among eight pre-EU markets.
+
+## EU and UK rules on ChatGPT Ads, GAP-B — added 2026-09-24
+| Fact | Figure | Date | Label, tier | Raw |
+|---|---|---|---|---|
+| EEA launch targeting | topic, approximate location, device, time, language; no past chats | 2026-08-17 | analyst-derived, 5 | `b-trendingtopics-chatgpt-ads-eu-privacy` |
+| Legal basis | contextual: legitimate interest; personalised: opt-in consent | same | same | same |
+| Exclusions | health, mental health, politics; temporary chats, Atlas, minors | same | same | same |
+| Ad-free free tier | offered with lower limits; EDPB 08/2024 "consent or pay" open | same | same | same |
+| Supervisors | OpenAI Ireland controller, Irish DPC; Coimisiún na Meán is DSC | undated page | filed, 2; 5 | `b-eu-cnam-dsa-2026-09-22.md`; same |
+| UK ASA/CAP | existing Codes apply to AI ads; "closely monitoring"; no assistant rule | 2025-02-07 | company-stated, 3 | `b-asa-cap-ai-monitoring` |
+
+## Vendor and company performance claims, GAP-B — added 2026-09-24
+| Claim | Figure | Window, n | Label, tier | Raw |
+|---|---|---|---|---|
+| Criteo, LLM-referred conversion vs other referral | "approximately one and half times" | Feb 2026, 500 US retailers | vendor-reported, 3 | `b-criteo-openai-pilot-march` |
+| Criteo, AI-referred conversion vs traditional search | "close to two times"; CTR ~3× | 2026-05-05; three categories, n unstated | vendor-reported, 5 | `b-ppcland-criteo-1000-brands` |
+| Criteo, CTR vs comparable formats; new customers | "two to three times"; ">80%" | June 2026; n unstated | vendor-reported, 3 | `b-criteo-openai-update-june` |
+| OpenAI, ad quality | "Fewer than 7%" rated "low relevance"; "no impact" on trust | to 2026-03-30; n unstated | company-stated, 5 | `b-campaign-openai-ads-100m` |
+| Chatbot CTR vs Google search benchmark | "as low as 0.91%" vs "6.4%" | Adweek relay, 2026-03-27 | analyst-derived, 5 | `b-emarketer-openai-ads-100m` |
+| OpenAI research, relayed by WPP | "20% of conversations… direct commercial intent" | undated | company-stated relay, 3 | `b-wppmedia-netherlands-chatgpt-ads` |
+| SE Ranking ad tracker | one sponsored card per answer; bundled, "no separate contract" | 2026-08-27 | vendor-reported, 5 | `b-seranking-chatgpt-ads-tracker` |
+
+**Caveats, GAP-B.** Help pages are undated and describe a beta; limits may change. Criteo figures are the vendor's own clients, no control; May and June n `unknown — checked criteo.com, ppc.land 2026-09-24`. Criteo 1.5× compares referral channels, May 2× compares with search: different baselines, not a trend. EEA targeting rests on a trade relay of an OpenAI email, not the policy text. WPP's 20% relays OpenAI research not pulled. Gemini denial is 2025-12; Alphabet Q2 2026 "no ads" row in Pass 12 stands beside it. Sensor Tower 2026-09-01 and Adthena June Data Pulse primaries still unlocated (`b-sensortower-chatgpt-ads-rising-density-repull2`, `b-adthena-data-pulse-repull2`). File further over budget; overrun is this append.

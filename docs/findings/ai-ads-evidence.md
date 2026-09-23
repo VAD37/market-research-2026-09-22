@@ -150,3 +150,18 @@ sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above
 | Copilot on-surface label wording: "Microsoft Advertising" card header + "Sponsored ···" line — fills the "On-surface label wording … Copilot" gap row above (pages name formats, not label text) from the vendor's help-page mock-ups, not a live capture | "Example feed-based ad in Copilot", "Example Multimedia ad in Copilot", "Example Search ad in Copilot" | page ms.date 2026-06-18, updated 2026-09-02 | 3 | `raw/b-microsoft-ads-in-copilot-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: mock-ups; advertiser names are Microsoft placeholders (Contoso, Fabrikam). No n, no engagement figure on the images.
+
+## Orphan compile, GAP-B — added 2026-09-24
+Compiled rows: `markets/paid-placement.md` §"ChatGPT Ads buying mechanics", §"ChatGPT Ads and Gemini timeline", §"Vendor and company performance claims", all GAP-B 2026-09-24 (L302–364). Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+| # | Evidence | Moves | Label, tier | Raw |
+|---|---|---|---|---|
+| E19 | OpenAI: "does not yet have performance benchmarks"; feeds "among the strongest-performing", no figure | C5 unchanged; engine concedes no benchmark | company-stated, 3 | `b-openai-help-ads-faq`, `b-openai-help-product-feed-campaigns` |
+| E20 | Criteo conversion ~1.5× referral (Feb, n=500 retailers); ~2× search (May); CTR 2–3×; ">80%" new customers | fills figures behind "Criteo ×4" in Survivorship | vendor-reported, 3 / 5 | `b-criteo-openai-pilot-march`, `b-ppcland-criteo-1000-brands`, `b-criteo-openai-update-june` |
+| E21 | chatbot CTR "as low as 0.91%" vs Google "6.4%"; OpenAI "Fewer than 7%" low relevance | E8 CTR range gains a search baseline | analyst-derived 5; company-stated 5 | `b-emarketer-openai-ads-100m`, `b-campaign-openai-ads-100m` |
+| E22 | format: feed carousel tested 2026-08-05, one retailer per unit; oCPC for feeds beta | E5 carousel gets launch date | analyst-derived, 5 | `b-seroundtable-chatgpt-ads-updates`, `b-digiday-openai-carousels` |
+| E23 | Gemini app: 2026 ad briefings reported; Google VP denial 2025-12-08 | C1 unchanged; Gemini absence dated earlier | company-stated / analyst-derived, 5 | `b-ppcland-gemini-ads-denial` |
+
+Not reconciled: Criteo CTR 2–3× vs E8 CTR 0.50–0.91% — no shared baseline or format stated. H20 stays **killed**: E20 has no holdout, geo-split or control; Criteo measures its own clients.
+
+**Caveats.** E20's three readings use different comparators (referral channels, search, "comparable formats"); read side by side, not as a trend. E21's 6.4% is Adweek's relay of an advertiser benchmark, method not stated. Help-page facts describe a beta. This section carries evidence, not a verdict.
