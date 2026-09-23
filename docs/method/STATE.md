@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| none | — | all passes but Pass 10 landed; Pass 10 held by user | — | — |
+| BRIEF-3 | Opus | Director reading brief, 10–20 min, metrics-first, plus pptx via generator | `docs/findings/director-brief-2026-09-23.md`; `docs/method/gen-director-deck.py` → `docs/findings/director-brief-2026-09-23.pptx` | 2026-09-23 |
 
 ## Queue
 
@@ -163,6 +163,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Session works on master checkout directly, no worktree | Root CLAUDE.md: master only, no worktrees |
 | 2026-09-23 | REVIEW-2 spawned on user request: plan improvements plus a director-level brief; brief is evidence only, verdict stays the user's | User: report to a business owner what was done and what could improve the plan; MegaPlan.md non-goals forbid a verdict, so the brief names owner decisions as questions |
 | 2026-09-23 | P9-review respawned after a session /clear; deliverable renamed `review-1-2026-09-23.md` (was `-09-22`); budget 160 lines | Prior spawn wrote no file; file date must be the write date; amendments quote lines verbatim, which the 100-line finding budget cannot hold |
+| 2026-09-23 | BRIEF-3 spawned on user request: a 10–20 minute director reading brief, metrics and key details, plus a PowerPoint. Budget 300 lines (finding budget 100 lifted for this file only); deck is a generated file from `docs/method/gen-director-deck.py`, never hand-edited; `python-pptx` may be installed for it | User: "brief reading 10-20 minutes max, full of key metrics and highlight key details; convert reading into powerpoint". Compiled files only, no verdict, no execution language |
 | 2026-09-22 | Session works in worktree `worktree-orchestrator`, master fast-forwarded after every commit | Background-session harness rejects edits in the shared checkout; root `CLAUDE.md` wants master only. Fast-forward keeps master current |
 
 ## Unknowns
