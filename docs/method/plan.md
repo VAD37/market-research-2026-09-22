@@ -436,7 +436,8 @@ Per `STATE.md` §Decisions taken lines 179–180, reasons: User: "Allow chrome e
 - Browser allowed for every agent, including channels blocked on 2026-09-22: extension `ext`, Playwright `pw`.
 - One `ext` holder at a time; the extension is one shared browser. One `pw` holder at a time, per cap revision 1 above.
 - WebSearch budget: 5000+ calls.
-- A channel needing registration or paid credentials gets a row in `docs/method/blocked-channels.md`, owned by R-BLOCKED. It is never worked around by guessing; the cell or claim it would feed reads `unknown — blocked, see blocked-channels.md`.
+- A channel needing registration or paid credentials gets a row in `docs/method/blocked-channels.md`, owned by R-BLOCKED.
+- Reddit, 2026-09-23 default: pulled through an open archive API (Arctic Shift, `arctic-shift.photon-reddit.com/api/posts/search` and `/api/comments/search`, current to the pull date; any other open-source Reddit archive is equivalent), never through the browser or extension. The extension refuses reddit.com by its own policy on both `www.` and `old.` URLs, login or not; reddit `.json` gives 403; pullpush.io gives 429. Raw header: `channel: Arctic Shift archive of reddit.com`, `method: curl`, `archive copy, not live`, reddit permalink kept. User decision 2026-09-23. It is never worked around by guessing; the cell or claim it would feed reads `unknown — blocked, see blocked-channels.md`.
 
 `blocked-channels.md` columns:
 
