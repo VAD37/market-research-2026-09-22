@@ -86,3 +86,72 @@ The literature over-represents (i) organic GEO/citation steering (63 of 252 scre
 - H23/H24/H25 confirmed says nothing about whether any party can win a market; that verdict is the user's (`hypotheses.md` H25 caveat, `MegaPlan.md` line 17). This file produces evidence, not a go/no-go.
 - H23's confirm and Google's generic anti-manipulation clause stand side by side, not reconciled: the clause names the manipulation class, not the specific peer-reviewed technique.
 - Kill-on-absence rows (H23, H24) are only as strong as the P1 documents checked (`d-technique-census-c7` plus the Google spam, OpenAI MCP, Anthropic Agent-Skills pages read 2026-09-23); an absence with no channel list is not a kill.
+
+## Manipulation evidence ledger — added 2026-09-24
+
+Lane D orphan sweep (GAP-D): 48 raw files, one row each. Figures are paper-reported (analyst-derived) unless the tier cell says company-stated or vendor. Publication dates; every raw pulled 2026-09-22/23. Figures already quoted above are not restated; rows carry what is new.
+
+| Family | Paper / source | Effect figure | Setup | Date | Tier | Raw |
+|---|---|---|---|---|---|---|
+| Retrieved-content injection | Greshake et al., indirect PI | none stated; attacks "demonstrate[d]" on Bing GPT-4 Chat | real + synthetic GPT-4 apps | 2023-02-23 | 5 | `raw/d-injection-greshake-foundational-ipi-2026-09-22.md` |
+| Retrieved-content injection | Nestaas, Debenedetti, Tramèr — Preference Manipulation | none stated; promotes attacker, discredits competitors | Bing, Perplexity; GPT-4, Claude plugin APIs | 2024-06-26 | 5 | `raw/d-injection-nestaas-adversarial-seo-2026-09-22.md` |
+| Retrieved-content injection | Pfrommer et al. (EMNLP 2024) | none stated; "reliably promotes low-ranked products" | product-site dataset; transfers to perplexity.ai | 2024-06-05 | 3 | `raw/d-injection-pfrommer-ranking-manipulation-2026-09-22.md` |
+| Retrieved-content injection | Yin et al. (SIGIR 2026), LLM rankers | none in abstract; encoder-decoder rankers "strong inherent resilience" | pairwise/listwise/setwise rankers; ASR, nDCG@10 | 2026-02-18 | 3 | `raw/d-injection-yin-llm-rankers-2026-09-22.md` |
+| Retrieved-content injection | PoisonedRAG (USENIX Sec 2025) | "90% attack success rate", 5 texts per question | own corpus, "millions of texts"; defenses insufficient | 2024-02-12 | 3 | `raw/d-injection-poisonedrag-2026-09-22.md` |
+| Retrieved-content injection | Injection Paradox (second condition) | Opus 54%→8% (−46 pp); Sonnet 26%→8% | beside 54%→0% above; condition differs | 2026-06-08 | 4 | `raw/d-paper-injection-paradox-brand-suppression-2026-09-23.md` |
+| Retrieved-content injection | Lazy Grounding (EMNLP 2026) | accuracy −5.9 pts mean, −17.3 max | 12 model-benchmark pairs; GPT-5 Mini, Tongyi | 2026-08-31 | 3 | `raw/d-paper-lazy-grounding-search-agents-2026-09-23.md` |
+| Retrieved-content injection | Choi et al., agent data injection | none stated; bypasses IPI defenses | Claude in Chrome, Antigravity, Claude Code, Codex, Gemini CLI | 2026-07-06 | 5 | `raw/d-injection-choi-agent-data-injection-2026-09-22.md` |
+| Retrieved-content injection | Chen et al., IPI-proxy (tooling) | none — 820-string red-team library | deployer's own whitelisted domains | 2026-05-12 | 4 | `raw/d-injection-chen-ipi-proxy-2026-09-22.md` |
+| Retrieved-content injection | Brave disclosure, Perplexity Comet | none — exfiltration demo; fix incomplete 2025-08-20 | shipping consumer browser; Brave is rival | 2025-08-20 | 4 · company-stated | `raw/d-injection-brave-comet-disclosure-2026-09-22.md` |
+| Content GEO / source bias | MAGEO (ACL 2026 Findings) | skill-bank removal "~13% drop" | GPT-5.2, Gemini-3 Pro, Qwen-3 | 2026-04-21 | 3 | `raw/d-paper-mageo-multi-agent-geo-2026-09-23.md` |
+| Content GEO / source bias | MGEO (KnowFM @ ACL 2026) | none numeric; exceeds unimodal attacks | Qwen2.5-VL-7B ranker | 2026-01-18 | 3 | `raw/d-paper-mgeo-multimodal-rank-2026-09-23.md` |
+| Content GEO / source bias | Perplexity Trap (ICLR 2025) | cause: low perplexity; debias costs <2 pp | BERT/Contriever retrievers; LLM corpora | 2025-03-11 | 3 | `raw/d-paper-perplexity-trap-source-bias-2026-09-23.md` |
+| Content GEO / source bias | Training-induced bias (ECIR 2026) — contra | perplexity agreement near 50%; Contriever SciFact 42.2% | cause: fine-tuning data, not perplexity | 2026-02-11 | 3 | `raw/d-paper-training-induced-source-bias-2026-09-23.md` |
+| Content GEO / source bias | Brand retrieval eval | L.L.Bean BRP@5 0%→88.5% with cues | six LLMs incl. GPT-5.5, Claude Opus 4.7 | 2026-09-14 | 5 | `raw/d-paper-brand-retrieval-ranking-eval-2026-09-23.md` |
+| Structured data | Volpini et al. (WordLift) | entity pages +29.6% std RAG, +29.8% agentic | 349 queries, 4 domains; Gemini 2.5 Flash | 2026-03-11 | 5 · vendor | `raw/d-structured-arxiv-volpini-rag-2026-09-22.md` |
+| Structured data | Volpini — JSON-LD alone | accuracy 3.62→3.89, "modest" (C1→C2) | same; e-commerce domain at ceiling | 2026-03-11 | 5 · vendor | same file |
+| Structured data | llms.txt spec v2 (Answer.AI) | claim only: "thousands of sites"; Lighthouse audits for it | no n, no method | 2026-08-10 | 3 · company-stated | `raw/d-structured-llmstxt-org-spec-2026-09-22.md` |
+| Structured data | Redocly CEO blog | claim only: no tested model "spontaneously" read llms.txt | no n, no models named; category noise | 2025-08-20 | 6 · company-stated | `raw/d-structured-redocly-overhyped-2026-09-22.md` |
+| Structured data | Schema.org About | no effect; founders Google, Microsoft, Yahoo, Yandex | no AI-engine consumption statement | undated | 3 · company-stated | `raw/d-structured-schemaorg-about-2026-09-22.md` |
+| Agent-directed steering | ABxLab (ICLR 2026) | attribute sensitivity 13–31% vs humans ~7% | 17 models, web shopping env | 2025-09-30 | 3 | `raw/d-paper-abxlab-agent-consumer-choice-2026-09-23.md` |
+| Agent-directed steering | ACES | share +14.89 pp GPT-5.1; +0.32 Gemini 3 Pro | seller description tweak; 6 buying models | 2025-08-04 | 4 · MyCustomAI | `raw/d-paper-aces-ai-agent-buying-2026-09-23.md` |
+| Agent-directed steering | ACES — tags | "Sponsored" 10%→7.9–8.9%; "Overall Pick" →19.9–42.6% | Claude Sonnet 4, GPT-4.1, Gemini 2.5 Flash | 2025-08-04 | 4 · MyCustomAI | same file |
+| Agent-directed steering | Magentic Marketplace | Qwen3-4B third-listed 57.1–66.7%; 10–30x speed advantage | two-sided simulated market | 2025-10-27 | 4 · Microsoft | `raw/d-paper-magentic-marketplace-2026-09-23.md` |
+| Agent-directed steering | MPMA (AAAI) | "Best Description" 100% ASR "almost all settings" | GPT-4o, Claude 3.7, Gemini 2.5 Flash, Grok-3 | 2025-05-16 | 3 | `raw/d-paper-mpma-mcp-preference-2026-09-23.md` |
+| Agent-directed steering | SkillShift | shopping PSR 37.33%→81.33%; scanners fail to detect | GPT-5.5, Gemini 3-Flash, Claude Haiku 4.5 | 2026-09-02 | 5 | `raw/d-paper-skillshift-agent-skills-2026-09-23.md` |
+| Agent-directed steering | Decepticon | >70% dark-pattern steering vs human 31% | 700 tasks; larger models more susceptible | 2025-12-28 | 4 | `raw/d-paper-decepticon-dark-patterns-2026-09-23.md` |
+| Agent-directed steering | AP2 red team (IMNS 2026) | ranking manipulation 100%, 10 of 10 trials | AP2 agent on Gemini-2.5-Flash | 2026-01-30 | 5 | `raw/d-paper-ap2-red-team-prompt-inj-2026-09-23.md` |
+| Agent-directed steering | Protocol attacks (AIP-Bench) | 33 vulns, 100% ASR; semantic: Claude 0%, GPT-4o-mini 99–100% | 3 platforms, single author | 2026-07-23 | 5 | `raw/d-paper-protocol-attacks-agentic-commerce-2026-09-23.md` |
+| In-answer ads: behaviour | Ads conflicts (COLM 2026) | sponsored rec: Claude 4.5 Opus 28%; high-SES 64.1% vs low 48.6% | 23 LLMs | 2026-04-09 | 3 | `raw/d-paper-ads-conflicts-of-interest-2026-09-23.md` |
+| In-answer ads: behaviour | Ads that Talk Back (IMWUT 2025) | ads cut performance ≤3%; 35.2% believed they detect ads | n=179; GPT-4o family | 2024-09-23 | 3 | `raw/d-paper-ads-that-talk-back-2026-09-23.md` |
+| In-answer ads: behaviour | Commercial persuasion | label + briefing: 61.2%→55.5% [50.6, 60.4] | N=2,012 preregistered; 5 frontier models | 2026-04-05 | 4 | `raw/d-paper-commercial-persuasion-experiment-2026-09-23.md` |
+| In-answer ads: behaviour | Detecting native ads (WWW 2024) | sentence transformers P/R >0.9; LLMs "struggle" | GPT-4, Mistral-7B | 2024-02-07 | 3 | `raw/d-paper-detecting-native-ads-2026-09-23.md` |
+| Ad auction mechanism | Genre-VCG ad insertion | survey: 4.2% acceptable, 64.6% unacceptable | 36 raters; judge ρ≈0.66 | 2026-01-27 | 4 | `raw/d-paper-genre-ad-insertion-vcg-2026-09-23.md` |
+| Ad auction mechanism | LLM-OSDA | iterative refinement +14–19% revenue | simulated corpus; Qwen3-4B | 2026-07-31 | 4 | `raw/d-paper-llm-osda-dynamic-auction-2026-09-23.md` |
+| Ad auction mechanism | MOSAIC truthful aggregation | none numeric; "high advertiser value" | Llama-2-7b-chat | 2024-05-09 | 5 | `raw/d-paper-mosaic-truthful-llm-ad-auction-2026-09-23.md` |
+| Ad auction mechanism | Neuron Auctions | none numeric; brand neurons ~orthogonal | Llama-3-8B, Qwen3-4B | 2026-05-08 | 5 | `raw/d-paper-neuron-auctions-2026-09-23.md` |
+| Ad auction mechanism | Segment auction RAG (NeurIPS 2024) | none numeric; log-welfare maximising | gpt-4-turbo | 2024-06-12 | 4 | `raw/d-paper-segment-auction-rag-ads-2026-09-23.md` |
+| Ad auction mechanism | Sponsored questions | theory: modular design Price of Anarchy unbounded | no model | 2025-12-03 | 5 | `raw/d-paper-sponsored-questions-auction-2026-09-23.md` |
+| Measurement | Prompt-to-Purchase (Scrunch AI) | recall 7d +2.08 pp; retail 7d +0.52 pp | opt-in clickstream + chats; no transactions | 2026-06-09 | 5 · vendor | `raw/d-paper-prompt-to-purchase-clickstream-2026-09-23.md` |
+| Measurement | AEO natural experiment (Glasp) | raw 5.7x vs untreated 3.5x; placebo p=0.16 | single domain, server logs | 2026-06-03 | 5 · vendor | `raw/d-paper-aeo-natural-experiment-referral-2026-09-23.md` |
+| Measurement | MaxShapley | Jaccard >0.85 at <6% token cost | HotPotQA, MuSiQUE, MS MARCO | 2025-12-05 | 3 or 4 (file conflicts) | `raw/d-paper-maxshapley-fair-attribution-2026-09-23.md` |
+| Measurement | AgentFloor | gemma4:26b ~15x cheaper per passed task than GPT-5 | 16,542 runs, 30 tasks | 2026-05-01 | 4 | `raw/d-paper-agentfloor-open-weight-ladder-2026-09-23.md` |
+| Defense | CaMeL (Google) | 77% tasks solved securely vs 84% undefended | AgentDojo | 2025-03-24 | 4 · Google | `raw/d-paper-camel-design-defense-2026-09-23.md` |
+| Defense | Narisetty et al., Progent reproduction | ASR 25.8%→4.2%; adaptive attack 2.6% | AgentDojo, Qwen2.5-7B, 3 runs | 2026-06-25 | 5 | `raw/d-injection-narisetty-oob-defenses-2026-09-22.md` |
+| Defense | Attacker Moves Second | 12 defenses bypassed, ASR >90% "for most" | GPT-5, Gemini-2.5, Grok 4 | 2025-10-10 | 4 | `raw/d-paper-attacker-moves-second-2026-09-23.md` |
+| Defense | Defending Gemini (DeepMind) | none numeric; continuous adaptive evaluation | Gemini 2.0, 2.5 | 2025-05-20 | 5 · Google | `raw/d-paper-defending-gemini-ipi-2026-09-23.md` |
+| Engine statement | Google, "Mitigating prompt injection" | none; five defense layers, no rates | Gemini, Gemini in Workspace | 2025-06-13 | 3 · company-stated | `raw/d-injection-google-mitigating-pi-2026-09-22.md` |
+| Engine statement | Microsoft Copilot Bounty | PI out of scope absent impact on others; $250–$30,000 | Copilot surfaces | 2026-04-07 | 3 · company-stated | `raw/d-injection-microsoft-copilot-bounty-2026-09-22.md` |
+
+Superseded, not rowed: `raw/d-structured-llmstxt-directory-count-2026-09-22.md` (3,829 websites, 2026-09-22) — 3,830 on 2026-09-23 already in `findings/market-potential.md` from `raw/e-wayback-llms-txt-directories-2026-09-23.md`.
+
+Count, 48 files: 29 carry a measured effect figure (26 papers, PoisonedRAG, Narisetty, Volpini); 15 state an effect in words only (7 injection sources, 6 papers, llms.txt spec, Redocly); 4 claim no effect (Google, Microsoft, Schema.org, directory count). Greshake, Nestaas, Pfrommer, Yin effect rates: `unknown — checked raw abstract pulls 2026-09-24`; full text never pulled.
+
+### Caveats — ledger
+
+- Lab, not production: only Nestaas (Bing, Perplexity), Pfrommer (perplexity.ai transfer), Choi (named agents) and Brave (Comet) touch shipping surfaces; none of those raws gives a rate.
+- Model versions: rows span GPT-4 (2023) to GPT-5.5 / Claude Opus 4.7 (2026); an effect bounds only the model named.
+- Vendor self-report: Volpini (WordLift; own blog a test domain), Prompt-to-Purchase (Scrunch AI), AEO experiment (Glasp), ACES (MyCustomAI), CaMeL and Defending Gemini (Google), Magentic (Microsoft), Brave (rival browser). Redocly is tier 6: noise, not a number; its negative result runs against its own shipped feature.
+- Conflicts side by side: source-bias cause (Perplexity Trap: perplexity; ECIR 2026: fine-tuning data); Injection Paradox Opus 54%→0% vs 54%→8% (two conditions, one paper); Protocol-attacks Claude impact 0% vs Injection Paradox Claude suppression (different tasks); MaxShapley raw lists tier 3 and "kept conservative at 4".
+- ASR is each author's metric on each author's harness; definitions differ (AP2: injected product ranked first, n=10).
+- No payload, prompt text or step list is reproduced (Lane D rule).
