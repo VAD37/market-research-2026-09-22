@@ -14,8 +14,9 @@ Cap 8 from 2026-09-23 (user, second revision; was 7 earlier the same day); falls
 |---|---|---|---|---|
 | REPULL-1b | Opus, `ext` | Step 1 compiled cites for the 25 prior primaries; then queue P1 remainder, P2, P3 `bypass_helps` yes; images; blocked-channels re-probe 3 | `docs/raw/*-primary-2026-09-23.md`; compiled appends; `blocked-channels.md` | 2026-09-23 |
 | P16-c4 | Opus, fetch, Arctic Shift | Local / multi-location vertical (9 cells); reserve trigger; engine × segment; adoption series (Wayback CDX); switching cost | `customers/local-multi-location.md`; `customers/*.md`, `market-potential.md`, `demand-map.md` appends; raw | 2026-09-23 |
+| P16-c3b | Opus, fetch, Arctic Shift | EU paid and agentic demand cells, 30 (UK/FR/ES/IT/NL × 3 verticals × paid, agentic) left unchecked by P16-c3 | `customers/*.md`, `demand-map.md` appends; raw | 2026-09-23 |
 
-Slots free: 6 of 8. Next spawns blocked by dependencies, not cap: P16-c4b needs `ext` (REPULL-1b); IMG-1 needs INDEX.csv stable (REPULL-1b, P16-c2/c3/c4 all append rows); BRIEF-4 needs P16 and IMG-1; P15 last.
+Slots free: 5 of 8. Next spawns blocked by dependencies, not cap: P16-c4b needs `ext` (REPULL-1b); IMG-1 needs INDEX.csv stable (REPULL-1b, P16-c2/c3/c4 all append rows); BRIEF-4 needs P16 and IMG-1; P15 last.
 
 ## Queue
 
@@ -218,6 +219,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-23 | Paused on user instruction; REPULL-1, P16-c2, P16-c3, P16-c4 stopped. REPULL-1's 25 primaries and 24 images were complete self-contained pulls and are committed; the other three had written nothing. All four re-queued as fresh spawns (REPULL-1b resumes from disk). Usage at pause: 14.99M tokens left | User: "pause agent and write report now. we run later" |
 | 2026-09-23 | Resumed on user instruction; REPULL-1b, P16-c2, P16-c3, P16-c4 spawned from the original briefs with WebSearch removed (harness budget exhausted) and search-engine walls stated; `pw` to P16-c2, `ext` to REPULL-1b; Arctic Shift shared by c3 and c4 at ≤1 call per 90 s each. Usage at resume: 14.9M tokens left | User: "continue previous orchestration agent tasks" |
 | 2026-09-23 | Live-agent cap 8 (was 7 the same day); usage guard unchanged (>80% used → 3); one `ext`, one `pw`; shell-append rule unchanged. `plan.md` cap revision 3 records it | User: "I approve new concurrency cap to 8 subagents max. update state and orchestration" |
+| 2026-09-23 | P16-c3b spawned to close the 30 EU paid/agentic cells P16-c3 left blank (its brief said demand cells per country; it read organic terms only) | Gap found at verification; fetch-only, no slot needed |
 
 ## Open decisions — owner
 
