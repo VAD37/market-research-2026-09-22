@@ -29,4 +29,4 @@ The research tests whether the world holds evidence for this, per segment and pe
 
 ## Agent rules carried forward
 
-`projects/ORCHESTRATION.md` still governs spawning: cap of 3 concurrent agents, model policy, every agent report written into the repo immediately, agents never run git. Its execution waves are dormant.
+`projects/ORCHESTRATION.md` still governs spawning: cap and model per `projects/ORCHESTRATION.md` §In force, every agent report written into the repo immediately, agents never run git. Its execution waves are dormant.

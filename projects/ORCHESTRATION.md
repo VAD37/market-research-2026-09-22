@@ -4,7 +4,20 @@ Main-thread record of who was spawned, on what model, for what — and the rules
 
 Rules carried forward from the predecessor repo, each dated to when the user set it. The run log stayed behind.
 
+## In force — 2026-09-23
+
+Single authority for cap and model. Governs wherever an older cap or model line in this file, `../docs/method/plan.md` or `../MegaPlan.md` differs.
+
+- Live-agent cap 7, machine-wide; main thread not counted, subagents counted. User 2026-09-23: "cap agents is 7 now". Replaces 8.
+- Usage guard: session tokens more than 80% used → cap 3. Main thread checks at every spawn.
+- Browser: one `ext` (Chrome extension) holder and one `pw` (Playwright) holder at a time; others fetch only.
+- Shared compiled files: shell append only (`cat >>`), never read-modify-write while another agent is live.
+- Models: subagents Opus or Sonnet only, no Fable. Sonnet for pulls; Opus for compile, review, method. User 2026-09-23: "this session we run opus/sonnet only"; "no fable agent… convert to opus/sonnet subagent".
+- Run log: `../docs/method/STATE.md` §Landed and §Decisions taken.
+
 ## Model policy — set by the user 2026-09-17
+
+Superseded 2026-09-23 by §In force above (no Fable; Opus/Sonnet only). Kept as history.
 
 | Model | Used for |
 |---|---|
@@ -25,6 +38,8 @@ Rules carried forward from the predecessor repo, each dated to when the user set
 Waves gate on each other per project. A project may run ahead of the others.
 
 ## Concurrency cap — MANDATE, set by the user 2026-09-17
+
+Superseded 2026-09-23 by §In force above (cap 7); the number only, reasoning and scheduler rules stand. Kept as history.
 
 **Never more than 3 agents running at once, machine-wide.** The main thread is the scheduler and does not count toward the 3. Subagents of a subagent count. The cap is a hard ceiling, not a target — 2 is fine, 4 is a violation.
 
@@ -61,9 +76,11 @@ Corollary: **do not give a demo more polish than the reality has.** Layout fixes
 
 ## Runs
 
-Nothing spawned yet. First entry goes below, dated, with model and brief.
+Run log lives in `../docs/method/STATE.md` §Landed and §Decisions taken.
 
 ## Concurrency cap — revised by the user 2026-09-22
+
+Superseded 2026-09-23 by §In force above (cap 7, not 10). Kept as history.
 
 10 live agents machine-wide, main thread not counted, subagents counted. The 2026-09-17 reasoning (one browser, one Docker daemon) still binds the browser: one extension holder and one Playwright holder at a time. Scheduler rules 1–6 stand with 3 read as 10. Agents append to `STATE.md` by shell append of a pre-written block, never by read-modify-write. Wave plan remains dormant.
 

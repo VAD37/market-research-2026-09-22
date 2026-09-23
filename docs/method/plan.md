@@ -490,6 +490,12 @@ Live-agent cap 7, set by the user 2026-09-23, with a usage guard: the main threa
 
 Live-agent cap 8, set by the user 2026-09-23 ("I approve new concurrency cap to 8 subagents max"), replacing 7 from cap revision 2 the same day. Usage guard unchanged: the main thread reads the session token counter at every spawn; more than 80% of the session budget used → cap 3 until the counter resets. Browser rule unchanged: one `ext` holder, one `pw` holder at a time; every other live agent fetches. Shell-append rule unchanged. Dependencies, not the cap, gate spawns: a task whose input files another live agent appends to waits for that agent.
 
+### Orchestration — cap revision 4, 2026-09-23
+
+Live-agent cap 7, replacing 8 from cap revision 3. User 2026-09-23: "cap agents is 7 now. this session we run opus/sonnet only". Subagents Opus or Sonnet only, no Fable; Sonnet for pulls, Opus for compile, review, method. Usage guard, one `ext` / one `pw` holder, shell-append rule unchanged.
+
+Single authority for cap and model from 2026-09-23: `projects/ORCHESTRATION.md` §In force. Superseded by it, not edited: L425 ("hard cap of 3"); L469 (cap read from `STATE.md` "line 169: 3", a stale line reference); the Orchestration model table (per-pass Sonnet/Opus, L427–435); Known failure modes addition 1 row "Cap figures disagree | STATE decision line is the cap in force" (L563); Pass 15 "cap in force per `STATE.md`" (L625).
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.
