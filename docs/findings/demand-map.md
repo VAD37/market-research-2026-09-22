@@ -193,3 +193,40 @@ The B2B SaaS Paid rows sit beside that vertical's `none — checked` Paid reads 
 r/SEO carries most: `GEO` 525 threads, 418 unique authors; `AEO` 259 / 210; `"AI visibility"` 168 / 140. Unique posters are per window only. `GEO` includes geo-targeting noise. Attention class; moves no cell.
 
 **Caveats, this append.** Strict `none` reads on seven high-CPA cells rest on TED (EU public buyers only) plus earlier channels; private demand stays invisible there. Reddit counts are an archive's, held at tier 5, coverage unverified; September is partial. Indeed gave card fields for 2 of 36 queries before its wall; no S1 band assigned. Willingness to pay: `unknown` in all 27 cells — spends above are ad spend or a framework ceiling, not a price paid for a visibility product.
+
+## Primary re-pulls, REPULL-1, 2026-09-23
+
+- Agency ChatGPT-ads service claim (E2M, S6 B2B SaaS paid) · `raw/f-signal-bs-S5-S6-paid-agentic-2026-09-23.md` (3 on existence — search synthesis, `verbatim: partial`) · `raw/f-e2m-white-label-chatgpt-ads-services-primary-2026-09-23.md` (3) · "We build ChatGPT Ads as part of a broader white label PPC service, so it complements, rather than competes with, your clients' existing Google, Meta, and LinkedIn Ads campaigns"; "Sponsored Answers for SaaS/B2B, Shopping Carousels for Retail/DTC"; plans "Up to $5K budget $499/mo · Up to $10K budget $999/mo · Up to $20K budget $1,999/mo · Above $20K Custom"; "one-time setup fee starts at $499 per website" · agrees in substance (synthesis wording is not the page's); primary adds list prices — an asking price, not a price paid
+
+## Local / multi-location cells and engine × segment, P16-c4, 2026-09-23
+
+Task P16-c4. A fourth vertical read on the P8 pattern into `customers/local-multi-location.md`; the 27-cell tally above is not recomputed — the nine new cells are stated separately and do not enter it. Floor unchanged: spend needs a spend-class signal at tier 5 or better for that exact cell.
+
+**Nine local / multi-location cells:**
+
+| # | Vertical | Sub-market | Size | Read | Deciding signal, figure verbatim | Tier | Compiled file |
+|---|---|---|---|---|---|---|---|
+| L1 | Local / multi-location | Organic | SMB | attention | S5 — r/localseo threads matching `"AI visibility"` 73, `AEO` 47, Mar–Sep 2026; S6 — Local Falcon "$24.99 to $199.99 when billed monthly", "Cancel anytime" | 5; 3 | `customers/local-multi-location.md` |
+| L2 | Local / multi-location | Organic | Mid | attention | S7 — The Joint Corp 8-K decks: "Ongoing SEO and AI visibility optimization" (Q1), "SEO and AI visibility optimization driving organic traffic and lead quality" (Q2); ~202 full-time employees, 960+ clinics; no figure | 2 | same |
+| L3 | Local / multi-location | Organic | Enterprise | **spend** | S1 — Walgreens "Senior Manager, Performance Search & AI Marketing", Indeed card matched on `"generative engine optimization"`, "$125,000 - $218,750 a year"; ~312,000 employees | 3 | same |
+| L4 | Local / multi-location | Paid | SMB, Mid, Enterprise | none — checked ×3 | 11 of 12 signals run or n/a; no local buyer named on any paid roster, page or filing | — | same |
+| L5 | Local / multi-location | Agentic | SMB, Mid | none — checked ×2 | as L4 | — | same |
+| L6 | Local / multi-location | Agentic | Enterprise | attention | S7 — IHG 6-K: "our ChatGPT plug-in recommends IHG hotels … onward to IHG's direct booking channels"; "participating in Google's Agentic AI booking pilot … within Google's AI Mode"; no figure | 2 | same |
+
+Tally, 9 cells: spend 1, attention 3, none — checked 5, blank 0. Willingness to pay: `unknown` in all 9. Strict and loose readings agree — every channel that would decide a cell either ran or is `n/a` by construction; r/smallbusiness returned HTTP 422 on five of seven windows and 0 on the two that answered, recorded as checked.
+
+**Reserve-vertical trigger (`method/plan.md` L233: open consumer electronics and travel "only if the anchor set produces no Gold or Silver cases").** Two readings, both from `findings/proof-scorecard.md`, neither merged: under `grade_raw`, B2B SaaS holds one Silver (E4) and high-CPA one negative Silver (E6, E3 contested) — trigger **not met**; under `grade_rule1`, all three verticals sit on the documented-absence arm (0 Silver) — trigger **met**. Gold: 0 either way. Neither vertical is opened here. Evidence already in raw that touches them without a pass: travel — visitBerlin TED notice with a "Konzeptpapier GEO" requirement, EUR 3,647,000 (`raw/f-ted-S10-repull2-2026-09-23.md`, tier 2); Hyatt 10-K naming "ChatGPT, Claude, Gemini, Grok" as "alternative distribution channels" and IHG's ChatGPT plug-in (`raw/f-edgar-fts-local-multilocation-S7-2026-09-23.md`, tier 2); MakeMyTrip 20-F in the "AI search" hit list, not opened; six hotel entries at the head of llmstxt.site (`raw/e-wayback-llms-txt-directories-2026-09-23.md`). Consumer electronics — nothing surfaced in any P16-c4 channel; Samsung appears only as a Yext story link, not opened.
+
+**Engine × vertical, mentions in raw already pulled plus this pass (files-with-mention in brackets), `raw/f-engine-mentions-raw-count-2026-09-23.md`, measured-by-us word count, tier of each mention inherited:**
+
+| Vertical (files) | ChatGPT | Gemini / AI Mode / AI Overviews | Perplexity | Claude | Copilot | Rufus | Grok | Top |
+|---|---|---|---|---|---|---|---|---|
+| Skincare (26) | 91 (18) | 51 (13) | 8 (4) | 16 (6) | 2 (1) | 17 (3) | 0 | ChatGPT |
+| B2B SaaS (38) | 104 (22) | 63 (16) | 30 (10) | 29 (10) | 17 (5) | 0 | 0 | ChatGPT |
+| High-CPA (22) | 49 (10) | 35 (7) | 15 (6) | 7 (3) | 0 | 0 | 2 (2) | ChatGPT |
+| Local / multi-location (30) | 97 (17) | 102 (15) | 52 (16) | 25 (9) | 6 (4) | 0 | 8 (4) | Gemini / AI Mode / AIO by mentions; ChatGPT by files |
+| Indeed cards, mixed (1) | 1 | 1 | 1 | 0 | 1 | 0 | 0 | — |
+
+Cell-attributable engine naming exists in five cells only: skincare Organic and Agentic / Enterprise (e.l.f. posting: ChatGPT, Perplexity, AI Overviews, Copilot, Claude), skincare Paid / Enterprise (AI Mode, Direct Offers), high-CPA Organic / Enterprise (Juice Plus+: AI Overviews, ChatGPT, Gemini, Perplexity), local Agentic / Enterprise (IHG: ChatGPT, AI Mode). B2B SaaS postings name no engine. Per-vertical detail: the four `customers/` files, §"Engine × segment and buying process, P16-c4".
+
+**Caveats, this append.** L3 rests on an Indeed card whose posting body was not read — the match on "generative engine optimization" is Indeed's, the title names "AI Marketing"; P16-c4b is queued to open the body. L2 and L6 are S7 statements without a budget figure, attention by rule. Engine counts are word matches over raw files of unequal size and provenance (headers, query strings and case text all count); they order engines, they do not measure share. The local vertical overlaps travel (hotels) and healthcare (dental, chiropractic); its boundary is stated in the customer file. The 27-cell done row is unchanged by this append. File over its 100-line budget; overrun includes this append.
