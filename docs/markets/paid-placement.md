@@ -293,3 +293,16 @@ Caveat: mock-ups drawn by the vendor; prices and advertisers are illustrative an
 | Ad-impression-by-session-position chart absent: image under that alt is a product demo table | alt "Where ChatGPT ad impressions land in a session" | page 2026-07-29 | 4 | `raw/a-similarweb-gen-ai-stats-primary-2026-09-23-img-2026-09-23.md` |
 
 Caveat: ~ values are axis readings of a redacted chart, not published figures; the Perplexity unit is the vendor's own example.
+
+## Image reads, IMG-1c, 2026-09-23
+
+| Figure / text as shown | Chart or image | Date | Tier | Img raw |
+|---|---|---|---|---|
+| US 4,982 unique advertisers, 60.1% share of total; top: Booking.com 8.7%, Almedia USA, Inc. 8.1%, BestMoney 6.1% | "Distinct advertisers and competitive saturation by market" (dashboard cards) | week of 2026-07-13 to 07-20 (alt and page text; none inside image) | 5 | `raw/f-adthena-S2-eu-paid-agentic-2026-09-23-img-2026-09-23.md` |
+| UK 1,342 unique advertisers, 16.2%; top: giffgaff 14.0%, Vodafone 11.3%, Booking.com 9.0% | same | same | 5 | same |
+| AU 912 unique advertisers, 11%; top: Booking.com 13.4%, Almedia USA, Inc. 12.4%, Finder AU 10.9% | same | same | 5 | same |
+| All-markets leaderboard ranks 1–5: Booking.com 13.81% (AU, Other, UK, US); Almedia USA, Inc. 12.76% (same four); efaq.com 4.55% (same four); Expert Market 4.38% (AU, UK, US); giffgaff 4.28% (UK) — image cut after rank 5 | "Top ChatGPT advertisers by Visibility %, week of July 13" (dashboard table) | same | 5 | same |
+| Booking.com visibility by market: Other 32.38%, AU 13.41%, UK 9.00%, US 8.72% — "Other" figure appears nowhere else | "Brand look-up tool" (dashboard card) | same | 5 | same |
+| Rest-of-world 1,055 (12.7%) and the 7,378 headline are absent from all three images; they rest on the relay row above (`b-ppcland-adthena-7378-advertisers`) | — | — | 5 | same |
+
+Caveat: dashboard screenshots of a vendor index promoting the vendor's paid product; "Visibility %" denominator (monitored prompts) and panel unpublished; every figure in the images matches the PPC Land relay where both carry it, with two-decimal vs one-decimal rounding on Booking.com (8.72% / 8.7%, 13.41% / 13.4%).
