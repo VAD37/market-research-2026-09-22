@@ -118,3 +118,87 @@ No docket found alleges harm from an ad unit inside an AI answer. Every row abov
 - The measured-by-us row is one date, 90 runs, one localised network path, and text-extraction-scoped. It is not evidence that AI Mode carries no ads.
 - The only practitioner-level price and return figures ($4.41 CPC, ROAS 3.3x–6.8x) are graded Fools gold — agency-authored, brand unnamed, no control metric — and are cited as category noise, not performance evidence.
 - The category is roughly two years old as of 2026-09; every figure is a point reading, and the staleness rule in `../method/plan.md` applies to each pull cited.
+
+### Pass 12 addition, 2026-09-23
+
+Task P12-ads. Appended only; lines above unchanged. Where a figure here differs from one above, both stand. Raw: 91 files `raw/b-*-2026-09-23.md`. Finding: `findings/ai-ads-evidence.md`.
+
+**Size inputs — revenue and advertiser counts.** No total is computed; scopes do not nest.
+
+| Figure, verbatim | Author | Date or window | Scope | Label | Tier | Raw |
+|---|---|---|---|---|---|---|
+| "$100 million annualized revenue mark"; "over 600 advertisers" | OpenAI spokesperson via Reuters | 2026-03-26 | ChatGPT US pilot | company-stated | 5 | `raw/b-reuters-openai-ads-100m-2026-09-23.md` |
+| "roughly $83 million a month" behind the $1B run rate | Digiday | 2026-08-31 | ChatGPT | analyst-derived | 5 | `raw/b-digiday-openai-ads-1bn-2026-09-23.md` |
+| "3x return on ad spend across its campaigns over 28 days" | OpenAI | 2026-08-31 | one unnamed advertiser | company-stated | 3 | `raw/b-openai-1bn-run-rate-milestone-2026-09-22.md` |
+| ~300 (April) → "more than 820" (July) advertisers | Sensor Tower via Business Insider | 2026-04 to 2026-07 | US ChatGPT mobile app, panel | vendor-reported | 5 | `raw/b-biggo-sensortower-advertisers-820-2026-09-23.md` |
+| "approximately 1,200 unique advertisers"; ad density +163% | Sensor Tower via PPC Land | August 2026 vs April | US, mobile and desktop | vendor-reported | 5 | `raw/b-ppcland-sensortower-chatgpt-mix-2026-09-23.md` |
+| 7,378 distinct advertisers; US 4,982 | Adthena index via PPC Land | 2026-07-13 to 07-20 | US, UK, AU, rest of world | vendor-reported | 5 | `raw/b-ppcland-adthena-7378-advertisers-2026-09-23.md` |
+| 5,171 unique advertisers; 3,770 active in 7 days | Similarweb | 2026-03-30 to 2026-06-08 | global panel, n not stated | vendor-reported | 5 | `raw/b-similarweb-chatgpt-ad-stats-2026-09-23.md` |
+| 1,159 unique advertisers | SE Ranking | publ. 2026-08-10 | 50,006 US commercial prompts | vendor-reported | 5 | `raw/b-seranking-chatgpt-ads-study-2026-09-23.md` |
+| "over 2,000 brands… through Criteo" (June); "More than one thousand" (May) | Criteo | 2026-05 to 2026-06 | Criteo API clients only | vendor-reported | 3 | `raw/b-criteo-openai-update-june-`, `b-criteo-openai-update-may-2026-09-23.md` |
+| Search & Other "over $63 billion"; no AI-surface line | Alphabet | Q2 2026 | Google Search | company-stated | 3 | `raw/b-alphabet-q2-2026-earnings-transcript-2026-09-23.md` |
+| search ad revenue ex-TAC +10%; no Copilot line | Microsoft | FY26 Q4 | Search and news | company-stated | 3 | `raw/b-microsoft-fy26-q4-release-2026-09-23.md` |
+| ads "$17.2 billion… up 22%" vs "24%"; no Rufus line | Amazon (Jassy) vs PPC Land | Q1 2026 | all Amazon ads | company-stated | 3 vs 5 | `raw/b-amazon-jassy-q1-2026-ads-`, `b-ppcland-amazon-q1-2026-ads-2026-09-23.md` |
+
+**Prices published.** No engine publishes a unit price. Every figure found:
+
+| Price | Seller | Kind | Tier | Raw |
+|---|---|---|---|---|
+| minimum daily spend 25 USD, 15 EUR, 15 GBP, 2,500 JPY, 725 INR; 23 currencies | OpenAI | floor on spend, not unit price | 3 | `raw/b-openai-help-create-campaigns-2026-09-23.md` |
+| launch "$60" CPM, $200,000–$250,000 minimum; "$25" CPM mid-April; $50,000; minimum removed 2026-05-05 | OpenAI, as reported | trade-reported history | 5 | `raw/b-digiday-openai-ads-fomo-cpm-`, `b-ppcland-adthena-europe-benchmark-2026-09-23.md` |
+| CPC ~$7, CTR ~0.6%, "no conversions" | agency executives via MediaPost | practitioner hearsay, no n | 5 | `raw/b-trendingtopics-openai-ads-1bn-2026-09-23.md` |
+| "Rates starting from just $3 CPM" | Kontext | published floor, third-party apps | 3 | `raw/b-kontext-advertisers-page-2026-09-23.md` |
+| $2.50 CPM vs Facebook $7.35 (one pilot); revenue share 25–30% | Kontext documents via PPC Land | pilot and take rate | 5 | `raw/b-ppcland-kontext-10m-2026-09-23.md` |
+
+**Measured presence and CTR — side by side, not reconciled.**
+
+| Figure | Measurer | Window | n | Tier | Raw |
+|---|---|---|---|---|---|
+| ChatGPT ads in ~0.8% of responses | Adthena | launch weeks, undated | 500+ prompts | 5 | `raw/b-adthena-ads-in-ai-search-2026-09-23.md` |
+| ChatGPT 24.7% US; AI Mode 5.8% | Adthena email | July 2026 | not stated | 5 | `raw/b-ppcland-adthena-7378-advertisers-2026-09-23.md` |
+| ChatGPT 26% US desktop (14% May); CTR 0.50% | Similarweb | June 2026 | not stated | 5 | `raw/b-ppcland-similarweb-ai-ads-2026-09-23.md` |
+| ChatGPT 25.94%; 14.35% off-topic; 96.37% advertiser uncited | SE Ranking | publ. 2026-08-10 | 50,006 prompts | 5 | `raw/b-seranking-chatgpt-ads-study-2026-09-23.md` |
+| SE Ranking own campaigns: 97,000+ impressions, 1,263 clicks, CTR 1.30%, "very few sign-ups" | SE Ranking | "roughly two weeks" | 48 ads | 5 | same file |
+| AI Mode text ads 29.45%; 71.1% show two ads | SE Ranking | 2026-06-30 | 50,032 keywords | 5 | `raw/b-seranking-aimode-ads-study-2026-09-23.md` |
+| AIO ads 0.052% → 0.12% of US queries | Adthena | 2025-11-24; April 2026 | 25,000 SERPs; not stated | 5 | `raw/b-ppcland-adthena-29m-report-2026-09-23.md` |
+| CTR 0.91%, one client; "just 3%" of $250K spent after weeks | Adthena via Campaign | 2026-03 | 1 client each | 5 | `raw/b-campaign-chatgpt-ads-underwhelming-2026-09-23.md` |
+
+**Value chain — additions.** Take rate at every intermediary: `unknown — checked criteo.com, wppmedia.com, dentsu.com, kontext.so, koahlabs.com 2026-09-23`, except Kontext's reported 25–30%.
+
+| Stage | Who | Evidence | Tier | Raw |
+|---|---|---|---|---|
+| Engine auction | OpenAI "relevance-weighted, second-price auction"; CPM, CPC, oCPC, oCPM billing | help centre | 3 | `raw/b-openai-help-ads-basics-`, `b-openai-help-conversion-optimized-2026-09-23.md` |
+| Agencies | WPP (Adobe, Ford, Mazda named), Omnicom ("more than 30 of its clients"), dentsu | launch-day statements, 2026-02-09 | 3 / 5 | `raw/b-wppmedia-openai-ads-pilot-`, `b-mediapost-openai-pilot-agencies-`, `b-dentsu-openai-ads-pilot-2026-09-23.md` |
+| Engine into another chatbot | Microsoft Advertising sells "Sponsored Links in Snapchat's My AI" | 2023 page, 2026 status unknown | 3 | `raw/b-microsoft-ads-snap-my-ai-partnership-2026-09-23.md` |
+| Networks into third-party AI apps | Kontext ($10M seed), Koah ($5M seed; "more than $26 million" total), Gravity ($30.5M Series A), ZeroClick ($55M, "over 10,000 advertisers"), Taboola (opened 2026-06-16, no price) | funding and launch reports | 3 / 5 | `raw/b-ppcland-kontext-10m-`, `b-adweek-koah-series-a-`, `b-contentgrip-gravity-series-a-`, `b-mi3-zeroclick-55m-`, `b-taboola-genai-ad-platform-2026-09-23.md` |
+
+**Per-engine updates.**
+
+| Engine | Update, verbatim where quoted | Tier | Raw |
+|---|---|---|---|
+| ChatGPT | carousel ≈23% of US desktop ads 2026-08-15 to 08-30; Sponsored Agents "limited alpha test"; EEA: "Personalized ads are not initially available" | 3 / 5 | `raw/b-ppcland-sensortower-chatgpt-mix-`, `b-openai-help-sponsored-agents-`, `b-openai-help-ads-in-chatgpt-2026-09-23.md` |
+| Google AI Mode | Direct Offers pilots Gap, L'Oréal, Chewy (Q1), IHG (Q2); Highlighted Answers "clearly marked sponsored links"; AI Mode "one billion monthly active users" | 3 | `raw/b-alphabet-q1-2026-earnings-transcript-`, `b-alphabet-q2-2026-earnings-transcript-2026-09-23.md` |
+| Gemini app | "our focus right now is on AI Mode… we're not rushing anything here" (Q1); 950 million MAU (Q2); no ads | 3 | same two files |
+| Perplexity | "winding down its advertising programme by the end of 2026"; "fewer than 0.5% of brands who applied" admitted | 5 | `raw/b-campaign-perplexity-ads-end-2026-09-23.md` |
+| Copilot | "fully ramped in all English, French, and German speaking markets", 2025 page, stale | 3 | `raw/b-microsoft-ads-copilot-formats-blog-2026-09-23.md` |
+| Amazon Alexa for Shopping | active users "close to doubling", interactions "up over 5x" (Q2); no assistant ad figure | 3 | `raw/b-amazon-q2-2026-release-2026-09-23.md` |
+| Meta AI, Grok, Duck.ai, Brave Leo | no ad unit named; Meta uses AI-chat data for Facebook/Instagram targeting (2025-10); Grok plan 2025-08 only | 3 / 5 | `raw/b-meta-q2-2026-release-`, `b-techcrunch-meta-ai-chat-ad-targeting-`, `b-techcrunch-grok-ads-plan-`, `b-duckduckgo-duckai-help-`, `b-brave-leo-page-2026-09-23.md` |
+
+**Structural checks — additions.** Regulatory: ChatGPT VLOSE obligations "start applying in January 2027" (`raw/b-techpolicy-chatgpt-dsa-designation-2026-09-23.md`, 5); FTC 2026-07-01 proposed statement on AI "accuracy" names ideological distortion, not ads (`raw/b-ftc-ai-accuracy-policy-statement-2026-09-23.md`, 2); Google's July 2026 AI-label policy covers AI-made creatives, not ads inside answers (`raw/b-google-adspolicy-ai-labeling-2026-09-23.md`, 3); no enforcement against an ad inside an AI answer found, `unknown — checked ftc.gov, asa.org.uk, techpolicy.press 2026-09-23`. Supply: "fewer than 20% are shown ads daily" of ~85% eligible, 2026-03 (`raw/b-reuters-openai-ads-100m-2026-09-23.md`, 5).
+
+**Caveats — this addition.** Every panel figure is from a vendor selling the data; none publishes panel n. Advertiser counts differ by scope (global all-time, US month, three-market week, prompt sample) and are never summed. Snap, Copilot-format and Grok sources predate one quarter. Tier 6 noise filed, not used: `raw/b-seroundtable-similarweb-ctr-`, `b-novadata-rufus-ads-free-`, `b-trendsvc-ai-ad-networks-`, `b-q1media-chatgpt-ads-results-2026-09-23.md`.
+
+### Pass 13 addition, 2026-09-23
+
+Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md`. Nothing above is edited.
+
+| Read | Figure | As of | Label, tier | Raw |
+|---|---|---|---|---|
+| Ad-supported reach, ChatGPT | 700M → 900M → "more than 1 billion weekly active users" | 2025-09-15 → 2026-02-27 → 2026-08-31 | company-stated, 3 | `raw/e-openai-chatgpt-user-counts-2026-09-23.md` |
+| Floor — one engine discloses | **≥ $1B annualized run rate**, ChatGPT Ads; 1,000 ÷ 224,532 = 0.45% of Google Search & other 2025 | 2026-08-31; FY2025 | company-stated 3; filed 2 | `raw/b-openai-1bn-run-rate-milestone-2026-09-22.md`; `raw/b-alphabet-10k-2025-search-revenue-2026-09-23.md` |
+| Baseline — Google Search & other | $175,033M (2023) → $198,084M (2024) → $224,532M (2025) | FY | filed, 2 | `raw/b-alphabet-10k-2025-search-revenue-2026-09-23.md` |
+| Baseline — other engines' search ads | Microsoft search ad revenue ex-TAC +21% (FY25 Q4) → +10% (FY26 Q4), growth only; Amazon advertising services $19.8B, +26% (quarter to 2026-06-30) | 2025-07-30 → 2026-07-30 | company-stated, 3 | `raw/e-microsoft-copilot-user-counts-2026-09-23.md`; `raw/c-amazon-rufus-user-sales-statements-2026-09-23.md` |
+| New forecasts, never sizes | EMARKETER US AI search "slightly more than $1 billion" 2025 → "nearly $26 billion" 2029, 0.7% → 13.6% of search ad spend; WPP generative search $5.1B (2026) → "over $100 billion" (2030), search incl. generative "21.8%" of $1.3T (2026); MAGNA search + retail media $357B (2025) | pub. 2025-06-04; 2026-06-16; 2025-06-17 | analyst-derived, 5 | `raw/e-market-size-mediapost-emarketer-aisearch-paid-`, `-wppmedia-midyear-paid-`, `-magna-2025-paid-2026-09-23.md` |
+| Forecast spread | 2030: ~20× (EMARKETER US chatbot "just over $5 billion" to WPP/OpenAI $100B+, scopes differ); 2029: 2.05× | 2029, 2030 | analyst-derived, 5 | same, plus `raw/e-market-size-emarketer-*-2026-09-22.md` |
+
+**Caveats — Pass 13 addition.** This append takes the file past its 120-line budget; overrun recorded here. The 0.45% ratio compares a run rate with a fiscal year. Pass 12 (`findings/ai-ads-evidence.md`) was live in parallel and is not read here. MAGNA's 2025 figure is stale; its 2026 editions were not located.
