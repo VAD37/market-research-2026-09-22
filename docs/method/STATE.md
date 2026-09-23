@@ -12,8 +12,12 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
+| COMPRESS-F1 | opus | lossless compression | `findings/proof-scorecard.md`, `findings/unknowns.md` | 2026-09-23 |
+| COMPRESS-F2 | opus | lossless compression | `findings/{demand-map,market-potential,ai-ads-evidence,transition-evidence,whitespace,trigger-timeline}.md` | 2026-09-23 |
+| COMPRESS-M | opus | lossless compression | `markets/*.md` | 2026-09-23 |
+| COMPRESS-CU | opus | lossless compression | `customers/*.md` | 2026-09-23 |
 
-Slots free: 7 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
+Slots free: 3 of 7. P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); Opus continuations stopped mid-run, work on disk committed; wave 2 (R7, R8, R9, Opus from scratch) and the judge (Opus) follow the wave 1 resume.
 
 ## Queue
 
