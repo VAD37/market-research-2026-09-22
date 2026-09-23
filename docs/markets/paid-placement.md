@@ -210,3 +210,36 @@ sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above
 | line | row | tier revised 2026-09-23 | raw |
 |---|---|---|---|
 | 140 | Microsoft FY26 Q4, search ad revenue ex-TAC +10%, no Copilot line | 3 → 2 (filed 8-K Exhibit 99.1; the 10-K renames the line "Search advertising (formerly Search and news advertising)", FY +12%) | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`; `raw/b-sec-microsoft-10k-2026-07-29-2026-09-23.md` |
+
+## Baselines beyond Google, P16-c1, 2026-09-23
+
+Filed ad-revenue lines the AI-surface figures above sit against. Scopes do not nest; nothing is summed or divided. Raw prefix `raw/`, suffix `-2026-09-23.md`.
+
+| Company | Line item | Period | Figure verbatim | Source kind | Tier | Raw |
+|---|---|---|---|---|---|---|
+| Alphabet | "Google Search & other" (USD M) | FY2023 → FY2025 | "$ 175,033 $ 198,084 $ 224,532" | filed | 2 | `b-alphabet-10k-2025-search-revenue` — cite confirmed: Archives URL HTTP 200, 2026-09-23 |
+| Microsoft | "Search advertising (formerly Search and news advertising)" (USD M) | FY2026, FY2025, FY2024 (June) | "15,176 13,878 12,306" | filed | 2 | `b-microsoft-10k-fy2026-search-advertising` |
+| Microsoft | same, ex-TAC growth | FY2026; Q4 FY2026 | "increased 12%"; "increased 10% (up 9% in constant currency)" | filed | 2 | same; `b-microsoft-8k-q4-fy2026-search-advertising` |
+| Amazon | "Advertising services" (USD M) | FY2023 → FY2025 | "46,906 56,214 68,635" | filed | 2 | `b-amazon-10k-2025-advertising-services` |
+| Amazon | "Advertising services" (USD M) | Q2 2025 → Q2 2026; H1 | "15,694 19,809"; "29,615 37,052" | filed | 2 | `b-amazon-10q-q2-2026-advertising-services` |
+| Meta | "Advertising" (USD M) | FY2025, FY2024, FY2023 | "$ 196,175 $ 160,633 $ 131,948 22% 22%" | filed | 2 | `b-meta-10k-2025-advertising-revenue` |
+| Meta | "Advertising" (USD M) | Q2 2026 vs Q2 2025; H1 | "$ 59,363 $ 46,563 27%"; "$ 114,387 $ 87,955 30%" | filed | 2 | `b-meta-10q-q2-2026-advertising-revenue` |
+| Reddit | "Advertising revenue" (USD thousands) | FY2025, FY2024, FY2023 | "$ 2,062,480 $ 1,185,456 $ 788,782" | filed | 2 | `b-reddit-10k-2025-advertising-revenue` |
+| Reddit | "Advertising revenue" (USD thousands) | Q2 2026 vs Q2 2025 | "$ 761,625 $ 464,785" | filed | 2 | `b-reddit-10q-q2-2026-advertising-revenue` |
+| Walmart | "Global advertising business" | Q2 FY2027, to 2026-07-31 | "up 38%"; "43% increase in Walmart Connect (ex-VIZIO)"; no dollar figure | filed | 2 | `b-walmart-8k-q2-fy2027-advertising` |
+| Walmart | 10-K FY2026 | FY to 2026-01-31 | no advertising-business revenue figure; "emerging agentic shopping tools and platforms" named as competitors | filed | 2 | `b-walmart-10k-fy2026-advertising` |
+
+AI-surface ad line inside any of these filers: none stated. Microsoft names Copilot only inside the Search advertising family; Meta attributes no ad revenue to Meta AI; Amazon's 10-K and 10-Q do not contain "Rufus"; Reddit names Reddit Answers as a search feature, not an ad line.
+
+**Industry totals.** Forecasts labelled forecast; never a size.
+
+| Author | Figure verbatim | Scope, period | Author's label | Tier | Raw |
+|---|---|---|---|---|---|
+| IAB / PwC | "$294.6 billion in 2025, reflecting a 13.9% year-over-year increase"; Search "$114.2B", "11%", "38.8%"; Commerce Media "$63.4B", "18%", "21.5%" | US, FY2025 | measured benchmark; "Search revenues (including AI search)" | 4 | `e-iab-pwc-internet-ad-revenue-fy2025` |
+| MAGNA, Search Report | "$330 billion globally in 2024, capturing 35% of total ad spend and 50% of digital ad spend"; US "$152 billion" | global, US; 2024 | estimate | 5 | `e-magna-search-report-page` |
+| dentsu | "increase by 5.1 percent in 2026, surpassing 1 trillion US dollars"; Americas "460.5 billion US dollars"; retail media "14.1 percent growth"; digital "68.7 percent of total investment" | global, 2026 | forecast | 5 | `e-dentsu-global-ad-spend-forecast-2026` |
+| Gartner | "more than 70% of global ad spend and 80% of U.S. ad spend will flow through self-serve advertising platforms in which AI materially influences media buying" | global, US; by 2028 | prediction (forecast) | 5 | `e-gartner-ad-platforms-prediction-2028` |
+| MAGNA 2026 editions | `unknown — checked magnaglobal.com ×4 pages 2026-09-23`; pointer only: "U.S. advertising spending will grow 11% in 2026" | US, 2026 | forecast, relayed by a blog | 6 | `e-magna-dec-2025-pointer-mediaconfidential` |
+| WPP Media, midyear 2026 | already compiled at Pass 13 row above ("21.8% of total advertising revenue in 2026") | global, 2026 | forecast | 5 | `e-market-size-wppmedia-midyear-paid` |
+
+**Caveats — this append.** Fiscal years differ (Microsoft June, Walmart January, others December). Amazon's line spans sponsored, display and video on every Amazon surface; Microsoft's includes Microsoft News, Edge and third-party affiliates; Meta and Reddit are social. IAB's categories overlap (shares sum past 100%). IAB report body, Gartner CMO Spend and MAGNA 2026 forecasts unreached — `f-search-engines-wall-log-2026-09-23.md`. Alphabet cite re-checked as reachable, not re-pulled. File further over its 120-line budget; overrun is this append.

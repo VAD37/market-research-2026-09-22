@@ -160,3 +160,16 @@ NRW.BANK (development bank) and KfW Bankengruppe also named GEO or Perplexity; l
 **Still blank or thin, with reason.** No cell blank. Indeed vertical queries: unrun, wall. UK Contracts Finder keyword filter: untrusted zero, unchanged. John Lewis Financial Services: `unassigned`, unchanged.
 
 **Caveats.** KKH is a public-law statutory insurer; counting it as "insurance" follows the vertical definition's wording, not a separate check. The 11,000,000.00 EUR is the whole agency framework ceiling, not GEO spend. TED covers EU public buyers only; the strict `none` reads rest on TED plus the earlier channels, and publication bias still runs one way. Indeed names are card fields only.
+
+## Budget line, P16-c1, 2026-09-23
+
+Which existing line funds AI-visibility or AI-ads spend for an insurance, credit-card or supplement buyer. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated.
+
+| Evidence | What it states | Line named | Tier | Raw |
+|---|---|---|---|---|
+| eHealth (Medicare and health-insurance marketplace), 10-K FY2025; 10-Q Q2 2026 | "our ability to reach consumers through established search‑engine optimization, paid search, and other digital marketing channels may be adversely impacted"; "Increased reliance on alternative marketing channels could further increase our marketing expenditures" | SEO and paid search named as the lines at risk; no reallocation, no dollar | 2 | `f-signal-hr-S7-ehealth-10k-2025`; `f-signal-hr-S7-ehealth-10q-q2-2026` |
+| EDGAR FTS, "AI search", eight insurers and lead-gen filers, 2026 | 0 hits; broader phrase query returns eHealth only | none | 2 | `f-edgar-fts-budget-line-queries` |
+| LegalZoom, 10-Q Q2 2026 — adjacent, legal is outside this segment's definition | "a reduction in organic traffic and a higher emphasis on paid search"; "expanding beyond traditional search through strategic partnerships ... including with AI platforms"; "we are investing accordingly" | organic → paid search; AI-platform partnerships funded, line unnamed | 2 | `f-signal-hr-S7-legalzoom-10q-q2-2026` |
+| Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
+
+**Read.** `unknown — checked EDGAR FTS (10 CIKs plus phrase queries), eHealth 10-K and 10-Q, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). The one in-segment filer names SEO and paid search as the lines AI platforms threaten and expects marketing expenditure to rise; no filer names the line that funds AI-surface work. The only filed shift statement found sits outside the segment (LegalZoom). File over its 100-line budget; overrun includes this append.

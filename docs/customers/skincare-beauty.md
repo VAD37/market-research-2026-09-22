@@ -125,3 +125,18 @@ No cell changes its word-level read; the beauty-specific paid and agentic agency
 **Caveats, this append:** S4's n/a-by-construction ruling and S12's unchanged n/a both rest on a reading of "on-property" and "reviewed software" as organic-recommendation concepts; a paid-ad-buying tool or an agentic-checkout integrator could in principle be reviewed or carry its own on-property artifact, and none was found to test that possibility. The chatgptadlibrary.com beauty-skincare page could not be opened (HTTP 429, one attempt, not retried under this pass's pacing rule) — its content beyond the title is `unknown — checked chatgptadlibrary.com 2026-09-23`.
 
 File now 125 lines against the 100-line budget; overrun is this append.
+
+## Budget line, P16-c1, 2026-09-23
+
+Which existing line funds AI-visibility or AI-ads spend for a beauty buyer. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated.
+
+| Evidence | What it states | Line named | Tier | Raw |
+|---|---|---|---|---|
+| Coty, 8-K Q4 FY2026 release, 2026-08-19 | "rightsizing ... global brand marketing functions" and "optimizing the visibility and recommendation of our brands across AI platforms" in one passage | none — function cut and AI work co-named, no dollar, no line | 2 | `f-signal-sk-S7-coty-8k-q4-fy2026` |
+| Coty, 10-K FY2026 | GEO "across touchpoints" (already compiled above) | none | 2 | `f-signal-sk-S7-coty-10k-2026-09-22.md` |
+| EDGAR FTS, "AI search", six beauty filers (Coty, e.l.f., Estée Lauder, Ulta, Sally Beauty, Olaplex), 2026 | 0 hits; Ulta 10-K carries an AI / agentic-commerce risk factor only | none | 2 | `f-edgar-fts-budget-line-queries` |
+| IAB 2026 Outlook, September update (already compiled) | buyer focus 76% "optimizing content for AI-generated answers"; not cut by vertical; no dollar | none | 4 | `e-market-size-iab-paid-2026-09-22.md` |
+| Gartner CMO Spend Survey 2026 | `unknown — paid; gartner.com newsroom and marketing-topic listing checked 2026-09-23` | — | — | `e-gartner-ad-platforms-prediction-2028` (pull notes) |
+| HubSpot State of Marketing 2026 | gated; public page carries no search or budget statement | — | 6 | `f-hubspot-state-of-marketing-2026-check` |
+
+**Read.** `unknown — checked EDGAR FTS (6 CIKs), Coty 8-K and 10-K, IAB outlook release, gartner.com, hubspot.com 2026-09-23; DuckDuckGo, Bing, Google, Brave, Mojeek, Yahoo, Startpage walled or off-locale` (`f-search-engines-wall-log`). Nearest filed statement is Coty's, tier 2: AI-platform visibility named in the same sentence group as a brand-marketing function cut, line unnamed. No agency or vendor survey with disclosed n reached for this vertical. File over its 100-line budget; overrun includes this append.

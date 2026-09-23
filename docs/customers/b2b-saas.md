@@ -121,3 +121,17 @@ No cell changes its word-level read. All nine B2B SaaS cells now read on a fully
 **Caveats, this append:** The four paid-placement agency hits are generic B2B/SaaS marketing agencies applying a ChatGPT-ads line of business to existing clients, not agencies built around AI-answer placement specifically; none discloses a client roster or a buyer-size band, so none moves a cell. E2M's claim is recorded via search-tool synthesis only — its own page refused a direct fetch (HTTP 403) — and is flagged `verbatim: partial` in the raw file.
 
 File now 121 lines against the 100-line budget; overrun is this append.
+
+## Budget line, P16-c1, 2026-09-23
+
+Which existing line funds AI-visibility or AI-ads spend for a B2B SaaS buyer. Raw prefix `raw/`, suffix `-2026-09-23.md` unless stated.
+
+| Evidence | What it states | Line named | Tier | Raw |
+|---|---|---|---|---|
+| HubSpot, 10-K FY2025 | own marketing via "high search engine and answer engine presence"; acquired XFunnel, "an Answer Engine Optimization ("AEO") platform", "$16.5 million, net of cash acquired", 2025-12-01 | M&A cash, not a marketing line; marketing line unnamed | 2 | `f-signal-bs-S7-hubspot-10k-xfunnel` |
+| Semrush, 10-K FY2025 (vendor, filed) | "existing customers supplement their traditional SEO tools with newer GEO and AI search products"; "approximately 108,000 paying customers" | SEO-tool line, supplemented — vendor framing | 2, bias flagged | `b-semrush-10k-2025-geo-demand` |
+| Informa TechTarget, 10-K FY2025 | "subdued sales and marketing budgets amongst many of Informa TechTarget's enterprise technology customers as more of their expenditures have been concentrated on R&D activities, particularly around artificial intelligence"; "growing audience referrals from AI search channels" | marketing budgets down, R&D up — direction, no line | 2 | `f-signal-bs-S7-techtarget-10k-2025` |
+| EDGAR FTS, "AI search", six B2B SaaS filers, 2026 | 3 hits, all Semrush and TechTarget (sellers); ZoomInfo, Sprout, Zoom, HubSpot 0 | none | 2 | `f-edgar-fts-budget-line-queries` |
+| Gartner CMO Spend Survey 2026; HubSpot State of Marketing 2026 | `unknown — paid`; gated, no budget statement public | — | —; 6 | `e-gartner-ad-platforms-prediction-2028`; `f-hubspot-state-of-marketing-2026-check` |
+
+**Read.** `unknown — checked EDGAR FTS (6 CIKs plus phrase queries), HubSpot, Semrush, TechTarget 10-Ks, gartner.com, hubspot.com 2026-09-23; search engines walled` (`f-search-engines-wall-log`). Two filed pointers, neither a budget line: a vendor says GEO tools are bought beside SEO tools (tier 2, seller's framing); a B2B media seller says its customers' marketing budgets are subdued while AI R&D absorbs spend (tier 2). File over its 100-line budget; overrun includes this append.
