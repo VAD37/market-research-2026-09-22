@@ -103,3 +103,54 @@ Evidence kind first, minimum tier second. A condition is met only by evidence at
 - HP2's 0.30 and HP3's 0.50 are arbitrary pre-registered cut points, fixed so the result cannot be fitted afterwards — not because either number is known to be meaningful.
 - Six panel-checkable rows are registered against a bar of three because panel samples can fail for reasons unrelated to the claim: surface change, access loss, prompt-set revision.
 - This file carries claims to test. No market facts, no vendor names, no numbers about the market.
+
+## Additions 2026-09-23
+
+Registered 2026-09-23 by AMEND-2 for Passes 12, 13 and 14, per `plan.md` "Pass sequence — additions 2026-09-23" and `STATE.md` §Decisions taken lines 175, 177, 178. As read at registration, no `docs/raw/*-2026-09-23.md` file exists. Terms, tiers, decision-condition format and the Pass 9 scoring rule above apply unchanged; tier floors sit inside each condition, as in the table above.
+
+Registration status: these rows are written after Passes 2–9 pulled, so they are **post-hoc** relative to that evidence (registration rule, line 10) and pre-registered relative to Passes 12–14. Wording avoids conditions already met in `raw/`: OpenAI's advertiser and revenue statements and its CPC bid guidance (`markets/paid-placement.md` lines 25, 34, 74) confirm none of H17–H20 alone. No row counts toward the Pass 10 bar of three; Pass 10 is skipped.
+
+### Register — additions
+
+| ID | Claim | Lane | Sub-market | Pass | Panel | Status |
+|---|---|---|---|---|---|---|
+| H17 | An engine other than ChatGPT discloses an advertiser count or ad revenue for its AI-answer surfaces | B | paid | 12 | no | unresolved |
+| H18 | At least one engine or third-party network publishes a rate card for an AI-answer ad unit | B | paid | 12 | no | unresolved |
+| H19 | A party outside an engine's own ad program sells placement inside that engine's answers | B | paid | 12 | no | unresolved |
+| H20 | An advertiser or agency reports a controlled result from AI-assistant ads, with n and window | E | paid | 12 | no | unresolved |
+| H21 | Every P1 engine has two or more dated user-count statements at tier 3 | E | cross | 13 | no | unresolved |
+| H22 | In every sub-market with two or more forecasts for one target year, highest exceeds lowest by more than 3× | E | cross | 13 | no | unresolved |
+| H23 | A peer-reviewed paper with code describes a technique that steers LLM recommendation, and no P1 engine names a countermeasure to it | D | organic | 14 | no | unresolved |
+| H24 | A paper describes a monetisation mechanism inside LLM answers that no P1 engine offers | D | paid | 14 | no | unresolved |
+| H25 | At least one capability kept by Pass 14 runs on public code and public models, with no engine partnership | D | cross | 14 | no | unresolved |
+
+Coverage: lane B — H17, H18, H19; D — H23, H24, H25; E — H20, H21, H22. H25 is the builder-constraint row (`findings/whitespace.md` line 52), read descriptively.
+
+### Decision conditions — additions
+
+| ID | Confirms it | Kills it |
+|---|---|---|
+| H17 | Engine statement or filing, tier 3 or 2: numeric advertiser count or revenue scoped to AI surfaces | Every engine other than ChatGPT with a live product states neither at tier 3, channels recorded |
+| H18 | Engine or network pricing page, tier 3: a price per unit charged, not a bid recommendation | Every engine and network found publishes no price schedule at tier 3, channels recorded |
+| H19 | Seller's own page, tier 3, offering placement in a named engine's answers outside that engine's ad program | Every seller found resells engine inventory or places only in third-party apps, tier 3, channels recorded |
+| H20 | Case with holdout, geo-split, switchback, or pre/post with control; n and window stated; tier 5; Silver or better under `grade_rule1` | Zero such cases after the Pass 12 screen, screened count recorded |
+| H21 | Two dated tier-3 user-count statements per P1 engine, metric as the engine names it; for Google, any of AI Overviews, AI Mode, Gemini, surface named | Any P1 engine with fewer than two after its newsroom, IR and filings are checked |
+| H22 | Highest ÷ lowest above 3 in every sub-market with ≥2 same-target-year forecasts, each forecast recorded at its own tier | Highest ÷ lowest at or below 3 in any such sub-market |
+| H23 | Peer-reviewed paper with code or data, tier 3; P1 countermeasure documents checked, none names the technique, tier 3 | Every such technique named in a P1 engine countermeasure document, tier 3 |
+| H24 | Paper, tier 4 or better, describing the mechanism; P1 ad documents, tier 3, show no product using it | Every mechanism found matches a live P1 ad product, tier 3 |
+| H25 | Kept paper, tier 4 or better, with public code and open weights or a public API, no partner gate | Every kept paper's code is absent or needs gated engine access |
+
+### Log — additions
+
+| Date | ID | Note |
+|---|---|---|
+| 2026-09-23 | H17–H25 | Registered. 9 rows, all `unresolved`; producing passes 12, 13, 14; none panel-checkable |
+| 2026-09-23 | HE2, HE3, HP1–HP4 | Pass 10 skipped by owner 2026-09-23 (`STATE.md` line 174). Rows stay `not produced`; day-0 gap recorded, never back-filled. No row replaces them |
+
+### Caveats — additions
+
+- H17, H18, H19 and H24 kill on absence; each kill is only as strong as its channel list, per the first caveat above.
+- H22's 3× is an arbitrary pre-registered cut point. With fewer than two same-target-year forecasts in any sub-market the row reads `unresolved`, not killed.
+- H21 depends on engines publishing user counts at all; a count published only by a panel is tier 4 and does not meet it.
+- H25 confirmed or killed says nothing on whether any party can win a market; that verdict is the user's (`MegaPlan.md` line 17).
+- These rows carry claims to test. No market facts; the paid-placement line references above only fix wording.

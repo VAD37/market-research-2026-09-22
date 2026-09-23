@@ -22,6 +22,15 @@ All decisions live in `scope.md` — brief, revision 1 (D1–D6), revision 2 (R1
 - Engine priority and vertical choice are defaults the user declined to weigh in on. They stand until Pass 2 share data reweights them.
 - `projects/` does not open. Ever, in this repo.
 
+### Scope resolution — addition 1, 2026-09-23
+
+Per `STATE.md` §Decisions taken, lines 177–178, as read 2026-09-23. No bullet above is edited.
+
+- **All three sub-markets are read for potential** — organic, paid, agentic commerce. Source: `STATE.md` line 177, reason: User: "researching potential for all markets... trends and user count regarding market size of organic vs paid vs agentic and future prediction".
+- **Market size is read three ways, side by side, each with its tier:** trends, engine user counts over time, forecasts. A forecast is never presented as a size (`trust-rubric.md` line 42); forecasts stay labelled forecast, tier 6 (`STATE.md` line 177). Pass 13 carries it.
+- **Builder-constraint question back in scope**, as a research question: `findings/whitespace.md` line 52 — "which of the gaps above, if any, is reachable by a team whose cost advantage is engineering rather than distribution?" This lifts `scope.md` line 88 ("now a hypothetical only … it is not researched as a decision") to researched as a question. The answer stays evidence, never a verdict (`MegaPlan.md` line 17). Source: `STATE.md` line 178, reason: "User items 5 and feedback 6".
+- **Engineering-enabled new market potential and novel solutions in scope** as research questions: which capabilities exist in published work that no engine or vendor yet offers. Descriptive only; Pass 14 carries it. Source: `STATE.md` line 178.
+
 ## Six lanes
 
 Lanes are research tracks. Sub-markets are what gets sized. Segments are what gets demand-read. Three axes, not one.
@@ -83,6 +92,12 @@ Fixed at Pass 0 in `demand-signals.md`. Each signal: what it proxies, where it i
 
 Attention signals never stand in for spend signals. A segment with attention and no spend is recorded as exactly that.
 
+### Demand signals — none rule, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §5 and §8(e), line 110. Verbatim:
+
+A signal marked `n/a` because it cannot apply to the sub-market by construction counts as checked. The Segment-matrix row is reported under the strict and loose readings until every cell has every applicable signal run; closing it needs S2, S3, S9 and S10 in high-CPA, S4, S6, S12 for skincare paid and agentic, S5 and S6 with paid and agentic terms in B2B SaaS.
+
 ## Evidence bar — what counts as a success story
 
 The hardest ask in this plan. Most published cases fail this bar. The bar is set before pulling so it cannot be relaxed to fit what turns up.
@@ -117,6 +132,28 @@ Per `plan-review-1-2026-09-22.md` §3 and §7(c). Applies to every Pass 4 brief 
 > **A grade is assigned only from the case's own full page with the seven bar items ticked one by one in the raw file; a case not opened is `screened — not opened`, a page with no metric is `screened — no claim`, neither is graded, and a case missing any of items 1–7 is Bronze at best.**
 
 Why it is dated now, per review §3: five censuses operationalised one bar three ways — c1 graded metric-less testimonials Fools gold on intake and opened nothing; c2 screened the same items out as no-claim and did not grade them; c3 graded only opened pages and counted 26 unopened titles as screened; c4 assigned the one Silver without a visible seven-item checklist; c6 scored binary cleared / not-cleared with no Bronze or Fools gold grade at all. The "roughly 150 screened, 1 Silver" aggregate is a mixed count until P4-c13 re-grades it.
+
+### Evidence bar — grading rule 1 reading fixed, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §3 and §8(c), line 108. Verbatim:
+
+Every graded case carries `grade_raw`, as its census assigned it, and `grade_rule1`, the literal reading: any of items 1–7 absent on the case's own page caps it at Bronze. From Pass 11 on, counts, done rows and hypothesis marks use `grade_rule1` and cite `grade_raw` beside it. Neither is deleted. A grade moves only through a new dated raw file naming the item that changed.
+
+### Evidence bar — evidence-quality reporting, 2026-09-23
+
+Per `STATE.md` §Decisions taken line 181, reason: "User feedback 3". The grade table and grading rule 1 are unchanged; this fixes how cases are reported.
+
+Every brief and every findings file citing transition or case evidence states, per case:
+
+| Field | Values |
+|---|---|
+| Metric moved | yes — metric, from value, to value, window; or no |
+| Design | experimental — holdout, geo-split, switchback, pre/post with control; or observational |
+
+- A case with no moved metric is reported as **action named, outcome unknown**. Motivating count: `findings/transition-evidence.md`, 99 of 108 cases name a change (`STATE.md` line 124); a named change is not a measured outcome.
+- The design category does not re-grade a case: pre/post with control stays Silver, labelled correlational, per the grade table.
+- Briefs carry a section **Quality of evidence** with case counts per category: metric moved, experimental; metric moved, observational; action named, outcome unknown.
+- Metric-moved experimental cases are what P4-r hunts (`STATE.md` line 26).
 
 ## Engine matrix
 
@@ -274,6 +311,85 @@ Pass 10 sampling held by user decision 2026-09-22 22:40; day 0 recorded per engi
 
 The Pass 11 gate cell in the pass-sequence table above is not edited; this note supersedes it. Source: `plan-review-1-2026-09-22.md` §2, §4 and §7.
 
+### Pass 10 — closure map, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §4 and §8(d), line 109. Verbatim:
+
+One neutral sampling date can close HE2, HP1, HP3 and confirm HE3; HP2 and HP4 need two dates ≥14 days apart. Day-0 confounds on record: Claude logged-in with Memory, Gemini Flash-Lite throttled, AI Mode IP-localised to Vietnam, ChatGPT and Perplexity blocked. No raw file records a US egress path. Recorded for the user's decision; the hold is unchanged.
+
+### Pass 10 — skipped, 2026-09-23
+
+Per `STATE.md` §Decisions taken line 174, reason: User: "pass 10 skip for now. We dont care about what observed ourself". Supersedes the hold note and closure map above on status; neither is edited, and the closure map stays as a record.
+
+- Own-panel sampling does not run. HE2, HE3, HP1–HP4 stay `not produced`.
+- The Pass 10 done row reads **skipped by owner**.
+- The day-0 gap — the panel raw files dated 2026-09-22 listed in `plan-review-2-2026-09-23.md` §4 — is recorded and never back-filled.
+- Hypothesis marks and Pass 10 done-row status are reported with this reading: `not produced — Pass 10 skipped by owner 2026-09-23`.
+- Pass 11's gate, "9, and 10 or its recorded hold", reads the skip as the recorded hold.
+- Third-party published measurement of engine surfaces is still pulled by other passes at its own tier; that is not Pass 10.
+
+### Reporting layer, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §7 and §8(g), line 112. Verbatim:
+
+`findings/executive-brief-<date>.md`, 70 lines, re-stated from compiled files only, per the review-2 §7 contains/excludes table. Rewritten under a new date whenever a finding it cites changes. Not a pass; no gate.
+
+### Pass sequence — additions 2026-09-23
+
+Per `STATE.md` §Decisions taken lines 175–179 and §Queue lines 25–30, as read 2026-09-23. The pass table above is not edited; rows below extend it.
+
+| # | Pass | Question | Deliverable | Gate — needs |
+|---|---|---|---|---|
+| 12 | AI ads — engines selling ads | What AI-answer ad inventory exists, at what price, bought by whom | `findings/ai-ads-evidence.md`; `markets/paid-placement.md` append | 2, 6 |
+| 13 | Market potential | How big and how fast, per sub-market, read three ways | `findings/market-potential.md`; three `markets/` appends | 2, 6, 12 |
+| 14 | Frontier scan | Which published capabilities could steer or monetise recommendation | `findings/frontier-scan.md` | 1, 5 |
+| 8-r | Demand re-run | Close blank and unrun segment cells | `customers/` appends; `findings/demand-map.md` append | 8, R-BLOCKED |
+| 4-r | Success-story re-run | Metric-moved experimental cases, blocked channels included | `findings/proof-scorecard.md` append | 4, R-BLOCKED |
+| 9-r | Findings re-run | Tier-3 re-evidence; score H17 onward | `findings/*.md` appends; `findings/unknowns.md` append | 8-r, 4-r, 12, 13, 14 |
+
+Every pass below may pull by extension (`ext`) or Playwright (`pw`), including channels blocked on 2026-09-22 (`STATE.md` line 179). A channel needing registration or paid credentials is logged per "Orchestration — browser and search revision, 2026-09-23" and not worked around. `markets/` files each sit at 120 lines, their line budget (`wc -l` 2026-09-23); every `markets/` append below states its overrun in that file's caveats.
+
+**Pass 12 — AI ads and AI engines selling ads.** Lane B. Source: `STATE.md` line 175, reason: User: "vastly important key details that we are missing"; live row `P12-ads`, line 17.
+
+- Question: which engines sell placement inside AI answers, in what formats, at what price, to how many advertisers, for what revenue.
+- Inputs: `markets/paid-placement.md`; `raw/b-*-platform-summary-2026-09-22.md`; `raw/b-eu-dsa-ad-repositories-table-2026-09-22.md`; `raw/b-regulators-ad-disclosure-table-2026-09-22.md`.
+- Engines: ChatGPT; Google AI Overviews, AI Mode, Gemini; Microsoft Copilot; Amazon Rufus / Alexa for Shopping; Perplexity; Meta AI; any other engine found selling AI-answer placement.
+- Pulls, per engine: inventory and formats; label wording, verbatim; targeting; pricing and bid guidance; advertiser counts and named advertisers; engine ad-revenue statements; agency and holding-company statements; third-party AI-ad networks, any found; advertiser-side spend evidence; published third-party measurement of ad presence; regulation in force.
+- Channels: `sources/channels.md` C1, C2, C6, C7, C9, C10, C12 (platform primary, tier 3); C13, C43 (filings, earnings, tier 2); EU DSA ad repositories; agency and holding-company newsrooms; trade press linking primary.
+- Deliverable: `findings/ai-ads-evidence.md`, 100 lines; dated appends to `markets/paid-placement.md`.
+- Gate to open: Pass 2 platform summaries and Pass 6 `markets/paid-placement.md` landed — met 2026-09-22.
+- Gate to close: the Pass 12 row in "Programme done — addition 2026-09-23" holds; H17–H20 scorable.
+- Does not: open advertiser accounts, buy or test ads, sample engine answers itself (Pass 10 skipped), estimate revenue beyond stated figures, rank engines for purchase.
+
+**Pass 13 — market potential, three sub-markets.** Lanes A, B, C; E for method. Source: `STATE.md` line 177; queue row `P13-size`, line 27.
+
+- Question: what size and trajectory each sub-market shows, read from user counts, trends and forecasts side by side.
+- Inputs: `raw/a-assistant-share-table-2026-09-22.md`; the three `markets/` files; `raw/e-market-size-table-2026-09-22.md`; Pass 12 output for paid.
+- Pulls: MAU, WAU or DAU statements per engine, as the engine names them, each with its date, two or more dated points per engine; share trends, one definition per series; AI-referral trends; forecasts per sub-market with publisher, base year, target year, definition and tier; bottom-up floors per Pass 6 detail above (vendor count × disclosed pricing × disclosed customer count).
+- Channels: engine newsrooms and IR (tier 3); C13, C43 filings and earnings (tier 2); C21 Similarweb and other panels (tier 4); report-sales firms (tier 6).
+- Deliverable: `findings/market-potential.md`, 100 lines; one dated append per `markets/` file.
+- Gate to open: Passes 2 and 6 landed; Pass 12 landed for the paid sub-market.
+- Gate to close: the Pass 13 row in "Programme done — addition 2026-09-23" holds; H21, H22 scorable.
+- Does not: present a forecast as a size; average or reconcile forecasts; fit or extrapolate a trend into a forecast of its own; mix share definitions in one series.
+
+**Pass 14 — frontier scan.** Lane D, plus the builder-constraint question (`findings/whitespace.md` line 52). Source: `STATE.md` line 178; queue row `P14-papers`, line 28.
+
+- Question: which published capabilities in retrieval, recommendation, agent commerce and ad auctions inside LLMs a party could use to steer or monetise recommendation, and which no engine or vendor yet offers.
+- Inputs: Pass 5 technique files `raw/d-*`; H13's countermeasure evidence; `findings/whitespace.md`.
+- Pulls, per paper: venue and review status, date, model versions, code and data availability, capability described, results with n, whether a P1 engine document names a countermeasure, whether code and models are public or access-gated.
+- Channels: C47 arXiv; C48 ACL Anthology; C49 Semantic Scholar; C50 Google Scholar; C63 ACM DL, OpenReview (NeurIPS, ICLR), USENIX, IEEE Xplore, DBLP; engine research blogs.
+- Tiering: `trust-rubric.md` academic table, lines 25–31. Screened count stated beside kept count.
+- Deliverable: `findings/frontier-scan.md`, 100 lines; raw per paper `raw/d-paper-*-2026-09-23.md`.
+- Gate to open: Passes 1 and 5 landed — met 2026-09-22.
+- Gate to close: the Pass 14 row in "Programme done — addition 2026-09-23" holds; each kept capability read against P1 countermeasure docs or `unknown — checked`; H23–H25 scorable.
+- Does not: run, reproduce or adapt any technique; test against production surfaces or third-party brands (Lane D rule, Pass 5 detail above); rank capabilities as opportunities; judge feasibility for a builder. The builder-constraint question is answered by recording which capabilities rest on public code and models, never by a verdict.
+
+**Re-runs — what counts as qualified this time.** Source: `STATE.md` line 176, reason: User: "apply review-2 and then rerun whatever tasks failed to qualified"; queue rows lines 25, 26, 29.
+
+- **P8-r.** Scope, line 25: the 8 blank high-CPA cells; unrun S2, S3, S9, S10; skincare S4, S6, S12; B2B SaaS S5, S6 with paid and agentic terms. Qualified when: all 27 cells read spend, attention or `none — checked` under the `demand-signals.md` cell-read rule; every signal named in "Demand signals — none rule, 2026-09-23" is run or `n/a` by construction; strict and loose readings report the same count, or both are reported with the differing cells named; a channel still blocked after browser retry has a `blocked-channels.md` row and its cell reads blocked, not exhausted.
+- **P4-r.** Scope, line 26: Reddit, G2, sec.gov, ~107 unchecked brand pages (`raw/e-case-census-c7-2026-09-22.md`), 25 unopened titles; metric-moved experimental cases only. Qualified when: every opened case carries `grade_raw`, `grade_rule1` and the evidence-quality fields; every brand page reads corroborates, contradicts or silent, with URL; every unopened title is opened or recorded unreachable; screened and cleared counts stated per vertical and per channel; blocked channels logged.
+- **P9-r.** Scope, line 29. Qualified when: every re-evidenced claim cites a new dated raw file at tier 3 or better; the tier-3 share is recounted on both the Pass 9 and review-1 lists, each reported three ways per "Tier-3 share — reporting splits, 2026-09-23" and itemised file:claim; H17 onward scored where the producing pass landed, `not produced` otherwise; prior marks kept beside new ones.
+
 ## Staleness rule
 
 Engines change monthly. Any `raw/` pull older than one quarter at the time a compiled file cites it is re-checked first, and the re-check dated. Competitor profiles older than one quarter are stale per `scope.md`. Every compiled file states the oldest pull it depends on.
@@ -313,6 +429,29 @@ Cap 10 live agents machine-wide per user 2026-09-22 22:30, superseding line 244.
 
 Line 244 as numbered at review time is the sentence opening this section: "Per `projects/ORCHESTRATION.md`: hard cap of 3 concurrent agents machine-wide, main thread is scheduler and does not count." That line is not edited; this note supersedes it. Companion append: `projects/ORCHESTRATION.md` "Concurrency cap — revised by the user 2026-09-22". Source: `plan-review-1-2026-09-22.md` §7.
 
+### Orchestration — browser and search revision, 2026-09-23
+
+Per `STATE.md` §Decisions taken lines 179–180, reasons: User: "Allow chrome extension and browser access", "I allow 5000+ websearch budget now"; User: "if any channels require registration then feedback to user"; "append to blocked list for human to review". The Pass 10 row in the table above is not edited.
+
+- Browser allowed for every agent, including channels blocked on 2026-09-22: extension `ext`, Playwright `pw`.
+- One `ext` holder at a time; the extension is one shared browser. One `pw` holder at a time, per cap revision 1 above.
+- WebSearch budget: 5000+ calls.
+- A channel needing registration or paid credentials gets a row in `docs/method/blocked-channels.md`, owned by R-BLOCKED. It is never worked around by guessing; the cell or claim it would feed reads `unknown — blocked, see blocked-channels.md`.
+
+`blocked-channels.md` columns:
+
+| Column | Holds |
+|---|---|
+| channel | Name, with `sources/channels.md` code if any |
+| URL | The URL tried |
+| what was needed | Data or document sought |
+| block type | registration, paid, login, WAF, rate limit, other |
+| credential that would unblock | Account or subscription named |
+| status | open, unblocked, dropped |
+| date | Absolute date of the attempt |
+
+Cap in force is the latest cap line in `STATE.md` §Decisions taken; as read 2026-09-23, line 169: 3 live agents. `plan.md` line 312 (10) and `MegaPlan.md` line 32 (3) are not edited; the STATE line governs where they differ (`plan-review-2-2026-09-23.md` §6, last row).
+
 ## Programme done — evidence conditions only
 
 No dates, no budgets. The programme is done when every row holds.
@@ -325,6 +464,31 @@ No dates, no budgets. The programme is done when every row holds.
 | Success stories | At least one Silver per vertical, or documented absence with screened count |
 | Hypotheses | Every H scored confirmed, killed, or unresolved with the channel checked |
 | Pass 10 | At least three pre-registered predictions checked against the panel |
+
+### Programme done — arithmetic note 1, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §1 and §8(a), line 106. Verbatim:
+
+While the Pass 10 hold stands, the Hypotheses row has a ceiling of 17 of 23 and the Pass 10 row 0 of 3; neither is reachable. The tier-3, segment-matrix, P1-cell and success-story rows are reachable by internet pulls. Each done-row status names both counts where two exist. Source: `plan-review-2-2026-09-23.md` §1.
+
+### Tier-3 share — reporting splits, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §2 and §8(b), line 107. Verbatim:
+
+Bar unchanged at 80%. Every count reports three figures: all load-bearing claims; claims excluding the Lane E case corpus; claims excluding meta-claims with no raw tier. Every count itemises its claims file:claim so a second count can be diffed against it. Source: review-2 §2.
+
+### Programme done — addition 2026-09-23
+
+Per `STATE.md` §Decisions taken lines 174–178. The table above is not edited; these rows extend it, and the Pass 10 row's status wording is fixed.
+
+| Condition | Bar |
+|---|---|
+| Pass 10 | Status reads "skipped by owner"; 0 of 3, not reachable while skipped |
+| Pass 12 | P1 engine × {inventory, price, advertiser count, revenue}: number or `unknown — checked` |
+| Pass 13 | Sub-market × {user-count trend, forecast, bottom-up floor}: filled or `unknown — checked` |
+| Pass 14 | Screened count stated; each kept paper tiered per `trust-rubric.md` |
+
+Hypotheses row: with H17–H25 registered (`hypotheses.md` "Additions 2026-09-23"), the row counts 32. HE2, HE3, HP1–HP4 stay `not produced` under the skip; the row reports scored-of-32 with those six named, and cannot hold in full while Pass 10 is skipped.
 
 ## Known failure modes
 
@@ -344,6 +508,47 @@ Each is scheduled against, not hoped away.
 | Attention read as demand | Signal catalogue separates attention from spend. Cell read is one word |
 | Lane D drifts into doing the thing | Constraint stated in Pass 5 detail. Review agent checks it |
 | Research drifts into execution planning | `MegaPlan.md` non-goals. Any file naming a date, budget, or build step is cut |
+
+### Known failure modes — addition 1, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §6 and §8(f), line 111. Rows verbatim:
+
+| Risk | Mitigation |
+|---|---|
+| Search budget exhausted | briefs carry seed URLs and substitute endpoints |
+| Filing host blocked | filing via relay is tier 5, via IR copy tier 3, never tier 2 |
+| Channel blocked | done rows mark blocked, not exhausted |
+| Paraphrased or summarised pull | raw header `verbatim: partial`, no compiled quote from that part |
+| Raw file edited after landing | re-pulled as a new dated file, old kept |
+| Count untraceable | every count cites the raw line it sums |
+| Tier misread | briefs state lower tier number is stronger |
+| Cap figures disagree | STATE decision line is the cap in force |
+
+### Known failure modes — addition 2, 2026-09-23
+
+Per `plan-review-2-2026-09-23.md` §6, lines 75–85, and `STATE.md` §Decisions taken line 182, reason: "User feedback 4". Maps each of the nine §6 debts to the row carrying it; rows A–G are added where addition 1 carries a debt only in part.
+
+| §6 debt, review-2 line | Carried by |
+|---|---|
+| WebSearch calls exhausted, 77 | addition 1 row 1; row A |
+| sec.gov 403 then 503, 78 | addition 1 row 2; row B |
+| G2, Capterra, Reddit, Indeed, Upwork, Trends blocked, 79 | addition 1 row 3; row C |
+| MozCon abstracts paraphrased, 80 | addition 1 row 4; row D |
+| WebFetch summarises, 81 | addition 1 row 4; row E |
+| S7 Coty raw edited after creation, 82 | addition 1 row 5; row F |
+| Untraceable counts, 83 | addition 1 row 6, in full |
+| P8 censuses read tier-5 floor as ceiling, 84 | addition 1 row 7; row G |
+| Cap: two figures in force, 85 | addition 1 row 8; Orchestration revision 2026-09-23 |
+
+| Risk | Mitigation |
+|---|---|
+| A — WebSearch calls run short again | WebSearch budget 5000+ per `STATE.md` line 179; exhaustion logged in STATE |
+| B — sec.gov still refuses fetch | Browser retry first; failure gets a `blocked-channels.md` row |
+| C — Channel needs an account or payment | `blocked-channels.md` row; cell reads blocked; never guessed around |
+| D — Source bars verbatim copy (copyright) | Raw marks paraphrase, keeps URL; compiled files cite, never quote |
+| E — WebFetch returns a summary, not text | Browser pull where quoted text is load-bearing; header names method |
+| F — Raw edit goes unnoticed | Main-thread verify checks raw files unchanged since landing commit |
+| G — Tier floor read as ceiling | Brief text: named tier is a floor; higher tiers sought first |
 
 ## Out of this plan
 
