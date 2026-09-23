@@ -12,7 +12,7 @@ Cap 3 from 2026-09-23 resume (run prompt hard rule; see decisions). Browser: one
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| REVIEW-2 | Opus | Plan improvements after nine passes + director-level reporting spec and evidence-only executive brief (user request 2026-09-23) | `docs/method/plan-review-2-2026-09-23.md`, `docs/findings/executive-brief-2026-09-23.md` | 2026-09-23 |
+| REVIEW-2b | Opus (same agent, continued) | Add Pass 11 row to executive brief, replace its last caveat | `docs/findings/executive-brief-2026-09-23.md` | 2026-09-23 |
 
 ## Queue
 
@@ -116,6 +116,7 @@ Front first. Order per `plan-review-1-2026-09-22.md` §1 (2026-09-22 22:40 user 
 | **Pass 9 done** | four findings + review-1 + amendments; hypotheses 4 confirmed / 3 killed / 8 unresolved / 8 not produced; tier-3 share 68.0% (P9) and 44.4% (review-1) both stand; 0 Gold, 7 raw Silver (1 under grading rule 1 literal) | 2026-09-23 | bd62e6f |
 | P11 | `docs/findings/transition-evidence.md` (92 lines); 108 cases (70 Pass 4 Bronze+, 23 Pass 8 signal rows, 15 llms.txt domains), 99 name a change: content ops 63, stack 58, other 19, org 12, paid 2; H10 confirmed (28 vs 2 at tier ≤3; 13 vs 2 excl. llms.txt), H11 confirmed (e.l.f., Pennylane, Cigna, tier 3) with Pass 9 killed and review-1 not produced beside; 14 grouped rows hold 93 cases (budget flag) | 2026-09-23 | 91c8059 |
 | **Pass 11 done** | transition-evidence.md; Pass 10 hold recorded per plan.md hold note | 2026-09-23 | 91c8059 |
+| REVIEW-2 | `docs/method/plan-review-2-2026-09-23.md` (119): 4 of 6 done rows can still move while Pass 10 held; tier-3 shortfall decomposed (8 case-corpus, 1 forecast, 3 third-party, 3 meta); grading rule 1 append; Pass 10 one date closes HE2, HP1, HP3, HP2/HP4 need two; 7 appends §8 a–g. `docs/findings/executive-brief-2026-09-23.md` (69): 22 metric rows, all sourced, no verdict, 4 owner questions | 2026-09-23 | PENDING |
 | P2-c4 Google platform | 13 pulls `docs/raw/{a,b,c}-google-*` + `b-google-platform-summary-2026-09-22.md`; Gemini app ad format unknown | 2026-09-22 | edd2725 |
 
 ## Landed — pending verify
@@ -194,3 +195,5 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | Success stories | One Silver per vertical, or documented absence with screened count | met — raw grades: B2B SaaS and high-CPA on the Silver arm, skincare on absence (~133 screened); grading rule 1 literal: all three on the absence arm (~133 / ~100 / 34 screened) |
 | Hypotheses | Every H confirmed, killed, or unresolved with channel checked | partial — 17 of 23 scored (Pass 11 adds H10, H11 confirmed; review-1 4 / 3 / 8 and Pass 9 6 / 6 / 4 both stand); 6 `not produced` (HE2, HE3, HP1–HP4 held with Pass 10) |
 | Pass 10 | Three pre-registered predictions checked against the panel | not met — 0 of 3; panel held by user 2026-09-22 22:40, gap recorded |
+
+**REVIEW-2 landed 2026-09-23.** `docs/method/plan-review-2-2026-09-23.md` (119 lines, budget 120); `docs/findings/executive-brief-2026-09-23.md` (69 lines, budget 70). 0 pulls. Appends proposed: 7, all to `plan.md` (review-2 §8 a–g: done-row arithmetic, tier-3 reporting splits with bar unchanged, grading rule 1 reading fixed with both grades kept, Pass 10 closure map, `none` rule / n/a-by-construction, 8 failure-mode rows, reporting layer). Brief numbers: 22 table rows + 3 inline (6 of 7 spend on S1; 68.0% / 44.4%; day-0 run counts), each with a compiled or raw path. Sourcing notes: assistant-share figures cited from `plan.md` reweight 1 (method file carrying raw paths; no compiled file holds them); Profound round cited via `competitors/profound.md` + raw (tier 3 per raw); OpenAI $1B run-rate row added beyond the brief's list (from `markets/paid-placement.md`). Nothing left out for lack of a source. Execution-word grep: only hits are the path `organic-recommendation.md` and the programme question's "recommendation". `findings/transition-evidence.md` not read. Blockers: none.
