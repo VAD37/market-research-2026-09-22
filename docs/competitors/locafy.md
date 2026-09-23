@@ -76,3 +76,16 @@ No claim clears the bar — 9 claims screened, 0 cleared, as of 2026-09-22. Eigh
 - Revenue is in AUD and is group-level across SEO and AEO; no figure isolates the AI-visibility product, and the 10,000+ customer claim is undated and un-split by product.
 - Testimonial and dashboard figures are vendor-reported with no baseline, engine or measurer; the homepage's illustrative business is fictional and is not evidence of a customer.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 16 | Poseidon AEO SaaS platform, launch targeted July 2026 | 5 → 2 | `raw/b-sec-locafy-6k-2026-07-01-2026-09-23.md` (Exhibit 99.1, Business Highlights, Management Commentary) |
+| 28, 37 | revenue AUD 3.11M nine months FY2026, +31%; subscription AUD 3.0M, +36% | 5 → 2 (table: 3,110,855 vs 2,374,121, A$) | same file |
+| 29, 38 | net loss AUD 2.24M, improved $1.3M or 36%; cash A$1,441,709; total capitalization A$4,739,268 | 5 → 2 (loss before income tax (2,243,739); capitalization table as of 2026-03-31) | same file; `raw/b-sec-locafy-f3-2026-08-04-2026-09-23.md` |
+| 32 | $100M F-3 shelf; $588,883 ATM with H.C. Wainwright; float ~$7.28M | 5 → 2 | `raw/b-sec-locafy-f3-2026-08-04-2026-09-23.md` |
+| 61 | no AEO-specific revenue | 5 → 2 — "core SEO/AEO product suite", no split in the exhibit | `raw/b-sec-locafy-6k-2026-07-01-2026-09-23.md` |
+| 65 | Primary filings not reached | closed — F-3 and both 6-Ks reached 2026-09-23 | `raw/b-sec-locafy-6k-2025-12-17-2026-09-23.md` and the two above |

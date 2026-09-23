@@ -129,3 +129,12 @@ Advertiser-reported results from Reddit, pulled through the Arctic Shift archive
 **Hypotheses.** H20: no holdout, geo-split, switchback or pre/post-with-control case; RB1b is the nearest — concurrent same-page channel comparison, all seven bar items present on its own page, not a registered design. Mark stands **killed**, near-miss recorded. H17, H18, H19: not moved — Reddit carries no engine disclosure; price relays (RB13; "$1 million upfront", "$250K minimum" in comments) are hearsay, not rate cards.
 
 **Caveats.** Archive copy; posts could be deleted or edited live. Several posters promote products or communities (RB3 Launch10, RB11 ZapDigits, RB15 Nile). Figures are platform-reported unless stated; RB2's figures were confirmed by OpenAI support per the poster's quote. Buyer size is unstated for every row; no row moves a segment cell. Channels not reached: comments outside r/PPC and r/marketing; nine title searches timed out (raw lists them).
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 51 | E13, "search ad revenue ex-TAC +10%" element | 3 → 2 (8-K Exhibit 99.1: "Search advertising revenue excluding traffic acquisition costs increased 10% (up 9% in constant currency)"; no Copilot advertising line) | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`; annual +12% in `raw/b-sec-microsoft-10k-2026-07-29-2026-09-23.md` |
+| 51 | E13, Copilot "fully ramped" / "25% better" element | unchanged 3 (blog) | — |

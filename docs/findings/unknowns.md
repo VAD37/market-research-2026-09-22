@@ -128,3 +128,105 @@ Task P4-r. Full detail: `findings/proof-scorecard.md` §"Pass 4 re-run, 2026-09-
 Marks, updated: H6 moves from `unresolved — checked 8` to a dual mark; H11 moves from `not produced 8` to confirmed.
 
 **Caveats, this append:** H6's confirm rests on a vendor testing a tactic on communities it created, not on a named brand in a tracked vertical; the grade_raw Silvers X5 and X6 (anonymised sites) sit beside it. H11's high-CPA row relies on LendingTree's ChatGPT app (tier 2) or Chime (tier 3, borderline vertical). This file was over its line budget before this append; overrun stated here.
+
+## Tier-3 recount, P9-r, 2026-09-23
+
+Task P9-r. Fetch-only: sec.gov Archives re-fetched with curl (generic User-Agent), HTTP 200 on every URL tried between 06:09 and 06:14 UTC; efts.sec.gov full-text search still 403. Then every load-bearing claim below tier 3 on the Pass 9 list (25) and the review-1 list (27) was re-checked against `raw/*-2026-09-23.md` (204 files at read time).
+
+### sec.gov primaries — 10 queue rows, 14 raw files, 0 failed
+
+| queue row (substitute) | filing reached | raw | carried claim now at |
+|---|---|---|---|
+| `a-changeagents-funding-filing` (t5) | S-1/A No. 3, 2026-09-16 | `raw/b-sec-change-agents-s1a-2026-09-16-2026-09-23.md` | 2; "AWS $125,000" line not in the filing, stays 5 |
+| `a-hubspot-filing` (index only) | 10-K FY2025, 2026-02-11 | `raw/b-sec-hubspot-10k-2026-02-11-2026-09-23.md` | 2 — Item 1 names AEO three times |
+| `a-locafy-funding-filing` (t5) | F-3 2026-08-04; 6-K 2026-07-01; 6-K 2025-12-17 | `raw/b-sec-locafy-f3-2026-08-04-`, `-6k-2026-07-01-`, `-6k-2025-12-17-2026-09-23.md` | 2 |
+| `a-yext-filing` (IR copy, t3) | 8-K Ex. 99.1, 2026-09-01 | `raw/b-sec-yext-8k-ex991-2026-09-01-2026-09-23.md` | 2; text identical to the IR copy |
+| `b-criteo-second-source` (t5) | 10-Q Q2 2026, 2026-08-05 | `raw/b-sec-criteo-10q-2026-08-05-2026-09-23.md` | 2 |
+| `b-microsoft-fy26-q4-release` (IR copy, t3) | 8-K Ex. 99.1 and 10-K, 2026-07-29 | `raw/b-sec-microsoft-8k-ex991-`, `-10k-2026-07-29-2026-09-23.md` | 2; no Copilot ad line in either |
+| `c-feedonomics-second-source` (t5) | 10-Q 2026-08-06; 8-K Ex. 99.1 2026-09-10 | `raw/b-sec-commerce-10q-2026-08-06-`, `-8k-ex991-2026-09-10-2026-09-23.md` | 2 |
+| `c-wix-second-source` (t5) | 6-K Ex. 99.1, 2026-08-04 (20-F checked) | `raw/b-sec-wix-6k-ex991-2026-08-04-2026-09-23.md` | ticker and revenue 2; ChatGPT app and Symphony not in any filing, stay 5 |
+| `e-case-iac-investor-deck` (t2, chart) | 8-K Ex. 99.2, 2026-02-03 | `raw/b-sec-iac-8k-ex992-2026-02-03-2026-09-23.md` | 2 unchanged; text layer only, callout still not reconcilable |
+| `e-spacex-s1a-grok-mau` (t2, digits cut) | S-1/A, 2026-06-03 | `raw/b-sec-spacex-s1a-2026-06-03-2026-09-23.md` | 2 unchanged; figures completed: 1.3 billion accounts; 0.9M / 1.9M SuperGrok subscribers |
+
+### Sub-tier claims re-checked — itemised, both lists
+
+Tiers: Pass 9 as the file stated on 2026-09-22; review-1 as `review-1-2026-09-23.md` §2 recounted; P9-r after this pass. n/a = meta-claim with no raw tier. Raw checked: P4-r `raw/e-case-census-r1-`, `e-case-*-`, `e-case-edgar-fulltext-results-`; P8-r `f-signal-*-`; P12 `b-*-`; P13 `e-*-user-counts-`, `e-market-size-*-`, `a-similarweb-*`, `e-statcounter-*`; P14 `d-paper-*`; R-BLOCKED `*-repull-2026-09-23.md`; the 14 `b-sec-*` files above.
+
+| list | claim | file:line | Pass 9 | review-1 | P9-r | raw path / checked |
+|---|---|---|---|---|---|---|
+| both | C1 no Gold of ~980 | proof:59 | 5 | 5 | 5 | unchanged — `e-case-census-r1` (rows tier 5; 0 Gold in ~1,640 more), `e-case-edgar-fulltext-results` (tier 2, filings name actions, no design) |
+| both | C2 seven Silver, observational | proof:60 | 5 | 5 | 5 | unchanged — X1, X2, X5, X6 raws tier 5; `e-nerdwallet-8k-repull` tier 2 lifts no weakest row |
+| both | C3 two negative or null | proof:61 | 4 | 4 | 4 | unchanged — claim is about the seven Silvers; TW3 tier 4 remains; new negatives (HubSpot, Fortune tier 3) sit in the P4-r append, outside the seven |
+| both | C4 paid-by-outcome 0/0/12 | proof:62 | 5 | 6 | 6 | unchanged — P4-r "0 new cases state fees" |
+| both | C6 anchor 0 Silver | proof:64 | 5 | 5 | 5 | unchanged — P4-r skincare 0 Silver at ~155 |
+| review-1 | success-stories row | proof:53 | — | 5 | 5 | unchanged — absence arm in all three under rule 1; case grades tier 5 |
+| both | C1 cells 7/1/11/8 | demand:76 | 3 | 5 | 5 | unchanged — E1 `f-signal-sk-S4-omr-reviews` tier 5 still the weakest row; P8-r `f-signal-*-2026-09-23` restate cells, not this row |
+| both | C6 compilers differ | demand:81 | 3 | n/a | n/a | unchanged — no raw by construction |
+| both | C2 no measured size | white:59 | 3 | 6 | 6 | unchanged — P13 `e-market-size-*-2026-09-23` tier 5–6; `market-potential.md` C5 tier 6, H16 unresolved |
+| both | C5 llms.txt unread | white:62 | 4 | 4 | 4 | unchanged — only 2026-09-23 raws naming llms.txt are `e-case-otterly-llms-txt-experiment` (tier 5) and census rows |
+| both | C6 two evidence deserts | white:63 | 5 | 5 | 5 | unchanged — supplements first Bronze (Fire&Spark, tier 5); no Silver |
+| both | C8 9 of 9 cells | white:65 | 3 | 5 | 5 | unchanged — Similarweb, Adthena rows (tier 5) still in the ChatGPT × paid cell; P12 tier-3 rows (`b-openai-help-*`, `b-google-ads-help-aio-ads`, `b-alphabet-*`) and tier-2 `b-alphabet-10k-2025-search-revenue` sit beside them, weakest row unchanged |
+| both | C1 hypothesis tallies | unk:68 | 5 | 5 | 5 | unchanged — H3, H6 deciding rows tier 5 |
+| both | C4 two of six done rows | unk:71 | 3 | n/a | n/a | unchanged — findings files only |
+| both | C5 17 of 25 | unk:72 | 1 | n/a | n/a | unchanged — findings files only |
+
+Claims already at tier ≤3 on both lists (not re-checked, tiers as review-1 §2): proof:63 C5 (3); demand:77 C2, :78 C3, :79 C4, :80 C5 (3); white:58 C1, :60 C3, :61 C4, :64 C7 (3); white:17 fee row (3); unk:69 C2, :70 C3 (1). Re-evidenced: 0 of 12 sub-tier claims. The sec.gov primaries move rows in `competitors/` (6 files), `findings/ai-ads-evidence.md` E13 and `markets/paid-placement.md:140` — evidence rows, not claims on either list; each carries a "Tier revisions, P9-r, 2026-09-23" append.
+
+### Recount — six figures beside the three prior ones
+
+| list | count | prior | P9-r 2026-09-23 |
+|---|---|---|---|
+| Pass 9 (25) | all load-bearing | 17 of 25 = 68.0% (2026-09-22 tiers) | 11 of 25 = 44.0% (tiers as the files now state, n/a counted as not ≤3) |
+| Pass 9 (25) | excluding Lane E case corpus (proof C1, C2, C3, C4, C6; white C6; unk C1 = 7) | — | 11 of 18 = 61.1% |
+| Pass 9 (25) | excluding meta-claims without raw tier (demand C6, unk C4, unk C5 = 3) | — | 11 of 22 = 50.0% |
+| review-1 (27) | all load-bearing | 12 of 27 = 44.4% | 12 of 27 = 44.4% |
+| review-1 (27) | excluding Lane E case corpus (the 7 above + proof:53 = 8) | — | 12 of 19 = 63.2% |
+| review-1 (27) | excluding meta-claims (3) | 12 of 24 = 50.0% | 12 of 24 = 50.0% |
+
+The Pass 9 "all" figure falls from 68.0% to 44.0% only because review-1's amendments (demand C1 3→5, white C2 3→6, white C8 3→5, unk C4/C5 →n/a) are now the tiers the files state; no tier moved down in this pass. Bar 80% not met on any of the six.
+
+### Hypotheses — H17–H25, HE, HP, with prior marks side by side
+
+| ID | mark | producing file:line | evidence tier | prior marks |
+|---|---|---|---|---|
+| H17 | **killed** | `ai-ads-evidence.md:74` | 3 | registered `unresolved` 2026-09-23; sec.gov re-fetch: Microsoft 8-K/10-K state search advertising only, no AI-surface line (`raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`) — consistent, no new mark |
+| H18 | **confirmed** | `ai-ads-evidence.md:75` | 3 (Kontext "$3 CPM", network, not an engine) | registered `unresolved` |
+| H19 | **confirmed** | `ai-ads-evidence.md:76` | 3 (Microsoft Advertising into Snap My AI, 2023 page) | registered `unresolved` |
+| H20 | **killed** | `ai-ads-evidence.md:77` | 5 (15 screened, 0 with control) | registered `unresolved` |
+| H21 | **killed** | `market-potential.md:82`, `:84` | 3 (Claude: no dated user count) | registered `unresolved` |
+| H22 | **killed** | `market-potential.md:82`, `:84` | 6 (organic 1.92× ≤ 3) | registered `unresolved` |
+| H23 | **confirmed** | `frontier-scan.md:61` | 3 | registered `unresolved` |
+| H24 | **confirmed** | `frontier-scan.md:62` | 4 | registered `unresolved` |
+| H25 | **confirmed** | `frontier-scan.md:63` | 4 | registered `unresolved` |
+| HE1 | **confirmed** | this file, register row HE1 (2026-09-22); `review-1:33` agree | 3 | Pass 9 confirmed; review-1 confirmed |
+| HE2, HE3, HP1–HP4 | **not produced** ×6 | `hypotheses.md` log additions 2026-09-23 | — | Pass 9 not produced; review-1 not produced; Pass 10 skipped by user 2026-09-23 |
+
+H1–H16, every prior mark side by side (Pass 9 = 2026-09-22 file before amendment; review-1 = `review-1-2026-09-23.md` §1; P8-r, P4-r = appends above; P11 = `STATE.md` Done conditions row; P13/P14 = restated marks in `market-potential.md:84`, `frontier-scan.md:64–65`):
+
+| ID | Pass 9 | review-1 | P8-r | P4-r | P11 / P13 / P14 | P9-r 2026-09-23 |
+|---|---|---|---|---|---|---|
+| H1 | unresolved | unresolved | — | — | — | no change |
+| H2 | confirmed | confirmed | — | — | — | no change |
+| H3 | killed | killed | — | killed — unchanged | — | no change |
+| H4 | killed | killed | killed — reinforced | — | — | no change |
+| H5 | killed | unresolved — checked | — | — | P14: Pass-9 mark stands, confirm side strengthened (t3/4 pre/post) | no change |
+| H6 | confirmed | unresolved — checked | — | confirmed (rule1, narrow) / unresolved (verticals) | — | no change |
+| H7 | unresolved | unresolved | confirmed (loose) / unresolved (strict) | — | — | no change |
+| H8 | confirmed | confirmed | — | — | — | no change |
+| H9 | unresolved | unresolved | confirmed (loose) / unresolved (strict) | — | — | no change |
+| H10 | not produced | not produced | — | — | P11: confirmed | no change |
+| H11 | killed | not produced | — | confirmed — action named; outcome unknown in two of three | P11: confirmed | mark unchanged; B2B SaaS row evidence tier 3 → 2: HubSpot 10-K Item 1, "launched the marketing playbook for the AI era: Loop Marketing… modern tactics such as AEO" (`raw/b-sec-hubspot-10k-2026-02-11-2026-09-23.md`), beside the Fortune op-ed (tier 3) |
+| H12 | unresolved | unresolved | — | — | — | no change |
+| H13 | confirmed | confirmed | — | — | P14: stands, dated P1 statements added | no change |
+| H14 | killed | killed | — | — | — | no change |
+| H15 | killed | unresolved — checked | — | — | — | no change |
+| H16 | confirmed | unresolved — checked | — | — | P13: unresolved — checked | no change |
+
+Marks now carried, every H: confirmed H2, H8, H13, HE1, H10, H11, H18, H19, H23, H24, H25 (plus H6, H7, H9 dual); killed H3, H4, H14, H17, H20, H21, H22; unresolved — checked H1, H5, H12, H15, H16 (plus H6, H7, H9 dual); not produced HE2, HE3, HP1–HP4. Programme-done Hypotheses row: 26 of 32 scored; 6 `not produced`, not reachable while Pass 10 is skipped.
+
+### Caveats, this append
+
+- Not re-checked: the 12 claims already at tier ≤3 (tiers taken from review-1 §2); the review-1 line numbers were verified unchanged in `proof-scorecard.md`, `demand-map.md`, `whitespace.md` and this file on 2026-09-23. `demand-map.md`'s P8-r restated tallies and `proof-scorecard.md`'s P4-r restated claims are new rows, not on either list, and are not counted.
+- sec.gov: 0 fetches failed; efts.sec.gov full-text search 403 (not needed — filings located through `data.sec.gov/submissions/`). HubSpot's revenue and headcount passages were not extracted (outside the carried claim). The Wix ChatGPT-app claim has no filed primary; the Change Agents "AWS $125,000" line has none.
+- Recount "all" counts n/a meta-claims as not at tier 3; a reader treating n/a as excluded reads the ex-meta row. Lane E case corpus membership follows `plan-review-2-2026-09-23.md` §2's decomposition (8 case-corpus, 1 forecast, 3 third-party, 3 meta).
+- H17–H25 marks are copied from the producing files, not re-scored here; H18 and H19 confirm outside P1 engines (`ai-ads-evidence.md:98`). This file was over budget before this append; overrun stated here. Evidence, not a verdict.

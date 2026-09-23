@@ -78,3 +78,12 @@ No claim clears the bar — 0 claims screened, 0 cleared, as of 2026-09-22. P3-c
 - "GEO" appears in the Gemini item's feature list, a lane A crossover; the profile stays lane C per the census mapping.
 - `docs/markets/agentic-commerce.md` had not landed at profile date, so no market file is cited for engine context.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 31 | Nasdaq: WIX | 5 → 2 | `raw/b-sec-wix-6k-ex991-2026-08-04-2026-09-23.md` |
+| 17, 36, 42, 63 | Wix app in ChatGPT; Gemini connected app; Symphony | unchanged 5 — not in the 6-K of 2026-08-04, the 20-F of 2026-03-05, or any 6-K on the SEC submissions index read 2026-09-23 | same file, pull notes |

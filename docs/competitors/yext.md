@@ -78,3 +78,12 @@ Category-level method, separate from Scout's own: Yext Research, "155.5 million 
 - Conflicting or unresolved items kept as found: `yext.com/scout` (without `/platform/`) resolves to an unrelated newer product, "Corvo"; the Scout page's FAQ and three footnote markers did not render and their content is unknown.
 - Layer mismatch: $111.1M revenue and $440.8M ARR are group figures for a multi-product company with no Scout breakout; named customers are logos, not a count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 28, 36 | revenue $111.1M; ARR $440.8M; Adjusted EBITDA $34.0M, 31%; EPS $0.13 — Q2 FY2027 | 3 → 2 (filed 8-K Exhibit 99.1, text identical to the IR copy) | `raw/b-sec-yext-8k-ex991-2026-09-01-2026-09-23.md` |
+| 31 | GoShine acquisition completed, consideration not disclosed | 3 → 2 | same file |

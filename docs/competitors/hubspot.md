@@ -78,3 +78,12 @@
 - Conflicting figures kept side by side, unreconciled: ¥6,000/mo vs "$50/mo" for the standalone SKU; and the OMR case's 700,000-visitor baseline is the German blog while the 30–40% loss is Latin American keywords.
 - Layer mismatch: HubSpot is a multi-product public company and no revenue figure of any layer was retrieved, so nothing sizes the AEO product; named customers are logos, not a count.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 29 | Revenue or ARR — `unknown`; filing index only | index tier 3 → 10-K reached, tier 2; revenue passage not extracted this pull, row stays `unknown — checked` pending a figure pull | `raw/b-sec-hubspot-10k-2026-02-11-2026-09-23.md` |
+| 68 | "the filing text naming AEO was never opened" | closed — 10-K Item 1 names "SEO, AEO" (Marketing Hub), "modern tactics such as AEO" (Marketing and Sales), "AEO and AI-native marketing capabilities" (competition factors), tier 2 | same file |

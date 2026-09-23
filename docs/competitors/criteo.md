@@ -78,3 +78,13 @@ No claim clears the bar — 5 claims screened, 0 cleared, as of 2026-09-22 (`raw
 - Layer mismatch: company revenue stands in for the ChatGPT-adjacent product; "thousands of brands" stands in for a customer count.
 - Engine context is read from `markets/paid-placement.md` only; no figure there is recomputed here.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 28, 37, 62 | revenue $428M Q2 2026, −11%; gross profit $222M; Contribution ex-TAC $255M | 5 → 2 (10-Q: $428.0M (11)%; $222.2M (14)%; $255.5M (13)%) | `raw/b-sec-criteo-10q-2026-08-05-2026-09-23.md` |
+| 32 | NASDAQ: CRTO | 5 → 2 | same file |
+| 16 | "AI full-funnel ads reach 2B shoppers…" | unchanged — criteo.com line, not in the 10-Q | same file, pull notes |

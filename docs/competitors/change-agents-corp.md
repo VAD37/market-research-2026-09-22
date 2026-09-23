@@ -75,3 +75,17 @@ No claim clears the bar — 1 claim screened, 0 cleared, as of 2026-09-22. The o
 - All product, engine and score claims are vendor-reported for a product its own homepage calls pre-launch.
 - Layer mismatch: every financial figure is company-wide and covers a biotech-to-AI pivot plus a consumer-health line; none is attributable to the AI-visibility product.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 17 | Catch-Up agentic video studio; Phase 2 with AWS and Caylent | 5 → 2 | `raw/b-sec-change-agents-s1a-2026-09-16-2026-09-23.md` (Prospectus Summary, "Catch-Up Phase 2 Development") |
+| 27 | Revenue or ARR — no product figure | 5 → 2, still no product figure in the S-1/A | same file |
+| 28, 62 | net losses ~$17.5M 2025; ~$172,000 cash 2026-09-11; ~$2.7M debt; going concern | 5 → 2 | same file (Risk Factors) |
+| 31 | $10M ELOC, Hudson Global Ventures, $2.00/share | 5 → 2 | same file ("ELOC Purchase Agreement") |
+| 31 | "AWS gave $125,000 project funding" | unchanged 5 — not found in the S-1/A or the 10-Q; every $125,000 there is a note or warrant amount | same file, pull notes |
+| 36 | 1-for-20 reverse split; 21,071,803 shares | 5 → 2 (filing: effective 2026-08-28 4:01 p.m. ET, not 2026-08-31) | same file |
+| 63 | Primary filings not reached | closed — S-1/A No. 3 and 10-Q reached 2026-09-23 | same file |

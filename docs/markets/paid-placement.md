@@ -202,3 +202,11 @@ Per `../method/plan.md` Pass 13. Compiled read: `../findings/market-potential.md
 | Forecast spread | 2030: ~20× (EMARKETER US chatbot "just over $5 billion" to WPP/OpenAI $100B+, scopes differ); 2029: 2.05× | 2029, 2030 | analyst-derived, 5 | same, plus `raw/e-market-size-emarketer-*-2026-09-22.md` |
 
 **Caveats — Pass 13 addition.** This append takes the file past its 120-line budget; overrun recorded here. The 0.45% ratio compares a run rate with a fiscal year. Pass 12 (`findings/ai-ads-evidence.md`) was live in parallel and is not read here. MAGNA's 2025 figure is stale; its 2026 editions were not located.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 140 | Microsoft FY26 Q4, search ad revenue ex-TAC +10%, no Copilot line | 3 → 2 (filed 8-K Exhibit 99.1; the 10-K renames the line "Search advertising (formerly Search and news advertising)", FY +12%) | `raw/b-sec-microsoft-8k-ex991-2026-07-29-2026-09-23.md`; `raw/b-sec-microsoft-10k-2026-07-29-2026-09-23.md` |

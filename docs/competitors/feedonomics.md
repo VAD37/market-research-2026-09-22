@@ -77,3 +77,14 @@ No claim clears the bar — 22 claims screened, 0 cleared, as of 2026-09-22 (`ra
 - Layer mismatch: group revenue stands in for product revenue; named logos stand in for a paying-customer count; group logos may be BigCommerce storefront customers.
 - `docs/markets/agentic-commerce.md` had not landed at profile date, so no market file is cited for engine context.
 - Category turnover is fast; this profile is stale one quarter after 2026-09-22.
+
+## Tier revisions, P9-r, 2026-09-23
+
+sec.gov Archives re-fetched 2026-09-23 (HTTP 200; 403 on 2026-09-22). Rows above are not edited; each row below sits beside its original.
+
+| line | row | tier revised 2026-09-23 | raw |
+|---|---|---|---|
+| 27 | revenue guidance $336.5M–$344.5M, 2026 | 5 → 2 | `raw/b-sec-commerce-8k-ex991-2026-09-10-2026-09-23.md` |
+| 31 | Nasdaq: CMRC; $50M buyback to 2028-09-10 | 5 → 2 | same file |
+| 36 | Q2 2026 revenue $84.5M, +0.1% | 5 → 2 for $84,511 thousand vs $84,433 thousand; "+0.1%" is StockTitan's arithmetic, not printed in the 10-Q | `raw/b-sec-commerce-10q-2026-08-06-2026-09-23.md` |
+| 62 | no Feedonomics-level revenue | 5 → 2 — "Subscription solutions include revenue from Feedonomics", no subsidiary line | same file |
