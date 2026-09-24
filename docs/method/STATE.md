@@ -12,9 +12,15 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| — | — | none live; P15 R0–R9 landed 2026-09-24 | — | — |
+| P15-deck-R1-pyramid-principle | opus | R1-pyramid-principle brief → PDF deck | `runs/R1-pyramid-principle/deck/`, `findings/deck-R1-pyramid-principle-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R2-minto-pyramid | opus | R2-minto-pyramid brief → PDF deck | `runs/R2-minto-pyramid/deck/`, `findings/deck-R2-minto-pyramid-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R3-strategy-communicator | opus | R3-strategy-communicator brief → PDF deck | `runs/R3-strategy-communicator/deck/`, `findings/deck-R3-strategy-communicator-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R4-structure-synthesize | opus | R4-structure-synthesize brief → PDF deck | `runs/R4-structure-synthesize/deck/`, `findings/deck-R4-structure-synthesize-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R5-knowledge-synthesis | opus | R5-knowledge-synthesis brief → PDF deck | `runs/R5-knowledge-synthesis/deck/`, `findings/deck-R5-knowledge-synthesis-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R6-deliverable-creation | opus | R6-deliverable-creation brief → PDF deck | `runs/R6-deliverable-creation/deck/`, `findings/deck-R6-deliverable-creation-2026-09-24.pdf` | 2026-09-24 |
+| P15-deck-R7-decision-memo | opus | R7-decision-memo brief → PDF deck | `runs/R7-decision-memo/deck/`, `findings/deck-R7-decision-memo-2026-09-24.pdf` | 2026-09-24 |
 
-Slots free: 7 of 7. P15 runs R0–R9 landed 2026-09-24; judge next. Earlier: P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
+Slots free: see table. P15 runs R0–R9 landed 2026-09-24; judge dropped by user 2026-09-24, deck round P15-deck live. Earlier: P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
 
 ## Queue
 
@@ -24,7 +30,9 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 |---|---|---|---|---|
 | RP2-B-110 | repull | sonnet | Adobe Q3 report PDF pp. 13–53 (queue row 110) — needs `ext`; extension not connected 2026-09-23 | raw + `agentic-commerce.md` append |
 | P15 wave 1 resume, wave 2 | 15 | Opus ×11 | done 2026-09-24: R0, R0b (snapshot reads), R1–R9 (fact pack) — see Landed | `runs/R0…R9/` |
-| P15 judge | 15 | Opus | Blind scoring of R0–R10 (R10 = BRIEF-4 director brief r2 copied); `scoresheet.csv` rows `scorer=judge`; `judge/verdict.md`; then `findings/brief-method-eval-2026-09-23.md` | `judge/`, `scoresheet.csv`, finding |
+| P15 judge | 15 | — | Dropped by user 2026-09-24 ("Do we not run the judge"); replaced by P15-deck | — |
+| P15-deck wave A | 15 | Opus ×7 | R1–R7: each run's brief → PDF presentation via its repo's deck skill; `runs/<id>/DECK-PROMPT.md` from `brief-bakeoff/deck-instruction.md` | `runs/<id>/deck/`, `findings/deck-<id>-2026-09-24.pdf` |
+| P15-deck wave B | 15 | Opus ×4 | R8, R9, R0, R0b, same instruction, after wave A frees slots | as wave A |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
 ## Landed
@@ -262,6 +270,7 @@ Agents append one block here (or at end of file) on finish: deliverable path, pu
 | 2026-09-24 | Cap lifted for the R1–R9 wave: all nine spawn at once after the pack merges | User: "i approve subagents increase this time to run all pack block to build brief from R1-R9 right away" |
 | 2026-09-24 | Word cap tolerance: body up to 20% over 1,200 (`wc -w`, tables included) passes contract check C2 | User: "small 20% gap of word count is within reasonable" |
 | 2026-09-24 | Judge mechanical columns (words, process_leak, glossary, invented) filled by `brief-bakeoff/check-runs.py`; judge scores the rest | User: "subagents improve judge script mechanical checks too" |
+| 2026-09-24 | Final bake-off output is a PDF presentation per run, not a judged brief. Judge dropped. Each run's brief becomes a deck built with its method repo's deck skill (control R0/R0b: baseline template only), HTML with inline SVG rendered to PDF by headless Chrome, visual QA by reading the PDF; PDFs to `findings/deck-<run>-2026-09-24.pdf`, sources in `runs/<id>/deck/`. R10 (BRIEF-4) not re-decked: no method skill, `.pptx` exists | User: "I want pdf file as final output as presentation … brief is missing presentation power"; "Do we not run the judge. make prompt and subagents foreach brief … all brief presentation go to findings/" |
 
 ## Open decisions — owner
 
