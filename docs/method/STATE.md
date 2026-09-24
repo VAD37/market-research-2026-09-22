@@ -4,7 +4,7 @@ Created 2026-09-22. The only interface between sessions and between agents. Upda
 
 ## Current pass
 
-Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15 bake-off paused 2026-09-23: wave 1 resume queued (see §Queue). Maintenance round 2026-09-23 closed: CLEANUP-1, REPULL-AUDIT-2, GAP-SK, GAP-IND, RP2-A, RP2-B, RECOUNT-2, COMPRESS-C/F1/F2/M/CU, AMEND-4 landed. Orphan gap round 2026-09-24 closed: GAP-LIT, GAP-B, GAP-D, GAP-ACEF landed; snapshot index + `raw/CLAUDE.md` built. Open: RP2-B-110 (needs `ext`); compression beyond anchor floors (owner). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
+Passes 0–9, 11–14 and 16 done; Pass 10 skipped; IMG-1 and BRIEF-4 landed. Pass 15: runs R0–R9 landed 2026-09-24; judge dropped by user; each brief rendered as a PDF deck, 11 in `findings/deck-*-2026-09-24.pdf`. Maintenance round 2026-09-23 closed: CLEANUP-1, REPULL-AUDIT-2, GAP-SK, GAP-IND, RP2-A, RP2-B, RECOUNT-2, COMPRESS-C/F1/F2/M/CU, AMEND-4 landed. Orphan gap round 2026-09-24 closed: GAP-LIT, GAP-B, GAP-D, GAP-ACEF landed; snapshot index + `raw/CLAUDE.md` built. Open: RP2-B-110 (needs `ext`); compression beyond anchor floors (owner). Reader entry points: `findings/executive-brief-2026-09-23-r2.md`, `findings/director-brief-2026-09-23-r2.md` (+ `.pptx`). The un-suffixed 2026-09-23 briefs stay as the bake-off's failed-brief input.
 
 ## Live agents
 
@@ -12,15 +12,9 @@ Cap 7 and models per `projects/ORCHESTRATION.md` §In force (user 2026-09-23: "c
 
 | id | model | task | deliverable | spawned |
 |---|---|---|---|---|
-| P15-deck-R1-pyramid-principle | opus | R1-pyramid-principle brief → PDF deck | `runs/R1-pyramid-principle/deck/`, `findings/deck-R1-pyramid-principle-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R2-minto-pyramid | opus | R2-minto-pyramid brief → PDF deck | `runs/R2-minto-pyramid/deck/`, `findings/deck-R2-minto-pyramid-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R3-strategy-communicator | opus | R3-strategy-communicator brief → PDF deck | `runs/R3-strategy-communicator/deck/`, `findings/deck-R3-strategy-communicator-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R4-structure-synthesize | opus | R4-structure-synthesize brief → PDF deck | `runs/R4-structure-synthesize/deck/`, `findings/deck-R4-structure-synthesize-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R5-knowledge-synthesis | opus | R5-knowledge-synthesis brief → PDF deck | `runs/R5-knowledge-synthesis/deck/`, `findings/deck-R5-knowledge-synthesis-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R6-deliverable-creation | opus | R6-deliverable-creation brief → PDF deck | `runs/R6-deliverable-creation/deck/`, `findings/deck-R6-deliverable-creation-2026-09-24.pdf` | 2026-09-24 |
-| P15-deck-R7-decision-memo | opus | R7-decision-memo brief → PDF deck | `runs/R7-decision-memo/deck/`, `findings/deck-R7-decision-memo-2026-09-24.pdf` | 2026-09-24 |
+| — | — | none live; P15-deck R0–R9 landed 2026-09-24 | — | — |
 
-Slots free: see table. P15 runs R0–R9 landed 2026-09-24; judge dropped by user 2026-09-24, deck round P15-deck live. Earlier: P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
+Slots free: 7 of 7. P15 runs R0–R9 landed 2026-09-24; judge dropped by user 2026-09-24; P15-deck landed 2026-09-24: 11 PDFs `findings/deck-*-2026-09-24.pdf`. Earlier: P15 wave 1 paused 2026-09-23 (user: "pause all agents and save work"); wave 2 and judge follow the wave 1 resume. Snapshot index `method/snapshot-index.md` regenerated after each landing commit (run-prompt Revision 2).
 
 ## Queue
 
@@ -31,8 +25,7 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | RP2-B-110 | repull | sonnet | Adobe Q3 report PDF pp. 13–53 (queue row 110) — needs `ext`; extension not connected 2026-09-23 | raw + `agentic-commerce.md` append |
 | P15 wave 1 resume, wave 2 | 15 | Opus ×11 | done 2026-09-24: R0, R0b (snapshot reads), R1–R9 (fact pack) — see Landed | `runs/R0…R9/` |
 | P15 judge | 15 | — | Dropped by user 2026-09-24 ("Do we not run the judge"); replaced by P15-deck | — |
-| P15-deck wave A | 15 | Opus ×7 | R1–R7: each run's brief → PDF presentation via its repo's deck skill; `runs/<id>/DECK-PROMPT.md` from `brief-bakeoff/deck-instruction.md` | `runs/<id>/deck/`, `findings/deck-<id>-2026-09-24.pdf` |
-| P15-deck wave B | 15 | Opus ×4 | R8, R9, R0, R0b, same instruction, after wave A frees slots | as wave A |
+| P15-deck | 15 | Opus ×11 | done 2026-09-24: R0–R9 decks, see Landed | `findings/deck-*-2026-09-24.pdf` |
 | P10-* , P10-analysis | 10 skipped | — | Skipped by user 2026-09-23; day-0 gap stays recorded, never back-filled | — |
 
 ## Landed
@@ -179,6 +172,18 @@ Front first. Resumed 2026-09-23. Usage guard: read the token counter before each
 | Snapshot index + raw guide (main thread) | `method/gen-snapshot-index.py` → `snapshot-index.csv/.md`; `raw/CLAUDE.md`; pointer in `docs/CLAUDE.md` §raw; `run-prompt.md` Revision 2; `method/orphan-audit-2026-09-24.md`. Cite match accepts stem without date suffix after GAP-B/ACEF found 19+ such cites | 2026-09-24 | see commit |
 | P15 baseline R0, R0b (opus finish of Fable draft + paused Opus) | `brief-bakeoff/runs/R0-baseline/`, `runs/R0b-baseline-repeat/`: brief, notes, trace. R0: body 1,194 words, 119 trace rows, 4 unknown. R0b: body 1,179 words, 128 rows, 8 unknown. Contract C1–C9: all pass except C3 partial (draft model logged as `<synthetic>` per digest, not `claude-fable-5-1`) both runs; C8 R0 "IAC" (company name) undefined. R0b sent back once on C2 (1,330 words); user then allowed ≤20% over; stopped mid-trim, trace re-synced. Evidence from `.bakeoff-snapshot/8badc05/` (untracked) | 10/10 trace rows each verified in snapshot | see commit |
 | P15 runs R1–R9 (opus; R1–R6 resumed from Fable draft + paused Opus, R7–R9 fresh) | `brief-bakeoff/runs/R1…R9/`: brief, notes, trace; scratch (R2 `body.md`, R5 `_body.tmp`/`_appendix.tmp`) deleted. Body words 1,185–1,198; trace rows R1 278, R2 252, R3 236, R4 130, R5 148, R6 240, R7 164, R8 198, R9 198; unknown counts 1–4. `check-runs.py` over all 11 runs: 0 forbidden cites, 0 verdict-push hits, 0–1 process leaks, every unverified trace row a source date / tier / path line / total not printed on the cited line; C5 send-backs once each: R1 (5 rows without path, from escaped pipes in pack), R4 (2 rows with raw pipes) — both fixed. Fact pack parts A–F kept untracked in `fact-pack/` (merged file is tracked). Script fixes: appendix heading rule, bullet/bold glossary parse | all trace rows machine-checked against snapshot | see commit |
+| P15-deck-R7 | `findings/deck-R7-decision-memo-2026-09-24.pdf` — 16 main + 2 appendix, 18 PDF pages; 0 trace-deck rows (all from brief trace); 3 overrides; 2 QA rounds via Chrome screenshots (Read cannot open PDF: no pdftoppm) | 2026-09-24 | this commit |
+| P15-deck-R3 | `findings/deck-R3-strategy-communicator-2026-09-24.pdf` — 16 main + 3 appendix; 0 trace-deck rows; 8 overrides; 2 QA rounds, PDF pages rendered via PyMuPDF | 2026-09-24 | this commit |
+| P15-deck-R5 | `findings/deck-R5-knowledge-synthesis-2026-09-24.pdf` — 20 main + 6 appendix, 26 pages; 14 trace-deck rows (2.5B AI Overviews MAU raw:52 and 99/108 transition-evidence:15 spot-checked vs snapshot, match); 8 overrides; speaker notes; 2 QA rounds PyMuPDF | 2026-09-24 | this commit |
+| P15-deck-R1 | `findings/deck-R1-pyramid-principle-2026-09-24.pdf` — 18 main + 3 appendix, 21 pages; 5 trace-deck rows (scope, demand-map, trigger-timeline counts); 3 overrides; 3 QA rounds via Chrome screenshots | 2026-09-24 | this commit |
+| P15-deck-R6 | `findings/deck-R6-deliverable-creation-2026-09-24.pdf` — 20 main + 11 appendix, 31 pages; 5 trace-deck rows = axis tick labels, logged "not a figure"; 7 overrides; 3 QA rounds via Chrome screenshots | 2026-09-24 | this commit |
+| P15-deck-R2 | `findings/deck-R2-minto-pyramid-2026-09-24.pdf` — 18 main + 3 appendix, 21 pages; 5 trace-deck rows = axis ticks; 5 overrides (appendix drops repo paths: deck no-file-names rule wins); 5 QA rounds via Chrome screenshots | 2026-09-24 | this commit |
+| P15-deck-R4 | `findings/deck-R4-structure-synthesize-2026-09-24.pdf` — 20 main + 4 appendix, 24 pages; 0 trace-deck rows; 5 overrides; R1/R2 readings relabelled A/B; 4 QA rounds via Chrome screenshots | 2026-09-24 | this commit |
+| P15-deck-R0 | `findings/deck-R0-baseline-2026-09-24.pdf` — control; 18 main + 5 appendix, 23 pages; 0 trace-deck rows; 5 overrides; 2 QA rounds PyMuPDF | 2026-09-24 | this commit |
+| P15-deck-R8 | `findings/deck-R8-assumption-audit-2026-09-24.pdf` — 17 main + 2 appendix, 19 pages; 9 trace-deck rows (tier defs, dates, attention 1 demand-map:165–166); 2 overrides; 3 QA rounds via Chrome screenshots | 2026-09-24 | this commit |
+| P15-deck-R0b | `findings/deck-R0b-baseline-repeat-2026-09-24.pdf` — control repeat; 19 main + 7 appendix, 26 pages; 7 trace-deck rows; 5 overrides; 3 QA rounds PyMuPDF; slides 12, 19 bottom third empty (cosmetic, unfixed) | 2026-09-24 | this commit |
+| P15-deck-R9 | `findings/deck-R9-mbb-extract-2026-09-24.pdf` — 18 main + 4 appendix, 22 pages; 44 trace-deck rows (0 Gold / 0 of 15 whitespace:103, 18/15/0 whitespace:109, E3 demand-map:27 spot-checked, match); 5 overrides; risk ranks 8–11 to appendix; 2 QA rounds PyMuPDF; lower-third whitespace on several slides | 2026-09-24 | this commit |
+| **P15-deck done** | 11 PDFs, 18–31 pages, all 960×540 pt. Main-thread check: page counts = reported; 0 temp dirs left; text scan 0 codename leaks in 8 decks; R2, R3, R6 keep in-deck-defined "R1/R2" reading labels (R4 renamed A/B, R9 "Reading 1/2"); PDF QA split: R0, R0b, R3, R5, R9 read real PDF pages (PyMuPDF), R1, R2, R4, R6, R7, R8 Chrome screenshots of the HTML | 2026-09-24 | this commit |
 
 ## Landed — pending verify
 

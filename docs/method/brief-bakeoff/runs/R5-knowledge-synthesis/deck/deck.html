@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Brand visibility inside AI assistants</title>
+<style>
+@page { size: 13.333in 7.5in; margin: 0 }
+:root { --ink:#1b1f24; --navy:#12355b; --blue:#1f5f9e; --orange:#c96f1c; --grey:#6b7684; --line:#d5dbe2; --pale:#eef2f6; }
+html, body { margin:0; padding:0; background:#fff; }
+body { font-family:"Segoe UI", Arial, Helvetica, sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.slide { width:13.333in; height:7.5in; box-sizing:border-box; padding:0.42in 0.6in 0.62in; position:relative; overflow:hidden; page-break-after:always; break-after:page; font-size:18pt; line-height:1.3; }
+.slide:last-child { page-break-after:auto; break-after:auto; }
+h1 { font-size:27pt; line-height:1.15; margin:0 0 0.1in; color:var(--navy); font-weight:700; }
+.sub { font-size:15pt; color:var(--grey); margin:0 0 0.16in; }
+.foot { position:absolute; left:0.6in; right:0.6in; bottom:0.2in; font-size:11pt; color:var(--grey); border-top:1px solid var(--line); padding-top:0.05in; }
+.tag { position:absolute; right:0.6in; top:0.16in; font-size:11pt; color:var(--grey); letter-spacing:0.04em; text-transform:uppercase; }
+ul { margin:0.05in 0 0; padding-left:0.3in; }
+li { margin:0 0 0.08in; }
+table { border-collapse:collapse; width:100%; font-size:15pt; line-height:1.22; }
+th, td { border-bottom:1px solid var(--line); padding:0.05in 0.08in; text-align:left; vertical-align:top; }
+th { background:var(--pale); color:var(--navy); font-weight:600; }
+.q { color:var(--navy); font-weight:700; }
+.k { font-size:14pt; color:var(--grey); }
+.cols { display:flex; gap:0.35in; }
+.col { flex:1; }
+.box { border:2px solid var(--line); border-radius:6px; padding:0.12in 0.16in; }
+.box h3 { margin:0 0 0.06in; font-size:19pt; color:var(--navy); }
+.big { font-size:34pt; font-weight:700; color:var(--navy); line-height:1.05; }
+.note { font-size:15pt; color:#39424d; }
+.answer { font-size:22pt; font-weight:600; color:var(--navy); border-left:6px solid var(--orange); padding:0.04in 0 0.04in 0.16in; margin:0 0 0.18in; }
+.grid2 { display:grid; grid-template-columns:1.5in 1fr; row-gap:0.1in; column-gap:0.2in; font-size:17pt; }
+.grid2 .lab { font-weight:700; color:var(--blue); }
+svg text { font-family:"Segoe UI", Arial, Helvetica, sans-serif; }
+.title { background:var(--navy); color:#fff; padding:1.1in 0.9in 0.6in; }
+.title h1 { color:#fff; font-size:40pt; margin-bottom:0.25in; }
+.title .line { font-size:22pt; margin:0.08in 0; }
+.title .stamp { display:inline-block; margin-top:0.45in; border:2px solid #f0b36e; color:#f7d2a8; padding:0.08in 0.2in; font-size:20pt; font-weight:600; }
+.badge { display:inline-block; font-size:14pt; border:1.5px solid var(--grey); border-radius:4px; padding:0 0.06in; color:#39424d; white-space:nowrap; }
+.tl { font-size:16pt; }
+.tl td { padding:0.045in 0.08in; }
+.tile { border:2px solid var(--line); border-radius:6px; padding:0.14in 0.16in; flex:1; }
+.tile .big { font-size:30pt; }
+.appx h1 { color:#39424d; }
+</style>
+</head>
+<body>
+
+<!-- 1 Title -->
+<section class="slide title">
+  <h1>Brand visibility inside AI assistants:<br>what the evidence supports</h1>
+  <div class="line">Is there real demand, per buyer segment, for brands to be seen and recommended inside ChatGPT, Gemini, Perplexity, Copilot and Claude? And does it work?</div>
+  <div class="line" style="margin-top:0.3in">Evidence as of 2026-09</div>
+  <div class="stamp">Research only: evidence, not a verdict</div>
+</section>
+
+<!-- 2 Agenda -->
+<section class="slide">
+  <div class="tag">Agenda</div>
+  <h1>Eight parts, in the order a director asks the questions</h1>
+  <div class="cols" style="margin-top:0.2in">
+    <div class="col">
+      <ol style="font-size:20pt; line-height:1.55; margin:0; padding-left:0.4in">
+        <li>The answer on one page</li>
+        <li>What this market is, and how to read the evidence</li>
+        <li>Why now</li>
+        <li>How big</li>
+      </ol>
+    </div>
+    <div class="col">
+      <ol start="5" style="font-size:20pt; line-height:1.55; margin:0; padding-left:0.4in">
+        <li>Who is already there: vendors, engines, buyers</li>
+        <li>What the proof shows</li>
+        <li>What could kill it, and where the evidence stops</li>
+        <li>What this leaves to you</li>
+      </ol>
+    </div>
+  </div>
+  <p class="note" style="margin-top:0.45in">No decision is requested. The last slide lists choices only you can make, each with the evidence on either side. Appendix: glossary, figures that carry two readings, anticipated questions.</p>
+  <div class="foot">Structure slide; no figures.</div>
+</section>
+
+<!-- 3 Answer -->
+<section class="slide">
+  <div class="tag">The answer</div>
+  <h1>Brands have started paying to be seen inside AI assistants; the evidence stops before sales</h1>
+  <div class="answer">Demand is real, thin and mostly large-company. One engine sells ads at scale. No published case shows sales caused.</div>
+  <div class="grid2">
+    <div class="lab">Demand</div><div>Money spent in 8 of 27 buyer segments (sub-market × industry × company size), on both readings (analyst-derived, 2026-09-23). Price any buyer paid: unknown in all 27.</div>
+    <div class="lab">Supply</div><div>ChatGPT Ads: "$1 billion in annualized revenue run rate" (company-stated, 2026-08-31). Engines: "0 of 8 publish a rate card" (pulled 2026-09-22).</div>
+    <div class="lab">Size</div><div>No sub-market has a measured size; every dollar size is a forecast.</div>
+    <div class="lab">Proof</div><div>0 causal-design cases in ~980 candidates (2026-09-22) and ~1,640 more (2026-09-23).</div>
+    <div class="lab">Movers</div><div>Of 108 cases: content changes 63, new tools 58, paid media 2 (measured-by-us, 2026-09-23).</div>
+  </div>
+  <div class="foot">Sources: analyst-derived, 2026-09-23; company-stated, 2026-08-31 and 2026-09-22; measured-by-us over vendor-reported cases, 2026-09-22 and 2026-09-23.</div>
+</section>
+
+<!-- 4 What this is -->
+<section class="slide">
+  <div class="tag">What this is</div>
+  <h1>Three sub-markets, three different buyers, three metrics that are never crossed</h1>
+  <p class="sub">Brands want to be named when someone asks an assistant what to buy. They can try three ways.</p>
+  <div class="cols">
+    <div class="col box"><h3>Organic recommendation</h3>Being cited unpaid in the answer. Also called GEO or AEO (generative / answer engine optimisation).<br><span class="q">Buyer:</span> SEO (search engine optimisation) and brand teams.</div>
+    <div class="col box"><h3>Paid placement</h3>Ads shown inside or beside the assistant's answer.<br><span class="q">Buyer:</span> media buyers.</div>
+    <div class="col box"><h3>Agentic commerce</h3>The assistant completes the checkout for the shopper.<br><span class="q">Buyer:</span> e-commerce teams.</div>
+  </div>
+  <svg width="1164" height="150" viewBox="0 0 1164 150" style="margin-top:0.2in">
+    <rect x="0" y="20" width="330" height="70" rx="6" fill="#eef2f6" stroke="#1f5f9e" stroke-width="2"/>
+    <text x="165" y="64" font-size="24" text-anchor="middle" fill="#12355b" font-weight="700">Visibility: named?</text>
+    <rect x="417" y="20" width="330" height="70" rx="6" fill="#eef2f6" stroke="#1f5f9e" stroke-width="2"/>
+    <text x="582" y="64" font-size="24" text-anchor="middle" fill="#12355b" font-weight="700">Traffic: clicked?</text>
+    <rect x="834" y="20" width="330" height="70" rx="6" fill="#fff4e8" stroke="#c96f1c" stroke-width="2"/>
+    <text x="999" y="64" font-size="24" text-anchor="middle" fill="#7a3f06" font-weight="700">Sales: bought?</text>
+    <text x="373" y="64" font-size="30" text-anchor="middle" fill="#6b7684">≠</text>
+    <text x="790" y="64" font-size="30" text-anchor="middle" fill="#6b7684">≠</text>
+    <text x="582" y="130" font-size="22" text-anchor="middle" fill="#39424d">Each is measured separately. Visibility never proves sales.</text>
+  </svg>
+  <div class="foot">Definitions from the programme's scope, set 2026-09-22. No figures on this slide.</div>
+</section>
+
+<!-- 5 How to read evidence -->
+<section class="slide">
+  <div class="tag">How to read the evidence</div>
+  <h1>Every figure carries its source kind; lower tier means stronger evidence</h1>
+  <div class="cols">
+    <div class="col" style="flex:1.25">
+      <table>
+        <tr><th>Tier</th><th>Source kind</th><th>How it is used</th></tr>
+        <tr><td>1</td><td>Measured by us</td><td>Highest</td></tr>
+        <tr><td>2</td><td>Filed: annual report, court exhibit, funding filing</td><td>High</td></tr>
+        <tr><td>3</td><td>Platform's own pages, docs, pricing</td><td>Reliable on existence, biased on framing</td></tr>
+        <tr><td>4</td><td>Panel, clickstream, telemetry</td><td>Usable if method published</td></tr>
+        <tr><td>5</td><td>Vendor or agency study with sample, dates, method</td><td>Usable, bias flagged</td></tr>
+        <tr><td>6</td><td>Vendor blog, no sample</td><td>Marketing, not a source</td></tr>
+        <tr><td>7</td><td>Listicle, roundup, affiliate comparison</td><td>Not pulled</td></tr>
+      </table>
+    </div>
+    <div class="col" style="font-size:16pt">
+      <div class="box" style="margin-bottom:0.14in"><h3>Source labels on each figure</h3>measured-by-us · filed · company-stated · vendor-reported · analyst-derived (a forecaster's or survey's figure)</div>
+      <div class="box"><h3>Grades for "it worked" cases</h3><b>Gold:</b> causal design: holdout, geo-split or switchback test.<br><b>Silver:</b> before/after with an unaffected control, not randomised.<br>Below Silver: no control; cannot show cause.</div>
+    </div>
+  </div>
+  <div class="foot">Tier scale and case grades: programme method rules, set 2026-09-22.</div>
+</section>
+
+<!-- 6 Why now -->
+<section class="slide">
+  <div class="tag">Why now</div>
+  <h1>In 2026 ads went live inside answers while publishers filed traffic losses</h1>
+  <p class="sub">The record holds 54 dated events (as of 2026-09-23). Eight carry the story.</p>
+  <table class="tl">
+    <tr><th style="width:1.45in">Date</th><th>Event</th><th style="width:1.9in">Source</th></tr>
+    <tr><td>2026-02-04</td><td>Anthropic: "Claude will remain ad-free"</td><td><span class="badge">company-stated</span></td></tr>
+    <tr><td>2026-02-09</td><td>ChatGPT Ads live, US pilot</td><td><span class="badge">company-stated</span></td></tr>
+    <tr><td>2026-02-25</td><td>NerdWallet credit-card revenue "decreased 24%", citing "AI overviews and LLMs"</td><td><span class="badge">filed</span></td></tr>
+    <tr><td>2026-05-04</td><td>People Inc: "63% decline in Google Search referrals over two years"</td><td><span class="badge">filed</span></td></tr>
+    <tr><td>2026-06-17</td><td>UK competition regulator (CMA): fair-ranking duty covers "search generative AI features"</td><td><span class="badge">filed</span></td></tr>
+    <tr><td>2026-08-31</td><td>EU designates ChatGPT a very large online search engine: 159.1M EU recipients; duties from 2027-01</td><td><span class="badge">filed</span></td></tr>
+    <tr><td>2026-09-15</td><td>Profound, a visibility vendor: "$180M Series D at $1.8B valuation"</td><td><span class="badge">vendor-reported</span></td></tr>
+    <tr><td>2026-09-17</td><td>US court exhibit: Microsoft "83-93% drops in click-through rates"</td><td><span class="badge">filed</span></td></tr>
+  </table>
+  <div class="foot">Sources: filed, 2026-02 to 2026-09; company-stated, 2026-02; vendor-reported, 2026-09. Event count: record as of 2026-09-23.</div>
+</section>
+
+<!-- 7 Audience scale -->
+<section class="slide">
+  <div class="tag">Why now</div>
+  <h1>The audiences are already billion-scale; each figure is a different metric, so none is summed</h1>
+  <div class="cols" style="margin-top:0.15in">
+    <div class="tile"><div class="k">ChatGPT</div><div class="big">&gt;1B</div>weekly active users<br><span class="k">2026-08-31</span></div>
+    <div class="tile"><div class="k">Google AI Overviews</div><div class="big">2.5B</div>"monthly active users"<br><span class="k">2026-05-19</span></div>
+    <div class="tile"><div class="k">Google AI Mode</div><div class="big">1B</div>monthly active users<br><span class="k">2026-05-19</span></div>
+    <div class="tile"><div class="k">Gemini app</div><div class="big">950M</div>monthly active users<br><span class="k">2026-07-22</span></div>
+  </div>
+  <div class="box" style="margin-top:0.3in; border-color:#c96f1c">
+    <h3>Attention, not spend</h3>
+    76% of "more than 200" brand and agency ad decision-makers name optimising for AI answers their No. 1 area of increased focus (analyst-derived survey, released 2026-09-10). It measures where attention goes, not dollars moved.
+  </div>
+  <div class="foot">Sources: company-stated, 2026-05 to 2026-08 (weekly and monthly bases differ); analyst-derived, 2026-09.</div>
+</section>
+
+<!-- 8 How big -->
+<section class="slide">
+  <div class="tag">How big</div>
+  <h1>No sub-market has a measured size; every dollar size is a forecast</h1>
+  <table>
+    <tr><th style="width:2.1in"></th><th>Organic recommendation</th><th>Paid placement</th><th>Agentic commerce</th></tr>
+    <tr><td><b>Floor: disclosed revenue</b></td><td>$42.2M–$48.2M + €2.2M ARR, 4 vendors, 2025-11 to 2026-05 (filed; company-stated)</td><td>"$1 billion" run rate, one engine (company-stated, 2026-08-31)</td><td>unknown — checked OpenAI, Shopify, PayPal, Stripe, Google, Amazon, 2026-09-23</td></tr>
+    <tr><td><b>Forecast spread</b></td><td>2034: $17.15B–$32.92B, 1.92×, 4 forecasts</td><td>2030: "just over $5 billion" to "over $100 billion", ~20×; scopes differ</td><td>2030: $190B–$5T, 26.3×, 7 forecasts</td></tr>
+    <tr><td><b>Published price</b></td><td>14 of 34 vendors publish one: "$20/mo" to "$999/month" (vendor-reported, 2026-09)</td><td>OpenAI bid guidance "$3–$5 USD per click" (company-stated, 2026-09-22)</td><td>Microsoft Copilot fee 0%; OpenAI "a small fee" (2025-09-29), rate undisclosed (company-stated)</td></tr>
+  </table>
+  <p class="note" style="margin-top:0.16in">ARR: annual recurring revenue. Run rate: current revenue pace annualised. Forecasts are analyst-derived, pulled 2026-09-22. Other bases for the floor and spreads exist; see appendix.</p>
+  <div class="foot">Sources: filed and company-stated, 2025-11 to 2026-09; analyst-derived forecasts, pulled 2026-09-22; vendor-reported prices, 2026-09.</div>
+</section>
+
+<!-- 9 Forecast spread chart -->
+<section class="slide">
+  <div class="tag">How big</div>
+  <h1>Published forecasts disagree by 26.3× on agentic, ~20× on paid, 1.92× on organic</h1>
+  <div class="cols">
+    <div style="flex:1.7">
+      <svg width="790" height="400" viewBox="0 0 790 400">
+        <text x="0" y="22" font-size="19" fill="#6b7684">Highest forecast divided by lowest, as each source states it. Linear scale from zero.</text>
+        <!-- organic -->
+        <text x="0" y="78" font-size="21" fill="#1b1f24" font-weight="600">Organic</text>
+        <text x="0" y="102" font-size="19" fill="#6b7684">2034, 4 forecasts</text>
+        <rect x="210" y="62" width="21" height="46" fill="#1f5f9e"/>
+        <text x="241" y="93" font-size="22" font-weight="700" fill="#12355b">1.92×</text>
+        <!-- paid -->
+        <text x="0" y="163" font-size="21" fill="#1b1f24" font-weight="600">Paid</text>
+        <text x="0" y="187" font-size="19" fill="#6b7684">2030, scopes differ</text>
+        <rect x="210" y="147" width="217" height="46" fill="#1f5f9e"/>
+        <text x="437" y="178" font-size="22" font-weight="700" fill="#12355b">~20×</text>
+        <!-- agentic -->
+        <text x="0" y="248" font-size="21" fill="#1b1f24" font-weight="600">Agentic</text>
+        <text x="0" y="272" font-size="19" fill="#6b7684">2030, 7 forecasts</text>
+        <rect x="210" y="232" width="286" height="46" fill="#1f5f9e"/>
+        <text x="506" y="263" font-size="22" font-weight="700" fill="#12355b">26.3×</text>
+        <!-- agentic other base -->
+        <text x="0" y="333" font-size="21" fill="#1b1f24" font-weight="600">Agentic, other base</text>
+        <text x="0" y="357" font-size="19" fill="#6b7684">2029–2030</text>
+        <rect x="210" y="317" width="380" height="46" fill="#ffffff" stroke="#c96f1c" stroke-width="3" stroke-dasharray="8 5"/>
+        <text x="600" y="348" font-size="22" font-weight="700" fill="#7a3f06">"roughly 35×"</text>
+        <line x1="210" y1="50" x2="210" y2="375" stroke="#1b1f24" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="col note" style="font-size:16pt">
+      <div class="box">
+        <h3>How to read it</h3>
+        A long bar means the published forecasts for that sub-market do not agree. Horizons differ (2034 against 2030), so bars compare disagreement, not size.<br><br>
+        The two agentic bars come from two different compilations of forecasts; both stand, neither averaged.
+      </div>
+    </div>
+  </div>
+  <div class="foot">Sources: analyst-derived forecasts, pulled 2026-09-22; ratios as stated in the compiled market read, 2026-09.</div>
+</section>
+
+<!-- 10 Vendors -->
+<section class="slide">
+  <div class="tag">Who is already there: vendors</div>
+  <h1>Of 34 organic-visibility vendors, 14 publish a price; none discloses the prompts behind its score</h1>
+  <div class="cols">
+    <div style="flex:1.45">
+      <svg width="700" height="370" viewBox="0 0 700 370">
+        <text x="0" y="22" font-size="19" fill="#6b7684">Vendors disclosing each item, out of 34. Bars start at zero.</text>
+        <g font-size="21">
+          <text x="0" y="82" fill="#1b1f24">Price</text>
+          <rect x="250" y="58" width="165" height="40" fill="#1f5f9e"/><text x="425" y="86" font-weight="700" fill="#12355b">14 of 34</text>
+          <text x="0" y="142" fill="#1b1f24">Customer count</text>
+          <rect x="250" y="118" width="94" height="40" fill="#1f5f9e"/><text x="354" y="146" font-weight="700" fill="#12355b">8 of 34</text>
+          <text x="0" y="202" fill="#1b1f24">Funding</text>
+          <rect x="250" y="178" width="94" height="40" fill="#1f5f9e"/><text x="354" y="206" font-weight="700" fill="#12355b">8 of 34</text>
+          <text x="0" y="262" fill="#1b1f24">Filed revenue</text>
+          <rect x="250" y="238" width="24" height="40" fill="#1f5f9e"/><text x="284" y="266" font-weight="700" fill="#12355b">2 of 34</text>
+          <text x="0" y="322" fill="#1b1f24">Prompt set behind score</text>
+          <text x="262" y="326" font-weight="700" fill="#7a3f06">"0 of 34"</text>
+        </g>
+        <line x1="250" y1="45" x2="250" y2="345" stroke="#1b1f24" stroke-width="2"/>
+        <line x1="650" y1="45" x2="650" y2="345" stroke="#6b7684" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <text x="650" y="365" font-size="19" text-anchor="middle" fill="#6b7684">34 vendors</text>
+      </svg>
+    </div>
+    <div class="col" style="font-size:16pt">
+      <div class="box">
+        <h3>Consolidation has started</h3>
+        43 companies profiled (2026-09-23).<br>
+        Largest disclosed line: Semrush "AI products surpassed $38 million in ARR" (filed, 2026-03-02).<br>
+        Adobe completed its Semrush purchase 2026-04-28; Sitecore announced Scrunch 2026-06-03; Yext filed on GoShine 2026-09-01.
+      </div>
+    </div>
+  </div>
+  <div class="foot">Sources: vendor-reported, 2026-09; prompt-set count pulled 2026-09-22; filed, 2026-03 to 2026-09; company-stated, 2026-06.</div>
+</section>
+
+<!-- 11 Engines -->
+<section class="slide">
+  <div class="tag">Who is already there: engines</div>
+  <h1>One engine sells ads at scale; no engine publishes a rate card or its checkout fee terms</h1>
+  <div class="cols">
+    <div class="col box">
+      <h3>Ads inside answers</h3>
+      <ul style="font-size:16pt">
+        <li>Four engines sell ads inside answers: ChatGPT, Google, Microsoft Copilot, Amazon Rufus (company-stated, 2026-09-23). Another count: "5 of 8 engines carry a live product".</li>
+        <li>ChatGPT advertisers: "tens of thousands" (company-stated, 2026-08-31) against 820 to 7,378 on outside panels (vendor-reported, 2026-07).</li>
+        <li>Price: OpenAI bid guidance "$3–$5 USD per click"; "0 of 8" engines publish a rate card.</li>
+        <li>Share of answers carrying a ChatGPT ad: 0.8%–26%, panels unreconciled.</li>
+      </ul>
+    </div>
+    <div class="col box">
+      <h3>Checkout inside the assistant</h3>
+      <ul style="font-size:16pt">
+        <li>Four engines run checkout (company-stated, 2026-09).</li>
+        <li>Fees: Copilot 0%; OpenAI "a small fee" (2025-09-29), rate undisclosed.</li>
+        <li>Fee clauses in the checkout protocols: "6 of 6" unknown — checked 2026-09-22.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">Sources: company-stated, 2025-09 to 2026-09; vendor-reported panels, 2026-07; engine pages pulled 2026-09-22 and 2026-09-23.</div>
+</section>
+
+<!-- 12 Buyers -->
+<section class="slide">
+  <div class="tag">Who is already there: buyers</div>
+  <h1>Money is moving in 8 of 27 buyer segments, mostly organic and mostly large companies</h1>
+  <div class="cols">
+    <div style="flex:1.35">
+      <svg width="680" height="330" viewBox="0 0 680 330">
+        <text x="0" y="22" font-size="19" fill="#6b7684">27 segments by strongest demand signal, two readings.</text>
+        <!-- strict -->
+        <text x="0" y="118" font-size="21" font-weight="600">Strict</text>
+        <rect x="110" y="88" width="160" height="50" fill="#12355b"/><text x="190" y="120" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">spend 8</text>
+        <rect x="270" y="88" width="20" height="50" fill="#c96f1c"/>
+        <rect x="290" y="88" width="340" height="50" fill="#d5dbe2"/><text x="460" y="120" font-size="20" text-anchor="middle">none — checked 17</text>
+        <rect x="630" y="88" width="20" height="50" fill="#fff" stroke="#1b1f24" stroke-width="2" stroke-dasharray="4 3"/>
+        <line x1="280" y1="86" x2="280" y2="64" stroke="#c96f1c" stroke-width="2"/><text x="280" y="58" font-size="19" text-anchor="middle" fill="#7a3f06">attention 1</text>
+        <line x1="640" y1="86" x2="640" y2="64" stroke="#1b1f24" stroke-width="2"/><text x="615" y="58" font-size="19" text-anchor="middle">blank 1</text>
+        <!-- loose -->
+        <text x="0" y="218" font-size="21" font-weight="600">Loose</text>
+        <rect x="110" y="188" width="160" height="50" fill="#12355b"/><text x="190" y="220" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">spend 8</text>
+        <rect x="270" y="188" width="20" height="50" fill="#c96f1c"/>
+        <rect x="290" y="188" width="360" height="50" fill="#d5dbe2"/><text x="470" y="220" font-size="20" text-anchor="middle">none — checked 18</text>
+        <line x1="280" y1="240" x2="280" y2="262" stroke="#c96f1c" stroke-width="2"/><text x="280" y="282" font-size="19" text-anchor="middle" fill="#7a3f06">attention 1</text>
+        <text x="650" y="282" font-size="19" text-anchor="end">blank 0</text>
+        <line x1="110" y1="75" x2="110" y2="250" stroke="#1b1f24" stroke-width="2"/>
+      </svg>
+      <p class="k" style="margin:0">Segment: sub-market × industry (skincare, B2B software, high-cost-per-acquisition regulated) × company size. Strict: a blocked channel does not count as checked. Loose: it does.</p>
+    </div>
+    <div class="col" style="font-size:16pt">
+      <div class="box">
+        <h3>Who pays</h3>
+        <ul style="margin:0">
+          <li>Spend by sub-market: organic 6, paid 1, agentic 1.</li>
+          <li>On the 2026-09-22 read: six of seven spend segments rested on job postings; 5 of the 7 were enterprise; 1 of 9 small-business segments read spend.</li>
+          <li>Price any buyer paid: unknown in all 27.</li>
+          <li>One segment reads spend to one compiler, attention to another; both stand.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot">Sources: analyst-derived segment reads, 2026-09-23 (earlier reads 2026-09-22 differ; see appendix).</div>
+</section>
+
+<!-- 13 Proof ladder -->
+<section class="slide">
+  <div class="tag">What the proof shows</div>
+  <h1>No published case shows sales caused; the strongest evidence is a handful of controlled cases</h1>
+  <table style="font-size:17pt">
+    <tr><th style="width:3.2in">Rung</th><th>What the record holds</th><th style="width:2.4in">Source, date</th></tr>
+    <tr><td><b>Gold</b>: causal design</td><td>0 in ~980 candidates, plus 0 in ~1,640 more</td><td>measured-by-us, 2026-09-22 and 2026-09-23</td></tr>
+    <tr><td><b>Silver</b>: controlled, not randomised</td><td>Strict grading rule: 1 (2026-09-22), plus "one" (2026-09-23). As first graded: 7, plus "Four".</td><td>measured-by-us over vendor-reported cases</td></tr>
+    <tr><td>Silver that ran negative or null</td><td>2 of the 7 as first graded: NerdWallet's filed revenue line and a published replication</td><td>filed; 2026-09-22</td></tr>
+    <tr><td>Brand confirms the vendor's case</td><td>1 of 168 (earlier count: 0 of 59, 2026-09-22)</td><td>measured-by-us, 2026-09-23</td></tr>
+  </table>
+  <p class="note" style="margin-top:0.18in">Strict grading rule: any missing evidence item caps a case below Silver. Both readings are kept; neither is averaged.</p>
+  <div class="foot">Sources: measured-by-us screening of vendor-reported and filed cases, 2026-09-22 and 2026-09-23.</div>
+</section>
+
+<!-- 14 Evidence classes -->
+<section class="slide">
+  <div class="tag">What the proof shows</div>
+  <h1>Of 108 cases where a company changed something, 6 or 1 count as experiments, depending on the reading</h1>
+  <svg width="1164" height="330" viewBox="0 0 1164 330">
+    <text x="0" y="22" font-size="19" fill="#6b7684">108 cases by evidence class. One bar = 108 cases; linear scale.</text>
+    <text x="0" y="112" font-size="21" font-weight="600">Reading 1</text>
+    <rect x="160" y="82" width="42" height="50" fill="#12355b"/>
+    <rect x="202" y="82" width="427" height="50" fill="#1f5f9e"/><text x="415" y="114" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">observational 61</text>
+    <rect x="629" y="82" width="259" height="50" fill="#d5dbe2"/><text x="758" y="114" font-size="20" text-anchor="middle">outcome unknown 37</text>
+    <rect x="888" y="82" width="28" height="50" fill="#fff" stroke="#1b1f24" stroke-width="2" stroke-dasharray="4 3"/>
+    <line x1="181" y1="80" x2="181" y2="60" stroke="#12355b" stroke-width="2"/><text x="170" y="54" font-size="19" text-anchor="start" fill="#12355b" font-weight="700">experimental 6</text>
+    <line x1="902" y1="80" x2="902" y2="60" stroke="#1b1f24" stroke-width="2"/><text x="902" y="54" font-size="19" text-anchor="middle">outside the classes 4</text>
+
+    <text x="0" y="232" font-size="21" font-weight="600">Reading 2</text>
+    <rect x="160" y="202" width="7" height="50" fill="#12355b"/>
+    <rect x="167" y="202" width="462" height="50" fill="#1f5f9e"/><text x="398" y="234" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">observational 66</text>
+    <rect x="629" y="202" width="259" height="50" fill="#d5dbe2"/><text x="758" y="234" font-size="20" text-anchor="middle">outcome unknown 37</text>
+    <rect x="888" y="202" width="28" height="50" fill="#fff" stroke="#1b1f24" stroke-width="2" stroke-dasharray="4 3"/>
+    <line x1="163" y1="254" x2="163" y2="274" stroke="#12355b" stroke-width="2"/><text x="152" y="296" font-size="19" text-anchor="start" fill="#12355b" font-weight="700">experimental 1</text>
+    <line x1="902" y1="254" x2="902" y2="274" stroke="#1b1f24" stroke-width="2"/><text x="902" y="296" font-size="19" text-anchor="middle">outside the classes 4</text>
+    <line x1="160" y1="74" x2="160" y2="260" stroke="#1b1f24" stroke-width="2"/>
+  </svg>
+  <p class="note" style="margin:0.05in 0 0">Reading 1 counts a vendor's before/after with a control as experimental; Reading 2 counts it as observational. Which governs is an open method choice; both are shown.</p>
+  <div class="foot">Source: measured-by-us, 2026-09-23.</div>
+</section>
+
+<!-- 15 Movers -->
+<section class="slide">
+  <div class="tag">What the proof shows</div>
+  <h1>Companies that moved changed content and bought tools; paid media barely appears</h1>
+  <div class="cols">
+    <div style="flex:1.5">
+      <svg width="760" height="350" viewBox="0 0 760 350">
+        <text x="0" y="22" font-size="19" fill="#6b7684">Named changes by type, in 108 cases. Bars start at zero.</text>
+        <g font-size="21">
+          <text x="0" y="82" fill="#1b1f24">Content changes</text>
+          <rect x="260" y="58" width="350" height="40" fill="#1f5f9e"/><text x="620" y="86" font-weight="700" fill="#12355b">63</text>
+          <text x="0" y="142" fill="#1b1f24">New tools</text>
+          <rect x="260" y="118" width="322" height="40" fill="#1f5f9e"/><text x="592" y="146" font-weight="700" fill="#12355b">58</text>
+          <text x="0" y="202" fill="#1b1f24">Other</text>
+          <rect x="260" y="178" width="106" height="40" fill="#6b7684"/><text x="376" y="206" font-weight="700">19</text>
+          <text x="0" y="262" fill="#1b1f24">Organisation</text>
+          <rect x="260" y="238" width="67" height="40" fill="#6b7684"/><text x="337" y="266" font-weight="700">12</text>
+          <text x="0" y="322" fill="#1b1f24">Paid media</text>
+          <rect x="260" y="298" width="11" height="40" fill="#c96f1c"/><text x="281" y="326" font-weight="700" fill="#7a3f06">2</text>
+        </g>
+        <line x1="260" y1="45" x2="260" y2="345" stroke="#1b1f24" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="col" style="font-size:16pt">
+      <div class="box">
+        <h3>How to read it</h3>
+        Of 108 cases, 99 name a change. Bars count named changes per type as the record states them; they are not shares of 108.<br><br>
+        The count is of actions named, not of visibility, traffic or sales moved.
+      </div>
+    </div>
+  </div>
+  <div class="foot">Source: measured-by-us, 2026-09-23.</div>
+</section>
+
+<!-- 16 Outcomes -->
+<section class="slide">
+  <div class="tag">What the proof shows</div>
+  <h1>The filed results run negative; the positive results are vendor-measured and never per engine</h1>
+  <div class="cols" style="font-size:16pt">
+    <div class="col box" style="border-color:#12355b">
+      <h3>Negative</h3>
+      People Inc: "22% decline in Core Sessions" (filed, 2026-08-03).<br><br>
+      HubSpot blog: "5 million" fewer visits in thirty days (company-stated, 2026-09-22).
+    </div>
+    <div class="col box">
+      <h3>Null</h3>
+      Optimisation levers move citation on "none" of ten engine families (analyst-derived, 2026-09-07).
+    </div>
+    <div class="col box" style="border-color:#c96f1c">
+      <h3>Positive, vendor-measured</h3>
+      Visits: "+300% more site visits from AI Search", "February 23 to June 29, 2026".<br><br>
+      Conversion: Adobe "AI Conversion Now 42% Higher" than non-AI visits (2026-03); Shopify "nearly 50% higher rates than organic search" (Q1 2026).
+    </div>
+  </div>
+  <p class="note" style="margin-top:0.2in">Q1: first calendar quarter. Neither conversion figure is broken out per engine; per-engine conversion is unknown — checked Adobe, Salesforce, Shopify, 2026-09-22.</p>
+  <div class="foot">Sources: filed, 2026-08; company-stated, 2026-09; analyst-derived, 2026-09; vendor-reported, 2026-03 to 2026-06.</div>
+</section>
+
+<!-- 17 Risks -->
+<section class="slide">
+  <div class="tag">What could kill it</div>
+  <h1>Eleven ranked threats; no source states a likelihood or impact for any of them</h1>
+  <table style="font-size:14.5pt">
+    <tr><th style="width:0.6in">Rank</th><th style="width:3.1in">Threat to "marketing inside assistants pays"</th><th>Evidence on record</th></tr>
+    <tr><td>1</td><td>Referral collapse</td><td>Court exhibit: "83-93% drops in click-through rates"</td></tr>
+    <tr><td>2</td><td>Regulation</td><td>Disclosure duties; Google AI Overviews ads exclude finance, healthcare</td></tr>
+    <tr><td>3</td><td>Vendor consolidation</td><td>Adobe–Semrush, Sitecore–Scrunch, Yext–GoShine</td></tr>
+    <tr><td>4</td><td>Platform capture</td><td>OpenAI: "more than 50 technology and measurement partners"; Google: "you can't opt out"</td></tr>
+    <tr><td>5</td><td>No payback evidence</td><td>"0 Gold; 0 of 15 ad results controlled"</td></tr>
+    <tr><td>6</td><td>Measurement opacity</td><td>ChatGPT ad presence 0.8%–26% across panels</td></tr>
+    <tr><td>7</td><td>Substitutes</td><td>Google: no "special optimizations" are "necessary"</td></tr>
+    <tr><td>8</td><td>Engine policy reversal</td><td>Claude ad-free; Perplexity winding down its ads</td></tr>
+    <tr><td>9</td><td>Agentic rails</td><td>Engine-owned checkout, fees undisclosed</td></tr>
+    <tr><td>10</td><td>Manipulation</td><td>Google spam policy names "manipulate generative AI responses" (2026-08-28)</td></tr>
+    <tr><td>11</td><td>Unsizeable market</td><td>"18 figures, 15 forecasts, 0 measured sizes"</td></tr>
+  </table>
+  <div class="foot">Rank order from the compiled risk register, 2026-09-23. Sources: filed; company-stated, 2026-08 to 2026-09; analyst-derived. Likelihood, impact, mitigation, owner: no source states one.</div>
+</section>
+
+<!-- 18 Tier share -->
+<section class="slide">
+  <div class="tag">Where the evidence stops</div>
+  <h1>No count reaches the 80% bar: 44.0% to 63.2% of load-bearing claims rest on tier 3 or better</h1>
+  <div class="cols">
+    <div style="flex:1.7">
+      <svg width="800" height="440" viewBox="0 0 800 440">
+        <text x="0" y="22" font-size="19" fill="#6b7684">Share of claims at tier 1–3. Bars start at zero; linear scale.</text>
+        <line x1="40" y1="112" x2="790" y2="112" stroke="#c96f1c" stroke-width="3" stroke-dasharray="10 6"/>
+        <text x="790" y="102" font-size="20" text-anchor="end" fill="#7a3f06" font-weight="700">80% bar</text>
+        <!-- baseline y=352; 3px per % -->
+        <g font-size="20" text-anchor="middle">
+          <rect x="60" y="220" width="90" height="132" fill="#1f5f9e"/><text x="105" y="212" font-weight="700" fill="#12355b">44.0%</text>
+          <text x="105" y="376">11 of 25</text>
+          <rect x="175" y="169" width="90" height="183" fill="#1f5f9e"/><text x="220" y="161" font-weight="700" fill="#12355b">61.1%</text>
+          <text x="220" y="376">11 of 18</text>
+          <rect x="290" y="202" width="90" height="150" fill="#1f5f9e"/><text x="335" y="194" font-weight="700" fill="#12355b">50.0%</text>
+          <text x="335" y="376">11 of 22</text>
+          <rect x="450" y="219" width="90" height="133" fill="#12355b"/><text x="495" y="211" font-weight="700" fill="#12355b">44.4%</text>
+          <text x="495" y="376">12 of 27</text>
+          <rect x="565" y="162" width="90" height="190" fill="#12355b"/><text x="610" y="154" font-weight="700" fill="#12355b">63.2%</text>
+          <text x="610" y="376">12 of 19</text>
+          <rect x="680" y="202" width="90" height="150" fill="#12355b"/><text x="725" y="194" font-weight="700" fill="#12355b">50.0%</text>
+          <text x="725" y="376">12 of 24</text>
+          <text x="220" y="420" fill="#39424d" font-weight="600">First claim list</text>
+          <text x="610" y="420" fill="#39424d" font-weight="600">Review claim list</text>
+        </g>
+        <line x1="40" y1="352" x2="790" y2="352" stroke="#1b1f24" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="col" style="font-size:16pt">
+      <div class="box">
+        <h3>How to read it</h3>
+        Load-bearing claim: a claim a finding rests on. Each list is counted three ways: all claims; without the vendor case corpus; without claims that have no source tier.<br><br>
+        Counts as of 2026-09-23. An earlier count, 2026-09-22, read 68.0%.
+      </div>
+    </div>
+  </div>
+  <div class="foot">Source: measured-by-us recount of claim tiers, 2026-09-23; bar set by programme method, 2026-09-22.</div>
+</section>
+
+<!-- 19 Unknowns -->
+<section class="slide">
+  <div class="tag">Where the evidence stops</div>
+  <h1>What the record cannot yet say, and why</h1>
+  <div class="cols" style="font-size:17pt">
+    <div class="col">
+      <table style="font-size:16pt">
+        <tr><th>Unknown</th><th>Status</th></tr>
+        <tr><td>Price any buyer paid</td><td>unknown in all 27 segments</td></tr>
+        <tr><td>Agentic spend floor</td><td>unknown — checked OpenAI, Shopify, PayPal, Stripe, Google, Amazon, 2026-09-23</td></tr>
+        <tr><td>Conversion per engine</td><td>unknown — checked Adobe, Salesforce, Shopify, 2026-09-22</td></tr>
+        <tr><td>Checkout protocol fees</td><td>"6 of 6" clauses unknown, 2026-09-22</td></tr>
+        <tr><td>Hypotheses scored</td><td>26 of 32; six need our own prompt runs against the engines, skipped 2026-09-23</td></tr>
+      </table>
+    </div>
+    <div class="col box" style="font-size:16pt">
+      <h3>Channels the research could not reach</h3>
+      Still blocked, 2026-09-23: reddit.com, indeed.com, emarketer.com, ted.europa.eu, perplexity.ai/hub.<br><br>
+      Behind paid credentials: Crunchbase, PitchBook, Gartner, Forrester, EMARKETER.
+    </div>
+  </div>
+  <div class="foot">Sources: measured-by-us channel and hypothesis logs, 2026-09-22 and 2026-09-23.</div>
+</section>
+
+<!-- 20 What this leaves to you -->
+<section class="slide">
+  <div class="tag">What this leaves to you</div>
+  <h1>No decision is requested; five choices are yours, each with evidence on both sides</h1>
+  <table style="font-size:15.5pt">
+    <tr><th style="width:4.2in">Choice you own</th><th>Evidence that bears on it</th></tr>
+    <tr><td>Which sub-market any reading rests on</td><td>Organic: 6 spend segments, no measured size. Paid: 1 spend segment, one engine at "$1 billion" run rate. Agentic: 1 spend segment, floor unknown.</td></tr>
+    <tr><td>Which reading governs where two stand</td><td>Silver cases: 7 as first graded, 1 under the strict rule. Experimental cases: 6 or 1. Segments checked with no demand: 17 strict, 18 loose.</td></tr>
+    <tr><td>Whether our own engine sampling reopens</td><td>Six of 32 hypotheses need it; ad-presence panels disagree, 0.8%–26%.</td></tr>
+    <tr><td>Whether paid-credential sources enter scope</td><td>Crunchbase, PitchBook, Gartner, Forrester, EMARKETER hold funding and dollar-proxy data the record lacks.</td></tr>
+    <tr><td>Whether one question returns to scope</td><td>"which of the gaps above, if any, is reachable by a team whose cost advantage is engineering rather than distribution?"</td></tr>
+  </table>
+  <div class="foot">Sources: as on the slides cited; analyst-derived and measured-by-us, 2026-09-22 to 2026-09-23; company-stated, 2026-08-31.</div>
+</section>
+
+<!-- Appendix A1 Glossary -->
+<section class="slide appx">
+  <div class="tag">Appendix · Glossary (1 of 2)</div>
+  <h1>Glossary</h1>
+  <table style="font-size:15pt">
+    <tr><th style="width:3.1in">Term</th><th>Meaning</th></tr>
+    <tr><td>AI; assistant; engine</td><td>Artificial intelligence; one assistant product (ChatGPT, Gemini, Perplexity, Copilot, Claude, Amazon Rufus)</td></tr>
+    <tr><td>AI Overviews; AI Mode</td><td>Google's AI answer block on a results page; Google's conversational search tab</td></tr>
+    <tr><td>GEO; AEO</td><td>Generative engine optimisation; answer engine optimisation: names for the organic sub-market</td></tr>
+    <tr><td>SEO</td><td>Search engine optimisation</td></tr>
+    <tr><td>B2B software</td><td>Business-to-business software sold as a service</td></tr>
+    <tr><td>High-cost-per-acquisition regulated</td><td>Industries where each customer is expensive to win: credit cards, insurance, supplements</td></tr>
+    <tr><td>Segment (cell)</td><td>One sub-market × industry × company size; read as spend (money moved), attention (interest only), none — checked, or blank (not yet checked)</td></tr>
+    <tr><td>Strict; loose</td><td>Whether a blocked-and-logged channel counts as checked for a "none" read: no; yes</td></tr>
+    <tr><td>Small business; enterprise</td><td>Buyer sizes; mid-market sits between</td></tr>
+  </table>
+  <div class="foot">Definitions from the programme glossary, 2026-09.</div>
+</section>
+
+<section class="slide appx">
+  <div class="tag">Appendix · Glossary (2 of 2)</div>
+  <h1>Glossary, continued</h1>
+  <table style="font-size:15pt">
+    <tr><th style="width:3.1in">Term</th><th>Meaning</th></tr>
+    <tr><td>Tier</td><td>Source provenance score; lower is stronger (scale on the "How to read the evidence" slide)</td></tr>
+    <tr><td>Load-bearing claim</td><td>A compiled claim a finding rests on</td></tr>
+    <tr><td>Gold; Silver</td><td>Case grades: causal design (holdout, geo-split, switchback); before/after with an unaffected control</td></tr>
+    <tr><td>As first graded; strict rule</td><td>Grade as the screener assigned it; grade when any missing evidence item caps a case below Silver</td></tr>
+    <tr><td>Reading 1; Reading 2</td><td>Vendor before/after with control counted experimental; counted observational</td></tr>
+    <tr><td>ARR; run rate</td><td>Annual recurring revenue; current revenue pace annualised</td></tr>
+    <tr><td>MAU; LLM</td><td>Monthly active users; large language model</td></tr>
+    <tr><td>CMA</td><td>UK Competition and Markets Authority</td></tr>
+    <tr><td>Very large online search engine</td><td>EU Digital Services Act designation carrying extra duties</td></tr>
+    <tr><td>US; UK; EU; USD</td><td>United States; United Kingdom; European Union; US dollars</td></tr>
+    <tr><td>Own engine sampling</td><td>The research's own prompt runs against the engines</td></tr>
+  </table>
+  <div class="foot">Definitions from the programme glossary and method rules, 2026-09.</div>
+</section>
+
+<!-- Appendix A2 Figures carried twice -->
+<section class="slide appx">
+  <div class="tag">Appendix · Figures carried twice (1 of 2)</div>
+  <h1>Where a figure has two readings or two dates, both stand</h1>
+  <table style="font-size:14.5pt">
+    <tr><th>Figure in the deck</th><th>Other figure</th><th style="width:1.7in">Why two</th></tr>
+    <tr><td>Segments strict 8/1/17/1, loose 8/1/18/0 (2026-09-23)</td><td>7/1/11/8, first read (2026-09-22); strict 8/1/10/8, loose 8/1/18/0, intermediate read</td><td>dates, readings</td></tr>
+    <tr><td>Silver, strict rule: 1, plus "one"</td><td>As first graded: 7 (2026-09-22), plus "Four" (2026-09-23)</td><td>two readings</td></tr>
+    <tr><td>Classes, Reading 1: 6/61/37 (2026-09-23)</td><td>Reading 2: 1/66/37, same date</td><td>two readings</td></tr>
+    <tr><td>Brand confirms case: 1 of 168 (2026-09-23)</td><td>0 of 59 (2026-09-22)</td><td>two dates</td></tr>
+    <tr><td>Four engines sell ads (2026-09-23)</td><td>"5 of 8 engines carry a live product"</td><td>two bases</td></tr>
+    <tr><td>ChatGPT Ads "$1 billion" run rate (2026-08-31)</td><td>"$100 million annualized" (2026-03-26)</td><td>two dates</td></tr>
+    <tr><td>Advertisers "tens of thousands" (2026-08-31)</td><td>"over 600" (2026-03-26)</td><td>two dates</td></tr>
+    <tr><td>Organic floor $42.2M–$48.2M + €2.2M ARR</td><td>$5.3M–$35.2M annualised, price × vendor count (2026-09)</td><td>two bases</td></tr>
+  </table>
+  <div class="foot">Sources: as on the main slides; analyst-derived, measured-by-us and company-stated, 2026-03 to 2026-09. Nothing averaged.</div>
+</section>
+
+<section class="slide appx">
+  <div class="tag">Appendix · Figures carried twice (2 of 2)</div>
+  <h1>Figures carried twice, continued</h1>
+  <table style="font-size:14.5pt">
+    <tr><th>Figure in the deck</th><th>Other figure</th><th style="width:1.9in">Why two</th></tr>
+    <tr><td>Agentic spread 26.3×, 2030</td><td>"roughly 35×", 2029–2030</td><td>two bases</td></tr>
+    <tr><td>Copilot checkout fee 0%</td><td>"1 of 4" checkout programmes disclose a fee (2026-09)</td><td>two reads</td></tr>
+    <tr><td>ChatGPT ad presence 0.8%–26%</td><td>"26%" one panel; "4.47%" US, 2026-03 to 2026-05; "0.00 percent" of 169,560 UK scrapes, 2026-06</td><td>panels, unreconciled</td></tr>
+    <tr><td>Tier-3-or-better share, six counts (2026-09-23)</td><td>17 of 25 = 68.0% (2026-09-22)</td><td>two dates</td></tr>
+    <tr><td>Skincare agentic enterprise segment: spend</td><td>attention, per a second compiler</td><td>two compilers</td></tr>
+    <tr><td>Hypotheses 26 of 32 scored (2026-09-23)</td><td>15 of 23 (2026-09-22)</td><td>two dates</td></tr>
+    <tr><td>Peec AI ARR $4M (2025-11)</td><td>$10M (2026-05)</td><td>two dates</td></tr>
+    <tr><td>Profound round: vendor-reported</td><td>company-stated in an earlier brief of 2026-09-23</td><td>two labels</td></tr>
+  </table>
+  <div class="foot">Sources: analyst-derived, vendor-reported and company-stated, 2025-11 to 2026-09. Nothing averaged.</div>
+</section>
+
+<!-- Appendix A3 Anticipated questions -->
+<section class="slide appx">
+  <div class="tag">Appendix · Anticipated questions</div>
+  <h1>Questions a director is likely to ask, answered from the record</h1>
+  <div class="cols" style="font-size:15pt; line-height:1.25">
+    <div class="col">
+      <p><span class="q">Is there a market today?</span> Money moves in 8 of 27 segments. No sub-market has a measured size.</p>
+      <p><span class="q">How large could it get?</span> Only forecasts exist; for agentic, 2030 forecasts run $190B–$5T, a 26.3× spread.</p>
+      <p><span class="q">Does it work?</span> 0 causal-design cases; brands confirm a vendor's case in 1 of 168.</p>
+      <p><span class="q">Who pays?</span> Mostly enterprise: 5 of the 7 spend segments on the 2026-09-22 read; 1 of 9 small-business segments.</p>
+    </div>
+    <div class="col">
+      <p><span class="q">What do buyers pay?</span> Unknown in all 27 segments. Vendor list prices run "$20/mo" to "$999/month".</p>
+      <p><span class="q">Why does traffic matter here?</span> A court exhibit shows "83-93% drops in click-through rates"; People Inc filed a "63% decline in Google Search referrals over two years".</p>
+      <p><span class="q">Where is an entrant most exposed?</span> Platform capture: engines sell ads, checkout and measurement themselves, with "more than 50 technology and measurement partners" at OpenAI.</p>
+      <p><span class="q">What would change the reading?</span> One controlled result on sales; the six unscored hypotheses; the paid-credential sources.</p>
+    </div>
+  </div>
+  <div class="foot">Sources: as on the main slides; analyst-derived, measured-by-us, filed and company-stated, 2026-02 to 2026-09.</div>
+</section>
+
+<!-- Appendix A4 About the record -->
+<section class="slide appx">
+  <div class="tag">Appendix · About the evidence</div>
+  <h1>How the evidence behind this deck was built</h1>
+  <ul style="font-size:17pt">
+    <li>Internet sources only: company filings, court exhibits, regulator designations, platform help and pricing pages, panel vendors, vendor case studies, analyst forecasts, job postings.</li>
+    <li>No interviews, no outreach. Our own prompt runs against the engines were skipped (2026-09-23).</li>
+    <li>Evidence frozen at one snapshot; nothing later is cited. Every figure traces to a verbatim source pull held in the research record, with line references kept outside this deck.</li>
+    <li>Conflicting figures sit side by side; none is averaged. Where the record has no figure, the deck says "unknown" and names the channels checked.</li>
+    <li>The research produces evidence. The verdict belongs to the reader.</li>
+  </ul>
+  <div class="foot">Programme method rules, set 2026-09-22; evidence as of 2026-09.</div>
+</section>
+
+</body>
+</html>
