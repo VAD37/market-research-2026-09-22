@@ -41,7 +41,7 @@ Your run already wrote a text brief for this director. It has the storyline but 
   --print-to-pdf="$(cygpath -w "/d/researchs/market-research-2026-09-22/docs/findings/deck-R0b-baseline-repeat-2026-09-24.pdf")" "file:///$(cygpath -m "/d/researchs/market-research-2026-09-22/docs/method/brief-bakeoff/runs/R0b-baseline-repeat/deck/deck.html")"
 ```
 
-- **Visual QA, required.** Open the PDF with the Read tool (`pages` parameter, at most 20 per call) and look at every page. Fix overflow, clipping, unreadable charts and orphaned slides, then re-render. Repeat until clean. Record the number of QA rounds. Delete `deck\.chrome\` when done.
+- **Visual QA, required.** Open the PDF with the Read tool (`pages` parameter, at most 20 per call) and look at every page. Fix overflow, clipping, unreadable charts and orphaned slides, then re-render. Repeat until clean. If the Read tool cannot open the PDF (no `pdftoppm` on this machine), render the PDF pages to PNG with PyMuPDF (`uv run --with pymupdf python -c ...`) and Read the PNGs (preferred: it checks the real PDF); else screenshot each slide: `chrome.exe --headless=new --screenshot=<file>.png --window-size=1280,720` on a copy of the HTML showing one slide at a time, then Read each PNG; also confirm the PDF page count matches the slide count. Record the number of QA rounds and which QA route you used. Delete `deck\.chrome\` when done.
 
 ## Also write
 
