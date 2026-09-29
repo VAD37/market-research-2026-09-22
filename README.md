@@ -1,113 +1,87 @@
-# AI Ads & AI Visibility: a desk-research programme
+# AI ads research, run by a team of Claude agents
 
-Can brands pay or work their way into AI assistant answers, and does it pay back? Evidence from 1,000+ public sources, gathered by a team of Claude Code agents.
+This repo is an experiment in AI orchestration: a team of Claude Code agents doing a full desk-research project with only light steering from one person.
 
-| | |
-|---|---|
-| Question | Is there real demand for brand visibility inside AI answers? |
-| Method | Internet-only desk research, 2026-09-22 → 2026-09-24 |
-| Output | Briefs, 11 PDF decks, findings, market and competitor files |
-| Stance | Evidence only; no go/no-go verdict (`MegaPlan.md` §Non-goals) |
+The brief was one line: "Let's dig into AI ads." Can a brand pay, or work, its way into the answers ChatGPT, Gemini, Claude or Copilot give? Does anyone buy that today, and does it pay back?
 
-## Start here
+Over three days (2026-09-22 to 2026-09-24) the agents searched the web and saved 1,045 sources from 516 websites. They graded each source for trust and turned the pile into market files, 43 competitor profiles, findings, briefs and 11 slide decks. Every number in the reports links back to the saved source it came from.
 
-| Report | What it is |
-|---|---|
-| [Executive brief](docs/findings/executive-brief-2026-09-23-r2.md) | Two-page answer. Read this first. |
-| [Director brief](docs/findings/director-brief-2026-09-23-r2.md) · [.pptx](docs/findings/director-brief-2026-09-23-r2.pptx) | Long form, every number with its source |
+## What the agents found
 
-**PDF decks: the brief bake-off.** The same fact pack, written up by 11 different report-writing methods, one deck each. Not ranked.
+The short version: AI ads are real and growing, but nobody has shown yet that they sell more product.
 
-| Deck | Writing method |
-|---|---|
-| [R0 Baseline](docs/findings/deck-R0-baseline-2026-09-24.pdf) | Control: the owner's own template |
-| [R0b Baseline repeat](docs/findings/deck-R0b-baseline-repeat-2026-09-24.pdf) | Control rerun, measures run-to-run variance |
-| [R1 Pyramid Principle](docs/findings/deck-R1-pyramid-principle-2026-09-24.pdf) | tyroneross/pyramid-principle: core, long-form, source-integrity skills |
-| [R2 Minto Pyramid](docs/findings/deck-R2-minto-pyramid-2026-09-24.pdf) | millwright-labs/minto-pyramid-skill |
-| [R3 Strategy communicator](docs/findings/deck-R3-strategy-communicator-2026-09-24.pdf) | strategyu-skills: strategy-communicator |
-| [R4 Structure & synthesize](docs/findings/deck-R4-structure-synthesize-2026-09-24.pdf) | strategyu-skills: structure-synthesize |
-| [R5 Knowledge synthesis](docs/findings/deck-R5-knowledge-synthesis-2026-09-24.pdf) | awesome-claude-corporate-skills: knowledge-synthesis |
-| [R6 Deliverable creation](docs/findings/deck-R6-deliverable-creation-2026-09-24.pdf) | business-consulting: deliverable-creation |
-| [R7 Decision memo](docs/findings/deck-R7-decision-memo-2026-09-24.pdf) | strategy-skills-for-claude: decision-memo |
-| [R8 Assumption audit](docs/findings/deck-R8-assumption-audit-2026-09-24.pdf) | strategy-skills-for-claude: assumption-audit |
-| [R9 MBB extract](docs/findings/deck-R9-mbb-extract-2026-09-24.pdf) | management-consultant-B1: SCQA, board communication references |
+- Paid ads already run inside ChatGPT, Google AI Overviews, Microsoft Copilot and Amazon's shopping assistant. OpenAI says its ads make about $1 billion a year. None of the 8 ad products checked publishes a price list.
+- Demand from buyers is thin. Only 8 of the 27 customer segments studied show signs of real spending, and most of those signals are job postings. No buyer has said what they paid.
+- There is no proof of a sales lift. Out of about 2,620 success stories screened, none met the top evidence grade. The positive stories all come from vendors measuring themselves, while 19 stronger sources (company filings and similar) show traffic falling or no effect.
+- Brands that moved mostly rewrote content (63 of 108 cases) and bought new tools (58). Only 2 bought ads.
+- No one has measured the size of this market. Published forecasts disagree by up to 26 times.
 
-Method sources, commits and licences: [brief bake-off README](docs/method/brief-bakeoff/README.md).
+These points come from the [executive brief](docs/findings/executive-brief-2026-09-23-r2.md). The project stops at the evidence and doesn't give a verdict on whether to build or invest.
 
-**Findings, one question each**
+## Read the reports
 
-| File | Answers |
-|---|---|
-| [demand-map](docs/findings/demand-map.md) | Which of 27 segment cells show real demand? |
-| [proof-scorecard](docs/findings/proof-scorecard.md) | What do published success stories actually prove? |
-| [ai-ads-evidence](docs/findings/ai-ads-evidence.md) | Who sells AI-answer ads, at what price, with what result? |
-| [market-potential](docs/findings/market-potential.md) | User counts, forecasts and floors per sub-market |
-| [transition-evidence](docs/findings/transition-evidence.md) | What did brands that moved actually change? |
-| [trigger-timeline](docs/findings/trigger-timeline.md) | Which dated events support a "why now"? |
-| [whitespace](docs/findings/whitespace.md) | Where does the evidence show nothing at all? |
-| [frontier-scan](docs/findings/frontier-scan.md) | What capabilities in the literature could be abused or monetised? |
-| [geo-aeo-roles](docs/findings/geo-aeo-roles.md) | What GEO/AEO jobs exist, what they pay |
-| [unknowns](docs/findings/unknowns.md) | Hypotheses scored; what is still unknown |
+Start with the [executive brief](docs/findings/executive-brief-2026-09-23-r2.md), which is two pages. The [director brief](docs/findings/director-brief-2026-09-23-r2.md) is the long version, also available as [PowerPoint](docs/findings/director-brief-2026-09-23-r2.pptx).
 
-**Supporting files.** Markets: [organic](docs/markets/organic-recommendation.md) · [paid](docs/markets/paid-placement.md) · [agentic](docs/markets/agentic-commerce.md). Competitors: [INDEX](docs/competitors/INDEX.md) (43 profiles). Customers: [skincare](docs/customers/skincare-beauty.md) · [B2B SaaS](docs/customers/b2b-saas.md) · [high-CPA regulated](docs/customers/high-cpa-regulated.md) · [local](docs/customers/local-multi-location.md).
+### Slide decks (PDF)
 
-## The question
+The same set of facts was written up 11 times, each by an agent following a different report-writing method. It was a test of which method gives the clearest report. The decks aren't ranked; open any of them.
 
-The owner asked one thing: "Let's dig into AI ads." AI assistants now decide which product a user hears about. Three markets grew around that: organic recommendation (GEO/AEO), paid placement inside answers, and agentic checkout. The market is about two years old, loud with vendor claims, and has no audited numbers. The job was to separate what is proven from what is claimed, without interviews or ad spend.
+- [R0 Baseline](docs/findings/deck-R0-baseline-2026-09-24.pdf), the owner's own template
+- [R0b Baseline repeat](docs/findings/deck-R0b-baseline-repeat-2026-09-24.pdf), same template run again to see how much results vary
+- [R1 Pyramid Principle](docs/findings/deck-R1-pyramid-principle-2026-09-24.pdf)
+- [R2 Minto Pyramid](docs/findings/deck-R2-minto-pyramid-2026-09-24.pdf)
+- [R3 Strategy communicator](docs/findings/deck-R3-strategy-communicator-2026-09-24.pdf)
+- [R4 Structure and synthesize](docs/findings/deck-R4-structure-synthesize-2026-09-24.pdf)
+- [R5 Knowledge synthesis](docs/findings/deck-R5-knowledge-synthesis-2026-09-24.pdf)
+- [R6 Deliverable creation](docs/findings/deck-R6-deliverable-creation-2026-09-24.pdf)
+- [R7 Decision memo](docs/findings/deck-R7-decision-memo-2026-09-24.pdf)
+- [R8 Assumption audit](docs/findings/deck-R8-assumption-audit-2026-09-24.pdf)
+- [R9 Consulting-firm style](docs/findings/deck-R9-mbb-extract-2026-09-24.pdf)
 
-## How it worked
+Where each method came from, and its licence, is in the [bake-off notes](docs/method/brief-bakeoff/README.md).
 
-```
-sources/  →  raw/  →  markets/ competitors/ customers/  →  findings/  →  briefs, decks
- what to     verbatim,        compiled per topic            cross-market     for readers
- pull        dated, graded
-```
+### Detailed findings
 
-- Every source graded tier 1 (strongest) to 7 ([trust rubric](docs/method/trust-rubric.md)).
-- 32 hypotheses pre-registered, each with the evidence that would kill it ([hypotheses](docs/method/hypotheses.md)).
-- Up to 7 subagents pulled in parallel; the main thread verified and committed ([run log](docs/method/STATE.md)).
-- Nothing from memory. Missing data reads `unknown — checked <channel> <date>`.
+- [Demand map](docs/findings/demand-map.md): which customer segments show real demand
+- [Proof scorecard](docs/findings/proof-scorecard.md): what the published success stories actually prove
+- [AI ads evidence](docs/findings/ai-ads-evidence.md): who sells ads inside AI answers, and at what price
+- [Market potential](docs/findings/market-potential.md): user numbers and forecasts
+- [Transition evidence](docs/findings/transition-evidence.md): what brands that moved actually changed
+- [Trigger timeline](docs/findings/trigger-timeline.md): the dated events behind "why now"
+- [Whitespace](docs/findings/whitespace.md): where the evidence is empty
+- [Frontier scan](docs/findings/frontier-scan.md): what academic papers say could steer AI answers
+- [GEO/AEO roles](docs/findings/geo-aeo-roles.md): the new jobs in this field and what they pay
+- [Unknowns](docs/findings/unknowns.md): which starting assumptions held up, and what is still unknown
 
-## Key findings (as of 2026-09, from the [executive brief](docs/findings/executive-brief-2026-09-23-r2.md))
+Background files cover the three markets ([organic](docs/markets/organic-recommendation.md), [paid](docs/markets/paid-placement.md), [agentic checkout](docs/markets/agentic-commerce.md)), the [competitors](docs/competitors/INDEX.md), and four customer groups ([skincare](docs/customers/skincare-beauty.md), [B2B software](docs/customers/b2b-saas.md), [finance and insurance](docs/customers/high-cpa-regulated.md), [local businesses](docs/customers/local-multi-location.md)).
 
-- **Demand is thin and early.** 8 of 27 segment cells show a spend signal, mostly enterprise organic, nearly all from job postings. No buyer discloses a price paid.
-- **Paid AI ads are live** on ChatGPT, Google AI Overviews, Copilot and Amazon Rufus. OpenAI states a "$1 billion" run rate (company-stated). 0 of 8 ad products publish a rate card.
-- **No proof of sales lift.** 0 Gold cases out of ~2,620 screened. All 7 positive Silvers are tier 5 (vendor-reported). 19 documents at tier ≤3 show declines or null effects.
-- **Brands that moved changed content and tooling, not media.** Of 108 cases: content 63, tooling 58, paid media 2.
-- **No sub-market has a measured size.** Forecasts disagree by 1.92× (organic) to 26.3× (agentic).
+## How the orchestration worked
 
-## Scale and cost
-
-| Measure | Value |
-|---|---|
-| Raw sources | 1,045 pulls + 83 images; 3,399 URLs, 516 domains |
-| Screened | ~2,620 success-story items; 252 papers (38 kept) |
-| Compiled | 43 competitor profiles; 26 of 32 hypotheses scored |
-| Agent work | 112 subagent transcripts; 90 operator prompts; 264+ commits |
-| Cost | $576.84 API list-price equivalent (ccusage) |
-
-Cost covers this repo's sessions, 24 of 28 matched, 2026-09-22 → 2026-09-29: Fable 5.1 $312.39, Opus 5.5 $220.26, Sonnet 5 $37.78, others $6.42. Tokens: 931.0M cache read, 33.0M cache write, 2.96M output, 55K input. It ran on a subscription; this is not an invoice.
-
-## Repo layout
+One main Claude session acted as project manager. It kept a plan and a run log ([STATE.md](docs/method/STATE.md)), handed out tasks, and ran up to 7 helper agents at once. Each helper took one slice of the web, such as vendor pricing pages, company filings or academic papers. It saved every page word for word with its URL and date, then reported back. The main session checked the work before committing it to git.
 
 ```
-MegaPlan.md, CLAUDE.md   charter; rules every agent follows
-docs/
-  method/       scope, plan, trust rubric, templates, run log
-  sources/      channels and shortlist
-  raw/          verbatim pulls, one per source, dated
-  markets/      sizing per sub-market
-  competitors/  43 profiles + INDEX.md
-  customers/    demand per vertical
-  findings/     briefs, findings, decks
+pick sources  →  save pages as-is  →  compile by topic  →  findings  →  briefs and decks
+ docs/sources     docs/raw             markets, competitors,  docs/findings
+                                       customers
 ```
 
-## Caveats
+A few rules kept the agents honest:
 
-- Desk research only: no interviews, no ad spend, no own measurement panel.
-- Only 44% of key claims rest on tier 3 or better, against an 80% target.
-- Survivorship bias: published cases are winners; self-reported numbers are unaudited.
-- Blocked channels (live Reddit, Indeed, Gartner, Forrester, Crunchbase Pro) leave cells `unknown` ([list](docs/method/blocked-channels.md)).
-- Time-bound: everything is as of 2026-09.
-- Mixed models: Fable, then Opus/Sonnet after a rate limit on 2026-09-23.
-- `docs/raw/` holds third-party text under its original copyright, kept for research citation.
+- Every source gets a trust grade from 1 (strongest, such as a regulatory filing) to 7 ([rubric](docs/method/trust-rubric.md)).
+- The agents wrote down 32 guesses before collecting any data, each with the evidence that would disprove it ([hypotheses](docs/method/hypotheses.md)).
+- Agents may not write anything from memory. A gap is written as "unknown", along with where they looked.
+- When two sources disagree, both numbers stay side by side. Nothing is averaged.
+
+## What it cost
+
+At API list prices the project would have cost about $577, measured with `ccusage` over this repo's sessions from 2026-09-22 to 2026-09-29. It actually ran on a Claude subscription, so this is an estimate rather than a bill. Most of the volume (931 million tokens) is agents re-reading their instructions and sources. The agents wrote about 3 million tokens of output. The project used 112 helper-agent runs and 90 prompts from the owner.
+
+## Limits
+
+- It is desk research only: no interviews and no money spent on ads. A plan to test AI answers ourselves was dropped after the first day.
+- Only 44% of the key claims rest on strong sources, against a target of 80%.
+- Published success stories skew toward winners, and none of the self-reported numbers has been audited.
+- Some sources could not be reached (live Reddit, Indeed, Gartner, Forrester, Crunchbase Pro). The [blocked list](docs/method/blocked-channels.md) records each one.
+- Everything is as of September 2026.
+- The agents switched from the Fable model to Opus and Sonnet partway through, after hitting a usage limit on 2026-09-23.
+- `docs/raw/` holds copies of third-party pages under their original copyright, kept so every claim can be checked.
