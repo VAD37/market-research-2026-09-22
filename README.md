@@ -4,7 +4,7 @@ This repo is an experiment in AI orchestration: a team of Claude Code agents doi
 
 The brief was one line: "Let's dig into AI ads." Can a brand pay, or work, its way into the answers ChatGPT, Gemini, Claude or Copilot give? Does anyone buy that today, and does it pay back?
 
-Over three days (2026-09-22 to 2026-09-24) the agents searched the web and saved 1,045 sources from 516 websites. They graded each source for trust and turned the pile into market files, 43 competitor profiles, findings, briefs and 11 slide decks. Every number in the reports links back to the saved source it came from.
+Over three days (2026-09-22 to 2026-09-24) the agents searched the web and saved 1,045 sources from 516 websites. They graded each source for trust and turned the pile into market files, 43 competitor profiles, findings, briefs and a set of PDF reports. Every number in the reports links back to the saved source it came from.
 
 ## What the agents found
 
@@ -22,21 +22,21 @@ These points come from the [executive brief](docs/findings/executive-brief-2026-
 
 Start with the [executive brief](docs/findings/executive-brief-2026-09-23-r2.md), which is two pages. The [director brief](docs/findings/director-brief-2026-09-23-r2.md) is the long version, also available as [PowerPoint](docs/findings/director-brief-2026-09-23-r2.pptx).
 
-### Slide decks (PDF)
+### PDF reports (click to download)
 
-The same set of facts was written up 11 times, each by an agent following a different report-writing method. It was a test of which method gives the clearest report. The decks aren't ranked; open any of them.
+The project outputs 11 PDF reports: the same findings written up with 10 different report-writing methods, plus one repeat run of the baseline. Each link downloads the PDF.
 
-- [R0 Baseline](docs/findings/deck-R0-baseline-2026-09-24.pdf), the owner's own template
-- [R0b Baseline repeat](docs/findings/deck-R0b-baseline-repeat-2026-09-24.pdf), same template run again to see how much results vary
-- [R1 Pyramid Principle](docs/findings/deck-R1-pyramid-principle-2026-09-24.pdf)
-- [R2 Minto Pyramid](docs/findings/deck-R2-minto-pyramid-2026-09-24.pdf)
-- [R3 Strategy communicator](docs/findings/deck-R3-strategy-communicator-2026-09-24.pdf)
-- [R4 Structure and synthesize](docs/findings/deck-R4-structure-synthesize-2026-09-24.pdf)
-- [R5 Knowledge synthesis](docs/findings/deck-R5-knowledge-synthesis-2026-09-24.pdf)
-- [R6 Deliverable creation](docs/findings/deck-R6-deliverable-creation-2026-09-24.pdf)
-- [R7 Decision memo](docs/findings/deck-R7-decision-memo-2026-09-24.pdf)
-- [R8 Assumption audit](docs/findings/deck-R8-assumption-audit-2026-09-24.pdf)
-- [R9 Consulting-firm style](docs/findings/deck-R9-mbb-extract-2026-09-24.pdf)
+- [R0 Baseline](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R0-baseline-2026-09-24.pdf), the owner's own template
+- [R0b Baseline repeat](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R0b-baseline-repeat-2026-09-24.pdf), same template run again to see how much results vary
+- [R1 Pyramid Principle](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R1-pyramid-principle-2026-09-24.pdf)
+- [R2 Minto Pyramid](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R2-minto-pyramid-2026-09-24.pdf)
+- [R3 Strategy communicator](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R3-strategy-communicator-2026-09-24.pdf)
+- [R4 Structure and synthesize](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R4-structure-synthesize-2026-09-24.pdf)
+- [R5 Knowledge synthesis](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R5-knowledge-synthesis-2026-09-24.pdf)
+- [R6 Deliverable creation](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R6-deliverable-creation-2026-09-24.pdf)
+- [R7 Decision memo](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R7-decision-memo-2026-09-24.pdf)
+- [R8 Assumption audit](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R8-assumption-audit-2026-09-24.pdf)
+- [R9 Consulting-firm style](https://github.com/VAD37/market-research-2026-09-22/raw/master/docs/findings/deck-R9-mbb-extract-2026-09-24.pdf)
 
 Where each method came from, and its licence, is in the [bake-off notes](docs/method/brief-bakeoff/README.md).
 
