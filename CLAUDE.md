@@ -16,7 +16,7 @@ Sibling repos under `D:\researchs\` (`startup/`, `hobby/`) run the same conventi
 
 ## Hierarchy
 
-Research lives under `docs/`. The repo root holds this file, `MegaPlan.md`, and any generated tracker (a CSV plus its rendered markdown) once one exists. `projects/` is dormant.
+Research lives under `docs/`. The repo root holds this file, `MegaPlan.md`, `prompt-archive/`, and any generated tracker (a CSV plus its rendered markdown) once one exists. `projects/` is dormant.
 
 ```
 CLAUDE.md          this file — global rules, and the hierarchy
@@ -30,6 +30,7 @@ docs/
   competitors/     one profile per company, plus INDEX.md
   customers/       demand side — segments, signal matrix per cell
   findings/        compiled tables, rankings, cross-market reads
+prompt-archive/    operator prompts from every Claude Code session, verbatim; own README + generator. Process record, not evidence
 projects/
   ORCHESTRATION.md agent spawning rules: cap, models, split rule — still in force
   CLAUDE.md, MVP-MANDATE.md   execution layer, dormant. No project opens here

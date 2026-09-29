@@ -2,9 +2,10 @@
 
 This repo is an experiment in AI orchestration: a team of Claude Code agents doing a full desk-research project with only light steering from one person.
 
-The brief was one line: "Let's dig into AI ads." Can a brand pay, or work, its way into the answers ChatGPT, Gemini, Claude or Copilot give? Does anyone buy that today, and does it pay back?
+The brief was one line: `"Dig in. Help companies get seen by AI. as service:what will do, how? any competitor"`
 
-Over three days (2026-09-22 to 2026-09-24) the agents searched the web and saved 1,045 sources from 516 websites. They graded each source for trust and turned the pile into market files, 43 competitor profiles, findings, briefs and a set of PDF reports. Every number in the reports links back to the saved source it came from.
+Over three days (2026-09-22 to 2026-09-24) the agents searched the web and saved 1,045 sources from 516 websites. 
+They graded each source for trust and turned the pile into meaningful finding -> PDF reports. 
 
 ## What the agents found
 
